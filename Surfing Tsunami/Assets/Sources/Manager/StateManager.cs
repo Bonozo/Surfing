@@ -159,6 +159,7 @@ public class StateManager : MonoBehaviour {
 	void RemoveSpawnedObjects()
 	{
 		foreach(Transform t in LevelInfo.Environments.transformObstacles) Destroy(t.gameObject);
+		foreach(Transform t in LevelInfo.Environments.transformCrests) Destroy(t.gameObject);
 	}
 	
 	public void StartNewGame()

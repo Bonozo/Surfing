@@ -140,14 +140,30 @@ public class Surfer : MonoBehaviour {
 		Reset();
 	}	
 	
+	IEnumerator SaveScreenShot()
+	{
+		Debug.Log("start");
+		yield return new WaitForSeconds(2f);
+		Application.CaptureScreenshot("D:\\1.png");
+		yield return new WaitForSeconds(0.5f);
+		Application.CaptureScreenshot("D:\\2.png");
+		yield return new WaitForSeconds(0.5f);
+		Application.CaptureScreenshot("D:\\3.png");
+		yield return new WaitForSeconds(0.5f);
+		Application.CaptureScreenshot("D:\\4.png");
+	}
+	
 	#endregion
 	
 	#region Update
 	
 	void Update()
-	{
-		if(Input.GetKeyUp(KeyCode.J) )
-			Jump();
+	{		
+		if(Input.GetKeyUp(KeyCode.J))
+		{
+			Debug.Log("J pressed");
+			StartCoroutine(SaveScreenShot());
+		}
 		
 		if(LevelInfo.State.state != GameState.Play ) return;
 		

@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour {
 	
 	public Transform transformSurfer;
 	public Transform transformObstacles;
+	public Transform transformCrests;
 	
 	#endregion
 	
