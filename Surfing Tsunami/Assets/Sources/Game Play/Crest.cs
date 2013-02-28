@@ -8,7 +8,7 @@ public class Crest : MonoBehaviour {
 	
 	void Start()
 	{
-		transform.position = new Vector3(Random.Range(0f,LevelInfo.Camera.Width),-20f,145f);
+		transform.position = new Vector3(Random.Range(0f,LevelInfo.Camera.Width),-20f,LevelInfo.Environments.depthCrest);
 		transform.parent = LevelInfo.Environments.transformCrests;
 	}
 	

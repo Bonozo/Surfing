@@ -15,8 +15,9 @@ public class GameManager : MonoBehaviour {
 	
 	#region Depth Information
 	
-	public float depthSurfer=100f;
+	public float depthSurfer=97;
 	public float depthObstacle=99;
+	public float depthCrest=99.5f;
 	public float depthWindArrow=75;
 	
 	#endregion
