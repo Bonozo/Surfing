@@ -88,7 +88,7 @@ public class StateManager : MonoBehaviour {
 				LevelInfo.Environments.transformHUB.gameObject.SetActive(false);
 				LevelInfo.Environments.transformScoreboard.gameObject.SetActive(false);
 				LevelInfo.Environments.transformOptions.gameObject.SetActive(false);
-				//LevelInfo.Environments.transformStore.gameObject.SetActive(false);
+				LevelInfo.Environments.transformStore.gameObject.SetActive(false);
 				
 				break;
 			case GameState.Play:
@@ -138,7 +138,7 @@ public class StateManager : MonoBehaviour {
 				LevelInfo.Environments.transformHUB.gameObject.SetActive(false);
 				LevelInfo.Environments.transformScoreboard.gameObject.SetActive(false);
 				LevelInfo.Environments.transformOptions.gameObject.SetActive(false);
-				//LevelInfo.Environments.transformStore.gameObject.SetActive(true);
+				LevelInfo.Environments.transformStore.gameObject.SetActive(true);
 				break;
 			}
 			
@@ -151,7 +151,7 @@ public class StateManager : MonoBehaviour {
 				RemoveSpawnedObjects();
 			}
 			
-			Store.Instance.ShowStore = state == GameState.Store;
+			//Store.Instance.ShowStore = state == GameState.Store;
 			Time.timeScale = state==GameState.Paused?0.0f:1.0f;
 		}
 	}

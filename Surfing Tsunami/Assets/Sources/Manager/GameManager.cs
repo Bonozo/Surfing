@@ -37,6 +37,8 @@ public class GameManager : MonoBehaviour {
 	public Transform transformObstacles;
 	public Transform transformCrests;
 	
+	public GameObject powerupMessage;
+	
 	#endregion
 	
 	#region Classes

@@ -140,19 +140,6 @@ public class Surfer : MonoBehaviour {
 		Reset();
 	}	
 	
-	IEnumerator SaveScreenShot()
-	{
-		Debug.Log("start");
-		yield return new WaitForSeconds(2f);
-		Application.CaptureScreenshot("D:\\1.png");
-		yield return new WaitForSeconds(0.5f);
-		Application.CaptureScreenshot("D:\\2.png");
-		yield return new WaitForSeconds(0.5f);
-		Application.CaptureScreenshot("D:\\3.png");
-		yield return new WaitForSeconds(0.5f);
-		Application.CaptureScreenshot("D:\\4.png");
-	}
-	
 	#endregion
 	
 	#region Update
@@ -161,13 +148,13 @@ public class Surfer : MonoBehaviour {
 	{		
 		if(Input.GetKeyUp(KeyCode.J))
 		{
-			Debug.Log("J pressed");
-			StartCoroutine(SaveScreenShot());
+			StartCoroutine(StartInvincibilityPowerup());
 		}
 		
 		if(LevelInfo.State.state != GameState.Play ) return;
 		
 		FlashUpdates();
+		PowerupMessageUpdates();
 		UpdateDistanceTravelled();
 		AccelerationMove();
 
@@ -181,7 +168,7 @@ public class Surfer : MonoBehaviour {
 	private Vector3 lastPosition;
 	void UpdateDistanceTravelled()
 	{
-		distanceTravelled += 0.1f*Vector3.Distance(lastPosition,transform.position);
+		distanceTravelled += 0.01f*Vector3.Distance(lastPosition,transform.position);
 		lastPosition = transform.position;
 	}
 	
@@ -234,6 +221,7 @@ public class Surfer : MonoBehaviour {
 				lives = 3;
 				break;
 			case Powerups.Invincibility:
+				ShowPowerupMessage(1.0f);
 				StartCoroutine(StartInvincibilityPowerup());
 				break;
 			}
@@ -253,6 +241,7 @@ public class Surfer : MonoBehaviour {
 		coins = 0;
 		lives = 3;
 		invincibility = 0;
+		invincibilityDrinking = 0;
 		
 		ClearFlash();
 		waterSpray.Clear();
@@ -262,23 +251,23 @@ public class Surfer : MonoBehaviour {
 		lastPosition = transform.position;
 		rigidbody.velocity = Vector3.zero;
 		
+		surferSprite.color = Color.white;
 		PlayAnimation("down");
 	}
 	
 	
 	public void WipeOut()
 	{
-		LevelInfo.Audio.PauseLoop();
-		LevelInfo.Audio.audioPlayer.PlayOneShot(LevelInfo.Audio.clipWipeOut);
-		
-		waterSpray.enableEmission = false;
-		
-		PlayAnimation("wipeout");
 		StartCoroutine(WipeOutThread());
 	}
 	
 	private IEnumerator WipeOutThread()
-	{
+	{	
+		LevelInfo.Audio.PauseLoop();
+		LevelInfo.Audio.audioPlayer.PlayOneShot(LevelInfo.Audio.clipWipeOut);
+		
+		waterSpray.enableEmission = false;
+		PlayAnimation("wipeout");
 		yield return new WaitForSeconds(3f);
 		LevelInfo.State.state = GameState.Scoreboard;
 	}
@@ -302,24 +291,49 @@ public class Surfer : MonoBehaviour {
 		jump=false;
 		PlayCurrentAnimation();
 	}
-
+	
+	float invincibilityTime = 0f;
+	int invincibilityDrinking = 0;
 	private IEnumerator StartInvincibilityPowerup()
 	{
 		invincibility++;
-		PlayAnimation("EDS");
-		float invincibilityTime = 15f;
+		
+		LevelInfo.Audio.audioPlayer.PlayOneShot(LevelInfo.Audio.clipPowerupInvincibility);	
+		
+		invincibilityDrinking++;
+		PlayAnimation("ED");
+		yield return new WaitForSeconds(3.5f);
+		invincibilityDrinking--;
+		if(invincibilityDrinking==0)
+			PlayAnimation("EDS");
+		invincibilityTime = 6.5f;
 		while(invincibilityTime>=0f)
 		{
 			invincibilityTime -= Time.deltaTime;
 			yield return null;
-		}
+		}		
 		invincibility--;
 		if(invincibility==0) PlayCurrentAnimation();
-		
 	}
 	
 	#endregion
-		
+	
+	#region PowerupMessage
+	
+	float powerupMessageTime = 0.0f;
+	void PowerupMessageUpdates()
+	{
+		if(powerupMessageTime>0f) powerupMessageTime=Mathf.Clamp(powerupMessageTime-Time.deltaTime,0f,float.PositiveInfinity);
+		LevelInfo.Environments.powerupMessage.SetActive(powerupMessageTime>0f);
+	}
+	
+	void ShowPowerupMessage(float time)
+	{
+		powerupMessageTime = time;
+	}
+	
+	#endregion
+	
 	#region Flush
 
 	float flash = 0.0f;
@@ -352,10 +366,9 @@ public class Surfer : MonoBehaviour {
 	
 	private void PlayCurrentAnimation()
 	{
-		if(jump) return;
-		if(invincibility>0)
-			PlayAnimation("EDS");
-		else if(upvelocity)
+		if(jump || invincibility>0 ) return;
+
+		if(upvelocity)
 			PlayAnimation("up");
 		else
 			PlayAnimation("down");
@@ -367,6 +380,23 @@ public class Surfer : MonoBehaviour {
 		board.Play("board1_" + animName);	
 	}
 	
+	
+	#endregion
+	
+	#region Editor + Tests
+	
+	IEnumerator SaveScreenShot()
+	{
+		Debug.Log("start");
+		yield return new WaitForSeconds(2f);
+		Application.CaptureScreenshot("D:\\1.png");
+		yield return new WaitForSeconds(0.5f);
+		Application.CaptureScreenshot("D:\\2.png");
+		yield return new WaitForSeconds(0.5f);
+		Application.CaptureScreenshot("D:\\3.png");
+		yield return new WaitForSeconds(0.5f);
+		Application.CaptureScreenshot("D:\\4.png");
+	}
 	
 	#endregion
 }
