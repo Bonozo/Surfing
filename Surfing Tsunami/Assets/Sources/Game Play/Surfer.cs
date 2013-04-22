@@ -87,7 +87,7 @@ public class Surfer : MonoBehaviour {
 	
 	void AccelerationMove()
 	{
-		if( LevelInfo.State.state == GameState.Play && Option.tiltMove)
+		/*if( LevelInfo.State.state == GameState.Play && Option.tiltMove)
 		{
 			// get device acceleration
 			Vector3 dir = Vector3.zero;
@@ -106,6 +106,16 @@ public class Surfer : MonoBehaviour {
 				rigidbody.AddForce(Vector3.right*dir.x);
 				upvelocity = rigidbody.velocity.y>0;
 			}
+		}*/
+		if( LevelInfo.State.state == GameState.Play && Option.tiltMove)
+		{
+			var dir = AccelerationWithCalibrate.Acceleration;
+			// update player
+			if(Mathf.Abs(dir.x) >= 0.1f )
+				rigidbody.AddForce(Vector3.right*dir.x);
+			if(Mathf.Abs(dir.y) >= 0.1f )
+				rigidbody.AddForce(Vector3.up*dir.y);
+			upvelocity = rigidbody.velocity.y>0;
 		}
 	}
 	

@@ -173,6 +173,7 @@
      <Compile Include="Assets\Sources\Game Play\SurferAnimations.cs" />
      <Compile Include="Assets\Sources\Game Play\Title.cs" />
      <Compile Include="Assets\Sources\Game Play\WindArrow.cs" />
+     <Compile Include="Assets\Sources\Manager\AccelerationWithCalibrate.cs" />
      <Compile Include="Assets\Sources\Manager\AudioManager.cs" />
      <Compile Include="Assets\Sources\Manager\CameraManager.cs" />
      <Compile Include="Assets\Sources\Manager\GameManager.cs" />

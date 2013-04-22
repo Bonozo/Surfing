@@ -104,6 +104,10 @@ public class Option : MonoBehaviour {
 			GUI.Label(textRect(2),"Tilt Move");
 			if( GUI.Button(buttonRect(2),tiltMove?"ON":"OFF") )
 				tiltMove = !tiltMove;
+	
+			GUI.Label(textRect(3),"Calibrate Vertical (" + AccelerationWithCalibrate.CurrentCalibrationPositive + ")");
+			if( GUI.Button(buttonRect(3),"Calibrate (" + AccelerationWithCalibrate.DeviceAnglePositive + ")") )
+				AccelerationWithCalibrate.Calibrate();
 			
 			if(showdebug && GUI.Button( new Rect(Screen.width-200,Screen.height-60,80,40),"Debug"))
 			{
