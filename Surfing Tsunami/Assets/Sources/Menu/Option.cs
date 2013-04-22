@@ -4,8 +4,33 @@ using System.Collections;
 public class Option : MonoBehaviour {
 	
 	#region Options
-	public static float volume = 1f;
-	public static bool tiltMove = true;
+	private static float _volume = 1f;
+	public static float volume{
+		get{
+			return _volume;
+		}
+		set{
+			_volume = value;
+			PlayerPrefs.SetFloat("options_volume",_volume);
+			AudioListener.volume = _volume;
+		}
+	}
+	private static bool _tiltMove = true;
+	public static bool tiltMove{
+		get{
+			return _tiltMove;
+		}
+		set{
+			_tiltMove = value;
+			PlayerPrefs.SetInt("options_tilt_move",_tiltMove?1:0);
+		}
+	}
+	
+	public static void RestoreOptions()
+	{
+		volume = PlayerPrefs.GetFloat("options_volume",1f);
+		_tiltMove = PlayerPrefs.GetInt("options_tilt_move",1)==1;
+	}
 
 	#endregion
 	
@@ -50,14 +75,6 @@ public class Option : MonoBehaviour {
 		LevelInfo.State.state = GameState.Title;
 	}
 	
-
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		AudioListener.volume = volume;
-	}
-
 	private Rect textRect(float index)
 	{
 		index++;

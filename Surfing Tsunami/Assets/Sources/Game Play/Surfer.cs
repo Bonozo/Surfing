@@ -143,6 +143,8 @@ public class Surfer : MonoBehaviour {
 	void Awake()
 	{
 		surferSprite = GetComponent<tk2dAnimatedSprite>();
+		
+		Option.RestoreOptions();
 	}
 	
 	void Start()
