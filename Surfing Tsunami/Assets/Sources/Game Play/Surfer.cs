@@ -87,9 +87,9 @@ public class Surfer : MonoBehaviour {
 	
 	void AccelerationMove()
 	{
-		if( LevelInfo.State.state == GameState.Play )
+		if( LevelInfo.State.state == GameState.Play && Option.tiltMove)
 		{
-			// standard procedure
+			// get device acceleration
 			Vector3 dir = Vector3.zero;
 			dir.x = -Input.acceleration.y;
 			dir.z = Input.acceleration.x;
@@ -100,7 +100,7 @@ public class Surfer : MonoBehaviour {
 			dir.x = dir.z;
 			dir.z = 0;
 			
-			//update player
+			// update player
 			if(Mathf.Abs(dir.x) >= 0.1f )
 			{
 				rigidbody.AddForce(Vector3.right*dir.x);
