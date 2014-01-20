@@ -39,13 +39,12 @@ public class Option : MonoBehaviour {
 	public static bool UnlimitedHealth = false;
 	public static bool AnimTest = false;
 	#endregion
-	
-	public string version;
+
 	public tk2dButton buttonExit;
 	public tk2dTextMesh title;
 	public GameObject guiFPS;
 	private bool debug=false;
-	private bool showdebug=false;
+	public bool showdebug=false;
 	
 	// Use this for initialization
 	void OnEnable ()
@@ -54,7 +53,7 @@ public class Option : MonoBehaviour {
 		FingerGestures.OnSwipe += HandleFingerGesturesOnSwipe;
 		
 		debug = false;
-		showdebug = false;
+		//showdebug = false;
 	}
 	
 	void OnDisable()
@@ -129,7 +128,7 @@ public class Option : MonoBehaviour {
 			if(showdebug && GUI.Button( new Rect(Screen.width-200,Screen.height-60,80,40),"Debug"))
 			{
 				debug = true;
-				title.text = "DEBUG (" + version + ")";
+				title.text = "DEBUG";
 				title.Commit();
 			}
 		}
