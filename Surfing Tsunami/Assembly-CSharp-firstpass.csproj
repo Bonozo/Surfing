@@ -144,7 +144,7 @@
      <None Include="Assets\Plugins\Android\res\layout\gree_subnavi_item.xml" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
      <None Include="Assets\Plugins\Android\res\drawable\gree_btn_navibar_txtbtn_right_emboss_bg_highlight.xml" />
-     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\_AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\res\drawable\gree_tabbutton_right.xml" />
      <None Include="Assets\Plugins\Android\res\layout-land\gree_popup_dialog_layout.xml" />
      <None Include="Assets\Plugins\Android\res\anim\gree_dialog_bottom_exit.xml" />
