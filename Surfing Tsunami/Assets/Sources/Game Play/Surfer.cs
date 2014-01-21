@@ -198,7 +198,6 @@ public class Surfer : MonoBehaviour {
 		var pos = transform.position;
 		pos.x = Mathf.Clamp(pos.x,w,xbound-w);
 		pos.y = Mathf.Clamp(pos.y,h,ybound-h);
-		Debug.Log (Screen.width + "," + Screen.height + "----" +(int)pos.x + "," + (int)pos.y);
 		transform.position = pos;
 	}
 	

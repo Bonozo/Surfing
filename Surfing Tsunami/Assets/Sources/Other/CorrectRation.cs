@@ -5,7 +5,6 @@ public class CorrectRation : MonoBehaviour {
 	
 	void Awake () 
 	{
-		Debug.Log (LevelInfo.Camera.Width + "," + LevelInfo.Camera.Height);
 		float asp1 = (float)LevelInfo.Camera.Width / (float)LevelInfo.Camera.Height;
 		float asp2 = (float)Screen.width / (float)Screen.height;
 

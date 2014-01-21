@@ -130,19 +130,21 @@ public class SpawnedItem : MonoBehaviour {
 		// Face to Player
 		if(FaceToPlayer)
 		{
+
+
 			if(ReversedTexture)
 			{
 				if(!scaleOrigin && transform.position.x - bound.center.x + 2f  < LevelInfo.Environments.surfer.Position.x )
 				{
 					scaleOrigin = !false;
 					transform.Translate(-bound.size.x,0f,0f,Space.World);
-					transform.Rotate(0f,-180f,0f,Space.World);
+					//transform.Rotate(0f,-180f,0f,Space.World);
 				}
 				else if(scaleOrigin && transform.position.x + bound.center.x -2f > LevelInfo.Environments.surfer.Position.x )
 				{
 					scaleOrigin = !true;
 					transform.Translate(bound.size.x,0f,0f,Space.World);
-					transform.Rotate(0f,180f,0f,Space.World);
+					//transform.Rotate(0f,180f,0f,Space.World);
 				}			
 			}
 			else
@@ -151,15 +153,19 @@ public class SpawnedItem : MonoBehaviour {
 				{
 					scaleOrigin = false;
 					transform.Translate(bound.size.x,0f,0f,Space.World);
-					transform.Rotate(0f,180f,0f,Space.World);
+					//transform.Rotate(0f,180f,0f,Space.World);
 				}
 				else if(!scaleOrigin && transform.position.x - bound.center.x -2f > LevelInfo.Environments.surfer.Position.x )
 				{
 					scaleOrigin = true;
 					transform.Translate(-bound.size.x,0f,0f,Space.World);
-					transform.Rotate(0f,-180f,0f,Space.World);
+					//transform.Rotate(0f,-180f,0f,Space.World);
 				}
 			}
+
+			var rot = transform.rotation.eulerAngles;
+			rot.y = scaleOrigin?0f:180f;
+			transform.rotation = Quaternion.Euler(rot);
 		}
 		
 		lifeTime = Mathf.Clamp(lifeTime-Time.deltaTime,0f,float.PositiveInfinity);
