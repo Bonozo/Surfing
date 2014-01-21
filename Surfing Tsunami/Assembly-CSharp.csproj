@@ -183,6 +183,7 @@
      <Compile Include="Assets\Sources\Manager\StateManager.cs" />
      <Compile Include="Assets\Sources\Menu\Credits.cs" />
      <Compile Include="Assets\Sources\Menu\Option.cs" />
+     <Compile Include="Assets\Sources\Other\CorrectRation.cs" />
      <Compile Include="Assets\Sources\Other\FPS.cs" />
      <Compile Include="Assets\Sources\Store\Store.cs" />
      <Compile Include="Assets\Sources\Store\StoreBuyButton.cs" />

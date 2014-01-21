@@ -188,10 +188,17 @@ public class Surfer : MonoBehaviour {
 	{
 		float w = surferSprite.GetBounds().size.x*0.5f;
 		float h = surferSprite.GetBounds().size.y*0.5f;
-		
+
+		float yasp = (float)LevelInfo.Camera.Width * (float)Screen.height 
+			/ (float)Screen.width / (float)LevelInfo.Camera.Height;
+
+		float xbound = LevelInfo.Camera.Width;
+		float ybound = LevelInfo.Camera.Height * yasp;
+
 		var pos = transform.position;
-		pos.x = Mathf.Clamp(pos.x,w,LevelInfo.Camera.Width-w);
-		pos.y = Mathf.Clamp(pos.y,h,LevelInfo.Camera.Height-h);
+		pos.x = Mathf.Clamp(pos.x,w,xbound-w);
+		pos.y = Mathf.Clamp(pos.y,h,ybound-h);
+		Debug.Log (Screen.width + "," + Screen.height + "----" +(int)pos.x + "," + (int)pos.y);
 		transform.position = pos;
 	}
 	
