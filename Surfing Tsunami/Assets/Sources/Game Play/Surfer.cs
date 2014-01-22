@@ -224,6 +224,7 @@ public class Surfer : MonoBehaviour {
 				if(lives>0)
 				{
 					StartFlash();
+					StartCoroutine(MakeInvincibilityAfterBump());
 				}
 				else
 					LevelInfo.State.state = GameState.WipeOut;
@@ -333,7 +334,14 @@ public class Surfer : MonoBehaviour {
 		invincibility--;
 		if(invincibility==0) PlayCurrentAnimation();
 	}
-	
+
+	private IEnumerator MakeInvincibilityAfterBump()
+	{
+		invincibility++;
+		yield return new WaitForSeconds(1.5f);
+		invincibility--;
+		if(invincibility==0) PlayCurrentAnimation();
+	}	
 	#endregion
 	
 	#region PowerupMessage
