@@ -10,7 +10,7 @@ public class Generator : MonoBehaviour {
 	public GameObject[] crests;
 	public float spawnIntervalCoin = 3f;
 	public float spawnIntervalObstacle = 5.4f;
-	public float spawnIntervalPowerup = 7.4f;
+	public float spawnIntervalPowerup = 21.487f;
 	public float spawnIntervalCrestMin = 0.5f,spawnIntervalCrestMax=1.5f;
 	// Update is called once per frame
 	void Update () 
@@ -44,7 +44,7 @@ public class Generator : MonoBehaviour {
 		if(spawnintpowerup <= 0f)
 		{
 			SpawnPowerup();
-			spawnintpowerup=spawnIntervalObstacle;
+			spawnintpowerup=spawnIntervalPowerup;
 		}
 	}
 	
