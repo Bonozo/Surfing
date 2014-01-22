@@ -237,6 +237,7 @@ public class Surfer : MonoBehaviour {
 			switch(col.gameObject.GetComponent<Powerup>().powerupType)
 			{
 			case Powerups.FillLives:
+				LevelInfo.Audio.audioPlayer.PlayOneShot(LevelInfo.Audio.clipPowerupHealth);
 				lives = 3;
 				break;
 			case Powerups.Invincibility:

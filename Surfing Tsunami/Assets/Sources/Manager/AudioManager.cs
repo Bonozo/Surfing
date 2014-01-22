@@ -15,6 +15,7 @@ public class AudioManager : MonoBehaviour {
 	public AudioClip clipWipeOut;
 	
 	public AudioClip clipPowerupInvincibility;
+	public AudioClip clipPowerupHealth;
 	
 	public void PlayMenuLoop() { audioLoop.Stop(); audioLoop.clip = clipMenu; audioLoop.Play(); } 
 	public void PlayGameLoop() { audioLoop.Stop(); audioLoop.clip = clipStageMusic; audioLoop.Play(); }
