@@ -395,7 +395,7 @@ public class Surfer : MonoBehaviour {
 	private void PlayAnimation(string animName)
 	{
 		surferSprite.Play("surfer2_" + animName);	
-		board.Play("board1_" + animName);	
+		board.Play("board3_" + animName);	
 	}
 	
 	

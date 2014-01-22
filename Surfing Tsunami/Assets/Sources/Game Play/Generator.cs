@@ -2,7 +2,8 @@ using UnityEngine;
 using System.Collections;
 
 public class Generator : MonoBehaviour {
-	
+
+	public GameObject[] nightVersionObstacles;
 	public GameObject[] obstacles;
 	public GameObject[] coin;
 	public GameObject[] powerups;
@@ -50,7 +51,12 @@ public class Generator : MonoBehaviour {
 	private void SpawnObstacle()
 	{
 		int index = Random.Range(0,obstacles.Length);
-		GameObject c = (GameObject)Instantiate(obstacles[index]);//,RandomSpawnPosition(obstacles[index].GetComponent<SpawnedItem>().Depth),Quaternion.identity);
+		GameObject c;
+
+		if(index<nightVersionObstacles.Length && !LevelInfo.State.day)
+			c = (GameObject)Instantiate(nightVersionObstacles[index]);
+		else
+			c = (GameObject)Instantiate(obstacles[index]);//,RandomSpawnPosition(obstacles[index].GetComponent<SpawnedItem>().Depth),Quaternion.identity);
 		c.transform.parent = LevelInfo.Environments.transformObstacles;
 	}	
 	private void SpawnCoin()

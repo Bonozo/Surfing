@@ -183,9 +183,43 @@ public class StateManager : MonoBehaviour {
 	{
 		WindUpdates();
 	}
+
+	#region DayNight
+
+	public tk2dAnimatedSprite skySprite;
+
+	private bool _day=true;
+	public bool day{
+		get{
+			return _day;
+		}
+		set{
+			if(!daybusy)
+				StartCoroutine(GoDayNight(value));
+		}
+	}
 	
+	bool daybusy=false;
+	IEnumerator GoDayNight(bool day)
+	{
+		daybusy = true;
+
+		if(day) skySprite.Play("Night");
+		else skySprite.Play("Sky");
+
+		//while(skySprite.Playing)yield return null;
+		yield return new WaitForSeconds (1f);
+		var gg = GameObject.FindGameObjectsWithTag ("DayNight");
+		foreach (GameObject g in gg) g.GetComponent<DayNightItem> ().Go (day);
+		_day = day;
+		
+		daybusy = false;
+	}
+
+	#endregion
+
 	#region Wind
-	
+
 	void WindUpdates()
 	{
 		if(state != GameState.Play ) return;
@@ -205,6 +239,7 @@ public class StateManager : MonoBehaviour {
 		if(windtime<0f)
 		{
 			Section++;
+			day = !day;
 			StartWind((WindState)Random.Range(0,5));
 		}
 		
