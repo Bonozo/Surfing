@@ -36,6 +36,7 @@ public class StateManager : MonoBehaviour {
 	public float WindTime = 30f;
 	public float MaxForce = 30f;
 	public float PlayerForce = 100f;
+	public float dayDuration = 41.29f;
 	
 	#endregion
 	
@@ -182,6 +183,12 @@ public class StateManager : MonoBehaviour {
 	void Update()
 	{
 		WindUpdates();
+		DayUpdates ();
+
+		#if UNITY_EDITOR
+		if(Input.GetKeyDown(KeyCode.Space))
+			day = !day;
+		#endif
 	}
 
 	#region DayNight
@@ -204,16 +211,33 @@ public class StateManager : MonoBehaviour {
 	{
 		daybusy = true;
 
-		if(day) skySprite.Play("Night");
-		else skySprite.Play("Sky");
-
+		if(day) 
+		{
+			skySprite.Play("Night");
+			yield return new WaitForSeconds (2f);
+		}
+		else
+		{
+			skySprite.Play("Sky");
+			yield return new WaitForSeconds (2.2f);
+		}
 		//while(skySprite.Playing)yield return null;
-		yield return new WaitForSeconds (1f);
 		var gg = GameObject.FindGameObjectsWithTag ("DayNight");
 		foreach (GameObject g in gg) g.GetComponent<DayNightItem> ().Go (day);
 		_day = day;
 		
 		daybusy = false;
+	}
+
+	float dayTime = 0f;
+	void DayUpdates()
+	{
+		if(state != GameState.Play) return;
+		dayTime += Time.deltaTime;
+		if(dayTime>=dayDuration){
+			day = !day;
+			dayTime = 0f;
+		}
 	}
 
 	#endregion
@@ -223,7 +247,8 @@ public class StateManager : MonoBehaviour {
 	void WindUpdates()
 	{
 		if(state != GameState.Play ) return;
-		
+
+		#if UNITY_EDITOR
 		if( Input.GetKeyUp(KeyCode.L))
 			StartWind(WindState.Left);
 		if( Input.GetKeyUp(KeyCode.R))
@@ -234,12 +259,12 @@ public class StateManager : MonoBehaviour {
 			StartWind(WindState.DownLeft);
 		if( Input.GetKeyUp(KeyCode.N) )
 			StartWind(WindState.DownRight);
-		
+		#endif
+
 		windtime-=Time.deltaTime;
 		if(windtime<0f)
 		{
 			Section++;
-			day = !day;
 			StartWind((WindState)Random.Range(0,5));
 		}
 		
