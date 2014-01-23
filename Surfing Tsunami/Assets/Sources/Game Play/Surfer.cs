@@ -241,7 +241,7 @@ public class Surfer : MonoBehaviour {
 				lives = 3;
 				break;
 			case Powerups.Invincibility:
-				ShowPowerupMessage(1.0f);
+				ShowPowerupMessage(2.0f);
 				StartCoroutine(StartInvincibilityPowerup());
 				break;
 			}
@@ -351,6 +351,7 @@ public class Surfer : MonoBehaviour {
 	void PowerupMessageUpdates()
 	{
 		if(powerupMessageTime>0f) powerupMessageTime=Mathf.Clamp(powerupMessageTime-Time.deltaTime,0f,float.PositiveInfinity);
+		LevelInfo.Environments.powerupMessage.transform.localPosition = transform.localPosition + new Vector3 (52f, 20f, 0f);
 		LevelInfo.Environments.powerupMessage.SetActive(powerupMessageTime>0f);
 	}
 	
