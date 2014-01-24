@@ -165,6 +165,7 @@
      <Compile Include="Assets\Sources\Game Play\Crest.cs" />
      <Compile Include="Assets\Sources\Game Play\DayNightAnimation.cs" />
      <Compile Include="Assets\Sources\Game Play\DayNightItem.cs" />
+     <Compile Include="Assets\Sources\Game Play\FacedParticleFixer.cs" />
      <Compile Include="Assets\Sources\Game Play\Generator.cs" />
      <Compile Include="Assets\Sources\Game Play\HUB.cs" />
      <Compile Include="Assets\Sources\Game Play\Menu.cs" />
