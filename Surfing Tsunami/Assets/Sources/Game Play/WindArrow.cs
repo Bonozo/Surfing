@@ -23,7 +23,23 @@ public class WindArrow : MonoBehaviour {
 		// Object Speed * (1.0 + ([Section #] * 0.1) )
 		LevelInfo.State.MaxForce = 30f*(1.0f+section*0.1f);
 		
-		textSection.text = "SECTION " + section + "\n\nCONDITIONS: " + (10*section) + "%";
+		textSection.text = "SECTION " + section + "\n\nCONDITIONS' " + SectionText(section) + "%";
+	}
+
+	string SectionText(int section)
+	{
+		switch(section)
+		{
+		case 1: return "VERY POOR";
+		case 2: return "POOR";
+		case 3: return 	"POOR TO FAIR";
+		case 4: return "FAIR";
+		case 5: return 	"FAIR TO GOOD";
+		case 6: return "GOOD";
+		case 7: return "VERY GOOD";
+		case 8: return "GOOD TO EPIC";
+		default: return "EPIC";
+		}
 	}
 	
 	public void HideArrow()
