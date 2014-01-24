@@ -55,7 +55,7 @@ public class WindArrow : MonoBehaviour {
 			break;
 		}	
 		
-		var pos = LevelInfo.Camera.Center; pos.z=LevelInfo.Environments.depthWindArrow;
+		var pos = LevelInfo.Camera.Center+new Vector3(0f,-20f,0); pos.z=LevelInfo.Environments.depthWindArrow;
 		sprite.transform.position = pos;
 		sprite.color = col;
 		textSection.color = col;
