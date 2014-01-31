@@ -84,7 +84,7 @@ public class LevelController : MonoBehaviour {
 			Coin_Counter.AddCoins(ddx);
 			labelText.text = "Level " + lvl + " reached\n" +
 				"Bonus " + current + " pt";
-			yield return new WaitForSeconds(0.05f);
+			yield return new WaitForSeconds(yd);
 		}
 
 		yield return new WaitForSeconds (1f);

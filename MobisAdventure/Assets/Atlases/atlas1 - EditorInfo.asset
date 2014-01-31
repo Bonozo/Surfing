@@ -619,13 +619,13 @@ MonoBehaviour:
     trim: 1
     atlasInfo: {fileID: 11400000}
     texture: {fileID: 2800000, guid: fd7714c35f0117b498420ffc5ff4a937, type: 3}
-    coord: 67020000b3060000
+    coord: e8050000c8040000
     trimRect:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 296
-      height: 73
+      width: 256
+      height: 63
     isFontElement: 0
     srcFontInfo: {fileID: 0}
     destFontInfo: {fileID: 0}

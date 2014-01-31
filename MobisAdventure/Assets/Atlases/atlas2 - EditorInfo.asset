@@ -119,7 +119,7 @@ MonoBehaviour:
     trim: 1
     atlasInfo: {fileID: 11400000}
     texture: {fileID: 2800000, guid: c01e19a17e8de4c3f8a38d096ee846fd, type: 3}
-    coord: 3604000045070000
+    coord: bf05000045070000
     trimRect:
       serializedVersion: 2
       x: 135
@@ -219,7 +219,7 @@ MonoBehaviour:
     trim: 1
     atlasInfo: {fileID: 11400000}
     texture: {fileID: 2800000, guid: d95dfa51b8e8ba04981d47bd8e38e154, type: 3}
-    coord: e10100002c040000
+    coord: c6060000ef010000
     trimRect:
       serializedVersion: 2
       x: 473
@@ -294,7 +294,7 @@ MonoBehaviour:
     trim: 1
     atlasInfo: {fileID: 11400000}
     texture: {fileID: 2800000, guid: 388bedb40f6dfc54cb88b043de36c3b2, type: 3}
-    coord: 73060000ef010000
+    coord: 8505000001060000
     trimRect:
       serializedVersion: 2
       x: 136
@@ -394,7 +394,7 @@ MonoBehaviour:
     trim: 1
     atlasInfo: {fileID: 11400000}
     texture: {fileID: 2800000, guid: 4f0926057c030054e9267753f6ed5a94, type: 3}
-    coord: 8505000001060000
+    coord: e1040000ef010000
     trimRect:
       serializedVersion: 2
       x: 67
@@ -494,7 +494,7 @@ MonoBehaviour:
     trim: 1
     atlasInfo: {fileID: 11400000}
     texture: {fileID: 2800000, guid: 4114fc856f302874f8f9e0752690b621, type: 3}
-    coord: be02000045070000
+    coord: 4704000045070000
     trimRect:
       serializedVersion: 2
       x: 135
@@ -519,7 +519,7 @@ MonoBehaviour:
     trim: 1
     atlasInfo: {fileID: 11400000}
     texture: {fileID: 2800000, guid: edebbe1685f192e4da0b3bb67d70d612, type: 3}
-    coord: 9807000031010000
+    coord: 9707000031010000
     trimRect:
       serializedVersion: 2
       x: 539
@@ -544,7 +544,7 @@ MonoBehaviour:
     trim: 1
     atlasInfo: {fileID: 11400000}
     texture: {fileID: 2800000, guid: c969b5787e488344ea5b5d7639c07c97, type: 3}
-    coord: 54050000b9020000
+    coord: 53050000b9020000
     trimRect:
       serializedVersion: 2
       x: 219
@@ -623,9 +623,9 @@ MonoBehaviour:
     trimRect:
       serializedVersion: 2
       x: 547
-      y: 407
-      width: 93
-      height: 103
+      y: 408
+      width: 92
+      height: 102
     isFontElement: 0
     srcFontInfo: {fileID: 0}
     destFontInfo: {fileID: 0}
@@ -647,10 +647,10 @@ MonoBehaviour:
     coord: e1010000b9020000
     trimRect:
       serializedVersion: 2
-      x: 25
-      y: 394
-      width: 882
-      height: 370
+      x: 26
+      y: 395
+      width: 881
+      height: 368
     isFontElement: 0
     srcFontInfo: {fileID: 0}
     destFontInfo: {fileID: 0}
@@ -669,13 +669,13 @@ MonoBehaviour:
     trim: 1
     atlasInfo: {fileID: 11400000}
     texture: {fileID: 2800000, guid: 5d797a7cb3b144d40a5d1b1caa2c4029, type: 3}
-    coord: e2040000ef010000
+    coord: be02000045070000
     trimRect:
       serializedVersion: 2
-      x: 624
-      y: 701
-      width: 400
-      height: 135
+      x: 625
+      y: 702
+      width: 392
+      height: 124
     isFontElement: 0
     srcFontInfo: {fileID: 0}
     destFontInfo: {fileID: 0}
@@ -697,10 +697,10 @@ MonoBehaviour:
     coord: 02030000ef010000
     trimRect:
       serializedVersion: 2
-      x: 91
-      y: 652
-      width: 479
-      height: 170
+      x: 92
+      y: 653
+      width: 478
+      height: 168
     isFontElement: 0
     srcFontInfo: {fileID: 0}
     destFontInfo: {fileID: 0}

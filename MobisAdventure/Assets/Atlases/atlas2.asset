@@ -87,7 +87,7 @@ MonoBehaviour:
       height: 114
     coords:
       serializedVersion: 2
-      x: .526367188
+      x: .718261719
       y: .0356445312
       width: .185058594
       height: .0556640625
@@ -151,8 +151,8 @@ MonoBehaviour:
       height: 93
     coords:
       serializedVersion: 2
-      x: .234863281
-      y: .433105469
+      x: .846679688
+      y: .712890625
       width: .0556640625
       height: .0454101562
     rotated: 0
@@ -199,8 +199,8 @@ MonoBehaviour:
       height: 130
     coords:
       serializedVersion: 2
-      x: .806152344
-      y: .694824219
+      x: .689941406
+      y: .186035156
       width: .165527344
       height: .0634765625
     rotated: 0
@@ -263,8 +263,8 @@ MonoBehaviour:
       height: 132
     coords:
       serializedVersion: 2
-      x: .689941406
-      y: .185058594
+      x: .609863281
+      y: .693847656
       width: .236328125
       height: .064453125
     rotated: 0
@@ -327,7 +327,7 @@ MonoBehaviour:
       height: 124
     coords:
       serializedVersion: 2
-      x: .342773438
+      x: .534667969
       y: .0307617188
       width: .183105469
       height: .060546875
@@ -343,7 +343,7 @@ MonoBehaviour:
       height: 88
     coords:
       serializedVersion: 2
-      x: .94921875
+      x: .948730469
       y: .808105469
       width: .04296875
       height: .04296875
@@ -359,7 +359,7 @@ MonoBehaviour:
       height: 286
     coords:
       serializedVersion: 2
-      x: .666015625
+      x: .665527344
       y: .520019531
       width: .333007812
       height: .139648438
@@ -402,63 +402,63 @@ MonoBehaviour:
     trimRect:
       serializedVersion: 2
       x: 547
-      y: 407
-      width: 93
-      height: 103
+      y: 408
+      width: 92
+      height: 102
     coords:
       serializedVersion: 2
       x: .903320312
-      y: .80078125
-      width: .0454101562
-      height: .0502929688
+      y: .801269531
+      width: .044921875
+      height: .0498046875
     rotated: 0
   - name: Sled_Turbo_Body
     originalWidth: 1024
     originalHeight: 1024
     trimRect:
       serializedVersion: 2
-      x: 25
-      y: 394
-      width: 882
-      height: 370
+      x: 26
+      y: 395
+      width: 881
+      height: 368
     coords:
       serializedVersion: 2
       x: .234863281
-      y: .479003906
-      width: .430664062
-      height: .180664062
+      y: .479980469
+      width: .430175781
+      height: .1796875
     rotated: 0
   - name: Sled_Turbo_Ski
     originalWidth: 1024
     originalHeight: 1024
     trimRect:
       serializedVersion: 2
-      x: 624
-      y: 701
-      width: 400
-      height: 135
+      x: 625
+      y: 702
+      width: 392
+      height: 124
     coords:
       serializedVersion: 2
-      x: .610351562
-      y: .692382812
-      width: .1953125
-      height: .0659179688
+      x: .342773438
+      y: .0307617188
+      width: .19140625
+      height: .060546875
     rotated: 0
   - name: Sled_Turbo_Track
     originalWidth: 1024
     originalHeight: 1024
     trimRect:
       serializedVersion: 2
-      x: 91
-      y: 652
-      width: 479
-      height: 170
+      x: 92
+      y: 653
+      width: 478
+      height: 168
     coords:
       serializedVersion: 2
       x: .375976562
-      y: .675292969
-      width: .233886719
-      height: .0830078125
+      y: .676269531
+      width: .233398438
+      height: .08203125
     rotated: 0
   material: {fileID: 2100000, guid: 2bafc68900eb4664b9cb9cbbac53c3a7, type: 2}
   texture: {fileID: 2800000, guid: 984e07472aa428d4da161652db26fe1f, type: 3}

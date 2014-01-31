@@ -332,10 +332,10 @@ public class PlayerController : MonoBehaviour
 			MonsterMover();
 			tm_speedo.text = Mathf.Round(rigidbody.velocity.magnitude*2.0f).ToString();// ((Mathf.Round(rigidbody.velocity.magnitude*10.0f)/10.0F)*2.0f).ToString();
 			//
-			var speed = Mathf.Round(rigidbody.velocity.magnitude*2.0f);
-			var topSpeed = 100;
-			var speedFraction = speed / topSpeed;
-			var needleAngle = Mathf.Lerp(70, -80, speedFraction);
+			//var speed = Mathf.Round(rigidbody.velocity.magnitude*2.0f);
+			//var topSpeed = 100;
+			//var speedFraction = speed / topSpeed;
+			//var needleAngle = Mathf.Lerp(70, -80, speedFraction);
 			
 			//
 			//s_handle.transform.Rotate(0,0,needleAngle);

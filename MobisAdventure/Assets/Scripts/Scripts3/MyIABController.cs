@@ -11,8 +11,8 @@ public class MyIABController : MonoBehaviour
 
 	//public GameObject labelAlertGameObject;
 	private string[] skus = new string[] {@"150k_coins", @"250k_coins", @"2m_coins", @"500k_coins", @"750k_coins", @"99c_noads"};
-	private int[] coinsOfProducts = new int[] {150000, 250000, 2000000, 500000, 750000, 0};
-	private int currentLevel;
+//	private int[] coinsOfProducts = new int[] {150000, 250000, 2000000, 500000, 750000, 0};
+//	private int currentLevel;
 	void OnEnable()
 	{
 		// Listen to all events for illustration purposes
@@ -201,7 +201,7 @@ public class MyIABController : MonoBehaviour
 	
 	void setCurrentLevel( int level)
 	{
-		currentLevel = level;	
+		//??//currentLevel = level;	
 	}
 	 
 	public void OnAddCoinFromProduct (GameObject button) {

@@ -5,10 +5,10 @@ using Prime31;
 
 public class MyFacebook : MonoBehaviour
 {
-	private string social_id="1231231";
-	private string social_name="socialname1";
-	private string social_picture_url="socialpicture1";
-	private string email="FakeEmail@gmail.com";
+//??//	private string social_id="1231231";
+//??//	private string social_name="socialname1";
+//??//	private string social_picture_url="socialpicture1";
+//??//	private string email="FakeEmail@gmail.com";
 	public GameObject aaa;
 #if UNITY_IPHONE || UNITY_ANDROID
 	// Listens to all the events.  All event listeners MUST be removed before this object is disposed!
@@ -105,11 +105,11 @@ public class MyFacebook : MonoBehaviour
 			return;
 		}
 		
-		var ht=obj as Hashtable;
-		social_id=ht["id"].ToString();
-		social_name=ht["name"].ToString();
-		social_picture_url=ht["picture"].ToString();
-		email=ht["email"].ToString();
+//??//		var ht=obj as Hashtable;
+//??//		social_id=ht["id"].ToString();
+//??//		social_name=ht["name"].ToString();
+//??//		social_picture_url=ht["picture"].ToString();
+//??//		email=ht["email"].ToString();
 		
 		//AlertView.ShowAlert(social_id +" "+social_name +" "+social_picture_url +" "+email,true);
 		
@@ -195,7 +195,7 @@ public class MyFacebook : MonoBehaviour
 			
 			//Debug.Log( "graphRequestCompletedEvent" );
 			//Prime31.Utils.logObject( obj );
-			var ht=obj as Hashtable;
+			//??//			var ht=obj as Hashtable;
 			
 			if(PostImageFlag==true){
 				PostImageFlag=false;
@@ -215,16 +215,16 @@ public class MyFacebook : MonoBehaviour
 				return;
 			}
 			
-			if(ht["id"]!=null)
-				social_id=ht["id"].ToString();
-			if(ht["name"]!=null)
-				social_name=ht["name"].ToString();
+//??//			if(ht["id"]!=null)
+			//??//				social_id=ht["id"].ToString();
+			//??//			if(ht["name"]!=null)
+			//??//				social_name=ht["name"].ToString();
 		
-			if(ht["email"]!=null)
-				email=ht["email"].ToString();
+			//??//			if(ht["email"]!=null)
+			//??//				email=ht["email"].ToString();
 		
-			if(ht["picture"]!=null)
-				social_picture_url=ht["picture"].ToString();
+			//??//			if(ht["picture"]!=null)
+			//??//social_picture_url=ht["picture"].ToString();
 			
 //			AlertView.ShowAlert("id:"+social_id+"   name:"+social_name+"\nemail:"+email+"  Picture:"+social_picture_url,true);
 			
@@ -250,7 +250,7 @@ public class MyFacebook : MonoBehaviour
 		PostImageFlag=false;
 		print("start log in");
 		
-		var isSessionValid = FacebookAndroid.isSessionValid();
+		//??//		var isSessionValid = FacebookAndroid.isSessionValid();
 //		if(isSessionValid==true){
 //			print("Already logged in");
 //			//FacebookAndroid.reauthorizeWithPublishPermissions( new string[] { "publish_actions", "manage_friendlists" }, FacebookSessionDefaultAudience.EVERYONE );

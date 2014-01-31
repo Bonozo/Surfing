@@ -397,20 +397,20 @@ MonoBehaviour:
       height: .0361328125
     rotated: 0
   - name: MobiTek_Logo
-    originalWidth: 296
-    originalHeight: 73
+    originalWidth: 256
+    originalHeight: 63
     trimRect:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 296
-      height: 73
+      width: 256
+      height: 63
     coords:
       serializedVersion: 2
-      x: .300292969
-      y: .126953125
-      width: .14453125
-      height: .0356445312
+      x: .73828125
+      y: .371582031
+      width: .125
+      height: .0307617188
     rotated: 0
   - name: next
     originalWidth: 529
