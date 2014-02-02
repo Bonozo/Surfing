@@ -13,3 +13,7 @@ EditorBuildSettings:
     path: Assets/Scenes/patterns.unity
   - enabled: 1
     path: Assets/Scenes/numbers.unity
+  - enabled: 1
+    path: Assets/Scenes/shapes.unity
+  - enabled: 1
+    path: Assets/Scenes/letters.unity
