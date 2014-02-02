@@ -1,9 +1,52 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public enum GameLevel
+{
+	firstGrade,
+	kindergarten,
+	preK
+}
+
+public enum GameType
+{
+	Shapes,
+	Numbers,
+	Letters,
+	Patterns
+}
+
 public class GameController : MonoBehaviour {
+
+	#region Settings
+
+	public static GameLevel gameLevel;
+	public static GameType gameType;
+
+	#endregion
 	
-	#region Toggle
+	#region Game
+
+	public Transform root;
+	
+	public void LoadGame()
+	{
+		Resources.UnloadUnusedAssets ();
+		var gmb = Resources.Load<GameObject> (gameType.ToString () + "_" + gameLevel.ToString ());
+		gmb = Instantiate (gmb) as GameObject;
+		gmb.transform.parent = root;
+		gmb.transform.localPosition = new Vector3 (0f, 0f, 0f);
+		gmb.transform.localScale = new Vector3 (1f, 1f, 1f);
+	}
+
+	public void UnloadGame()
+	{
+	}
+		
+	#endregion
+
+	#region Toggles
+
 	public float toggleTime = 1f;
 	private bool toggleProcessing = false;
 	public void Toggle(GameObject from,GameObject to)
@@ -72,7 +115,7 @@ public class GameController : MonoBehaviour {
 	}
 	
 	#endregion
-	
+
 	#region Static Instace
 	
 	//Multithreaded Safe Singleton Pattern
@@ -95,10 +138,14 @@ public class GameController : MonoBehaviour {
 	
 	#endregion
 
+	#region Update
+
 	void Update()
 	{
 		if(Input.GetKey(KeyCode.Escape))
 			Application.Quit();
 	}
+
+	#endregion
 	
 }
