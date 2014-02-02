@@ -61,7 +61,7 @@ public class GameBlock : MonoBehaviour {
 	{
 		if(gameIndex>=level.Length)
 		{
-			GameController.Instance.Toggle(gameObject,winToggle);
+			GameController.Instance.SimpleToggle(gameObject,winToggle);
 		}
 		else
 		{

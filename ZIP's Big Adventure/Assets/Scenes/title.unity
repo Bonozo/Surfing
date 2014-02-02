@@ -743,8 +743,8 @@ GameObject:
   - 4: {fileID: 560835718}
   - 65: {fileID: 560835721}
   - 114: {fileID: 560835720}
-  - 114: {fileID: 560835719}
   - 114: {fileID: 560835722}
+  - 114: {fileID: 560835719}
   m_Layer: 8
   m_Name: Button Lucky
   m_TagString: Untagged
@@ -773,12 +773,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 560835717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c51e026ba7020b145864843885979dba, type: 3}
+  m_Script: {fileID: 11500000, guid: 666ab873939e0e548b4525286be8ab9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toggleType: 0
-  from: {fileID: 322977016}
-  to: {fileID: 1201126274}
+  sceneName: shapes
 --- !u!114 &560835720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1779,8 +1777,8 @@ GameObject:
   - 4: {fileID: 1509985280}
   - 65: {fileID: 1509985284}
   - 114: {fileID: 1509985283}
-  - 114: {fileID: 1509985282}
   - 114: {fileID: 1509985281}
+  - 114: {fileID: 1509985282}
   m_Layer: 8
   m_Name: Button Princess Patty
   m_TagString: Untagged
@@ -1824,12 +1822,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1509985279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c51e026ba7020b145864843885979dba, type: 3}
+  m_Script: {fileID: 11500000, guid: 666ab873939e0e548b4525286be8ab9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toggleType: 0
-  from: {fileID: 322977016}
-  to: {fileID: 1201126274}
+  sceneName: letters
 --- !u!114 &1509985283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1895,6 +1891,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158ad95a7bf2b8944805fd5584f93bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  root: {fileID: 0}
   toggleTime: .300000012
 --- !u!1 &1567172403
 GameObject:
@@ -2099,7 +2096,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.71309191, y: 0, z: 0}
+  m_LocalPosition: {x: -.693766952, y: .693140805, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1201126275}
