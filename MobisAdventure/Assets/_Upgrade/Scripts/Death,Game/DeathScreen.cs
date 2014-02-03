@@ -8,6 +8,7 @@ public class DeathScreen : MonoBehaviour {
 	public UILabel labelCause;
 	public UILabel labelStates;
 	public UILabel labelCoins;
+	public LevelController levelController;
 
 	public void Show(bool monstercause,int distance,int best,int score)
 	{
