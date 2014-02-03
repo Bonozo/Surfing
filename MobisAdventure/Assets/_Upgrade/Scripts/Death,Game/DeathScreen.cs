@@ -8,6 +8,7 @@ public class DeathScreen : MonoBehaviour {
 	public UILabel labelCause;
 	public UILabel labelStates;
 	public UILabel labelCoins;
+	public UILabel labelLevel;
 	public LevelController levelController;
 
 	public void Show(bool monstercause,int distance,int best,int score)
@@ -19,6 +20,7 @@ public class DeathScreen : MonoBehaviour {
 		string[] sll = GameManager.m_chosenLevel.ToString().Split('_');
 		labelStates.text = "" + distance + "m\n" + best + "m (best)\n in " + sll[1].ToLower();
 		labelCoins.text = "+" + score;
+		labelLevel.text = "Level: " + levelController.CurrentLevel;
 		StartCoroutine(ShowThread());
 	}
 
