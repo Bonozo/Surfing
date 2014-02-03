@@ -12,6 +12,7 @@ public class OptionItem : MonoBehaviour {
 	
 	void Awake()
 	{
+		transform.FindChild ("Name").localScale = new Vector3 (1.1f, 1f, 1f);
 		Init ();
 	}
 

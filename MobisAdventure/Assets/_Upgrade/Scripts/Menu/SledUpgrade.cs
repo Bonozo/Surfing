@@ -65,7 +65,7 @@ public class SledUpgrade : MonoBehaviour {
 	{
 		int currentLevel = PlayerPrefs.GetInt(menu.CurrentSledName+"_"+upgradeName,0);
 		labelCost.text = MainMenu.PutCommas( (1+currentLevel)*25000);
-		labelName.text = upgradeName.ToUpper() + " (LEVEL " + (currentLevel+1) + ")";
+		labelName.text = upgradeName.ToUpper() + " (LEVEL " + (currentLevel+1) + " )";
 
 		int fillbarindex = Mathf.Min(8,currentLevel);
 		spriteFillbar.spriteName = "fillbar_"+fillbarindex;
