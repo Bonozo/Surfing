@@ -29,9 +29,7 @@ public class GUIEasyTouchInspector : Editor {
 				
 				if (t.autoSelect){
 					serializedObject.Update();
-					#pragma warning disable 0618
 			   		EditorGUIUtility.LookLikeInspector();
-					#pragma warning restore 0618
 			    	SerializedProperty layers = serializedObject.FindProperty("pickableLayers");
 					EditorGUILayout.PropertyField( layers,true);
 			   		serializedObject.ApplyModifiedProperties();

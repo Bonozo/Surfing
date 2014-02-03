@@ -38,7 +38,7 @@ public class Ragdoll : MonoBehaviour {
 		var force = transform.root.rigidbody.velocity*4000;
 		StartCoroutine(AddRigidbodies(force));
 
-		/*if( transform.root.rigidbody.velocity != null)*/
+		if( transform.root.rigidbody.velocity != null)
 		{
 			Debug.Log( transform.root.rigidbody.velocity);
 			rootRigidbody.AddForce(force);

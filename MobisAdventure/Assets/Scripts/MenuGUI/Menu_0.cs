@@ -190,7 +190,7 @@ public class Menu_0 : MonoBehaviour {
 	{
 		Debug.Log("request!!");
 		// Note: requesting publish permissions here will result in a crash. Only read permissions are permitted.
-//??//		var permissions = new string[] { "user_games_activity" };
+		var permissions = new string[] { "user_games_activity" };
 #if UNITY_IPHONE
 //		FacebookBinding.loginWithRequestedReadPermissions( permissions );
 #endif

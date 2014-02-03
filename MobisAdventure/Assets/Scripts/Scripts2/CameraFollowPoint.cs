@@ -8,6 +8,7 @@ public class CameraFollowPoint : MonoBehaviour
 	public float m_followSpeed = 10.0f;
 	public float y_offset = 0.0f;
 	public float z_offsetRatio;
+	private float path_y;
 	
 	private Vector3 m_targetPos = Vector3.zero;
 
@@ -26,11 +27,9 @@ public class CameraFollowPoint : MonoBehaviour
 			Debug.Log("paused");
 			return;
 		}
-
-		float path_y;
 		Path.Current.GetHeight(m_target.position, out path_y);
 //		z_offsetRatio = Mathf.Abs(m_target.position.y - path_y);
-		//float zerp = Mathf.Abs(m_target.position.y - path_y);
+		float zerp = Mathf.Abs(m_target.position.y - path_y);
 		/*if(zerp > 2.0){
 			z_offsetRatio = Mathf.MoveTowards(z_offsetRatio, zerp, 2 * Time.deltaTime);
 			followCam.orthographicSize = 10 + z_offsetRatio;

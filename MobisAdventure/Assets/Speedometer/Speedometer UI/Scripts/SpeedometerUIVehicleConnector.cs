@@ -10,7 +10,7 @@ using System.Collections;
 [AddComponentMenu("Racing Game Kit/Speedometer UI/Speedometer UI - Vehicle Connector"), ExecuteInEditMode]
 public class SpeedometerUIVehicleConnector : MonoBehaviour
 {
-    //SpeedometerUI SpeedometerUIComponent;
+    SpeedometerUI SpeedometerUIComponent;
     
     //UNCOMMENT FOR RGKCAR
     //RGKCar_Engine RGKEngine = null;
@@ -23,7 +23,7 @@ public class SpeedometerUIVehicleConnector : MonoBehaviour
     void Start()
     {
         //FIND THE SPEEDOMETER COMPONENT 
-        //SpeedometerUIComponent = base.GetComponent<SpeedometerUI>();
+        SpeedometerUIComponent = base.GetComponent<SpeedometerUI>();
 
 
         #region "RGKCAR SPEEDO CONNECTION"

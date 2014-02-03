@@ -6,8 +6,7 @@ public class MainMenu : MonoBehaviour {
 	public MenuConfirmationPopup confirmationPopup;
 	public UILabel[] labelCoinCount;
 	public MenuToggle GetMoreCoinsToggle;
-
-
+	
 	void Awake()
 	{
 		coinshow = PlayerPrefs.GetInt ("pp_coins");

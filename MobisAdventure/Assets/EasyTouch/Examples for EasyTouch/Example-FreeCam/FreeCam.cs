@@ -28,7 +28,7 @@ public class FreeCam : MonoBehaviour {
 		
 	void Start(){
 	
-		cam = Camera.main;
+		cam = Camera.mainCamera;
 	}
 	
 	

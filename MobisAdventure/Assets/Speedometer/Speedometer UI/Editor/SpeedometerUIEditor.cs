@@ -14,9 +14,7 @@ public class SpeedometerUIEditor : Editor
     SpeedometerUI SpeedometerUIComponent;
     public override void OnInspectorGUI()
     {
-		#pragma warning disable 0618
         EditorGUIUtility.LookLikeInspector();
-		#pragma warning restore 0618
          SpeedometerUIComponent= target as SpeedometerUI;
         SpeedometerUIComponent.name = SpeedometerUIComponent.name; // Debug Warning Removal
 		

@@ -50,7 +50,7 @@ namespace HutongGames.PlayMaker.Actions
 			}
 			else
 			{
-				gameObjects = (GameObject[])Object.FindObjectsOfType(typeof(GameObject));
+				gameObjects = (GameObject[])Object.FindSceneObjectsOfType(typeof(GameObject));
 			}
 
 			if (gameObjects.Length > 0)
