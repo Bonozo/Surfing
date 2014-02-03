@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class SettingsItem : MonoBehaviour {
-	
+
+	public bool defaultChecked;
 	/// <summary>
 	/// The key of the option (Important)
 	/// </summary>
@@ -31,7 +32,7 @@ public class SettingsItem : MonoBehaviour {
 		get{
 			if(!gotcha)
 			{
-				savedValue = PlayerPrefs.GetInt(optionName,0)==1;
+				savedValue = PlayerPrefs.GetInt(optionName,defaultChecked?1:0)==1;
 				gotcha = true;
 			}
 			return savedValue;
@@ -40,7 +41,6 @@ public class SettingsItem : MonoBehaviour {
 			savedValue = value;		
 			PlayerPrefs.SetInt(optionName,savedValue?1:0);
 			PlayerPrefs.Save();
-
 		}
 	}
 }
