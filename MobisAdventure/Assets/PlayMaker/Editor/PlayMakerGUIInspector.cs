@@ -20,7 +20,9 @@ class PlayMakerGUIInspector : Editor
 
 	public override void OnInspectorGUI()
 	{
+		#pragma warning disable 0618
 		EditorGUIUtility.LookLikeInspector();
+		#pragma warning restore 0618
 
 		GUILayout.Label(Strings.Label_NOTES, EditorStyles.boldLabel);
 		

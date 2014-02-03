@@ -13,7 +13,6 @@ public class DeathScreen : MonoBehaviour {
 
 	public void Show(bool monstercause,int distance,int best,int score)
 	{
-
 		if(monstercause) labelCause.text = "the monster\ncaught you!";
 		else labelCause.text = "you\ncrashed!";
 

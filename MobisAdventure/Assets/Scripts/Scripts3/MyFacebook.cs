@@ -4,11 +4,13 @@ using System.Collections.Generic;
 using Prime31;
 
 public class MyFacebook : MonoBehaviour
-{
+{		
+	#pragma warning disable 0414
 	private string social_id="1231231";
 	private string social_name="socialname1";
 	private string social_picture_url="socialpicture1";
 	private string email="FakeEmail@gmail.com";
+	#pragma warning restore 0414
 	public GameObject aaa;
 #if UNITY_IPHONE || UNITY_ANDROID
 	// Listens to all the events.  All event listeners MUST be removed before this object is disposed!

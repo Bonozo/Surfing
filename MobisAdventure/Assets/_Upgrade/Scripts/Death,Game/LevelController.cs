@@ -22,8 +22,7 @@ public class LevelController : MonoBehaviour {
 			return currentLevel;
 		}
 	}
-
-
+	
 	void Awake()
 	{
 		player = GameObject.FindObjectOfType (typeof(PlayerController)) as PlayerController;
