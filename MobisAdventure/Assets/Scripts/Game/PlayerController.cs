@@ -332,10 +332,10 @@ public class PlayerController : MonoBehaviour
 			MonsterMover();
 			tm_speedo.text = Mathf.Round(rigidbody.velocity.magnitude*2.0f).ToString();// ((Mathf.Round(rigidbody.velocity.magnitude*10.0f)/10.0F)*2.0f).ToString();
 			//
-			var speed = Mathf.Round(rigidbody.velocity.magnitude*2.0f);
-			var topSpeed = 100;
-			var speedFraction = speed / topSpeed;
-			var needleAngle = Mathf.Lerp(70, -80, speedFraction);
+			//var speed = Mathf.Round(rigidbody.velocity.magnitude*2.0f);
+			//var topSpeed = 100;
+			//var speedFraction = speed / topSpeed;
+			//var needleAngle = Mathf.Lerp(70, -80, speedFraction);
 			
 			//
 			//s_handle.transform.Rotate(0,0,needleAngle);
@@ -748,7 +748,7 @@ public class PlayerController : MonoBehaviour
 		ragdoll = rg.GetComponent<Ragdoll>();
 		ragdoll.gameObject.SetActive(false);
 		ragdoll.gameObject.transform.parent = newSled.transform.Find("ragdollposition");
-		Debug.Log("name is: " + newSled.transform.Find("ragdollposition").name);
+		//Debug.Log("name is: " + newSled.transform.Find("ragdollposition").name);
 		ragdoll.gameObject.transform.localPosition = Vector3.zero;
 		ragdoll.gameObject.transform.localScale = new Vector3(1f,1f,1f);
 		ragdoll.gameObject.SetActive(true);

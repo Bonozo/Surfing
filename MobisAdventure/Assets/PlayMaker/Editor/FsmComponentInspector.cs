@@ -391,7 +391,7 @@ public class FsmComponentInspector : Editor
     {
         var menu = new GenericMenu();
 
-        var templates = (FsmTemplate[])FindObjectsOfTypeIncludingAssets(typeof(FsmTemplate));
+        var templates = (FsmTemplate[])Resources.FindObjectsOfTypeAll(typeof(FsmTemplate));
 
         menu.AddItem(new GUIContent(Strings.Menu_None), false, ClearTemplate);
 
@@ -446,7 +446,7 @@ public class FsmComponentInspector : Editor
                     temp = iTweenMoveTo;
                     if (temp.transforms.Length >= 2)
                     {
-                        Undo.SetSnapshotTarget(fsmComponent.gameObject, Strings.Command_Adjust_iTween_Path);
+                        Undo.RecordObject(fsmComponent.gameObject, Strings.Command_Adjust_iTween_Path);
                         tempVct3 = new Vector3[temp.transforms.Length];
                         for (var i = 0; i < temp.transforms.Length; i++)
                         {
