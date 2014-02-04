@@ -116,6 +116,23 @@ public class GameController : MonoBehaviour {
 	
 	#endregion
 
+	#region Audio
+
+	public AudioClip clipCorrectAnswer;
+	public AudioClip clipWrongAnswer;
+
+	public void PlayCorrectAnswer()
+	{
+		AudioSource.PlayClipAtPoint(clipCorrectAnswer,transform.position);
+	}
+
+	public void PlayWrongAnswer()
+	{
+		AudioSource.PlayClipAtPoint(clipWrongAnswer,transform.position);
+	}
+
+	#endregion
+
 	#region Static Instace
 	
 	//Multithreaded Safe Singleton Pattern

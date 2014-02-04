@@ -1,11 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Levels\Match Picture With Words\LevelPictureWithWords.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Levels\Jumble\LevelJumble.cs">
     <Files>
-      <File FileName="Assets\Scripts\Levels\Match Picture With Words\LevelPictureWithWords.cs" Line="38" Column="38" />
-      <File FileName="Assets\Scripts\Levels\Point\LevelPoint.cs" Line="16" Column="3" />
-      <File FileName="Assets\Scripts\Procedures\EndItemColor.cs" Line="6" Column="1" />
-      <File FileName="Assets\Scripts\Levels\Match Picture With Words\PictureWithWordButton.cs" Line="14" Column="3" />
+      <File FileName="Assets\Scripts\Levels\Jumble\LevelJumble.cs" Line="18" Column="31" />
+      <File FileName="Assets\Scripts\Levels\Match Picture With Words\LevelPictureWithWords.cs" Line="37" Column="53" />
+      <File FileName="Assets\Scripts\Procedures\EndItemScaleTo.cs" Line="32" Column="3" />
+      <File FileName="Assets\Scripts\Procedures\EndItemChangeTexture.cs" Line="39" Column="42" />
+      <File FileName="Assets\Scripts\Levels\Jumble\JumbleDrag.cs" Line="75" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
