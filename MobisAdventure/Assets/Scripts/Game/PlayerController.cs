@@ -141,7 +141,7 @@ public class PlayerController : MonoBehaviour
 	}
 
 	private void On_SimpleTap( Gesture gesture){
-		Debug.Log("Simple Tap");
+		//Debug.Log("Simple Tap");
 		if(life && !death && gesture.pickObject == s_pauser){
 			s_pause = !s_pause;
 			//txt_p1.text = ""

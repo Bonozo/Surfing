@@ -1,0 +1,705 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: LetterGroupTheOpposites
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 1f09ab8aa5cff8a4e8a4d8f370089ae7, type: 2}
+  sprites:
+  - name: Bird Small
+    outer:
+      serializedVersion: 2
+      x: 302
+      y: 1470
+      width: 132
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 302
+      y: 1470
+      width: 132
+      height: 107
+    rotated: 0
+    paddingLeft: 9.98484802
+    paddingRight: 4.530303
+    paddingTop: 6.26168203
+    paddingBottom: 7.09345818
+  - name: Grandma Old
+    outer:
+      serializedVersion: 2
+      x: 1228
+      y: 1723
+      width: 252
+      height: 325
+    inner:
+      serializedVersion: 2
+      x: 1228
+      y: 1723
+      width: 252
+      height: 325
+    rotated: 0
+    paddingLeft: 4.77380943
+    paddingRight: 2.35317469
+    paddingTop: 1.28615379
+    paddingBottom: 2.44000006
+  - name: Pillow soft
+    outer:
+      serializedVersion: 2
+      x: 302
+      y: 1163
+      width: 292
+      height: 207
+    inner:
+      serializedVersion: 2
+      x: 302
+      y: 1163
+      width: 292
+      height: 207
+    rotated: 0
+    paddingLeft: 3.95547938
+    paddingRight: 2.05821919
+    paddingTop: 2.60869575
+    paddingBottom: 3.81159425
+  - name: Coffee Hot
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1378
+      width: 291
+      height: 328
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1378
+      width: 291
+      height: 328
+    rotated: 0
+    paddingLeft: 4.26804113
+    paddingRight: 1.76975942
+    paddingTop: 1.29878044
+    paddingBottom: 2.38414645
+  - name: Girl Short hair
+    outer:
+      serializedVersion: 2
+      x: 878
+      y: 1713
+      width: 349
+      height: 335
+    inner:
+      serializedVersion: 2
+      x: 878
+      y: 1713
+      width: 349
+      height: 335
+    rotated: 0
+    paddingLeft: 1.42979944
+    paddingRight: 3.4383955
+    paddingTop: 1.25970149
+    paddingBottom: 2.32537317
+  - name: Cat Thin
+    outer:
+      serializedVersion: 2
+      x: 1228
+      y: 1402
+      width: 237
+      height: 320
+    inner:
+      serializedVersion: 2
+      x: 1228
+      y: 1402
+      width: 237
+      height: 320
+    rotated: 0
+    paddingLeft: 5.2109704
+    paddingRight: 2.43037963
+    paddingTop: 1.39999998
+    paddingBottom: 2.4000001
+  - name: Clean Dish
+    outer:
+      serializedVersion: 2
+      x: 1183
+      y: 1244
+      width: 395
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 1183
+      y: 1244
+      width: 395
+      height: 131
+    rotated: 0
+    paddingLeft: 1.20506334
+    paddingRight: 2.97974682
+    paddingTop: 4.06870222
+    paddingBottom: 6.65648842
+  - name: Zip Fast
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1084
+      width: 301
+      height: 293
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1084
+      width: 301
+      height: 293
+    rotated: 0
+    paddingLeft: 1.66112959
+    paddingRight: 4.14285707
+    paddingTop: 1.56655288
+    paddingBottom: 2.6757679
+  - name: Feather
+    outer:
+      serializedVersion: 2
+      x: 1466
+      y: 1376
+      width: 369
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 1466
+      y: 1376
+      width: 369
+      height: 145
+    rotated: 0
+    paddingLeft: 3.21680212
+    paddingRight: 1.33333337
+    paddingTop: 4.11724138
+    paddingBottom: 5.47586203
+  - name: Turtle Slow
+    outer:
+      serializedVersion: 2
+      x: 1693
+      y: 1522
+      width: 270
+      height: 268
+    inner:
+      serializedVersion: 2
+      x: 1693
+      y: 1522
+      width: 270
+      height: 268
+    rotated: 0
+    paddingLeft: 4.24074078
+    paddingRight: 2.34444451
+    paddingTop: 1.80223882
+    paddingBottom: 2.92910457
+  - name: Dirty Dish
+    outer:
+      serializedVersion: 2
+      x: 1579
+      y: 1244
+      width: 395
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 1579
+      y: 1244
+      width: 395
+      height: 131
+    rotated: 0
+    paddingLeft: 2.95189881
+    paddingRight: 1.23291135
+    paddingTop: 4.09160328
+    paddingBottom: 6.63358784
+  - name: Metal Hard
+    outer:
+      serializedVersion: 2
+      x: 772
+      y: 1474
+      width: 301
+      height: 238
+    inner:
+      serializedVersion: 2
+      x: 772
+      y: 1474
+      width: 301
+      height: 238
+    rotated: 0
+    paddingLeft: 1.76411963
+    paddingRight: 4.03986692
+    paddingTop: 2.20168066
+    paddingBottom: 3.25210094
+  - name: Milkshake cold
+    outer:
+      serializedVersion: 2
+      x: 1481
+      y: 1671
+      width: 211
+      height: 377
+    inner:
+      serializedVersion: 2
+      x: 1481
+      y: 1671
+      width: 211
+      height: 377
+    rotated: 0
+    paddingLeft: 2.85308051
+    paddingRight: 5.85308075
+    paddingTop: 1.05039787
+    paddingBottom: 2.02387261
+  - name: Dinosaur Big
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1707
+      width: 466
+      height: 341
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1707
+      width: 466
+      height: 341
+    rotated: 0
+    paddingLeft: 1.08583689
+    paddingRight: 2.30901289
+    paddingTop: 1.31085038
+    paddingBottom: 2.19354844
+  - name: Girl Long hair
+    outer:
+      serializedVersion: 2
+      x: 467
+      y: 1371
+      width: 304
+      height: 342
+    inner:
+      serializedVersion: 2
+      x: 467
+      y: 1371
+      width: 304
+      height: 342
+    rotated: 0
+    paddingLeft: 3.84210515
+    paddingRight: 1.89473689
+    paddingTop: 1.22514617
+    paddingBottom: 2.26608181
+  - name: Dumbbell weight
+    outer:
+      serializedVersion: 2
+      x: 772
+      y: 1314
+      width: 410
+      height: 159
+    inner:
+      serializedVersion: 2
+      x: 772
+      y: 1314
+      width: 410
+      height: 159
+    rotated: 0
+    paddingLeft: 1.28780484
+    paddingRight: 2.70731711
+    paddingTop: 3.68553448
+    paddingBottom: 4.97484255
+  - name: Baby Young
+    outer:
+      serializedVersion: 2
+      x: 1693
+      y: 1791
+      width: 285
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 1693
+      y: 1791
+      width: 285
+      height: 257
+    rotated: 0
+    paddingLeft: 1.86666667
+    paddingRight: 4.31929827
+    paddingTop: 1.84046698
+    paddingBottom: 3.13618684
+  - name: Cat Fat
+    outer:
+      serializedVersion: 2
+      x: 467
+      y: 1714
+      width: 410
+      height: 334
+    inner:
+      serializedVersion: 2
+      x: 467
+      y: 1714
+      width: 410
+      height: 334
+    rotated: 0
+    paddingLeft: 1.05609751
+    paddingRight: 2.93902445
+    paddingTop: 1.35029936
+    paddingBottom: 2.24850297
+  - name: Soft
+    outer:
+      serializedVersion: 2
+      x: 1579
+      y: 1004
+      width: 263
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 1579
+      y: 1004
+      width: 263
+      height: 118
+    rotated: 0
+    paddingLeft: 4.64638805
+    paddingRight: 2.14068437
+    paddingTop: 3.68644071
+    paddingBottom: 8.33050823
+  - name: Fat
+    outer:
+      serializedVersion: 2
+      x: 1843
+      y: 1135
+      width: 184
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 1843
+      y: 1135
+      width: 184
+      height: 108
+    rotated: 0
+    paddingLeft: 6.70652151
+    paddingRight: 3.423913
+    paddingTop: 7.39814806
+    paddingBottom: 5.82407427
+  - name: Big
+    outer:
+      serializedVersion: 2
+      x: 302
+      y: 1578
+      width: 156
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 302
+      y: 1578
+      width: 156
+      height: 128
+    rotated: 0
+    paddingLeft: 7.8717947
+    paddingRight: 4.25641012
+    paddingTop: 4.96875
+    paddingBottom: 6.03125
+  - name: Hot
+    outer:
+      serializedVersion: 2
+      x: 1836
+      y: 1409
+      width: 197
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1836
+      y: 1409
+      width: 197
+      height: 112
+    rotated: 0
+    paddingLeft: 6.11675119
+    paddingRight: 3.27918792
+    paddingTop: 7.1875
+    paddingBottom: 5.52678585
+  - name: Slow
+    outer:
+      serializedVersion: 2
+      x: 567
+      y: 849
+      width: 248
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 567
+      y: 849
+      width: 248
+      height: 105
+    rotated: 0
+    paddingLeft: 4.88709688
+    paddingRight: 2.37096763
+    paddingTop: 4.38095236
+    paddingBottom: 9.24761868
+  - name: Dirty
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 941
+      width: 293
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 941
+      width: 293
+      height: 142
+    rotated: 0
+    paddingLeft: 4.15358353
+    paddingRight: 1.83617747
+    paddingTop: 4.28169012
+    paddingBottom: 5.53521109
+  - name: Cold
+    outer:
+      serializedVersion: 2
+      x: 885
+      y: 885
+      width: 239
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 885
+      y: 885
+      width: 239
+      height: 118
+    rotated: 0
+    paddingLeft: 2.36401677
+    paddingRight: 5.2050209
+    paddingTop: 6.83050871
+    paddingBottom: 5.18644047
+  - name: Thin
+    outer:
+      serializedVersion: 2
+      x: 1579
+      y: 1123
+      width: 263
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1579
+      y: 1123
+      width: 263
+      height: 120
+    rotated: 0
+    paddingLeft: 4.62737656
+    paddingRight: 2.15969586
+    paddingTop: 5.10833311
+    paddingBottom: 6.6916666
+  - name: Short
+    outer:
+      serializedVersion: 2
+      x: 567
+      y: 955
+      width: 317
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 567
+      y: 955
+      width: 317
+      height: 109
+    rotated: 0
+    paddingLeft: 1.70662463
+    paddingRight: 3.7539432
+    paddingTop: 7.23853207
+    paddingBottom: 5.85321093
+  - name: Fast
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 839
+      width: 235
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 839
+      width: 235
+      height: 106
+    rotated: 0
+    paddingLeft: 2.43404245
+    paddingRight: 5.28085089
+    paddingTop: 7.35849047
+    paddingBottom: 6.13207531
+  - name: Long
+    outer:
+      serializedVersion: 2
+      x: 1306
+      y: 1112
+      width: 272
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 1306
+      y: 1112
+      width: 272
+      height: 131
+    rotated: 0
+    paddingLeft: 4.44485283
+    paddingRight: 2.08455873
+    paddingTop: 4.75572538
+    paddingBottom: 5.96946573
+  - name: Small
+    outer:
+      serializedVersion: 2
+      x: 941
+      y: 1004
+      width: 300
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 941
+      y: 1004
+      width: 300
+      height: 117
+    rotated: 0
+    paddingLeft: 4.05333328
+    paddingRight: 1.77333331
+    paddingTop: 5.29059839
+    paddingBottom: 6.83760691
+  - name: Heavy
+    outer:
+      serializedVersion: 2
+      x: 944
+      y: 1122
+      width: 361
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 944
+      y: 1122
+      width: 361
+      height: 121
+    rotated: 0
+    paddingLeft: 3.33518004
+    paddingRight: 1.33795011
+    paddingTop: 3.82644629
+    paddingBottom: 7.86776876
+  - name: Clean
+    outer:
+      serializedVersion: 2
+      x: 595
+      y: 1187
+      width: 348
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 595
+      y: 1187
+      width: 348
+      height: 126
+    rotated: 0
+    paddingLeft: 1.46551728
+    paddingRight: 3.41954017
+    paddingTop: 5.72222233
+    paddingBottom: 5.46825409
+  - name: Young
+    outer:
+      serializedVersion: 2
+      x: 595
+      y: 1065
+      width: 345
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 595
+      y: 1065
+      width: 345
+      height: 121
+    rotated: 0
+    paddingLeft: 1.52753627
+    paddingRight: 3.4086957
+    paddingTop: 6.40495872
+    paddingBottom: 5.2892561
+  - name: Light
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 946
+      width: 272
+      height: 137
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 946
+      width: 272
+      height: 137
+    rotated: 0
+    paddingLeft: 4.36397076
+    paddingRight: 2.16544127
+    paddingTop: 3.35766435
+    paddingBottom: 6.8540144
+  - name: Old
+    outer:
+      serializedVersion: 2
+      x: 1466
+      y: 1552
+      width: 186
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 1466
+      y: 1552
+      width: 186
+      height: 118
+    rotated: 0
+    paddingLeft: 6.56451607
+    paddingRight: 3.44623661
+    paddingTop: 6.48305082
+    paddingBottom: 5.53389835
+  - name: Hard
+    outer:
+      serializedVersion: 2
+      x: 1242
+      y: 1003
+      width: 269
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 1242
+      y: 1003
+      width: 269
+      height: 108
+    rotated: 0
+    paddingLeft: 2.04832721
+    paddingRight: 4.56505585
+    paddingTop: 7.37037039
+    paddingBottom: 5.85185194
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

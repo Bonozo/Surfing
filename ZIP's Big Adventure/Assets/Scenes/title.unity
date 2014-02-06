@@ -1893,6 +1893,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   root: {fileID: 0}
   toggleTime: .300000012
+  clipCorrectAnswer: {fileID: 0}
+  clipWrongAnswer: {fileID: 0}
 --- !u!1 &1567172403
 GameObject:
   m_ObjectHideFlags: 0
