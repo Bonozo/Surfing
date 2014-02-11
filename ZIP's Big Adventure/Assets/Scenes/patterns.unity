@@ -1562,6 +1562,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 10
+  defaultUp: 1
+  to: {x: 0, y: 0, z: 0}
 --- !u!114 &321334737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2586,6 +2588,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 10
+  defaultUp: 1
+  to: {x: 0, y: 0, z: 0}
 --- !u!114 &493488196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5672,6 +5676,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 10
+  defaultUp: 1
+  to: {x: 0, y: 0, z: 0}
 --- !u!114 &1228975355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6606,6 +6612,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 10
+  defaultUp: 1
+  to: {x: 0, y: 0, z: 0}
 --- !u!1 &1515358941
 GameObject:
   m_ObjectHideFlags: 0
@@ -6830,6 +6838,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   root: {fileID: 0}
   toggleTime: .300000012
+  clipCorrectAnswer: {fileID: 8300000, guid: 244a238071d4b8745957e04956cc3d48, type: 3}
+  clipWrongAnswer: {fileID: 8300000, guid: bec89e82191c9784388731f6549773bb, type: 3}
 --- !u!1 &1561866420
 GameObject:
   m_ObjectHideFlags: 0
@@ -6870,6 +6880,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 10
+  defaultUp: 1
+  to: {x: 0, y: 0, z: 0}
 --- !u!114 &1561866423
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6979,6 +6991,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 10
+  defaultUp: 1
+  to: {x: 0, y: 0, z: 0}
 --- !u!114 &1576151315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7331,6 +7345,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   duration: 10
+  defaultUp: 1
+  to: {x: 0, y: 0, z: 0}
 --- !u!114 &1633854480
 MonoBehaviour:
   m_ObjectHideFlags: 0

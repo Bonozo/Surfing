@@ -1,0 +1,1263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: NumbersNumbers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 8f71d36f994211e438c75868279b747d, type: 2}
+  sprites:
+  - name: 6
+    outer:
+      serializedVersion: 2
+      x: 1937
+      y: 1179
+      width: 72
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1937
+      y: 1179
+      width: 72
+      height: 112
+    rotated: 0
+    paddingLeft: 13.4444447
+    paddingRight: 14
+    paddingTop: 4.92857122
+    paddingBottom: 7.78571415
+  - name: 4
+    outer:
+      serializedVersion: 2
+      x: 1483
+      y: 1176
+      width: 79
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1483
+      y: 1176
+      width: 79
+      height: 115
+    rotated: 0
+    paddingLeft: 12.1392403
+    paddingRight: 12.7848101
+    paddingTop: 4.80000019
+    paddingBottom: 7.55652189
+  - name: 9
+    outer:
+      serializedVersion: 2
+      x: 1789
+      y: 1179
+      width: 73
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1789
+      y: 1179
+      width: 73
+      height: 112
+    rotated: 0
+    paddingLeft: 13.2739725
+    paddingRight: 13.7808218
+    paddingTop: 4.91964293
+    paddingBottom: 7.79464293
+  - name: 8
+    outer:
+      serializedVersion: 2
+      x: 1714
+      y: 1179
+      width: 74
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1714
+      y: 1179
+      width: 74
+      height: 112
+    rotated: 0
+    paddingLeft: 13.0810814
+    paddingRight: 13.594595
+    paddingTop: 4.9375
+    paddingBottom: 7.77678585
+  - name: 0
+    outer:
+      serializedVersion: 2
+      x: 1639
+      y: 1179
+      width: 74
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1639
+      y: 1179
+      width: 74
+      height: 112
+    rotated: 0
+    paddingLeft: 13.0135136
+    paddingRight: 13.6621618
+    paddingTop: 4.91964293
+    paddingBottom: 7.79464293
+  - name: Circle0
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 164
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 164
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle6
+    outer:
+      serializedVersion: 2
+      x: 741
+      y: 916
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 741
+      y: 916
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle9
+    outer:
+      serializedVersion: 2
+      x: 741
+      y: 728
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 741
+      y: 728
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle14
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 352
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 352
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle5
+    outer:
+      serializedVersion: 2
+      x: 741
+      y: 540
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 741
+      y: 540
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle19
+    outer:
+      serializedVersion: 2
+      x: 741
+      y: 352
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 741
+      y: 352
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle13
+    outer:
+      serializedVersion: 2
+      x: 741
+      y: 164
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 741
+      y: 164
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle8
+    outer:
+      serializedVersion: 2
+      x: 934
+      y: 1104
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 934
+      y: 1104
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle4
+    outer:
+      serializedVersion: 2
+      x: 1141
+      y: 1861
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 1141
+      y: 1861
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle3
+    outer:
+      serializedVersion: 2
+      x: 1334
+      y: 1861
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 1334
+      y: 1861
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle18
+    outer:
+      serializedVersion: 2
+      x: 1527
+      y: 1861
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 1527
+      y: 1861
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle2
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 540
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 540
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle11
+    outer:
+      serializedVersion: 2
+      x: 1720
+      y: 1861
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 1720
+      y: 1861
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle17
+    outer:
+      serializedVersion: 2
+      x: 1096
+      y: 1362
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 1096
+      y: 1362
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle16
+    outer:
+      serializedVersion: 2
+      x: 1289
+      y: 1362
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 1289
+      y: 1362
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle10
+    outer:
+      serializedVersion: 2
+      x: 1482
+      y: 1362
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 1482
+      y: 1362
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle20
+    outer:
+      serializedVersion: 2
+      x: 1675
+      y: 1362
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 1675
+      y: 1362
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle1
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 1104
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 1104
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle7
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 916
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 916
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle15
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 728
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 728
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: Circle12
+    outer:
+      serializedVersion: 2
+      x: 741
+      y: 1104
+      width: 192
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 741
+      y: 1104
+      width: 192
+      height: 187
+    rotated: 0
+    paddingLeft: 4.70833349
+    paddingRight: 4.95833349
+    paddingTop: 2.73796797
+    paddingBottom: 4.47593594
+  - name: star1
+    outer:
+      serializedVersion: 2
+      x: 822
+      y: 1550
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 822
+      y: 1550
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star7
+    outer:
+      serializedVersion: 2
+      x: 1096
+      y: 1550
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 1096
+      y: 1550
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star9
+    outer:
+      serializedVersion: 2
+      x: 1370
+      y: 1550
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 1370
+      y: 1550
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star19
+    outer:
+      serializedVersion: 2
+      x: 1644
+      y: 1550
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 1644
+      y: 1550
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star14
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 1292
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 1292
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star0
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1550
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1550
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star17
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 260
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 260
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star11
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 1550
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 1550
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star6
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 518
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 518
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star15
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 776
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 776
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star5
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1034
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1034
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1292
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1292
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star20
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 1034
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 1034
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star16
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 776
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 776
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star13
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 1550
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 1550
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star12
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 518
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 518
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star8
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 260
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 260
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star10
+    outer:
+      serializedVersion: 2
+      x: 274
+      y: 2
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 274
+      y: 2
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star3
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 1292
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 1292
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: star18
+    outer:
+      serializedVersion: 2
+      x: 822
+      y: 1292
+      width: 273
+      height: 257
+    inner:
+      serializedVersion: 2
+      x: 822
+      y: 1292
+      width: 273
+      height: 257
+    rotated: 0
+    paddingLeft: 3.16117215
+    paddingRight: 3.34065938
+    paddingTop: 1.81322956
+    paddingBottom: 3.16342402
+  - name: 14
+    outer:
+      serializedVersion: 2
+      x: 1913
+      y: 1933
+      width: 130
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1913
+      y: 1933
+      width: 130
+      height: 115
+    rotated: 0
+    paddingLeft: 7.21538448
+    paddingRight: 7.53846169
+    paddingTop: 4.80000019
+    paddingBottom: 7.55652189
+  - name: 20
+    outer:
+      serializedVersion: 2
+      x: 1868
+      y: 1437
+      width: 145
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1868
+      y: 1437
+      width: 145
+      height: 112
+    rotated: 0
+    paddingLeft: 6.42758608
+    paddingRight: 6.6965518
+    paddingTop: 4.90178585
+    paddingBottom: 7.8125
+  - name: 5
+    outer:
+      serializedVersion: 2
+      x: 1863
+      y: 1180
+      width: 73
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 1863
+      y: 1180
+      width: 73
+      height: 111
+    rotated: 0
+    paddingLeft: 13.2465754
+    paddingRight: 13.808219
+    paddingTop: 4.99099112
+    paddingBottom: 7.84684706
+  - name: 10
+    outer:
+      serializedVersion: 2
+      x: 1913
+      y: 1820
+      width: 131
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1913
+      y: 1820
+      width: 131
+      height: 112
+    rotated: 0
+    paddingLeft: 7.12977076
+    paddingRight: 7.5038166
+    paddingTop: 4.90178585
+    paddingBottom: 7.8125
+  - name: 2
+    outer:
+      serializedVersion: 2
+      x: 934
+      y: 885
+      width: 70
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 934
+      y: 885
+      width: 70
+      height: 108
+    rotated: 0
+    paddingLeft: 13.8285713
+    paddingRight: 14.4285717
+    paddingTop: 5.12962961
+    paddingBottom: 8.09259224
+  - name: 18
+    outer:
+      serializedVersion: 2
+      x: 1918
+      y: 1695
+      width: 128
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1918
+      y: 1695
+      width: 128
+      height: 112
+    rotated: 0
+    paddingLeft: 7.328125
+    paddingRight: 7.671875
+    paddingTop: 4.90178585
+    paddingBottom: 7.8125
+  - name: 17
+    outer:
+      serializedVersion: 2
+      x: 1868
+      y: 1325
+      width: 131
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 1868
+      y: 1325
+      width: 131
+      height: 111
+    rotated: 0
+    paddingLeft: 7.1603055
+    paddingRight: 7.47328234
+    paddingTop: 4.98198175
+    paddingBottom: 7.85585594
+  - name: 19
+    outer:
+      serializedVersion: 2
+      x: 548
+      y: 51
+      width: 124
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 548
+      y: 51
+      width: 124
+      height: 112
+    rotated: 0
+    paddingLeft: 7.56451607
+    paddingRight: 7.95161295
+    paddingTop: 4.90178585
+    paddingBottom: 7.8125
+  - name: 13
+    outer:
+      serializedVersion: 2
+      x: 1252
+      y: 1182
+      width: 123
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1252
+      y: 1182
+      width: 123
+      height: 109
+    rotated: 0
+    paddingLeft: 7.62601614
+    paddingRight: 8.02439022
+    paddingTop: 5.0733943
+    paddingBottom: 8.01834869
+  - name: 1
+    outer:
+      serializedVersion: 2
+      x: 2000
+      y: 1330
+      width: 46
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 2000
+      y: 1330
+      width: 46
+      height: 106
+    rotated: 0
+    paddingLeft: 21.086956
+    paddingRight: 22.434782
+    paddingTop: 5.22641516
+    paddingBottom: 8.26415062
+  - name: 15
+    outer:
+      serializedVersion: 2
+      x: 1127
+      y: 1180
+      width: 124
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 1127
+      y: 1180
+      width: 124
+      height: 111
+    rotated: 0
+    paddingLeft: 7.56451607
+    paddingRight: 7.95161295
+    paddingTop: 4.99099112
+    paddingBottom: 7.84684706
+  - name: 16
+    outer:
+      serializedVersion: 2
+      x: 1918
+      y: 1582
+      width: 126
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1918
+      y: 1582
+      width: 126
+      height: 112
+    rotated: 0
+    paddingLeft: 7.44444466
+    paddingRight: 7.80952358
+    paddingTop: 4.92857122
+    paddingBottom: 7.78571415
+  - name: 12
+    outer:
+      serializedVersion: 2
+      x: 741
+      y: 55
+      width: 128
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 741
+      y: 55
+      width: 128
+      height: 108
+    rotated: 0
+    paddingLeft: 7.328125
+    paddingRight: 7.671875
+    paddingTop: 5.11111116
+    paddingBottom: 8.11111069
+  - name: 3
+    outer:
+      serializedVersion: 2
+      x: 934
+      y: 994
+      width: 72
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 934
+      y: 994
+      width: 72
+      height: 109
+    rotated: 0
+    paddingLeft: 13.4305553
+    paddingRight: 14.0138893
+    paddingTop: 5.0733943
+    paddingBottom: 8.01834869
+  - name: 11
+    outer:
+      serializedVersion: 2
+      x: 1376
+      y: 1183
+      width: 106
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 1376
+      y: 1183
+      width: 106
+      height: 108
+    rotated: 0
+    paddingLeft: 8.84905624
+    paddingRight: 9.47169781
+    paddingTop: 5.11111116
+    paddingBottom: 8.11111069
+  - name: 7
+    outer:
+      serializedVersion: 2
+      x: 1563
+      y: 1180
+      width: 75
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 1563
+      y: 1180
+      width: 75
+      height: 111
+    rotated: 0
+    paddingLeft: 12.9066668
+    paddingRight: 13.3999996
+    paddingTop: 5
+    paddingBottom: 7.8378377
+  - name: +
+    outer:
+      serializedVersion: 2
+      x: 1007
+      y: 1021
+      width: 74
+      height: 82
+    inner:
+      serializedVersion: 2
+      x: 1007
+      y: 1021
+      width: 74
+      height: 82
+    rotated: 0
+    paddingLeft: 13.0675678
+    paddingRight: 13.6081085
+    paddingTop: 6.90243912
+    paddingBottom: 10.8292685
+  - name: '-'
+    outer:
+      serializedVersion: 2
+      x: 1219
+      y: 1843
+      width: 45
+      height: 17
+    inner:
+      serializedVersion: 2
+      x: 1219
+      y: 1843
+      width: 45
+      height: 17
+    rotated: 0
+    paddingLeft: 21.7111111
+    paddingRight: 22.7999992
+    paddingTop: 35.2352943
+    paddingBottom: 54.1176453
+  - name: =
+    outer:
+      serializedVersion: 2
+      x: 1141
+      y: 1808
+      width: 77
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1141
+      y: 1808
+      width: 77
+      height: 52
+    rotated: 0
+    paddingLeft: 12.4675322
+    paddingRight: 13.1298704
+    paddingTop: 11.2307692
+    paddingBottom: 17.3076916
+  - name: Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1808
+      width: 1140
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1808
+      width: 1140
+      height: 240
+    rotated: 0
+    paddingLeft: .437719285
+    paddingRight: .35877192
+    paddingTop: .641666651
+    paddingBottom: 4.75833321
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

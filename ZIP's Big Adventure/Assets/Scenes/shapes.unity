@@ -3227,6 +3227,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   root: {fileID: 0}
   toggleTime: .300000012
+  clipCorrectAnswer: {fileID: 8300000, guid: 244a238071d4b8745957e04956cc3d48, type: 3}
+  clipWrongAnswer: {fileID: 8300000, guid: bec89e82191c9784388731f6549773bb, type: 3}
 --- !u!1 &1607776915
 GameObject:
   m_ObjectHideFlags: 0

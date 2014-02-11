@@ -16,7 +16,7 @@ public class LevelCorrectDrag : ZIPLevel {
 	public AudioClip clipCorrectAnswer;
 	public AudioClip clipWrongAnswer;
 
-	private float happyEndTime = 2f;
+	private float happyEndTime = 3f;
 
 	private Vector3 zipPos;
 	private Vector3 zipSprite;

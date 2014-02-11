@@ -5,6 +5,7 @@ using System.Collections;
 public class EndItemMoveTo : EndItem {
 
 	public float duration;
+	public float delay;
 
 	public bool defaultUp = true;
 	public Vector3 to;
@@ -20,6 +21,7 @@ public class EndItemMoveTo : EndItem {
 	public override void Reset ()
 	{
 		iTween.Stop (gameObject, false);
+		StopAllCoroutines ();
 		if(!saved)
 		{
 			savePosition = transform.localPosition;
@@ -31,6 +33,12 @@ public class EndItemMoveTo : EndItem {
 	public override void Work ()
 	{
 		Reset ();
+		StartCoroutine ("Working");
+	}
+
+	private IEnumerator Working()
+	{
+		yield return new WaitForSeconds (delay);
 		iTween.MoveTo(gameObject,iTween.Hash("position",to,"time",duration,"islocal",true));
 	}
 }
