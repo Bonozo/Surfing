@@ -188,6 +188,7 @@
      <Compile Include="Assets\Scripts\Levels\WhatIsNextDrag.cs" />
      <Compile Include="Assets\Scripts\Levels\WinScreen.cs" />
      <Compile Include="Assets\Scripts\Levels\ZIPLevel.cs" />
+     <Compile Include="Assets\Scripts\Menus\ButtonBack.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonLoad.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonSimpleToggle.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonToggle.cs" />
