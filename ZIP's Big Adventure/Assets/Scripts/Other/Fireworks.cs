@@ -17,13 +17,6 @@ public class Fireworks : MonoBehaviour {
 		nextTime = Random.Range(0.1f,startDelayRate);
 	}
 
-	void OnDisable()
-	{
-		work = false;
-		foreach (Transform particle in transform)
-			Destroy (particle.gameObject);
-	}
-
 	void Update()
 	{
 		if (work)
