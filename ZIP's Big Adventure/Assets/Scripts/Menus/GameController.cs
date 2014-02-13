@@ -3,9 +3,9 @@ using System.Collections;
 
 public enum GameLevel
 {
-	firstGrade,
-	kindergarten,
-	preK
+	First,
+	Kindergarten,
+	PreK
 }
 
 public enum GameType

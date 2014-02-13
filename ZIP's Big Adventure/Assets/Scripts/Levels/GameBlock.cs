@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class GameBlock : MonoBehaviour {
-
+	
 	public ZIPLevel[] level;
 	public LevelPath path;
 	public bool showIntro = true;
@@ -13,12 +14,43 @@ public class GameBlock : MonoBehaviour {
 
 	void OnEnable()
 	{
+		// Set up Levels
+		var gmb = GameObject.Find(GameController.gameLevel.ToString());
+		if(gmb == null) 
+		{
+			collider.enabled = false;
+			Debug.LogError("" + GameController.gameLevel.ToString() + " level root could not be found.");
+			return;
+		}
+		
+		List<ZIPLevel> levels = new List<ZIPLevel>();
+		foreach(Transform g in gmb.transform)
+			foreach(Transform gg in g)
+				levels.Add(gg.GetComponent<ZIPLevel>());
+
+		if(levels.Count < level.Length)
+		{
+			collider.enabled = false;
+			Debug.Log("There is no enought levels.");
+			return;
+		}
+
+		for (int i = 0; i < levels.Count; i++) {
+			var temp = levels[i];
+			int randomIndex = Random.Range(i, levels.Count);
+			levels[i] = levels[randomIndex];
+			levels[randomIndex] = temp;
+		}
+		for(int i=0;i<level.Length;i++)
+			level[i] = levels[i];
+
 		StartCoroutine(StartGame());
 	}
 
 	IEnumerator StartGame()
 	{
 		yield return new WaitForEndOfFrame();
+
 		collider.enabled = false;
 		path.Reset();
 		gameIndex=0;

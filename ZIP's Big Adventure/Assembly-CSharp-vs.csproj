@@ -195,6 +195,7 @@
      <Compile Include="Assets\Scripts\Menus\GameController.cs" />
      <Compile Include="Assets\Scripts\Menus\Jungle.cs" />
      <Compile Include="Assets\Scripts\Menus\Loader.cs" />
+     <Compile Include="Assets\Scripts\Menus\TitleButton.cs" />
      <Compile Include="Assets\Scripts\Other\AutoDestroy.cs" />
      <Compile Include="Assets\Scripts\Other\Fireworks.cs" />
      <Compile Include="Assets\Scripts\Other\FireworksPart.cs" />

@@ -3039,7 +3039,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1502361862}
+  - {fileID: 913675743}
+  - {fileID: 2070862486}
   m_Father: {fileID: 1129770450}
 --- !u!1 &477267623
 GameObject:
@@ -6438,7 +6441,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 913675742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 621372098}
@@ -6453,7 +6456,7 @@ Transform:
   - {fileID: 772715814}
   - {fileID: 234253444}
   - {fileID: 1571747272}
-  m_Father: {fileID: 1720681798}
+  m_Father: {fileID: 474999904}
 --- !u!1 &921486529
 GameObject:
   m_ObjectHideFlags: 0
@@ -7638,6 +7641,32 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &1053998125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1053998126}
+  m_Layer: 8
+  m_Name: Kindergarten
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1053998126
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1053998125}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1129770450}
 --- !u!1 &1071596387
 GameObject:
   m_ObjectHideFlags: 0
@@ -8273,9 +8302,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2035630921}
-  - {fileID: 1720681798}
   - {fileID: 474999904}
+  - {fileID: 1053998126}
   m_Father: {fileID: 1607776916}
 --- !u!1 &1140364341
 GameObject:
@@ -11099,7 +11127,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1502361862}
   m_Layer: 8
-  m_Name: Match Pictures with Words
+  m_Name: Correct Answer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11112,7 +11140,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1502361861}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1943393967}
@@ -11122,7 +11150,7 @@ Transform:
   - {fileID: 1548519462}
   - {fileID: 1270153534}
   - {fileID: 1368882838}
-  m_Father: {fileID: 1720681798}
+  m_Father: {fileID: 474999904}
 --- !u!1 &1507333514
 GameObject:
   m_ObjectHideFlags: 0
@@ -12577,7 +12605,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.47763348, y: .738461554, z: 0}
+  m_LocalPosition: {x: -.643216074, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1607776916}
@@ -12985,34 +13013,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   to: {r: 1, g: 1, b: 1, a: 1}
   duration: 2
---- !u!1 &1720681797
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1720681798}
-  m_Layer: 8
-  m_Name: Kindergarten
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1720681798
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1720681797}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 913675743}
-  - {fileID: 1502361862}
-  m_Father: {fileID: 1129770450}
 --- !u!1 &1736793359
 GameObject:
   m_ObjectHideFlags: 0
@@ -14782,7 +14782,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1956016496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.738831, y: -383.261536, z: 0}
+  m_LocalPosition: {x: -512.643188, y: -383.356781, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 1898425767}
@@ -15875,33 +15875,6 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
---- !u!1 &2035630920
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2035630921}
-  m_Layer: 8
-  m_Name: First
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2035630921
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2035630920}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2070862486}
-  m_Father: {fileID: 1129770450}
 --- !u!1 &2037908140
 GameObject:
   m_ObjectHideFlags: 0
@@ -16418,13 +16391,13 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2070862485}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 758001310}
   - {fileID: 980011784}
   - {fileID: 102234253}
-  m_Father: {fileID: 2035630921}
+  m_Father: {fileID: 474999904}
 --- !u!1 &2082584132
 GameObject:
   m_ObjectHideFlags: 0
