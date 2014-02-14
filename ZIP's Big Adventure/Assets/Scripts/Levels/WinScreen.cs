@@ -32,13 +32,13 @@ public class WinScreen : MonoBehaviour {
 	IEnumerator EndGame()
 	{
 		
-		yield return new WaitForSeconds (8f);
+		/*yield return new WaitForSeconds (8f);
 		foreach(Transform t in transform)
 		{
 			if(t.gameObject.GetComponent<Fireworks>() != null)
 				Destroy(t.gameObject.GetComponent<Fireworks>());
 		}
-
+*/
 		yield return new WaitForSeconds (5f);
 		ended = true;
 	}

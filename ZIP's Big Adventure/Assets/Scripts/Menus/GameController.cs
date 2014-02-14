@@ -10,10 +10,10 @@ public enum GameLevel
 
 public enum GameType
 {
-	Shapes,
-	Numbers,
-	Letters,
-	Patterns
+	shapes,
+	numbers,
+	letters,
+	patterns
 }
 
 public class GameController : MonoBehaviour {
@@ -23,26 +23,6 @@ public class GameController : MonoBehaviour {
 	public static GameLevel gameLevel;
 	public static GameType gameType;
 
-	#endregion
-	
-	#region Game
-
-	public Transform root;
-	
-	public void LoadGame()
-	{
-		Resources.UnloadUnusedAssets ();
-		var gmb = Resources.Load<GameObject> (gameType.ToString () + "_" + gameLevel.ToString ());
-		gmb = Instantiate (gmb) as GameObject;
-		gmb.transform.parent = root;
-		gmb.transform.localPosition = new Vector3 (0f, 0f, 0f);
-		gmb.transform.localScale = new Vector3 (1f, 1f, 1f);
-	}
-
-	public void UnloadGame()
-	{
-	}
-		
 	#endregion
 
 	#region Toggles
