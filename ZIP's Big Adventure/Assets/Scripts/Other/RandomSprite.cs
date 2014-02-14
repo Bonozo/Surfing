@@ -16,6 +16,7 @@ public class RandomSprite : MonoBehaviour {
 	void OnEnable()
 	{
 		sprite.spriteName = spriteName [Random.Range (0, spriteName.Length)];
-		sprite.MakePixelPerfect ();
+		if(pixelPerfect)
+			sprite.MakePixelPerfect ();
 	}
 }

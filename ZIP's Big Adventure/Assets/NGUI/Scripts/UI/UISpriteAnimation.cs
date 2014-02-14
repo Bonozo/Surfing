@@ -19,6 +19,7 @@ public class UISpriteAnimation : MonoBehaviour
 	[HideInInspector][SerializeField] string mPrefix = "";
 	[HideInInspector][SerializeField] bool mLoop = true;
 
+	bool pixelPerfect = false;
 	UISprite mSprite;
 	float mDelta = 0f;
 	int mIndex = 0;
@@ -85,7 +86,8 @@ public class UISpriteAnimation : MonoBehaviour
 				if (mActive)
 				{
 					mSprite.spriteName = mSpriteNames[mIndex];
-					mSprite.MakePixelPerfect();
+					if(pixelPerfect)
+						mSprite.MakePixelPerfect();
 				}
 			}
 		}
@@ -129,7 +131,8 @@ public class UISpriteAnimation : MonoBehaviour
 		if (mSprite != null && mSpriteNames.Count > 0)
 		{
 			mSprite.spriteName = mSpriteNames[mIndex];
-			mSprite.MakePixelPerfect();
+			if(pixelPerfect)
+				mSprite.MakePixelPerfect();
 		}
 	}
 }

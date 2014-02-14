@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ShapesPointSD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: b2a8583ade5eaf246899bf2cc8a56155, type: 2}
+  sprites:
+  - name: SquareBook_Text
+    outer:
+      serializedVersion: 2
+      x: 945
+      y: 1835
+      width: 946
+      height: 213
+    inner:
+      serializedVersion: 2
+      x: 945
+      y: 1835
+      width: 946
+      height: 213
+    rotated: 0
+    paddingLeft: .0348837227
+    paddingRight: .0475687087
+    paddingTop: .0985915512
+    paddingBottom: .10798122
+  - name: SquareOven_End_B
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 220
+      width: 412
+      height: 320
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 220
+      width: 412
+      height: 320
+    rotated: 0
+    paddingLeft: .0776699036
+    paddingRight: .104368933
+    paddingTop: .165625006
+    paddingBottom: .174999997
+  - name: CircleSun_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1169
+      width: 443
+      height: 415
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1169
+      width: 443
+      height: 415
+    rotated: 0
+    paddingLeft: .0857787803
+    paddingRight: .069977425
+    paddingTop: .0771084353
+    paddingBottom: .0843373463
+  - name: CircleBirthdayCake_End_B
+    outer:
+      serializedVersion: 2
+      x: 912
+      y: 163
+      width: 311
+      height: 373
+    inner:
+      serializedVersion: 2
+      x: 912
+      y: 163
+      width: 311
+      height: 373
+    rotated: 0
+    paddingLeft: .147909969
+    paddingRight: .167202577
+    paddingTop: .0723860562
+    paddingBottom: .0938337818
+  - name: CircleBird_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 728
+      width: 405
+      height: 440
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 728
+      width: 405
+      height: 440
+    rotated: 0
+    paddingLeft: .130864203
+    paddingRight: .13333334
+    paddingTop: .0795454532
+    paddingBottom: 0
+  - name: SquareHappySquare_End
+    outer:
+      serializedVersion: 2
+      x: 1589
+      y: 599
+      width: 426
+      height: 261
+    inner:
+      serializedVersion: 2
+      x: 1589
+      y: 599
+      width: 426
+      height: 261
+    rotated: 0
+    paddingLeft: .0868544579
+    paddingRight: .115023471
+    paddingTop: .111111112
+    paddingBottom: .126436785
+  - name: CircleBirthdayCake_End
+    outer:
+      serializedVersion: 2
+      x: 1277
+      y: 487
+      width: 311
+      height: 373
+    inner:
+      serializedVersion: 2
+      x: 1277
+      y: 487
+      width: 311
+      height: 373
+    rotated: 0
+    paddingLeft: .0900321528
+    paddingRight: .147909969
+    paddingTop: .0884718522
+    paddingBottom: .0938337818
+  - name: CircleBird_Begin
+    outer:
+      serializedVersion: 2
+      x: 1406
+      y: 1268
+      width: 493
+      height: 316
+    inner:
+      serializedVersion: 2
+      x: 1406
+      y: 1268
+      width: 493
+      height: 316
+    rotated: 0
+    paddingLeft: .0385395549
+    paddingRight: 0
+    paddingTop: .0822784826
+    paddingBottom: .0727848113
+  - name: CircleSoccerBall_End
+    outer:
+      serializedVersion: 2
+      x: 1726
+      y: 920
+      width: 315
+      height: 299
+    inner:
+      serializedVersion: 2
+      x: 1726
+      y: 920
+      width: 315
+      height: 299
+    rotated: 0
+    paddingLeft: .161904767
+    paddingRight: .117460318
+    paddingTop: .0836120397
+    paddingBottom: .130434781
+  - name: CircleBirthdayCake_Begin
+    outer:
+      serializedVersion: 2
+      x: 912
+      y: 1258
+      width: 493
+      height: 326
+    inner:
+      serializedVersion: 2
+      x: 912
+      y: 1258
+      width: 493
+      height: 326
+    rotated: 0
+    paddingLeft: .0365111567
+    paddingRight: .00202839752
+    paddingTop: .0828220844
+    paddingBottom: .0245398767
+  - name: SquareBook_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 440
+      height: 328
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 4
+      width: 440
+      height: 328
+    rotated: 0
+    paddingLeft: .0659090877
+    paddingRight: .0977272764
+    paddingTop: .0518292673
+    paddingBottom: .0274390243
+  - name: SquareOven_Begin
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 1220
+      width: 467
+      height: 364
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 1220
+      width: 467
+      height: 364
+    rotated: 0
+    paddingLeft: .0513918623
+    paddingRight: .0449678786
+    paddingTop: .0741758272
+    paddingBottom: .00274725282
+  - name: Text
+    outer:
+      serializedVersion: 2
+      x: 945
+      y: 1640
+      width: 958
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 945
+      y: 1640
+      width: 958
+      height: 194
+    rotated: 0
+    paddingLeft: .0375782885
+    paddingRight: .031315241
+    paddingTop: .159793809
+    paddingBottom: .180412367
+  - name: CircleSoccerBall_End_B
+    outer:
+      serializedVersion: 2
+      x: 1277
+      y: 187
+      width: 315
+      height: 299
+    inner:
+      serializedVersion: 2
+      x: 1277
+      y: 187
+      width: 315
+      height: 299
+    rotated: 0
+    paddingLeft: .13333334
+    paddingRight: .117460318
+    paddingTop: .0836120397
+    paddingBottom: .130434781
+  - name: CircleSun_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 333
+      width: 419
+      height: 394
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 333
+      width: 419
+      height: 394
+    rotated: 0
+    paddingLeft: .0811455846
+    paddingRight: .140811458
+    paddingTop: .0786802024
+    paddingBottom: .0837563425
+  - name: SquareOven_End
+    outer:
+      serializedVersion: 2
+      x: 912
+      y: 537
+      width: 364
+      height: 323
+    inner:
+      serializedVersion: 2
+      x: 912
+      y: 537
+      width: 364
+      height: 323
+    rotated: 0
+    paddingLeft: .15384616
+    paddingRight: .151098907
+    paddingTop: .12693499
+    paddingBottom: .154798761
+  - name: CircleSun_Begin
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 541
+      width: 437
+      height: 348
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 541
+      width: 437
+      height: 348
+    rotated: 0
+    paddingLeft: .080091536
+    paddingRight: .0915331841
+    paddingTop: .100574709
+    paddingBottom: .0545977019
+  - name: CircleBird_End
+    outer:
+      serializedVersion: 2
+      x: 483
+      y: 1597
+      width: 461
+      height: 451
+    inner:
+      serializedVersion: 2
+      x: 483
+      y: 1597
+      width: 461
+      height: 451
+    rotated: 0
+    paddingLeft: .0498915389
+    paddingRight: .0607375279
+    paddingTop: .0753880292
+    paddingBottom: .00443458976
+  - name: SquareHappySquare_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1585
+      width: 482
+      height: 463
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1585
+      width: 482
+      height: 463
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0622406639
+    paddingTop: .047516197
+    paddingBottom: .0151187908
+  - name: SquareBook_End
+    outer:
+      serializedVersion: 2
+      x: 912
+      y: 861
+      width: 364
+      height: 358
+    inner:
+      serializedVersion: 2
+      x: 912
+      y: 861
+      width: 364
+      height: 358
+    rotated: 0
+    paddingLeft: .151098907
+    paddingRight: .129120886
+    paddingTop: .0474860333
+    paddingBottom: .167597771
+  - name: SquareHappySquare_End_B
+    outer:
+      serializedVersion: 2
+      x: 1277
+      y: 949
+      width: 448
+      height: 270
+    inner:
+      serializedVersion: 2
+      x: 1277
+      y: 949
+      width: 448
+      height: 270
+    rotated: 0
+    paddingLeft: .0736607164
+    paddingRight: .0691964254
+    paddingTop: .118518516
+    paddingBottom: .13333334
+  - name: CircleSoccerBall_Begin
+    outer:
+      serializedVersion: 2
+      x: 444
+      y: 890
+      width: 467
+      height: 329
+    inner:
+      serializedVersion: 2
+      x: 444
+      y: 890
+      width: 467
+      height: 329
+    rotated: 0
+    paddingLeft: .053533189
+    paddingRight: .0428265519
+    paddingTop: .0881458968
+    paddingBottom: .0455927067
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -132,7 +132,7 @@ MonoBehaviour:
     paddingBottom: .163265303
   mCoordinates: 0
   mPixelSize: 1
-  mReplacement: {fileID: 0}
+  mReplacement: {fileID: 11400000, guid: 041d0bb79c6d03049a067a99bf6b5e6a, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

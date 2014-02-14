@@ -255,6 +255,52 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &62162261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 62162262}
+  - 114: {fileID: 62162263}
+  m_Layer: 8
+  m_Name: FireWorks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &62162262
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 62162261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -400.063873, y: -250, z: 0}
+  m_LocalScale: {x: .999855995, y: .999855995, z: .999855995}
+  m_Children: []
+  m_Father: {fileID: 1087227032}
+--- !u!114 &62162263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 62162261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa075ba0e878b3479244e8d76c977c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - {fileID: 100002, guid: f308f04556d5b714ca3f7639785927b9, type: 2}
+  - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
+  - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
+  rangeBound: {x: 120, y: 120, z: 0}
+  rateMin: 2
+  rateMax: 4
+  startDelayRate: 2
 --- !u!1 &63490107
 GameObject:
   m_ObjectHideFlags: 0
@@ -1648,6 +1694,52 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &275686331
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 275686332}
+  - 114: {fileID: 275686333}
+  m_Layer: 8
+  m_Name: FireWorks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &275686332
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 275686331}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 400.032013, y: 0, z: 0}
+  m_LocalScale: {x: .999855995, y: .999855995, z: .999855995}
+  m_Children: []
+  m_Father: {fileID: 1087227032}
+--- !u!114 &275686333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 275686331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa075ba0e878b3479244e8d76c977c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - {fileID: 100002, guid: f308f04556d5b714ca3f7639785927b9, type: 2}
+  - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
+  - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
+  rangeBound: {x: 120, y: 120, z: 0}
+  rateMin: 2
+  rateMax: 4
+  startDelayRate: 2
 --- !u!1 &279823131
 GameObject:
   m_ObjectHideFlags: 0
@@ -3166,6 +3258,52 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &544859024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 544859025}
+  - 114: {fileID: 544859026}
+  m_Layer: 8
+  m_Name: FireWorks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &544859025
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 544859024}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 400, y: 250, z: 0}
+  m_LocalScale: {x: .999855995, y: .999855995, z: .999855995}
+  m_Children: []
+  m_Father: {fileID: 1087227032}
+--- !u!114 &544859026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 544859024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa075ba0e878b3479244e8d76c977c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - {fileID: 100002, guid: f308f04556d5b714ca3f7639785927b9, type: 2}
+  - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
+  - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
+  rangeBound: {x: 120, y: 120, z: 0}
+  rateMin: 2
+  rateMax: 4
+  startDelayRate: 2
 --- !u!1 &569742734
 GameObject:
   m_ObjectHideFlags: 0
@@ -3967,6 +4105,52 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &626775118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 626775119}
+  - 114: {fileID: 626775120}
+  m_Layer: 8
+  m_Name: FireWorks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &626775119
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 626775118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -400.031952, y: 0, z: 0}
+  m_LocalScale: {x: .999855995, y: .999855995, z: .999855995}
+  m_Children: []
+  m_Father: {fileID: 1087227032}
+--- !u!114 &626775120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 626775118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa075ba0e878b3479244e8d76c977c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - {fileID: 100002, guid: f308f04556d5b714ca3f7639785927b9, type: 2}
+  - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
+  - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
+  rangeBound: {x: 120, y: 120, z: 0}
+  rateMin: 2
+  rateMax: 4
+  startDelayRate: 2
 --- !u!1 &629180285
 GameObject:
   m_ObjectHideFlags: 0
@@ -6588,7 +6772,7 @@ Transform:
   m_GameObject: {fileID: 968029640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1034.23999, y: 775.679993, z: 1}
+  m_LocalScale: {x: 1034.23987, y: 775.679993, z: 1}
   m_Children: []
   m_Father: {fileID: 1607776916}
 --- !u!114 &968029642
@@ -7778,6 +7962,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1100061084}
+  - {fileID: 1744075538}
+  - {fileID: 1410591232}
+  - {fileID: 544859025}
+  - {fileID: 275686332}
+  - {fileID: 1534829846}
+  - {fileID: 626775119}
+  - {fileID: 62162262}
+  - {fileID: 1394468236}
+  - {fileID: 1966882394}
   m_Father: {fileID: 1670326203}
 --- !u!65 &1087227033
 BoxCollider:
@@ -10281,6 +10474,52 @@ Transform:
   - {fileID: 676843358}
   - {fileID: 385739684}
   m_Father: {fileID: 1372706906}
+--- !u!1 &1394468235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1394468236}
+  - 114: {fileID: 1394468237}
+  m_Layer: 8
+  m_Name: FireWorks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1394468236
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394468235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.38282776e-05, y: -250, z: 0}
+  m_LocalScale: {x: .999855995, y: .999855995, z: .999855995}
+  m_Children: []
+  m_Father: {fileID: 1087227032}
+--- !u!114 &1394468237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1394468235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa075ba0e878b3479244e8d76c977c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - {fileID: 100002, guid: f308f04556d5b714ca3f7639785927b9, type: 2}
+  - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
+  - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
+  rangeBound: {x: 120, y: 120, z: 0}
+  rateMin: 2
+  rateMax: 4
+  startDelayRate: 2
 --- !u!1 &1408546115
 GameObject:
   m_ObjectHideFlags: 0
@@ -10395,6 +10634,52 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &1410591231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1410591232}
+  - 114: {fileID: 1410591233}
+  m_Layer: 8
+  m_Name: FireWorks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1410591232
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1410591231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 250, z: 0}
+  m_LocalScale: {x: .999855995, y: .999855995, z: .999855995}
+  m_Children: []
+  m_Father: {fileID: 1087227032}
+--- !u!114 &1410591233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1410591231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa075ba0e878b3479244e8d76c977c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - {fileID: 100002, guid: f308f04556d5b714ca3f7639785927b9, type: 2}
+  - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
+  - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
+  rangeBound: {x: 120, y: 120, z: 0}
+  rateMin: 2
+  rateMax: 4
+  startDelayRate: 2
 --- !u!1 &1431655690
 GameObject:
   m_ObjectHideFlags: 0
@@ -10997,6 +11282,52 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &1534829845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1534829846}
+  - 114: {fileID: 1534829847}
+  m_Layer: 8
+  m_Name: FireWorks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1534829846
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1534829845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.38282776e-05, y: 0, z: 0}
+  m_LocalScale: {x: .999855995, y: .999855995, z: .999855995}
+  m_Children: []
+  m_Father: {fileID: 1087227032}
+--- !u!114 &1534829847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1534829845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa075ba0e878b3479244e8d76c977c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - {fileID: 100002, guid: f308f04556d5b714ca3f7639785927b9, type: 2}
+  - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
+  - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
+  rangeBound: {x: 120, y: 120, z: 0}
+  rateMin: 2
+  rateMax: 4
+  startDelayRate: 2
 --- !u!1 &1541194815
 GameObject:
   m_ObjectHideFlags: 0
@@ -11202,6 +11533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158ad95a7bf2b8944805fd5584f93bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  root: {fileID: 0}
   toggleTime: .300000012
   clipCorrectAnswer: {fileID: 8300000, guid: 244a238071d4b8745957e04956cc3d48, type: 3}
   clipWrongAnswer: {fileID: 8300000, guid: bec89e82191c9784388731f6549773bb, type: 3}
@@ -12245,7 +12577,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.707182407, y: 1.4143647, z: 0}
+  m_LocalPosition: {x: -.680851042, y: .680851042, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1607776916}
@@ -12955,6 +13287,52 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &1744075537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1744075538}
+  - 114: {fileID: 1744075539}
+  m_Layer: 8
+  m_Name: FireWorks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1744075538
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1744075537}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -400, y: 250, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1087227032}
+--- !u!114 &1744075539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1744075537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa075ba0e878b3479244e8d76c977c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - {fileID: 100002, guid: f308f04556d5b714ca3f7639785927b9, type: 2}
+  - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
+  - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
+  rangeBound: {x: 120, y: 120, z: 0}
+  rateMin: 2
+  rateMax: 4
+  startDelayRate: 2
 --- !u!1 &1751905787
 GameObject:
   m_ObjectHideFlags: 0
@@ -14404,7 +14782,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1956016496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.707153, y: -383.292816, z: 0}
+  m_LocalPosition: {x: -512.680847, y: -383.319153, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 1898425767}
@@ -14533,6 +14911,52 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &1966882393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1966882394}
+  - 114: {fileID: 1966882395}
+  m_Layer: 8
+  m_Name: FireWorks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1966882394
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1966882393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 400.063904, y: -250, z: 0}
+  m_LocalScale: {x: .999855995, y: .999855995, z: .999855995}
+  m_Children: []
+  m_Father: {fileID: 1087227032}
+--- !u!114 &1966882395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1966882393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa075ba0e878b3479244e8d76c977c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles:
+  - {fileID: 100002, guid: f308f04556d5b714ca3f7639785927b9, type: 2}
+  - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
+  - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
+  rangeBound: {x: 120, y: 120, z: 0}
+  rateMin: 2
+  rateMax: 4
+  startDelayRate: 2
 --- !u!1 &1968303749
 GameObject:
   m_ObjectHideFlags: 0

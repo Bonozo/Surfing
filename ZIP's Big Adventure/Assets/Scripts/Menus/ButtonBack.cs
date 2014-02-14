@@ -6,15 +6,14 @@ public class ButtonBack : MonoBehaviour {
 	bool started = false;
 	void OnClick()
 	{
-		Application.LoadLevel ("loader");
-		/*if(!started)
+		if(!started)
 		{
 			started = true;
 			StartCoroutine (EndGame ());
-		}*/
+		}
 	}
 	
-	/*IEnumerator EndGame()
+	IEnumerator EndGame()
 	{
 		Fireworks[] fw = GameObject.FindObjectsOfType<Fireworks> ();
 		foreach(var ff in fw) Destroy(ff.gameObject);
@@ -22,5 +21,5 @@ public class ButtonBack : MonoBehaviour {
 		yield return new WaitForSeconds (0.25f);
 		Loader.sceneName = "title";
 		Application.LoadLevel ("loader");
-	}*/
+	}
 }

@@ -602,13 +602,13 @@ Transform:
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children:
   - {fileID: 441360130}
+  - {fileID: 971227259}
   - {fileID: 2131785675}
   - {fileID: 560835718}
   - {fileID: 1567172404}
   - {fileID: 111568871}
   - {fileID: 1509985280}
   - {fileID: 1060421176}
-  - {fileID: 649654978}
   m_Father: {fileID: 322977017}
 --- !u!1 &441360129
 GameObject:
@@ -970,12 +970,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 601466793}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df9bfb5c080dac24cbbc6c9f595ed413, type: 3}
+  m_Script: {fileID: 11500000, guid: 150eea64ba46e6747bdd1109cb739f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mFPS: 1
   mPrefix: Cover Page_
   mLoop: 1
+  mPixelPerfect: 0
 --- !u!114 &601466796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1022,9 +1023,9 @@ Transform:
   m_GameObject: {fileID: 649654977}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1373, y: 172, z: 1}
+  m_LocalScale: {x: 744, y: 128, z: 1}
   m_Children: []
-  m_Father: {fileID: 427594446}
+  m_Father: {fileID: 971227259}
 --- !u!114 &649654979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1040,7 +1041,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 2
   mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
-  mSpriteName: Table of Contents_TextC
+  mSpriteName: Table of Contents_TextA
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -1207,6 +1208,33 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &971227258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 971227259}
+  m_Layer: 8
+  m_Name: Scalar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &971227259
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 971227258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children:
+  - {fileID: 649654978}
+  m_Father: {fileID: 427594446}
 --- !u!1 &1017941299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,7 +1328,7 @@ MonoBehaviour:
   mFPS: 1
   mPrefix: TOC_Park
   mLoop: 1
-  mPixelPerfect: 1
+  mPixelPerfect: 0
 --- !u!1 &1079422381
 GameObject:
   m_ObjectHideFlags: 0
@@ -1527,8 +1555,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1321500075}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 885, y: 766, z: 1}
+  m_LocalPosition: {x: 85, y: -19, z: 0}
+  m_LocalScale: {x: 724, y: 738, z: 1}
   m_Children: []
   m_Father: {fileID: 111568871}
 --- !u!114 &1321500077
@@ -1676,7 +1704,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158ad95a7bf2b8944805fd5584f93bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  root: {fileID: 0}
   toggleTime: .300000012
   clipCorrectAnswer: {fileID: 0}
   clipWrongAnswer: {fileID: 0}
@@ -1883,7 +1910,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.707182407, y: 1.41436481, z: 0}
+  m_LocalPosition: {x: 0, y: .909952641, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 477267624}
