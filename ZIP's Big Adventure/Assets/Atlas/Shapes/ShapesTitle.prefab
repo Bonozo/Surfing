@@ -44,15 +44,15 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 512
-      width: 2048
-      height: 1536
+      y: 2755
+      width: 1024
+      height: 768
     inner:
       serializedVersion: 2
       x: 0
-      y: 512
-      width: 2048
-      height: 1536
+      y: 2755
+      width: 1024
+      height: 768
     rotated: 0
     paddingLeft: 0
     paddingRight: 0
@@ -61,21 +61,39 @@ MonoBehaviour:
   - name: Shapes Intro
     outer:
       serializedVersion: 2
-      x: 2048
-      y: 1476
+      x: 0
+      y: 3524
       width: 1259
       height: 572
     inner:
       serializedVersion: 2
-      x: 2048
-      y: 1476
+      x: 0
+      y: 3524
       width: 1259
       height: 572
     rotated: 0
-    paddingLeft: .347100884
-    paddingRight: .279586971
-    paddingTop: .400349647
-    paddingBottom: 1.28496504
+    paddingLeft: .0476568714
+    paddingRight: .037331216
+    paddingTop: .0419580415
+    paddingBottom: .0786713287
+  - name: Shapes Game Win
+    outer:
+      serializedVersion: 2
+      x: 1260
+      y: 3328
+      width: 1024
+      height: 768
+    inner:
+      serializedVersion: 2
+      x: 1260
+      y: 3328
+      width: 1024
+      height: 768
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

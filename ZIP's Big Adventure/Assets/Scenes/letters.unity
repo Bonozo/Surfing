@@ -3424,8 +3424,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 11400000, guid: d7f712010d8d0a14bb3b2f94c1f1aabc, type: 2}
-  mSpriteName: Shapes Intro
+  mAtlas: {fileID: 11400000, guid: f30683ca171068846b60a1ab083eea2b, type: 2}
+  mSpriteName: Letters Intro
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -8341,7 +8341,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1146410473
 Transform:
   m_ObjectHideFlags: 0
@@ -8349,8 +8349,8 @@ Transform:
   m_PrefabInternal: {fileID: 1532026724}
   m_GameObject: {fileID: 1146410472}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 558.5, y: 212.5, z: 1}
+  m_LocalPosition: {x: 450.380005, y: -273, z: 0}
+  m_LocalScale: {x: 104, y: 111, z: 1}
   m_Children: []
   m_Father: {fileID: 921486530}
 --- !u!114 &1146410474
@@ -8366,7 +8366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mFPS: 7
-  mPrefix: Lucky's Pose_
+  mPrefix: Patty's Pose_
   mLoop: 1
   mPixelPerfect: 0
 --- !u!114 &1146410475
@@ -8385,9 +8385,9 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 3
   mAtlas: {fileID: 11400000, guid: e8ea6f132f38ebb48a2f106ff85d395c, type: 2}
-  mSpriteName: Lucky's Pose_3
+  mSpriteName: Patty's Pose_3
   mFillCenter: 1
-  mType: 0
+  mType: 1
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -11195,11 +11195,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400030, guid: 89b6a059f24539b4191f19437df5c08a, type: 2}
       propertyPath: mSpriteName
-      value: Lucky's Pose_3
+      value: Patty's Pose_3
       objectReference: {fileID: 0}
     - target: {fileID: 11400028, guid: 89b6a059f24539b4191f19437df5c08a, type: 2}
       propertyPath: mPrefix
-      value: Lucky's Pose_
+      value: Patty's Pose_
       objectReference: {fileID: 0}
     - target: {fileID: 11400028, guid: 89b6a059f24539b4191f19437df5c08a, type: 2}
       propertyPath: mPixelPerfect
@@ -11207,27 +11207,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 89b6a059f24539b4191f19437df5c08a, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -273
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 89b6a059f24539b4191f19437df5c08a, type: 2}
       propertyPath: m_LocalScale.x
-      value: 558.5
+      value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 89b6a059f24539b4191f19437df5c08a, type: 2}
       propertyPath: m_LocalScale.y
-      value: 212.5
+      value: 111
       objectReference: {fileID: 0}
     - target: {fileID: 400030, guid: 89b6a059f24539b4191f19437df5c08a, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 450.380005
       objectReference: {fileID: 0}
     - target: {fileID: 11400030, guid: 89b6a059f24539b4191f19437df5c08a, type: 2}
       propertyPath: mType
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100030, guid: 89b6a059f24539b4191f19437df5c08a, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 89b6a059f24539b4191f19437df5c08a, type: 2}
@@ -11888,7 +11888,7 @@ MonoBehaviour:
   - {fileID: 1653931202}
   - {fileID: 951363271}
   path: {fileID: 921486531}
-  showIntro: 0
+  showIntro: 1
   intro: {fileID: 573083114}
   winToggle: {fileID: 1087227031}
 --- !u!1 &1619356221
@@ -12577,7 +12577,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.47763348, y: .738461554, z: 0}
+  m_LocalPosition: {x: -.70523417, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1607776916}
@@ -14782,7 +14782,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1956016496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.738831, y: -383.261536, z: 0}
+  m_LocalPosition: {x: -512.705322, y: -383.29541, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 1898425767}

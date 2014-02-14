@@ -44,13 +44,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 512
+      y: 1023
       width: 2048
       height: 1536
     inner:
       serializedVersion: 2
       x: 0
-      y: 512
+      y: 1023
       width: 2048
       height: 1536
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: Numbers Game Win
     outer:
       serializedVersion: 2
-      x: 2048
-      y: 512
+      x: 0
+      y: 2560
       width: 2048
       height: 1536
     inner:
       serializedVersion: 2
-      x: 2048
-      y: 512
+      x: 0
+      y: 2560
       width: 2048
       height: 1536
     rotated: 0
@@ -76,6 +76,24 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: Number intro
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 292
+      width: 1316
+      height: 730
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 292
+      width: 1316
+      height: 730
+    rotated: 0
+    paddingLeft: .0486322194
+    paddingRight: .0189969614
+    paddingTop: .0369863026
+    paddingBottom: .0452054776
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

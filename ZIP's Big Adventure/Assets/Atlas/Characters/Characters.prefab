@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: ZipFront_4
     outer:
       serializedVersion: 2
-      x: 0
-      y: 341
+      x: 1516
+      y: 329
       width: 321
       height: 429
     inner:
       serializedVersion: 2
-      x: 0
-      y: 341
+      x: 1516
+      y: 329
       width: 321
       height: 429
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: ZipFront_5
     outer:
       serializedVersion: 2
-      x: 1481
-      y: 1158
+      x: 1485
+      y: 1619
       width: 337
       height: 429
     inner:
       serializedVersion: 2
-      x: 1481
-      y: 1158
+      x: 1485
+      y: 1619
       width: 337
       height: 429
     rotated: 0
@@ -79,14 +79,14 @@ MonoBehaviour:
   - name: ZipFront_2
     outer:
       serializedVersion: 2
-      x: 1127
-      y: 1193
+      x: 1131
+      y: 1619
       width: 353
       height: 429
     inner:
       serializedVersion: 2
-      x: 1127
-      y: 1193
+      x: 1131
+      y: 1619
       width: 353
       height: 429
     rotated: 0
@@ -97,14 +97,14 @@ MonoBehaviour:
   - name: ZipFront_1
     outer:
       serializedVersion: 2
-      x: 1447
-      y: 728
+      x: 1516
+      y: 759
       width: 328
       height: 429
     inner:
       serializedVersion: 2
-      x: 1447
-      y: 728
+      x: 1516
+      y: 759
       width: 328
       height: 429
     rotated: 0
@@ -115,13 +115,13 @@ MonoBehaviour:
   - name: ZipFront_6
     outer:
       serializedVersion: 2
-      x: 322
+      x: 0
       y: 341
       width: 320
       height: 429
     inner:
       serializedVersion: 2
-      x: 322
+      x: 0
       y: 341
       width: 320
       height: 429
@@ -133,14 +133,14 @@ MonoBehaviour:
   - name: ZipFront_7
     outer:
       serializedVersion: 2
-      x: 1563
-      y: 1588
+      x: 1118
+      y: 736
       width: 397
       height: 460
     inner:
       serializedVersion: 2
-      x: 1563
-      y: 1588
+      x: 1118
+      y: 736
       width: 397
       height: 460
     rotated: 0
@@ -151,14 +151,14 @@ MonoBehaviour:
   - name: ZipFront_3
     outer:
       serializedVersion: 2
-      x: 1118
-      y: 763
+      x: 1516
+      y: 1189
       width: 328
       height: 429
     inner:
       serializedVersion: 2
-      x: 1118
-      y: 763
+      x: 1516
+      y: 1189
       width: 328
       height: 429
     rotated: 0
@@ -169,14 +169,14 @@ MonoBehaviour:
   - name: ZipWalking_2
     outer:
       serializedVersion: 2
-      x: 925
-      y: 147
+      x: 947
+      y: 565
       width: 134
       height: 205
     inner:
       serializedVersion: 2
-      x: 925
-      y: 147
+      x: 947
+      y: 565
       width: 134
       height: 205
     rotated: 0
@@ -187,14 +187,14 @@ MonoBehaviour:
   - name: ZipWalking_7
     outer:
       serializedVersion: 2
-      x: 1311
-      y: 522
+      x: 672
+      y: 565
       width: 137
       height: 205
     inner:
       serializedVersion: 2
-      x: 1311
-      y: 522
+      x: 672
+      y: 565
       width: 137
       height: 205
     rotated: 0
@@ -205,14 +205,14 @@ MonoBehaviour:
   - name: ZipWalking_3
     outer:
       serializedVersion: 2
-      x: 1449
-      y: 522
+      x: 1246
+      y: 530
       width: 127
       height: 205
     inner:
       serializedVersion: 2
-      x: 1449
-      y: 522
+      x: 1246
+      y: 530
       width: 127
       height: 205
     rotated: 0
@@ -223,14 +223,14 @@ MonoBehaviour:
   - name: ZipWalking_1
     outer:
       serializedVersion: 2
-      x: 1172
-      y: 351
+      x: 810
+      y: 565
       width: 136
       height: 205
     inner:
       serializedVersion: 2
-      x: 1172
-      y: 351
+      x: 810
+      y: 565
       width: 136
       height: 205
     rotated: 0
@@ -241,14 +241,14 @@ MonoBehaviour:
   - name: Honey's pose_1
     outer:
       serializedVersion: 2
-      x: 1776
-      y: 904
+      x: 1838
+      y: 505
       width: 198
       height: 253
     inner:
       serializedVersion: 2
-      x: 1776
-      y: 904
+      x: 1838
+      y: 505
       width: 198
       height: 253
     rotated: 0
@@ -259,14 +259,14 @@ MonoBehaviour:
   - name: Honey's pose_2
     outer:
       serializedVersion: 2
-      x: 1819
-      y: 1335
+      x: 1838
+      y: 252
       width: 196
       height: 252
     inner:
       serializedVersion: 2
-      x: 1819
-      y: 1335
+      x: 1838
+      y: 252
       width: 196
       height: 252
     rotated: 0
@@ -277,14 +277,14 @@ MonoBehaviour:
   - name: Star
     outer:
       serializedVersion: 2
-      x: 1447
-      y: 1169
+      x: 1486
+      y: 1389
       width: 25
       height: 23
     inner:
       serializedVersion: 2
-      x: 1447
-      y: 1169
+      x: 1486
+      y: 1389
       width: 25
       height: 23
     rotated: 0
@@ -295,14 +295,14 @@ MonoBehaviour:
   - name: Path
     outer:
       serializedVersion: 2
-      x: 0
-      y: 308
+      x: 321
+      y: 515
       width: 924
       height: 32
     inner:
       serializedVersion: 2
-      x: 0
-      y: 308
+      x: 321
+      y: 515
       width: 924
       height: 32
     rotated: 0
@@ -313,14 +313,14 @@ MonoBehaviour:
   - name: ZipWalking_4
     outer:
       serializedVersion: 2
-      x: 1172
-      y: 557
+      x: 533
+      y: 565
       width: 138
       height: 205
     inner:
       serializedVersion: 2
-      x: 1172
-      y: 557
+      x: 533
+      y: 565
       width: 138
       height: 205
     rotated: 0
@@ -331,14 +331,14 @@ MonoBehaviour:
   - name: ZipWalking_5
     outer:
       serializedVersion: 2
-      x: 788
-      y: 353
+      x: 1342
+      y: 1207
       width: 143
       height: 205
     inner:
       serializedVersion: 2
-      x: 788
-      y: 353
+      x: 1342
+      y: 1207
       width: 143
       height: 205
     rotated: 0
@@ -349,14 +349,14 @@ MonoBehaviour:
   - name: ZipWalking_6
     outer:
       serializedVersion: 2
-      x: 643
-      y: 353
+      x: 1342
+      y: 1413
       width: 144
       height: 205
     inner:
       serializedVersion: 2
-      x: 643
-      y: 353
+      x: 1342
+      y: 1413
       width: 144
       height: 205
     rotated: 0
@@ -367,14 +367,14 @@ MonoBehaviour:
   - name: Marty's pose_1
     outer:
       serializedVersion: 2
-      x: 643
-      y: 559
+      x: 1845
+      y: 1363
       width: 176
       height: 211
     inner:
       serializedVersion: 2
-      x: 643
-      y: 559
+      x: 1845
+      y: 1363
       width: 176
       height: 211
     rotated: 0
@@ -385,14 +385,14 @@ MonoBehaviour:
   - name: Marty's pose_3
     outer:
       serializedVersion: 2
-      x: 820
-      y: 559
+      x: 1845
+      y: 1151
       width: 175
       height: 211
     inner:
       serializedVersion: 2
-      x: 820
-      y: 559
+      x: 1845
+      y: 1151
       width: 175
       height: 211
     rotated: 0
@@ -403,14 +403,14 @@ MonoBehaviour:
   - name: Marty's pose_2
     outer:
       serializedVersion: 2
-      x: 996
-      y: 551
+      x: 1845
+      y: 939
       width: 175
       height: 211
     inner:
       serializedVersion: 2
-      x: 996
-      y: 551
+      x: 1845
+      y: 939
       width: 175
       height: 211
     rotated: 0
@@ -421,14 +421,14 @@ MonoBehaviour:
   - name: Honey's pose_3
     outer:
       serializedVersion: 2
-      x: 1776
-      y: 653
+      x: 1845
+      y: 1575
       width: 182
       height: 250
     inner:
       serializedVersion: 2
-      x: 1776
-      y: 653
+      x: 1845
+      y: 1575
       width: 182
       height: 250
     rotated: 0
@@ -457,13 +457,13 @@ MonoBehaviour:
   - name: Lucky's Pose_1
     outer:
       serializedVersion: 2
-      x: 432
+      x: 0
       y: 1623
       width: 1130
       height: 425
     inner:
       serializedVersion: 2
-      x: 432
+      x: 0
       y: 1623
       width: 1130
       height: 425
@@ -494,13 +494,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1740
+      y: 32
       width: 431
       height: 308
     inner:
       serializedVersion: 2
       x: 0
-      y: 1740
+      y: 32
       width: 431
       height: 308
     rotated: 0
@@ -508,6 +508,60 @@ MonoBehaviour:
     paddingRight: 1.92111373
     paddingTop: 1.83766234
     paddingBottom: 2.14935064
+  - name: Patty's Pose_3
+    outer:
+      serializedVersion: 2
+      x: 1823
+      y: 1826
+      width: 209
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 1823
+      y: 1826
+      width: 209
+      height: 222
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .234449759
+    paddingTop: .153153151
+    paddingBottom: .171171173
+  - name: Patty's Pose_2
+    outer:
+      serializedVersion: 2
+      x: 1127
+      y: 1396
+      width: 214
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 1127
+      y: 1396
+      width: 214
+      height: 222
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .205607474
+    paddingTop: .139639646
+    paddingBottom: .171171173
+  - name: Patty's Pose_1
+    outer:
+      serializedVersion: 2
+      x: 321
+      y: 548
+      width: 211
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 321
+      y: 548
+      width: 211
+      height: 222
+    rotated: 0
+    paddingLeft: .0758293867
+    paddingRight: .194312796
+    paddingTop: .0720720738
+    paddingBottom: .117117114
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

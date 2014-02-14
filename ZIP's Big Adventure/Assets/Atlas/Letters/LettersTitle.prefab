@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: Letters Background
     outer:
       serializedVersion: 2
-      x: 2048
-      y: 512
+      x: 0
+      y: 1023
       width: 2048
       height: 1536
     inner:
       serializedVersion: 2
-      x: 2048
-      y: 512
+      x: 0
+      y: 1023
       width: 2048
       height: 1536
     rotated: 0
@@ -62,13 +62,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 512
+      y: 2560
       width: 2048
       height: 1536
     inner:
       serializedVersion: 2
       x: 0
-      y: 512
+      y: 2560
       width: 2048
       height: 1536
     rotated: 0
@@ -76,6 +76,24 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: Letters Intro
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 452
+      width: 1299
+      height: 570
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 452
+      width: 1299
+      height: 570
+    rotated: 0
+    paddingLeft: .0869899914
+    paddingRight: .0500384904
+    paddingTop: .0789473653
+    paddingBottom: .0842105299
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
