@@ -189,6 +189,7 @@
      <Compile Include="Assets\Scripts\Levels\WinScreen.cs" />
      <Compile Include="Assets\Scripts\Levels\ZIPLevel.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonBack.cs" />
+     <Compile Include="Assets\Scripts\Menus\ButtonContent.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonLoad.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonSimpleToggle.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonToggle.cs" />
@@ -196,11 +197,12 @@
      <Compile Include="Assets\Scripts\Menus\InGameLoad.cs" />
      <Compile Include="Assets\Scripts\Menus\Jungle.cs" />
      <Compile Include="Assets\Scripts\Menus\Loader.cs" />
+     <Compile Include="Assets\Scripts\Menus\Title.cs" />
      <Compile Include="Assets\Scripts\Menus\TitleButton.cs" />
      <Compile Include="Assets\Scripts\Other\AutoDestroy.cs" />
      <Compile Include="Assets\Scripts\Other\Fireworks.cs" />
      <Compile Include="Assets\Scripts\Other\FireworksPart.cs" />
-     <Compile Include="Assets\Scripts\Other\RandomSprite.cs" />
+     <Compile Include="Assets\Scripts\Other\MenuTitle.cs" />
      <Compile Include="Assets\Scripts\Other\SimpleRotate.cs" />
      <Compile Include="Assets\Scripts\Other\SimpleUITextureAnimation.cs" />
      <Compile Include="Assets\Scripts\Other\UIAnimation.cs" />

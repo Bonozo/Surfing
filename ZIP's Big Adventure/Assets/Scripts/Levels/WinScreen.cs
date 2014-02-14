@@ -22,7 +22,12 @@ public class WinScreen : MonoBehaviour {
 
 	IEnumerator EndGame()
 	{
-		
+		PlayerPrefs.SetInt (Application.loadedLevelName, 1);
+
+		int cmpt = PlayerPrefs.GetInt ("completed_games", 0);
+		PlayerPrefs.SetInt ("completed_games", cmpt + 1);
+
+		PlayerPrefs.Save ();
 		yield return new WaitForSeconds (8f);
 		foreach(Transform t in transform)
 		{

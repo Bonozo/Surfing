@@ -238,6 +238,7 @@ GameObject:
   - 114: {fileID: 111568874}
   - 114: {fileID: 111568872}
   - 114: {fileID: 111568873}
+  - 114: {fileID: 111568876}
   m_Layer: 8
   m_Name: Button Honey
   m_TagString: Untagged
@@ -252,7 +253,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 111568870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29, y: -362, z: 0}
+  m_LocalPosition: {x: -30, y: -362, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1321500076}
@@ -281,10 +282,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 111568870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 666ab873939e0e548b4525286be8ab9a, type: 3}
+  m_Script: {fileID: 11500000, guid: cf89a3fc290a7c74e9b76d58a09245be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: patterns
+  levelName: patterns
 --- !u!114 &111568874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,6 +313,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 695, y: 519, z: 0}
   m_Center: {x: 101.400002, y: -125.529999, z: -.5}
+--- !u!114 &111568876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 111568870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 1321500075}
+  hover: {r: 1, g: 1, b: 1, a: 1}
+  pressed: {r: .975862026, g: .975862026, b: .975862026, a: 1}
+  duration: .200000003
+  disabledColor: {r: .700000048, g: .700000048, b: .700000048, a: 1}
 --- !u!1 &113789587
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,7 +495,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &322977017
 Transform:
   m_ObjectHideFlags: 0
@@ -762,44 +779,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 195, y: 85, z: 0}
   m_Center: {x: -7.62939453e-06, y: -1.90734863e-06, z: -.75}
---- !u!1 &477267623
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 477267624}
-  - 114: {fileID: 477267625}
-  m_Layer: 8
-  m_Name: Game
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &477267624
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 477267623}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1670326203}
---- !u!114 &477267625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 477267623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da354639d6ab83747a643552f218ffb9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &537050816
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +839,7 @@ GameObject:
   - 114: {fileID: 560835720}
   - 114: {fileID: 560835722}
   - 114: {fileID: 560835719}
+  - 114: {fileID: 560835723}
   m_Layer: 8
   m_Name: Button Lucky
   m_TagString: Untagged
@@ -888,10 +868,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 560835717}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 666ab873939e0e548b4525286be8ab9a, type: 3}
+  m_Script: {fileID: 11500000, guid: cf89a3fc290a7c74e9b76d58a09245be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: shapes
+  levelName: shapes
 --- !u!114 &560835720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -934,6 +914,22 @@ MonoBehaviour:
   hover: {x: 1, y: 1, z: 1}
   pressed: {x: 1.01999998, y: 1.01999998, z: 1.01999998}
   duration: .200000003
+--- !u!114 &560835723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 560835717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 906629061}
+  hover: {r: 1, g: 1, b: 1, a: 1}
+  pressed: {r: .975862026, g: .975862026, b: .975862026, a: 1}
+  duration: .200000003
+  disabledColor: {r: .700000048, g: .700000048, b: .700000048, a: 1}
 --- !u!1 &601466793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,7 +1019,7 @@ Transform:
   m_GameObject: {fileID: 649654977}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 744, y: 128, z: 1}
+  m_LocalScale: {x: 687, y: 86, z: 1}
   m_Children: []
   m_Father: {fileID: 971227259}
 --- !u!114 &649654979
@@ -1041,7 +1037,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 2
   mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
-  mSpriteName: Table of Contents_TextA
+  mSpriteName: Table of Contents_TextC
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -1243,6 +1239,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1017941300}
+  - 114: {fileID: 1017941301}
   m_Layer: 8
   m_Name: Title
   m_TagString: Untagged
@@ -1265,6 +1262,18 @@ Transform:
   - {fileID: 89417623}
   - {fileID: 1293832762}
   m_Father: {fileID: 1670326203}
+--- !u!114 &1017941301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1017941299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c536f46965cb3244a9c410f8b12ab5fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tableOfContests: {fileID: 322977016}
 --- !u!1 &1060421175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,6 +1601,7 @@ GameObject:
   - 114: {fileID: 1509985283}
   - 114: {fileID: 1509985281}
   - 114: {fileID: 1509985282}
+  - 114: {fileID: 1509985285}
   m_Layer: 8
   m_Name: Button Princess Patty
   m_TagString: Untagged
@@ -1635,10 +1645,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1509985279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 666ab873939e0e548b4525286be8ab9a, type: 3}
+  m_Script: {fileID: 11500000, guid: cf89a3fc290a7c74e9b76d58a09245be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: letters
+  levelName: letters
 --- !u!114 &1509985283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1666,6 +1676,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 695, y: 519, z: 0}
   m_Center: {x: 101.400002, y: -125.529999, z: -.5}
+--- !u!114 &1509985285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509985279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 1315570634}
+  hover: {r: 1, g: 1, b: 1, a: 1}
+  pressed: {r: .975862026, g: .975862026, b: .975862026, a: 1}
+  duration: .200000003
+  disabledColor: {r: .700000048, g: .700000048, b: .700000048, a: 1}
 --- !u!1 &1558198527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,6 +1745,7 @@ GameObject:
   - 114: {fileID: 1567172407}
   - 114: {fileID: 1567172405}
   - 114: {fileID: 1567172406}
+  - 114: {fileID: 1567172409}
   m_Layer: 8
   m_Name: Button Marty
   m_TagString: Untagged
@@ -1762,10 +1789,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1567172403}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 666ab873939e0e548b4525286be8ab9a, type: 3}
+  m_Script: {fileID: 11500000, guid: cf89a3fc290a7c74e9b76d58a09245be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: numbers
+  levelName: numbers
 --- !u!114 &1567172407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1793,6 +1820,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 695, y: 519, z: 0}
   m_Center: {x: 4.5, y: 9.44999981, z: -.5}
+--- !u!114 &1567172409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1567172403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fdca5042b1d12a4890ec1bd4f04290d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenTarget: {fileID: 1147840294}
+  hover: {r: 1, g: 1, b: 1, a: 1}
+  pressed: {r: .975862026, g: .975862026, b: .975862026, a: 1}
+  duration: .200000003
+  disabledColor: {r: .700000048, g: .700000048, b: .700000048, a: 1}
 --- !u!1 &1623334905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,10 +1953,9 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .909952641, z: 0}
+  m_LocalPosition: {x: -1.4202497, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 477267624}
   - {fileID: 322977017}
   - {fileID: 1017941300}
   m_Father: {fileID: 1623334906}

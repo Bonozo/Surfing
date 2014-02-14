@@ -5,7 +5,8 @@ public enum GameLevel
 {
 	First,
 	Kindergarten,
-	PreK
+	PreK,
+	None
 }
 
 public enum GameType
@@ -20,7 +21,7 @@ public class GameController : MonoBehaviour {
 
 	#region Settings
 
-	public static GameLevel gameLevel;
+	public static GameLevel gameLevel = GameLevel.None;
 	public static GameType gameType;
 
 	#endregion

@@ -1435,7 +1435,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 76436034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.679016, y: -383.321533, z: 0}
+  m_LocalPosition: {x: -512.681763, y: -383.317932, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 126601793}
@@ -20048,7 +20048,7 @@ Transform:
   m_GameObject: {fileID: 1043487186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1034.23987, y: 775.679993, z: 1}
+  m_LocalScale: {x: 1034.23987, y: 775.679932, z: 1}
   m_Children: []
   m_Father: {fileID: 791153643}
 --- !u!114 &1043487188
@@ -29453,7 +29453,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 158ad95a7bf2b8944805fd5584f93bc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  root: {fileID: 0}
   toggleTime: .300000012
   clipCorrectAnswer: {fileID: 8300000, guid: 244a238071d4b8745957e04956cc3d48, type: 3}
   clipWrongAnswer: {fileID: 8300000, guid: bec89e82191c9784388731f6549773bb, type: 3}
@@ -32005,7 +32004,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.679045081, y: .67844522, z: 0}
+  m_LocalPosition: {x: 0, y: 1.36412084, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 791153643}
@@ -42598,7 +42597,7 @@ Transform:
   m_GameObject: {fileID: 2115761352}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2048, y: 1536, z: 1}
+  m_LocalScale: {x: 1034.23987, y: 775.679932, z: 1}
   m_Children: []
   m_Father: {fileID: 1540012669}
 --- !u!114 &2115761354

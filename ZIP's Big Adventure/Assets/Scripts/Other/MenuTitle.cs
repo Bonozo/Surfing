@@ -2,20 +2,18 @@
 using System.Collections;
 
 [RequireComponent(typeof(UISprite))]
-public class RandomSprite : MonoBehaviour {
+public class MenuTitle : MonoBehaviour {
 
 	public string[] spriteName;
 	public bool pixelPerfect = true;
 	private UISprite sprite;
 
-	void Awake()
-	{
-		sprite = GetComponent<UISprite> ();
-	}
-
 	void OnEnable()
 	{
-		sprite.spriteName = spriteName [Random.Range (0, spriteName.Length)];
+		int completed = PlayerPrefs.GetInt ("completed_games", 0);
+		completed = Mathf.Min (completed, 3);
+		sprite = GetComponent<UISprite> ();
+		sprite.spriteName = spriteName [completed];
 		if(pixelPerfect)
 			sprite.MakePixelPerfect ();
 	}
