@@ -3,6 +3,7 @@ using System.Collections;
 
 public class WinScreen : MonoBehaviour {
 
+	public GameObject backButton;
 	bool ended = false;
 
 	void OnEnable()
@@ -28,6 +29,8 @@ public class WinScreen : MonoBehaviour {
 		PlayerPrefs.SetInt ("completed_games", cmpt + 1);
 
 		PlayerPrefs.Save ();
+		if(backButton != null)
+			backButton.SetActive(false);
 		yield return new WaitForSeconds (8f);
 		foreach(Transform t in transform)
 		{

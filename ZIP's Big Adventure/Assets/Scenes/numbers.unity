@@ -1806,7 +1806,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 100924917}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.9400005, y: -157.979996, z: 0}
+  m_LocalPosition: {x: -21.9400005, y: -138.860001, z: 0}
   m_LocalScale: {x: 802.235291, y: 581.579468, z: 1.12290728}
   m_Children: []
   m_Father: {fileID: 1640807654}
@@ -29058,6 +29058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae449b1da08c90141814ba5be812a30c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backButton: {fileID: 126601792}
 --- !u!65 &1540012671
 BoxCollider:
   m_ObjectHideFlags: 0
