@@ -15,15 +15,26 @@ public class GameBlock : MonoBehaviour {
 	void OnEnable()
 	{
 		// Set up Levels
-		var gmb = GameObject.Find(GameController.gameLevel.ToString());
-		if(gmb == null) 
+
+		/*if(gmb == null) 
 		{
 			collider.enabled = false;
 			Debug.LogError("" + GameController.gameLevel.ToString() + " level root could not be found.");
 			return;
-		}
+		}*/
 		
 		List<ZIPLevel> levels = new List<ZIPLevel>();
+		var gmb = GameObject.Find("First");
+		foreach(Transform g in gmb.transform)
+			foreach(Transform gg in g)
+				levels.Add(gg.GetComponent<ZIPLevel>());
+
+		gmb = GameObject.Find("Kindergarten");
+		foreach(Transform g in gmb.transform)
+			foreach(Transform gg in g)
+				levels.Add(gg.GetComponent<ZIPLevel>());
+
+		gmb = GameObject.Find("PreK");
 		foreach(Transform g in gmb.transform)
 			foreach(Transform gg in g)
 				levels.Add(gg.GetComponent<ZIPLevel>());

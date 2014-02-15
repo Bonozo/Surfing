@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: Table of Contents_TextD
     outer:
       serializedVersion: 2
-      x: 0
-      y: 756
+      x: 1025
+      y: 1151
       width: 652
       height: 128
     inner:
       serializedVersion: 2
-      x: 0
-      y: 756
+      x: 1025
+      y: 1151
       width: 652
       height: 128
     rotated: 0
@@ -79,14 +79,14 @@ MonoBehaviour:
   - name: Table of Contents_TextB
     outer:
       serializedVersion: 2
-      x: 0
-      y: 581
+      x: 1025
+      y: 976
       width: 532
       height: 87
     inner:
       serializedVersion: 2
-      x: 0
-      y: 581
+      x: 1025
+      y: 976
       width: 532
       height: 87
     rotated: 0
@@ -98,13 +98,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1280
+      y: 511
       width: 1024
       height: 768
     inner:
       serializedVersion: 2
       x: 0
-      y: 1280
+      y: 511
       width: 1024
       height: 768
     rotated: 0
@@ -134,13 +134,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 350
-      y: 887
+      y: 118
       width: 348
       height: 263
     inner:
       serializedVersion: 2
       x: 350
-      y: 887
+      y: 118
       width: 348
       height: 263
     rotated: 0
@@ -224,13 +224,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1151
+      y: 382
       width: 744
       height: 128
     inner:
       serializedVersion: 2
       x: 0
-      y: 1151
+      y: 382
       width: 744
       height: 128
     rotated: 0
@@ -277,14 +277,14 @@ MonoBehaviour:
   - name: Table of Contents_TextC
     outer:
       serializedVersion: 2
-      x: 0
-      y: 669
+      x: 1025
+      y: 1064
       width: 687
       height: 86
     inner:
       serializedVersion: 2
-      x: 0
-      y: 669
+      x: 1025
+      y: 1064
       width: 687
       height: 86
     rotated: 0
@@ -296,13 +296,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 885
+      y: 116
       width: 349
       height: 265
     inner:
       serializedVersion: 2
       x: 0
-      y: 885
+      y: 116
       width: 349
       height: 265
     rotated: 0
@@ -328,6 +328,24 @@ MonoBehaviour:
     paddingRight: 12.125
     paddingTop: 16.333334
     paddingBottom: 2.35897446
+  - name: GameEndImage
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1280
+      width: 1024
+      height: 768
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1280
+      width: 1024
+      height: 768
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
