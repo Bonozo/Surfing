@@ -6,8 +6,17 @@ public class Title : MonoBehaviour {
 	public GameObject tableOfContests;
 	public GameObject endGame;
 
+	public static bool firstLaunch=true;
+
 	void Awake()
 	{
+		if(firstLaunch)
+		{
+			PlayerPrefs.DeleteAll();
+			PlayerPrefs.Save();
+			firstLaunch = false;
+			return;
+		}
 		int completed = PlayerPrefs.GetInt ("completed_games", 0);
 		if(completed == 4)
 		{
@@ -20,10 +29,6 @@ public class Title : MonoBehaviour {
 		{
 			tableOfContests.SetActive(true);
 			gameObject.SetActive(false);
-		}
-		else
-		{
-			PlayerPrefs.DeleteAll();
 		}
 	}
 }

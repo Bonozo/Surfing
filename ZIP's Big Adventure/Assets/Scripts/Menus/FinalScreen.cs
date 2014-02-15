@@ -9,7 +9,7 @@ public class FinalScreen : MonoBehaviour {
 	{
 		PlayerPrefs.DeleteAll ();
 		PlayerPrefs.Save ();
-		GameController.gameLevel = GameLevel.None;
+		Title.firstLaunch = true;
 		mainMenu.SetActive (true);
 		gameObject.SetActive (false);
 	}
