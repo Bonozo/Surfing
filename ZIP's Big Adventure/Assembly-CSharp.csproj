@@ -193,6 +193,7 @@
      <Compile Include="Assets\Scripts\Menus\ButtonLoad.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonSimpleToggle.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonToggle.cs" />
+     <Compile Include="Assets\Scripts\Menus\FinalScreen.cs" />
      <Compile Include="Assets\Scripts\Menus\GameController.cs" />
      <Compile Include="Assets\Scripts\Menus\InGameLoad.cs" />
      <Compile Include="Assets\Scripts\Menus\Jungle.cs" />

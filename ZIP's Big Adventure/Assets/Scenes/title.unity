@@ -489,8 +489,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 190458300}
-  - 114: {fileID: 190458301}
   - 65: {fileID: 190458302}
+  - 114: {fileID: 190458301}
   m_Layer: 8
   m_Name: Toggle
   m_TagString: Untagged
@@ -517,12 +517,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 190458299}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c51e026ba7020b145864843885979dba, type: 3}
+  m_Script: {fileID: 11500000, guid: f323342ab39e9d148a01709500b4d252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toggleType: 1
-  from: {fileID: 1243173999}
-  to: {fileID: 1017941299}
+  mainMenu: {fileID: 1017941299}
 --- !u!65 &190458302
 BoxCollider:
   m_ObjectHideFlags: 0
