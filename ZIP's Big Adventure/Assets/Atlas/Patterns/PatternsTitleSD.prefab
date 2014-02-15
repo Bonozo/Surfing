@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: PatternsTitle
+  m_Name: PatternsTitleSD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,55 +38,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 86348d717aab81249909990c3538ea45, type: 2}
+  material: {fileID: 2100000, guid: 6be40f7a547201745ba6f9b8577f3c0f, type: 2}
   sprites:
-  - name: Patterns Intro
-    outer:
-      serializedVersion: 2
-      x: 2048
-      y: 711
-      width: 1307
-      height: 569
-    inner:
-      serializedVersion: 2
-      x: 2048
-      y: 711
-      width: 1307
-      height: 569
-    rotated: 0
-    paddingLeft: .366488129
-    paddingRight: .200459063
-    paddingTop: .409490347
-    paddingBottom: 1.28998244
-  - name: Patterns Background
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 512
-      width: 2048
-      height: 1536
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 512
-      width: 2048
-      height: 1536
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
   - name: Patterns Game Win
     outer:
       serializedVersion: 2
-      x: 2048
+      x: 0
       y: 1280
       width: 1024
       height: 768
     inner:
       serializedVersion: 2
-      x: 2048
+      x: 0
       y: 1280
+      width: 1024
+      height: 768
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Patterns Intro
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1763
+      width: 654
+      height: 285
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1763
+      width: 654
+      height: 285
+    rotated: 0
+    paddingLeft: .365443438
+    paddingRight: .200305805
+    paddingTop: .407017529
+    paddingBottom: 1.28771925
+  - name: Patterns Background
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 511
+      width: 1024
+      height: 768
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 511
       width: 1024
       height: 768
     rotated: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
     paddingBottom: 0
   mCoordinates: 0
   mPixelSize: 1
-  mReplacement: {fileID: 11400000, guid: fc4395d18ee86cb489214c58018349a2, type: 2}
+  mReplacement: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

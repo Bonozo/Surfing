@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: PatternsTitle
+  m_Name: PatternsTitleSD
   m_Shader: {fileID: 4800000, guid: ed5591596df551e4c8f4b05ce88a7a07, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 8d6c3a07a6e2d4e4fb54055547925c6f, type: 3}
+          m_Texture: {fileID: 2800000, guid: d6244c8c0e2668246918de2229df1ca7, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats: {}
