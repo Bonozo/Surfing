@@ -8,6 +8,8 @@ public class FinalScreen : MonoBehaviour {
 	void OnClick()
 	{
 		PlayerPrefs.DeleteAll ();
+		PlayerPrefs.Save ();
+		GameController.gameLevel = GameLevel.None;
 		mainMenu.SetActive (true);
 		gameObject.SetActive (false);
 	}
