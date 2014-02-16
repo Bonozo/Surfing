@@ -712,15 +712,15 @@ public class PlayerController : MonoBehaviour
 //SOUNDS
 	public void A_Grunt(){
 		audio.PlayOneShot(a_monsterGrunt[Random.Range(0,a_monsterGrunt.Length)], 1f);
-		Debug.Log("grunt");
+		//Debug.Log("grunt");
 	}
 	public void A_Howel(){
 		audio.PlayOneShot(a_monsterHowel[Random.Range(0,a_monsterHowel.Length)], 1f);
-		Debug.Log("howel");
+		//Debug.Log("howel");
 	}
 	public void A_Attack(){
 		audio.PlayOneShot(a_monsterAttack[Random.Range(0,a_monsterAttack.Length)], 1f);
-		Debug.Log("attack");
+		//Debug.Log("attack");
 	}
 //SET BIKE PROPERTIES
 	public void SetupBike(){
@@ -777,15 +777,15 @@ public class PlayerController : MonoBehaviour
 			collider.center = turbo_cc;
 			//upgrades
 			m_airSpeed = m_airSpeed + 0f;
-			acc_bonus = 15f; //low numbers
-			speed_bonus = 375f;
-			rigidbody.mass = rigidbody.mass + 50f;
+			acc_bonus = 10f; //low numbers
+			speed_bonus = 400f;
+			rigidbody.mass = rigidbody.mass + 0f;
 		} else if(GameManager.m_chosenSled.ToString() == "Track") {
 			//set collider
 			collider.center = track_cc;
 			//upgrades
 			m_airSpeed = m_airSpeed + 0f;
-			acc_bonus = 10f; //low numbers
+			acc_bonus = 12f; //low numbers
 			speed_bonus = 500f;
 			rigidbody.mass = rigidbody.mass + 0;
 		} else if(GameManager.m_chosenSled.ToString() == "Sport") {
@@ -793,36 +793,31 @@ public class PlayerController : MonoBehaviour
 			collider.center = sport_cc;
 			//upgrades
 			m_airSpeed = m_airSpeed + 0f;
-			acc_bonus = 15f; //low numbers
-			speed_bonus = 350f;
+			acc_bonus = 14f; //low numbers
+			speed_bonus = 600f;
 			rigidbody.mass = rigidbody.mass + 0f;
 		} else if(GameManager.m_chosenSled.ToString() == "Hybrid") {
 			//set collider
 			collider.center = hybrid_cc;
 			//upgrades
 			m_airSpeed = m_airSpeed + 0f;
-			acc_bonus = 15f; //low numbers
-			speed_bonus = 500f;
-			rigidbody.mass = rigidbody.mass + 50f;
-		}
-		
+			acc_bonus = 16f; //low numbers
+			speed_bonus = 700f;
+			rigidbody.mass = rigidbody.mass + 0f;
+		}	
 
 	//	Get the upgrades and their value and use those as multipliers for the speed and shit.
-		if(PlayerPrefs.HasKey(GameManager.m_chosenSled.ToString() + "_" + "Engine")){
-			//	accel = 8 + engine
-			m_accelThresh = (acc_bonus) + PlayerPrefs.GetInt(GameManager.m_chosenSled.ToString() + "_" + "Engine");
-		}
-			
-		if(PlayerPrefs.HasKey(GameManager.m_chosenSled.ToString() + "_" + "Suspension")){
-			m_airSpeed = 100 + (PlayerPrefs.GetInt(GameManager.m_chosenSled.ToString() + "_" + "Suspension")*20);
-			//set players springness? mass?
-			
-		}
-		
-		if(PlayerPrefs.HasKey(GameManager.m_chosenSled.ToString() + "_" + "Tread")){
-			//	speed = tred*25 + 300
-			m_speed = (speed_bonus) + (PlayerPrefs.GetInt(GameManager.m_chosenSled.ToString() + "_" + "Tread")*25);
-		}
+		int engine = PlayerPrefs.GetInt (GameManager.m_chosenSled.ToString () + "_" + "Engine",0);
+		int suspension = PlayerPrefs.GetInt (GameManager.m_chosenSled.ToString () + "_" + "Suspension",0);
+		int tread = PlayerPrefs.GetInt (GameManager.m_chosenSled.ToString () + "_" + "Tread", 0);
+
+		Debug.Log(GameManager.m_chosenSled.ToString() + " engine: " + engine +
+		          ", suspension: " + suspension + ", tread: " + tread);
+
+		m_accelThresh = (acc_bonus) + engine;
+		m_airSpeed = 100 + 10*suspension;
+		//set players springness? mass?
+		m_speed = speed_bonus + 25*tread;
 		
 	}
 	

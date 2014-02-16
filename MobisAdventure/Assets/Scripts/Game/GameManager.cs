@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 	public enum ChosenSled {Classic = 0, Turbo = 1, Track = 2, Sport = 3, Hybrid = 4};
 	public enum ChosenLevel {Level_Arctic = 0, Level_IcyTundra = 1, Level_Forest = 2, Level_Mars = 3, Level_Beach = 4};
 	
-	public static ChosenSled m_chosenSled = ChosenSled.Classic;
+	public static ChosenSled m_chosenSled = ChosenSled.Hybrid;
 	public static ChosenMobi m_chosenMobi = ChosenMobi.CLASSIC;
 	public static ChosenLevel m_chosenLevel = ChosenLevel.Level_Arctic;
 	

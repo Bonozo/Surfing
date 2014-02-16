@@ -40,7 +40,7 @@ public class Ragdoll : MonoBehaviour {
 
 		//if( transform.root.rigidbody.velocity != null)
 		{
-			Debug.Log( transform.root.rigidbody.velocity);
+			//Debug.Log( transform.root.rigidbody.velocity);
 			rootRigidbody.AddForce(force);
 		}
 	}
