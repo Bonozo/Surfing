@@ -247,6 +247,8 @@ public class PlayerController : MonoBehaviour
 	
 	void FixedUpdate()
 	{
+		
+		Debug.Log ("Total boost: " + boostJuice);
 		//StartCoroutine("UpdateSpeed");
 		//REMOVE THE AFTER OR HAHA
 		if(life && !s_pause && !death){
@@ -458,8 +460,8 @@ public class PlayerController : MonoBehaviour
 					GiveCoins(1000);
 					Debug.Log ("FLIPPPPPP");
 					//Instantiate(bonusText);
-					bonusText.SetActive( true);
-					GiveBoost(2.0f);
+					ShowBonusText("front frip");
+					GiveBoost(1.0f);
 					//instantiate particles and 
 				} else {
 					//BACK FLIPPED!!!!
@@ -470,14 +472,23 @@ public class PlayerController : MonoBehaviour
 					//Instantiate(boost_trick1, transform.position, Camera.mainCamera.transform.rotation);
 					GiveCoins(1000);
 					//Instantiate(bonusText);
-					bonusText.SetActive ( true );
-					GiveBoost(2.0f);
+					ShowBonusText("back flip");
+					GiveBoost(1.0f);
 				}
 			}
 			//upright
 			t_isFlipping = false;
 			t_endTrick = false;
 		}
+	}
+
+	void ShowBonusText(string message)
+	{
+		if(bonusText.activeSelf)
+		{
+			bonusText.SetActive(false);
+		}
+		bonusText.SetActive ( true );
 	}
 //LANDING
 	IEnumerator LandingTrick(){
