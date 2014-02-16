@@ -31,6 +31,14 @@ public class GUIPlane : MonoBehaviour
 	{
 		if(renderer)
 		{
+			/*Vector2 current = m_uvOffset;
+			Vector2 upd = current + (m_uvAnimationRate * Time.deltaTime);
+			current.x = Mathf.SmoothStep(current.x,upd.x,1f);
+			current.y = Mathf.SmoothStep(current.y,upd.y,1f);
+			m_uvOffset = current;
+			Debug.Log(current-upd);
+			renderer.material.SetTextureOffset("_MainTex", m_uvOffset);*/
+
 			m_uvOffset += (m_uvAnimationRate * Time.deltaTime);
 			renderer.material.SetTextureOffset("_MainTex", m_uvOffset);
 		}

@@ -768,7 +768,7 @@ public class PlayerController : MonoBehaviour
 			collider.center = classic_cc;
 			//upgrades
 			m_airSpeed = m_airSpeed + 0f;
-			acc_bonus = 8f; //low numbers
+			acc_bonus = 12f; //low numbers
 			speed_bonus = 300f;
 			rigidbody.mass = rigidbody.mass + 0f;
 			
@@ -777,7 +777,7 @@ public class PlayerController : MonoBehaviour
 			collider.center = turbo_cc;
 			//upgrades
 			m_airSpeed = m_airSpeed + 0f;
-			acc_bonus = 10f; //low numbers
+			acc_bonus = 14f; //low numbers
 			speed_bonus = 400f;
 			rigidbody.mass = rigidbody.mass + 0f;
 		} else if(GameManager.m_chosenSled.ToString() == "Track") {
@@ -785,7 +785,7 @@ public class PlayerController : MonoBehaviour
 			collider.center = track_cc;
 			//upgrades
 			m_airSpeed = m_airSpeed + 0f;
-			acc_bonus = 12f; //low numbers
+			acc_bonus = 16f; //low numbers
 			speed_bonus = 500f;
 			rigidbody.mass = rigidbody.mass + 0;
 		} else if(GameManager.m_chosenSled.ToString() == "Sport") {
@@ -793,7 +793,7 @@ public class PlayerController : MonoBehaviour
 			collider.center = sport_cc;
 			//upgrades
 			m_airSpeed = m_airSpeed + 0f;
-			acc_bonus = 14f; //low numbers
+			acc_bonus = 18f; //low numbers
 			speed_bonus = 600f;
 			rigidbody.mass = rigidbody.mass + 0f;
 		} else if(GameManager.m_chosenSled.ToString() == "Hybrid") {
@@ -801,7 +801,7 @@ public class PlayerController : MonoBehaviour
 			collider.center = hybrid_cc;
 			//upgrades
 			m_airSpeed = m_airSpeed + 0f;
-			acc_bonus = 16f; //low numbers
+			acc_bonus = 20f; //low numbers
 			speed_bonus = 700f;
 			rigidbody.mass = rigidbody.mass + 0f;
 		}	
