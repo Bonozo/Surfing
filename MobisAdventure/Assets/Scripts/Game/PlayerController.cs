@@ -408,7 +408,8 @@ public class PlayerController : MonoBehaviour
 		} else if (trickHeight > 5.0f && !highTrickCashed){//we went as high as we could	
 //			Debug.Log("trick");
 			//give coins and boost based off height
-			GiveCoins(Mathf.RoundToInt(trickHeight));
+			if(Mathf.RoundToInt(trickHeight)>0)
+				GiveCoins(Mathf.RoundToInt(trickHeight));
 			highTrickCashed = true;
 			//is this the highest hight this run?
 			if(trickHeight > p_maxHeight){
@@ -493,8 +494,8 @@ public class PlayerController : MonoBehaviour
 	IEnumerator LandingTrick(){
 		yield return new WaitForSeconds(0.5f);
 		if(m_frontWheel.isGrounded && !death){
-		//maybe check velocity is above a certain amount	
-			GiveBoost(1.0f);
+			//maybe check velocity is above a certain amount	
+			/*??*/	GiveBoost(1.0f); 
 		}
 	}
 	

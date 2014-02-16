@@ -12,8 +12,8 @@ public class BonusAnimationScript : MonoBehaviour {
 	{
 		yield return new WaitForEndOfFrame();
 		animation ["BonusText"].speed = 0.000001f;
-		yield return new WaitForSeconds(0.5f);
-		animation ["BonusText"].speed = 1f;
+		yield return new WaitForSeconds(0.25f);
+		animation ["BonusText"].speed = 0.8f;
 		while(animation.isPlaying)
 			yield return new WaitForEndOfFrame();
 		gameObject.SetActive (false);
