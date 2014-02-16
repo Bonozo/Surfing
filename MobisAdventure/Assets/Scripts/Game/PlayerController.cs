@@ -247,8 +247,6 @@ public class PlayerController : MonoBehaviour
 	
 	void FixedUpdate()
 	{
-		
-		Debug.Log ("Total boost: " + boostJuice);
 		//StartCoroutine("UpdateSpeed");
 		//REMOVE THE AFTER OR HAHA
 		if(life && !s_pause && !death){
@@ -424,6 +422,7 @@ public class PlayerController : MonoBehaviour
 	private bool t_isFlipping = false;
 	private bool t_endTrick;
 	void FlipTrick(){
+		if(death) return;
 		if(!t_isFlipping && transform.up.y < 0 && !t_endTrick){
 			
 			if(transform.up.x > 0){//front flip?
@@ -493,7 +492,7 @@ public class PlayerController : MonoBehaviour
 //LANDING
 	IEnumerator LandingTrick(){
 		yield return new WaitForSeconds(0.5f);
-		if(m_frontWheel.isGrounded){
+		if(m_frontWheel.isGrounded && !death){
 		//maybe check velocity is above a certain amount	
 			GiveBoost(1.0f);
 		}
