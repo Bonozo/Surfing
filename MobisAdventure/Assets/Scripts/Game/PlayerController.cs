@@ -45,8 +45,9 @@ public class PlayerController : MonoBehaviour
 	//MONSTER
 	public bool life = true;
 	public Transform monster;
-	public float m_monsterSpeed = 10.0f;
 	public float monsterDistance;
+	private float m_monsterSpeed = 12.0f;
+	private float monsterSpeedUpTimestep = 30f;
 	
 	//collider settings
 	private Vector3 classic_cc = new Vector3(0f, 1.15f, -.48f);
@@ -539,12 +540,13 @@ public class PlayerController : MonoBehaviour
 		else
 			rigidbody.AddForce (Vector3.right * amount);
 	}
-	
-//MONSTER
+
+	#region Monster
+
 	public IEnumerator Monster(){
 	//every XX seconds increase Monsters speed by varR
 		while (life){
-			yield return new WaitForSeconds(10);
+			yield return new WaitForSeconds(monsterSpeedUpTimestep);
 			m_monsterSpeed = m_monsterSpeed + 1;
 		}
 
@@ -578,6 +580,8 @@ public class PlayerController : MonoBehaviour
 		monster.position += Vector3.up *30;//.Set(monster.position.x ,transform.position.y + 30, monster.position.z);
 		m_monsterSpeed = 5;
 	}
+
+	#endregion
 	
 //KILL TRIGGER
 	public void OnTriggerEnter(Collider other){
