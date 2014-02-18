@@ -6,6 +6,7 @@ public class LevelController : MonoBehaviour {
 	private int[] levelDist = new int[]{0,0,1500,3000,4500,6000,7500,10000};
 	private int[] levelBonus = new int[]{0,0,1000,1500,2000,2500,3000,4500};
 
+	public string levelName;
 	public UILabel labelText;
 	public TextMesh textMeshLevel;
 	
@@ -17,7 +18,7 @@ public class LevelController : MonoBehaviour {
 
 	public int CurrentLevel{
 		get{
-			var id = "level_" + Application.loadedLevelName;
+			id = "level_" + levelName;
 			var currentLevel = PlayerPrefs.GetInt (id, 1);
 			return currentLevel;
 		}

@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\MobisAdventure\Assets\Scripts\Game\PlayerController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\MobisAdventure\Assets\Scripts\Scripts2\Path.cs">
     <Files>
-      <File FileName="..\MobisAdventure\Assets\Scripts\Game\PlayerController.cs" Line="763" Column="3" />
-      <File FileName="..\MobisAdventure\Assets\Scripts\Scripts3\MyIABController.cs" Line="14" Column="66" />
+      <File FileName="..\MobisAdventure\Assets\Scripts\Scripts2\MeshManager.cs" Line="144" Column="3" />
+      <File FileName="..\MobisAdventure\Assets\Scripts\Scripts2\Path.cs" Line="83" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
