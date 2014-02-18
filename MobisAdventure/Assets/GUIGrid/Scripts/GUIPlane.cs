@@ -24,9 +24,11 @@ public class GUIPlane : MonoBehaviour
 			Camera.main.ViewportToWorldPoint(new Vector3(1.0f, 0.0f, 20.0f)),
 			Camera.main.ViewportToWorldPoint(new Vector3(1.0f, 1.0f, 20.0f))
 		);
+
+		initialCameraPos = transform.position.x;
 	}
 	
-	// Update is called once per frame
+	float initialCameraPos=0;
 	void Update()
 	{
 		if(renderer)
@@ -39,8 +41,12 @@ public class GUIPlane : MonoBehaviour
 			Debug.Log(current-upd);
 			renderer.material.SetTextureOffset("_MainTex", m_uvOffset);*/
 
-			m_uvOffset += (m_uvAnimationRate * Time.deltaTime);
-			renderer.material.SetTextureOffset("_MainTex", m_uvOffset);
+			/*m_uvOffset += (m_uvAnimationRate * Time.deltaTime);
+			renderer.material.SetTextureOffset("_MainTex", m_uvOffset);*/
+
+			float dist = transform.position.x-initialCameraPos;
+			renderer.material.SetTextureOffset("_MainTex", new Vector2(dist*0.0012f,0f));
+
 		}
 	}
 	
