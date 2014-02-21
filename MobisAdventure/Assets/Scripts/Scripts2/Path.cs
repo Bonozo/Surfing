@@ -17,7 +17,7 @@ public class Path : MonoBehaviour
 	
 	private Vector3[] m_pathPoints = new Vector3[0];
 //	private Vector3[] m_pathDirections = new Vector3[0];
-	private Vector3[] m_pathPositions = new Vector3[0];
+	public Vector3[] m_pathPositions = new Vector3[0];
 	private GameObject[] m_curvePoints = new GameObject[0];
 	
 	private float m_timeStride = 0.0f;
