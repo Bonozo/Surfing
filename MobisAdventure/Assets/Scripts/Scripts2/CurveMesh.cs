@@ -43,6 +43,16 @@ public class CurveMesh : MonoBehaviour
 			default:
 				break;
 		}
+
+		StartCoroutine (FixMeshDisappear ());
+	}
+
+	IEnumerator FixMeshDisappear()
+	{
+		yield return new WaitForEndOfFrame ();
+		yield return new WaitForEndOfFrame ();
+		yield return new WaitForEndOfFrame ();
+		m_mesh.RecalculateBounds ();
 	}
 	
 	void Update()
