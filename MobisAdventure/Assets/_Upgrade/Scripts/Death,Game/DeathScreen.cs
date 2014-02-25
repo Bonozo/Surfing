@@ -37,6 +37,8 @@ public class DeathScreen : MonoBehaviour {
 		pauseScreen.SetActive(active);
 	}
 
+	public string levelName{ get { return levelController.levelName; } }
+
 	#region Static Instance
 	
 	// Multithreaded Safe Singleton Pattern

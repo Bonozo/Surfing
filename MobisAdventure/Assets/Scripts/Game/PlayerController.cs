@@ -658,15 +658,15 @@ public class PlayerController : MonoBehaviour
 		// invention
 		DeathScreen.Instance.Show(monstercause,
             (int)(Mathf.Round(Vector3.Distance(transform.position, p_startPosition)*10.0f)/10.0F),
-	        (int)(Mathf.Round(PlayerPrefs.GetFloat("MaxDistance"))),
+	        (int)(Mathf.Round(PlayerPrefs.GetFloat(DeathScreen.Instance.levelName + "MaxDistance"))),
 	        Coin_Counter.m_ccounter.coin_balance - Coin_Counter.m_ccounter.start_balance);
 
 	}
 	
 	public void DistanceHighScore() {
 		//distance highscore
-		if(PlayerPrefs.HasKey("MaxDistance")){
-			tm_distHigh.text = PlayerPrefs.GetFloat("MaxDistance").ToString() + "m";;
+		if(PlayerPrefs.HasKey(DeathScreen.Instance.levelName + "MaxDistance")){
+			tm_distHigh.text = ((int)(Mathf.Round(PlayerPrefs.GetFloat(DeathScreen.Instance.levelName + "MaxDistance")))).ToString() + "m";;
 			//tm_distHigh.gameObject.renderer.material.color = Color.yellow;
 		} else {
 			tm_distHigh.gameObject.SetActive(false);
@@ -678,14 +678,14 @@ public class PlayerController : MonoBehaviour
 		p_distTraveled = Mathf.Round(Vector3.Distance(transform.position, p_startPosition)*10.0f)/10.0F;
 		tm_distTraveled.text = p_distTraveled.ToString() + "m";
 		//is it farther than ever before?!
-		if(PlayerPrefs.HasKey("MaxDistance")){
-			if(PlayerPrefs.GetFloat("MaxDistance") < p_distTraveled){
+		if(PlayerPrefs.HasKey(DeathScreen.Instance.levelName + "MaxDistance")){
+			if(PlayerPrefs.GetFloat(DeathScreen.Instance.levelName + "MaxDistance") < p_distTraveled){
 				//NEW RECORD!
-				PlayerPrefs.SetFloat("MaxDistance", p_distTraveled);
+				PlayerPrefs.SetFloat(DeathScreen.Instance.levelName + "MaxDistance", p_distTraveled);
 				tm_distTraveled.gameObject.renderer.material.color = Color.yellow;	
 			}
 		} else {
-			PlayerPrefs.SetFloat("MaxDistance", p_distTraveled);
+			PlayerPrefs.SetFloat(DeathScreen.Instance.levelName + "MaxDistance", p_distTraveled);
 			tm_distTraveled.gameObject.renderer.material.color = Color.yellow;				
 		}
 		
