@@ -8,12 +8,12 @@ public class PlayerController : MonoBehaviour
 	public GameObject bonusText;
 	public bool s_pause = false;
 	public GameObject s_pauser;
-
+	
 	public WheelCollider m_backWheel = null;
 	public WheelCollider m_frontWheel = null;
 	
-//	public float m_maxSpeed = 300.0f;
-//	public float m_maxBraking = 150.0f;
+	//	public float m_maxSpeed = 300.0f;
+	//	public float m_maxBraking = 150.0f;
 	public float m_speed = 300.0f;
 	public float m_break = 300.0f;
 	public float m_airSpeed = 100.0f;
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
 	private bool m_init = true;
 	
 	//AUDIO
-//	public AudioSource a_doom;
+	//	public AudioSource a_doom;
 	public AudioClip[] a_monsterHowel;
 	public AudioClip[] a_monsterGrunt;
 	public AudioClip[] a_monsterAttack;
@@ -83,9 +83,9 @@ public class PlayerController : MonoBehaviour
 	public TextMesh tm_dist;
 	public TextMesh tm_distHigh;
 	
-//	public int p_coinsEarned;
+	//	public int p_coinsEarned;
 	public TextMesh tm_coinsEarned;
-		
+	
 	//dark screen
 	public Transform sfx_frostObj;
 	private Color sfx_frostColor;
@@ -97,13 +97,13 @@ public class PlayerController : MonoBehaviour
 	private bool pause_flag = false;
 	public GameObject darkScreenPause;
 	Vector3 savedVelocity;
-    Vector3 savedAngularVelocity;
+	Vector3 savedAngularVelocity;
 	
 	// by Aharon
-
+	
 	// ragdoll
 	private Ragdoll ragdoll;
-
+	
 	void Awake()
 	{
 		m_backWheel.radius = 0.74f;
@@ -111,13 +111,13 @@ public class PlayerController : MonoBehaviour
 	}
 	
 	
-		// Subscribe to events
+	// Subscribe to events
 	void OnEnable(){
 		EasyTouch.On_TouchDown += On_TouchDown;
 		EasyTouch.On_TouchUp += On_TouchUp;
 		EasyTouch.On_SimpleTap += On_SimpleTap;
 	}
-
+	
 	void OnDisable(){
 		UnsubscribeEvent();
 	}
@@ -131,14 +131,14 @@ public class PlayerController : MonoBehaviour
 		EasyTouch.On_TouchUp -= On_TouchUp;
 		EasyTouch.On_SimpleTap -= On_SimpleTap;
 	}
-
+	
 	public void Resume()
 	{
 		Gesture gesture = new Gesture ();
 		gesture.pickObject = s_pauser;
 		On_SimpleTap (gesture);
 	}
-
+	
 	private void On_SimpleTap( Gesture gesture){
 		Debug.Log("Simple Tap");
 		if(life && !death && gesture.pickObject == s_pauser){
@@ -148,8 +148,8 @@ public class PlayerController : MonoBehaviour
 			if (pause_flag == false){
 				//Time.timeScale = 0;
 				savedVelocity = rigidbody.velocity;
-       			savedAngularVelocity = rigidbody.angularVelocity;
-      			//rigidbody.isKinematic = true;
+				savedAngularVelocity = rigidbody.angularVelocity;
+				//rigidbody.isKinematic = true;
 				Debug.Log(savedVelocity);
 				rigidbody.Sleep();
 				//GameObject.Find("DarkPlanePause").SetActive(true);
@@ -161,7 +161,7 @@ public class PlayerController : MonoBehaviour
 				txt_p3.text = "";
 				//txt_DeathReason.gameObject.transform.position = txt_p2.gameObject.transform.position;
 				//tm_coinsEarned.gameObject.transform.position = txt_pausePosition.gameObject.transform.position;
-		
+				
 			}
 			else
 			{
@@ -169,14 +169,14 @@ public class PlayerController : MonoBehaviour
 				//rigidbody.isKinematic = false;
 				rigidbody.WakeUp();
 				//rigidbody.velocity = savedVelocity;
-      			rigidbody.AddForce( savedVelocity, ForceMode.VelocityChange );
-       			rigidbody.AddTorque( savedAngularVelocity, ForceMode.VelocityChange );
+				rigidbody.AddForce( savedVelocity, ForceMode.VelocityChange );
+				rigidbody.AddTorque( savedAngularVelocity, ForceMode.VelocityChange );
 				pause_flag = false;
 				//GameObject.Find("DarkPlanePause").SetActive(false);
 				//sfx_frostObj.renderer.material.color.a = 0.0f;
 				darkScreenPause.SetActive(false);
 			}
-
+			
 			DeathScreen.Instance.ShowPauseScreen(pause_flag);
 			//Debug.Log("paused");
 		}
@@ -198,13 +198,13 @@ public class PlayerController : MonoBehaviour
 				s_gas = 2;
 			}
 		}
-//		else {
-//			if (gesture.pickObject.name == "_Restart"){
-//						Application.LoadLevel(Application.loadedLevel); //Application.loadedLevel
-//			}else if (gesture.pickObject.name == "_MainMenu"){
-//				Application.LoadLevel(0); //Application.loadedLevel
-//			} 
-//		}
+		//		else {
+		//			if (gesture.pickObject.name == "_Restart"){
+		//						Application.LoadLevel(Application.loadedLevel); //Application.loadedLevel
+		//			}else if (gesture.pickObject.name == "_MainMenu"){
+		//				Application.LoadLevel(0); //Application.loadedLevel
+		//			} 
+		//		}
 	}
 	private void On_TouchUp( Gesture gesture){
 		s_gas = 0;
@@ -262,7 +262,7 @@ public class PlayerController : MonoBehaviour
 				}
 				else //apply torque
 					rigidbody.AddTorque (m_airSpeed, 0, 0);
-	
+				
 			}
 			if(Input.GetKey("left") || s_gas == -1) //Brake!..
 			{
@@ -313,7 +313,7 @@ public class PlayerController : MonoBehaviour
 				}
 				else //apply torque
 					rigidbody.AddTorque (m_airSpeed, 0, 0);*/
-	
+				
 			} 
 			if(s_gas == 0){
 				isGas = false;	
@@ -327,9 +327,8 @@ public class PlayerController : MonoBehaviour
 		#region UNITY_EDITOR
 		if(Input.GetKeyDown(KeyCode.Space))
 			GiveBoost(1);
-		Debug.Log("s_gas: " + s_gas + ", monster: " + m_monsterSpeed);
 		#endregion	
-				
+		
 		if(m_init)
 		{
 			PlaceOnPath();
@@ -337,20 +336,20 @@ public class PlayerController : MonoBehaviour
 		}
 		if (life && !s_pause)
 			MonsterMover();
-			tm_speedo.text = Mathf.Round(rigidbody.velocity.magnitude*2.0f).ToString();// ((Mathf.Round(rigidbody.velocity.magnitude*10.0f)/10.0F)*2.0f).ToString();
-			//
-			//var speed = Mathf.Round(rigidbody.velocity.magnitude*2.0f);
-			//var topSpeed = 100;
-			//var speedFraction = speed / topSpeed;
-			//var needleAngle = Mathf.Lerp(70, -80, speedFraction);
-			
-			//
-			//s_handle.transform.Rotate(0,0,needleAngle);
+		tm_speedo.text = Mathf.Round(rigidbody.velocity.magnitude*2.0f).ToString();// ((Mathf.Round(rigidbody.velocity.magnitude*10.0f)/10.0F)*2.0f).ToString();
+		//
+		//var speed = Mathf.Round(rigidbody.velocity.magnitude*2.0f);
+		//var topSpeed = 100;
+		//var speedFraction = speed / topSpeed;
+		//var needleAngle = Mathf.Lerp(70, -80, speedFraction);
 		
-			//p_distTraveled = Mathf.Round(Vector3.Distance(transform.position, p_startPosition));
-			p_distTraveled = Mathf.Round(transform.position.x-p_startPosition.x);
-			tm_dist.text = p_distTraveled.ToString();
-
+		//
+		//s_handle.transform.Rotate(0,0,needleAngle);
+		
+		//p_distTraveled = Mathf.Round(Vector3.Distance(transform.position, p_startPosition));
+		p_distTraveled = Mathf.Round(transform.position.x-p_startPosition.x);
+		tm_dist.text = p_distTraveled.ToString();
+		
 		
 		//expose
 		monsterDistance = Vector3.Distance(transform.position, monster.position);
@@ -360,7 +359,7 @@ public class PlayerController : MonoBehaviour
 			chaseBar_scale = 4.0f*Mathf.Clamp(monsterDistance-30, 0.0f, 100.0f)*.01f;
 			chaseBar.localPosition = new Vector3(chaseBar_scale + 2, chaseBar.localPosition.y, chaseBar.localPosition.z) ;
 		}
-			
+		
 		//expose grounded bool
 		_isGrounded = m_backWheel.isGrounded;
 		//for modifying particles and sound
@@ -376,10 +375,10 @@ public class PlayerController : MonoBehaviour
 			t_endTrick = false;
 		}
 		
-//		//turn up volume on doom music
-//		if (a_doom){
-//			a_doom.volume = 1 - (monsterDistance * 0.01f);
-//		}
+		//		//turn up volume on doom music
+		//		if (a_doom){
+		//			a_doom.volume = 1 - (monsterDistance * 0.01f);
+		//		}
 		
 		float fadeAmmount = 0.75f;
 		if(!life)
@@ -399,11 +398,11 @@ public class PlayerController : MonoBehaviour
 	
 	
 	
-
-// TRICKS
+	
+	// TRICKS
 	private float trickHeight = 0.0f;
 	private bool highTrickCashed = false;
-//HEIGHT	
+	//HEIGHT	
 	void HeightTrick(){
 		float newHeight;
 		Path.m_path.GetHeight(transform.position, out newHeight);
@@ -411,9 +410,9 @@ public class PlayerController : MonoBehaviour
 		if(trickHeight < newHeight){
 			//remember this as the highest point
 			trickHeight = newHeight;
-//			Debug.Log("climb");
+			//			Debug.Log("climb");
 		} else if (trickHeight > 5.0f && !highTrickCashed){//we went as high as we could	
-//			Debug.Log("trick");
+			//			Debug.Log("trick");
 			//give coins and boost based off height
 			if(Mathf.RoundToInt(trickHeight)>0)
 				GiveCoins(Mathf.RoundToInt(trickHeight));
@@ -423,9 +422,9 @@ public class PlayerController : MonoBehaviour
 				p_maxHeight = trickHeight;	
 			}
 		}
-			
+		
 	}
-//FLIP
+	//FLIP
 	private bool t_frontFlip;
 	private bool t_isFlipping = false;
 	private bool t_endTrick;
@@ -462,7 +461,7 @@ public class PlayerController : MonoBehaviour
 					Debug.Log("FRONT FLIPPED!!!!");
 					//Instantiate(boost_trick1, transform.position, Camera.mainCamera.transform.rotation);
 					//Transform boostboom;
-        			//boostboom = Instantiate(boost_trick1, s_boost.transform.position, Camera.mainCamera.transform.rotation) as Transform;
+					//boostboom = Instantiate(boost_trick1, s_boost.transform.position, Camera.mainCamera.transform.rotation) as Transform;
 					//boostboom.parent = s_boost.transform; 
 					GiveCoins(1000);
 					Debug.Log ("FLIPPPPPP");
@@ -474,7 +473,7 @@ public class PlayerController : MonoBehaviour
 					//BACK FLIPPED!!!!
 					Debug.Log("BACK FLIPPED!!!!");
 					//Transform boostboom;
-			        //boostboom = Instantiate(boost_trick1, s_boost.transform.position, Camera.mainCamera.transform.rotation) as Transform;
+					//boostboom = Instantiate(boost_trick1, s_boost.transform.position, Camera.mainCamera.transform.rotation) as Transform;
 					//boostboom.parent = s_boost.transform; 
 					//Instantiate(boost_trick1, transform.position, Camera.mainCamera.transform.rotation);
 					GiveCoins(1000);
@@ -488,7 +487,7 @@ public class PlayerController : MonoBehaviour
 			t_endTrick = false;
 		}
 	}
-
+	
 	void ShowBonusText(string message)
 	{
 		if(bonusText.activeSelf)
@@ -497,7 +496,7 @@ public class PlayerController : MonoBehaviour
 		}
 		bonusText.SetActive ( true );
 	}
-//LANDING
+	//LANDING
 	IEnumerator LandingTrick(){
 		yield return new WaitForSeconds(0.5f);
 		if(m_frontWheel.isGrounded && !death){
@@ -511,9 +510,9 @@ public class PlayerController : MonoBehaviour
 		//in the coin counter prefab
 		Coin_Counter.AddCoins(coins);
 	}
-		
 	
-//ADD BOOST
+	
+	//ADD BOOST
 	int maxBoost = 6;
 	void GiveBoost(int addBoost){
 		//Transform boostboom;
@@ -552,13 +551,13 @@ public class PlayerController : MonoBehaviour
 		}
 	}*/
 	
-//BRAKE	
+	//BRAKE	
 	public void Brake(float amount)
 	{
 		rigidbody.AddForce (Vector3.right * -amount);
 	}
 	
-//GAS	
+	//GAS	
 	public void Gas(float amount)
 	{	
 		//bonus acceleration for low velocity
@@ -569,21 +568,20 @@ public class PlayerController : MonoBehaviour
 		else
 			rigidbody.AddForce (Vector3.right * amount);
 	}
-
+	
 	#region Monster
 	
 	private float m_monsterSpeed = 12.0f;
 	private float monsterSpeedUpTimestep = 30f;
-
+	
 	private float speedup=0f;
-	private float nextMonsterBoost = 1500f;
+	private float nextMonsterBoost = 1500;
 	private bool monsterBoost = false;
-	private float monsterBoostDelta = 20f;
-
+	
 	public IEnumerator Monster(){
-
+		
 		while (life){
-
+			
 			if(!s_pause)
 			{
 				if(!monsterBoost)
@@ -595,7 +593,7 @@ public class PlayerController : MonoBehaviour
 						m_monsterSpeed += 1;
 					}
 				}
-
+				
 				if(!monsterBoost && p_distTraveled >= nextMonsterBoost )
 				{
 					monsterBoost = true;
@@ -605,21 +603,28 @@ public class PlayerController : MonoBehaviour
 			yield return new WaitForEndOfFrame();
 		}
 	}
-
+	
 	private float savedSpeed;
+	private float savedDist;
 	IEnumerator StartMonsterBoost()
 	{
 		savedSpeed = m_monsterSpeed;
+		savedDist = monsterDistance;
 		nextMonsterBoost += 1500f;
-		m_monsterSpeed += 10f;
+
+		float dist = monsterDistance;
+		monster.transform.position = new Vector3 (transform.position.x - Mathf.Min (150f, dist),
+		                                         transform.position.y, transform.position.z);
+		dist = transform.position.x - monster.position.x;
 		while(true)
 		{
-			if(!s_pause)
-				m_monsterSpeed += Time.deltaTime;
+			dist -= Time.deltaTime*9f;
+			monster.transform.position = new Vector3 (transform.position.x - dist,
+			                                          transform.position.y, transform.position.z);
 			yield return new WaitForEndOfFrame();
 		}
 	}
-
+	
 	private bool stoping = false;
 	IEnumerator StopMonsterBoost()
 	{
@@ -627,20 +632,16 @@ public class PlayerController : MonoBehaviour
 		{
 			stoping = true;
 			StopCoroutine ("StartMonsterBoost");
-			m_monsterSpeed = 10f;
-			while(monsterDistance<40f || m_monsterSpeed>2f)
+
+			float dist = transform.position.x - monster.position.x;
+			while(dist<savedDist)
 			{
-				if(!s_pause)
-					m_monsterSpeed -= Time.deltaTime;
+				dist += Time.deltaTime*20f;
+				monster.transform.position = new Vector3 (transform.position.x - dist,
+				                                          transform.position.y, transform.position.z);
 				yield return new WaitForEndOfFrame();
 			}
 
-			while(m_monsterSpeed<savedSpeed)
-			{
-				if(!s_pause)
-					m_monsterSpeed += 2f*Time.deltaTime;
-				yield return new WaitForEndOfFrame();
-			}
 			m_monsterSpeed = savedSpeed;
 			yield return null;
 			monsterBoost = false;
@@ -649,18 +650,18 @@ public class PlayerController : MonoBehaviour
 	}
 	
 	public void MonsterMover(){
-		if(!s_pause){
+		if(!s_pause && !monsterBoost){
 			// The step size is equal to speed times frame time.
-	        float step = m_monsterSpeed * Time.deltaTime;
-	        
-	        // Move our position a step closer to the target.
-	        monster.position = Vector3.MoveTowards(monster.position, transform.position, step);
+			float step = m_monsterSpeed * Time.deltaTime;
+			
+			// Move our position a step closer to the target.
+			monster.position = Vector3.MoveTowards(monster.position, transform.position, step);
 			
 			//if the monster is too close life is over
 			if(life && Vector3.Distance(transform.position, monster.position)<30)
 			{	
 				life = false;
-	//			MonsterCloseIn();
+				//			MonsterCloseIn();
 				Death(true);
 				txt_p1.text = "try upgrading your engine to";
 				txt_p2.text = "increase speed and power";
@@ -670,7 +671,7 @@ public class PlayerController : MonoBehaviour
 			}	
 		}
 	}
-
+	
 	int currentBoost = 0;
 	bool boosting = false;	
 	IEnumerator OneBoost(float amount)
@@ -697,10 +698,10 @@ public class PlayerController : MonoBehaviour
 		monster.position += Vector3.up *30;//.Set(monster.position.x ,transform.position.y + 30, monster.position.z);
 		m_monsterSpeed = 5;
 	}
-
+	
 	#endregion
 	
-//KILL TRIGGER
+	//KILL TRIGGER
 	public void OnTriggerEnter(Collider other){
 		if(life && other.gameObject.tag == "Ground"){
 			Debug.Log(other.gameObject.name);
@@ -711,7 +712,7 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 	
-//DEATH
+	//DEATH
 	public void Death(bool monstercause) {
 		if(monstercause) deathskip=true;
 		if(!death)
@@ -720,16 +721,16 @@ public class PlayerController : MonoBehaviour
 			StartCoroutine("DeathThread",monstercause);
 		}
 	}
-
+	
 	bool deathskip=false;
 	bool death=false;
 	private IEnumerator DeathThread(bool monstercause) {
-
+		
 		// below code copy
 		s_gas = 0;
 		isGas = false;
 		isBoost = false;
-
+		
 		if(!monstercause)
 		{
 			ragdoll.Work();
@@ -740,7 +741,7 @@ public class PlayerController : MonoBehaviour
 				yield return null;
 			}
 		}
-
+		
 		GameObject.Find("RevmobManager").SendMessage("showRevmobFullScreen",SendMessageOptions.DontRequireReceiver);
 		life=false;
 		rigidbody.drag = 2;
@@ -755,18 +756,18 @@ public class PlayerController : MonoBehaviour
 		
 		rigidbody.isKinematic = true;
 		UpdateEndMenu();
-	
+		
 		if(monstercause)
 			txt_DeathReason.text = "You are too slow!";
 		else
 			txt_DeathReason.text = "You Crashed!";
-
+		
 		// invention
 		DeathScreen.Instance.Show(monstercause,
-            Mathf.RoundToInt(p_distTraveled),
-	        (int)(Mathf.Round(PlayerPrefs.GetFloat(DeathScreen.Instance.levelName + "MaxDistance"))),
-	        Coin_Counter.m_ccounter.coin_balance - Coin_Counter.m_ccounter.start_balance);
-
+		                          Mathf.RoundToInt(p_distTraveled),
+		                          (int)(Mathf.Round(PlayerPrefs.GetFloat(DeathScreen.Instance.levelName + "MaxDistance"))),
+		                          Coin_Counter.m_ccounter.coin_balance - Coin_Counter.m_ccounter.start_balance);
+		
 	}
 	
 	public void DistanceHighScore() {
@@ -818,19 +819,19 @@ public class PlayerController : MonoBehaviour
 		
 	} 
 	
-//END SCREEN
+	//END SCREEN
 	public IEnumerator FadeTo(float aValue, float aTime, Transform trans)
 	{
 		float alpha = trans.renderer.material.color.a;
-	    for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
-	    {
-	        Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha,aValue,t));
-	        trans.renderer.material.color = newColor;
-	        yield return null;
-	    }
+		for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
+		{
+			Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha,aValue,t));
+			trans.renderer.material.color = newColor;
+			yield return null;
+		}
 	}
-
-//SOUNDS
+	
+	//SOUNDS
 	public void A_Grunt(){
 		audio.PlayOneShot(a_monsterGrunt[Random.Range(0,a_monsterGrunt.Length)], 1f);
 		//Debug.Log("grunt");
@@ -843,25 +844,25 @@ public class PlayerController : MonoBehaviour
 		audio.PlayOneShot(a_monsterAttack[Random.Range(0,a_monsterAttack.Length)], 1f);
 		//Debug.Log("attack");
 	}
-//SET BIKE PROPERTIES
+	//SET BIKE PROPERTIES
 	public void SetupBike(){
 		//load selected sled
-//		Debug.Log(GameManager.m_chosenSled);
+		//		Debug.Log(GameManager.m_chosenSled);
 		GameObject newSled = Instantiate(Resources.Load("Bikes/Sled_" + GameManager.m_chosenSled)) as GameObject;
-
+		
 		if(!newSled)
 		{
 			newSled = Instantiate(Resources.Load("Classic")) as GameObject;
 		} 
 		//place selected sled
-			newSled.transform.parent = transform.Find("Sled");
-			newSled.transform.localPosition = Vector3.zero;
+		newSled.transform.parent = transform.Find("Sled");
+		newSled.transform.localPosition = Vector3.zero;
 		//load selected Mobi
 		///////////newMobi = newSled.transform.Find("2_Mobi").gameObject;
 		//update the newMobi material appropriatly, player's choice from the main menu
 		///////////	newMobi.renderer.material = mobiMats[(int)GameManager.m_chosenMobi];
-
-
+		
+		
 		// update 1
 		newSled.transform.Find("2_Mobi").gameObject.SetActive(false);
 		///////////newMobi.SetActive(false);
@@ -873,9 +874,9 @@ public class PlayerController : MonoBehaviour
 		ragdoll.gameObject.transform.localPosition = Vector3.zero;
 		ragdoll.gameObject.transform.localScale = new Vector3(1f,1f,1f);
 		ragdoll.gameObject.SetActive(true);
- 
-//		m_backWheel = newSled.transform.Find("_BackWheel").GetComponent<WheelCollider>();
-//		m_frontWheel = newSled.transform.Find("_FrontWheel").GetComponent<WheelCollider>();
+		
+		//		m_backWheel = newSled.transform.Find("_BackWheel").GetComponent<WheelCollider>();
+		//		m_frontWheel = newSled.transform.Find("_FrontWheel").GetComponent<WheelCollider>();
 		//setup collider
 		
 		
@@ -926,15 +927,15 @@ public class PlayerController : MonoBehaviour
 			speed_bonus = 700f;
 			rigidbody.mass = rigidbody.mass + 0f;
 		}	
-
-	//	Get the upgrades and their value and use those as multipliers for the speed and shit.
+		
+		//	Get the upgrades and their value and use those as multipliers for the speed and shit.
 		int engine = PlayerPrefs.GetInt (GameManager.m_chosenSled.ToString () + "_" + "Engine",0);
 		int suspension = PlayerPrefs.GetInt (GameManager.m_chosenSled.ToString () + "_" + "Suspension",0);
 		int tread = PlayerPrefs.GetInt (GameManager.m_chosenSled.ToString () + "_" + "Tread", 0);
-
+		
 		Debug.Log(GameManager.m_chosenSled.ToString() + " engine: " + engine +
 		          ", suspension: " + suspension + ", tread: " + tread);
-
+		
 		m_accelThresh = (acc_bonus) + engine;
 		m_airSpeed = 100 + 10*suspension;
 		//set players springness? mass?
@@ -949,15 +950,15 @@ public class PlayerController : MonoBehaviour
 		Path.Current.GetHeight(transform.position, out startPos.y);
 		transform.position = startPos + (transform.up * transform.localScale.y);
 	}
-
+	
 	#region Upgrade1
-
+	
 	public bool GamePaused{
 		get{
 			return s_pause;
 		}
 	}
-
+	
 	#endregion
 }
 
