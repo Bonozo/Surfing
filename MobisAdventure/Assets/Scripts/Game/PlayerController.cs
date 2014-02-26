@@ -347,7 +347,8 @@ public class PlayerController : MonoBehaviour
 			//
 			//s_handle.transform.Rotate(0,0,needleAngle);
 		
-			p_distTraveled = Mathf.Round(Vector3.Distance(transform.position, p_startPosition));
+			//p_distTraveled = Mathf.Round(Vector3.Distance(transform.position, p_startPosition));
+			p_distTraveled = Mathf.Round(transform.position.x-p_startPosition.x);
 			tm_dist.text = p_distTraveled.ToString();
 
 		
@@ -762,7 +763,7 @@ public class PlayerController : MonoBehaviour
 
 		// invention
 		DeathScreen.Instance.Show(monstercause,
-            (int)(Mathf.Round(Vector3.Distance(transform.position, p_startPosition)*10.0f)/10.0F),
+            Mathf.RoundToInt(p_distTraveled),
 	        (int)(Mathf.Round(PlayerPrefs.GetFloat(DeathScreen.Instance.levelName + "MaxDistance"))),
 	        Coin_Counter.m_ccounter.coin_balance - Coin_Counter.m_ccounter.start_balance);
 
@@ -780,7 +781,7 @@ public class PlayerController : MonoBehaviour
 	
 	public void UpdateEndMenu() {		
 		//update dist traveled
-		p_distTraveled = Mathf.Round(Vector3.Distance(transform.position, p_startPosition)*10.0f)/10.0F;
+		p_distTraveled = Mathf.RoundToInt(p_distTraveled);
 		tm_distTraveled.text = p_distTraveled.ToString() + "m";
 		//is it farther than ever before?!
 		if(PlayerPrefs.HasKey(DeathScreen.Instance.levelName + "MaxDistance")){
