@@ -37,6 +37,5 @@ public class Liner : MonoBehaviour {
 		for(int i=0;i<lenght;i++)
 			renderer.SetPosition(i,Path.Current.m_pathPositions[index+i]);
 		next_pos = Path.Current.m_pathPositions [index + (int)(lenght*0.85f)].x;
-		Debug.Log ("next pos: " + next_pos);
 	}
 }

@@ -46,8 +46,6 @@ public class PlayerController : MonoBehaviour
 	public bool life = true;
 	public Transform monster;
 	public float monsterDistance;
-	private float m_monsterSpeed = 12.0f;
-	private float monsterSpeedUpTimestep = 30f;
 	
 	//collider settings
 	private Vector3 classic_cc = new Vector3(0f, 1.15f, -.48f);
@@ -142,9 +140,10 @@ public class PlayerController : MonoBehaviour
 	}
 
 	private void On_SimpleTap( Gesture gesture){
-		//Debug.Log("Simple Tap");
+		Debug.Log("Simple Tap");
 		if(life && !death && gesture.pickObject == s_pauser){
 			s_pause = !s_pause;
+			//Time.timeScale = s_pause?0f:1f;
 			//txt_p1.text = ""
 			if (pause_flag == false){
 				//Time.timeScale = 0;
@@ -277,11 +276,13 @@ public class PlayerController : MonoBehaviour
 				else
 					rigidbody.AddRelativeTorque (m_airSpeed, 0, 0);
 			}
-			if((Input.GetKey("up") || s_gas == 2) && boostJuice > 0) //also check if we have boost juice
+			if((Input.GetKey("up") || s_gas == 2) && currentBoost>0 && !boosting) //also check if we have boost juice
 			{
-			
+				StartCoroutine(OneBoost(currentBoost));
+				foreach(var j in boostBloops) j.SetActive(false);
+				currentBoost = 0;
 				isGas = true;
-				if(m_backWheel.isGrounded){
+				/*if(m_backWheel.isGrounded){
 					Debug.Log("BOOSTTEST");
 					Gas(m_speed*m_boost);
 					boostJuice = boostJuice - Time.deltaTime;
@@ -304,14 +305,14 @@ public class PlayerController : MonoBehaviour
 							}
 						}
 					}
-				}
+				}*/
 				
 				//add spin to play in the air
-				if(!m_backWheel.isGrounded){
+				/*if(!m_backWheel.isGrounded){
 					rigidbody.AddRelativeTorque (-m_airSpeed, 0, 0);
 				}
 				else //apply torque
-					rigidbody.AddTorque (m_airSpeed, 0, 0);
+					rigidbody.AddTorque (m_airSpeed, 0, 0);*/
 	
 			} 
 			if(s_gas == 0){
@@ -323,6 +324,11 @@ public class PlayerController : MonoBehaviour
 	
 	void Update()
 	{		
+		#region UNITY_EDITOR
+		if(Input.GetKeyDown(KeyCode.Space))
+			GiveBoost(1);
+		Debug.Log("s_gas: " + s_gas + ", monster: " + m_monsterSpeed);
+		#endregion	
 				
 		if(m_init)
 		{
@@ -461,7 +467,7 @@ public class PlayerController : MonoBehaviour
 					Debug.Log ("FLIPPPPPP");
 					//Instantiate(bonusText);
 					ShowBonusText("front frip");
-					GiveBoost(1.0f);
+					GiveBoost(1);
 					//instantiate particles and 
 				} else {
 					//BACK FLIPPED!!!!
@@ -473,7 +479,7 @@ public class PlayerController : MonoBehaviour
 					GiveCoins(1000);
 					//Instantiate(bonusText);
 					ShowBonusText("back flip");
-					GiveBoost(1.0f);
+					GiveBoost(1);
 				}
 			}
 			//upright
@@ -495,7 +501,7 @@ public class PlayerController : MonoBehaviour
 		yield return new WaitForSeconds(0.5f);
 		if(m_frontWheel.isGrounded && !death){
 			//maybe check velocity is above a certain amount	
-			/*??*/	GiveBoost(1.0f); 
+			/*??*/	//GiveBoost(1); 
 		}
 	}
 	
@@ -507,7 +513,18 @@ public class PlayerController : MonoBehaviour
 		
 	
 //ADD BOOST
-	void GiveBoost(float addBoost){
+	int maxBoost = 6;
+	void GiveBoost(int addBoost){
+		//Transform boostboom;
+		//boostboom = Instantiate(boost_trick1, s_boost.transform.position, Camera.mainCamera.transform.rotation) as Transform;
+		//boostboom.parent = s_boost.transform; 
+		
+		currentBoost += addBoost;
+		if(currentBoost>maxBoost) currentBoost = maxBoost;
+		for(int i=0;i<currentBoost;i++) boostBloops[i].SetActive(true);
+		for(int i=currentBoost;i<boostBloops.Length;i++) boostBloops[i].SetActive(false);
+	}
+	/*void GiveBoost(float addBoost){
 		//Transform boostboom;
         //boostboom = Instantiate(boost_trick1, s_boost.transform.position, Camera.mainCamera.transform.rotation) as Transform;
 		//boostboom.parent = s_boost.transform; 
@@ -532,7 +549,7 @@ public class PlayerController : MonoBehaviour
 				}
 			}
 		}
-	}
+	}*/
 	
 //BRAKE	
 	public void Brake(float amount)
@@ -553,15 +570,81 @@ public class PlayerController : MonoBehaviour
 	}
 
 	#region Monster
+	
+	private float m_monsterSpeed = 12.0f;
+	private float monsterSpeedUpTimestep = 30f;
+
+	private float speedup=0f;
+	private float nextMonsterBoost = 1500f;
+	private bool monsterBoost = false;
+	private float monsterBoostDelta = 20f;
 
 	public IEnumerator Monster(){
-	//every XX seconds increase Monsters speed by varR
-		while (life){
-			yield return new WaitForSeconds(monsterSpeedUpTimestep);
-			m_monsterSpeed = m_monsterSpeed + 1;
-		}
 
-		
+		while (life){
+
+			if(!s_pause)
+			{
+				if(!monsterBoost)
+				{
+					speedup += Time.deltaTime;
+					if(speedup >= monsterSpeedUpTimestep)
+					{
+						speedup = 0f;
+						m_monsterSpeed += 1;
+					}
+				}
+
+				if(!monsterBoost && p_distTraveled >= nextMonsterBoost )
+				{
+					monsterBoost = true;
+					StartCoroutine("StartMonsterBoost");
+				}
+			}
+			yield return new WaitForEndOfFrame();
+		}
+	}
+
+	private float savedSpeed;
+	IEnumerator StartMonsterBoost()
+	{
+		savedSpeed = m_monsterSpeed;
+		nextMonsterBoost += 1500f;
+		m_monsterSpeed += 10f;
+		while(true)
+		{
+			if(!s_pause)
+				m_monsterSpeed += Time.deltaTime;
+			yield return new WaitForEndOfFrame();
+		}
+	}
+
+	private bool stoping = false;
+	IEnumerator StopMonsterBoost()
+	{
+		if(!stoping)
+		{
+			stoping = true;
+			StopCoroutine ("StartMonsterBoost");
+			m_monsterSpeed = 10f;
+			while(monsterDistance<40f || m_monsterSpeed>2f)
+			{
+				if(!s_pause)
+					m_monsterSpeed -= Time.deltaTime;
+				yield return new WaitForEndOfFrame();
+			}
+
+			while(m_monsterSpeed<savedSpeed)
+			{
+				if(!s_pause)
+					m_monsterSpeed += 2f*Time.deltaTime;
+				yield return new WaitForEndOfFrame();
+			}
+			m_monsterSpeed = savedSpeed;
+			yield return null;
+			monsterBoost = false;
+			stoping = false;
+		}
 	}
 	
 	public void MonsterMover(){
@@ -585,6 +668,28 @@ public class PlayerController : MonoBehaviour
 				darkScreenPause.SetActive( true);
 			}	
 		}
+	}
+
+	int currentBoost = 0;
+	bool boosting = false;	
+	IEnumerator OneBoost(float amount)
+	{
+		boosting = true;
+		if(monsterBoost)
+			StartCoroutine("StopMonsterBoost");
+		float tm = 1.5f;
+		float ddt = 0f;
+		float am = 1.5f+amount*0.5f;
+		while(tm>0f && !death)
+		{
+			if(!s_pause){
+				tm-=Time.fixedDeltaTime;
+				ddt = 0.5f+(1.5f-tm)/2f;
+				Gas(m_speed*ddt*am);
+			}
+			yield return new WaitForFixedUpdate();
+		}
+		boosting = false;
 	}
 	
 	public void MonsterCloseIn(){
