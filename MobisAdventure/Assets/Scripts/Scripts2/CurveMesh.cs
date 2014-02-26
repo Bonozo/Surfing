@@ -49,10 +49,11 @@ public class CurveMesh : MonoBehaviour
 
 	IEnumerator FixMeshDisappear()
 	{
-		yield return new WaitForEndOfFrame ();
-		yield return new WaitForEndOfFrame ();
-		yield return new WaitForEndOfFrame ();
-		m_mesh.RecalculateBounds ();
+		while(true)
+		{
+			yield return new WaitForSeconds(Random.Range(5f,10f));
+			m_mesh.RecalculateBounds ();
+		}
 	}
 	
 	void Update()

@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Liner : MonoBehaviour {
 
-	LineRenderer renderer = null;
-	PlayerController player;
+	private LineRenderer renderer;
+	private PlayerController player;
 
 	int lenght = 350;
 	int current=0;
