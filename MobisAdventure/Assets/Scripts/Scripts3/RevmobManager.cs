@@ -57,16 +57,24 @@ public class RevmobManager : MonoBehaviour ,IRevMobListener {
 	public void InstallDidFail (string rebMobAdType) {
 		
 	}
-	
+
+	void showRevmobPopup()
+	{
+		if (PlayerPrefs.GetInt("RevmobStatus", 0) == 0 )
+		{
+			revmob.ShowPopup();
+		}
+	}
+
 	void showRevmobFullScreen()
 	{
 		if (PlayerPrefs.GetInt("RevmobStatus", 0) == 0 )
 		{
-#if UNITY_ANDROID
+/*#if UNITY_ANDROID
 			revmob.ShowPopup();
-#elif UNITY_IPHONE
+#elif UNITY_IPHONE*/
 			revmob.ShowFullscreen();
-#endif
+//#endif
 			//fullscreen.Show();
 		}
 	}
