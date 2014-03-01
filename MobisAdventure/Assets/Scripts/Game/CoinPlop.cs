@@ -31,7 +31,7 @@ public class CoinPlop : MonoBehaviour {
 		int coinSum;
 		coinSum = Random.Range(3, 7);
 		int[] coinValue = new int[coinSum];
-		bool is_arctic_level = (Application.loadedLevelName == "Level_Arctic");
+		bool is_arctic_level = (DeathScreen.Instance.levelName == "Level_Arctic");
 		for(int i=0;i<coinSum;i++)
 			coinValue[i]=values[Random.Range(0,is_arctic_level?values.Length-1:values.Length)];
 		System.Array.Sort(coinValue);
