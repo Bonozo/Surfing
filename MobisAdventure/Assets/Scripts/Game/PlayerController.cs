@@ -591,7 +591,7 @@ public class PlayerController : MonoBehaviour
 	private float monsterSpeedUpTimestep = 30f;
 	
 	private float speedup=0f;
-	private float nextMonsterBoost = 1500;
+	private float nextMonsterBoost = 1300;
 	private bool monsterBoost = false;
 	
 	public IEnumerator Monster(){
