@@ -758,7 +758,7 @@ public class PlayerController : MonoBehaviour
 			}
 		}
 		
-		GameObject.Find("RevmobManager").SendMessage("showRevmobFullScreen",SendMessageOptions.DontRequireReceiver);
+		//GameObject.Find("RevmobManager").SendMessage("showRevmobFullScreen",SendMessageOptions.DontRequireReceiver);
 		life=false;
 		rigidbody.drag = 2;
 		Debug.Log("DEATH");
