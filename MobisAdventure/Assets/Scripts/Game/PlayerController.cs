@@ -100,6 +100,7 @@ public class PlayerController : MonoBehaviour
 	Vector3 savedAngularVelocity;
 	
 	// by Aharon
+	private bool tilt = false;
 	
 	// ragdoll
 	private Ragdoll ragdoll;
@@ -108,6 +109,9 @@ public class PlayerController : MonoBehaviour
 	{
 		m_backWheel.radius = 0.74f;
 		m_frontWheel.radius = 0.68f;
+
+
+		tilt = PlayerPrefs.GetInt("options_control")==1;
 	}
 	
 	
@@ -317,6 +321,16 @@ public class PlayerController : MonoBehaviour
 			} 
 			if(s_gas == 0){
 				isGas = false;	
+			}
+
+			if(tilt)
+			{
+				float angle = -4f*DeviceAcceleration.Acceleration.x;
+				if(!m_backWheel.isGrounded){
+					rigidbody.AddRelativeTorque (-m_airSpeed*angle, 0, 0);
+				}
+				else //apply torque
+					rigidbody.AddTorque (m_airSpeed*angle, 0, 0);
 			}
 		}
 	}
