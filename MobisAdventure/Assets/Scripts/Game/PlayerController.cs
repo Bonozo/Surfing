@@ -480,7 +480,8 @@ public class PlayerController : MonoBehaviour
 					GiveCoins(1000);
 					Debug.Log ("FLIPPPPPP");
 					//Instantiate(bonusText);
-					ShowBonusText("front frip");
+					//ShowBonusText("front frip");
+					DeathScreen.Instance.levelController.ShowFrontflipBonus();
 					GiveBoost(1);
 					//instantiate particles and 
 				} else {
@@ -492,7 +493,8 @@ public class PlayerController : MonoBehaviour
 					//Instantiate(boost_trick1, transform.position, Camera.mainCamera.transform.rotation);
 					GiveCoins(1000);
 					//Instantiate(bonusText);
-					ShowBonusText("back flip");
+					//ShowBonusText("back flip");
+					DeathScreen.Instance.levelController.ShowBackflipBonus();
 					GiveBoost(1);
 				}
 			}

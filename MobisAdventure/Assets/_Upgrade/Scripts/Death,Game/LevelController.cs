@@ -3,11 +3,14 @@ using System.Collections;
 
 public class LevelController : MonoBehaviour {
 
+	public Color uiColor;
 	private int[] levelDist = new int[]{0,0,1500,3000,4500,6000,7500,10000};
 	private int[] levelBonus = new int[]{0,0,1000,1500,2000,2500,3000,4500};
 
 	public string levelName;
 	public UILabel labelText;
+	public UILabel labelBackflip;
+	public UILabel labelFrontflip;
 	public TextMesh textMeshLevel;
 	
 	private float tweenScaleTime = 0.6f;
@@ -26,11 +29,17 @@ public class LevelController : MonoBehaviour {
 	
 	void Awake()
 	{
-		player = GameObject.FindObjectOfType (typeof(PlayerController)) as PlayerController;
-		id = "level_" + Application.loadedLevelName;
+		player = GameObject.FindObjectOfType (typeof(PlayerController)) as PlayerController;		
+		id = "level_" + levelName;
 		textMeshLevel.text = "LEVEL: " + CurrentLevel;
 		nextLevel = CurrentLevel + 1;
 		labelText.gameObject.SetActive (false);
+		labelBackflip.gameObject.SetActive (false);
+		labelFrontflip.gameObject.SetActive (false);
+
+		labelText.color = uiColor;
+		labelBackflip.color = uiColor;
+		labelFrontflip.color = uiColor;
 	}
 
 	IEnumerator Start()
@@ -41,6 +50,8 @@ public class LevelController : MonoBehaviour {
 
 	void Update()
 	{
+		if(Input.GetKeyDown(KeyCode.Space))
+			ShowBackflipBonus();
 		if(nextLevel>=levelDist.Length) return;
 		var dist = player.p_distTraveled;
 		if( dist >= levelDist[nextLevel] )
@@ -108,4 +119,74 @@ public class LevelController : MonoBehaviour {
 		textMeshLevel.text = "LEVEL: " + lvl;
 
 	}
+
+	#region Flips
+
+	public void ShowBackflipBonus()
+	{
+		StopCoroutine("ShowBackflipThread");
+		iTween.Stop (labelBackflip.gameObject, false);
+		StartCoroutine ("ShowBackflipThread");
+	}
+
+	public void ShowFrontflipBonus()
+	{
+		StopCoroutine("ShowFrontflipThread");
+		iTween.Stop (labelFrontflip.gameObject, false);
+		StartCoroutine ("ShowFrontflipThread");
+	}
+
+	private IEnumerator ShowFrontflipThread()
+	{
+		yield return new WaitForEndOfFrame ();
+		
+		labelFrontflip.transform.localScale = new Vector3 (0f, 0f, 1f);
+		labelFrontflip.text = "Front flip\n+1000 pt";
+		NGUITools.SetActive (labelFrontflip.gameObject, true);
+		iTween.ScaleTo (labelFrontflip.gameObject, iTween.Hash("scale", new Vector3(1.5f,1.5f,1f),
+		                                                      "time", 0.3f, "easeType", iTween.EaseType.spring));
+		yield return new WaitForSeconds (2f);
+		iTween.ScaleTo (labelFrontflip.gameObject, iTween.Hash("scale", new Vector3(0f,0f,1f),
+		                                                  "time", 0.1f, "easeType", iTween.EaseType.linear));
+		yield return new WaitForSeconds (0.1f);
+		NGUITools.SetActive (labelFrontflip.gameObject, false);
+	}
+
+	private IEnumerator ShowBackflipThread()
+	{
+		yield return new WaitForEndOfFrame ();
+
+		labelBackflip.transform.localScale = new Vector3 (0f, 0f, 1f);
+		labelBackflip.text = "Back flip\n+1000 pt";
+		NGUITools.SetActive (labelBackflip.gameObject, true);
+		iTween.ScaleTo (labelBackflip.gameObject, iTween.Hash("scale", new Vector3(1.5f,1.5f,1f),
+		                                                      "time", 0.3f, "easeType", iTween.EaseType.spring));
+		yield return new WaitForSeconds (2f);
+		iTween.ScaleTo (labelBackflip.gameObject, iTween.Hash("scale", new Vector3(0f,0f,1f),
+		                                                  "time", 0.1f, "easeType", iTween.EaseType.linear));
+		yield return new WaitForSeconds (0.1f);
+		NGUITools.SetActive (labelBackflip.gameObject, false);
+
+		/*int delta = 100;
+		int bonusCoins = 1000;
+		labelBackflip.text = "Back flip\nBonus 0 pt";
+
+		labelBackflip.transform.localScale = new Vector3 (0f, 0f, 1f);
+		NGUITools.SetActive (labelBackflip.gameObject, true);
+		iTween.ScaleTo (labelBackflip.gameObject, iTween.Hash("scale", new Vector3(1.5f,1.5f,1f),
+		                                                  "time", 0.3f, "easeType", iTween.EaseType.spring));
+		yield return new WaitForSeconds (0.3f);
+		while(bonusCoins>0)
+		{
+			int ddx = Mathf.Min(delta,bonusCoins);	
+			bonusCoins -= ddx;
+			Coin_Counter.AddCoins(ddx);
+			labelBackflip.text = "Back flip\nBonus " + (1000-bonusCoins) + " pt";
+			yield return new WaitForSeconds(0.05f);
+		}
+		yield return new WaitForSeconds (0.5f);
+		NGUITools.SetActive (labelBackflip.gameObject, false);*/
+	}
+
+	#endregion
 }
