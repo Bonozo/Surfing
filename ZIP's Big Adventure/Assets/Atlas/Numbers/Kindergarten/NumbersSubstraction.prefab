@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: NumbersSubstraction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 44ef98514e3ddca4597337a20399c0a5, type: 2}
+  sprites:
+  - name: Bird
+    outer:
+      serializedVersion: 2
+      x: 237
+      y: 207
+      width: 224
+      height: 192
+    inner:
+      serializedVersion: 2
+      x: 237
+      y: 207
+      width: 224
+      height: 192
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: x Sprite
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 23
+      width: 122
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 23
+      width: 122
+      height: 160
+    rotated: 0
+    paddingLeft: .573770463
+    paddingRight: .549180329
+    paddingTop: .224999994
+    paddingBottom: .293749988
+  - name: Subtraction_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 400
+      width: 932
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 400
+      width: 932
+      height: 112
+    rotated: 0
+    paddingLeft: .0536480695
+    paddingRight: .0547210313
+    paddingTop: .455357134
+    paddingBottom: .580357134
+  - name: Caterpillar
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 22
+      width: 154
+      height: 151
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 22
+      width: 154
+      height: 151
+    rotated: 0
+    paddingLeft: .402597398
+    paddingRight: .298701286
+    paddingTop: .311258286
+    paddingBottom: .258278131
+  - name: Penguin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 174
+      width: 236
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 174
+      width: 236
+      height: 225
+    rotated: 0
+    paddingLeft: .334745765
+    paddingRight: .271186441
+    paddingTop: .182222217
+    paddingBottom: .231111109
+  - name: Bowl of cereal
+    outer:
+      serializedVersion: 2
+      x: 237
+      y: 92
+      width: 175
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 237
+      y: 92
+      width: 175
+      height: 114
+    rotated: 0
+    paddingLeft: .22857143
+    paddingRight: .182857141
+    paddingTop: .403508782
+    paddingBottom: .438596487
+  - name: Ice cream Cone
+    outer:
+      serializedVersion: 2
+      x: 603
+      y: 215
+      width: 95
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 603
+      y: 215
+      width: 95
+      height: 184
+    rotated: 0
+    paddingLeft: .536842108
+    paddingRight: .642105281
+    paddingTop: .288043469
+    paddingBottom: .239130437
+  - name: Shoe
+    outer:
+      serializedVersion: 2
+      x: 237
+      y: 12
+      width: 139
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 237
+      y: 12
+      width: 139
+      height: 79
+    rotated: 0
+    paddingLeft: .309352517
+    paddingRight: .25179857
+    paddingTop: .531645596
+    paddingBottom: .670886099
+  - name: Daisy Flower
+    outer:
+      serializedVersion: 2
+      x: 462
+      y: 184
+      width: 140
+      height: 215
+    inner:
+      serializedVersion: 2
+      x: 462
+      y: 184
+      width: 140
+      height: 215
+    rotated: 0
+    paddingLeft: .128571436
+    paddingRight: .257142872
+    paddingTop: .176744193
+    paddingBottom: 0
+  - name: Square
+    outer:
+      serializedVersion: 2
+      x: 699
+      y: 301
+      width: 122
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 699
+      y: 301
+      width: 122
+      height: 98
+    rotated: 0
+    paddingLeft: .508196712
+    paddingRight: .467213124
+    paddingTop: .673469365
+    paddingBottom: .622448981
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

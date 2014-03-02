@@ -213,6 +213,7 @@
      <Compile Include="Assets\Scripts\Procedures\EndItemChangeTexture.cs" />
      <Compile Include="Assets\Scripts\Procedures\EndItemColor.cs" />
      <Compile Include="Assets\Scripts\Procedures\EndItemLeaveScreen.cs" />
+     <Compile Include="Assets\Scripts\Procedures\EndItemList.cs" />
      <Compile Include="Assets\Scripts\Procedures\EndItemMoveTo.cs" />
      <Compile Include="Assets\Scripts\Procedures\EndItemMultipleEndItem.cs" />
      <Compile Include="Assets\Scripts\Procedures\EndItemScaleTo.cs" />
