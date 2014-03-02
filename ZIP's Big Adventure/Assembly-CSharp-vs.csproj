@@ -183,6 +183,8 @@
      <Compile Include="Assets\Scripts\Levels\Match Picture With Words\PictureWithWordButton.cs" />
      <Compile Include="Assets\Scripts\Levels\Point\LevelPoint.cs" />
      <Compile Include="Assets\Scripts\Levels\Point\PointButton.cs" />
+     <Compile Include="Assets\Scripts\Levels\Right Sequence\LevelRightSequence.cs" />
+     <Compile Include="Assets\Scripts\Levels\Right Sequence\LevelRightSequenceButton.cs" />
      <Compile Include="Assets\Scripts\Levels\Trace.cs" />
      <Compile Include="Assets\Scripts\Levels\TraceElement.cs" />
      <Compile Include="Assets\Scripts\Levels\WhatIsNextDrag.cs" />

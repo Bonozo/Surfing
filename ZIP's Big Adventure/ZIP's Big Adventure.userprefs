@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\MobisAdventure\Assets\Scripts\Scripts2\Path.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Editor\LevelRightSequenceButtonEditor.cs">
     <Files>
-      <File FileName="..\MobisAdventure\Assets\Scripts\Scripts2\MeshManager.cs" Line="144" Column="3" />
-      <File FileName="..\MobisAdventure\Assets\Scripts\Scripts2\Path.cs" Line="83" Column="4" />
+      <File FileName="Assets\Scripts\Levels\Right Sequence\LevelRightSequence.cs" Line="16" Column="3" />
+      <File FileName="Assets\Scripts\Levels\Right Sequence\LevelRightSequenceButton.cs" Line="70" Column="25" />
+      <File FileName="Assets\Scripts\Editor\LevelRightSequenceButtonEditor.cs" Line="14" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Trace2
+  m_Name: NumbersTrace1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,109 +38,91 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 84db1a405cb9171459accd9b807cca35, type: 2}
+  material: {fileID: 2100000, guid: b5defe7993e2aef4a8ad472362338c65, type: 2}
   sprites:
-  - name: Trace3_End
-    outer:
-      serializedVersion: 2
-      x: 979
-      y: 705
-      width: 1038
-      height: 648
-    inner:
-      serializedVersion: 2
-      x: 979
-      y: 705
-      width: 1038
-      height: 648
-    rotated: 0
-    paddingLeft: .596339107
-    paddingRight: .376685947
-    paddingTop: .32407406
-    paddingBottom: 1.04629624
-  - name: Trace3_Begin
+  - name: Trace1_Begin
     outer:
       serializedVersion: 2
       x: 0
-      y: 644
+      y: 662
       width: 978
-      height: 709
+      height: 667
     inner:
       serializedVersion: 2
       x: 0
-      y: 644
+      y: 662
       width: 978
-      height: 709
+      height: 667
     rotated: 0
     paddingLeft: .583844602
     paddingRight: .510224938
-    paddingTop: .231311709
-    paddingBottom: .935119867
-  - name: Trace4_Begin
+    paddingTop: .245877057
+    paddingBottom: 1.05697155
+  - name: Trace1_End
     outer:
       serializedVersion: 2
       x: 979
-      y: 36
-      width: 978
-      height: 668
+      y: 688
+      width: 990
+      height: 641
     inner:
       serializedVersion: 2
       x: 979
-      y: 36
+      y: 688
+      width: 990
+      height: 641
+    rotated: 0
+    paddingLeft: .625252545
+    paddingRight: .443434358
+    paddingTop: .329173177
+    paddingBottom: 1.06708264
+  - name: Trace2_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1330
       width: 978
-      height: 668
+      height: 718
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1330
+      width: 978
+      height: 718
     rotated: 0
     paddingLeft: .583844602
     paddingRight: .510224938
-    paddingTop: .245508984
-    paddingBottom: 1.05389225
-  - name: Trace4_End
+    paddingTop: .200557098
+    paddingBottom: .883008361
+  - name: Trace2_End
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1354
-      width: 1302
-      height: 694
+      x: 979
+      y: 1377
+      width: 1009
+      height: 671
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1354
-      width: 1302
-      height: 694
+      x: 979
+      y: 1377
+      width: 1009
+      height: 671
     rotated: 0
-    paddingLeft: .337173581
-    paddingRight: .235791087
-    paddingTop: .249279544
-    paddingBottom: .96397692
-  - name: Star
-    outer:
-      serializedVersion: 2
-      x: 1303
-      y: 1898
-      width: 25
-      height: 23
-    inner:
-      serializedVersion: 2
-      x: 1303
-      y: 1898
-      width: 25
-      height: 23
-    rotated: 0
-    paddingLeft: 8.88000011
-    paddingRight: 31.0799999
-    paddingTop: 29.434782
-    paddingBottom: 2.95652175
+    paddingLeft: .614469767
+    paddingRight: .41526264
+    paddingTop: .314456046
+    paddingBottom: .974664688
   - name: whitecyrcle
     outer:
       serializedVersion: 2
-      x: 1303
-      y: 1922
+      x: 0
+      y: 535
       width: 122
       height: 126
     inner:
       serializedVersion: 2
-      x: 1303
-      y: 1922
+      x: 0
+      y: 535
       width: 122
       height: 126
     rotated: 0
@@ -148,6 +130,24 @@ MonoBehaviour:
     paddingRight: .0245901644
     paddingTop: .00793650839
     paddingBottom: .00793650839
+  - name: Star
+    outer:
+      serializedVersion: 2
+      x: 979
+      y: 1353
+      width: 25
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 979
+      y: 1353
+      width: 25
+      height: 23
+    rotated: 0
+    paddingLeft: 8.88000011
+    paddingRight: 31.0799999
+    paddingTop: 29.434782
+    paddingBottom: 2.95652175
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

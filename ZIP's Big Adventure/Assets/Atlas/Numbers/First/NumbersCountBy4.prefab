@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: NumbersCountBy4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 5033aa1b4e959e74fb8065056110b94e, type: 2}
+  sprites:
+  - name: 12
+    outer:
+      serializedVersion: 2
+      x: 683
+      y: 2314
+      width: 339
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 683
+      y: 2314
+      width: 339
+      height: 496
+    rotated: 0
+    paddingLeft: 2.10324478
+    paddingRight: 2.93805313
+    paddingTop: .945564508
+    paddingBottom: 1.15120971
+  - name: 4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1816
+      width: 340
+      height: 497
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1816
+      width: 340
+      height: 497
+    rotated: 0
+    paddingLeft: 4.32941198
+    paddingRight: .694117665
+    paddingTop: .639839053
+    paddingBottom: 1.45070422
+  - name: 28
+    outer:
+      serializedVersion: 2
+      x: 682
+      y: 1816
+      width: 338
+      height: 497
+    inner:
+      serializedVersion: 2
+      x: 682
+      y: 1816
+      width: 338
+      height: 497
+    rotated: 0
+    paddingLeft: 2.84615374
+    paddingRight: 2.2130177
+    paddingTop: .595573425
+    paddingBottom: 1.49496984
+  - name: 16
+    outer:
+      serializedVersion: 2
+      x: 341
+      y: 1816
+      width: 340
+      height: 497
+    inner:
+      serializedVersion: 2
+      x: 341
+      y: 1816
+      width: 340
+      height: 497
+    rotated: 0
+    paddingLeft: 1.19117641
+    paddingRight: 3.83235288
+    paddingTop: .688128769
+    paddingBottom: 1.40241444
+  - name: 32
+    outer:
+      serializedVersion: 2
+      x: 1023
+      y: 2314
+      width: 339
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 1023
+      y: 2314
+      width: 339
+      height: 496
+    rotated: 0
+    paddingLeft: 2.51622415
+    paddingRight: 2.52507377
+    paddingTop: 1.75604844
+    paddingBottom: .340725809
+  - name: 24
+    outer:
+      serializedVersion: 2
+      x: 1573
+      y: 3600
+      width: 341
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 1573
+      y: 3600
+      width: 341
+      height: 496
+    rotated: 0
+    paddingLeft: 4.29032278
+    paddingRight: .715542495
+    paddingTop: 1.34475803
+    paddingBottom: .752016127
+  - name: 8
+    outer:
+      serializedVersion: 2
+      x: 1573
+      y: 3103
+      width: 341
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 1573
+      y: 3103
+      width: 341
+      height: 496
+    rotated: 0
+    paddingLeft: 3.31671548
+    paddingRight: 1.68914962
+    paddingTop: 1.41532254
+    paddingBottom: .681451619
+  - name: 36
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2314
+      width: 341
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2314
+      width: 341
+      height: 496
+    rotated: 0
+    paddingLeft: .703812301
+    paddingRight: 4.30205297
+    paddingTop: 1.30443549
+    paddingBottom: .792338729
+  - name: 20
+    outer:
+      serializedVersion: 2
+      x: 1363
+      y: 2314
+      width: 338
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 1363
+      y: 2314
+      width: 338
+      height: 496
+    rotated: 0
+    paddingLeft: 3.45857978
+    paddingRight: 1.60059166
+    paddingTop: .899193525
+    paddingBottom: 1.1975807
+  - name: 40
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 2315
+      width: 340
+      height: 495
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 2315
+      width: 340
+      height: 495
+    rotated: 0
+    paddingLeft: 1.70882356
+    paddingRight: 3.31470585
+    paddingTop: 1.52323234
+    paddingBottom: .579797983
+  - name: Count by 4's_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2811
+      width: 1572
+      height: 1285
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2811
+      width: 1572
+      height: 1285
+    rotated: 0
+    paddingLeft: .152671754
+    paddingRight: .150127232
+    paddingTop: .0638132319
+    paddingBottom: .131517515
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
