@@ -606,6 +606,7 @@ MonoBehaviour:
   endItems:
   - {fileID: 713947201}
   - {fileID: 1204782337}
+  dragsLenght: 6
 --- !u!1 &104104555
 GameObject:
   m_ObjectHideFlags: 0
@@ -5250,6 +5251,7 @@ MonoBehaviour:
   endItems:
   - {fileID: 2120930179}
   - {fileID: 802921646}
+  dragsLenght: 4
 --- !u!1 &764868055
 GameObject:
   m_ObjectHideFlags: 0
@@ -7009,6 +7011,7 @@ MonoBehaviour:
   endItems:
   - {fileID: 368228245}
   - {fileID: 1678811393}
+  dragsLenght: 4
 --- !u!1 &999524756
 GameObject:
   m_ObjectHideFlags: 0
@@ -11879,6 +11882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94519b577833c594ab024f8117aba65e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  randomizedGames: 1
   level:
   - {fileID: 949838901}
   - {fileID: 1339834427}
@@ -12577,7 +12581,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.766467154, y: 0, z: 0}
+  m_LocalPosition: {x: -1.81238937, y: .905660391, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1607776916}
@@ -14782,7 +14786,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1956016496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.766479, y: -383.233551, z: 0}
+  m_LocalPosition: {x: -512.906189, y: -383.09433, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 1898425767}

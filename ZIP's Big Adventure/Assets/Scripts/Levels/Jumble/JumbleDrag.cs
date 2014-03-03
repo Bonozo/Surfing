@@ -30,8 +30,10 @@ public class JumbleDrag : MonoBehaviour {
 		foreach(var col in targetCollider)
 		{
 			col.enabled = true;
-			col.GetComponent<UISprite> ().spriteName = "gray_box";
+			if(col.GetComponent<UISprite>() != null)
+				col.GetComponent<UISprite> ().spriteName = "gray_box";
 		}
+		this.GetComponent<UIDragObject> ().enabled = true;
 	}
 	
 	public void DisableCollider()
@@ -46,6 +48,7 @@ public class JumbleDrag : MonoBehaviour {
 	
 	void OnTriggerStay(Collider other)
 	{		
+		if(other.GetComponent<JumbleDrag>() != null) return;
 		dragTime -= Time.deltaTime;
 		if(dragTime <= 0f)
 		{
@@ -70,11 +73,13 @@ public class JumbleDrag : MonoBehaviour {
 	IEnumerator HappyEnd(Collider col)
 	{
 		DisableCollider ();
+		this.GetComponent<UIDragObject> ().enabled = false;
 		col.enabled = false;
 		iTween.MoveTo(gameObject,iTween.Hash("position",col.transform.localPosition
 		                                     ,"time",1f,"islocal",true));
 		yield return new WaitForSeconds(0.1f);
-		col.GetComponent<UISprite> ().spriteName = "yellow_box";
+		if(col.GetComponent<UISprite>() != null)
+			col.GetComponent<UISprite> ().spriteName = "yellow_box";
 		yield return new WaitForSeconds(0.9f);
 		level.Answered (this);
 	}

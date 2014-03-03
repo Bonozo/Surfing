@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: NumbersMove
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: c48116f503f054d4d97b3eaeb346b6dc, type: 2}
+  sprites:
+  - name: Flower Sprite
+    outer:
+      serializedVersion: 2
+      x: 417
+      y: 416
+      width: 230
+      height: 357
+    inner:
+      serializedVersion: 2
+      x: 417
+      y: 416
+      width: 230
+      height: 357
+    rotated: 0
+    paddingLeft: .117391303
+    paddingRight: .152173907
+    paddingTop: .1232493
+    paddingBottom: .0868347362
+  - name: Single Butterfly
+    outer:
+      serializedVersion: 2
+      x: 625
+      y: 882
+      width: 150
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 625
+      y: 882
+      width: 150
+      height: 142
+    rotated: 0
+    paddingLeft: .273333341
+    paddingRight: .373333335
+    paddingTop: .316901416
+    paddingBottom: .309859157
+  - name: Single Carrot
+    outer:
+      serializedVersion: 2
+      x: 915
+      y: 952
+      width: 98
+      height: 72
+    inner:
+      serializedVersion: 2
+      x: 915
+      y: 952
+      width: 98
+      height: 72
+    rotated: 0
+    paddingLeft: .540816307
+    paddingRight: .551020384
+    paddingTop: .527777791
+    paddingBottom: .555555582
+  - name: Salad Sprite
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 429
+      width: 416
+      height: 344
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 429
+      width: 416
+      height: 344
+    rotated: 0
+    paddingLeft: .12740384
+    paddingRight: .10817308
+    paddingTop: .136627913
+    paddingBottom: .101744182
+  - name: Single Duck
+    outer:
+      serializedVersion: 2
+      x: 776
+      y: 906
+      width: 138
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 776
+      y: 906
+      width: 138
+      height: 118
+    rotated: 0
+    paddingLeft: .275362313
+    paddingRight: .297101438
+    paddingTop: .245762706
+    paddingBottom: .406779647
+  - name: Pond Sprite
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 774
+      width: 624
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 774
+      width: 624
+      height: 250
+    rotated: 0
+    paddingLeft: .0945512801
+    paddingRight: .065705128
+    paddingTop: .263999999
+    paddingBottom: .115999997
+  - name: Single Fish
+    outer:
+      serializedVersion: 2
+      x: 625
+      y: 813
+      width: 105
+      height: 68
+    inner:
+      serializedVersion: 2
+      x: 625
+      y: 813
+      width: 105
+      height: 68
+    rotated: 0
+    paddingLeft: .285714298
+    paddingRight: .466666669
+    paddingTop: .529411793
+    paddingBottom: .720588207
+  - name: Cup Sprite
+    outer:
+      serializedVersion: 2
+      x: 648
+      y: 496
+      width: 284
+      height: 277
+    inner:
+      serializedVersion: 2
+      x: 648
+      y: 496
+      width: 284
+      height: 277
+    rotated: 0
+    paddingLeft: .137323946
+    paddingRight: .102112673
+    paddingTop: .122743681
+    paddingBottom: .111913361
+  - name: Single Ice cube
+    outer:
+      serializedVersion: 2
+      x: 776
+      y: 826
+      width: 89
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 776
+      y: 826
+      width: 89
+      height: 79
+    rotated: 0
+    paddingLeft: .38202247
+    paddingRight: .415730327
+    paddingTop: .443037987
+    paddingBottom: .531645596
+  - name: SingleTomatoe
+    outer:
+      serializedVersion: 2
+      x: 648
+      y: 422
+      width: 85
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 648
+      y: 422
+      width: 85
+      height: 73
+    rotated: 0
+    paddingLeft: .494117647
+    paddingRight: .635294139
+    paddingTop: .589041114
+    paddingBottom: .506849289
+  - name: Single Shoe
+    outer:
+      serializedVersion: 2
+      x: 866
+      y: 842
+      width: 110
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 866
+      y: 842
+      width: 110
+      height: 63
+    rotated: 0
+    paddingLeft: .24545455
+    paddingRight: .418181807
+    paddingTop: .666666687
+    paddingBottom: .666666687
+  - name: Shelf Sprite
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 72
+      width: 341
+      height: 356
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 72
+      width: 341
+      height: 356
+    rotated: 0
+    paddingLeft: .14662756
+    paddingRight: .131964803
+    paddingTop: .16853933
+    paddingBottom: 0
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

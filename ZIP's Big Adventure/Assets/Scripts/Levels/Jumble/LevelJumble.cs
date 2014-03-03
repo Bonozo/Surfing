@@ -6,6 +6,7 @@ public class LevelJumble : ZIPLevel {
 	public GameBlock gameBlock;
 	public JumbleDrag[] drags;
 	public EndItem[] endItems;
+	public int dragsLenght;
 
 	private int done;
 
@@ -21,13 +22,14 @@ public class LevelJumble : ZIPLevel {
 	public void Answered(JumbleDrag drag)
 	{
 		done++;
-		if( done == drags.Length)
+		if( done == dragsLenght)
 			StartCoroutine(HappyEndThread());
 	}
 
 	private IEnumerator HappyEndThread()
 	{
 		foreach(var et in endItems) et.Work();
+		foreach(var dr in drags) dr.DisableCollider();
 
 		yield return new WaitForSeconds(0.5f);
 		gameBlock.path.OneStepGo ();
