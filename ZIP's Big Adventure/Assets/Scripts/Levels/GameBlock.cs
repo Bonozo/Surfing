@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class GameBlock : MonoBehaviour {
 
 	public bool randomizedGames = true;
+	public bool allLevelsDetermined = false;
 	public ZIPLevel[] level;
 	public LevelPath path;
 	public bool showIntro = true;
@@ -20,20 +21,31 @@ public class GameBlock : MonoBehaviour {
 		if(randomizedGames)
 		{
 			List<ZIPLevel> levels = new List<ZIPLevel>();
-			var gmb = GameObject.Find("First");
-			foreach(Transform g in gmb.transform)
-				foreach(Transform gg in g)
-					levels.Add(gg.GetComponent<ZIPLevel>());
+			GameObject gmb;
 
-			gmb = GameObject.Find("Kindergarten");
-			foreach(Transform g in gmb.transform)
-				foreach(Transform gg in g)
-					levels.Add(gg.GetComponent<ZIPLevel>());
+			if(GameController.gameLevel == GameLevel.First || !allLevelsDetermined)
+			{
+				gmb = GameObject.Find("First");
+				foreach(Transform g in gmb.transform)
+					foreach(Transform gg in g)
+						levels.Add(gg.GetComponent<ZIPLevel>());
+			}
 
-			gmb = GameObject.Find("PreK");
-			foreach(Transform g in gmb.transform)
-				foreach(Transform gg in g)
-					levels.Add(gg.GetComponent<ZIPLevel>());
+			if(GameController.gameLevel == GameLevel.Kindergarten || !allLevelsDetermined)
+			{
+				gmb = GameObject.Find("Kindergarten");
+				foreach(Transform g in gmb.transform)
+					foreach(Transform gg in g)
+						levels.Add(gg.GetComponent<ZIPLevel>());
+			}
+
+			if(GameController.gameLevel == GameLevel.PreK || !allLevelsDetermined)
+			{
+				gmb = GameObject.Find("PreK");
+				foreach(Transform g in gmb.transform)
+					foreach(Transform gg in g)
+						levels.Add(gg.GetComponent<ZIPLevel>());
+			}
 
 			if(levels.Count < level.Length)
 			{
