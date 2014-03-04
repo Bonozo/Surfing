@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: NumbersTraceThePath1
+  m_Name: NumbersTraceThePathTitles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,44 +38,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4668bc45010d3834cb9d244af1bd568b, type: 2}
+  material: {fileID: 2100000, guid: 5a61c6af6912566498eff328f99a355e, type: 2}
   sprites:
-  - name: A path from Marty Moose to a forest (numbers 5 through 15)
+  - name: Honey_Text
     outer:
       serializedVersion: 2
       x: 0
-      y: 1233
-      width: 1560
-      height: 815
+      y: 463
+      width: 1618
+      height: 186
     inner:
       serializedVersion: 2
       x: 0
-      y: 1233
-      width: 1560
-      height: 815
+      y: 463
+      width: 1618
+      height: 186
     rotated: 0
-    paddingLeft: .0173076931
-    paddingRight: .00833333377
-    paddingTop: .0220858902
-    paddingBottom: .0282208584
-  - name: A path from Honey to a Carrot (numbers 1 through 10)
+    paddingLeft: .0129789868
+    paddingRight: .0160692204
+    paddingTop: .129032254
+    paddingBottom: .112903222
+  - name: Marty_Text
     outer:
       serializedVersion: 2
       x: 0
-      y: 457
-      width: 1173
-      height: 775
+      y: 276
+      width: 1585
+      height: 186
     inner:
       serializedVersion: 2
       x: 0
-      y: 457
-      width: 1173
-      height: 775
+      y: 276
+      width: 1585
+      height: 186
     rotated: 0
-    paddingLeft: .0247229319
-    paddingRight: 0
-    paddingTop: .0387096778
-    paddingBottom: .0412903242
+    paddingLeft: .0182965305
+    paddingRight: .0195583589
+    paddingTop: .0967741907
+    paddingBottom: .0806451589
+  - name: Kristy_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 837
+      width: 1665
+      height: 187
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 837
+      width: 1665
+      height: 187
+    rotated: 0
+    paddingLeft: .0258258265
+    paddingRight: .0306306314
+    paddingTop: .176470593
+    paddingBottom: .144385025
+  - name: Lucky_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 650
+      width: 1630
+      height: 186
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 650
+      width: 1630
+      height: 186
+    rotated: 0
+    paddingLeft: .0128834359
+    paddingRight: .00981595088
+    paddingTop: .0967741907
+    paddingBottom: .112903222
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

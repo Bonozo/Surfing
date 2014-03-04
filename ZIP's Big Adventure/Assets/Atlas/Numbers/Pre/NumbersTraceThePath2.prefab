@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: NumbersTraceThePath1
+  m_Name: NumbersTraceThePath2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,44 +38,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 4668bc45010d3834cb9d244af1bd568b, type: 2}
+  material: {fileID: 2100000, guid: dff0abce2f670d046a7f2825d540d10d, type: 2}
   sprites:
-  - name: A path from Marty Moose to a forest (numbers 5 through 15)
+  - name: A path from Lucky Puppy to a bone (numbers 10 through 20)
     outer:
       serializedVersion: 2
       x: 0
-      y: 1233
-      width: 1560
-      height: 815
+      y: 474
+      width: 1192
+      height: 794
     inner:
       serializedVersion: 2
       x: 0
-      y: 1233
-      width: 1560
-      height: 815
+      y: 474
+      width: 1192
+      height: 794
     rotated: 0
-    paddingLeft: .0173076931
-    paddingRight: .00833333377
-    paddingTop: .0220858902
-    paddingBottom: .0282208584
-  - name: A path from Honey to a Carrot (numbers 1 through 10)
+    paddingLeft: .0209731553
+    paddingRight: .0218120813
+    paddingTop: .0403022654
+    paddingBottom: .0440806039
+  - name: A path from Kristy Kitty to a ball of yarn (numbers 15 through 25)
     outer:
       serializedVersion: 2
       x: 0
-      y: 457
-      width: 1173
-      height: 775
+      y: 1269
+      width: 1223
+      height: 779
     inner:
       serializedVersion: 2
       x: 0
-      y: 457
-      width: 1173
-      height: 775
+      y: 1269
+      width: 1223
+      height: 779
     rotated: 0
-    paddingLeft: .0247229319
-    paddingRight: 0
-    paddingTop: .0387096778
-    paddingBottom: .0412903242
+    paddingLeft: .0253475066
+    paddingRight: .0253475066
+    paddingTop: .0231065471
+    paddingBottom: .0141206672
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
