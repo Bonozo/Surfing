@@ -10,7 +10,6 @@ public class GameBlock : MonoBehaviour {
 	public LevelPath path;
 	public bool showIntro = true;
 	public GameBlockIntro intro;
-	public UILabel labelIntro;
 	public GameObject winToggle;
 
 	private int gameIndex=0;
@@ -49,7 +48,6 @@ public class GameBlock : MonoBehaviour {
 
 			if(levels.Count < level.Length)
 			{
-				collider.enabled = false;
 				Debug.Log("There is no enought levels.");
 				return;
 			}
@@ -71,14 +69,11 @@ public class GameBlock : MonoBehaviour {
 	{
 		yield return new WaitForEndOfFrame();
 
-		collider.enabled = false;
-		labelIntro.gameObject.SetActive (false);
 		path.Reset();
 		gameIndex=0;
 		path.PlayFirstAnims ();
 		if(showIntro){
 			yield return intro.StartCoroutine (intro.ComeAround ());
-			collider.enabled = true;
 		}
 		else{
 			if(intro != null)
@@ -87,13 +82,10 @@ public class GameBlock : MonoBehaviour {
 			path.PauseAnims();
 			ShowNextLevel();
 		}
-		labelIntro.gameObject.SetActive (true);
 	}
 
-	void OnClick()
+	public void Play()
 	{
-		collider.enabled = false;
-		labelIntro.gameObject.SetActive (false);
 		StartCoroutine (StartLevels ());
 	}
 

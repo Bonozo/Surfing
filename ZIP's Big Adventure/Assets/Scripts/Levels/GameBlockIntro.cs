@@ -24,6 +24,7 @@ public class GameBlockIntro : MonoBehaviour {
 
 	public IEnumerator GoAway()
 	{
+		GetComponentInChildren<UIButton> ().collider.enabled = false;
 		iTween.Stop (gameObject, false);
 		iTween.MoveTo(gameObject,iTween.Hash("position",to,"easetype",easyType2,"time",dur,"islocal",true));
 		yield return new WaitForSeconds (dur + 0.1f);
