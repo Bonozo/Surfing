@@ -29,6 +29,8 @@ public class DeathScreen : MonoBehaviour {
 		bgAlphaTween.PlayForward();
 		yield return new WaitForSeconds(bgAlphaTween.duration);
 		stats.SetActive(true);
+		if(UniRate.Instance.ShouldPromptForRating())
+			UniRate.Instance.PromptIfNetworkAvailable();
 	}
 
 	public GameObject pauseScreen;
