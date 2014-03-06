@@ -73,6 +73,7 @@ public class JumbleDrag : MonoBehaviour {
 	IEnumerator HappyEnd(Collider col)
 	{
 		DisableCollider ();
+		dragTime = 0.5f;
 		this.GetComponent<UIDragObject> ().enabled = false;
 		col.enabled = false;
 		iTween.MoveTo(gameObject,iTween.Hash("position",col.transform.localPosition
