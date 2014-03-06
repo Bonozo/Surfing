@@ -100,8 +100,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 556, y: 191, z: 1}
+  m_LocalPosition: {x: .5, y: 0, z: 0}
+  m_LocalScale: {x: 518, y: 191, z: 1}
   m_Children: []
   m_Father: {fileID: 400002}
 --- !u!4 &400006
@@ -111,7 +111,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 60, z: 0}
   m_LocalScale: {x: 653.5, y: 284.5, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
@@ -125,7 +125,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 800, y: 300, z: 0}
+  m_Size: {x: 3000, y: 3000, z: 0}
   m_Center: {x: 0, y: 0, z: -1.25}
 --- !u!114 &11400000
 MonoBehaviour:
@@ -215,9 +215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mDepth: 1
+  mDepth: 12
   mAtlas: {fileID: 11400000, guid: e8ea6f132f38ebb48a2f106ff85d395c, type: 2}
-  mSpriteName: Click to play
+  mSpriteName: Tap to play
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mDepth: 0
+  mDepth: 12
   mAtlas: {fileID: 11400000, guid: f30683ca171068846b60a1ab083eea2b, type: 2}
   mSpriteName: Letters Intro
   mFillCenter: 1

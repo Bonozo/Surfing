@@ -295,13 +295,13 @@ MonoBehaviour:
   - name: Path
     outer:
       serializedVersion: 2
-      x: 955
+      x: 917
       y: 1586
       width: 924
       height: 32
     inner:
       serializedVersion: 2
-      x: 955
+      x: 917
       y: 1586
       width: 924
       height: 32
@@ -508,24 +508,6 @@ MonoBehaviour:
     paddingRight: .194312796
     paddingTop: .0720720738
     paddingBottom: .117117114
-  - name: Click to play
-    outer:
-      serializedVersion: 2
-      x: 398
-      y: 1427
-      width: 556
-      height: 191
-    inner:
-      serializedVersion: 2
-      x: 398
-      y: 1427
-      width: 556
-      height: 191
-    rotated: 0
-    paddingLeft: .10611511
-    paddingRight: .102517985
-    paddingTop: .162303671
-    paddingBottom: .157068059
   - name: Lucky's Pose_1
     outer:
       serializedVersion: 2
@@ -580,6 +562,24 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
+  - name: Tap to play
+    outer:
+      serializedVersion: 2
+      x: 398
+      y: 1427
+      width: 518
+      height: 191
+    inner:
+      serializedVersion: 2
+      x: 398
+      y: 1427
+      width: 518
+      height: 191
+    rotated: 0
+    paddingLeft: .0540540554
+    paddingRight: .0405405387
+    paddingTop: .0890052393
+    paddingBottom: .062827222
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
