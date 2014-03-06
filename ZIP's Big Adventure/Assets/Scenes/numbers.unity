@@ -1320,6 +1320,7 @@ GameObject:
   - 65: {fileID: 40574149}
   - 114: {fileID: 40574148}
   - 114: {fileID: 40574147}
+  - 114: {fileID: 40574150}
   m_Layer: 8
   m_Name: 40
   m_TagString: Untagged
@@ -1379,6 +1380,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &40574150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 40574145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &41015170
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,6 +1428,7 @@ GameObject:
   - 65: {fileID: 41015174}
   - 114: {fileID: 41015173}
   - 114: {fileID: 41015172}
+  - 114: {fileID: 41015175}
   m_Layer: 8
   m_Name: 20
   m_TagString: Untagged
@@ -1449,6 +1488,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &41015175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 41015170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &44815813
 GameObject:
   m_ObjectHideFlags: 0
@@ -2165,7 +2241,7 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100002, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 58379809}
@@ -2185,10 +2261,10 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400002, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 58379808}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -220, z: 0}
+  m_LocalPosition: {x: 0, y: -150, z: 0}
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children:
   - {fileID: 1500269836}
@@ -2198,7 +2274,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400000, guid: ec75ab6a03bf1f24099db9223e147697,
     type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 58379808}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2214,7 +2290,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400008, guid: ec75ab6a03bf1f24099db9223e147697,
     type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 58379808}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2230,7 +2306,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400006, guid: ec75ab6a03bf1f24099db9223e147697,
     type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 58379808}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2246,7 +2322,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400004, guid: ec75ab6a03bf1f24099db9223e147697,
     type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 58379808}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -2263,7 +2339,7 @@ BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6500000, guid: ec75ab6a03bf1f24099db9223e147697,
     type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 58379808}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -2454,6 +2530,7 @@ GameObject:
   - 65: {fileID: 67314171}
   - 114: {fileID: 67314170}
   - 114: {fileID: 67314169}
+  - 114: {fileID: 67314172}
   m_Layer: 8
   m_Name: 15
   m_TagString: Untagged
@@ -2513,6 +2590,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &67314172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 67314167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &67916721
 GameObject:
   m_ObjectHideFlags: 0
@@ -2799,7 +2913,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 76436034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.863403, y: -383.137085, z: 0}
+  m_LocalPosition: {x: -512.911011, y: -383.090057, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 126601793}
@@ -3934,6 +4048,54 @@ MonoBehaviour:
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+--- !u!1 &116572259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 116572260}
+  - 114: {fileID: 116572261}
+  m_Layer: 8
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &116572260
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 116572259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 620, z: 0}
+  m_LocalScale: {x: 1154, y: 240, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2082856287}
+--- !u!114 &116572261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 116572259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 4
+  mAtlas: {fileID: 11400000, guid: e2487443151d5514a9aa6765e387d102, type: 2}
+  mSpriteName: text4
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
 --- !u!1 &117785273
 GameObject:
   m_ObjectHideFlags: 0
@@ -4597,75 +4759,6 @@ Transform:
   m_Children:
   - {fileID: 867333560}
   m_Father: {fileID: 57296113}
---- !u!1001 &132017024
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 791153643}
-    m_Modifications:
-    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -2500
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400012, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: mAtlas
-      value: 
-      objectReference: {fileID: 11400000, guid: c3bb15ec777b6d9448e0078a2ca5ad1a,
-        type: 2}
-    - target: {fileID: 11400012, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: mSpriteName
-      value: Number intro
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 663.494934
-      objectReference: {fileID: 0}
-    - target: {fileID: 400006, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 367.686707
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 791153642}
-    - target: {fileID: 400006, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1.38228106
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-  m_RootGameObject: {fileID: 1654923736}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1 &133263225
 GameObject:
   m_ObjectHideFlags: 0
@@ -8833,6 +8926,7 @@ GameObject:
   - 65: {fileID: 248780810}
   - 114: {fileID: 248780809}
   - 114: {fileID: 248780808}
+  - 114: {fileID: 248780811}
   m_Layer: 8
   m_Name: 5
   m_TagString: Untagged
@@ -8892,6 +8986,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &248780811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 248780806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &252564411
 GameObject:
   m_ObjectHideFlags: 0
@@ -9288,6 +9419,7 @@ GameObject:
   - 65: {fileID: 262901135}
   - 114: {fileID: 262901134}
   - 114: {fileID: 262901133}
+  - 114: {fileID: 262901136}
   m_Layer: 8
   m_Name: 28
   m_TagString: Untagged
@@ -9347,6 +9479,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &262901136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 262901131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &268226234
 GameObject:
   m_ObjectHideFlags: 0
@@ -9976,6 +10145,7 @@ GameObject:
   - 65: {fileID: 294895106}
   - 114: {fileID: 294895105}
   - 114: {fileID: 294895104}
+  - 114: {fileID: 294895107}
   m_Layer: 8
   m_Name: 10
   m_TagString: Untagged
@@ -10035,6 +10205,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &294895107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 294895102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &296963317
 GameObject:
   m_ObjectHideFlags: 0
@@ -10158,6 +10365,7 @@ GameObject:
   - 65: {fileID: 299656653}
   - 114: {fileID: 299656652}
   - 114: {fileID: 299656651}
+  - 114: {fileID: 299656654}
   m_Layer: 8
   m_Name: 10
   m_TagString: Untagged
@@ -10217,6 +10425,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &299656654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 299656649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &300310994
 GameObject:
   m_ObjectHideFlags: 0
@@ -10432,6 +10677,7 @@ GameObject:
   - 65: {fileID: 302295084}
   - 114: {fileID: 302295082}
   - 114: {fileID: 302295079}
+  - 114: {fileID: 302295080}
   m_Layer: 8
   m_Name: 2
   m_TagString: Untagged
@@ -10464,6 +10710,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level: {fileID: 830469762}
   value: 2
+--- !u!114 &302295080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 302295077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!114 &302295082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11572,6 +11855,7 @@ GameObject:
   - 65: {fileID: 344257503}
   - 114: {fileID: 344257502}
   - 114: {fileID: 344257501}
+  - 114: {fileID: 344257504}
   m_Layer: 8
   m_Name: 8
   m_TagString: Untagged
@@ -11631,6 +11915,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &344257504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 344257499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &346972929
 GameObject:
   m_ObjectHideFlags: 0
@@ -14783,6 +15104,7 @@ GameObject:
   - 65: {fileID: 420907435}
   - 114: {fileID: 420907434}
   - 114: {fileID: 420907433}
+  - 114: {fileID: 420907436}
   m_Layer: 8
   m_Name: 14
   m_TagString: Untagged
@@ -14842,6 +15164,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &420907436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 420907431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &426705992
 GameObject:
   m_ObjectHideFlags: 0
@@ -15575,6 +15934,7 @@ GameObject:
   - 65: {fileID: 439242117}
   - 114: {fileID: 439242116}
   - 114: {fileID: 439242115}
+  - 114: {fileID: 439242118}
   m_Layer: 8
   m_Name: 6
   m_TagString: Untagged
@@ -15634,6 +15994,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &439242118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 439242113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &440979504
 GameObject:
   m_ObjectHideFlags: 0
@@ -19026,6 +19423,7 @@ GameObject:
   - 65: {fileID: 535861404}
   - 114: {fileID: 535861403}
   - 114: {fileID: 535861402}
+  - 114: {fileID: 535861405}
   m_Layer: 8
   m_Name: 40
   m_TagString: Untagged
@@ -19085,6 +19483,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &535861405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 535861400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &537336495
 GameObject:
   m_ObjectHideFlags: 0
@@ -20549,6 +20984,7 @@ GameObject:
   - 65: {fileID: 569848823}
   - 114: {fileID: 569848822}
   - 114: {fileID: 569848821}
+  - 114: {fileID: 569848824}
   m_Layer: 8
   m_Name: 8
   m_TagString: Untagged
@@ -20608,6 +21044,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &569848824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 569848819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &575398381
 GameObject:
   m_ObjectHideFlags: 0
@@ -22157,6 +22630,7 @@ GameObject:
   - 65: {fileID: 635469382}
   - 114: {fileID: 635469381}
   - 114: {fileID: 635469380}
+  - 114: {fileID: 635469383}
   m_Layer: 8
   m_Name: 50
   m_TagString: Untagged
@@ -22216,6 +22690,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &635469383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 635469378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &640439123
 GameObject:
   m_ObjectHideFlags: 0
@@ -22481,6 +22992,7 @@ GameObject:
   - 65: {fileID: 648880824}
   - 114: {fileID: 648880823}
   - 114: {fileID: 648880822}
+  - 114: {fileID: 648880825}
   m_Layer: 8
   m_Name: 24
   m_TagString: Untagged
@@ -22540,6 +23052,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &648880825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 648880820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &649844442
 GameObject:
   m_ObjectHideFlags: 0
@@ -23516,7 +24065,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 683858911}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children:
   - {fileID: 248780807}
@@ -23529,6 +24078,7 @@ Transform:
   - {fileID: 40574146}
   - {fileID: 1077992007}
   - {fileID: 635469379}
+  - {fileID: 1699806477}
   m_Father: {fileID: 554441358}
 --- !u!1 &684351164
 GameObject:
@@ -26761,11 +27311,59 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &762728794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 762728795}
+  - 114: {fileID: 762728796}
+  m_Layer: 8
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &762728795
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 762728794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 620, z: 0}
+  m_LocalScale: {x: 1154, y: 240, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1030535955}
+--- !u!114 &762728796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 762728794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 4
+  mAtlas: {fileID: 11400000, guid: e2487443151d5514a9aa6765e387d102, type: 2}
+  mSpriteName: text3
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
 --- !u!1 &765116365
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100006, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 765116366}
@@ -26781,10 +27379,10 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400006, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 765116365}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 60, z: 0}
+  m_LocalPosition: {x: 0, y: 100, z: 0}
   m_LocalScale: {x: 663.494934, y: 367.686707, z: 1.38228106}
   m_Children: []
   m_Father: {fileID: 1654923737}
@@ -26793,7 +27391,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400012, guid: ec75ab6a03bf1f24099db9223e147697,
     type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 765116365}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -26802,7 +27400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mDepth: 12
+  mDepth: 0
   mAtlas: {fileID: 11400000, guid: c3bb15ec777b6d9448e0078a2ca5ad1a, type: 2}
   mSpriteName: Number intro
   mFillCenter: 1
@@ -27576,7 +28174,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 791153643}
   - 114: {fileID: 791153644}
-  - 65: {fileID: 791153645}
   m_Layer: 8
   m_Name: Game
   m_TagString: Untagged
@@ -27610,32 +28207,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94519b577833c594ab024f8117aba65e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  randomizedGames: 1
+  randomizedGames: 0
   allLevelsDetermined: 0
   level:
-  - {fileID: 379985227}
+  - {fileID: 153646434}
+  - {fileID: 506888665}
   - {fileID: 1668844206}
-  - {fileID: 1482011489}
-  - {fileID: 1830697201}
-  - {fileID: 379985227}
+  - {fileID: 1640807655}
+  - {fileID: 1683657352}
   - {fileID: 1830697201}
   - {fileID: 1668844206}
   path: {fileID: 858602107}
   showIntro: 1
   intro: {fileID: 1654923738}
   winToggle: {fileID: 1540012668}
---- !u!65 &791153645
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 791153642}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1500, y: 1500, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &795049878
 GameObject:
   m_ObjectHideFlags: 0
@@ -35152,7 +35737,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1030535954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children:
   - {fileID: 1952790131}
@@ -35165,6 +35750,7 @@ Transform:
   - {fileID: 1594150154}
   - {fileID: 2088709356}
   - {fileID: 1264169912}
+  - {fileID: 762728795}
   m_Father: {fileID: 169893213}
 --- !u!1 &1035320912
 GameObject:
@@ -35226,6 +35812,7 @@ GameObject:
   - 65: {fileID: 1035761705}
   - 114: {fileID: 1035761704}
   - 114: {fileID: 1035761703}
+  - 114: {fileID: 1035761706}
   m_Layer: 8
   m_Name: 30
   m_TagString: Untagged
@@ -35285,6 +35872,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1035761706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1035761701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1036346728
 GameObject:
   m_ObjectHideFlags: 0
@@ -37377,6 +38001,7 @@ GameObject:
   - 65: {fileID: 1077992010}
   - 114: {fileID: 1077992009}
   - 114: {fileID: 1077992008}
+  - 114: {fileID: 1077992011}
   m_Layer: 8
   m_Name: 45
   m_TagString: Untagged
@@ -37436,6 +38061,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1077992011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1077992006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1079422381
 GameObject:
   m_ObjectHideFlags: 0
@@ -38513,6 +39175,50 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2, y: 2, z: 1}
   m_Center: {x: .349999994, y: -.200000003, z: 0}
+--- !u!1001 &1111030617
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 791153643}
+    m_Modifications:
+    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2500
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 791153642}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+  m_RootGameObject: {fileID: 1654923736}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &1111196191
 GameObject:
   m_ObjectHideFlags: 0
@@ -39462,6 +40168,7 @@ GameObject:
   - 65: {fileID: 1143324516}
   - 114: {fileID: 1143324515}
   - 114: {fileID: 1143324514}
+  - 114: {fileID: 1143324517}
   m_Layer: 8
   m_Name: 20
   m_TagString: Untagged
@@ -39521,6 +40228,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1143324517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1143324512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1143524683
 GameObject:
   m_ObjectHideFlags: 0
@@ -42112,6 +42856,7 @@ GameObject:
   - 65: {fileID: 1230847264}
   - 114: {fileID: 1230847263}
   - 114: {fileID: 1230847262}
+  - 114: {fileID: 1230847265}
   m_Layer: 8
   m_Name: 20
   m_TagString: Untagged
@@ -42171,6 +42916,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1230847265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1230847260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1231940030
 GameObject:
   m_ObjectHideFlags: 0
@@ -42263,6 +43045,7 @@ GameObject:
   - 65: {fileID: 1234325245}
   - 114: {fileID: 1234325244}
   - 114: {fileID: 1234325243}
+  - 114: {fileID: 1234325246}
   m_Layer: 8
   m_Name: 16
   m_TagString: Untagged
@@ -42322,6 +43105,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1234325246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1234325241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1235375672
 GameObject:
   m_ObjectHideFlags: 0
@@ -43355,6 +44175,7 @@ GameObject:
   - 65: {fileID: 1264169915}
   - 114: {fileID: 1264169914}
   - 114: {fileID: 1264169913}
+  - 114: {fileID: 1264169916}
   m_Layer: 8
   m_Name: 30
   m_TagString: Untagged
@@ -43414,6 +44235,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1264169916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264169911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1265186612
 GameObject:
   m_ObjectHideFlags: 0
@@ -44189,6 +45047,7 @@ GameObject:
   - 65: {fileID: 1292785670}
   - 114: {fileID: 1292785669}
   - 114: {fileID: 1292785668}
+  - 114: {fileID: 1292785671}
   m_Layer: 8
   m_Name: 16
   m_TagString: Untagged
@@ -44248,6 +45107,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1292785671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1292785666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1294071381
 GameObject:
   m_ObjectHideFlags: 0
@@ -45125,6 +46021,7 @@ GameObject:
   - 65: {fileID: 1327821900}
   - 114: {fileID: 1327821899}
   - 114: {fileID: 1327821898}
+  - 114: {fileID: 1327821901}
   m_Layer: 8
   m_Name: 4
   m_TagString: Untagged
@@ -45184,6 +46081,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1327821901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1327821896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1329166962
 GameObject:
   m_ObjectHideFlags: 0
@@ -45600,6 +46534,7 @@ GameObject:
   - 65: {fileID: 1340898290}
   - 114: {fileID: 1340898289}
   - 114: {fileID: 1340898288}
+  - 114: {fileID: 1340898291}
   m_Layer: 8
   m_Name: 36
   m_TagString: Untagged
@@ -45659,6 +46594,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1340898291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1340898286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1340935379
 GameObject:
   m_ObjectHideFlags: 0
@@ -46585,6 +47557,7 @@ GameObject:
   - 65: {fileID: 1361035767}
   - 114: {fileID: 1361035766}
   - 114: {fileID: 1361035765}
+  - 114: {fileID: 1361035768}
   m_Layer: 8
   m_Name: 6
   m_TagString: Untagged
@@ -46644,6 +47617,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1361035768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1361035763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1361333267
 GameObject:
   m_ObjectHideFlags: 0
@@ -49597,6 +50607,54 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1459589369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1459589370}
+  - 114: {fileID: 1459589371}
+  m_Layer: 8
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1459589370
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1459589369}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 620, z: 0}
+  m_LocalScale: {x: 1154, y: 240, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1507807894}
+--- !u!114 &1459589371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1459589369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 4
+  mAtlas: {fileID: 11400000, guid: e2487443151d5514a9aa6765e387d102, type: 2}
+  mSpriteName: Text2
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
 --- !u!1 &1459934616
 GameObject:
   m_ObjectHideFlags: 0
@@ -50958,7 +52016,7 @@ MonoBehaviour:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100004, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1500269836}
@@ -50974,7 +52032,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400004, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 1500269835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: .5, y: 0, z: 0}
@@ -50986,7 +52044,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400010, guid: ec75ab6a03bf1f24099db9223e147697,
     type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 1500269835}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -50995,7 +52053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
-  mDepth: 12
+  mDepth: 0
   mAtlas: {fileID: 11400000, guid: e8ea6f132f38ebb48a2f106ff85d395c, type: 2}
   mSpriteName: Tap to play
   mFillCenter: 1
@@ -51281,6 +52339,7 @@ GameObject:
   - 65: {fileID: 1507336103}
   - 114: {fileID: 1507336102}
   - 114: {fileID: 1507336101}
+  - 114: {fileID: 1507336104}
   m_Layer: 8
   m_Name: 18
   m_TagString: Untagged
@@ -51340,6 +52399,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1507336104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1507336099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1507807893
 GameObject:
   m_ObjectHideFlags: 0
@@ -51362,7 +52458,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1507807893}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children:
   - {fileID: 1606393074}
@@ -51375,6 +52471,7 @@ Transform:
   - {fileID: 1234325242}
   - {fileID: 1507336100}
   - {fileID: 1230847261}
+  - {fileID: 1459589370}
   m_Father: {fileID: 830469761}
 --- !u!1 &1509464543
 GameObject:
@@ -51777,6 +52874,7 @@ GameObject:
   - 65: {fileID: 1534577619}
   - 114: {fileID: 1534577618}
   - 114: {fileID: 1534577617}
+  - 114: {fileID: 1534577620}
   m_Layer: 8
   m_Name: 32
   m_TagString: Untagged
@@ -51836,6 +52934,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1534577620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1534577615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1534662126
 GameObject:
   m_ObjectHideFlags: 0
@@ -54035,6 +55170,7 @@ GameObject:
   - 65: {fileID: 1594150157}
   - 114: {fileID: 1594150156}
   - 114: {fileID: 1594150155}
+  - 114: {fileID: 1594150158}
   m_Layer: 8
   m_Name: 24
   m_TagString: Untagged
@@ -54094,6 +55230,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1594150158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1594150153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1594432491
 GameObject:
   m_ObjectHideFlags: 0
@@ -54485,6 +55658,7 @@ GameObject:
   - 65: {fileID: 1606393080}
   - 114: {fileID: 1606393078}
   - 114: {fileID: 1606393075}
+  - 114: {fileID: 1606393076}
   m_Layer: 8
   m_Name: 4
   m_TagString: Untagged
@@ -54517,6 +55691,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level: {fileID: 830469762}
   value: 4
+--- !u!114 &1606393076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1606393073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!114 &1606393078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55316,6 +56527,7 @@ GameObject:
   - 65: {fileID: 1625806814}
   - 114: {fileID: 1625806813}
   - 114: {fileID: 1625806812}
+  - 114: {fileID: 1625806815}
   m_Layer: 8
   m_Name: 15
   m_TagString: Untagged
@@ -55375,6 +56587,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1625806815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1625806810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1630461376
 GameObject:
   m_ObjectHideFlags: 0
@@ -56362,7 +57611,7 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1654923737}
@@ -56378,7 +57627,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 1654923736}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2500, y: 0, z: 0}
@@ -56392,7 +57641,7 @@ MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 11400002, guid: ec75ab6a03bf1f24099db9223e147697,
     type: 2}
-  m_PrefabInternal: {fileID: 132017024}
+  m_PrefabInternal: {fileID: 1111030617}
   m_GameObject: {fileID: 1654923736}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -57286,7 +58535,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.72681296, y: 0, z: 0}
+  m_LocalPosition: {x: -.911032081, y: .909952641, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 791153643}
@@ -57579,6 +58828,7 @@ GameObject:
   - 65: {fileID: 1673781899}
   - 114: {fileID: 1673781898}
   - 114: {fileID: 1673781897}
+  - 114: {fileID: 1673781900}
   m_Layer: 8
   m_Name: 9
   m_TagString: Untagged
@@ -57638,6 +58888,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1673781900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673781895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1675345827
 GameObject:
   m_ObjectHideFlags: 0
@@ -58080,6 +59367,7 @@ GameObject:
   - 65: {fileID: 1684465301}
   - 114: {fileID: 1684465300}
   - 114: {fileID: 1684465299}
+  - 114: {fileID: 1684465302}
   m_Layer: 8
   m_Name: 12
   m_TagString: Untagged
@@ -58139,6 +59427,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1684465302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1684465297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1684712251
 GameObject:
   m_ObjectHideFlags: 0
@@ -58327,6 +59652,7 @@ GameObject:
   - 65: {fileID: 1687370034}
   - 114: {fileID: 1687370033}
   - 114: {fileID: 1687370032}
+  - 114: {fileID: 1687370035}
   m_Layer: 8
   m_Name: 18
   m_TagString: Untagged
@@ -58386,6 +59712,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1687370035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1687370030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1687941926
 GameObject:
   m_ObjectHideFlags: 0
@@ -58849,6 +60212,54 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1699806476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1699806477}
+  - 114: {fileID: 1699806478}
+  m_Layer: 8
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1699806477
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699806476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 620, z: 0}
+  m_LocalScale: {x: 1154, y: 240, z: 1}
+  m_Children: []
+  m_Father: {fileID: 683858912}
+--- !u!114 &1699806478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1699806476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 4
+  mAtlas: {fileID: 11400000, guid: e2487443151d5514a9aa6765e387d102, type: 2}
+  mSpriteName: text5
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
 --- !u!1 &1700947319
 GameObject:
   m_ObjectHideFlags: 0
@@ -60181,6 +61592,7 @@ GameObject:
   - 65: {fileID: 1727310520}
   - 114: {fileID: 1727310519}
   - 114: {fileID: 1727310518}
+  - 114: {fileID: 1727310521}
   m_Layer: 8
   m_Name: 25
   m_TagString: Untagged
@@ -60240,6 +61652,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1727310521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1727310516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1727583546
 GameObject:
   m_ObjectHideFlags: 0
@@ -63047,6 +64496,7 @@ GameObject:
   - 65: {fileID: 1806230314}
   - 114: {fileID: 1806230313}
   - 114: {fileID: 1806230312}
+  - 114: {fileID: 1806230315}
   m_Layer: 8
   m_Name: 35
   m_TagString: Untagged
@@ -63106,6 +64556,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1806230315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1806230310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1810761385
 GameObject:
   m_ObjectHideFlags: 0
@@ -68340,6 +69827,7 @@ GameObject:
   - 65: {fileID: 1936492651}
   - 114: {fileID: 1936492650}
   - 114: {fileID: 1936492649}
+  - 114: {fileID: 1936492652}
   m_Layer: 8
   m_Name: 21
   m_TagString: Untagged
@@ -68399,6 +69887,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1936492652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1936492647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1941500691
 GameObject:
   m_ObjectHideFlags: 0
@@ -68962,6 +70487,7 @@ GameObject:
   - 65: {fileID: 1952790134}
   - 114: {fileID: 1952790133}
   - 114: {fileID: 1952790132}
+  - 114: {fileID: 1952790135}
   m_Layer: 8
   m_Name: 3
   m_TagString: Untagged
@@ -69021,6 +70547,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &1952790135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1952790130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &1954021330
 GameObject:
   m_ObjectHideFlags: 0
@@ -70470,6 +72033,7 @@ GameObject:
   - 65: {fileID: 2007682326}
   - 114: {fileID: 2007682325}
   - 114: {fileID: 2007682324}
+  - 114: {fileID: 2007682327}
   m_Layer: 8
   m_Name: 12
   m_TagString: Untagged
@@ -70529,6 +72093,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &2007682327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2007682322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &2010073326
 GameObject:
   m_ObjectHideFlags: 0
@@ -72775,7 +74376,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2082856286}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children:
   - {fileID: 1327821897}
@@ -72788,6 +74389,7 @@ Transform:
   - {fileID: 648880821}
   - {fileID: 1340898287}
   - {fileID: 535861401}
+  - {fileID: 116572260}
   m_Father: {fileID: 754130834}
 --- !u!1 &2083760462
 GameObject:
@@ -72920,6 +74522,7 @@ GameObject:
   - 65: {fileID: 2088709359}
   - 114: {fileID: 2088709358}
   - 114: {fileID: 2088709357}
+  - 114: {fileID: 2088709360}
   m_Layer: 8
   m_Name: 27
   m_TagString: Untagged
@@ -72979,6 +74582,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &2088709360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2088709355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &2089966726
 GameObject:
   m_ObjectHideFlags: 0
@@ -74221,6 +75861,7 @@ GameObject:
   - 65: {fileID: 2117966667}
   - 114: {fileID: 2117966666}
   - 114: {fileID: 2117966665}
+  - 114: {fileID: 2117966668}
   m_Layer: 8
   m_Name: 12
   m_TagString: Untagged
@@ -74280,6 +75921,43 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 210, y: 227, z: 0}
   m_Center: {x: 65, y: 140, z: -.75}
+--- !u!114 &2117966668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2117966663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d1b7c9e9a19a24ab67123a43c6544b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  method: 0
+  style: 2
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  ignoreTimeScale: 1
+  delay: 0
+  duration: 1
+  steeperCurves: 0
+  tweenGroup: 0
+  eventReceiver: {fileID: 0}
+  callWhenFinished: 
+  from: {x: 0, y: 0, z: -2}
+  to: {x: 0, y: 0, z: 2}
 --- !u!1 &2124877922
 GameObject:
   m_ObjectHideFlags: 0

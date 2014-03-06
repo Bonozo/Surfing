@@ -21,7 +21,7 @@ public class GameController : MonoBehaviour {
 
 	#region Settings
 
-	public static GameLevel gameLevel = GameLevel.None;
+	public static GameLevel gameLevel = GameLevel.Kindergarten;
 	public static GameType gameType;
 
 	#endregion

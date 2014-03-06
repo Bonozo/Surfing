@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\MobisAdventure\Assets\_Upgrade\Scripts\Menu\MenuConfirmationPopup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Levels\Right Sequence\LevelRightSequenceButton.cs">
     <Files>
-      <File FileName="..\MobisAdventure\Assets\_Upgrade\Scripts\Menu\MenuConfirmationPopup.cs" Line="7" Column="28" />
-      <File FileName="..\MobisAdventure\Assets\_Upgrade\Scripts\Menu\MenuConfirmationPopupButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Levels\Right Sequence\LevelRightSequenceButton.cs" Line="12" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
