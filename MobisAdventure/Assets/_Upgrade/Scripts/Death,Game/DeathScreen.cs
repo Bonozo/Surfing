@@ -10,9 +10,13 @@ public class DeathScreen : MonoBehaviour {
 	public UILabel labelCoins;
 	public UILabel labelLevel;
 	public LevelController levelController;
+	
+	public int LastDistanceTravelled{ get; private set;}
 
 	public void Show(bool monstercause,int distance,int best,int score)
 	{
+		LastDistanceTravelled = distance;
+
 		if(monstercause) labelCause.text = "the monster\ncaught you!";
 		else labelCause.text = "you\ncrashed!";
 
