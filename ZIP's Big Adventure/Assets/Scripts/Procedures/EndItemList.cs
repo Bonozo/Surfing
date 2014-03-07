@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[AddComponentMenu("EndItems/List")]
 public class EndItemList : EndItem {
 
 	public EndItem[] list;

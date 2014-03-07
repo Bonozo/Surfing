@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[AddComponentMenu("EndItems/Scale To")]
 public class EndItemScaleTo : EndItem {
 	
 	public Vector3 newScale;

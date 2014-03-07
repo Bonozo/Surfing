@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[AddComponentMenu("EndItems/Multiple")]
 public class EndItemMultipleEndItem : EndItem {
 
 	public EndItemChangeTexture changeTexture;

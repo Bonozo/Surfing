@@ -8,9 +8,6 @@ public class LevelPoint : ZIPLevel {
 	public EndItem basicEndItem;
 	public PointButton pointButton;
 	
-	public AudioClip clipCorrectAnswer;
-	public AudioClip clipWrongAnswer;
-	
 	public override void StartGame ()
 	{
 		foreach(var et in endItems) et.Reset();
@@ -29,7 +26,7 @@ public class LevelPoint : ZIPLevel {
 	
 	private IEnumerator HappyEndThread()
 	{
-		AudioSource.PlayClipAtPoint(clipCorrectAnswer,transform.position);
+		GameController.Instance.PlayCorrectAnswer ();
 
 		foreach(var et in endItems) et.Work();
 		basicEndItem.Work ();

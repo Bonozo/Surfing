@@ -2,6 +2,7 @@
 using System.Collections;
 
 // There is an error here
+[AddComponentMenu("EndItems/Move To")]
 public class EndItemMoveTo : EndItem {
 
 	public float duration;

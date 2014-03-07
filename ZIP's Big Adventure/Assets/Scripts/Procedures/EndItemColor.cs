@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[AddComponentMenu("EndItems/Color")]
 [RequireComponent(typeof(UISprite))]
 public class EndItemColor : EndItem {
 

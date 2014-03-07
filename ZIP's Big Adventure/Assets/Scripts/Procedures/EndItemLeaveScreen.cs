@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[AddComponentMenu("EndItems/Leave Screen")]
 public class EndItemLeaveScreen : EndItem {
 
 	private bool saved=false;

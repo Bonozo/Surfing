@@ -69,10 +69,14 @@ public class Trace : MonoBehaviour {
 
 	public int editorDepth = 6;
 	public Color editorColor;
+	public UIAtlas atlas;
 	public void IndexEditor()
 	{
 		for(int i=0;i<transform.childCount;i++)
 		{
+			transform.GetChild(i).name = "elem" + (i+1);
+			transform.GetChild(i).GetComponent<UISprite>().atlas = atlas;
+			transform.GetChild(i).GetComponent<UISprite>().spriteName = "whitecyrcle";
 			transform.GetChild(i).GetComponent<TraceElement>().index=i+1;
 			transform.GetChild(i).GetComponent<UISprite>().depth = editorDepth;
 			transform.GetChild(i).GetComponent<UISprite>().color = editorColor;
