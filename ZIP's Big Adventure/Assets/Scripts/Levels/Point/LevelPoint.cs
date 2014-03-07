@@ -16,7 +16,8 @@ public class LevelPoint : ZIPLevel {
 		foreach(var et in endItems) et.Reset();
 		basicEndItem.Reset ();
 		pointButton.Reset ();
-		
+
+		basicEndItem.GetComponent<UISprite> ().color = new Color (1f, 1f, 1f, 0f);
 		gameObject.SetActive (true);
 	}
 	

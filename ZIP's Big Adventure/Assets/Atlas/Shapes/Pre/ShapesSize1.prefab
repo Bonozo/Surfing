@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ShapesSize1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 790f0c844ef3a654b9be80e50e81ddf0, type: 2}
+  sprites:
+  - name: Big Circle_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 88
+      width: 662
+      height: 425
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 88
+      width: 662
+      height: 425
+    rotated: 0
+    paddingLeft: .0740181282
+    paddingRight: .0921450183
+    paddingTop: .0917647034
+    paddingBottom: .0799999982
+  - name: Big Circle_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1689
+      width: 1314
+      height: 359
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1689
+      width: 1314
+      height: 359
+    rotated: 0
+    paddingLeft: .0471841693
+    paddingRight: .0563165918
+    paddingTop: .167130917
+    paddingBottom: .203342617
+  - name: Big Circle_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 736
+      width: 1383
+      height: 221
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 736
+      width: 1383
+      height: 221
+    rotated: 0
+    paddingLeft: .0274765007
+    paddingRight: .0354302227
+    paddingTop: .113122173
+    paddingBottom: .117647059
+  - name: Big Oval_End
+    outer:
+      serializedVersion: 2
+      x: 663
+      y: 142
+      width: 593
+      height: 371
+    inner:
+      serializedVersion: 2
+      x: 663
+      y: 142
+      width: 593
+      height: 371
+    rotated: 0
+    paddingLeft: .0876897126
+    paddingRight: .123102866
+    paddingTop: .0862533674
+    paddingBottom: .102425873
+  - name: Big Oval_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1415
+      width: 1308
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1415
+      width: 1308
+      height: 273
+    rotated: 0
+    paddingLeft: .0305810403
+    paddingRight: .0458715595
+    paddingTop: .388278395
+    paddingBottom: .271062285
+  - name: Big Oval_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 514
+      width: 1348
+      height: 221
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 514
+      width: 1348
+      height: 221
+    rotated: 0
+    paddingLeft: .0311572701
+    paddingRight: .0311572701
+    paddingTop: .15384616
+    paddingBottom: .217194572
+  - name: Big Rectangle_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 958
+      width: 1366
+      height: 234
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 958
+      width: 1366
+      height: 234
+    rotated: 0
+    paddingLeft: .0322108343
+    paddingRight: .0424597375
+    paddingTop: .41452992
+    paddingBottom: .508547008
+  - name: Big Rectangle_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1193
+      width: 1551
+      height: 221
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1193
+      width: 1551
+      height: 221
+    rotated: 0
+    paddingLeft: .0225660857
+    paddingRight: .034171503
+    paddingTop: .15384616
+    paddingBottom: .162895933
+  - name: Big Rectangle_End
+    outer:
+      serializedVersion: 2
+      x: 1315
+      y: 1728
+      width: 668
+      height: 320
+    inner:
+      serializedVersion: 2
+      x: 1315
+      y: 1728
+      width: 668
+      height: 320
+    rotated: 0
+    paddingLeft: .0733532906
+    paddingRight: .0688622743
+    paddingTop: .193749994
+    paddingBottom: .165625006
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
