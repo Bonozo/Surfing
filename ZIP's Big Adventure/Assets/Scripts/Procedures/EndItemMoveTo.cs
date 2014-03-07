@@ -32,7 +32,7 @@ public class EndItemMoveTo : EndItem {
 	
 	public override void Work ()
 	{
-		Reset ();
+		//Reset ();
 		StartCoroutine ("Working");
 	}
 
@@ -41,4 +41,12 @@ public class EndItemMoveTo : EndItem {
 		yield return new WaitForSeconds (delay);
 		iTween.MoveTo(gameObject,iTween.Hash("position",to,"time",duration,"islocal",true));
 	}
+
+	#if UNITY_EDITOR
+	void Update()
+	{
+		if(Input.GetKeyDown(KeyCode.Space))
+			Work();
+	}
+	#endif
 }

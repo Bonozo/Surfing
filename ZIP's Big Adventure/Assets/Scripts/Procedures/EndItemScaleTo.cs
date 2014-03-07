@@ -24,7 +24,7 @@ public class EndItemScaleTo : EndItem {
 	
 	public override void Work ()
 	{
-		Reset ();
+		//Reset ();
 		StartCoroutine ("Working");
 	}	
 
@@ -33,12 +33,4 @@ public class EndItemScaleTo : EndItem {
 		yield return new WaitForSeconds(delay);
 		iTween.ScaleTo(gameObject,iTween.Hash("scale",newScale,"time",duration,"islocal",true));
 	}
-	
-	#if UNITY_EDITOR
-	void Update()
-	{
-		if(Input.GetKeyDown(KeyCode.Space))
-			Work();
-	}
-	#endif
 }

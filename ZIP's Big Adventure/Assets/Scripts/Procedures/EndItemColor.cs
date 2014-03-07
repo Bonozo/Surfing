@@ -6,6 +6,7 @@ public class EndItemColor : EndItem {
 
 	public Color to;
 	public float duration;
+	public float delay;
 
 	private bool saved=false;
 	private Color saveColor;
@@ -13,7 +14,7 @@ public class EndItemColor : EndItem {
 	
 	public override void Reset ()
 	{
-		iTween.Stop (gameObject, false);
+		StopCoroutine ("Working");
 		if(!saved)
 		{
 			sprite = GetComponent<UISprite>();
@@ -25,7 +26,13 @@ public class EndItemColor : EndItem {
 	
 	public override void Work ()
 	{
-		Reset ();
+		//Reset ();
+		StartCoroutine ("Working");
+	}
+
+	IEnumerator Working()
+	{
+		yield return new WaitForSeconds (delay);
 		TweenColor.Begin (gameObject, duration, to);
 	}
 

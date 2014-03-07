@@ -21,7 +21,7 @@ public class LevelPath : MonoBehaviour {
 	void Update()
 	{
 		#if UNITY_EDITOR
-		if( Input.GetKeyDown(KeyCode.Space))
+		/*if( Input.GetKeyDown(KeyCode.Space))
 			OneStepGo();
 		if(Input.GetKeyDown(KeyCode.P)) 
 			zipAnimation.Pause();
@@ -30,7 +30,7 @@ public class LevelPath : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.S)) 
 			zipAnimation.Pause();
 		if(Input.GetKeyDown(KeyCode.A)) 
-			zipAnimation.Play();
+			zipAnimation.Play();*/
 		#endif
 	}
 

@@ -26,10 +26,14 @@ public class WhatIsNextDrag : MonoBehaviour {
 		transform.localPosition = initialPosition;
 		dragTime = 0.5f;
 		collider.enabled = true;
+		GetComponent<UIDragObject> ().enabled = true;
 	}
 	
 	public void DisableCollider()
 	{
+		GetComponent<UIDragObject> ().enabled = false;
+		if(GetComponent<SpringPosition>() != null)
+			Destroy(GetComponent<SpringPosition>());
 		collider.enabled = false;
 	}
 	

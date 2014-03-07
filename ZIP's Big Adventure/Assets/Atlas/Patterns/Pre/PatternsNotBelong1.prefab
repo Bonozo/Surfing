@@ -1,0 +1,849 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PatternsNotBelong1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 363a7d9daa136be449d3c93b3643d846, type: 2}
+  sprites:
+  - name: Banana
+    outer:
+      serializedVersion: 2
+      x: 1017
+      y: 672
+      width: 174
+      height: 239
+    inner:
+      serializedVersion: 2
+      x: 1017
+      y: 672
+      width: 174
+      height: 239
+    rotated: 0
+    paddingLeft: 6.84482765
+    paddingRight: 3.92528725
+    paddingTop: 2.48953986
+    paddingBottom: 2.93723845
+  - name: Ice Cream
+    outer:
+      serializedVersion: 2
+      x: 859
+      y: 323
+      width: 127
+      height: 245
+    inner:
+      serializedVersion: 2
+      x: 859
+      y: 323
+      width: 127
+      height: 245
+    rotated: 0
+    paddingLeft: 11.7480316
+    paddingRight: 3.37795281
+    paddingTop: 2.46122456
+    paddingBottom: 2.80816317
+  - name: Cake
+    outer:
+      serializedVersion: 2
+      x: 1667
+      y: 1127
+      width: 264
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 1667
+      y: 1127
+      width: 264
+      height: 160
+    rotated: 0
+    paddingLeft: 1.49621212
+    paddingRight: 5.26136351
+    paddingTop: 4.15625
+    paddingBottom: 4.4437499
+  - name: Pie
+    outer:
+      serializedVersion: 2
+      x: 1192
+      y: 783
+      width: 271
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1192
+      y: 783
+      width: 271
+      height: 128
+    rotated: 0
+    paddingLeft: 2.83025837
+    paddingRight: 3.72693729
+    paddingTop: 5.265625
+    paddingBottom: 5.734375
+  - name: Garbage Can
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 551
+      width: 373
+      height: 284
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 551
+      width: 373
+      height: 284
+    rotated: 0
+    paddingLeft: 1.93565679
+    paddingRight: 2.55495977
+    paddingTop: 2.42253518
+    paddingBottom: 1.98591554
+  - name: WhichDoesNotBelong_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1844
+      width: 1167
+      height: 204
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1844
+      width: 1167
+      height: 204
+    rotated: 0
+    paddingLeft: .38646102
+    paddingRight: .368466139
+    paddingTop: .862745106
+    paddingBottom: 5.66666651
+  - name: Basketball
+    outer:
+      serializedVersion: 2
+      x: 1732
+      y: 1605
+      width: 236
+      height: 238
+    inner:
+      serializedVersion: 2
+      x: 1732
+      y: 1605
+      width: 236
+      height: 238
+    rotated: 0
+    paddingLeft: 3.08474565
+    paddingRight: 4.59322023
+    paddingTop: 2.39495802
+    paddingBottom: 3.05882359
+  - name: Space Ship
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1137
+      width: 303
+      height: 397
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1137
+      width: 303
+      height: 397
+    rotated: 0
+    paddingLeft: .947194695
+    paddingRight: 4.81188107
+    paddingTop: 1.27959692
+    paddingBottom: 1.58942068
+  - name: Planet
+    outer:
+      serializedVersion: 2
+      x: 1017
+      y: 912
+      width: 234
+      height: 211
+    inner:
+      serializedVersion: 2
+      x: 1017
+      y: 912
+      width: 234
+      height: 211
+    rotated: 0
+    paddingLeft: 4.74786329
+    paddingRight: 3.00427341
+    paddingTop: 2.8009479
+    paddingBottom: 3.47867298
+  - name: Star
+    outer:
+      serializedVersion: 2
+      x: 1252
+      y: 928
+      width: 202
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 1252
+      y: 928
+      width: 202
+      height: 195
+    rotated: 0
+    paddingLeft: 7.16336632
+    paddingRight: 1.9752475
+    paddingTop: 2.85128212
+    paddingBottom: 4.02564096
+  - name: Mittens
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 1846
+      width: 575
+      height: 202
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 1846
+      width: 575
+      height: 202
+    rotated: 0
+    paddingLeft: .777391315
+    paddingRight: 1.78434777
+    paddingTop: 2.91584158
+    paddingBottom: 3.6881187
+  - name: Bathing Suit
+    outer:
+      serializedVersion: 2
+      x: 663
+      y: 651
+      width: 189
+      height: 319
+    inner:
+      serializedVersion: 2
+      x: 663
+      y: 651
+      width: 189
+      height: 319
+    rotated: 0
+    paddingLeft: 1.50264549
+    paddingRight: 8.33333302
+    paddingTop: 1.62068963
+    paddingBottom: 2.1943574
+  - name: Winter Hat
+    outer:
+      serializedVersion: 2
+      x: 1455
+      y: 913
+      width: 182
+      height: 210
+    inner:
+      serializedVersion: 2
+      x: 1455
+      y: 913
+      width: 182
+      height: 210
+    rotated: 0
+    paddingLeft: 8.32417583
+    paddingRight: 1.92857146
+    paddingTop: 2.76666665
+    paddingBottom: 3.5476191
+  - name: Sled
+    outer:
+      serializedVersion: 2
+      x: 406
+      y: 1593
+      width: 462
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 406
+      y: 1593
+      width: 462
+      height: 250
+    rotated: 0
+    paddingLeft: 1.18181813
+    paddingRight: 2.25108218
+    paddingTop: 2.61599994
+    paddingBottom: 2.52800012
+  - name: Red Flower
+    outer:
+      serializedVersion: 2
+      x: 859
+      y: 798
+      width: 157
+      height: 325
+    inner:
+      serializedVersion: 2
+      x: 859
+      y: 798
+      width: 157
+      height: 325
+    rotated: 0
+    paddingLeft: 3.10191083
+    paddingRight: 8.94267559
+    paddingTop: 1.58153844
+    paddingBottom: 2.14461541
+  - name: Blue Flower
+    outer:
+      serializedVersion: 2
+      x: 663
+      y: 971
+      width: 195
+      height: 316
+    inner:
+      serializedVersion: 2
+      x: 663
+      y: 971
+      width: 195
+      height: 316
+    rotated: 0
+    paddingLeft: 5.54358959
+    paddingRight: 3.95897436
+    paddingTop: 1.62658226
+    paddingBottom: 2.23417711
+  - name: Red Flower_A
+    outer:
+      serializedVersion: 2
+      x: 663
+      y: 51
+      width: 183
+      height: 294
+    inner:
+      serializedVersion: 2
+      x: 663
+      y: 51
+      width: 183
+      height: 294
+    rotated: 0
+    paddingLeft: 4.02732229
+    paddingRight: 6.16393423
+    paddingTop: 1.81292522
+    paddingBottom: 2.41156459
+  - name: Red Flower_B
+    outer:
+      serializedVersion: 2
+      x: 663
+      y: 346
+      width: 185
+      height: 304
+    inner:
+      serializedVersion: 2
+      x: 663
+      y: 346
+      width: 185
+      height: 304
+    rotated: 0
+    paddingLeft: 7.5999999
+    paddingRight: 2.47027016
+    paddingTop: 1.70065784
+    paddingBottom: 2.35197377
+  - name: Bike
+    outer:
+      serializedVersion: 2
+      x: 1638
+      y: 927
+      width: 177
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1638
+      y: 927
+      width: 177
+      height: 196
+    rotated: 0
+    paddingLeft: 3.9435029
+    paddingRight: 6.62711859
+    paddingTop: 3.14285707
+    paddingBottom: 3.69387746
+  - name: Car
+    outer:
+      serializedVersion: 2
+      x: 859
+      y: 1124
+      width: 358
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 859
+      y: 1124
+      width: 358
+      height: 163
+    rotated: 0
+    paddingLeft: .751396656
+    paddingRight: 3.96927381
+    paddingTop: 3.96932507
+    paddingBottom: 4.4539876
+  - name: Boat
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 227
+      width: 291
+      height: 323
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 227
+      width: 291
+      height: 323
+    rotated: 0
+    paddingLeft: 5.02749157
+    paddingRight: 1.01030922
+    paddingTop: 1.48297215
+    paddingBottom: 2.27244592
+  - name: Truck
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1535
+      width: 405
+      height: 308
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1535
+      width: 405
+      height: 308
+    rotated: 0
+    paddingLeft: 2.40740752
+    paddingRight: 1.64938271
+    paddingTop: 1.65909088
+    paddingBottom: 2.32792211
+  - name: Boy
+    outer:
+      serializedVersion: 2
+      x: 1187
+      y: 1593
+      width: 283
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 1187
+      y: 1593
+      width: 283
+      height: 250
+    rotated: 0
+    paddingLeft: 3.76325083
+    paddingRight: 2.47349834
+    paddingTop: 2.05200005
+    paddingBottom: 3.09200001
+  - name: Sheep
+    outer:
+      serializedVersion: 2
+      x: 1744
+      y: 1853
+      width: 254
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 1744
+      y: 1853
+      width: 254
+      height: 195
+    rotated: 0
+    paddingLeft: 2.99212599
+    paddingRight: 4.07086611
+    paddingTop: 2.90256405
+    paddingBottom: 3.97435904
+  - name: Cow
+    outer:
+      serializedVersion: 2
+      x: 869
+      y: 1604
+      width: 317
+      height: 239
+    inner:
+      serializedVersion: 2
+      x: 869
+      y: 1604
+      width: 317
+      height: 239
+    rotated: 0
+    paddingLeft: 1.17350161
+    paddingRight: 4.28706646
+    paddingTop: 2.19246864
+    paddingBottom: 3.23430967
+  - name: Goat
+    outer:
+      serializedVersion: 2
+      x: 1471
+      y: 1616
+      width: 260
+      height: 227
+    inner:
+      serializedVersion: 2
+      x: 1471
+      y: 1616
+      width: 260
+      height: 227
+    rotated: 0
+    paddingLeft: 5.25
+    paddingRight: 1.62692308
+    paddingTop: 2.33480167
+    paddingBottom: 3.43171811
+  - name: Grapes
+    outer:
+      serializedVersion: 2
+      x: 1017
+      y: 488
+      width: 174
+      height: 183
+    inner:
+      serializedVersion: 2
+      x: 1017
+      y: 488
+      width: 174
+      height: 183
+    rotated: 0
+    paddingLeft: 7.97701168
+    paddingRight: 2.79310346
+    paddingTop: 3.06557369
+    paddingBottom: 4.32786894
+  - name: Apple
+    outer:
+      serializedVersion: 2
+      x: 1017
+      y: 331
+      width: 169
+      height: 156
+    inner:
+      serializedVersion: 2
+      x: 1017
+      y: 331
+      width: 169
+      height: 156
+    rotated: 0
+    paddingLeft: 3
+    paddingRight: 8.11834335
+    paddingTop: 3.92307687
+    paddingBottom: 4.92307711
+  - name: Bear
+    outer:
+      serializedVersion: 2
+      x: 406
+      y: 1263
+      width: 256
+      height: 329
+    inner:
+      serializedVersion: 2
+      x: 406
+      y: 1263
+      width: 256
+      height: 329
+    rotated: 0
+    paddingLeft: 2.58984375
+    paddingRight: 4.41015625
+    paddingTop: 1.49544072
+    paddingBottom: 2.17325234
+  - name: Fish
+    outer:
+      serializedVersion: 2
+      x: 1816
+      y: 932
+      width: 167
+      height: 191
+    inner:
+      serializedVersion: 2
+      x: 1816
+      y: 932
+      width: 167
+      height: 191
+    rotated: 0
+    paddingLeft: 2.18562865
+    paddingRight: 9.07784462
+    paddingTop: 3.20942402
+    paddingBottom: 3.83246064
+  - name: Horse
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 836
+      width: 356
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 836
+      width: 356
+      height: 300
+    rotated: 0
+    paddingLeft: 2.81460667
+    paddingRight: 1.93820226
+    paddingTop: 1.73666668
+    paddingBottom: 2.38333344
+  - name: Dog
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 18
+      width: 327
+      height: 208
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 18
+      width: 327
+      height: 208
+    rotated: 0
+    paddingLeft: 4.26605511
+    paddingRight: .996941924
+    paddingTop: 2.89903855
+    paddingBottom: 3.48557687
+  - name: Marty Moose
+    outer:
+      serializedVersion: 2
+      x: 930
+      y: 1311
+      width: 265
+      height: 281
+    inner:
+      serializedVersion: 2
+      x: 930
+      y: 1311
+      width: 265
+      height: 281
+    rotated: 0
+    paddingLeft: 2.65283012
+    paddingRight: 4.07547188
+    paddingTop: 1.93238437
+    paddingBottom: 2.53380775
+  - name: Cloud
+    outer:
+      serializedVersion: 2
+      x: 1464
+      y: 802
+      width: 316
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1464
+      y: 802
+      width: 316
+      height: 109
+    rotated: 0
+    paddingLeft: 3.38291144
+    paddingRight: 2.09810138
+    paddingTop: 5.55963326
+    paddingBottom: 7.53211021
+  - name: Turkey
+    outer:
+      serializedVersion: 2
+      x: 1477
+      y: 1323
+      width: 268
+      height: 269
+    inner:
+      serializedVersion: 2
+      x: 1477
+      y: 1323
+      width: 268
+      height: 269
+    rotated: 0
+    paddingLeft: 4.01119423
+    paddingRight: 2.63059711
+    paddingTop: 2.02973986
+    paddingBottom: 2.68029737
+  - name: Barry Bear
+    outer:
+      serializedVersion: 2
+      x: 406
+      y: 628
+      width: 235
+      height: 308
+    inner:
+      serializedVersion: 2
+      x: 406
+      y: 628
+      width: 235
+      height: 308
+    rotated: 0
+    paddingLeft: 5.83404255
+    paddingRight: 1.88085103
+    paddingTop: 1.66883111
+    paddingBottom: 2.31818175
+  - name: Snorkel
+    outer:
+      serializedVersion: 2
+      x: 663
+      y: 1288
+      width: 266
+      height: 304
+    inner:
+      serializedVersion: 2
+      x: 663
+      y: 1288
+      width: 266
+      height: 304
+    rotated: 0
+    paddingLeft: 5.5902257
+    paddingRight: 1.1090225
+    paddingTop: 1.58881581
+    paddingBottom: 2.46381569
+  - name: Pear
+    outer:
+      serializedVersion: 2
+      x: 859
+      y: 569
+      width: 155
+      height: 228
+    inner:
+      serializedVersion: 2
+      x: 859
+      y: 569
+      width: 155
+      height: 228
+    rotated: 0
+    paddingLeft: 9.66451645
+    paddingRight: 2.54838705
+    paddingTop: 2.5
+    paddingBottom: 3.23684216
+  - name: Beach Blanket
+    outer:
+      serializedVersion: 2
+      x: 1218
+      y: 1169
+      width: 448
+      height: 118
+    inner:
+      serializedVersion: 2
+      x: 1218
+      y: 1169
+      width: 448
+      height: 118
+    rotated: 0
+    paddingLeft: 2.18973207
+    paddingRight: 1.38169646
+    paddingTop: 5.44915247
+    paddingBottom: 6.56779671
+  - name: Sun
+    outer:
+      serializedVersion: 2
+      x: 1196
+      y: 1327
+      width: 280
+      height: 265
+    inner:
+      serializedVersion: 2
+      x: 1196
+      y: 1327
+      width: 280
+      height: 265
+    rotated: 0
+    paddingLeft: 2.51071429
+    paddingRight: 3.80357146
+    paddingTop: 2.09056592
+    paddingBottom: 2.70566034
+  - name: Pineapple
+    outer:
+      serializedVersion: 2
+      x: 406
+      y: 18
+      width: 186
+      height: 335
+    inner:
+      serializedVersion: 2
+      x: 406
+      y: 18
+      width: 186
+      height: 335
+    rotated: 0
+    paddingLeft: 2.19354844
+    paddingRight: 7.81720448
+    paddingTop: 1.39402986
+    paddingBottom: 2.19104481
+  - name: Princess Patty
+    outer:
+      serializedVersion: 2
+      x: 406
+      y: 354
+      width: 240
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 406
+      y: 354
+      width: 240
+      height: 273
+    rotated: 0
+    paddingLeft: 4.4000001
+    paddingRight: 3.13333344
+    paddingTop: 2.02197814
+    paddingBottom: 2.60439563
+  - name: Tree
+    outer:
+      serializedVersion: 2
+      x: 406
+      y: 937
+      width: 245
+      height: 325
+    inner:
+      serializedVersion: 2
+      x: 406
+      y: 937
+      width: 245
+      height: 325
+    rotated: 0
+    paddingLeft: 1.50612247
+    paddingRight: 5.8530612
+    paddingTop: 1.6676923
+    paddingBottom: 2.05846143
+  - name: Zip Zebra
+    outer:
+      serializedVersion: 2
+      x: 1746
+      y: 1316
+      width: 210
+      height: 276
+    inner:
+      serializedVersion: 2
+      x: 1746
+      y: 1316
+      width: 210
+      height: 276
+    rotated: 0
+    paddingLeft: 2.0999999
+    paddingRight: 6.65238094
+    paddingTop: 1.98550725
+    paddingBottom: 2.57971025
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

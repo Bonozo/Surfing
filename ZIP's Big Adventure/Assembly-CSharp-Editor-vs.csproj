@@ -85,6 +85,7 @@
      <Compile Include="Assets\Scripts\Editor\LevelPathEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\LevelRightAnswerEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\LevelRightSequenceButtonEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\LevelWhatIsNextEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\TraceEditor.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
