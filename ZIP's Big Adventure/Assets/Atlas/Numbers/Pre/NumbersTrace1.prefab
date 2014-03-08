@@ -40,89 +40,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: b5defe7993e2aef4a8ad472362338c65, type: 2}
   sprites:
-  - name: Trace1_Begin
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 662
-      width: 978
-      height: 667
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 662
-      width: 978
-      height: 667
-    rotated: 0
-    paddingLeft: .583844602
-    paddingRight: .510224938
-    paddingTop: .245877057
-    paddingBottom: 1.05697155
-  - name: Trace1_End
-    outer:
-      serializedVersion: 2
-      x: 979
-      y: 688
-      width: 990
-      height: 641
-    inner:
-      serializedVersion: 2
-      x: 979
-      y: 688
-      width: 990
-      height: 641
-    rotated: 0
-    paddingLeft: .625252545
-    paddingRight: .443434358
-    paddingTop: .329173177
-    paddingBottom: 1.06708264
-  - name: Trace2_Begin
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1330
-      width: 978
-      height: 718
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1330
-      width: 978
-      height: 718
-    rotated: 0
-    paddingLeft: .583844602
-    paddingRight: .510224938
-    paddingTop: .200557098
-    paddingBottom: .883008361
-  - name: Trace2_End
-    outer:
-      serializedVersion: 2
-      x: 979
-      y: 1377
-      width: 1009
-      height: 671
-    inner:
-      serializedVersion: 2
-      x: 979
-      y: 1377
-      width: 1009
-      height: 671
-    rotated: 0
-    paddingLeft: .614469767
-    paddingRight: .41526264
-    paddingTop: .314456046
-    paddingBottom: .974664688
   - name: whitecyrcle
     outer:
       serializedVersion: 2
-      x: 0
-      y: 535
+      x: 641
+      y: 1563
       width: 122
       height: 126
     inner:
       serializedVersion: 2
-      x: 0
-      y: 535
+      x: 641
+      y: 1563
       width: 122
       height: 126
     rotated: 0
@@ -133,14 +61,14 @@ MonoBehaviour:
   - name: Star
     outer:
       serializedVersion: 2
-      x: 979
-      y: 1353
+      x: 764
+      y: 1666
       width: 25
       height: 23
     inner:
       serializedVersion: 2
-      x: 979
-      y: 1353
+      x: 764
+      y: 1666
       width: 25
       height: 23
     rotated: 0
@@ -148,6 +76,240 @@ MonoBehaviour:
     paddingRight: 31.0799999
     paddingTop: 29.434782
     paddingBottom: 2.95652175
+  - name: Trace2_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 552
+      width: 484
+      height: 313
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 552
+      width: 484
+      height: 313
+    rotated: 0
+    paddingLeft: .109504133
+    paddingRight: .0888429731
+    paddingTop: .217252403
+    paddingBottom: .028753994
+  - name: Trace2_End
+    outer:
+      serializedVersion: 2
+      x: 1253
+      y: 1672
+      width: 568
+      height: 376
+    inner:
+      serializedVersion: 2
+      x: 1253
+      y: 1672
+      width: 568
+      height: 376
+    rotated: 0
+    paddingLeft: .0651408434
+    paddingRight: .0809859186
+    paddingTop: .0452127643
+    paddingBottom: .0159574468
+  - name: Trace1_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1202
+      width: 571
+      height: 346
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1202
+      width: 571
+      height: 346
+    rotated: 0
+    paddingLeft: .0612959713
+    paddingRight: .0665499121
+    paddingTop: .153179184
+    paddingBottom: .0462427735
+  - name: Trace1_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 283
+      width: 409
+      height: 268
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 283
+      width: 409
+      height: 268
+    rotated: 0
+    paddingLeft: .122249387
+    paddingRight: .168704152
+    paddingTop: .24626866
+    paddingBottom: .12313433
+  - name: Trace2_Text 2
+    outer:
+      serializedVersion: 2
+      x: 572
+      y: 886
+      width: 1009
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 572
+      y: 886
+      width: 1009
+      height: 128
+    rotated: 0
+    paddingLeft: .0178394448
+    paddingRight: .0267591681
+    paddingTop: .2578125
+    paddingBottom: .0546875
+  - name: Trace1_Text 2
+    outer:
+      serializedVersion: 2
+      x: 572
+      y: 758
+      width: 990
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 572
+      y: 758
+      width: 990
+      height: 127
+    rotated: 0
+    paddingLeft: .0151515156
+    paddingRight: .0414141417
+    paddingTop: .362204731
+    paddingBottom: .157480314
+  - name: Trace3_Text 2
+    outer:
+      serializedVersion: 2
+      x: 572
+      y: 1015
+      width: 1038
+      height: 129
+    inner:
+      serializedVersion: 2
+      x: 572
+      y: 1015
+      width: 1038
+      height: 129
+    rotated: 0
+    paddingLeft: .0115606934
+    paddingRight: .0221579969
+    paddingTop: .341085285
+    paddingBottom: .116279073
+  - name: Trace3_End
+    outer:
+      serializedVersion: 2
+      x: 641
+      y: 1690
+      width: 611
+      height: 358
+    inner:
+      serializedVersion: 2
+      x: 641
+      y: 1690
+      width: 611
+      height: 358
+    rotated: 0
+    paddingLeft: .0638297871
+    paddingRight: .0327332243
+    paddingTop: .0865921751
+    paddingBottom: .108938545
+  - name: Trace4_Text 2
+    outer:
+      serializedVersion: 2
+      x: 572
+      y: 1421
+      width: 1302
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 572
+      y: 1421
+      width: 1302
+      height: 127
+    rotated: 0
+    paddingLeft: .00921658985
+    paddingRight: .0130568361
+    paddingTop: .322834641
+    paddingBottom: .0944881886
+  - name: Trace3_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 866
+      width: 533
+      height: 335
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 866
+      width: 533
+      height: 335
+    rotated: 0
+    paddingLeft: .105065666
+    paddingRight: .0675422102
+    paddingTop: .179104477
+    paddingBottom: 0
+  - name: Trace4_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1549
+      width: 640
+      height: 499
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1549
+      width: 640
+      height: 499
+    rotated: 0
+    paddingLeft: .0921875015
+    paddingRight: .0281249993
+    paddingTop: .0761523023
+    paddingBottom: .0120240478
+  - name: Trace4_Begin
+    outer:
+      serializedVersion: 2
+      x: 572
+      y: 1145
+      width: 579
+      height: 275
+    inner:
+      serializedVersion: 2
+      x: 572
+      y: 1145
+      width: 579
+      height: 275
+    rotated: 0
+    paddingLeft: .0414507762
+    paddingRight: .0310880821
+    paddingTop: .214545459
+    paddingBottom: .101818182
+  - name: Trace_Text 1
+    outer:
+      serializedVersion: 2
+      x: 572
+      y: 652
+      width: 978
+      height: 105
+    inner:
+      serializedVersion: 2
+      x: 572
+      y: 652
+      width: 978
+      height: 105
+    rotated: 0
+    paddingLeft: .0122699384
+    paddingRight: .0204498973
+    paddingTop: .333333343
+    paddingBottom: .438095242
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
