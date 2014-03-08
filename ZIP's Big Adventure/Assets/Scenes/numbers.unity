@@ -4514,7 +4514,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 76436034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.799988, y: -383.199982, z: 0}
+  m_LocalPosition: {x: -513.034363, y: -382.964966, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 126601793}
@@ -24913,6 +24913,32 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
+--- !u!1 &500226797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 500226798}
+  m_Layer: 8
+  m_Name: Star
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &500226798
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500226797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 751778718}
 --- !u!1 &501501796
 GameObject:
   m_ObjectHideFlags: 0
@@ -30090,7 +30116,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 631380817}
   m_Layer: 8
-  m_Name: S
+  m_Name: Star
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36262,6 +36288,7 @@ Transform:
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children:
   - {fileID: 768774291}
+  - {fileID: 500226798}
   - {fileID: 1616815925}
   - {fileID: 1118116146}
   m_Father: {fileID: 1668844205}
@@ -37572,10 +37599,10 @@ MonoBehaviour:
   randomizedGames: 1
   allLevelsDetermined: 1
   level:
-  - {fileID: 282326292}
-  - {fileID: 1862605092}
-  - {fileID: 1445839693}
-  - {fileID: 732538687}
+  - {fileID: 1830697201}
+  - {fileID: 1482011489}
+  - {fileID: 1668844206}
+  - {fileID: 379985227}
   - {fileID: 282326292}
   - {fileID: 732538687}
   - {fileID: 732538687}
@@ -44755,7 +44782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelTrace: {fileID: 1830697201}
-  traceStar: {fileID: 0}
+  traceStar: {fileID: 1321466939}
   editorDepth: 6
   editorColor: {r: 1, g: 0, b: .0705882385, a: 1}
 --- !u!1 &969759517
@@ -48000,7 +48027,7 @@ Transform:
   m_GameObject: {fileID: 1043487186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1034.23999, y: 775.679993, z: 1}
+  m_LocalScale: {x: 1034.23999, y: 775.680054, z: 1}
   m_Children: []
   m_Father: {fileID: 791153643}
 --- !u!114 &1043487188
@@ -51987,7 +52014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelTrace: {fileID: 1668844206}
-  traceStar: {fileID: 0}
+  traceStar: {fileID: 500226798}
   editorDepth: 6
   editorColor: {r: 1, g: 0, b: .0705882385, a: 1}
 --- !u!1 &1119071067
@@ -58743,7 +58770,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1321466939}
   m_Layer: 8
-  m_Name: S
+  m_Name: Star
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61825,7 +61852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelTrace: {fileID: 379985227}
-  traceStar: {fileID: 0}
+  traceStar: {fileID: 1793204515}
   editorDepth: 6
   editorColor: {r: 1, g: 0, b: .0705882385, a: 1}
 --- !u!1 &1377041082
@@ -74386,7 +74413,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.800000072, y: .800000072, z: 0}
+  m_LocalPosition: {x: 0, y: 2.07008076, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 791153643}
@@ -78995,6 +79022,7 @@ Transform:
   m_LocalScale: {x: .5, y: .5, z: 1}
   m_Children:
   - {fileID: 2136862889}
+  - {fileID: 1793204515}
   - {fileID: 481743144}
   - {fileID: 1377037232}
   m_Father: {fileID: 379985226}
@@ -80510,6 +80538,32 @@ Transform:
   - {fileID: 1980853188}
   - {fileID: 129069357}
   m_Father: {fileID: 749472318}
+--- !u!1 &1793204514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1793204515}
+  m_Layer: 8
+  m_Name: Star
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1793204515
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1793204514}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1744219104}
 --- !u!1 &1793449516
 GameObject:
   m_ObjectHideFlags: 0
@@ -80642,7 +80696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelTrace: {fileID: 1482011489}
-  traceStar: {fileID: 0}
+  traceStar: {fileID: 631380817}
   editorDepth: 6
   editorColor: {r: 1, g: 0, b: .0705882385, a: 1}
 --- !u!1 &1797009803
