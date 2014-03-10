@@ -557,10 +557,10 @@ UIViewController *UnityGetGLViewController();
 
 
 
-#import "AppController.h"
+#import "UnityAppController.h"
 
 
-@implementation AppController(FacebookURLHandler)
+@implementation UnityAppController(FacebookURLHandler)
 
 - (BOOL)application:(UIApplication*)application handleOpenURL:(NSURL*)url
 {
