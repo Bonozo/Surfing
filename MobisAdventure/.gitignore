@@ -21,17 +21,13 @@ AssetImportState
 assetservercachev3
 AssetServerCacheV3
 AssetVersioning.db
-AudioManager.asset
 BuildPlayer.prefs
-BuildSettings.asset
-DynamicsManager.asset
-EditorSettings.asset
-EditorUserBuildSettings.asset
+BuildSettings.assetEditorUserBuildSettings.asset
 expandedItems
 FailedAssetImports.txt
 guidmapper
 InspectorExpandedItems.asset
 MonoManager.asset
-NetworkManager.asset
+
 ScriptMapper
 
