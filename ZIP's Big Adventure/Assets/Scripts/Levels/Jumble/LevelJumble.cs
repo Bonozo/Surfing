@@ -22,6 +22,7 @@ public class LevelJumble : ZIPLevel {
 	public void Answered(JumbleDrag drag)
 	{
 		done++;
+		drag.GetComponent<UISprite> ().depth--;
 		if( done == dragsLenght)
 			StartCoroutine(HappyEndThread());
 	}

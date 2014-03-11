@@ -1,19 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Levels\Trace.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Procedures\EndItemChangeTexture.cs">
     <Files>
-      <File FileName="Assets\Scripts\Levels\LevelTrace.cs" Line="7" Column="21" />
-      <File FileName="Assets\Scripts\Levels\Trace.cs" Line="76" Column="48" />
-      <File FileName="Assets\Scripts\Levels\Point\LevelPoint.cs" Line="23" Column="28" />
-      <File FileName="Assets\Scripts\Procedures\EndItem.cs" Line="4" Column="1" />
-      <File FileName="Assets\Scripts\Procedures\EndItemChangeTexture.cs" Line="4" Column="43" />
-      <File FileName="Assets\Scripts\Procedures\EndItemColor.cs" Line="4" Column="34" />
-      <File FileName="Assets\Scripts\Procedures\EndItemGoRootIfCollider.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Procedures\EndItemLeaveScreen.cs" Line="4" Column="41" />
-      <File FileName="Assets\Scripts\Procedures\EndItemList.cs" Line="4" Column="33" />
-      <File FileName="Assets\Scripts\Procedures\EndItemMoveTo.cs" Line="5" Column="36" />
-      <File FileName="Assets\Scripts\Procedures\EndItemMultipleEndItem.cs" Line="4" Column="37" />
-      <File FileName="Assets\Scripts\Procedures\EndItemScaleTo.cs" Line="4" Column="37" />
+      <File FileName="Assets\Scripts\Levels\Jumble\JumbleDrag.cs" Line="82" Column="41" />
+      <File FileName="Assets\Scripts\Procedures\EndItemMultipleEndItem.cs" Line="25" Column="43" />
+      <File FileName="Assets\Scripts\Procedures\EndItemMoveTo.cs" Line="36" Column="3" />
+      <File FileName="Assets\Scripts\Procedures\EndItemScaleTo.cs" Line="28" Column="3" />
+      <File FileName="Assets\Scripts\Procedures\EndItemLeaveScreen.cs" Line="27" Column="3" />
+      <File FileName="Assets\Scripts\Procedures\EndItemChangeTexture.cs" Line="38" Column="23" />
+      <File FileName="Assets\Scripts\Procedures\EndItemColor.cs" Line="30" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

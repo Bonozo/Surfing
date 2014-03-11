@@ -24,7 +24,7 @@ public class EndItemLeaveScreen : EndItem {
 
 	public override void Work ()
 	{
-		//Reset ();
+		Reset ();
 		StartCoroutine (WorkThread ());
 	}
 

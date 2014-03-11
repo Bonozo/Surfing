@@ -4,11 +4,29 @@ using System.Collections;
 [AddComponentMenu("EndItems/Multiple")]
 public class EndItemMultipleEndItem : EndItem {
 
-	public EndItemChangeTexture changeTexture;
-	public EndItemColor color;
-	public EndItemLeaveScreen leaveScreen;
-	public EndItemMoveTo moveTo;
-	public EndItemScaleTo scaleTo;
+	private EndItemChangeTexture changeTexture = null;
+	private EndItemColor color = null;
+	private EndItemLeaveScreen leaveScreen = null;
+	private EndItemMoveTo moveTo = null;
+	private EndItemScaleTo scaleTo = null;
+
+	void Awake()
+	{
+		if (GetComponent<EndItemChangeTexture> () != null)
+			changeTexture = GetComponent<EndItemChangeTexture> ();
+
+		if( GetComponent<EndItemColor>() != null)
+			color = GetComponent<EndItemColor>();
+
+		if( GetComponent<EndItemLeaveScreen>() != null)
+			leaveScreen = GetComponent<EndItemLeaveScreen>();
+
+		if( GetComponent<EndItemMoveTo>() != null)
+			moveTo = GetComponent<EndItemMoveTo>();
+
+		if( GetComponent<EndItemScaleTo>() != null)
+			scaleTo = GetComponent<EndItemScaleTo>();
+	}
 
 	public override void Reset ()
 	{

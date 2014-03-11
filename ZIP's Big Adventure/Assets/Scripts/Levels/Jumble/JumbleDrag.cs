@@ -6,6 +6,7 @@ public class JumbleDrag : MonoBehaviour {
 
 	public LevelJumble level;
 	public Collider[] targetCollider;
+	public bool convertTargetToBox = true;
 	
 	private Vector3 initialPosition;
 	private float dragTime;
@@ -30,7 +31,7 @@ public class JumbleDrag : MonoBehaviour {
 		foreach(var col in targetCollider)
 		{
 			col.enabled = true;
-			if(col.GetComponent<UISprite>() != null)
+			if(convertTargetToBox && col.GetComponent<UISprite>() != null)
 				col.GetComponent<UISprite> ().spriteName = "gray_box";
 		}
 		this.GetComponent<UIDragObject> ().enabled = true;
@@ -79,7 +80,7 @@ public class JumbleDrag : MonoBehaviour {
 		iTween.MoveTo(gameObject,iTween.Hash("position",col.transform.localPosition
 		                                     ,"time",1f,"islocal",true));
 		yield return new WaitForSeconds(0.1f);
-		if(col.GetComponent<UISprite>() != null)
+		if(convertTargetToBox && col.GetComponent<UISprite>() != null)
 			col.GetComponent<UISprite> ().spriteName = "yellow_box";
 		yield return new WaitForSeconds(0.9f);
 		level.Answered (this);

@@ -33,7 +33,7 @@ public class EndItemMoveTo : EndItem {
 	
 	public override void Work ()
 	{
-		//Reset ();
+		Reset ();
 		StartCoroutine ("Working");
 	}
 

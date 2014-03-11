@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ShapesDrag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 3e5a5e9f007b05c4fa3b29d7c66a3f1a, type: 2}
+  sprites:
+  - name: Drag_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1808
+      width: 1182
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1808
+      width: 1182
+      height: 240
+    rotated: 0
+    paddingLeft: .0456852801
+    paddingRight: .0414551608
+    paddingTop: .129166663
+    paddingBottom: .13333334
+  - name: Dotted line
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1796
+      width: 985
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1796
+      width: 985
+      height: 11
+    rotated: 0
+    paddingLeft: .0517766513
+    paddingRight: .0578680187
+    paddingTop: 5.4545455
+    paddingBottom: 6.63636351
+  - name: Brown Rectangle
+    outer:
+      serializedVersion: 2
+      x: 1554
+      y: 1933
+      width: 179
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1554
+      y: 1933
+      width: 179
+      height: 115
+    rotated: 0
+    paddingLeft: .234636873
+    paddingRight: .240223467
+    paddingTop: .469565213
+    paddingBottom: .408695638
+  - name: Drag Acorn_End
+    outer:
+      serializedVersion: 2
+      x: 1373
+      y: 1809
+      width: 180
+      height: 239
+    inner:
+      serializedVersion: 2
+      x: 1373
+      y: 1809
+      width: 180
+      height: 239
+    rotated: 0
+    paddingLeft: .266666681
+    paddingRight: .305555552
+    paddingTop: .104602508
+    paddingBottom: .200836822
+  - name: Orange Semi Circle
+    outer:
+      serializedVersion: 2
+      x: 1554
+      y: 1820
+      width: 173
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1554
+      y: 1820
+      width: 173
+      height: 52
+    rotated: 0
+    paddingLeft: .213872835
+    paddingRight: .260115594
+    paddingTop: .653846145
+    paddingBottom: 1.05769229
+  - name: Dark Brown Triangle
+    outer:
+      serializedVersion: 2
+      x: 1554
+      y: 1873
+      width: 166
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 1554
+      y: 1873
+      width: 166
+      height: 59
+    rotated: 0
+    paddingLeft: .295180708
+    paddingRight: .313253015
+    paddingTop: .847457647
+    paddingBottom: .711864412
+  - name: Gray Triangle
+    outer:
+      serializedVersion: 2
+      x: 1734
+      y: 2016
+      width: 39
+      height: 32
+    inner:
+      serializedVersion: 2
+      x: 1734
+      y: 2016
+      width: 39
+      height: 32
+    rotated: 0
+    paddingLeft: 1.56410253
+    paddingRight: 1.46153843
+    paddingTop: 1.71875
+    paddingBottom: 1.21875
+  - name: Drag Acorn_End_B
+    outer:
+      serializedVersion: 2
+      x: 1183
+      y: 1810
+      width: 189
+      height: 238
+    inner:
+      serializedVersion: 2
+      x: 1183
+      y: 1810
+      width: 189
+      height: 238
+    rotated: 0
+    paddingLeft: .179894179
+    paddingRight: .206349209
+    paddingTop: .130252108
+    paddingBottom: .130252108
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

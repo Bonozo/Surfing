@@ -1,0 +1,345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: LettersMakeaPlural
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 2148703cf53c96b48906a74a45a3e4cd, type: 2}
+  sprites:
+  - name: Gray Box
+    outer:
+      serializedVersion: 2
+      x: 1800
+      y: 1417
+      width: 223
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 1800
+      y: 1417
+      width: 223
+      height: 197
+    rotated: 0
+    paddingLeft: .264573991
+    paddingRight: .354260087
+    paddingTop: .263959378
+    paddingBottom: .31979695
+  - name: Question Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1411
+      width: 1243
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1411
+      width: 1243
+      height: 203
+    rotated: 0
+    paddingLeft: .0490748174
+    paddingRight: .04022526
+    paddingTop: .216748774
+    paddingBottom: .187192112
+  - name: '- es'
+    outer:
+      serializedVersion: 2
+      x: 404
+      y: 699
+      width: 210
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 404
+      y: 699
+      width: 210
+      height: 107
+    rotated: 0
+    paddingLeft: .142857149
+    paddingRight: .304761916
+    paddingTop: .598130822
+    paddingBottom: .644859791
+  - name: -s
+    outer:
+      serializedVersion: 2
+      x: 404
+      y: 592
+      width: 133
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 404
+      y: 592
+      width: 133
+      height: 106
+    rotated: 0
+    paddingLeft: .375939846
+    paddingRight: .593984962
+    paddingTop: .575471699
+    paddingBottom: .603773594
+  - name: Balls_B
+    outer:
+      serializedVersion: 2
+      x: 1580
+      y: 1764
+      width: 403
+      height: 284
+    inner:
+      serializedVersion: 2
+      x: 1580
+      y: 1764
+      width: 403
+      height: 284
+    rotated: 0
+    paddingLeft: .136476427
+    paddingRight: .168734491
+    paddingTop: .193661973
+    paddingBottom: .242957741
+  - name: Ball
+    outer:
+      serializedVersion: 2
+      x: 624
+      y: 1263
+      width: 344
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 624
+      y: 1263
+      width: 344
+      height: 147
+    rotated: 0
+    paddingLeft: .139534891
+    paddingRight: .119186044
+    paddingTop: .367346942
+    paddingBottom: .346938789
+  - name: Balls_A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 576
+      width: 403
+      height: 230
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 576
+      width: 403
+      height: 230
+    rotated: 0
+    paddingLeft: .0918114111
+    paddingRight: .191066995
+    paddingTop: .3347826
+    paddingBottom: .282608688
+  - name: Balls
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 282
+      width: 400
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 282
+      width: 400
+      height: 147
+    rotated: 0
+    paddingLeft: .150000006
+    paddingRight: .157499999
+    paddingTop: .53061223
+    paddingBottom: .408163279
+  - name: Hearts
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 430
+      width: 498
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 430
+      width: 498
+      height: 145
+    rotated: 0
+    paddingLeft: .128514051
+    paddingRight: .108433738
+    paddingTop: .262068957
+    paddingBottom: .475862056
+  - name: Hearts_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1091
+      width: 623
+      height: 319
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1091
+      width: 623
+      height: 319
+    rotated: 0
+    paddingLeft: .0882825032
+    paddingRight: .146067411
+    paddingTop: .197492167
+    paddingBottom: .222570539
+  - name: Hearts_A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 807
+      width: 551
+      height: 283
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 807
+      width: 551
+      height: 283
+    rotated: 0
+    paddingLeft: .0998185128
+    paddingRight: .154264972
+    paddingTop: .180212021
+    paddingBottom: .346289754
+  - name: Heart
+    outer:
+      serializedVersion: 2
+      x: 1580
+      y: 1618
+      width: 427
+      height: 145
+    inner:
+      serializedVersion: 2
+      x: 1580
+      y: 1618
+      width: 427
+      height: 145
+    rotated: 0
+    paddingLeft: .121779859
+    paddingRight: .110070258
+    paddingTop: .30344829
+    paddingBottom: .475862056
+  - name: Shooting stars_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1615
+      width: 789
+      height: 433
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1615
+      width: 789
+      height: 433
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .0969976932
+    paddingBottom: .0808314085
+  - name: Shooting stars_A
+    outer:
+      serializedVersion: 2
+      x: 790
+      y: 1615
+      width: 789
+      height: 433
+    inner:
+      serializedVersion: 2
+      x: 790
+      y: 1615
+      width: 789
+      height: 433
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: .0739030018
+  - name: Wishes
+    outer:
+      serializedVersion: 2
+      x: 1244
+      y: 1466
+      width: 555
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 1244
+      y: 1466
+      width: 555
+      height: 148
+    rotated: 0
+    paddingLeft: .0558558553
+    paddingRight: .0810810775
+    paddingTop: .189189196
+    paddingBottom: .391891897
+  - name: Wish
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 133
+      width: 386
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 133
+      width: 386
+      height: 148
+    rotated: 0
+    paddingLeft: .0880829021
+    paddingRight: .134715021
+    paddingTop: .391891897
+    paddingBottom: .290540546
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

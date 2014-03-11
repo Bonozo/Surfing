@@ -27,7 +27,7 @@ public class EndItemColor : EndItem {
 	
 	public override void Work ()
 	{
-		//Reset ();
+		Reset ();
 		StartCoroutine ("Working");
 	}
 

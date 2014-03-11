@@ -25,7 +25,7 @@ public class EndItemScaleTo : EndItem {
 	
 	public override void Work ()
 	{
-		//Reset ();
+		Reset ();
 		StartCoroutine ("Working");
 	}	
 
