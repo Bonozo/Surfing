@@ -18,7 +18,7 @@ public class OptionItem : MonoBehaviour {
 
 	void Update()
 	{
-		collider.enabled = !MainMenu.Instance.confirmationPopup.gameObject.activeSelf;
+		collider.enabled = !MainMenu.Instance.isPopupActive;
 	}
 	
 	bool inited=false;

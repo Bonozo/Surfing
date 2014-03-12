@@ -7,10 +7,13 @@ public class StorePurchase : MonoBehaviour {
 
 	void OnClick()
 	{
-		MobiIAB.Instance.SendMessage(iapMethod);
-		/*int coins = PlayerPrefs.GetInt("pp_coins");
-		coins += addCoins;
-		PlayerPrefs.SetInt("pp_coins",coins);
-		PlayerPrefs.Save();*/
+		StartCoroutine (MakePurchase ());
+	}
+
+	IEnumerator MakePurchase()
+	{
+		yield return StartCoroutine(MainMenu.Instance.iapLoading.ConnectToIAP());
+		if( MobiIAB.Instance.Connected)
+			MobiIAB.Instance.SendMessage(iapMethod);
 	}
 }

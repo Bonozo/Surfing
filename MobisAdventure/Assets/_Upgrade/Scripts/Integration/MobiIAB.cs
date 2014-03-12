@@ -129,57 +129,51 @@ public class MobiIAB : MonoBehaviour
 		if (purchase.productId.ToString() == skus[0] )
 		{
 			// no ads implement here
-			return;
 		}
 		else if( purchase.productId.ToString() == skus[1] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 150000);
 			Coin_Counter.GetUpBalance();
-			return;
 		}
 		else if ( purchase.productId.ToString() == skus[2] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 250000);
 			Coin_Counter.GetUpBalance();
-			return;
 		}
 		else if (purchase.productId.ToString() == skus[3] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 500000);
 			Coin_Counter.GetUpBalance();
-			return;
 		}
 		else if (purchase.productId.ToString() == skus[4] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 750000);
 			Coin_Counter.GetUpBalance();
-			return;
 		}
 		else if (purchase.productId.ToString() == skus[5] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 2000000);
 			Coin_Counter.GetUpBalance();
-			return;
 		}
 		else if (purchase.productId.ToString() == skus[6] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 5000000);
 			Coin_Counter.GetUpBalance();
-			return;
 		}
 		else if (purchase.productId.ToString() == skus[7] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 10000000);
 			Coin_Counter.GetUpBalance();
-			return;
 		}
+
+		PlayerPrefs.Save ();
 	}
 	
 	void purchaseFailedEvent( string error )
@@ -277,7 +271,14 @@ public class MobiIAB : MonoBehaviour
 	{
 		PurchaseProduct (7);
 	}
-	
+
+	public bool Connected { get { return queryInventorySucceeded; } }
+
+	#endif
+
+	#if UNITY_IPHONE
+	public bool Connected { get { return false; } } // to do
+	// ... ???????
 	#endif
 
 	#region Static Instance

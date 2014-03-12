@@ -4,6 +4,7 @@ using System.Collections;
 public class MainMenu : MonoBehaviour {
 
 	public MenuConfirmationPopup confirmationPopup;
+	public IAPLoading iapLoading;
 	public UILabel[] labelCoinCount;
 	public MenuToggle GetMoreCoinsToggle;
 	
@@ -55,7 +56,9 @@ public class MainMenu : MonoBehaviour {
 			label.text = coinstext;
 
 	}
-	
+
+	public bool isPopupActive { get { return confirmationPopup.gameObject.activeSelf || iapLoading.gameObject.activeSelf; } }
+
 	#region Helpful
 	
 	public static string PutCommas(int _number)	
