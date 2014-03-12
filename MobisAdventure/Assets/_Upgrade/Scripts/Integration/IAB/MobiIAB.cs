@@ -8,8 +8,8 @@ public class MobiIAB : MonoBehaviour
 {
 	#if UNITY_ANDROID
 	private string key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAymWgRnh1BakrbqiGqrF6LBNLMQY/4gHI0KlOc9u6A3kYtMN3ghqQzeIje+WzP7G6wUPeTmLUrI0WUrcQFuvsMm0xwnj9rEY66RhgvwpwC6MO/dOH0NmsMBTll3g8WgT4GHyeBojH21ZZAi5bXS49qAHh/A4wQxVudzazLoMXe9s8/4mFwJUHkByOnMDN9cnVV5wl4nf/zO4i2mZU4A2j9CLBwzVDUK6e6giLPLwpGmTtqEdfX4hfLJ7okFV8rPGXW8aZjwsSclRb4oTuRshpqqONRHvBFcN7GJUT2h43HqDYY1Ul+uTtYQIsdQFDdnXKi2G44KZnNcZrnDhtRUaWLwIDAQAB";
-	private string[] skus = new string[] {@"mobi_99c_noads",@"mobi_150k_coins", @"mobi_250k_coins",
-		@"mobi_500k_coins", @"mobi_750k_coins",@"mobi_2m_coins" ,@"mobi_5m_coins" ,@"mobi_10m_coins"  };
+	private string[] skus = new string[] {@"mobisrun_99c_noads",@"mobisrun_150k_coins", @"mobisrun_250k_coins",
+		@"mobisrun_500k_coins", @"mobisrun_750k_coins",@"mobisrun_2m_coins" ,@"mobisrun_5m_coins" ,@"mobisrun_10m_coins"  };
 	private int[] coinsOfProducts = new int[] {0,150000, 250000, 500000,750000,2000000,5000000,10000000};
 	private bool billingSupported = false;
 	private bool queryInventorySucceeded = false;
@@ -27,8 +27,6 @@ public class MobiIAB : MonoBehaviour
 		GoogleIABManager.consumePurchaseSucceededEvent += consumePurchaseSucceededEvent;
 		GoogleIABManager.consumePurchaseFailedEvent += consumePurchaseFailedEvent;
 	}
-	//661762773850900
-	//538336272885272
 	
 	void OnDisable()
 	{
@@ -51,126 +49,154 @@ public class MobiIAB : MonoBehaviour
 		Debug.Log( "billingSupportedEvent" );
 		billingSupported = true;
 		//GoogleIAB.queryInventory( skus );
-		
-		//ProgressView.StopProgress(true);
-		//AlertView.ShowAlert( "billingSupportedEvent: success " ,true);
+		//ShowMessage ("billingSupportedEvent");
 	}
 
 	void billingNotSupportedEvent( string error )
 	{
 		Debug.Log( "billingNotSupportedEvent: " + error );
-		
-		//ProgressView.StopProgress(true);
-		//		AlertView.ShowAlert( "billingNotSupportedEvent:\n " + error,true);
+		//ShowMessage("billingNotSupportedEvent: " + error );
 	}
 	
 	void queryInventorySucceededEvent( List<GooglePurchase> purchases, List<GoogleSkuInfo> skus )
 	{
 		queryInventorySucceeded = true;
 		Debug.Log( "queryInventorySucceededEvent" );
-		Prime31.Utils.logObject( purchases );
-		Prime31.Utils.logObject( skus );
-		GoogleSkuInfo[] list=skus.ToArray();
-		string str="";
-		for(int i=0;i<list.Length;i++)
-			str+=","+list[i].ToString();
-		
-		GooglePurchase[] list1=purchases.ToArray();
-		string str1="";
-		for(int i=0;i<list1.Length;i++)
-			str1+=","+list1[i].ToString();
-		
-		//ProgressView.StopProgress(true);
-		//		AlertView.ShowAlert( "queryInventorySucceededEvent\n"+str+"\n"+str1,true);
+
+		int total_coins_purchases = 0;
+		for(int i=0;i<purchases.Count;i++)
+		{
+			if(purchases[i].productId == this.skus[0] && PlayerPrefs.GetInt("RevmobStatus",0) == 0)
+			{
+				PlayerPrefs.SetInt("RevmobStatus",1);
+				PlayerPrefs.Save();
+				ShowMessage("Great !\nAds will never appear !");
+			}
+			else
+			{
+				//ShowMessage(purchases[i].productId);
+				for(int j=1;j<this.skus.Length;j++)
+				{
+					if( this.skus[j] == purchases[i].productId)
+					{
+						total_coins_purchases += coinsOfProducts[j];
+						break;
+					}
+				}
+			}
+		}
+
+		// this is for second safe, but no actually working
+		// if the user bought the same unmanaged product multiple time
+		// it calculated only once
+		int must = PlayerPrefs.GetInt ("mobigoogleiappt", 0);
+		if(total_coins_purchases < must)
+		{
+			int addref = must - total_coins_purchases;
+			
+			int bal = PlayerPrefs.GetInt("pp_coins",0);
+			PlayerPrefs.SetInt("pp_coins",bal + addref);
+			Coin_Counter.GetUpBalance();
+			PlayerPrefs.SetInt("mobigoogleiappt",total_coins_purchases);
+			PlayerPrefs.Save();
+		}
+
+		for(int i=1;i<this.skus.Length;i++)
+			GoogleIAB.consumeProduct(this.skus[i]);
 	}
 
 	void queryInventoryFailedEvent( string error )
 	{
 		Debug.Log( "queryInventoryFailedEvent: " + error );
-		
-		//ProgressView.StopProgress(true);
-		//AlertView.ShowAlert(  "queryInventoryFailedEvent:\n " + error ,true);
-		//labelAlertGameObject.SetActive(true);
-		//labelAlert.text = "queryInventoryFailedEvent:" + error;
+		//ShowMessage("queryInventoryFailedEvent: " + error );
 	}
 	
 	void purchaseCompleteAwaitingVerificationEvent( string purchaseData, string signature )
 	{
 		Debug.Log( "purchaseCompleteAwaitingVerificationEvent. purchaseData: " + purchaseData + ", signature: " + signature );
-		
-		//		ProgressView.StopProgress(true);
-		//		AlertView.ShowAlert("purchaseCompleteAwaitingVerificationEvent. purchaseData: " + purchaseData + ", signature: " + signature,true);
+		//ShowMessage("purchaseCompleteAwaitingVerificationEvent. purchaseData: " + purchaseData + ", signature: " + signature );
+	}
+
+	void AddTotalPurchase(int amount)
+	{
+		int total = PlayerPrefs.GetInt("mobigoogleiappt",0);
+		total += amount;
+		PlayerPrefs.SetInt("mobigoogleiappt",total);
 	}
 
 	void purchaseSucceededEvent( GooglePurchase purchase )
 	{
 		Debug.Log( "purchaseSucceededEvent: " + purchase );
-		
-		/*for (int i=0; i<skus.Length; i++) {
-			if (purchase.productId.ToString () == skus[i]) {
-				ProgressView.StopProgress (true);
-				UserSettings.AddCoins(coinsOfProducts[i]);
-				UserSettings.Save();
-				ServerController.SharedInstance.SaveSettings();
-				AlertView.ShowAlert("Success in purchasing of coins.\nU have got "+coinsOfProducts[i]+"coins.",true);
-				return;
-			}
-		}*/
-		
-		//loadImage.SetActive(false);
-		//GameObject.Find ("Panel_UnlockLevel").SetActive(false);
-		//labelAlertGameObject.SetActive(true);
-		//labelAlert.text = "Success in purchasing of Unlock Level";
-
-		//GameObject.Find("LoadingText").SetActive( false );
-		//GameObject.Find("LoadingImage").SetActive( false );
+		//ShowMessage("purchaseSucceededEvent: " + purchase );
 
 		
 		if (purchase.productId.ToString() == skus[0] )
 		{
-			// no ads implement here
+			PlayerPrefs.SetInt("RevmobStatus",1);
+			ShowMessage("Great !\nAds will never appear !");
 		}
 		else if( purchase.productId.ToString() == skus[1] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 150000);
 			Coin_Counter.GetUpBalance();
+
+			AddTotalPurchase(150000);
+			GoogleIAB.consumeProduct(skus[1]);
 		}
 		else if ( purchase.productId.ToString() == skus[2] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 250000);
 			Coin_Counter.GetUpBalance();
+			
+			AddTotalPurchase(250000);
+			GoogleIAB.consumeProduct(skus[2]);
 		}
 		else if (purchase.productId.ToString() == skus[3] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 500000);
 			Coin_Counter.GetUpBalance();
+			
+			AddTotalPurchase(500000);
+			GoogleIAB.consumeProduct(skus[3]);
 		}
 		else if (purchase.productId.ToString() == skus[4] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 750000);
 			Coin_Counter.GetUpBalance();
+			
+			AddTotalPurchase(750000);
+			GoogleIAB.consumeProduct(skus[4]);
 		}
 		else if (purchase.productId.ToString() == skus[5] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 2000000);
 			Coin_Counter.GetUpBalance();
+			
+			AddTotalPurchase(2000000);
+			GoogleIAB.consumeProduct(skus[5]);
 		}
 		else if (purchase.productId.ToString() == skus[6] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 5000000);
 			Coin_Counter.GetUpBalance();
+			
+			AddTotalPurchase(5000000);
+			GoogleIAB.consumeProduct(skus[6]);
 		}
 		else if (purchase.productId.ToString() == skus[7] )
 		{
 			int bal = PlayerPrefs.GetInt("pp_coins",0);
 			PlayerPrefs.SetInt("pp_coins",bal + 10000000);
 			Coin_Counter.GetUpBalance();
+			
+			AddTotalPurchase(10000000);
+			GoogleIAB.consumeProduct(skus[7]);
 		}
 
 		PlayerPrefs.Save ();
@@ -179,25 +205,19 @@ public class MobiIAB : MonoBehaviour
 	void purchaseFailedEvent( string error )
 	{
 		Debug.Log( "purchaseFailedEvent: " + error );
-		//ProgressView.StopProgress(true);
-		//AlertView.ShowAlert( "purchaseFailedEvent: \n" + error,true);
-		//labelAlertGameObject.SetActive(true);
-		//labelAlert.text = "purchaseFailedEvent:" + error;
+		ShowMessage("Unable to purchase the product.");
 	}
 	
 	void consumePurchaseSucceededEvent( GooglePurchase purchase )
 	{
 		Debug.Log( "consumePurchaseSucceededEvent: " + purchase );
-		
-		//ProgressView.StopProgress(true);
-		//AlertView.ShowAlert( "consumePurchaseSucceededEvent: " + purchase,true);
+		//ShowMessage ("Consumed\n" + purchase);
 	}
 	
 	void consumePurchaseFailedEvent( string error )
 	{
 		Debug.Log( "consumePurchaseFailedEvent: " + error );
-		//ProgressView.StopProgress(true);
-		//AlertView.ShowAlert( "consumePurchaseFailedEvent: " + error,true);
+		//ShowMessage("Consume Failed: " + error );
 	}
 
 	void Init()
@@ -241,7 +261,10 @@ public class MobiIAB : MonoBehaviour
 
 	public void OnNoAds()
 	{
-		PurchaseProduct (0);
+		if(PlayerPrefs.GetInt("RevmobStatus",0) == 1)
+			ShowMessage("You have already bought this item!");
+		else
+			PurchaseProduct (0);
 	}
 	public void OnAddCoin150k()
 	{
@@ -272,14 +295,24 @@ public class MobiIAB : MonoBehaviour
 		PurchaseProduct (7);
 	}
 
-	public bool Connected { get { return queryInventorySucceeded; } }
-
 	#endif
 
-	#if UNITY_IPHONE
-	public bool Connected { get { return false; } } // to do
-	// ... ???????
-	#endif
+	void ShowMessage(string message)
+	{
+		StartCoroutine (MainMenu.Instance.messagebox.Show (message));
+	}
+
+	public bool Connected{
+		get{
+#if UNITY_ANDROID
+			return queryInventorySucceeded;
+#elif UNITY_IPHONE
+			return false; // to do
+#else
+			return false;
+#endif
+		}
+	}
 
 	#region Static Instance
 	

@@ -2,7 +2,12 @@
 using System.Collections;
 
 public class ButtonRun : MonoBehaviour {
-	
+
+	void Update()
+	{
+		collider.enabled = !MainMenu.Instance.isPopupActive;
+	}
+
 	void OnClick()
 	{
 		GameManager.m_chosenSled = (GameManager.ChosenSled)(PlayerPrefs.GetInt("mobisled",1)-1);

@@ -5,7 +5,8 @@ public class showRevmobOnStart : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		GameObject.Find("RevmobManager").SendMessage("showRevmobFullScreen",SendMessageOptions.DontRequireReceiver);
+		if(PlayerPrefs.GetInt("RevmobStatus",0) == 0)
+			GameObject.Find("RevmobManager").SendMessage("showRevmobFullScreen",SendMessageOptions.DontRequireReceiver);
 	}
 	
 	// Update is called once per frame

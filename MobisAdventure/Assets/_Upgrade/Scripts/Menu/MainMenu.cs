@@ -4,7 +4,7 @@ using System.Collections;
 public class MainMenu : MonoBehaviour {
 
 	public MenuConfirmationPopup confirmationPopup;
-	public IAPLoading iapLoading;
+	public MessageBox messagebox;
 	public UILabel[] labelCoinCount;
 	public MenuToggle GetMoreCoinsToggle;
 	
@@ -57,7 +57,7 @@ public class MainMenu : MonoBehaviour {
 
 	}
 
-	public bool isPopupActive { get { return confirmationPopup.gameObject.activeSelf || iapLoading.gameObject.activeSelf; } }
+	public bool isPopupActive { get { return confirmationPopup.gameObject.activeSelf || messagebox.gameObject.activeSelf; } }
 
 	#region Helpful
 	
