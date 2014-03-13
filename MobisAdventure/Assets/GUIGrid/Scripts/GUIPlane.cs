@@ -6,7 +6,7 @@ public class GUIPlane : MonoBehaviour
 	public bool m_lockToGrid = true;
 	public Vector2 m_uvAnimationRate = Vector2.zero;
 	
-	private Vector2 m_uvOffset = Vector2.zero;
+	//private Vector2 m_uvOffset = Vector2.zero;
 	
 	//Camera info...
 	private static Vector3 m_bottomLeft = Vector3.zero;
