@@ -137,69 +137,56 @@ public class MobiIAB : MonoBehaviour
 		}
 		else if( purchase.productId.ToString() == skus[1] )
 		{
-			int bal = PlayerPrefs.GetInt("pp_coins",0);
-			PlayerPrefs.SetInt("pp_coins",bal + 150000);
-			Coin_Counter.GetUpBalance();
-
+			AddCoinBalance  (150000);
 			AddTotalPurchase(150000);
 			GoogleIAB.consumeProduct(skus[1]);
 		}
 		else if ( purchase.productId.ToString() == skus[2] )
 		{
-			int bal = PlayerPrefs.GetInt("pp_coins",0);
-			PlayerPrefs.SetInt("pp_coins",bal + 250000);
-			Coin_Counter.GetUpBalance();
-			
+			AddCoinBalance  (250000);
 			AddTotalPurchase(250000);
 			GoogleIAB.consumeProduct(skus[2]);
 		}
 		else if (purchase.productId.ToString() == skus[3] )
 		{
-			int bal = PlayerPrefs.GetInt("pp_coins",0);
-			PlayerPrefs.SetInt("pp_coins",bal + 500000);
-			Coin_Counter.GetUpBalance();
-			
+			AddCoinBalance  (500000);
 			AddTotalPurchase(500000);
 			GoogleIAB.consumeProduct(skus[3]);
 		}
 		else if (purchase.productId.ToString() == skus[4] )
 		{
-			int bal = PlayerPrefs.GetInt("pp_coins",0);
-			PlayerPrefs.SetInt("pp_coins",bal + 750000);
-			Coin_Counter.GetUpBalance();
-			
+			AddCoinBalance  (750000);
 			AddTotalPurchase(750000);
 			GoogleIAB.consumeProduct(skus[4]);
 		}
 		else if (purchase.productId.ToString() == skus[5] )
 		{
-			int bal = PlayerPrefs.GetInt("pp_coins",0);
-			PlayerPrefs.SetInt("pp_coins",bal + 2000000);
-			Coin_Counter.GetUpBalance();
-			
+			AddCoinBalance  (2000000);
 			AddTotalPurchase(2000000);
 			GoogleIAB.consumeProduct(skus[5]);
 		}
 		else if (purchase.productId.ToString() == skus[6] )
 		{
-			int bal = PlayerPrefs.GetInt("pp_coins",0);
-			PlayerPrefs.SetInt("pp_coins",bal + 5000000);
-			Coin_Counter.GetUpBalance();
-			
+			AddCoinBalance  (5000000);
 			AddTotalPurchase(5000000);
 			GoogleIAB.consumeProduct(skus[6]);
 		}
 		else if (purchase.productId.ToString() == skus[7] )
 		{
-			int bal = PlayerPrefs.GetInt("pp_coins",0);
-			PlayerPrefs.SetInt("pp_coins",bal + 10000000);
-			Coin_Counter.GetUpBalance();
-			
+			AddCoinBalance  (10000000);
 			AddTotalPurchase(10000000);
 			GoogleIAB.consumeProduct(skus[7]);
 		}
 
 		PlayerPrefs.Save ();
+	}
+
+	void AddCoinBalance(int count)
+	{
+		int coins = PlayerPrefs.GetInt("pp_coins");
+		coins += count;
+		PlayerPrefs.SetInt("pp_coins",coins);
+		PlayerPrefs.Save();
 	}
 	
 	void purchaseFailedEvent( string error )
