@@ -17,6 +17,11 @@ public class MobiFacebook : MonoBehaviourGUI {
 	{
 		Application.CaptureScreenshot( screenshotFilename );
 	}
+
+	void Awake()
+	{
+		DontDestroyOnLoad (this.gameObject);
+	}
 	
 	// Open All Events
 	void OnEnable()
@@ -181,15 +186,20 @@ public class MobiFacebook : MonoBehaviourGUI {
 
 	#region Post On Wall
 
-	public IEnumerator PostOnWall(int scores)
+	public IEnumerator PostOnWall(int scores,string level)
 	{
 		Working = true;
-		string posttext = fbfirstname + " with Mobi knocked out " + scores + " meters!";
-		
 		//var pathToImage = Application.persistentDataPath + "/" + screenshotFilename;
 		//var bytes = System.IO.File.ReadAllBytes( pathToImage );
 		#if UNITY_ANDROID || UNITY_IPHONE
-		Facebook.instance.postMessage("Message",PostedHandler);
+		//Facebook.instance.postMessage("Message",PostedHandler);
+		Facebook.instance.postMessageWithLinkAndLinkToImage(
+			"I reached " + scores + " meters in " + level + " level.",
+			"http://www.mobitekgames.com/games",
+			"Mobi's Run",
+			"http://www.mobitekgames.com/sites/default/files/imagepicker/2/LogoButton2.png",
+			"", 
+			PostedHandler );
 		//Facebook.instance.postImage( bytes, posttext, PostedHandler );
 		#endif
 

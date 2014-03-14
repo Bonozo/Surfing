@@ -12,7 +12,8 @@ public class DeathScreen : MonoBehaviour {
 	public LevelController levelController;
 	
 	public int LastDistanceTravelled{ get; private set;}
-
+	public string LastLevel{ get { return levelName.Substring (6); } }
+	
 	public void Show(bool monstercause,int distance,int best,int score)
 	{
 		LastDistanceTravelled = distance;

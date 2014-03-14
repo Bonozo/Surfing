@@ -2,40 +2,55 @@
 using System.Collections;
 
 public class ButtonShareFacebook : MonoBehaviour {
-	
-	public UILabel upText;
+
+	public UILabel message;
 	public GameObject loading;
 
-	bool posted = false;
-	bool working = false;
+	private bool posted=false;
+	private bool working=false;
+
 	void OnClick()
 	{
-		if(posted) return;
-		if(!working)
-		{
-			StartCoroutine (ShareOnFacebook ());
-		}
+		if(!working && !posted)
+			StartCoroutine (Post ());
 	}
 
-	IEnumerator ShareOnFacebook()
+	IEnumerator Post()
 	{
 		working = true;
 		loading.SetActive (true);
 
-		if(!MobiFacebook.Instance.LoggedIn)
-			yield return StartCoroutine(MobiFacebook.Instance.Login());
-		if(MobiFacebook.Instance.LoggedIn)
+		//message.text = "Sharing...";
+		MobiFacebook.Instance.Init ();
+		yield return new WaitForSeconds (1f);
+
+		yield return StartCoroutine(MobiFacebook.Instance.Login());
+		if(MobiFacebook.Instance.Result==false)
 		{
+			message.text = "Error.";
+		}
+		else
+		{
+			//message.text = "Reout";
 			yield return StartCoroutine(MobiFacebook.Instance.ReutorizeWithPublishPermission());
-			if(MobiFacebook.Instance.Result)
+			if(MobiFacebook.Instance.Result==false)
 			{
-				yield return StartCoroutine(MobiFacebook.Instance.PostOnWall(DeathScreen.Instance.LastDistanceTravelled));
-				if(MobiFacebook.Instance.Result)
+				message.text = "Error.";
+			}
+			else
+			{
+				//message.text = "posting";
+				yield return StartCoroutine(MobiFacebook.Instance.PostOnWall(DeathScreen.Instance.LastDistanceTravelled,DeathScreen.Instance.LastLevel));
+				if(MobiFacebook.Instance.Result==false)
 				{
-					upText.text = "Shared!";
+					message.text = "Error.";
+				}
+				else
+				{
+					message.text = "Shared!";
+					posted = true;
 					Coin_Counter.AddCoins(2500);
 					PlayerPrefs.Save();
-					posted = true;
 				}
 			}
 		}
