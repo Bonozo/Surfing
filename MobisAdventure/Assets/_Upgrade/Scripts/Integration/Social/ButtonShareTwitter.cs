@@ -5,7 +5,7 @@ public class ButtonShareTwitter : MonoBehaviour {
 
 	public UILabel message;
 	public GameObject loading;
-	
+	 
 	bool started = false;
 	void OnClick()
 	{
