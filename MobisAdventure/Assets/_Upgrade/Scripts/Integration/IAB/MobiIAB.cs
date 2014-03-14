@@ -63,7 +63,6 @@ public class MobiIAB : MonoBehaviour
 		queryInventorySucceeded = true;
 		Debug.Log( "queryInventorySucceededEvent" );
 
-		int total_coins_purchases = 0;
 		for(int i=0;i<purchases.Count;i++)
 		{
 			if(purchases[i].productId == this.skus[0] && PlayerPrefs.GetInt("RevmobStatus",0) == 0)
@@ -74,35 +73,9 @@ public class MobiIAB : MonoBehaviour
 			}
 			else
 			{
-				//ShowMessage(purchases[i].productId);
-				for(int j=1;j<this.skus.Length;j++)
-				{
-					if( this.skus[j] == purchases[i].productId)
-					{
-						total_coins_purchases += coinsOfProducts[j];
-						break;
-					}
-				}
+				GoogleIAB.consumeProduct(purchases[i].productId);
 			}
 		}
-
-		// this is for second safe, but no actually working
-		// if the user bought the same unmanaged product multiple time
-		// it calculated only once
-		int must = PlayerPrefs.GetInt ("mobigoogleiappt", 0);
-		if(total_coins_purchases < must)
-		{
-			int addref = must - total_coins_purchases;
-			
-			int bal = PlayerPrefs.GetInt("pp_coins",0);
-			PlayerPrefs.SetInt("pp_coins",bal + addref);
-			Coin_Counter.GetUpBalance();
-			PlayerPrefs.SetInt("mobigoogleiappt",total_coins_purchases);
-			PlayerPrefs.Save();
-		}
-
-		for(int i=1;i<this.skus.Length;i++)
-			GoogleIAB.consumeProduct(this.skus[i]);
 	}
 
 	void queryInventoryFailedEvent( string error )
