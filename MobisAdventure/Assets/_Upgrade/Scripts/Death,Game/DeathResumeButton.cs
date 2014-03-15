@@ -15,4 +15,9 @@ public class DeathResumeButton : MonoBehaviour {
 	{
 		player.Resume (); 
 	}
+
+	void Update()
+	{
+		collider.enabled = !DeathScreen.Instance.messageBox.gameObject.activeSelf;
+	}
 }

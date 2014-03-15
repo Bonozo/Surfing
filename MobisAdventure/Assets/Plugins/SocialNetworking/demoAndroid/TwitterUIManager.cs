@@ -14,7 +14,7 @@ public class TwitterUIManager : MonoBehaviourGUI
 		if( GUILayout.Button( "Initialize Twitter" ) )
 		{
 			// Replace these with your own credentials!!!
-			TwitterAndroid.init( "INSERT_YOUR_INFO_HERE", "INSERT_YOUR_INFO_HERE" );
+			TwitterAndroid.init( "86TsOKrDgIOXHmI9qsy8Q", "JkJTHeCoqh2R482xIxi8MalS0oGmrcR2xETnC5tunI" );
 		}
 
 

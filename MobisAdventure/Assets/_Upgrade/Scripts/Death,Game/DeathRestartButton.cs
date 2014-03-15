@@ -3,6 +3,11 @@ using System.Collections;
 
 public class DeathRestartButton : MonoBehaviour {
 
+	void Update()
+	{
+		collider.enabled = !DeathScreen.Instance.messageBox.gameObject.activeSelf;
+	}
+
 	void OnClick()
 	{
 		GameManager.m_chosenSled = (GameManager.ChosenSled)(PlayerPrefs.GetInt("mobisled",1)-1);

@@ -21,6 +21,8 @@ public class MobiFacebook : MonoBehaviourGUI {
 	void Awake()
 	{
 		DontDestroyOnLoad (this.gameObject);
+		Working = false;
+		Result = false;
 	}
 	
 	// Open All Events
@@ -143,7 +145,7 @@ public class MobiFacebook : MonoBehaviourGUI {
 		#if UNITY_ANDROID
 		FacebookAndroid.reauthorizeWithPublishPermissions( new string[] { "publish_actions" },FacebookSessionDefaultAudience.EVERYONE );
 		#elif UNITY_IPHONE
-		FacebookBinding.reauthorizeWithPublishPermissions( new string[] { "publish_actions" },FacebookSessionDefaultAudience.EVERYONE );
+		FacebookBinding.reauthorizeWithPublishPermissions( new string[] { "publish_actions", "publish_stream" },FacebookSessionDefaultAudience.Everyone );//??
 		#endif
 		while(Working) yield return null;
 	}

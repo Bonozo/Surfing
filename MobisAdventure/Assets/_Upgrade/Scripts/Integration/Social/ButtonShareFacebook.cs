@@ -9,6 +9,11 @@ public class ButtonShareFacebook : MonoBehaviour {
 	private bool posted=false;
 	private bool working=false;
 
+	void Update()
+	{
+		collider.enabled = !DeathScreen.Instance.messageBox.gameObject.activeSelf;
+	}
+
 	void OnClick()
 	{
 		if(!working && !posted)
@@ -47,9 +52,12 @@ public class ButtonShareFacebook : MonoBehaviour {
 				}
 				else
 				{
-					message.text = "Shared!";
+					message.text = "!!!";
 					posted = true;
-					Coin_Counter.AddCoins(2500);
+
+					int coins = PlayerPrefs.GetInt("pp_coins");
+					coins += 2500;
+					PlayerPrefs.SetInt("pp_coins",coins);
 					PlayerPrefs.Save();
 				}
 			}

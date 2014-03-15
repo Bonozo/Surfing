@@ -91,7 +91,7 @@ public class TwitterManager : MonoBehaviour
 	public void twitterRequestDidFinish( string results )
 	{
 		if( requestDidFinishEvent != null )
-			requestDidFinishEvent( Json.jsonDecode( results, true ) );
+			requestDidFinishEvent( Json.jsonDecode( results/*, true*/ ) );
 	}
 	
 	

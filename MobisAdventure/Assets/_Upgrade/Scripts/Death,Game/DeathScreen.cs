@@ -10,6 +10,7 @@ public class DeathScreen : MonoBehaviour {
 	public UILabel labelCoins;
 	public UILabel labelLevel;
 	public LevelController levelController;
+	public MessageBox messageBox;
 	
 	public int LastDistanceTravelled{ get; private set;}
 	public string LastLevel{ get { return levelName.Substring (6); } }
