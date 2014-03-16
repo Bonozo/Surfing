@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour {
 	public MessageBox messagebox;
 	public UILabel[] labelCoinCount;
 	public MenuToggle GetMoreCoinsToggle;
+	public GameObject title;
 	
 	void Awake()
 	{
@@ -21,7 +22,7 @@ public class MainMenu : MonoBehaviour {
 	{
 		UpdateCoins ();
 
-		if(Input.GetKey(KeyCode.Escape))
+		if(Input.GetKey(KeyCode.Escape) && title.activeSelf)
 			Application.Quit();
 	}
 
