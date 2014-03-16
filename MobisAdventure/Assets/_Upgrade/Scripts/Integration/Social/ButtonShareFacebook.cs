@@ -32,7 +32,7 @@ public class ButtonShareFacebook : MonoBehaviour {
 		yield return StartCoroutine(MobiFacebook.Instance.Login());
 		if(MobiFacebook.Instance.Result==false)
 		{
-			message.text = "Error.";
+			yield return StartCoroutine(DeathScreen.Instance.messageBox.Show("There was an error sharing with Facebook.\n Please try again later!"));
 		}
 		else
 		{
@@ -40,7 +40,7 @@ public class ButtonShareFacebook : MonoBehaviour {
 			yield return StartCoroutine(MobiFacebook.Instance.ReutorizeWithPublishPermission());
 			if(MobiFacebook.Instance.Result==false)
 			{
-				message.text = "Error.";
+				yield return StartCoroutine(DeathScreen.Instance.messageBox.Show("There was an error sharing with Facebook.\n Please try again later!"));
 			}
 			else
 			{
@@ -48,12 +48,13 @@ public class ButtonShareFacebook : MonoBehaviour {
 				yield return StartCoroutine(MobiFacebook.Instance.PostOnWall(DeathScreen.Instance.LastDistanceTravelled,DeathScreen.Instance.LastLevel));
 				if(MobiFacebook.Instance.Result==false)
 				{
-					message.text = "Error.";
+					yield return StartCoroutine(DeathScreen.Instance.messageBox.Show("There was an error sharing with Facebook.\n Please try again later!"));
 				}
 				else
 				{
-					message.text = "!!!";
+					yield return StartCoroutine(DeathScreen.Instance.messageBox.Show("Facebook Sharing Successful! Reward 2500 coins !"));
 					posted = true;
+					message.text = "done !";
 
 					int coins = PlayerPrefs.GetInt("pp_coins");
 					coins += 2500;

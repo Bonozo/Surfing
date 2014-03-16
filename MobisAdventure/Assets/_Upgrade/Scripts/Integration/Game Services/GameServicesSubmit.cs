@@ -12,6 +12,11 @@ using GooglePlayGames;
 
 public class GameServicesSubmit : MonoBehaviour {
 
+	void Update()
+	{
+		collider.enabled = !DeathScreen.Instance.messageBox.gameObject.activeSelf;
+	}
+
 	#if UNITY_ANDROID
 
 	void OnClick()

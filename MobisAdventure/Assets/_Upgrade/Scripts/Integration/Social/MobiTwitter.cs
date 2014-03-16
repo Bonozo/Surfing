@@ -45,7 +45,7 @@ public class MobiTwitter : MonoBehaviour {
 		else
 		{
 			Working = true;
-			TwitterAndroid.init( "86TsOKrDgIOXHmI9qsy8Q", "JkJTHeCoqh2R482xIxi8MalS0oGmrcR2xETnC5tunI" );
+			TwitterAndroid.init( "bZbuIhuGHAN1Fs3QuP8dDQ", "P8ckiUMXVsqnYcyyqGt1Y4Z0ZriPNxSj9slYFwCtE" );
 			while(Working) yield return null;
 		}
 	}

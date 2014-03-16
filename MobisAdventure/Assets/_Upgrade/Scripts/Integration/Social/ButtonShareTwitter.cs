@@ -30,14 +30,14 @@ public class ButtonShareTwitter : MonoBehaviour {
 		yield return StartCoroutine(MobiTwitter.Instance.Init());
 		if(!MobiTwitter.Instance.Result)
 		{
-			yield return StartCoroutine(DeathScreen.Instance.messageBox.Show("Unable to connect to Twitter."));
+			yield return StartCoroutine(DeathScreen.Instance.messageBox.Show("There was an error sharing with Twitter.\n Please try again later!"));
 		}
 		else
 		{
 			yield return StartCoroutine(MobiTwitter.Instance.Login());
 			if(!MobiTwitter.Instance.Result)
 			{
-				yield return StartCoroutine(DeathScreen.Instance.messageBox.Show("Unable to log in to Twitter."));
+				yield return StartCoroutine(DeathScreen.Instance.messageBox.Show("There was an error sharing with Twitter.\n Please try again later!"));
 			}
 			else
 			{
@@ -50,7 +50,7 @@ public class ButtonShareTwitter : MonoBehaviour {
 				{
 					yield return StartCoroutine(DeathScreen.Instance.messageBox.Show("Twitter Sharing Successful! Reward 2500 coins !"));
 					posted = true;
-					message.text = "!!!";
+					message.text = "done !";
 
 					int coins = PlayerPrefs.GetInt("pp_coins");
 					coins += 2500;
