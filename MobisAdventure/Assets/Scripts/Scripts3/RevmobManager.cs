@@ -13,6 +13,7 @@ public class RevmobManager : MonoBehaviour ,IRevMobListener {
     private RevMob revmob;
 	private RevMobFullscreen fullscreen;
     void Awake() {
+		DontDestroyOnLoad (this.gameObject);
         revmob = RevMob.Start(REVMOB_APP_IDS, "RevmobManager");
 		//fullscreen = revmob.CreateFullscreen();
     }
