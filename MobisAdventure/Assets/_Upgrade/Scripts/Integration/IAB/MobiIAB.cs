@@ -62,20 +62,28 @@ public class MobiIAB : MonoBehaviour
 	{
 		queryInventorySucceeded = true;
 		Debug.Log( "queryInventorySucceededEvent" );
+		Prime31.Utils.logObject (purchases);
 
+		List<string> needconsume = new List<string> ();
 		for(int i=0;i<purchases.Count;i++)
 		{
-			if(purchases[i].productId == this.skus[0] && PlayerPrefs.GetInt("RevmobStatus",0) == 0)
+			Debug.Log("already have bought: " + purchases[i].productId);
+			if(purchases[i].productId == this.skus[0])
 			{
-				PlayerPrefs.SetInt("RevmobStatus",1);
-				PlayerPrefs.Save();
-				ShowMessage("Great !\nAds will never appear !");
+				if(PlayerPrefs.GetInt("RevmobStatus",0) == 0)
+				{
+					PlayerPrefs.SetInt("RevmobStatus",1);
+					PlayerPrefs.Save();
+					ShowMessage("Great !\nAds will never appear !");
+				}
 			}
 			else
 			{
-				GoogleIAB.consumeProduct(purchases[i].productId);
+				needconsume.Add(purchases[i].productId);
 			}
 		}
+
+		if(needconsume.Count>0) GoogleIAB.consumeProducts(needconsume.ToArray());
 	}
 
 	void queryInventoryFailedEvent( string error )
