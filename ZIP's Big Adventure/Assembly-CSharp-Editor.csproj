@@ -82,6 +82,7 @@
      <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
      <Compile Include="Assets\Pixelplacement\iTweenPath\Editor\iTweenPathEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\EndItemListEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\LevelJumbleEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\LevelPathEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\LevelRightAnswerEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\LevelRightSequenceButtonEditor.cs" />
