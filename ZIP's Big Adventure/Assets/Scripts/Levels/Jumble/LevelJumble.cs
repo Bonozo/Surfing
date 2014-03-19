@@ -41,23 +41,18 @@ public class LevelJumble : ZIPLevel {
 
 	#region Editor
 
-	public UIAtlas atlas;
+	/*public UIAtlas atlas;
 	public GameObject box;
 	public GameObject picture;
 	public GameObject title;
 
 	public string pictureA;
 	public string pictureB;
-	public string[] words;
+	public string[] words;*/
 
 	public void Initialize()
 	{
-		title.GetComponent<UISprite> ().atlas = atlas;
-		/*for(int i=1;i<=dragsLenght;i++)
-		{
-			box.transform.FindChild("box"+i).GetComponent<UISprite>().atlas = atlas;
-			box.transform.FindChild("box"+i).GetComponent<UISprite>().spriteName = "Gray Box";
-		}*/
+		/*title.GetComponent<UISprite> ().atlas = atlas;
 
 		gameBlock.level [0] = this;
 
@@ -105,7 +100,7 @@ public class LevelJumble : ZIPLevel {
 					j++;
 				}
 			}
-		}
+		}*/
 	}
 
 	#endregion
