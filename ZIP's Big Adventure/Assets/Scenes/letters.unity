@@ -47093,7 +47093,7 @@ MonoBehaviour:
   - {fileID: 203971119}
   - {fileID: 50536562}
   path: {fileID: 921486531}
-  showIntro: 0
+  showIntro: 1
   intro: {fileID: 1175453452}
   winToggle: {fileID: 1087227031}
 --- !u!1 &1608190545
@@ -48623,7 +48623,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.81238937, y: .905660391, z: 0}
+  m_LocalPosition: {x: 0, y: 1.06077349, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1607776916}
@@ -57605,7 +57605,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1956016496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.906189, y: -383.09433, z: 0}
+  m_LocalPosition: {x: -513.060059, y: -382.939209, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 1898425767}

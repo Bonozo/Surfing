@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ShapesHowManyXinY
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e06dbff94af5e0e48976180fee8aa0aa, type: 2}
+  sprites:
+  - name: How Many
+    outer:
+      serializedVersion: 2
+      x: 1434
+      y: 1419
+      width: 497
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 1434
+      y: 1419
+      width: 497
+      height: 120
+    rotated: 0
+    paddingLeft: .0804829001
+    paddingRight: .0824949667
+    paddingTop: .224999994
+    paddingBottom: .191666663
+  - name: In a
+    outer:
+      serializedVersion: 2
+      x: 1313
+      y: 1592
+      width: 179
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1313
+      y: 1592
+      width: 179
+      height: 90
+    rotated: 0
+    paddingLeft: .296089381
+    paddingRight: .223463684
+    paddingTop: .311111122
+    paddingBottom: .577777803
+  - name: Red dotted Line
+    outer:
+      serializedVersion: 2
+      x: 736
+      y: 1342
+      width: 985
+      height: 11
+    inner:
+      serializedVersion: 2
+      x: 736
+      y: 1342
+      width: 985
+      height: 11
+    rotated: 0
+    paddingLeft: .0944162458
+    paddingRight: .116751269
+    paddingTop: 5.63636351
+    paddingBottom: 3.27272725
+  - name: S7
+    outer:
+      serializedVersion: 2
+      x: 1313
+      y: 1683
+      width: 427
+      height: 365
+    inner:
+      serializedVersion: 2
+      x: 1313
+      y: 1683
+      width: 427
+      height: 365
+    rotated: 0
+    paddingLeft: .0374707244
+    paddingRight: .0163934417
+    paddingTop: .0739726052
+    paddingBottom: .0410958901
+  - name: S3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 90
+      width: 319
+      height: 185
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 90
+      width: 319
+      height: 185
+    rotated: 0
+    paddingLeft: .0470219441
+    paddingRight: .0721003115
+    paddingTop: .302702695
+    paddingBottom: .183783785
+  - name: S9
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 814
+      width: 412
+      height: 361
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 814
+      width: 412
+      height: 361
+    rotated: 0
+    paddingLeft: .0582524277
+    paddingRight: .0558252409
+    paddingTop: .0637119114
+    paddingBottom: .0831024945
+  - name: S4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 276
+      width: 412
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 276
+      width: 412
+      height: 184
+    rotated: 0
+    paddingLeft: .0291262139
+    paddingRight: .0339805819
+    paddingTop: .141304344
+    paddingBottom: .179347828
+  - name: S8
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1176
+      width: 423
+      height: 363
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1176
+      width: 423
+      height: 363
+    rotated: 0
+    paddingLeft: .0354609936
+    paddingRight: .0543735214
+    paddingTop: .0716253445
+    paddingBottom: .0771349892
+  - name: S2
+    outer:
+      serializedVersion: 2
+      x: 424
+      y: 1170
+      width: 311
+      height: 183
+    inner:
+      serializedVersion: 2
+      x: 424
+      y: 1170
+      width: 311
+      height: 183
+    rotated: 0
+    paddingLeft: .0514469445
+    paddingRight: 0
+    paddingTop: .125683054
+    paddingBottom: .213114753
+  - name: Blue triangle
+    outer:
+      serializedVersion: 2
+      x: 1741
+      y: 1870
+      width: 209
+      height: 178
+    inner:
+      serializedVersion: 2
+      x: 1741
+      y: 1870
+      width: 209
+      height: 178
+    rotated: 0
+    paddingLeft: .0717703328
+    paddingRight: .138755977
+    paddingTop: .146067411
+    paddingBottom: .134831458
+  - name: S5
+    outer:
+      serializedVersion: 2
+      x: 1001
+      y: 1355
+      width: 432
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 1001
+      y: 1355
+      width: 432
+      height: 184
+    rotated: 0
+    paddingLeft: .0324074067
+    paddingRight: .027777778
+    paddingTop: .163043484
+    paddingBottom: .108695649
+  - name: S6
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 461
+      width: 412
+      height: 352
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 461
+      width: 412
+      height: 352
+    rotated: 0
+    paddingLeft: .0461165048
+    paddingRight: .0703883469
+    paddingTop: .0511363633
+    paddingBottom: .0227272734
+  - name: A_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1540
+      width: 1312
+      height: 508
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1540
+      width: 1312
+      height: 508
+    rotated: 0
+    paddingLeft: .0304878056
+    paddingRight: .0221036579
+    paddingTop: .0944881886
+    paddingBottom: .051181104
+  - name: A_End
+    outer:
+      serializedVersion: 2
+      x: 424
+      y: 1354
+      width: 576
+      height: 185
+    inner:
+      serializedVersion: 2
+      x: 424
+      y: 1354
+      width: 576
+      height: 185
+    rotated: 0
+    paddingLeft: .026041666
+    paddingRight: .0798611119
+    paddingTop: .302702695
+    paddingBottom: .25405404
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
