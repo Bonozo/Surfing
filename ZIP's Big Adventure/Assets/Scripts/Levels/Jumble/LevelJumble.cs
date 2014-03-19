@@ -39,7 +39,7 @@ public class LevelJumble : ZIPLevel {
 		
 	}
 
-	#region Editor
+	#region Editor Letters/First/Punctuation
 
 	/*public UIAtlas atlas;
 	public GameObject box;
@@ -48,11 +48,11 @@ public class LevelJumble : ZIPLevel {
 
 	public string pictureA;
 	public string pictureB;
-	public string[] words;*/
+	public string[] words;
 
 	public void Initialize()
 	{
-		/*title.GetComponent<UISprite> ().atlas = atlas;
+		title.GetComponent<UISprite> ().atlas = atlas;
 
 		gameBlock.level [0] = this;
 
@@ -100,8 +100,59 @@ public class LevelJumble : ZIPLevel {
 					j++;
 				}
 			}
-		}*/
-	}
+		}
+	}*/
 
 	#endregion
+
+	#region Editor Letters/Kindergarten/Position Words
+
+	/*public string[] names;
+	public int correct;
+	public UISprite cor, wr1, wr2;
+	public UISprite box;
+
+	public void Initialize()
+	{
+		Vector3[] tt = new Vector3[] { new Vector3(-500f,-310f,0f),new Vector3(0,-310f,0f),new Vector3(500f,-310f,0f)};
+
+		transform.localPosition = new Vector3 (0f, 0f, 0f);
+		transform.localScale = new Vector3 (1f, 1f, 1f);
+		gameBlock.level [0] = this;
+
+		if(correct==1)
+		{
+			cor.spriteName = names[0]; cor.gameObject.transform.localPosition = tt[0];
+			wr1.spriteName = names[1]; wr1.gameObject.transform.localPosition = tt[1];
+			wr2.spriteName = names[2]; wr2.gameObject.transform.localPosition = tt[2];
+		}
+
+		if(correct==2)
+		{
+			cor.spriteName = names[1]; cor.gameObject.transform.localPosition = tt[1];
+			wr1.spriteName = names[0]; wr1.gameObject.transform.localPosition = tt[0];
+			wr2.spriteName = names[2]; wr2.gameObject.transform.localPosition = tt[2];
+		}
+
+		if(correct==3)
+		{
+			cor.spriteName = names[2]; cor.gameObject.transform.localPosition = tt[2];
+			wr1.spriteName = names[0]; wr1.gameObject.transform.localPosition = tt[0];
+			wr2.spriteName = names[1]; wr2.gameObject.transform.localPosition = tt[1];
+		}
+
+		cor.MakePixelPerfect ();
+		wr1.MakePixelPerfect ();
+		wr2.MakePixelPerfect ();
+
+		box.spriteName = names [correct - 1];
+		box.MakePixelPerfect ();
+		box.enabled = !box.enabled;
+	}*/
+
+	#endregion
+
+	public void Initialize()
+	{
+	}
 }

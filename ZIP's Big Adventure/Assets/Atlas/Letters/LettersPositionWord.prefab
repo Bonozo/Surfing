@@ -1,0 +1,615 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: LettersPositionWord
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: fd49c3f6f13e50c459f5b21934545efb, type: 2}
+  sprites:
+  - name: Question Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1372
+      width: 1232
+      height: 183
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1372
+      width: 1232
+      height: 183
+    rotated: 0
+    paddingLeft: .0365259722
+    paddingRight: .0357142873
+    paddingTop: .158469945
+    paddingBottom: .169398904
+  - name: Barry On top of bed
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 529
+      width: 413
+      height: 374
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 529
+      width: 413
+      height: 374
+    rotated: 0
+    paddingLeft: .232445523
+    paddingRight: .273607761
+    paddingTop: .0695187151
+    paddingBottom: .141711235
+  - name: on top of
+    outer:
+      serializedVersion: 2
+      x: 1508
+      y: 1600
+      width: 367
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 1508
+      y: 1600
+      width: 367
+      height: 95
+    rotated: 0
+    paddingLeft: .136239782
+    paddingRight: .190735698
+    paddingTop: .252631575
+    paddingBottom: .442105263
+  - name: in front of
+    outer:
+      serializedVersion: 2
+      x: 820
+      y: 1591
+      width: 466
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 820
+      y: 1591
+      width: 466
+      height: 98
+    rotated: 0
+    paddingLeft: .120171674
+    paddingRight: .130901292
+    paddingTop: .561224461
+    paddingBottom: .520408154
+  - name: next to
+    outer:
+      serializedVersion: 2
+      x: 1563
+      y: 1461
+      width: 335
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 1563
+      y: 1461
+      width: 335
+      height: 94
+    rotated: 0
+    paddingLeft: .229850739
+    paddingRight: .170149252
+    paddingTop: .489361703
+    paddingBottom: .680851042
+  - name: Sentence
+    outer:
+      serializedVersion: 2
+      x: 414
+      y: 334
+      width: 1253
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 414
+      y: 334
+      width: 1253
+      height: 108
+    rotated: 0
+    paddingLeft: .0622505993
+    paddingRight: .0399042293
+    paddingTop: .787037015
+    paddingBottom: .768518507
+  - name: Bird Above_Tree and Bird
+    outer:
+      serializedVersion: 2
+      x: 1668
+      y: 109
+      width: 214
+      height: 333
+    inner:
+      serializedVersion: 2
+      x: 1668
+      y: 109
+      width: 214
+      height: 333
+    rotated: 0
+    paddingLeft: .17757009
+    paddingRight: .439252347
+    paddingTop: .153153151
+    paddingBottom: .180180177
+  - name: Bird Above_Sentence
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 904
+      width: 1382
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 904
+      width: 1382
+      height: 114
+    rotated: 0
+    paddingLeft: .0412445739
+    paddingRight: .0426917523
+    paddingTop: .850877166
+    paddingBottom: .464912295
+  - name: Flower Inside_Sentence
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1133
+      width: 1493
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1133
+      width: 1493
+      height: 124
+    rotated: 0
+    paddingLeft: .0274614878
+    paddingRight: .0421969183
+    paddingTop: .629032254
+    paddingBottom: .330645174
+  - name: Kristy Inside_Sentence
+    outer:
+      serializedVersion: 2
+      x: 414
+      y: 443
+      width: 1261
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 414
+      y: 443
+      width: 1261
+      height: 110
+    rotated: 0
+    paddingLeft: .0610626489
+    paddingRight: .0388580486
+    paddingTop: .763636351
+    paddingBottom: .390909106
+  - name: Kristy Outside_House and Kristy
+    outer:
+      serializedVersion: 2
+      x: 820
+      y: 1690
+      width: 687
+      height: 358
+    inner:
+      serializedVersion: 2
+      x: 820
+      y: 1690
+      width: 687
+      height: 358
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0756914094
+    paddingTop: .108938545
+    paddingBottom: .114525139
+  - name: Kristy Inside_Kristy inside the house
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1556
+      width: 819
+      height: 492
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1556
+      width: 819
+      height: 492
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0964590982
+    paddingTop: 0
+    paddingBottom: .109756097
+  - name: Kristy Outside_Sentence
+    outer:
+      serializedVersion: 2
+      x: 414
+      y: 668
+      width: 1305
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 414
+      y: 668
+      width: 1305
+      height: 114
+    rotated: 0
+    paddingLeft: .0375478938
+    paddingRight: .0321839079
+    paddingTop: .508771956
+    paddingBottom: .464912295
+  - name: Marty Behind_Marty behind rock
+    outer:
+      serializedVersion: 2
+      x: 1508
+      y: 1696
+      width: 481
+      height: 352
+    inner:
+      serializedVersion: 2
+      x: 1508
+      y: 1696
+      width: 481
+      height: 352
+    rotated: 0
+    paddingLeft: .251559258
+    paddingRight: .110187113
+    paddingTop: .170454547
+    paddingBottom: .159090906
+  - name: Marty Behind_Sentence
+    outer:
+      serializedVersion: 2
+      x: 414
+      y: 554
+      width: 1255
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 414
+      y: 554
+      width: 1255
+      height: 113
+    rotated: 0
+    paddingLeft: .05258964
+    paddingRight: .0382470116
+    paddingTop: .530973434
+    paddingBottom: .433628321
+  - name: Lucky Beside_Lucky and Bone
+    outer:
+      serializedVersion: 2
+      x: 882
+      y: 83
+      width: 387
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 882
+      y: 83
+      width: 387
+      height: 250
+    rotated: 0
+    paddingLeft: .20413436
+    paddingRight: .131782949
+    paddingTop: .131999999
+    paddingBottom: .200000003
+  - name: Lucky Beside_Sentence
+    outer:
+      serializedVersion: 2
+      x: 414
+      y: 783
+      width: 1240
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 414
+      y: 783
+      width: 1240
+      height: 120
+    rotated: 0
+    paddingLeft: .0532258078
+    paddingRight: .0387096778
+    paddingTop: .533333361
+    paddingBottom: .441666663
+  - name: Princess patty Below_Sentence
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1258
+      width: 1722
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1258
+      width: 1722
+      height: 113
+    rotated: 0
+    paddingLeft: .0389082469
+    paddingRight: .0313588865
+    paddingTop: .398230076
+    paddingBottom: .3539823
+  - name: above
+    outer:
+      serializedVersion: 2
+      x: 1563
+      y: 1372
+      width: 275
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 1563
+      y: 1372
+      width: 275
+      height: 88
+    rotated: 0
+    paddingLeft: .330909103
+    paddingRight: .178181812
+    paddingTop: .556818187
+    paddingBottom: .727272749
+  - name: below
+    outer:
+      serializedVersion: 2
+      x: 1723
+      y: 1273
+      width: 273
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1723
+      y: 1273
+      width: 273
+      height: 98
+    rotated: 0
+    paddingLeft: .285714298
+    paddingRight: .377289385
+    paddingTop: .663265288
+    paddingBottom: .663265288
+  - name: inside
+    outer:
+      serializedVersion: 2
+      x: 1383
+      y: 927
+      width: 256
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1383
+      y: 927
+      width: 256
+      height: 91
+    rotated: 0
+    paddingLeft: .19921875
+    paddingRight: .26953125
+    paddingTop: .307692319
+    paddingBottom: .472527474
+  - name: behind
+    outer:
+      serializedVersion: 2
+      x: 1494
+      y: 1167
+      width: 286
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1494
+      y: 1167
+      width: 286
+      height: 90
+    rotated: 0
+    paddingLeft: .202797204
+    paddingRight: .15384616
+    paddingTop: .555555582
+    paddingBottom: .477777779
+  - name: under
+    outer:
+      serializedVersion: 2
+      x: 1781
+      y: 1166
+      width: 262
+      height: 91
+    inner:
+      serializedVersion: 2
+      x: 1781
+      y: 1166
+      width: 262
+      height: 91
+    rotated: 0
+    paddingLeft: .202290073
+    paddingRight: .152671754
+    paddingTop: .538461566
+    paddingBottom: .439560443
+  - name: outside
+    outer:
+      serializedVersion: 2
+      x: 1233
+      y: 1458
+      width: 329
+      height: 97
+    inner:
+      serializedVersion: 2
+      x: 1233
+      y: 1458
+      width: 329
+      height: 97
+    rotated: 0
+    paddingLeft: .185410336
+    paddingRight: .148936167
+    paddingTop: .381443292
+    paddingBottom: .536082447
+  - name: beside
+    outer:
+      serializedVersion: 2
+      x: 1624
+      y: 1042
+      width: 264
+      height: 90
+    inner:
+      serializedVersion: 2
+      x: 1624
+      y: 1042
+      width: 264
+      height: 90
+    rotated: 0
+    paddingLeft: .344696969
+    paddingRight: .193181813
+    paddingTop: .633333325
+    paddingBottom: .433333337
+  - name: Zip Left_Sentence
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1019
+      width: 1623
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1019
+      width: 1623
+      height: 113
+    rotated: 0
+    paddingLeft: .0369685777
+    paddingRight: .0523721501
+    paddingTop: .336283177
+    paddingBottom: .442477882
+  - name: Flower Inside_Vase with Flower
+    outer:
+      serializedVersion: 2
+      x: 1270
+      y: 25
+      width: 172
+      height: 308
+    inner:
+      serializedVersion: 2
+      x: 1270
+      y: 25
+      width: 172
+      height: 308
+    rotated: 0
+    paddingLeft: .494186044
+    paddingRight: .587209284
+    paddingTop: .292207778
+    paddingBottom: .149350643
+  - name: Zip Left_Zip and Honey
+    outer:
+      serializedVersion: 2
+      x: 414
+      y: 71
+      width: 467
+      height: 262
+    inner:
+      serializedVersion: 2
+      x: 414
+      y: 71
+      width: 467
+      height: 262
+    rotated: 0
+    paddingLeft: .160599574
+    paddingRight: .119914345
+    paddingTop: .213740453
+    paddingBottom: .183206111
+  - name: Princess Patty below branch
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 183
+      width: 412
+      height: 345
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 183
+      width: 412
+      height: 345
+    rotated: 0
+    paddingLeft: .148058251
+    paddingRight: .237864077
+    paddingTop: .197101444
+    paddingBottom: .124637678
+  - name: left
+    outer:
+      serializedVersion: 2
+      x: 1287
+      y: 1593
+      width: 173
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 1287
+      y: 1593
+      width: 173
+      height: 96
+    rotated: 0
+    paddingLeft: .329479754
+    paddingRight: .352601171
+    paddingTop: .520833313
+    paddingBottom: .479166657
+  - name: right
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 54
+      width: 229
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 54
+      width: 229
+      height: 128
+    rotated: 0
+    paddingLeft: .227074236
+    paddingRight: .192139745
+    paddingTop: .1953125
+    paddingBottom: .2578125
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
