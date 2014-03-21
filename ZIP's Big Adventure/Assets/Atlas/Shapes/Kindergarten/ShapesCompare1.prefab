@@ -1,0 +1,705 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ShapesCompare1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e827d1017e85ec64fb1fd9716dce0a4c, type: 2}
+  sprites:
+  - name: Rectangle_Pink
+    outer:
+      serializedVersion: 2
+      x: 1402
+      y: 635
+      width: 266
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 1402
+      y: 635
+      width: 266
+      height: 182
+    rotated: 0
+    paddingLeft: .00751879718
+    paddingRight: .124060154
+    paddingTop: .181318685
+    paddingBottom: 0
+  - name: Right Circle_End
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 356
+      width: 342
+      height: 230
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 356
+      width: 342
+      height: 230
+    rotated: 0
+    paddingLeft: .102339178
+    paddingRight: .172514617
+    paddingTop: .0391304344
+    paddingBottom: .108695649
+  - name: Right Rectangle_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 358
+      width: 392
+      height: 210
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 358
+      width: 392
+      height: 210
+    rotated: 0
+    paddingLeft: .0382653065
+    paddingRight: .068877548
+    paddingTop: .200000003
+    paddingBottom: 0
+  - name: Right Rectangle_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1939
+      width: 1532
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1939
+      width: 1532
+      height: 109
+    rotated: 0
+    paddingLeft: .00587467384
+    paddingRight: .0156657957
+    paddingTop: .302752286
+    paddingBottom: .504587173
+  - name: Left Circle_End
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 587
+      width: 342
+      height: 230
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 587
+      width: 342
+      height: 230
+    rotated: 0
+    paddingLeft: .0526315793
+    paddingRight: .111111112
+    paddingTop: .160869569
+    paddingBottom: .130434781
+  - name: Circle_Blue
+    outer:
+      serializedVersion: 2
+      x: 1402
+      y: 280
+      width: 193
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 1402
+      y: 280
+      width: 193
+      height: 194
+    rotated: 0
+    paddingLeft: .160621762
+    paddingRight: .165803105
+    paddingTop: .170103088
+    paddingBottom: .134020612
+  - name: Rectangle_Orange
+    outer:
+      serializedVersion: 2
+      x: 1669
+      y: 635
+      width: 266
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 1669
+      y: 635
+      width: 266
+      height: 182
+    rotated: 0
+    paddingLeft: .0112781953
+    paddingRight: .131578952
+    paddingTop: .115384616
+    paddingBottom: .0164835174
+  - name: Left Circle_Text
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 1213
+      width: 1306
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 1213
+      width: 1306
+      height: 86
+    rotated: 0
+    paddingLeft: .0245022979
+    paddingRight: .0382848382
+    paddingTop: .313953489
+    paddingBottom: .662790716
+  - name: Left Rectangle_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 569
+      width: 392
+      height: 210
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 569
+      width: 392
+      height: 210
+    rotated: 0
+    paddingLeft: .068877548
+    paddingRight: .0994897932
+    paddingTop: .161904767
+    paddingBottom: 0
+  - name: Circle_Green
+    outer:
+      serializedVersion: 2
+      x: 1402
+      y: 85
+      width: 193
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 1402
+      y: 85
+      width: 193
+      height: 194
+    rotated: 0
+    paddingLeft: .150259063
+    paddingRight: .139896378
+    paddingTop: .15463917
+    paddingBottom: .0618556701
+  - name: Left Rectangle_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1828
+      width: 1488
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1828
+      width: 1488
+      height: 110
+    rotated: 0
+    paddingLeft: .0120967738
+    paddingRight: .0120967738
+    paddingTop: .436363637
+    paddingBottom: .309090912
+  - name: Right Circle_Text
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 1608
+      width: 1350
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 1608
+      width: 1350
+      height: 109
+    rotated: 0
+    paddingLeft: .0251851846
+    paddingRight: .0222222228
+    paddingTop: .339449555
+    paddingBottom: .38532111
+  - name: Big Square_Text
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 1101
+      width: 1010
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 1101
+      width: 1010
+      height: 111
+    rotated: 0
+    paddingLeft: .0287128706
+    paddingRight: .0316831693
+    paddingTop: .243243247
+    paddingBottom: .225225225
+  - name: Oval_Pink
+    outer:
+      serializedVersion: 2
+      x: 1098
+      y: 436
+      width: 292
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 1098
+      y: 436
+      width: 292
+      height: 182
+    rotated: 0
+    paddingLeft: .116438359
+    paddingRight: .0753424689
+    paddingTop: .247252747
+    paddingBottom: .142857149
+  - name: Small Oval_End
+    outer:
+      serializedVersion: 2
+      x: 1402
+      y: 475
+      width: 285
+      height: 159
+    inner:
+      serializedVersion: 2
+      x: 1402
+      y: 475
+      width: 285
+      height: 159
+    rotated: 0
+    paddingLeft: .0631578937
+    paddingRight: .0842105299
+    paddingTop: .333333343
+    paddingBottom: .157232702
+  - name: Square_Yellow
+    outer:
+      serializedVersion: 2
+      x: 1596
+      y: 307
+      width: 180
+      height: 167
+    inner:
+      serializedVersion: 2
+      x: 1596
+      y: 307
+      width: 180
+      height: 167
+    rotated: 0
+    paddingLeft: .177777782
+    paddingRight: .211111113
+    paddingTop: .227544904
+    paddingBottom: .19760479
+  - name: Oval_Orange
+    outer:
+      serializedVersion: 2
+      x: 1688
+      y: 511
+      width: 207
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 1688
+      y: 511
+      width: 207
+      height: 123
+    rotated: 0
+    paddingLeft: .144927531
+    paddingRight: .144927531
+    paddingTop: .292682916
+    paddingBottom: .235772356
+  - name: Big Oval_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1234
+      width: 410
+      height: 252
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1234
+      width: 410
+      height: 252
+    rotated: 0
+    paddingLeft: .0682926849
+    paddingRight: .119512193
+    paddingTop: .119047619
+    paddingBottom: .119047619
+  - name: Small Square_End
+    outer:
+      serializedVersion: 2
+      x: 1098
+      y: 619
+      width: 303
+      height: 198
+    inner:
+      serializedVersion: 2
+      x: 1098
+      y: 619
+      width: 303
+      height: 198
+    rotated: 0
+    paddingLeft: .0825082511
+    paddingRight: .118811883
+    paddingTop: .181818187
+    paddingBottom: .181818187
+  - name: Big Square_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1487
+      width: 474
+      height: 340
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1487
+      width: 474
+      height: 340
+    rotated: 0
+    paddingLeft: .0611814335
+    paddingRight: .118143462
+    paddingTop: .152941182
+    paddingBottom: .179411769
+  - name: Small Oval_Text
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 818
+      width: 981
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 818
+      width: 981
+      height: 84
+    rotated: 0
+    paddingLeft: .0305810403
+    paddingRight: .03567788
+    paddingTop: .476190478
+    paddingBottom: .488095224
+  - name: Square_Blue
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 90
+      width: 300
+      height: 267
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 90
+      width: 300
+      height: 267
+    rotated: 0
+    paddingLeft: .116666667
+    paddingRight: .0599999987
+    paddingTop: .224719107
+    paddingBottom: .176029965
+  - name: Small Square_Text
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 1387
+      width: 1098
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 1387
+      width: 1098
+      height: 110
+    rotated: 0
+    paddingLeft: .0154826958
+    paddingRight: .0182149354
+    paddingTop: .25454545
+    paddingBottom: .190909088
+  - name: Big Oval_Text
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 903
+      width: 893
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 903
+      width: 893
+      height: 110
+    rotated: 0
+    paddingLeft: .0436730124
+    paddingRight: .060470324
+    paddingTop: .327272713
+    paddingBottom: .190909088
+  - name: Right Heart_Text
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 1718
+      width: 1386
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 1718
+      width: 1386
+      height: 109
+    rotated: 0
+    paddingLeft: .02958153
+    paddingRight: .0209235214
+    paddingTop: .339449555
+    paddingBottom: .201834857
+  - name: Heart_Purple
+    outer:
+      serializedVersion: 2
+      x: 1098
+      y: 233
+      width: 252
+      height: 202
+    inner:
+      serializedVersion: 2
+      x: 1098
+      y: 233
+      width: 252
+      height: 202
+    rotated: 0
+    paddingLeft: .198412701
+    paddingRight: .18650794
+    paddingTop: .267326742
+    paddingBottom: .133663371
+  - name: Heart_Pink
+    outer:
+      serializedVersion: 2
+      x: 1098
+      y: 30
+      width: 252
+      height: 202
+    inner:
+      serializedVersion: 2
+      x: 1098
+      y: 30
+      width: 252
+      height: 202
+    rotated: 0
+    paddingLeft: .119047619
+    paddingRight: .146825403
+    paddingTop: .188118815
+    paddingBottom: .128712878
+  - name: Right Start_Text
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 1498
+      width: 1316
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 1498
+      width: 1316
+      height: 109
+    rotated: 0
+    paddingLeft: .0448328257
+    paddingRight: .0227963533
+    paddingTop: .422018349
+    paddingBottom: .201834857
+  - name: Left Star_End
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 113
+      width: 279
+      height: 242
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 113
+      width: 279
+      height: 242
+    rotated: 0
+    paddingLeft: .0645161271
+    paddingRight: .0824372768
+    paddingTop: .103305787
+    paddingBottom: .161157027
+  - name: Left Heart_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1007
+      width: 370
+      height: 226
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1007
+      width: 370
+      height: 226
+    rotated: 0
+    paddingLeft: .024324324
+    paddingRight: .0513513498
+    paddingTop: .132743359
+    paddingBottom: .115044251
+  - name: Right Heart_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 780
+      width: 370
+      height: 226
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 780
+      width: 370
+      height: 226
+    rotated: 0
+    paddingLeft: .0405405387
+    paddingRight: .0756756738
+    paddingTop: .163716808
+    paddingBottom: .123893805
+  - name: Right Star_End
+    outer:
+      serializedVersion: 2
+      x: 818
+      y: 575
+      width: 279
+      height: 242
+    inner:
+      serializedVersion: 2
+      x: 818
+      y: 575
+      width: 279
+      height: 242
+    rotated: 0
+    paddingLeft: .0896057338
+    paddingRight: .15053764
+    paddingTop: .111570247
+    paddingBottom: .15289256
+  - name: Left Start_Text
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 1014
+      width: 1272
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 1014
+      width: 1272
+      height: 86
+    rotated: 0
+    paddingLeft: .0385220125
+    paddingRight: .0259433966
+    paddingTop: .383720934
+    paddingBottom: .662790716
+  - name: Left Heart_Text
+    outer:
+      serializedVersion: 2
+      x: 475
+      y: 1300
+      width: 1342
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 475
+      y: 1300
+      width: 1342
+      height: 86
+    rotated: 0
+    paddingLeft: .0193740688
+    paddingRight: .0163934417
+    paddingTop: .45348838
+    paddingBottom: .767441869
+  - name: Star_Yellow
+    outer:
+      serializedVersion: 2
+      x: 818
+      y: 89
+      width: 279
+      height: 242
+    inner:
+      serializedVersion: 2
+      x: 818
+      y: 89
+      width: 279
+      height: 242
+    rotated: 0
+    paddingLeft: .118279569
+    paddingRight: .100358427
+    paddingTop: .0867768601
+    paddingBottom: .177685946
+  - name: Star_Blue
+    outer:
+      serializedVersion: 2
+      x: 818
+      y: 332
+      width: 279
+      height: 242
+    inner:
+      serializedVersion: 2
+      x: 818
+      y: 332
+      width: 279
+      height: 242
+    rotated: 0
+    paddingLeft: .139784947
+    paddingRight: .0967741907
+    paddingTop: .0909090936
+    paddingBottom: .12396694
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

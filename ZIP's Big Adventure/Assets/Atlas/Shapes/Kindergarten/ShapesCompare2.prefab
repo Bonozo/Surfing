@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ShapesCompare2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 8a86f854fbc7f6c41b2e31bab6175761, type: 2}
+  sprites:
+  - name: Small Circle_End
+    outer:
+      serializedVersion: 2
+      x: 309
+      y: 1133
+      width: 342
+      height: 230
+    inner:
+      serializedVersion: 2
+      x: 309
+      y: 1133
+      width: 342
+      height: 230
+    rotated: 0
+    paddingLeft: .0350877196
+    paddingRight: .0643274859
+    paddingTop: .0652173907
+    paddingBottom: .0826086923
+  - name: Circle_Yellow
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1119
+      width: 219
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1119
+      width: 219
+      height: 194
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .127853885
+    paddingTop: .164948449
+    paddingBottom: .139175251
+  - name: Big Triangle_Text
+    outer:
+      serializedVersion: 2
+      x: 419
+      y: 1828
+      width: 1028
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 419
+      y: 1828
+      width: 1028
+      height: 110
+    rotated: 0
+    paddingLeft: .0272373538
+    paddingRight: .0350194536
+    paddingTop: .318181813
+    paddingBottom: .272727281
+  - name: Small Triangle_Text
+    outer:
+      serializedVersion: 2
+      x: 419
+      y: 1939
+      width: 1116
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 419
+      y: 1939
+      width: 1116
+      height: 109
+    rotated: 0
+    paddingLeft: .027777778
+    paddingRight: .018817205
+    paddingTop: .330275238
+    paddingBottom: .155963302
+  - name: Big Circle_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1724
+      width: 418
+      height: 324
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1724
+      width: 418
+      height: 324
+    rotated: 0
+    paddingLeft: .0765550211
+    paddingRight: .102870815
+    paddingTop: .126543209
+    paddingBottom: .0956790149
+  - name: Triangle_Blue
+    outer:
+      serializedVersion: 2
+      x: 309
+      y: 1364
+      width: 361
+      height: 248
+    inner:
+      serializedVersion: 2
+      x: 309
+      y: 1364
+      width: 361
+      height: 248
+    rotated: 0
+    paddingLeft: .110803321
+    paddingRight: 0
+    paddingTop: .072580643
+    paddingBottom: .112903222
+  - name: Big Triangle_End
+    outer:
+      serializedVersion: 2
+      x: 1536
+      y: 1748
+      width: 365
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 1536
+      y: 1748
+      width: 365
+      height: 300
+    rotated: 0
+    paddingLeft: .0794520527
+    paddingRight: .0739726052
+    paddingTop: .0399999991
+    paddingBottom: .103333332
+  - name: Triangle_Orange
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 782
+      width: 233
+      height: 154
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 782
+      width: 233
+      height: 154
+    rotated: 0
+    paddingLeft: .0643776804
+    paddingRight: .0901287571
+    paddingTop: .240259737
+    paddingBottom: .298701286
+  - name: Small Triangle_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 937
+      width: 233
+      height: 181
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 937
+      width: 233
+      height: 181
+    rotated: 0
+    paddingLeft: .120171674
+    paddingRight: .171673819
+    paddingTop: .132596686
+    paddingBottom: .243093923
+  - name: Circle_Purple
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1314
+      width: 308
+      height: 298
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1314
+      width: 308
+      height: 298
+    rotated: 0
+    paddingLeft: .126623377
+    paddingRight: .110389613
+    paddingTop: .147651002
+    paddingBottom: .110738255
+  - name: Big Circle_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1613
+      width: 922
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1613
+      width: 922
+      height: 110
+    rotated: 0
+    paddingLeft: .0292841643
+    paddingRight: .0325379595
+    paddingTop: .24545455
+    paddingBottom: .13636364
+  - name: Small Circle_Text
+    outer:
+      serializedVersion: 2
+      x: 419
+      y: 1743
+      width: 1009
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 419
+      y: 1743
+      width: 1009
+      height: 84
+    rotated: 0
+    paddingLeft: .0247770064
+    paddingRight: .0475718528
+    paddingTop: .392857134
+    paddingBottom: .583333313
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
