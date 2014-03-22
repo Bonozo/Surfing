@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: NumbersAdd2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: dd75f326f9f532c499bb0298582e3fda, type: 2}
+  sprites:
+  - name: Single shoe_Yellow
+    outer:
+      serializedVersion: 2
+      x: 1362
+      y: 1540
+      width: 110
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 1362
+      y: 1540
+      width: 110
+      height: 63
+    rotated: 0
+    paddingLeft: .163636357
+    paddingRight: .227272734
+    paddingTop: .190476194
+    paddingBottom: .317460328
+  - name: Shoes_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1105
+      width: 903
+      height: 215
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1105
+      width: 903
+      height: 215
+    rotated: 0
+    paddingLeft: .0520487279
+    paddingRight: .0675526038
+    paddingTop: .102325581
+    paddingBottom: .106976748
+  - name: Single shoe_Pink
+    outer:
+      serializedVersion: 2
+      x: 1477
+      y: 1640
+      width: 110
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 1477
+      y: 1640
+      width: 110
+      height: 63
+    rotated: 0
+    paddingLeft: .272727281
+    paddingRight: .300000012
+    paddingTop: .301587313
+    paddingBottom: .365079373
+  - name: Shoes_End
+    outer:
+      serializedVersion: 2
+      x: 552
+      y: 799
+      width: 338
+      height: 305
+    inner:
+      serializedVersion: 2
+      x: 552
+      y: 799
+      width: 338
+      height: 305
+    rotated: 0
+    paddingLeft: .0887573957
+    paddingRight: .0591715984
+    paddingTop: .0655737668
+    paddingBottom: .0754098371
+  - name: Single shoe_Blue
+    outer:
+      serializedVersion: 2
+      x: 1477
+      y: 1576
+      width: 110
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 1477
+      y: 1576
+      width: 110
+      height: 63
+    rotated: 0
+    paddingLeft: .145454541
+    paddingRight: .263636351
+    paddingTop: .349206358
+    paddingBottom: .428571433
+  - name: Shoes_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 485
+      width: 338
+      height: 305
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 485
+      width: 338
+      height: 305
+    rotated: 0
+    paddingLeft: .0887573957
+    paddingRight: .0591715984
+    paddingTop: .0655737668
+    paddingBottom: .0754098371
+  - name: Single shoe_Green
+    outer:
+      serializedVersion: 2
+      x: 1588
+      y: 1640
+      width: 110
+      height: 63
+    inner:
+      serializedVersion: 2
+      x: 1588
+      y: 1640
+      width: 110
+      height: 63
+    rotated: 0
+    paddingLeft: .227272734
+    paddingRight: .263636351
+    paddingTop: .365079373
+    paddingBottom: .365079373
+  - name: Single swing
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 121
+      width: 104
+      height: 363
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 121
+      width: 104
+      height: 363
+    rotated: 0
+    paddingLeft: .307692319
+    paddingRight: .0865384638
+    paddingTop: .0633608848
+    paddingBottom: .0881542712
+  - name: Swings_text
+    outer:
+      serializedVersion: 2
+      x: 1084
+      y: 1321
+      width: 949
+      height: 215
+    inner:
+      serializedVersion: 2
+      x: 1084
+      y: 1321
+      width: 949
+      height: 215
+    rotated: 0
+    paddingLeft: .049525816
+    paddingRight: .0653319284
+    paddingTop: .130232558
+    paddingBottom: .106976748
+  - name: Swings_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1537
+      width: 680
+      height: 511
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1537
+      width: 680
+      height: 511
+    rotated: 0
+    paddingLeft: .0411764719
+    paddingRight: .030882353
+    paddingTop: .039138943
+    paddingBottom: 0
+  - name: Swings_End
+    outer:
+      serializedVersion: 2
+      x: 681
+      y: 1541
+      width: 680
+      height: 507
+    inner:
+      serializedVersion: 2
+      x: 681
+      y: 1541
+      width: 680
+      height: 507
+    rotated: 0
+    paddingLeft: .0411764719
+    paddingRight: .030882353
+    paddingTop: .0473372787
+    paddingBottom: 0
+  - name: Tomatoes Sprite
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 791
+      width: 551
+      height: 313
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 791
+      width: 551
+      height: 313
+    rotated: 0
+    paddingLeft: .056261342
+    paddingRight: .0725952834
+    paddingTop: .0894568712
+    paddingBottom: .194888175
+  - name: SingleTomatoe
+    outer:
+      serializedVersion: 2
+      x: 1362
+      y: 1604
+      width: 114
+      height: 99
+    inner:
+      serializedVersion: 2
+      x: 1362
+      y: 1604
+      width: 114
+      height: 99
+    rotated: 0
+    paddingLeft: .421052635
+    paddingRight: .350877196
+    paddingTop: .343434334
+    paddingBottom: .383838385
+  - name: Plant Sprite
+    outer:
+      serializedVersion: 2
+      x: 1362
+      y: 1704
+      width: 640
+      height: 344
+    inner:
+      serializedVersion: 2
+      x: 1362
+      y: 1704
+      width: 640
+      height: 344
+    rotated: 0
+    paddingLeft: .0406249985
+    paddingRight: .0390625
+    paddingTop: .107558139
+    paddingBottom: .156976745
+  - name: Tomatoes_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1321
+      width: 1083
+      height: 215
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1321
+      width: 1083
+      height: 215
+    rotated: 0
+    paddingLeft: .0433979668
+    paddingRight: .039704524
+    paddingTop: .139534891
+    paddingBottom: .186046511
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

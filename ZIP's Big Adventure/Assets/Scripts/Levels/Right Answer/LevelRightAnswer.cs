@@ -42,62 +42,65 @@ public class LevelRightAnswer : ZIPLevel {
 	}
 
 	#region Editor
+	
+	public int number1, number2, answer1, answer2, answer3,rightanswrindex;
+	public UISprite sp1, sp2, ans1, ans2, rightans;
+	
 
-	//public string answer1, answer2, answer3;
-	public int correctAnswerIndex;
-	public UISprite appears, appearInx;
 	
 	public void Initialize()
 	{
-		for(int i=0;i<4;i++)
-			buttons[i].GetComponent<BoxCollider>().size = new Vector3(1f,1f,1f);
+		Vector3 cc1 = new Vector3 (410, 379, 0);
+		Vector3 cc2 = new Vector3 (410, 179, 0);
+		Vector3 cc3 = new Vector3 (410, -26, 0);
+
 		transform.localPosition = new Vector3 (0, 0, 0);
 		transform.localScale = new Vector3 (1, 1, 1);
+		sp1.spriteName = "" + number1;
+		sp1.type = UISprite.Type.Simple;
+		sp1.MakePixelPerfect ();
+		sp1.type = UISprite.Type.Sliced;
+		sp2.spriteName = "" + number2;
+		sp2.type = UISprite.Type.Simple;
+		sp2.MakePixelPerfect ();
+		sp2.type = UISprite.Type.Sliced;
+		
+		int idd = 0;
+		if(rightanswrindex==1)
+		{
+			idd = answer1;
+			rightans.spriteName = "Circle"+answer1;
+			rightans.transform.localPosition = cc1;
+			ans1.spriteName = "Circle"+answer2;
+			ans1.transform.localPosition = cc2;
+			ans2.spriteName= "Circle"+answer3;
+			ans2.transform.localPosition = cc3;
+		}
+		if(rightanswrindex==2)
+		{
+			idd = answer2;
+			rightans.spriteName = "Circle"+answer2;
+			rightans.transform.localPosition = cc2;
+			ans1.spriteName = "Circle"+answer1;
+			ans1.transform.localPosition = cc1;
+			ans2.spriteName= "Circle"+answer3;
+			ans2.transform.localPosition = cc3;
+		}
+		if(rightanswrindex==3)
+		{
+			idd = answer3;
+			rightans.spriteName = "Circle"+answer3;
+			rightans.transform.localPosition = cc3;
+			ans1.spriteName = "Circle"+answer1;
+			ans1.transform.localPosition = cc1;
+			ans2.spriteName= "Circle"+answer2;
+			ans2.transform.localPosition = cc2;
+		}
+		
+		rightans.GetComponent<EndItemChangeTexture> ().newSpriteName = "star" + idd;
 		gameBlock.level [0] = this;
 
-		correctAnswer = buttons [correctAnswerIndex - 1];
-		endItems = new EndItem[5];
-		appears.color = new Color (1f, 1f, 1f, 1f-appears.color.a);
-		appearInx.gameObject.SetActive (!appearInx.gameObject.activeSelf);
-
-		for(int i=0;i<4;i++)
-		{
-			if(buttons[i].GetComponent<EndItemColor>() != null)
-				DestroyImmediate(buttons[i].GetComponent<EndItemColor>());
-			if(buttons[i].GetComponent<EndItemMoveTo>() != null)
-				DestroyImmediate(buttons[i].GetComponent<EndItemMoveTo>());
-			if(buttons[i].GetComponent<EndItemMultipleEndItem>() != null)
-				DestroyImmediate(buttons[i].GetComponent<EndItemMultipleEndItem>());
-			if(buttons[i].GetComponent<EndItemChangeTexture>() != null)
-				DestroyImmediate(buttons[i].GetComponent<EndItemChangeTexture>());
-
-			buttons[i].GetComponent<UISprite>().MakePixelPerfect();
-
-			if(i == correctAnswerIndex-1)
-			{
-				buttons[i].gameObject.AddComponent<EndItemMoveTo>();
-				buttons[i].GetComponent<EndItemMoveTo>().defaultUp = false;
-				buttons[i].GetComponent<EndItemMoveTo>().duration = 1.5f;
-				buttons[i].GetComponent<EndItemMoveTo>().to = new Vector3(0f,200f,0f);
-			}
-			else
-			{
-				buttons[i].gameObject.AddComponent<EndItemColor>();
-				buttons[i].GetComponent<EndItemColor>().to = new Color(1f,1f,1f,0f);
-					buttons[i].GetComponent<EndItemColor>().duration = 0.75f;
-			}
-			endItems[i] = buttons[i].GetComponent<EndItem>();
-		}
-		endItems [4] = appears.GetComponent<EndItem> ();
-
 	}
-
-	void proc(UISprite sprite)
-	{
-		sprite.type = UISprite.Type.Simple;
-		sprite.MakePixelPerfect ();
-		sprite.type = UISprite.Type.Sliced;
-	}
-
+	
 	#endregion
 }
