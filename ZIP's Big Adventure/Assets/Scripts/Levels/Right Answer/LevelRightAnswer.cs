@@ -109,9 +109,9 @@ public class LevelRightAnswer : ZIPLevel {
 	
 	public void Initialize()
 	{
-		Vector3 cc1 = new Vector3 (-466, -132, 0);
-		Vector3 cc2 = new Vector3 (0, -132, 0);
-		Vector3 cc3 = new Vector3 (466, -132, 0);
+		Vector3 cc1 = new Vector3 (-416, 0, 0);
+		Vector3 cc2 = new Vector3 (0, 0, 0);
+		Vector3 cc3 = new Vector3 (416, 0, 0);
 
 		transform.localPosition = new Vector3 (0, 0, 0);
 		transform.localScale = new Vector3 (1, 1, 1);
@@ -120,31 +120,31 @@ public class LevelRightAnswer : ZIPLevel {
 		if(rightanswrindex==1)
 		{
 			idd = answer1;
-			rightans.spriteName = ""+answer1;
+			//rightans.spriteName = ""+answer1;
 			rightans.transform.localPosition = cc1;
-			ans1.spriteName = ""+answer2;
+			//ans1.spriteName = ""+answer2;
 			ans1.transform.localPosition = cc2;
-			ans2.spriteName= ""+answer3;
+			//ans2.spriteName= ""+answer3;
 			ans2.transform.localPosition = cc3;
 		}
 		if(rightanswrindex==2)
 		{
 			idd = answer2;
-			rightans.spriteName = ""+answer2;
+			//rightans.spriteName = ""+answer2;
 			rightans.transform.localPosition = cc2;
-			ans1.spriteName = ""+answer1;
+			//ans1.spriteName = ""+answer1;
 			ans1.transform.localPosition = cc1;
-			ans2.spriteName= ""+answer3;
+			//ans2.spriteName= ""+answer3;
 			ans2.transform.localPosition = cc3;
 		}
 		if(rightanswrindex==3)
 		{
 			idd = answer3;
-			rightans.spriteName = ""+answer3;
+			//rightans.spriteName = ""+answer3;
 			rightans.transform.localPosition = cc3;
-			ans1.spriteName = ""+answer1;
+			//ans1.spriteName = ""+answer1;
 			ans1.transform.localPosition = cc1;
-			ans2.spriteName= ""+answer2;
+			//ans2.spriteName= ""+answer2;
 			ans2.transform.localPosition = cc2;
 		}
 		
