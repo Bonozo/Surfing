@@ -152,7 +152,19 @@ public class LevelJumble : ZIPLevel {
 
 	#endregion
 
+	public int[] nums;
+	public Collider[] colloder;
+
 	public void Initialize()
 	{
+		gameBlock.level [0] = this;
+		
+		transform.localPosition = Vector3.zero;
+		transform.localScale = new Vector3 (1f, 1f, 1f);
+
+		for(int i=0;i<4;i++)
+		{
+			drags[nums[i]-1].targetCollider[0] = colloder[i];
+		}
 	}
 }
