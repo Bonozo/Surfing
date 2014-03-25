@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Trail Runner\Trial Runner\Assets\Scripts\Integration\GameServices\GameServices.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Levels\Right Answer\LevelRightAnswer.cs">
     <Files>
-      <File FileName="..\..\..\Trail Runner\Trial Runner\Assets\Scripts\Integration\GameServices\GameServices.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Levels\Right Answer\LevelRightAnswer.cs" Line="56" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
