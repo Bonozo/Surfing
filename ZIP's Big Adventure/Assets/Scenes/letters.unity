@@ -654,6 +654,8 @@ MonoBehaviour:
   - {fileID: 673175917}
   - {fileID: 564260581}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &26598968
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,6 +1134,8 @@ MonoBehaviour:
   - {fileID: 125778826}
   - {fileID: 1285331596}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &55824320
 GameObject:
   m_ObjectHideFlags: 0
@@ -1763,6 +1767,8 @@ MonoBehaviour:
   - {fileID: 1193170464}
   - {fileID: 1991008507}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &82448425
 GameObject:
   m_ObjectHideFlags: 0
@@ -2434,6 +2440,8 @@ MonoBehaviour:
   - {fileID: 713947201}
   - {fileID: 1204782337}
   dragsLenght: 6
+  nums: 
+  colloder: []
 --- !u!1 &102477664
 GameObject:
   m_ObjectHideFlags: 0
@@ -4431,6 +4439,8 @@ MonoBehaviour:
   - {fileID: 291700641}
   - {fileID: 839929883}
   dragsLenght: 7
+  nums: 
+  colloder: []
 --- !u!1 &140505672
 GameObject:
   m_ObjectHideFlags: 0
@@ -4603,6 +4613,8 @@ MonoBehaviour:
   - {fileID: 1818146566}
   - {fileID: 1330441924}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &142137603
 GameObject:
   m_ObjectHideFlags: 0
@@ -5594,6 +5606,8 @@ MonoBehaviour:
   - {fileID: 1421594170}
   - {fileID: 466601906}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &207151387
 GameObject:
   m_ObjectHideFlags: 0
@@ -11793,6 +11807,8 @@ MonoBehaviour:
   - {fileID: 1856756334}
   - {fileID: 1049391367}
   dragsLenght: 5
+  nums: 
+  colloder: []
 --- !u!1 &418887990
 GameObject:
   m_ObjectHideFlags: 0
@@ -11849,6 +11865,8 @@ MonoBehaviour:
   - {fileID: 395227054}
   - {fileID: 1276748173}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &424578418
 GameObject:
   m_ObjectHideFlags: 0
@@ -12385,6 +12403,8 @@ MonoBehaviour:
   - {fileID: 393800421}
   - {fileID: 1865685026}
   dragsLenght: 6
+  nums: 
+  colloder: []
 --- !u!1 &439673229
 GameObject:
   m_ObjectHideFlags: 0
@@ -12848,6 +12868,8 @@ MonoBehaviour:
   - {fileID: 1178516730}
   - {fileID: 693984188}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &473160553
 GameObject:
   m_ObjectHideFlags: 0
@@ -12899,6 +12921,8 @@ MonoBehaviour:
   - {fileID: 300213976}
   - {fileID: 1008791929}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &473509573
 GameObject:
   m_ObjectHideFlags: 0
@@ -13658,6 +13682,8 @@ MonoBehaviour:
   - {fileID: 968694375}
   - {fileID: 582657794}
   dragsLenght: 5
+  nums: 
+  colloder: []
 --- !u!1 &517707744
 GameObject:
   m_ObjectHideFlags: 0
@@ -13919,6 +13945,8 @@ MonoBehaviour:
   - {fileID: 1242933667}
   - {fileID: 1408206855}
   dragsLenght: 7
+  nums: 
+  colloder: []
 --- !u!1 &531492679
 GameObject:
   m_ObjectHideFlags: 0
@@ -14000,6 +14028,8 @@ MonoBehaviour:
   - {fileID: 779833164}
   - {fileID: 909167231}
   dragsLenght: 6
+  nums: 
+  colloder: []
 --- !u!1 &535144551
 GameObject:
   m_ObjectHideFlags: 0
@@ -16251,6 +16281,8 @@ MonoBehaviour:
   - {fileID: 342661339}
   - {fileID: 1507491697}
   dragsLenght: 6
+  nums: 
+  colloder: []
 --- !u!1 &584979592
 GameObject:
   m_ObjectHideFlags: 0
@@ -16307,6 +16339,8 @@ MonoBehaviour:
   - {fileID: 785250328}
   - {fileID: 1646639314}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &585908246
 GameObject:
   m_ObjectHideFlags: 0
@@ -16828,6 +16862,8 @@ MonoBehaviour:
   - {fileID: 1272093215}
   - {fileID: 360947810}
   dragsLenght: 5
+  nums: 
+  colloder: []
 --- !u!1 &617496217
 GameObject:
   m_ObjectHideFlags: 0
@@ -20970,6 +21006,8 @@ MonoBehaviour:
   - {fileID: 2120930179}
   - {fileID: 802921646}
   dragsLenght: 4
+  nums: 
+  colloder: []
 --- !u!1 &758732617
 GameObject:
   m_ObjectHideFlags: 0
@@ -21185,6 +21223,8 @@ MonoBehaviour:
   - {fileID: 1835788361}
   - {fileID: 1972005531}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &772715813
 GameObject:
   m_ObjectHideFlags: 0
@@ -21355,6 +21395,8 @@ MonoBehaviour:
   - {fileID: 1040439134}
   - {fileID: 1772214356}
   dragsLenght: 5
+  nums: 
+  colloder: []
 --- !u!1 &785250326
 GameObject:
   m_ObjectHideFlags: 0
@@ -23038,6 +23080,8 @@ MonoBehaviour:
   - {fileID: 907557857}
   - {fileID: 1494193238}
   dragsLenght: 6
+  nums: 
+  colloder: []
 --- !u!1 &838260006
 GameObject:
   m_ObjectHideFlags: 0
@@ -23306,6 +23350,8 @@ MonoBehaviour:
   - {fileID: 1912869211}
   - {fileID: 939038007}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &846478782
 GameObject:
   m_ObjectHideFlags: 0
@@ -27424,7 +27470,7 @@ Transform:
   m_GameObject: {fileID: 968029640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1034.23999, y: 775.679993, z: 1}
+  m_LocalScale: {x: 1034.23999, y: 775.680054, z: 1}
   m_Children: []
   m_Father: {fileID: 1607776916}
 --- !u!114 &968029642
@@ -28092,6 +28138,8 @@ MonoBehaviour:
   - {fileID: 368228245}
   - {fileID: 1678811393}
   dragsLenght: 4
+  nums: 
+  colloder: []
 --- !u!1 &982208895
 GameObject:
   m_ObjectHideFlags: 0
@@ -29725,6 +29773,8 @@ MonoBehaviour:
   - {fileID: 679021494}
   - {fileID: 802127479}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &1032578877
 GameObject:
   m_ObjectHideFlags: 0
@@ -31761,6 +31811,8 @@ MonoBehaviour:
   - {fileID: 36807630}
   - {fileID: 1559079783}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &1104803207
 GameObject:
   m_ObjectHideFlags: 0
@@ -31817,6 +31869,8 @@ MonoBehaviour:
   - {fileID: 852339314}
   - {fileID: 1654974954}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &1109282945
 GameObject:
   m_ObjectHideFlags: 0
@@ -32274,6 +32328,8 @@ MonoBehaviour:
   - {fileID: 891192448}
   - {fileID: 913056582}
   dragsLenght: 4
+  nums: 
+  colloder: []
 --- !u!1 &1124383788
 GameObject:
   m_ObjectHideFlags: 0
@@ -33944,6 +34000,8 @@ MonoBehaviour:
   - {fileID: 535144553}
   - {fileID: 1806787778}
   dragsLenght: 6
+  nums: 
+  colloder: []
 --- !u!1 &1165163725
 GameObject:
   m_ObjectHideFlags: 0
@@ -34000,6 +34058,8 @@ MonoBehaviour:
   - {fileID: 260700197}
   - {fileID: 1269253066}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &1166920460
 GameObject:
   m_ObjectHideFlags: 0
@@ -34503,6 +34563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   easyType1: 13
   easyType2: 12
+  clipSpeech: {fileID: 8300000, guid: 0a41c589210641b49ac5eedcd2fbcb27, type: 3}
   dur: 1.5
 --- !u!1 &1175688705
 GameObject:
@@ -36040,6 +36101,10 @@ Prefab:
       propertyPath: mSpriteName
       value: Letters Intro
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+      propertyPath: clipSpeech
+      value: 
+      objectReference: {fileID: 8300000, guid: 0a41c589210641b49ac5eedcd2fbcb27, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
   m_RootGameObject: {fileID: 1175453450}
@@ -37699,6 +37764,8 @@ MonoBehaviour:
   - {fileID: 602229957}
   - {fileID: 1684740147}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &1284923570
 GameObject:
   m_ObjectHideFlags: 0
@@ -41850,6 +41917,8 @@ MonoBehaviour:
   - {fileID: 337119383}
   - {fileID: 513961247}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &1431230280
 GameObject:
   m_ObjectHideFlags: 0
@@ -42390,6 +42459,8 @@ MonoBehaviour:
   - {fileID: 1111105485}
   - {fileID: 1608190547}
   dragsLenght: 6
+  nums: 
+  colloder: []
 --- !u!1 &1443201114
 GameObject:
   m_ObjectHideFlags: 0
@@ -43200,6 +43271,8 @@ MonoBehaviour:
   - {fileID: 696892065}
   - {fileID: 82789316}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &1467148674
 GameObject:
   m_ObjectHideFlags: 0
@@ -47040,6 +47113,8 @@ MonoBehaviour:
   - {fileID: 374534382}
   - {fileID: 550915902}
   dragsLenght: 5
+  nums: 
+  colloder: []
 --- !u!1 &1607776915
 GameObject:
   m_ObjectHideFlags: 0
@@ -48624,7 +48699,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.06077349, z: 0}
+  m_LocalPosition: {x: 0, y: 2.17563725, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1607776916}
@@ -49184,6 +49259,8 @@ MonoBehaviour:
   - {fileID: 350461672}
   - {fileID: 1549864315}
   dragsLenght: 7
+  nums: 
+  colloder: []
 --- !u!1 &1682911673
 GameObject:
   m_ObjectHideFlags: 0
@@ -51094,6 +51171,8 @@ MonoBehaviour:
   - {fileID: 1265369481}
   - {fileID: 115195558}
   dragsLenght: 5
+  nums: 
+  colloder: []
 --- !u!1 &1730922827
 GameObject:
   m_ObjectHideFlags: 0
@@ -52392,6 +52471,8 @@ MonoBehaviour:
   - {fileID: 424578425}
   - {fileID: 1030788607}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &1769754811
 GameObject:
   m_ObjectHideFlags: 0
@@ -56950,6 +57031,8 @@ MonoBehaviour:
   - {fileID: 209825671}
   - {fileID: 1358536418}
   dragsLenght: 6
+  nums: 
+  colloder: []
 --- !u!1 &1920113560
 GameObject:
   m_ObjectHideFlags: 0
@@ -57098,6 +57181,8 @@ MonoBehaviour:
   - {fileID: 1720461307}
   - {fileID: 1144618140}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &1927991710
 GameObject:
   m_ObjectHideFlags: 0
@@ -57557,6 +57642,8 @@ MonoBehaviour:
   - {fileID: 1501839098}
   - {fileID: 1597780197}
   dragsLenght: 5
+  nums: 
+  colloder: []
 --- !u!1 &1953483097
 GameObject:
   m_ObjectHideFlags: 0
@@ -57606,7 +57693,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1956016496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -513.060059, y: -382.939209, z: 0}
+  m_LocalPosition: {x: -513.087036, y: -382.91217, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 1898425767}
@@ -57682,6 +57769,8 @@ MonoBehaviour:
   - {fileID: 561301525}
   - {fileID: 494617338}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &1961012890
 GameObject:
   m_ObjectHideFlags: 0
@@ -60096,6 +60185,8 @@ MonoBehaviour:
   - {fileID: 2020174447}
   - {fileID: 2019023754}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &2035630920
 GameObject:
   m_ObjectHideFlags: 0
@@ -61478,6 +61569,8 @@ MonoBehaviour:
   - {fileID: 215209985}
   - {fileID: 2110560091}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &2087768242
 GameObject:
   m_ObjectHideFlags: 0
@@ -62446,6 +62539,8 @@ MonoBehaviour:
   - {fileID: 1012538098}
   - {fileID: 2102279833}
   dragsLenght: 1
+  nums: 
+  colloder: []
 --- !u!1 &2125711574
 GameObject:
   m_ObjectHideFlags: 0

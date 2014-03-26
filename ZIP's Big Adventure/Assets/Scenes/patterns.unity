@@ -9496,7 +9496,7 @@ Transform:
   m_GameObject: {fileID: 968029640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1034.23999, y: 775.679993, z: 1}
+  m_LocalScale: {x: 1034.23999, y: 775.680054, z: 1}
   m_Children: []
   m_Father: {fileID: 1607776916}
 --- !u!114 &968029642
@@ -16515,7 +16515,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.98065782, y: .989690661, z: 0}
+  m_LocalPosition: {x: 0, y: 2.17563725, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1607776916}
@@ -17127,7 +17127,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1826679474}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.990356, y: -383.010315, z: 0}
+  m_LocalPosition: {x: -513.087036, y: -382.91217, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 47343391}
@@ -17833,6 +17833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   easyType1: 13
   easyType2: 12
+  clipSpeech: {fileID: 8300000, guid: 8cba0fc95a66ac5449a1332ed51c4f43, type: 3}
   dur: 1.5
 --- !u!1 &1890680920
 GameObject:
@@ -19184,6 +19185,10 @@ Prefab:
       propertyPath: mType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+      propertyPath: clipSpeech
+      value: 
+      objectReference: {fileID: 8300000, guid: 8cba0fc95a66ac5449a1332ed51c4f43, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
   m_RootGameObject: {fileID: 1880594702}

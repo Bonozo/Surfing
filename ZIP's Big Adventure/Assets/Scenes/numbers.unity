@@ -125,13 +125,14 @@ MonoBehaviour:
   - {fileID: 458305792}
   - {fileID: 723598987}
   - {fileID: 789166662}
-  answer1: 4
-  answer2: 6
-  answer3: 8
   rightanswrindex: 2
+  howmany: 0
   ans1: {fileID: 458305791}
   ans2: {fileID: 723598986}
   rightans: {fileID: 1954125681}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &3560665
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +489,8 @@ MonoBehaviour:
   - {fileID: 216609654}
   - {fileID: 2019579752}
   dragsLenght: 5
+  nums: 
+  colloder: []
 --- !u!1 &11733305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1397,13 +1400,14 @@ MonoBehaviour:
   - {fileID: 620241320}
   - {fileID: 2064801827}
   - {fileID: 1179706218}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &21652653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2520,13 +2524,14 @@ MonoBehaviour:
   - {fileID: 1573346200}
   - {fileID: 13764630}
   - {fileID: 1036920653}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &45554885
 GameObject:
   m_ObjectHideFlags: 0
@@ -5040,7 +5045,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 76436034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.980835, y: -383.020416, z: 0}
+  m_LocalPosition: {x: -513.087036, y: -382.91217, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 126601793}
@@ -5220,6 +5225,8 @@ MonoBehaviour:
   - {fileID: 974190056}
   - {fileID: 1877809033}
   dragsLenght: 5
+  nums: 
+  colloder: []
 --- !u!1 &82421515
 GameObject:
   m_ObjectHideFlags: 0
@@ -6546,13 +6553,14 @@ MonoBehaviour:
   - {fileID: 1669827974}
   - {fileID: 495917728}
   - {fileID: 2031247971}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &116572259
 GameObject:
   m_ObjectHideFlags: 0
@@ -8780,6 +8788,8 @@ MonoBehaviour:
   - {fileID: 1506958258}
   - {fileID: 103745310}
   dragsLenght: 2
+  nums: 
+  colloder: []
 --- !u!1 &155359817
 GameObject:
   m_ObjectHideFlags: 0
@@ -9352,13 +9362,14 @@ MonoBehaviour:
   - {fileID: 1698523103}
   - {fileID: 742912518}
   - {fileID: 382437644}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &160551012
 GameObject:
   m_ObjectHideFlags: 0
@@ -9981,13 +9992,14 @@ MonoBehaviour:
   - {fileID: 337120116}
   - {fileID: 1881436438}
   - {fileID: 50002078}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &166585515
 GameObject:
   m_ObjectHideFlags: 0
@@ -11392,13 +11404,14 @@ MonoBehaviour:
   - {fileID: 452139276}
   - {fileID: 1286731530}
   - {fileID: 822606055}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &203429303
 GameObject:
   m_ObjectHideFlags: 0
@@ -11597,13 +11610,14 @@ MonoBehaviour:
   - {fileID: 393827297}
   - {fileID: 482958109}
   - {fileID: 1099703501}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &206672520
 GameObject:
   m_ObjectHideFlags: 0
@@ -11961,13 +11975,14 @@ MonoBehaviour:
   - {fileID: 1528806845}
   - {fileID: 95144190}
   - {fileID: 739842728}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &218220377
 GameObject:
   m_ObjectHideFlags: 0
@@ -14531,13 +14546,14 @@ MonoBehaviour:
   - {fileID: 869143957}
   - {fileID: 1329166965}
   - {fileID: 1924267046}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &262269038
 GameObject:
   m_ObjectHideFlags: 0
@@ -14834,13 +14850,14 @@ MonoBehaviour:
   - {fileID: 380192189}
   - {fileID: 1596908811}
   - {fileID: 767721159}
-  answer1: 4
-  answer2: 5
-  answer3: 6
   rightanswrindex: 1
+  howmany: 0
   ans1: {fileID: 380192188}
   ans2: {fileID: 1596908810}
   rightans: {fileID: 861695429}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &268226234
 GameObject:
   m_ObjectHideFlags: 0
@@ -19191,13 +19208,14 @@ MonoBehaviour:
   - {fileID: 731437784}
   - {fileID: 58451335}
   - {fileID: 1283465193}
-  answer1: 4
-  answer2: 6
-  answer3: 8
   rightanswrindex: 2
+  howmany: 0
   ans1: {fileID: 731437783}
   ans2: {fileID: 58451334}
   rightans: {fileID: 525413435}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &361517826
 GameObject:
   m_ObjectHideFlags: 0
@@ -19433,13 +19451,14 @@ MonoBehaviour:
   - {fileID: 1584231950}
   - {fileID: 1493133524}
   - {fileID: 348584269}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!4 &363848058
 Transform:
   m_ObjectHideFlags: 0
@@ -22528,13 +22547,14 @@ MonoBehaviour:
   - {fileID: 2130844135}
   - {fileID: 1607408894}
   - {fileID: 252564413}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &417461701
 GameObject:
   m_ObjectHideFlags: 0
@@ -28624,6 +28644,8 @@ MonoBehaviour:
   - {fileID: 436111877}
   - {fileID: 1560839326}
   dragsLenght: 3
+  nums: 
+  colloder: []
 --- !u!1 &511433805
 GameObject:
   m_ObjectHideFlags: 0
@@ -28965,13 +28987,14 @@ MonoBehaviour:
   - {fileID: 1814819867}
   - {fileID: 1833669360}
   - {fileID: 1860447752}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &517936789
 GameObject:
   m_ObjectHideFlags: 0
@@ -31932,13 +31955,14 @@ MonoBehaviour:
   - {fileID: 1387436775}
   - {fileID: 1710411426}
   - {fileID: 848314273}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &566713030
 GameObject:
   m_ObjectHideFlags: 0
@@ -35636,13 +35660,14 @@ MonoBehaviour:
   - {fileID: 149325181}
   - {fileID: 744611879}
   - {fileID: 959637578}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &660467159
 GameObject:
   m_ObjectHideFlags: 0
@@ -39374,13 +39399,14 @@ MonoBehaviour:
   - {fileID: 1988215640}
   - {fileID: 971665299}
   - {fileID: 523304141}
-  answer1: 2
-  answer2: 3
-  answer3: 4
   rightanswrindex: 3
+  howmany: 0
   ans1: {fileID: 1988215639}
   ans2: {fileID: 971665298}
   rightans: {fileID: 1109672266}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &720546248
 GameObject:
   m_ObjectHideFlags: 0
@@ -41905,6 +41931,8 @@ MonoBehaviour:
   - {fileID: 778086034}
   - {fileID: 2102322738}
   dragsLenght: 6
+  nums: 
+  colloder: []
 --- !u!1 &761190962
 GameObject:
   m_ObjectHideFlags: 0
@@ -42164,13 +42192,14 @@ MonoBehaviour:
   - {fileID: 719192723}
   - {fileID: 434583570}
   - {fileID: 1361333269}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &766519869
 GameObject:
   m_ObjectHideFlags: 0
@@ -42487,13 +42516,14 @@ MonoBehaviour:
   - {fileID: 1060314218}
   - {fileID: 871186133}
   - {fileID: 2055048688}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &768621144
 GameObject:
   m_ObjectHideFlags: 0
@@ -43381,13 +43411,14 @@ MonoBehaviour:
   - {fileID: 1497502857}
   - {fileID: 1263001029}
   - {fileID: 1378566447}
-  answer1: 6
-  answer2: 7
-  answer3: 8
   rightanswrindex: 2
+  howmany: 0
   ans1: {fileID: 829383876}
   ans2: {fileID: 1497502856}
   rightans: {fileID: 49683406}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &788814693
 GameObject:
   m_ObjectHideFlags: 0
@@ -44999,13 +45030,14 @@ MonoBehaviour:
   - {fileID: 1325742377}
   - {fileID: 456710491}
   - {fileID: 1726841130}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &828773157
 GameObject:
   m_ObjectHideFlags: 0
@@ -45684,13 +45716,14 @@ MonoBehaviour:
   - {fileID: 598445820}
   - {fileID: 1933356586}
   - {fileID: 375802321}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &837416994
 GameObject:
   m_ObjectHideFlags: 0
@@ -49012,13 +49045,14 @@ MonoBehaviour:
   - {fileID: 636270574}
   - {fileID: 1914191896}
   - {fileID: 149192674}
-  answer1: 3
-  answer2: 5
-  answer3: 6
   rightanswrindex: 2
+  howmany: 0
   ans1: {fileID: 636270578}
   ans2: {fileID: 1914191895}
   rightans: {fileID: 1125326650}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &901128885
 GameObject:
   m_ObjectHideFlags: 0
@@ -49812,13 +49846,14 @@ MonoBehaviour:
   - {fileID: 1821927096}
   - {fileID: 1168550753}
   - {fileID: 696626299}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &919850243
 GameObject:
   m_ObjectHideFlags: 0
@@ -51738,13 +51773,14 @@ MonoBehaviour:
   - {fileID: 539188244}
   - {fileID: 2046749828}
   - {fileID: 1932842995}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &951221293
 GameObject:
   m_ObjectHideFlags: 0
@@ -54261,13 +54297,14 @@ MonoBehaviour:
   - {fileID: 2115113032}
   - {fileID: 2020724629}
   - {fileID: 1997820575}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1015222677
 GameObject:
   m_ObjectHideFlags: 0
@@ -54760,13 +54797,14 @@ MonoBehaviour:
   - {fileID: 2115109994}
   - {fileID: 718372082}
   - {fileID: 454060958}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1024597401
 GameObject:
   m_ObjectHideFlags: 0
@@ -54892,13 +54930,14 @@ MonoBehaviour:
   - {fileID: 1089490092}
   - {fileID: 269004212}
   - {fileID: 741395465}
-  answer1: 3
-  answer2: 6
-  answer3: 9
   rightanswrindex: 3
+  howmany: 0
   ans1: {fileID: 1089490091}
   ans2: {fileID: 269004216}
   rightans: {fileID: 386513411}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1027538840
 GameObject:
   m_ObjectHideFlags: 0
@@ -56324,7 +56363,7 @@ Transform:
   m_GameObject: {fileID: 1043487186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1034.23999, y: 775.679993, z: 1}
+  m_LocalScale: {x: 1034.23999, y: 775.680054, z: 1}
   m_Children: []
   m_Father: {fileID: 791153643}
 --- !u!114 &1043487188
@@ -56614,13 +56653,14 @@ MonoBehaviour:
   - {fileID: 170364651}
   - {fileID: 1009029184}
   - {fileID: 307634697}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1047811107
 GameObject:
   m_ObjectHideFlags: 0
@@ -58044,13 +58084,14 @@ MonoBehaviour:
   - {fileID: 2069117206}
   - {fileID: 1912400484}
   - {fileID: 133263227}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1077839968
 GameObject:
   m_ObjectHideFlags: 0
@@ -60627,6 +60668,10 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 791153642}
+    - target: {fileID: 11400002, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
+      propertyPath: clipSpeech
+      value: 
+      objectReference: {fileID: 8300000, guid: f97632aab42bb024f93b82ddf3066075, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
   m_RootGameObject: {fileID: 1654923736}
@@ -65344,13 +65389,14 @@ MonoBehaviour:
   - {fileID: 883836448}
   - {fileID: 842277813}
   - {fileID: 775570535}
-  answer1: 4
-  answer2: 5
-  answer3: 6
   rightanswrindex: 3
+  howmany: 0
   ans1: {fileID: 883836452}
   ans2: {fileID: 842277812}
   rightans: {fileID: 1602527299}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1221867211
 GameObject:
   m_ObjectHideFlags: 0
@@ -65550,13 +65596,14 @@ MonoBehaviour:
   - {fileID: 2089472356}
   - {fileID: 1730499526}
   - {fileID: 999841674}
-  answer1: 8
-  answer2: 9
-  answer3: 10
   rightanswrindex: 1
+  howmany: 0
   ans1: {fileID: 2089472355}
   ans2: {fileID: 1730499525}
   rightans: {fileID: 697852269}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1223114153
 GameObject:
   m_ObjectHideFlags: 0
@@ -68578,13 +68625,14 @@ MonoBehaviour:
   - {fileID: 417461703}
   - {fileID: 885927788}
   - {fileID: 1324596907}
-  answer1: 3
-  answer2: 4
-  answer3: 5
   rightanswrindex: 1
+  howmany: 0
   ans1: {fileID: 348194046}
   ans2: {fileID: 417461707}
   rightans: {fileID: 901132136}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1279679518
 GameObject:
   m_ObjectHideFlags: 0
@@ -68635,13 +68683,14 @@ MonoBehaviour:
   - {fileID: 1039123744}
   - {fileID: 1878393312}
   - {fileID: 1092459000}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1283465191
 GameObject:
   m_ObjectHideFlags: 0
@@ -69005,13 +69054,14 @@ MonoBehaviour:
   - {fileID: 943159184}
   - {fileID: 1449566966}
   - {fileID: 575398384}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1287697706
 GameObject:
   m_ObjectHideFlags: 0
@@ -69063,13 +69113,14 @@ MonoBehaviour:
   - {fileID: 244679186}
   - {fileID: 1860682570}
   - {fileID: 2090902470}
-  answer1: 3
-  answer2: 4
-  answer3: 5
   rightanswrindex: 2
+  howmany: 0
   ans1: {fileID: 244679185}
   ans2: {fileID: 1860682569}
   rightans: {fileID: 1150103701}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1290901780
 GameObject:
   m_ObjectHideFlags: 0
@@ -69616,13 +69667,14 @@ MonoBehaviour:
   - {fileID: 584321743}
   - {fileID: 553867718}
   - {fileID: 971913650}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1306752996
 GameObject:
   m_ObjectHideFlags: 0
@@ -69768,13 +69820,14 @@ MonoBehaviour:
   - {fileID: 1840618435}
   - {fileID: 557359252}
   - {fileID: 1384180261}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1313327192
 GameObject:
   m_ObjectHideFlags: 0
@@ -69826,13 +69879,14 @@ MonoBehaviour:
   - {fileID: 986523477}
   - {fileID: 1122379725}
   - {fileID: 1323798930}
-  answer1: 5
-  answer2: 6
-  answer3: 7
   rightanswrindex: 2
+  howmany: 0
   ans1: {fileID: 986523476}
   ans2: {fileID: 1122379724}
   rightans: {fileID: 1111231368}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1314925650
 GameObject:
   m_ObjectHideFlags: 0
@@ -73839,13 +73893,14 @@ MonoBehaviour:
   - {fileID: 893923892}
   - {fileID: 496925257}
   - {fileID: 2101132362}
-  answer1: 4
-  answer2: 5
-  answer3: 6
   rightanswrindex: 1
+  howmany: 0
   ans1: {fileID: 893923891}
   ans2: {fileID: 496925256}
   rightans: {fileID: 1990509341}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1378566445
 GameObject:
   m_ObjectHideFlags: 0
@@ -74297,13 +74352,14 @@ MonoBehaviour:
   - {fileID: 1207389175}
   - {fileID: 1888848640}
   - {fileID: 995568303}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1387226894
 GameObject:
   m_ObjectHideFlags: 0
@@ -79409,13 +79465,14 @@ MonoBehaviour:
   - {fileID: 1823323899}
   - {fileID: 371474050}
   - {fileID: 2025611306}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1506150797
 GameObject:
   m_ObjectHideFlags: 0
@@ -81733,13 +81790,14 @@ MonoBehaviour:
   - {fileID: 161577283}
   - {fileID: 224399611}
   - {fileID: 1564836845}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1550940358
 GameObject:
   m_ObjectHideFlags: 0
@@ -82275,13 +82333,14 @@ MonoBehaviour:
   - {fileID: 1736240991}
   - {fileID: 1043800649}
   - {fileID: 514407420}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1566348543
 GameObject:
   m_ObjectHideFlags: 0
@@ -82709,13 +82768,14 @@ MonoBehaviour:
   - {fileID: 1040258039}
   - {fileID: 554521732}
   - {fileID: 1736772068}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1575674828
 GameObject:
   m_ObjectHideFlags: 0
@@ -82815,13 +82875,14 @@ MonoBehaviour:
   - {fileID: 1943803795}
   - {fileID: 1741917817}
   - {fileID: 1611335141}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1579737154
 GameObject:
   m_ObjectHideFlags: 0
@@ -84491,13 +84552,14 @@ MonoBehaviour:
   - {fileID: 1154155893}
   - {fileID: 1146521070}
   - {fileID: 442713102}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1606063612
 GameObject:
   m_ObjectHideFlags: 0
@@ -85614,13 +85676,14 @@ MonoBehaviour:
   - {fileID: 930941222}
   - {fileID: 1126893753}
   - {fileID: 1986011194}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1630900493
 GameObject:
   m_ObjectHideFlags: 0
@@ -86605,13 +86668,14 @@ MonoBehaviour:
   - {fileID: 1763618577}
   - {fileID: 1720174721}
   - {fileID: 732566510}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1643693643
 GameObject:
   m_ObjectHideFlags: 0
@@ -86998,13 +87062,14 @@ MonoBehaviour:
   - {fileID: 1258735904}
   - {fileID: 1224019568}
   - {fileID: 1350860075}
-  answer1: 3
-  answer2: 4
-  answer3: 5
   rightanswrindex: 1
+  howmany: 0
   ans1: {fileID: 1258735903}
   ans2: {fileID: 1224019572}
   rightans: {fileID: 918419991}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1654923736
 GameObject:
   m_ObjectHideFlags: 0
@@ -87048,6 +87113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   easyType1: 13
   easyType2: 12
+  clipSpeech: {fileID: 8300000, guid: f97632aab42bb024f93b82ddf3066075, type: 3}
   dur: 1.5
 --- !u!1 &1657323624
 GameObject:
@@ -87505,13 +87571,14 @@ MonoBehaviour:
   - {fileID: 1478965427}
   - {fileID: 1235375675}
   - {fileID: 609542079}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1665325040
 GameObject:
   m_ObjectHideFlags: 0
@@ -87871,7 +87938,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.980842888, y: .979591846, z: 0}
+  m_LocalPosition: {x: 0, y: 2.17563725, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 791153643}
@@ -90734,13 +90801,14 @@ MonoBehaviour:
   - {fileID: 1993305861}
   - {fileID: 2071233452}
   - {fileID: 460773181}
-  answer1: 3
-  answer2: 4
-  answer3: 5
   rightanswrindex: 2
+  howmany: 0
   ans1: {fileID: 1993305860}
   ans2: {fileID: 2071233451}
   rightans: {fileID: 230223904}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1712582512
 GameObject:
   m_ObjectHideFlags: 0
@@ -93362,13 +93430,14 @@ MonoBehaviour:
   - {fileID: 2110377606}
   - {fileID: 134032258}
   - {fileID: 243879282}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1762783412
 GameObject:
   m_ObjectHideFlags: 0
@@ -94095,13 +94164,14 @@ MonoBehaviour:
   - {fileID: 1141938899}
   - {fileID: 1362185364}
   - {fileID: 808143261}
-  answer1: 2
-  answer2: 3
-  answer3: 4
   rightanswrindex: 2
+  howmany: 0
   ans1: {fileID: 1141938898}
   ans2: {fileID: 1362185363}
   rightans: {fileID: 695242255}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1780032748
 GameObject:
   m_ObjectHideFlags: 0
@@ -95380,13 +95450,14 @@ MonoBehaviour:
   - {fileID: 1269313868}
   - {fileID: 1074250060}
   - {fileID: 782828852}
-  answer1: 3
-  answer2: 4
-  answer3: 5
   rightanswrindex: 1
+  howmany: 0
   ans1: {fileID: 1269313867}
   ans2: {fileID: 1074250059}
   rightans: {fileID: 1224914715}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1810761385
 GameObject:
   m_ObjectHideFlags: 0
@@ -100291,6 +100362,8 @@ MonoBehaviour:
   - {fileID: 1159289495}
   - {fileID: 523846819}
   dragsLenght: 4
+  nums: 
+  colloder: []
 --- !u!1 &1922554725
 GameObject:
   m_ObjectHideFlags: 0
@@ -101925,13 +101998,14 @@ MonoBehaviour:
   - {fileID: 2107801881}
   - {fileID: 1753333839}
   - {fileID: 1458027882}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &1947355231
 GameObject:
   m_ObjectHideFlags: 0
@@ -105558,13 +105632,14 @@ MonoBehaviour:
   - {fileID: 12510910}
   - {fileID: 1983643922}
   - {fileID: 820281541}
-  answer1: 1
-  answer2: 5
-  answer3: 7
   rightanswrindex: 3
+  howmany: 0
   ans1: {fileID: 12510914}
   ans2: {fileID: 1983643921}
   rightans: {fileID: 481421764}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &2017327287
 GameObject:
   m_ObjectHideFlags: 0
@@ -105967,13 +106042,14 @@ MonoBehaviour:
   - {fileID: 1450162355}
   - {fileID: 1157026346}
   - {fileID: 488987852}
-  answer1: 5
-  answer2: 6
-  answer3: 7
   rightanswrindex: 1
+  howmany: 0
   ans1: {fileID: 1450162354}
   ans2: {fileID: 1157026345}
   rightans: {fileID: 1202072346}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &2025611303
 GameObject:
   m_ObjectHideFlags: 0
@@ -106529,13 +106605,14 @@ MonoBehaviour:
   - {fileID: 455786408}
   - {fileID: 1072213101}
   - {fileID: 526433841}
-  answer1: 0
-  answer2: 0
-  answer3: 0
   rightanswrindex: 0
+  howmany: 0
   ans1: {fileID: 0}
   ans2: {fileID: 0}
   rightans: {fileID: 0}
+  hms: []
+  shapes: {fileID: 0}
+  shapeX: {fileID: 0}
 --- !u!1 &2037957004
 GameObject:
   m_ObjectHideFlags: 0
@@ -112086,6 +112163,8 @@ MonoBehaviour:
   - {fileID: 914455814}
   - {fileID: 1630900495}
   dragsLenght: 7
+  nums: 
+  colloder: []
 --- !u!1 &2143558791
 GameObject:
   m_ObjectHideFlags: 0

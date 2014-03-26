@@ -5,9 +5,16 @@ public class GameBlockIntro : MonoBehaviour {
 	
 	public iTween.EaseType easyType1 = iTween.EaseType.linear;
 	public iTween.EaseType easyType2 = iTween.EaseType.linear;
+	public AudioClip clipSpeech;
 	private Vector3 from = new Vector3 (-2500f, 0f, 0f);
 	private Vector3 to = new Vector3(2500f,0f,0f);
 	public float dur = 2f;
+
+	void Awake()
+	{
+		gameObject.AddComponent<AudioSource> ();
+		audio.clip = clipSpeech;
+	}
 
 	public void Reset()
 	{
@@ -20,6 +27,7 @@ public class GameBlockIntro : MonoBehaviour {
 		transform.localPosition = from;
 		iTween.MoveTo(gameObject,iTween.Hash("position",Vector3.zero,"easetype",easyType1,"time",dur,"islocal",true));
 		yield return new WaitForSeconds (dur + 0.1f);
+		audio.Play ();
 	}
 
 	public IEnumerator GoAway()
