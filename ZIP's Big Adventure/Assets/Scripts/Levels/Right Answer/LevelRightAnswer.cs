@@ -171,8 +171,10 @@ public class LevelRightAnswer : ZIPLevel {
 	
 	public void Initialize()
 	{
-		//if(transform.FindChild ("Game").FindChild ("_begin") != null)
-		//	DestroyImmediate(transform.FindChild ("Game").FindChild ("_begin").gameObject);
+		if(transform.FindChild ("Game").FindChild ("_begin") != null)
+			DestroyImmediate(transform.FindChild ("Game").FindChild ("_begin").gameObject);
+		return;
+
 		//ans1.GetComponent<BoxCollider> ().size = new Vector3 (2f, 1.5f, 1f);
 		//ans2.GetComponent<BoxCollider> ().size = new Vector3 (2f, 1.5f, 1f);
 		//rightans.GetComponent<BoxCollider> ().size = new Vector3 (2f, 1.5f, 1f);
