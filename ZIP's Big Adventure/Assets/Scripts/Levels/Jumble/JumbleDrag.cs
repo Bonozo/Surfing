@@ -7,7 +7,9 @@ public class JumbleDrag : MonoBehaviour {
 	public LevelJumble level;
 	public Collider[] targetCollider;
 	public bool convertTargetToBox = true;
-	
+	public bool distanceMode = false;
+
+	private float distanceModeDistance =125f;
 	private Vector3 initialPosition;
 	private float dragTime;
 	
@@ -66,8 +68,12 @@ public class JumbleDrag : MonoBehaviour {
 
 			foreach(var col in targetCollider)
 			{
-				if( other.collider == col)
+				bool firstcond = (!distanceMode && other.collider == col);
+				bool secondcond = (distanceMode && 
+				     Vector2.Distance(other.transform.localPosition,transform.localPosition) < distanceModeDistance);
+				if( firstcond || secondcond )
 				{
+					Debug.Log(Vector2.Distance(other.transform.localPosition,transform.localPosition));
 					StartCoroutine(HappyEnd(col));
 					GameController.Instance.PlayCorrectAnswer();
 					return;
@@ -75,8 +81,11 @@ public class JumbleDrag : MonoBehaviour {
 			}
 
 			// Not a correct collider
-			GameController.Instance.PlayWrongAnswer();
-			StartCoroutine(BackToInitialPlace());
+			if(!distanceMode)
+			{
+				GameController.Instance.PlayWrongAnswer();
+				StartCoroutine(BackToInitialPlace());
+			}
 		}
 	}
 

@@ -152,8 +152,11 @@ public class LevelJumble : ZIPLevel {
 
 	#endregion
 
-	public int[] nums;
-	public Collider[] colloder;
+	#region Editor Shapes/PreK/Drag
+
+	public string txt;
+	public UISprite[] box, item;
+	public UISprite gray;
 
 	public void Initialize()
 	{
@@ -162,9 +165,16 @@ public class LevelJumble : ZIPLevel {
 		transform.localPosition = Vector3.zero;
 		transform.localScale = new Vector3 (1f, 1f, 1f);
 
-		for(int i=0;i<4;i++)
+		for(int i=0;i<item.Length;i++)
 		{
-			drags[nums[i]-1].targetCollider[0] = colloder[i];
+			box[i].spriteName = item[i].spriteName = txt+(i+1).ToString();
+			box[i].MakePixelPerfect();
+			item[i].MakePixelPerfect();
+			item[i].GetComponent<JumbleDrag>().targetCollider[0] = box[i].collider;
 		}
+		gray.spriteName = txt + " Gray";
+		gray.MakePixelPerfect ();
 	}
+
+	#endregion
 }
