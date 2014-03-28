@@ -73,7 +73,6 @@ public class JumbleDrag : MonoBehaviour {
 				     Vector2.Distance(other.transform.localPosition,transform.localPosition) < distanceModeDistance);
 				if( firstcond || secondcond )
 				{
-					Debug.Log(Vector2.Distance(other.transform.localPosition,transform.localPosition));
 					StartCoroutine(HappyEnd(col));
 					GameController.Instance.PlayCorrectAnswer();
 					return;

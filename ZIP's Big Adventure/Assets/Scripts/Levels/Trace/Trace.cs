@@ -10,6 +10,7 @@ public class Trace : MonoBehaviour {
 	[SerializeField]
 	public ZIPTrace levelTrace;
 	public Transform traceStar;
+	public string spriteName;
 	private int completed = 1;
 	private int total = 0;
 	private TraceElement[] elems;
@@ -74,7 +75,7 @@ public class Trace : MonoBehaviour {
 		for(int i=0;i<transform.childCount;i++)
 		{
 			transform.GetChild(i).name = "elem" + (i+1);
-			transform.GetChild(i).GetComponent<UISprite>().spriteName = "whitecyrcle";
+			transform.GetChild(i).GetComponent<UISprite>().spriteName = spriteName;
 			transform.GetChild(i).GetComponent<TraceElement>().index=i+1;
 			transform.GetChild(i).GetComponent<UISprite>().depth = editorDepth;
 			transform.GetChild(i).GetComponent<UISprite>().color = editorColor;

@@ -6,7 +6,6 @@ public class LevelTraceThePath : ZIPTrace {
 	public GameBlock gameBlock;
 	public GameObject area;
 	public Trace trace;
-	public AudioClip clipCorrectAnswer;
 
 	public override void StartGame ()
 	{
@@ -21,7 +20,7 @@ public class LevelTraceThePath : ZIPTrace {
 
 	IEnumerator HappyEnd()
 	{
-		AudioSource.PlayClipAtPoint(clipCorrectAnswer,transform.position);
+		GameController.Instance.PlayCorrectAnswer ();
 		iTween.ShakeRotation (area, new Vector3 (0f, 0f, 1.33f), 1f);
 		yield return new WaitForSeconds(1f);
 		gameBlock.path.OneStepGo();
