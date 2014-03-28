@@ -8,6 +8,7 @@ public class OpenLinkWithReward : MonoBehaviour {
 	public bool disableButton = false;
 	public GameObject disableGameObject = null;
 	private bool dowork = false;
+	private bool blocked = false;
 
 	void Awake()
 	{
@@ -18,7 +19,7 @@ public class OpenLinkWithReward : MonoBehaviour {
 	void OnClick()
 	{
 		if(dowork) return;
-		if(disableButton) return;
+		if(blocked) return;
 		Application.OpenURL(url);
 		if( PlayerPrefs.GetInt("opened"+url,0)==0)
 			StartCoroutine(DoWork());
@@ -26,6 +27,7 @@ public class OpenLinkWithReward : MonoBehaviour {
 
 	void Block()
 	{
+		blocked = true;
 		if(disableGameObject!=null) disableGameObject.SetActive(false);
 		if(disableButton)
 		{
