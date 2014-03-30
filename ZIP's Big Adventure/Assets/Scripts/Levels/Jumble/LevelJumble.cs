@@ -153,7 +153,7 @@ public class LevelJumble : ZIPLevel {
 
 	#region Editor Shapes/PreK/Drag
 
-	public string txt;
+	/*public string txt;
 	public UISprite[] box, item;
 	public UISprite gray;
 
@@ -173,6 +173,67 @@ public class LevelJumble : ZIPLevel {
 		}
 		gray.spriteName = txt + " Gray";
 		gray.MakePixelPerfect ();
+	}*/
+
+	#endregion
+
+	#region Editor Letters/PreK/Dragging
+
+	public string word;
+	public Transform box;
+	public int singleDistance = 200;
+
+	public void Initialize()
+	{
+		box.transform.localPosition = new Vector3 (0f, -20f, 0f);
+		return;
+
+		gameBlock.level [0] = this;
+		
+		transform.localPosition = Vector3.zero;
+		transform.localScale = new Vector3 (1f, 1f, 1f);
+		
+		dragsLenght = word.Length;
+		drags = new JumbleDrag[dragsLenght];
+
+		for(int i=1;i<=7;i++)
+		{
+			box.FindChild("box"+i).gameObject.SetActive(i<=dragsLenght);
+			box.FindChild("letter"+i).gameObject.SetActive(i<=dragsLenght);
+		}
+
+		int distdelta = singleDistance * (dragsLenght-1) / 2;
+		for(int i=1;i<=dragsLenght;i++)
+		{
+			drags[i-1] = box.Find("letter"+i).GetComponent<JumbleDrag>();
+			MP(box.FindChild("box"+i),"gray"+word[i-1]);
+			MP (box.Find("letter"+i),""+word[i-1]);
+
+			box.FindChild("box"+i).transform.localPosition = new Vector3(-distdelta+(i-1)*singleDistance,20f,0f);
+			box.FindChild("letter"+i).transform.localPosition = new Vector3(-distdelta+(i-1)*singleDistance,230f,0f);
+
+			var current = box.FindChild("letter"+i).GetComponent<JumbleDrag>();
+			int count = 0; for(int j=0;j<drags.Length;j++) if(word[j] == word[i-1]) count++;
+			current.targetCollider = new Collider[count];
+			for(int j=0,k=0;j<drags.Length;j++) 
+				if(word[j] == word[i-1])
+				{
+					current.targetCollider[k++] = box.FindChild("box"+(j+1)).collider;
+				}
+
+			float randY = (Random.Range(0,10)>5)?230:-190;
+			float randX = Random.Range(-distdelta-50,distdelta+50);
+			box.FindChild("letter"+i).transform.localPosition = new Vector3(randX,randY,0f);
+		}
+	}
+
+	void MP(Transform tr ,string nm)
+	{
+		var sprite = tr.GetComponent<UISprite> ();
+		sprite.spriteName = nm;
+		sprite.type = UISprite.Type.Simple;
+		sprite.MakePixelPerfect ();
+		sprite.type = UISprite.Type.Sliced;
 	}
 
 	#endregion

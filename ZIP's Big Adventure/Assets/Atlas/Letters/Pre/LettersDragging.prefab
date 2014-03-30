@@ -1,0 +1,543 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: LettersDragging
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: d6ed14218ad1411459af7b1834b7d0bb, type: 2}
+  sprites:
+  - name: Cake
+    outer:
+      serializedVersion: 2
+      x: 1354
+      y: 419
+      width: 265
+      height: 289
+    inner:
+      serializedVersion: 2
+      x: 1354
+      y: 419
+      width: 265
+      height: 289
+    rotated: 0
+    paddingLeft: .154716983
+    paddingRight: .298113197
+    paddingTop: 0
+    paddingBottom: .114186853
+  - name: Text
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 1549
+      width: 1022
+      height: 215
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 1549
+      width: 1022
+      height: 215
+    rotated: 0
+    paddingLeft: .0675146803
+    paddingRight: .045988258
+    paddingTop: .139534891
+    paddingBottom: .186046511
+  - name: Bubble Gum Machine
+    outer:
+      serializedVersion: 2
+      x: 1128
+      y: 561
+      width: 225
+      height: 374
+    inner:
+      serializedVersion: 2
+      x: 1128
+      y: 561
+      width: 225
+      height: 374
+    rotated: 0
+    paddingLeft: .208888888
+    paddingRight: .315555543
+    paddingTop: .0320855603
+    paddingBottom: .0828877017
+  - name: Kristy Kitty on Phone
+    outer:
+      serializedVersion: 2
+      x: 1354
+      y: 709
+      width: 347
+      height: 226
+    inner:
+      serializedVersion: 2
+      x: 1354
+      y: 709
+      width: 347
+      height: 226
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .135446683
+    paddingTop: .115044251
+    paddingBottom: .185840711
+  - name: Princess patty Drawing
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 433
+      width: 442
+      height: 305
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 433
+      width: 442
+      height: 305
+    rotated: 0
+    paddingLeft: .104072399
+    paddingRight: .113122173
+    paddingTop: .157377049
+    paddingBottom: .19016394
+  - name: Crayons
+    outer:
+      serializedVersion: 2
+      x: 1483
+      y: 1000
+      width: 492
+      height: 181
+    inner:
+      serializedVersion: 2
+      x: 1483
+      y: 1000
+      width: 492
+      height: 181
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .174796745
+    paddingTop: .3038674
+    paddingBottom: .171270713
+  - name: Princess patty and castle
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 739
+      width: 466
+      height: 442
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 739
+      width: 466
+      height: 442
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .111587986
+    paddingTop: .0882352963
+    paddingBottom: .085972853
+  - name: Marty Falling
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 123
+      width: 426
+      height: 309
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 123
+      width: 426
+      height: 309
+    rotated: 0
+    paddingLeft: .0704225376
+    paddingRight: .126760557
+    paddingTop: .103559874
+    paddingBottom: .168284789
+  - name: Honey  Bunny eating carrot
+    outer:
+      serializedVersion: 2
+      x: 1690
+      y: 1186
+      width: 281
+      height: 320
+    inner:
+      serializedVersion: 2
+      x: 1690
+      y: 1186
+      width: 281
+      height: 320
+    rotated: 0
+    paddingLeft: .0889679715
+    paddingRight: .174377218
+    paddingTop: .121875003
+    paddingBottom: .162499994
+  - name: Princess Patty in different Dress
+    outer:
+      serializedVersion: 2
+      x: 841
+      y: 595
+      width: 286
+      height: 340
+    inner:
+      serializedVersion: 2
+      x: 841
+      y: 595
+      width: 286
+      height: 340
+    rotated: 0
+    paddingLeft: .216783211
+    paddingRight: .255244762
+    paddingTop: .0911764726
+    paddingBottom: .161764711
+  - name: Zip with first place ribbon
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 451
+      width: 308
+      height: 419
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 451
+      width: 308
+      height: 419
+    rotated: 0
+    paddingLeft: .188311681
+    paddingRight: .198051944
+    paddingTop: .050119333
+    paddingBottom: .0453460626
+  - name: Drag Flower_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1507
+      width: 892
+      height: 541
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1507
+      width: 892
+      height: 541
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0795964152
+    paddingTop: .0443622917
+    paddingBottom: 0
+  - name: Green ball on Green grass
+    outer:
+      serializedVersion: 2
+      x: 841
+      y: 936
+      width: 641
+      height: 245
+    inner:
+      serializedVersion: 2
+      x: 841
+      y: 936
+      width: 641
+      height: 245
+    rotated: 0
+    paddingLeft: .0842433721
+    paddingRight: .0639625564
+    paddingTop: .318367332
+    paddingBottom: .175510198
+  - name: Elephant
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 171
+      width: 359
+      height: 279
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 171
+      width: 359
+      height: 279
+    rotated: 0
+    paddingLeft: .155988857
+    paddingRight: .200557098
+    paddingTop: .0931899622
+    paddingBottom: .186379924
+  - name: Princess
+    outer:
+      serializedVersion: 2
+      x: 841
+      y: 265
+      width: 286
+      height: 329
+    inner:
+      serializedVersion: 2
+      x: 841
+      y: 265
+      width: 286
+      height: 329
+    rotated: 0
+    paddingLeft: .171328679
+    paddingRight: .174825177
+    paddingTop: .10942249
+    paddingBottom: .124620058
+  - name: Mouse
+    outer:
+      serializedVersion: 2
+      x: 571
+      y: 16
+      width: 161
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 571
+      y: 16
+      width: 161
+      height: 106
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .298136652
+    paddingTop: .396226406
+    paddingBottom: .471698105
+  - name: Barry Bear Laughing
+    outer:
+      serializedVersion: 2
+      x: 1620
+      y: 435
+      width: 256
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 1620
+      y: 435
+      width: 256
+      height: 273
+    rotated: 0
+    paddingLeft: .11328125
+    paddingRight: .14453125
+    paddingTop: .0879120901
+    paddingBottom: .109890111
+  - name: Marty Moose
+    outer:
+      serializedVersion: 2
+      x: 1354
+      y: 137
+      width: 265
+      height: 281
+    inner:
+      serializedVersion: 2
+      x: 1354
+      y: 137
+      width: 265
+      height: 281
+    rotated: 0
+    paddingLeft: .128301889
+    paddingRight: .177358493
+    paddingTop: .110320285
+    paddingBottom: .0854092538
+  - name: Zip
+    outer:
+      serializedVersion: 2
+      x: 1824
+      y: 1772
+      width: 210
+      height: 276
+    inner:
+      serializedVersion: 2
+      x: 1824
+      y: 1772
+      width: 210
+      height: 276
+    rotated: 0
+    paddingLeft: .252380967
+    paddingRight: .338095248
+    paddingTop: .144927531
+    paddingBottom: .181159422
+  - name: Lucky Running
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 1182
+      width: 680
+      height: 324
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 1182
+      width: 680
+      height: 324
+    rotated: 0
+    paddingLeft: .0705882385
+    paddingRight: .0823529437
+    paddingTop: .160493821
+    paddingBottom: .154320985
+  - name: Lucky Puppy with Bone
+    outer:
+      serializedVersion: 2
+      x: 841
+      y: 45
+      width: 185
+      height: 219
+    inner:
+      serializedVersion: 2
+      x: 841
+      y: 45
+      width: 185
+      height: 219
+    rotated: 0
+    paddingLeft: .205405399
+    paddingRight: .21081081
+    paddingTop: .1369863
+    paddingBottom: .12328767
+  - name: Yellow flower with sun
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 871
+      width: 373
+      height: 635
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 871
+      width: 373
+      height: 635
+    rotated: 0
+    paddingLeft: .0723860562
+    paddingRight: .128686324
+    paddingTop: .0629921257
+    paddingBottom: .066141732
+  - name: Purple Flower
+    outer:
+      serializedVersion: 2
+      x: 1128
+      y: 244
+      width: 195
+      height: 316
+    inner:
+      serializedVersion: 2
+      x: 1128
+      y: 244
+      width: 195
+      height: 316
+    rotated: 0
+    paddingLeft: .317948729
+    paddingRight: .317948729
+    paddingTop: .145569623
+    paddingBottom: .155063286
+  - name: Zip, Marty and Barry Playing
+    outer:
+      serializedVersion: 2
+      x: 1055
+      y: 1208
+      width: 634
+      height: 298
+    inner:
+      serializedVersion: 2
+      x: 1055
+      y: 1208
+      width: 634
+      height: 298
+    rotated: 0
+    paddingLeft: .0599369071
+    paddingRight: .0630914792
+    paddingTop: 0
+    paddingBottom: .171140939
+  - name: Purple Car
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 7
+      width: 358
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 7
+      width: 358
+      height: 163
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .106145248
+    paddingTop: .325153381
+    paddingBottom: .220858902
+  - name: Purple Shoe
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 10
+      width: 196
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 10
+      width: 196
+      height: 112
+    rotated: 0
+    paddingLeft: .290816337
+    paddingRight: .321428567
+    paddingTop: .375
+    paddingBottom: .660714269
+  - name: Zip drinking out of a pond
+    outer:
+      serializedVersion: 2
+      x: 893
+      y: 1765
+      width: 930
+      height: 283
+    inner:
+      serializedVersion: 2
+      x: 893
+      y: 1765
+      width: 930
+      height: 283
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0666666701
+    paddingTop: .335689038
+    paddingBottom: .169611305
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
