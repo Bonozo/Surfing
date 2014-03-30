@@ -31,4 +31,9 @@ public class Title : MonoBehaviour {
 			gameObject.SetActive(false);
 		}
 	}
+
+	void Start()
+	{
+		Resources.UnloadUnusedAssets();
+	}
 }

@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class LevelTrace : ZIPTrace {
-
-	public GameBlock gameBlock;
+	
 	public Trace trace;
 	public EndItem[] endItems;
 

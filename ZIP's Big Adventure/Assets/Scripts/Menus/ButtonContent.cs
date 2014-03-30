@@ -3,17 +3,18 @@ using System.Collections;
 
 public class ButtonContent : MonoBehaviour {
 
-	public string levelName;
+	public GameType gameType;
 
 	void Awake()
 	{
-		if (PlayerPrefs.HasKey (levelName))
-						this.GetComponent<UIButton> ().isEnabled = false;
+		if (PlayerPrefs.HasKey (gameType.ToString()))
+			this.GetComponent<UIButton> ().isEnabled = false;
 	}
 
 	void OnClick()
 	{
-		Loader.sceneName = levelName;
+		GameController.gameType = gameType;
+		Loader.sceneName = gameType.ToString();
 		Application.LoadLevel ("loader");
 	}
 }

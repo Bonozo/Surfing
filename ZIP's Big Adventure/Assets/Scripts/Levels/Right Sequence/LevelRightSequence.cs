@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class LevelRightSequence : ZIPLevel {
-
-	public GameBlock gameBlock;
+	
 	public int countBy;
 
 	private int current;

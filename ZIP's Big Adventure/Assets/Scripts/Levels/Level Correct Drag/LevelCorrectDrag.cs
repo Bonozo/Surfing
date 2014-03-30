@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class LevelCorrectDrag : ZIPLevel {
-
-	public GameBlock gameBlock;
+	
 	public DragZIP dragZIP;
 	public GameObject rightAnswer;
 	public float happyEndScale = 2f;

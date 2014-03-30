@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class LevelWhatIsNext : ZIPLevel {
-	public GameBlock gameBlock;
+	
 	public UISprite basicEndSprite;
 	public WhatIsNextDrag[] items;
 	public WhatIsNextDrag correctAnswer;

@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class LevelJumble : ZIPLevel {
-
-	public GameBlock gameBlock;
+	
 	public JumbleDrag[] drags;
 	public EndItem[] endItems;
 	public int dragsLenght;

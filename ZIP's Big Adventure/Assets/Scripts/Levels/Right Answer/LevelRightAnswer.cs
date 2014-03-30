@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class LevelRightAnswer : ZIPLevel {
-
-	public GameBlock gameBlock;
+	
 	public LevelRightAnswerButton[] buttons;
 	public LevelRightAnswerButton correctAnswer;
 	public EndItem[] endItems;

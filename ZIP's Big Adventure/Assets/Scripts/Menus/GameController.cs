@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour {
 	#region Settings
 
 	public static GameLevel gameLevel = GameLevel.Kindergarten;
-	public static GameType gameType;
+	public static GameType gameType = GameType.shapes;
 
 	#endregion
 

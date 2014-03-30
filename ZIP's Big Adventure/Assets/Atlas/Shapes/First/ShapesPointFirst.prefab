@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: There are ...
     outer:
       serializedVersion: 2
-      x: 843
-      y: 3108
+      x: 1514
+      y: 1979
       width: 506
       height: 69
     inner:
       serializedVersion: 2
-      x: 843
-      y: 3108
+      x: 1514
+      y: 1979
       width: 506
       height: 69
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: 2
     outer:
       serializedVersion: 2
-      x: 1732
-      y: 3187
+      x: 255
+      y: 327
       width: 48
       height: 73
     inner:
       serializedVersion: 2
-      x: 1732
-      y: 3187
+      x: 255
+      y: 327
       width: 48
       height: 73
     rotated: 0
@@ -79,14 +79,14 @@ MonoBehaviour:
   - name: 3
     outer:
       serializedVersion: 2
-      x: 1683
-      y: 3186
+      x: 1997
+      y: 1357
       width: 48
       height: 74
     inner:
       serializedVersion: 2
-      x: 1683
-      y: 3186
+      x: 1997
+      y: 1357
       width: 48
       height: 74
     rotated: 0
@@ -98,13 +98,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 2456
+      y: 1327
       width: 1220
       height: 104
     inner:
       serializedVersion: 2
       x: 0
-      y: 2456
+      y: 1327
       width: 1220
       height: 104
     rotated: 0
@@ -116,13 +116,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 2561
+      y: 1432
       width: 842
       height: 616
     inner:
       serializedVersion: 2
       x: 0
-      y: 2561
+      y: 1432
       width: 842
       height: 616
     rotated: 0
@@ -133,14 +133,14 @@ MonoBehaviour:
   - name: 5
     outer:
       serializedVersion: 2
-      x: 1781
-      y: 3187
+      x: 206
+      y: 327
       width: 48
       height: 73
     inner:
       serializedVersion: 2
-      x: 1781
-      y: 3187
+      x: 206
+      y: 327
       width: 48
       height: 73
     rotated: 0
@@ -151,14 +151,14 @@ MonoBehaviour:
   - name: 4
     outer:
       serializedVersion: 2
-      x: 1632
-      y: 3187
+      x: 1946
+      y: 1358
       width: 50
       height: 73
     inner:
       serializedVersion: 2
-      x: 1632
-      y: 3187
+      x: 1946
+      y: 1358
       width: 50
       height: 73
     rotated: 0
@@ -169,14 +169,14 @@ MonoBehaviour:
   - name: 2H
     outer:
       serializedVersion: 2
-      x: 1442
-      y: 3351
+      x: 1514
+      y: 1807
       width: 180
       height: 171
     inner:
       serializedVersion: 2
-      x: 1442
-      y: 3351
+      x: 1514
+      y: 1807
       width: 180
       height: 171
     rotated: 0
@@ -187,14 +187,14 @@ MonoBehaviour:
   - name: Yellow Oval
     outer:
       serializedVersion: 2
-      x: 1471
-      y: 3087
+      x: 1367
+      y: 1341
       width: 145
       height: 90
     inner:
       serializedVersion: 2
-      x: 1471
-      y: 3087
+      x: 1367
+      y: 1341
       width: 145
       height: 90
     rotated: 0
@@ -205,14 +205,14 @@ MonoBehaviour:
   - name: Green Oval
     outer:
       serializedVersion: 2
-      x: 1617
-      y: 3087
+      x: 1221
+      y: 1341
       width: 145
       height: 90
     inner:
       serializedVersion: 2
-      x: 1617
-      y: 3087
+      x: 1221
+      y: 1341
       width: 145
       height: 90
     rotated: 0
@@ -223,14 +223,14 @@ MonoBehaviour:
   - name: Orange Oval
     outer:
       serializedVersion: 2
-      x: 1471
-      y: 2996
+      x: 1901
+      y: 1438
       width: 145
       height: 90
     inner:
       serializedVersion: 2
-      x: 1471
-      y: 2996
+      x: 1901
+      y: 1438
       width: 145
       height: 90
     rotated: 0
@@ -241,14 +241,14 @@ MonoBehaviour:
   - name: Purple Rectangle
     outer:
       serializedVersion: 2
-      x: 1471
-      y: 2822
+      x: 336
+      y: 1240
       width: 140
       height: 86
     inner:
       serializedVersion: 2
-      x: 1471
-      y: 2822
+      x: 336
+      y: 1240
       width: 140
       height: 86
     rotated: 0
@@ -259,14 +259,14 @@ MonoBehaviour:
   - name: Purple Oval
     outer:
       serializedVersion: 2
-      x: 1763
-      y: 3087
+      x: 1513
+      y: 1341
       width: 145
       height: 90
     inner:
       serializedVersion: 2
-      x: 1763
-      y: 3087
+      x: 1513
+      y: 1341
       width: 145
       height: 90
     rotated: 0
@@ -277,14 +277,14 @@ MonoBehaviour:
   - name: Yellow Triangle
     outer:
       serializedVersion: 2
-      x: 1004
-      y: 2824
+      x: 1876
+      y: 1842
       width: 160
       height: 136
     inner:
       serializedVersion: 2
-      x: 1004
-      y: 2824
+      x: 1876
+      y: 1842
       width: 160
       height: 136
     rotated: 0
@@ -295,14 +295,14 @@ MonoBehaviour:
   - name: Green Circle
     outer:
       serializedVersion: 2
-      x: 1004
-      y: 2570
+      x: 206
+      y: 1073
       width: 129
       height: 126
     inner:
       serializedVersion: 2
-      x: 1004
-      y: 2570
+      x: 206
+      y: 1073
       width: 129
       height: 126
     rotated: 0
@@ -313,14 +313,14 @@ MonoBehaviour:
   - name: Purple Square
     outer:
       serializedVersion: 2
-      x: 1350
-      y: 2954
+      x: 206
+      y: 625
       width: 120
       height: 111
     inner:
       serializedVersion: 2
-      x: 1350
-      y: 2954
+      x: 206
+      y: 625
       width: 120
       height: 111
     rotated: 0
@@ -331,14 +331,14 @@ MonoBehaviour:
   - name: Orange Circle
     outer:
       serializedVersion: 2
-      x: 1165
-      y: 2834
+      x: 1901
+      y: 1680
       width: 129
       height: 126
     inner:
       serializedVersion: 2
-      x: 1165
-      y: 2834
+      x: 1901
+      y: 1680
       width: 129
       height: 126
     rotated: 0
@@ -349,14 +349,14 @@ MonoBehaviour:
   - name: Purple Triangle
     outer:
       serializedVersion: 2
-      x: 843
-      y: 2687
+      x: 0
+      y: 300
       width: 160
       height: 136
     inner:
       serializedVersion: 2
-      x: 843
-      y: 2687
+      x: 0
+      y: 300
       width: 160
       height: 136
     rotated: 0
@@ -367,14 +367,14 @@ MonoBehaviour:
   - name: Orange Rectangle
     outer:
       serializedVersion: 2
-      x: 1904
-      y: 3000
+      x: 1805
+      y: 1345
       width: 140
       height: 86
     inner:
       serializedVersion: 2
-      x: 1904
-      y: 3000
+      x: 1805
+      y: 1345
       width: 140
       height: 86
     rotated: 0
@@ -385,14 +385,14 @@ MonoBehaviour:
   - name: Red Circle
     outer:
       serializedVersion: 2
-      x: 1205
-      y: 2981
+      x: 1901
+      y: 1529
       width: 129
       height: 126
     inner:
       serializedVersion: 2
-      x: 1205
-      y: 2981
+      x: 1901
+      y: 1529
       width: 129
       height: 126
     rotated: 0
@@ -403,14 +403,14 @@ MonoBehaviour:
   - name: Blue Square
     outer:
       serializedVersion: 2
-      x: 1350
-      y: 3066
+      x: 206
+      y: 737
       width: 120
       height: 111
     inner:
       serializedVersion: 2
-      x: 1350
-      y: 3066
+      x: 206
+      y: 737
       width: 120
       height: 111
     rotated: 0
@@ -421,14 +421,14 @@ MonoBehaviour:
   - name: yellow Square
     outer:
       serializedVersion: 2
-      x: 1134
-      y: 2600
+      x: 206
+      y: 849
       width: 120
       height: 111
     inner:
       serializedVersion: 2
-      x: 1134
-      y: 2600
+      x: 206
+      y: 849
       width: 120
       height: 111
     rotated: 0
@@ -439,14 +439,14 @@ MonoBehaviour:
   - name: Pink Triangle
     outer:
       serializedVersion: 2
-      x: 1044
-      y: 2971
+      x: 0
+      y: 26
       width: 160
       height: 136
     inner:
       serializedVersion: 2
-      x: 1044
-      y: 2971
+      x: 0
+      y: 26
       width: 160
       height: 136
     rotated: 0
@@ -457,14 +457,14 @@ MonoBehaviour:
   - name: Red Square
     outer:
       serializedVersion: 2
-      x: 1134
-      y: 2712
+      x: 206
+      y: 961
       width: 120
       height: 111
     inner:
       serializedVersion: 2
-      x: 1134
-      y: 2712
+      x: 206
+      y: 961
       width: 120
       height: 111
     rotated: 0
@@ -475,14 +475,14 @@ MonoBehaviour:
   - name: Blue Triangle
     outer:
       serializedVersion: 2
-      x: 843
-      y: 2824
+      x: 1514
+      y: 1498
       width: 160
       height: 136
     inner:
       serializedVersion: 2
-      x: 843
-      y: 2824
+      x: 1514
+      y: 1498
       width: 160
       height: 136
     rotated: 0
@@ -493,14 +493,14 @@ MonoBehaviour:
   - name: GreenBlue Triangle
     outer:
       serializedVersion: 2
-      x: 1884
-      y: 3960
+      x: 0
+      y: 163
       width: 160
       height: 136
     inner:
       serializedVersion: 2
-      x: 1884
-      y: 3960
+      x: 0
+      y: 163
       width: 160
       height: 136
     rotated: 0
@@ -511,14 +511,14 @@ MonoBehaviour:
   - name: Purple Circle
     outer:
       serializedVersion: 2
-      x: 1004
-      y: 2697
+      x: 206
+      y: 1200
       width: 129
       height: 126
     inner:
       serializedVersion: 2
-      x: 1004
-      y: 2697
+      x: 206
+      y: 1200
       width: 129
       height: 126
     rotated: 0
@@ -529,14 +529,14 @@ MonoBehaviour:
   - name: Pink Oval
     outer:
       serializedVersion: 2
-      x: 1617
-      y: 2996
+      x: 1659
+      y: 1341
       width: 145
       height: 90
     inner:
       serializedVersion: 2
-      x: 1617
-      y: 2996
+      x: 1659
+      y: 1341
       width: 145
       height: 90
     rotated: 0
@@ -547,14 +547,14 @@ MonoBehaviour:
   - name: Blue Rectangle
     outer:
       serializedVersion: 2
-      x: 1763
-      y: 3000
+      x: 336
+      y: 1153
       width: 140
       height: 86
     inner:
       serializedVersion: 2
-      x: 1763
-      y: 3000
+      x: 336
+      y: 1153
       width: 140
       height: 86
     rotated: 0
@@ -565,14 +565,14 @@ MonoBehaviour:
   - name: Pink Square
     outer:
       serializedVersion: 2
-      x: 843
-      y: 2575
+      x: 206
+      y: 513
       width: 120
       height: 111
     inner:
       serializedVersion: 2
-      x: 843
-      y: 2575
+      x: 206
+      y: 513
       width: 120
       height: 111
     rotated: 0
@@ -583,14 +583,14 @@ MonoBehaviour:
   - name: Green Square
     outer:
       serializedVersion: 2
-      x: 1350
-      y: 2842
+      x: 206
+      y: 401
       width: 120
       height: 111
     inner:
       serializedVersion: 2
-      x: 1350
-      y: 2842
+      x: 206
+      y: 401
       width: 120
       height: 111
     rotated: 0
@@ -601,14 +601,14 @@ MonoBehaviour:
   - name: Green Rectangle
     outer:
       serializedVersion: 2
-      x: 1471
-      y: 2909
+      x: 336
+      y: 1066
       width: 140
       height: 86
     inner:
       serializedVersion: 2
-      x: 1471
-      y: 2909
+      x: 336
+      y: 1066
       width: 140
       height: 86
     rotated: 0
@@ -619,14 +619,14 @@ MonoBehaviour:
   - name: 2O2
     outer:
       serializedVersion: 2
-      x: 843
-      y: 2961
+      x: 0
+      y: 584
       width: 200
       height: 146
     inner:
       serializedVersion: 2
-      x: 843
-      y: 2961
+      x: 0
+      y: 584
       width: 200
       height: 146
     rotated: 0
@@ -637,14 +637,14 @@ MonoBehaviour:
   - name: 2P2
     outer:
       serializedVersion: 2
-      x: 1663
-      y: 3900
+      x: 843
+      y: 1458
       width: 220
       height: 196
     inner:
       serializedVersion: 2
-      x: 1663
-      y: 3900
+      x: 843
+      y: 1458
       width: 220
       height: 196
     rotated: 0
@@ -655,14 +655,14 @@ MonoBehaviour:
   - name: 2RC
     outer:
       serializedVersion: 2
-      x: 1221
-      y: 3516
+      x: 1285
+      y: 1672
       width: 189
       height: 186
     inner:
       serializedVersion: 2
-      x: 1221
-      y: 3516
+      x: 1285
+      y: 1672
       width: 189
       height: 186
     rotated: 0
@@ -673,14 +673,14 @@ MonoBehaviour:
   - name: 2YO
     outer:
       serializedVersion: 2
-      x: 1632
-      y: 3559
+      x: 0
+      y: 1176
       width: 205
       height: 150
     inner:
       serializedVersion: 2
-      x: 1632
-      y: 3559
+      x: 0
+      y: 1176
       width: 205
       height: 150
     rotated: 0
@@ -691,14 +691,14 @@ MonoBehaviour:
   - name: G3S
     outer:
       serializedVersion: 2
-      x: 1861
-      y: 3728
+      x: 1514
+      y: 1635
       width: 180
       height: 171
     inner:
       serializedVersion: 2
-      x: 1861
-      y: 3728
+      x: 1514
+      y: 1635
       width: 180
       height: 171
     rotated: 0
@@ -709,14 +709,14 @@ MonoBehaviour:
   - name: 3OR
     outer:
       serializedVersion: 2
-      x: 1632
-      y: 3261
+      x: 0
+      y: 731
       width: 200
       height: 146
     inner:
       serializedVersion: 2
-      x: 1632
-      y: 3261
+      x: 0
+      y: 731
       width: 200
       height: 146
     rotated: 0
@@ -727,14 +727,14 @@ MonoBehaviour:
   - name: P3T
     outer:
       serializedVersion: 2
-      x: 1221
-      y: 3900
+      x: 843
+      y: 1655
       width: 220
       height: 196
     inner:
       serializedVersion: 2
-      x: 1221
-      y: 3900
+      x: 843
+      y: 1655
       width: 220
       height: 196
     rotated: 0
@@ -745,14 +745,14 @@ MonoBehaviour:
   - name: 3RC
     outer:
       serializedVersion: 2
-      x: 1442
-      y: 3523
+      x: 1064
+      y: 1478
       width: 189
       height: 186
     inner:
       serializedVersion: 2
-      x: 1442
-      y: 3523
+      x: 1064
+      y: 1478
       width: 189
       height: 186
     rotated: 0
@@ -763,14 +763,14 @@ MonoBehaviour:
   - name: 3LY
     outer:
       serializedVersion: 2
-      x: 1632
-      y: 3408
+      x: 1695
+      y: 1505
       width: 205
       height: 150
     inner:
       serializedVersion: 2
-      x: 1632
-      y: 3408
+      x: 1695
+      y: 1505
       width: 205
       height: 150
     rotated: 0
@@ -781,14 +781,14 @@ MonoBehaviour:
   - name: 4GD
     outer:
       serializedVersion: 2
-      x: 1442
-      y: 3179
+      x: 1695
+      y: 1807
       width: 180
       height: 171
     inner:
       serializedVersion: 2
-      x: 1442
-      y: 3179
+      x: 1695
+      y: 1807
       width: 180
       height: 171
     rotated: 0
@@ -799,14 +799,14 @@ MonoBehaviour:
   - name: 4RO
     outer:
       serializedVersion: 2
-      x: 1838
-      y: 3412
+      x: 0
+      y: 878
       width: 200
       height: 146
     inner:
       serializedVersion: 2
-      x: 1838
-      y: 3412
+      x: 0
+      y: 878
       width: 200
       height: 146
     rotated: 0
@@ -817,14 +817,14 @@ MonoBehaviour:
   - name: 4TP
     outer:
       serializedVersion: 2
-      x: 1442
-      y: 3900
+      x: 843
+      y: 1852
       width: 220
       height: 196
     inner:
       serializedVersion: 2
-      x: 1442
-      y: 3900
+      x: 843
+      y: 1852
       width: 220
       height: 196
     rotated: 0
@@ -835,14 +835,14 @@ MonoBehaviour:
   - name: 4RC
     outer:
       serializedVersion: 2
-      x: 1671
-      y: 3713
+      x: 1064
+      y: 1665
       width: 189
       height: 186
     inner:
       serializedVersion: 2
-      x: 1671
-      y: 3713
+      x: 1064
+      y: 1665
       width: 189
       height: 186
     rotated: 0
@@ -853,14 +853,14 @@ MonoBehaviour:
   - name: 4YO
     outer:
       serializedVersion: 2
-      x: 1838
-      y: 3559
+      x: 1695
+      y: 1656
       width: 205
       height: 150
     inner:
       serializedVersion: 2
-      x: 1838
-      y: 3559
+      x: 1695
+      y: 1656
       width: 205
       height: 150
     rotated: 0
@@ -871,14 +871,14 @@ MonoBehaviour:
   - name: G5S
     outer:
       serializedVersion: 2
-      x: 1442
-      y: 3710
+      x: 1285
+      y: 1859
       width: 228
       height: 189
     inner:
       serializedVersion: 2
-      x: 1442
-      y: 3710
+      x: 1285
+      y: 1859
       width: 228
       height: 189
     rotated: 0
@@ -889,14 +889,14 @@ MonoBehaviour:
   - name: 5PT
     outer:
       serializedVersion: 2
-      x: 1221
-      y: 3703
+      x: 1064
+      y: 1852
       width: 220
       height: 196
     inner:
       serializedVersion: 2
-      x: 1221
-      y: 3703
+      x: 1064
+      y: 1852
       width: 220
       height: 196
     rotated: 0
@@ -907,14 +907,14 @@ MonoBehaviour:
   - name: 5RC
     outer:
       serializedVersion: 2
-      x: 1221
-      y: 3329
+      x: 1285
+      y: 1485
       width: 189
       height: 186
     inner:
       serializedVersion: 2
-      x: 1221
-      y: 3329
+      x: 1285
+      y: 1485
       width: 189
       height: 186
     rotated: 0
@@ -925,14 +925,14 @@ MonoBehaviour:
   - name: 5YO
     outer:
       serializedVersion: 2
-      x: 1221
-      y: 3178
+      x: 0
+      y: 1025
       width: 205
       height: 150
     inner:
       serializedVersion: 2
-      x: 1221
-      y: 3178
+      x: 0
+      y: 1025
       width: 205
       height: 150
     rotated: 0
@@ -943,14 +943,14 @@ MonoBehaviour:
   - name: O5R
     outer:
       serializedVersion: 2
-      x: 1833
-      y: 3261
+      x: 0
+      y: 437
       width: 200
       height: 146
     inner:
       serializedVersion: 2
-      x: 1833
-      y: 3261
+      x: 0
+      y: 437
       width: 200
       height: 146
     rotated: 0
@@ -958,24 +958,6 @@ MonoBehaviour:
     paddingRight: .140000001
     paddingTop: .178082198
     paddingBottom: .219178081
-  - name: 5 Rectangles_Begin
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 3178
-      width: 1220
-      height: 918
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 3178
-      width: 1220
-      height: 918
-    rotated: 0
-    paddingLeft: .0516393445
-    paddingRight: .0385245904
-    paddingTop: .0675381273
-    paddingBottom: .0729847476
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

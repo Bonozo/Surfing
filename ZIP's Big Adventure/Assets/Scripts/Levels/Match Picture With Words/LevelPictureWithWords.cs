@@ -2,8 +2,7 @@
 using System.Collections;
 
 public class LevelPictureWithWords : ZIPLevel {
-
-	public GameBlock gameBlock;
+	
 	public PictureWithWordButton[] buttons;
 	public PictureWithWordButton correctAnswer;
 	public EndItem[] endItems;

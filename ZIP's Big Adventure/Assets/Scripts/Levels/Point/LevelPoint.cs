@@ -3,7 +3,6 @@ using System.Collections;
 
 public class LevelPoint : ZIPLevel {
 
-	public GameBlock gameBlock;
 	public EndItem[] endItems;
 	public EndItem basicEndItem;
 	public PointButton pointButton;
