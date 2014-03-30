@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: 12
     outer:
       serializedVersion: 2
-      x: 683
-      y: 2314
+      x: 1025
+      y: 528
       width: 339
       height: 496
     inner:
       serializedVersion: 2
-      x: 683
-      y: 2314
+      x: 1025
+      y: 528
       width: 339
       height: 496
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: 4
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1816
+      x: 342
+      y: 30
       width: 340
       height: 497
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1816
+      x: 342
+      y: 30
       width: 340
       height: 497
     rotated: 0
@@ -79,14 +79,14 @@ MonoBehaviour:
   - name: 28
     outer:
       serializedVersion: 2
-      x: 682
-      y: 1816
+      x: 1365
+      y: 527
       width: 338
       height: 497
     inner:
       serializedVersion: 2
-      x: 682
-      y: 1816
+      x: 1365
+      y: 527
       width: 338
       height: 497
     rotated: 0
@@ -97,14 +97,14 @@ MonoBehaviour:
   - name: 16
     outer:
       serializedVersion: 2
-      x: 341
-      y: 1816
+      x: 684
+      y: 527
       width: 340
       height: 497
     inner:
       serializedVersion: 2
-      x: 341
-      y: 1816
+      x: 684
+      y: 527
       width: 340
       height: 497
     rotated: 0
@@ -115,14 +115,14 @@ MonoBehaviour:
   - name: 32
     outer:
       serializedVersion: 2
-      x: 1023
-      y: 2314
+      x: 1025
+      y: 31
       width: 339
       height: 496
     inner:
       serializedVersion: 2
-      x: 1023
-      y: 2314
+      x: 1025
+      y: 31
       width: 339
       height: 496
     rotated: 0
@@ -133,14 +133,14 @@ MonoBehaviour:
   - name: 24
     outer:
       serializedVersion: 2
-      x: 1573
-      y: 3600
+      x: 0
+      y: 528
       width: 341
       height: 496
     inner:
       serializedVersion: 2
-      x: 1573
-      y: 3600
+      x: 0
+      y: 528
       width: 341
       height: 496
     rotated: 0
@@ -151,14 +151,14 @@ MonoBehaviour:
   - name: 8
     outer:
       serializedVersion: 2
-      x: 1573
-      y: 3103
+      x: 0
+      y: 31
       width: 341
       height: 496
     inner:
       serializedVersion: 2
-      x: 1573
-      y: 3103
+      x: 0
+      y: 31
       width: 341
       height: 496
     rotated: 0
@@ -169,14 +169,14 @@ MonoBehaviour:
   - name: 36
     outer:
       serializedVersion: 2
-      x: 0
-      y: 2314
+      x: 342
+      y: 528
       width: 341
       height: 496
     inner:
       serializedVersion: 2
-      x: 0
-      y: 2314
+      x: 342
+      y: 528
       width: 341
       height: 496
     rotated: 0
@@ -187,14 +187,14 @@ MonoBehaviour:
   - name: 20
     outer:
       serializedVersion: 2
-      x: 1363
-      y: 2314
+      x: 1704
+      y: 528
       width: 338
       height: 496
     inner:
       serializedVersion: 2
-      x: 1363
-      y: 2314
+      x: 1704
+      y: 528
       width: 338
       height: 496
     rotated: 0
@@ -205,14 +205,14 @@ MonoBehaviour:
   - name: 40
     outer:
       serializedVersion: 2
-      x: 342
-      y: 2315
+      x: 684
+      y: 31
       width: 340
       height: 495
     inner:
       serializedVersion: 2
-      x: 342
-      y: 2315
+      x: 684
+      y: 31
       width: 340
       height: 495
     rotated: 0
@@ -220,24 +220,6 @@ MonoBehaviour:
     paddingRight: 3.31470585
     paddingTop: 1.52323234
     paddingBottom: .579797983
-  - name: Count by 4's_Begin
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 2811
-      width: 1572
-      height: 1285
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 2811
-      width: 1572
-      height: 1285
-    rotated: 0
-    paddingLeft: .152671754
-    paddingRight: .150127232
-    paddingTop: .0638132319
-    paddingBottom: .131517515
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

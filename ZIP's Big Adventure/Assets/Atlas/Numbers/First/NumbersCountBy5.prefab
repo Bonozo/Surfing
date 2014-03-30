@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: 45
     outer:
       serializedVersion: 2
-      x: 1481
-      y: 3600
+      x: 0
+      y: 528
       width: 341
       height: 496
     inner:
       serializedVersion: 2
-      x: 1481
-      y: 3600
+      x: 0
+      y: 528
       width: 341
       height: 496
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: 5
     outer:
       serializedVersion: 2
-      x: 1481
-      y: 3103
+      x: 0
+      y: 31
       width: 341
       height: 496
     inner:
       serializedVersion: 2
-      x: 1481
-      y: 3103
+      x: 0
+      y: 31
       width: 341
       height: 496
     rotated: 0
@@ -79,14 +79,14 @@ MonoBehaviour:
   - name: 40
     outer:
       serializedVersion: 2
-      x: 683
-      y: 2307
+      x: 1025
+      y: 528
       width: 339
       height: 496
     inner:
       serializedVersion: 2
-      x: 683
-      y: 2307
+      x: 1025
+      y: 528
       width: 339
       height: 496
     rotated: 0
@@ -97,14 +97,14 @@ MonoBehaviour:
   - name: 10
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1809
+      x: 342
+      y: 30
       width: 340
       height: 497
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1809
+      x: 342
+      y: 30
       width: 340
       height: 497
     rotated: 0
@@ -115,14 +115,14 @@ MonoBehaviour:
   - name: 50
     outer:
       serializedVersion: 2
-      x: 0
-      y: 2307
+      x: 342
+      y: 528
       width: 341
       height: 496
     inner:
       serializedVersion: 2
-      x: 0
-      y: 2307
+      x: 342
+      y: 528
       width: 341
       height: 496
     rotated: 0
@@ -133,14 +133,14 @@ MonoBehaviour:
   - name: 35
     outer:
       serializedVersion: 2
-      x: 1023
-      y: 2307
+      x: 1025
+      y: 31
       width: 339
       height: 496
     inner:
       serializedVersion: 2
-      x: 1023
-      y: 2307
+      x: 1025
+      y: 31
       width: 339
       height: 496
     rotated: 0
@@ -151,14 +151,14 @@ MonoBehaviour:
   - name: 25
     outer:
       serializedVersion: 2
-      x: 341
-      y: 1809
+      x: 684
+      y: 527
       width: 340
       height: 497
     inner:
       serializedVersion: 2
-      x: 341
-      y: 1809
+      x: 684
+      y: 527
       width: 340
       height: 497
     rotated: 0
@@ -169,14 +169,14 @@ MonoBehaviour:
   - name: 15
     outer:
       serializedVersion: 2
-      x: 1363
-      y: 2307
+      x: 1704
+      y: 528
       width: 338
       height: 496
     inner:
       serializedVersion: 2
-      x: 1363
-      y: 2307
+      x: 1704
+      y: 528
       width: 338
       height: 496
     rotated: 0
@@ -184,35 +184,17 @@ MonoBehaviour:
     paddingRight: 3.8698225
     paddingTop: .808467746
     paddingBottom: 1.28830647
-  - name: Count by 5's_Begin
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 2804
-      width: 1480
-      height: 1292
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 2804
-      width: 1480
-      height: 1292
-    rotated: 0
-    paddingLeft: .176351354
-    paddingRight: .207432434
-    paddingTop: .0634674951
-    paddingBottom: .125386998
   - name: 20
     outer:
       serializedVersion: 2
-      x: 682
-      y: 1809
+      x: 1365
+      y: 527
       width: 338
       height: 497
     inner:
       serializedVersion: 2
-      x: 682
-      y: 1809
+      x: 1365
+      y: 527
       width: 338
       height: 497
     rotated: 0
@@ -223,14 +205,14 @@ MonoBehaviour:
   - name: 30
     outer:
       serializedVersion: 2
-      x: 342
-      y: 2308
+      x: 684
+      y: 31
       width: 340
       height: 495
     inner:
       serializedVersion: 2
-      x: 342
-      y: 2308
+      x: 684
+      y: 31
       width: 340
       height: 495
     rotated: 0
