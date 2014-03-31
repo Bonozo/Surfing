@@ -8,6 +8,7 @@ public class JumbleDrag : MonoBehaviour {
 	public Collider[] targetCollider;
 	public bool convertTargetToBox = true;
 	public bool distanceMode = false;
+	public bool fixCollider = true;
 
 	private float distanceModeDistance =125f;
 	private Vector3 initialPosition;
@@ -16,11 +17,14 @@ public class JumbleDrag : MonoBehaviour {
 	void Awake()
 	{
 		// Adjust collider size: minimum 150x150
-		BoxCollider box = collider as BoxCollider;
-		Vector3 sz = new Vector3 (150f, 150f, box.size.z);
-		sz.x = Mathf.Max (1f, sz.x / transform.localScale.x);
-		sz.y = Mathf.Max (1f, sz.y / transform.localScale.y);
-		box.size = sz;
+		if(fixCollider)
+		{
+			BoxCollider box = collider as BoxCollider;
+			Vector3 sz = new Vector3 (150f, 150f, box.size.z);
+			sz.x = Mathf.Max (1f, sz.x / transform.localScale.x);
+			sz.y = Mathf.Max (1f, sz.y / transform.localScale.y);
+			box.size = sz;
+		}
 	}
 	
 	public void Reset()

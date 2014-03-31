@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: NumbersDragging2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: bd164427e058ba94d8a649a418f19683, type: 2}
+  sprites:
+  - name: Mushrooms10
+    outer:
+      serializedVersion: 2
+      x: 1033
+      y: 623
+      width: 518
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 1033
+      y: 623
+      width: 518
+      height: 140
+    rotated: 0
+    paddingLeft: .0540540554
+    paddingRight: .0482625477
+    paddingTop: .285714298
+    paddingBottom: .235714287
+  - name: Mushrooms7
+    outer:
+      serializedVersion: 2
+      x: 1329
+      y: 1276
+      width: 518
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 1329
+      y: 1276
+      width: 518
+      height: 147
+    rotated: 0
+    paddingLeft: .0733590722
+    paddingRight: .0810810775
+    paddingTop: .0612244904
+    paddingBottom: .122448981
+  - name: Mushrooms_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1424
+      width: 1540
+      height: 204
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1424
+      width: 1540
+      height: 204
+    rotated: 0
+    paddingLeft: .0233766232
+    paddingRight: .019480519
+    paddingTop: .200980395
+    paddingBottom: .12254902
+  - name: Mushrooms9
+    outer:
+      serializedVersion: 2
+      x: 1033
+      y: 483
+      width: 518
+      height: 139
+    inner:
+      serializedVersion: 2
+      x: 1033
+      y: 483
+      width: 518
+      height: 139
+    rotated: 0
+    paddingLeft: .028957529
+    paddingRight: .0270270277
+    paddingTop: .294964015
+    paddingBottom: .258992791
+  - name: Palm7
+    outer:
+      serializedVersion: 2
+      x: 275
+      y: 634
+      width: 276
+      height: 555
+    inner:
+      serializedVersion: 2
+      x: 275
+      y: 634
+      width: 276
+      height: 555
+    rotated: 0
+    paddingLeft: .126811594
+    paddingRight: .0434782617
+    paddingTop: .0324324332
+    paddingBottom: .0108108111
+  - name: Palm6
+    outer:
+      serializedVersion: 2
+      x: 275
+      y: 78
+      width: 276
+      height: 555
+    inner:
+      serializedVersion: 2
+      x: 275
+      y: 78
+      width: 276
+      height: 555
+    rotated: 0
+    paddingLeft: .0869565234
+    paddingRight: .0217391308
+    paddingTop: .0432432443
+    paddingBottom: .0162162166
+  - name: Palm_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1838
+      width: 1666
+      height: 210
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1838
+      width: 1666
+      height: 210
+    rotated: 0
+    paddingLeft: .0276110452
+    paddingRight: 0
+    paddingTop: .161904767
+    paddingBottom: .138095245
+  - name: Palm8
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 627
+      width: 274
+      height: 562
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 627
+      width: 274
+      height: 562
+    rotated: 0
+    paddingLeft: .160583943
+    paddingRight: .113138683
+    paddingTop: .0889679715
+    paddingBottom: .0106761567
+  - name: Pizza12
+    outer:
+      serializedVersion: 2
+      x: 1033
+      y: 764
+      width: 338
+      height: 297
+    inner:
+      serializedVersion: 2
+      x: 1033
+      y: 764
+      width: 338
+      height: 297
+    rotated: 0
+    paddingLeft: .115384616
+    paddingRight: .112426035
+    paddingTop: .0909090936
+    paddingBottom: .0909090936
+  - name: Pizza8
+    outer:
+      serializedVersion: 2
+      x: 1372
+      y: 764
+      width: 335
+      height: 297
+    inner:
+      serializedVersion: 2
+      x: 1372
+      y: 764
+      width: 335
+      height: 297
+    rotated: 0
+    paddingLeft: .0776119381
+    paddingRight: .0985074639
+    paddingTop: .0808080807
+    paddingBottom: .0808080807
+  - name: Pizza_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1629
+      width: 1557
+      height: 208
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1629
+      width: 1557
+      height: 208
+    rotated: 0
+    paddingLeft: .0211946052
+    paddingRight: .0179833006
+    paddingTop: .115384616
+    paddingBottom: .182692304
+  - name: Pizza10
+    outer:
+      serializedVersion: 2
+      x: 552
+      y: 67
+      width: 335
+      height: 300
+    inner:
+      serializedVersion: 2
+      x: 552
+      y: 67
+      width: 335
+      height: 300
+    rotated: 0
+    paddingLeft: .0895522386
+    paddingRight: .11343284
+    paddingTop: .0399999991
+    paddingBottom: .0399999991
+  - name: House2
+    outer:
+      serializedVersion: 2
+      x: 552
+      y: 642
+      width: 417
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 552
+      y: 642
+      width: 417
+      height: 273
+    rotated: 0
+    paddingLeft: .0671462864
+    paddingRight: .0359712243
+    paddingTop: .0659340695
+    paddingBottom: .0732600763
+  - name: House3
+    outer:
+      serializedVersion: 2
+      x: 552
+      y: 368
+      width: 401
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 552
+      y: 368
+      width: 401
+      height: 273
+    rotated: 0
+    paddingLeft: .0673316717
+    paddingRight: .0199501254
+    paddingTop: .109890111
+    paddingBottom: .113553114
+  - name: House_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1190
+      width: 1328
+      height: 233
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1190
+      width: 1328
+      height: 233
+    rotated: 0
+    paddingLeft: .0278614461
+    paddingRight: .0368975885
+    paddingTop: .0772532225
+    paddingBottom: .0987124443
+  - name: House4
+    outer:
+      serializedVersion: 2
+      x: 552
+      y: 916
+      width: 480
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 552
+      y: 916
+      width: 480
+      height: 273
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .109890111
+    paddingBottom: .179487184
+  - name: Logs2
+    outer:
+      serializedVersion: 2
+      x: 1558
+      y: 1737
+      width: 293
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 1558
+      y: 1737
+      width: 293
+      height: 100
+    rotated: 0
+    paddingLeft: .0887372047
+    paddingRight: .1331058
+    paddingTop: .280000001
+    paddingBottom: .319999993
+  - name: Logs4
+    outer:
+      serializedVersion: 2
+      x: 1667
+      y: 1859
+      width: 293
+      height: 189
+    inner:
+      serializedVersion: 2
+      x: 1667
+      y: 1859
+      width: 293
+      height: 189
+    rotated: 0
+    paddingLeft: .102389075
+    paddingRight: .109215014
+    paddingTop: .153439149
+    paddingBottom: .153439149
+  - name: Logs_Text
+    outer:
+      serializedVersion: 2
+      x: 1033
+      y: 1062
+      width: 820
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 1033
+      y: 1062
+      width: 820
+      height: 127
+    rotated: 0
+    paddingLeft: .0317073166
+    paddingRight: .0341463424
+    paddingTop: .22047244
+    paddingBottom: .228346452
+  - name: Logs5
+    outer:
+      serializedVersion: 2
+      x: 1708
+      y: 826
+      width: 292
+      height: 235
+    inner:
+      serializedVersion: 2
+      x: 1708
+      y: 826
+      width: 292
+      height: 235
+    rotated: 0
+    paddingLeft: .0616438352
+    paddingRight: .0719178095
+    paddingTop: .131914899
+    paddingBottom: .123404257
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

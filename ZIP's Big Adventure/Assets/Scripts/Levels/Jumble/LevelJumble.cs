@@ -180,7 +180,7 @@ public class LevelJumble : ZIPLevel {
 
 	#region Editor Letters/PreK/Dragging
 
-	public string word;
+	/*public string word;
 	public Transform box;
 	public int singleDistance = 200;
 
@@ -235,7 +235,54 @@ public class LevelJumble : ZIPLevel {
 		sprite.type = UISprite.Type.Simple;
 		sprite.MakePixelPerfect ();
 		sprite.type = UISprite.Type.Sliced;
-	}
+	}*/
 
+	#endregion
+
+	#region Editor Numbers/PreK/Drag
+	
+	/*public string[] names;
+	public int correct;
+	public UISprite cor, wr1, wr2;
+	public UISprite box;*/
+
+	public void Initialize()
+	{		
+		transform.localPosition = new Vector3 (0f, 0f, 0f);
+		transform.localScale = new Vector3 (1f, 1f, 1f);
+		gameBlock.level [0] = this;
+
+		/*Vector3[] tt = new Vector3[] { new Vector3(-500f,-310f,0f),new Vector3(0,-310f,0f),new Vector3(500f,-310f,0f)};
+
+		if(correct==1)
+		{
+			cor.spriteName = names[0]; cor.gameObject.transform.localPosition = tt[0];
+			wr1.spriteName = names[1]; wr1.gameObject.transform.localPosition = tt[1];
+			wr2.spriteName = names[2]; wr2.gameObject.transform.localPosition = tt[2];
+		}
+
+		if(correct==2)
+		{
+			cor.spriteName = names[1]; cor.gameObject.transform.localPosition = tt[1];
+			wr1.spriteName = names[0]; wr1.gameObject.transform.localPosition = tt[0];
+			wr2.spriteName = names[2]; wr2.gameObject.transform.localPosition = tt[2];
+		}
+
+		if(correct==3)
+		{
+			cor.spriteName = names[2]; cor.gameObject.transform.localPosition = tt[2];
+			wr1.spriteName = names[0]; wr1.gameObject.transform.localPosition = tt[0];
+			wr2.spriteName = names[1]; wr2.gameObject.transform.localPosition = tt[1];
+		}
+
+		cor.MakePixelPerfect ();
+		wr1.MakePixelPerfect ();
+		wr2.MakePixelPerfect ();
+
+		box.spriteName = names [correct - 1];
+		box.MakePixelPerfect ();
+		box.enabled = !box.enabled;*/
+	}
+	
 	#endregion
 }

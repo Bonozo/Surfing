@@ -5,24 +5,22 @@ public class LevelCorrectDrag : ZIPLevel {
 	
 	public DragZIP dragZIP;
 	public GameObject rightAnswer;
-	public float happyEndScale = 2f;
+	//public float happyEndScale = 2f;
 
 	public GameObject guiAction;
 	public GameObject guiEnd;
 	public GameObject goodEndZip;
 	public GameObject goodEndSprite;
 
-	public AudioClip clipCorrectAnswer;
-	public AudioClip clipWrongAnswer;
-
-	private float happyEndTime = 3f;
+	private float happyEndTime = 1.4f;
+	private iTween.EaseType easyType;
 
 	private Vector3 zipPos;
 	private Vector3 zipSprite;
 
 	void Awake()
 	{
-		guiEnd.transform.localScale = new Vector3(happyEndScale,happyEndScale,happyEndScale);
+		//guiEnd.transform.localScale = new Vector3(happyEndScale,happyEndScale,happyEndScale);
 		zipPos = goodEndZip.transform.position;
 		zipSprite = goodEndSprite.transform.position;
 
@@ -49,13 +47,13 @@ public class LevelCorrectDrag : ZIPLevel {
 	{
 		if(other == rightAnswer)
 		{
-			AudioSource.PlayClipAtPoint(clipCorrectAnswer,transform.position);
+			GameController.Instance.PlayCorrectAnswer();
 			StartCoroutine(HappyEnd());
 		}
 		else
 		{
 			dragZIP.Reset();
-			AudioSource.PlayClipAtPoint(clipWrongAnswer,transform.position);
+			GameController.Instance.PlayWrongAnswer();
 		}
 	}
 
@@ -73,11 +71,11 @@ public class LevelCorrectDrag : ZIPLevel {
 		guiAction.SetActive(false);
 		guiEnd.SetActive(true);
 
-		iTween.MoveTo(goodEndZip,zipPos,happyEndTime);
-		iTween.MoveTo(goodEndSprite,zipSprite,happyEndTime);
+		iTween.MoveTo(goodEndZip,iTween.Hash("position",zipPos,"time",happyEndTime,"easetype",easyType,"islocal",false));
+		iTween.MoveTo(goodEndSprite,iTween.Hash("position",zipSprite,"time",happyEndTime,"easetype",easyType,"islocal",false));
 
 		guiEnd.transform.localScale = new Vector3(1f,1f,1f);
-		iTween.ScaleTo(guiEnd,new Vector3(happyEndScale,happyEndScale,happyEndScale),1f);
+		//iTween.ScaleTo(guiEnd,new Vector3(happyEndScale,happyEndScale,happyEndScale),1f);
 
 		
 		yield return new WaitForSeconds(0.5f);

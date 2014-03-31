@@ -5,18 +5,22 @@ public class DragZIP : MonoBehaviour {
 
 	public LevelCorrectDrag level;
 
+	private bool inited = false;
 	private Vector3 initialPosition;
 	private float dragTime;
 
-	/*void Awake()
+	void Awake()
 	{
 		initialPosition = transform.localPosition;
-	}*/
+	}
 
 	public void Reset()
 	{
-		if(initialPosition == Vector3.zero)
+		if(!inited)
+		{
 			initialPosition = transform.localPosition;
+			inited = true;
+		}
 		transform.localPosition = initialPosition;
 		dragTime = 0.5f;
 		collider.enabled = true;
