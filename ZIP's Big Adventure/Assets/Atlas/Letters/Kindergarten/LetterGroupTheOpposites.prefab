@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: Bird Small
     outer:
       serializedVersion: 2
-      x: 302
-      y: 1470
+      x: 1847
+      y: 296
       width: 132
       height: 107
     inner:
       serializedVersion: 2
-      x: 302
-      y: 1470
+      x: 1847
+      y: 296
       width: 132
       height: 107
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: Grandma Old
     outer:
       serializedVersion: 2
-      x: 1228
-      y: 1723
+      x: 0
+      y: 943
       width: 252
       height: 325
     inner:
       serializedVersion: 2
-      x: 1228
-      y: 1723
+      x: 0
+      y: 943
       width: 252
       height: 325
     rotated: 0
@@ -79,14 +79,14 @@ MonoBehaviour:
   - name: Pillow soft
     outer:
       serializedVersion: 2
-      x: 302
-      y: 1163
+      x: 591
+      y: 206
       width: 292
       height: 207
     inner:
       serializedVersion: 2
-      x: 302
-      y: 1163
+      x: 591
+      y: 206
       width: 292
       height: 207
     rotated: 0
@@ -97,14 +97,14 @@ MonoBehaviour:
   - name: Coffee Hot
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1378
+      x: 1228
+      y: 1720
       width: 291
       height: 328
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1378
+      x: 1228
+      y: 1720
       width: 291
       height: 328
     rotated: 0
@@ -133,14 +133,14 @@ MonoBehaviour:
   - name: Cat Thin
     outer:
       serializedVersion: 2
-      x: 1228
-      y: 1402
+      x: 0
+      y: 244
       width: 237
       height: 320
     inner:
       serializedVersion: 2
-      x: 1228
-      y: 1402
+      x: 0
+      y: 244
       width: 237
       height: 320
     rotated: 0
@@ -151,14 +151,14 @@ MonoBehaviour:
   - name: Clean Dish
     outer:
       serializedVersion: 2
-      x: 1183
-      y: 1244
+      x: 884
+      y: 136
       width: 395
       height: 131
     inner:
       serializedVersion: 2
-      x: 1183
-      y: 1244
+      x: 884
+      y: 136
       width: 395
       height: 131
     rotated: 0
@@ -169,14 +169,14 @@ MonoBehaviour:
   - name: Zip Fast
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1084
+      x: 1520
+      y: 1755
       width: 301
       height: 293
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1084
+      x: 1520
+      y: 1755
       width: 301
       height: 293
     rotated: 0
@@ -187,14 +187,14 @@ MonoBehaviour:
   - name: Feather
     outer:
       serializedVersion: 2
-      x: 1466
-      y: 1376
+      x: 884
+      y: 268
       width: 369
       height: 145
     inner:
       serializedVersion: 2
-      x: 1466
-      y: 1376
+      x: 884
+      y: 268
       width: 369
       height: 145
     rotated: 0
@@ -205,14 +205,14 @@ MonoBehaviour:
   - name: Turtle Slow
     outer:
       serializedVersion: 2
-      x: 1693
-      y: 1522
+      x: 305
+      y: 47
       width: 270
       height: 268
     inner:
       serializedVersion: 2
-      x: 1693
-      y: 1522
+      x: 305
+      y: 47
       width: 270
       height: 268
     rotated: 0
@@ -223,14 +223,14 @@ MonoBehaviour:
   - name: Dirty Dish
     outer:
       serializedVersion: 2
-      x: 1579
-      y: 1244
+      x: 884
+      y: 4
       width: 395
       height: 131
     inner:
       serializedVersion: 2
-      x: 1579
-      y: 1244
+      x: 884
+      y: 4
       width: 395
       height: 131
     rotated: 0
@@ -241,14 +241,14 @@ MonoBehaviour:
   - name: Metal Hard
     outer:
       serializedVersion: 2
-      x: 772
-      y: 1474
+      x: 0
+      y: 5
       width: 301
       height: 238
     inner:
       serializedVersion: 2
-      x: 772
-      y: 1474
+      x: 0
+      y: 5
       width: 301
       height: 238
     rotated: 0
@@ -259,14 +259,14 @@ MonoBehaviour:
   - name: Milkshake cold
     outer:
       serializedVersion: 2
-      x: 1481
-      y: 1671
+      x: 0
+      y: 565
       width: 211
       height: 377
     inner:
       serializedVersion: 2
-      x: 1481
-      y: 1671
+      x: 0
+      y: 565
       width: 211
       height: 377
     rotated: 0
@@ -295,14 +295,14 @@ MonoBehaviour:
   - name: Girl Long hair
     outer:
       serializedVersion: 2
-      x: 467
-      y: 1371
+      x: 0
+      y: 1269
       width: 304
       height: 342
     inner:
       serializedVersion: 2
-      x: 467
-      y: 1371
+      x: 0
+      y: 1269
       width: 304
       height: 342
     rotated: 0
@@ -313,14 +313,14 @@ MonoBehaviour:
   - name: Dumbbell weight
     outer:
       serializedVersion: 2
-      x: 772
-      y: 1314
+      x: 591
+      y: 414
       width: 410
       height: 159
     inner:
       serializedVersion: 2
-      x: 772
-      y: 1314
+      x: 591
+      y: 414
       width: 410
       height: 159
     rotated: 0
@@ -331,14 +331,14 @@ MonoBehaviour:
   - name: Baby Young
     outer:
       serializedVersion: 2
-      x: 1693
-      y: 1791
+      x: 305
+      y: 316
       width: 285
       height: 257
     inner:
       serializedVersion: 2
-      x: 1693
-      y: 1791
+      x: 305
+      y: 316
       width: 285
       height: 257
     rotated: 0
@@ -367,14 +367,14 @@ MonoBehaviour:
   - name: Soft
     outer:
       serializedVersion: 2
-      x: 1579
-      y: 1004
+      x: 1334
+      y: 142
       width: 263
       height: 118
     inner:
       serializedVersion: 2
-      x: 1579
-      y: 1004
+      x: 1334
+      y: 142
       width: 263
       height: 118
     rotated: 0
@@ -385,14 +385,14 @@ MonoBehaviour:
   - name: Fat
     outer:
       serializedVersion: 2
-      x: 1843
-      y: 1135
+      x: 1822
+      y: 1708
       width: 184
       height: 108
     inner:
       serializedVersion: 2
-      x: 1843
-      y: 1135
+      x: 1822
+      y: 1708
       width: 184
       height: 108
     rotated: 0
@@ -403,14 +403,14 @@ MonoBehaviour:
   - name: Big
     outer:
       serializedVersion: 2
-      x: 302
-      y: 1578
+      x: 1856
+      y: 156
       width: 156
       height: 128
     inner:
       serializedVersion: 2
-      x: 302
-      y: 1578
+      x: 1856
+      y: 156
       width: 156
       height: 128
     rotated: 0
@@ -421,14 +421,14 @@ MonoBehaviour:
   - name: Hot
     outer:
       serializedVersion: 2
-      x: 1836
-      y: 1409
+      x: 1822
+      y: 1936
       width: 197
       height: 112
     inner:
       serializedVersion: 2
-      x: 1836
-      y: 1409
+      x: 1822
+      y: 1936
       width: 197
       height: 112
     rotated: 0
@@ -439,14 +439,14 @@ MonoBehaviour:
   - name: Slow
     outer:
       serializedVersion: 2
-      x: 567
-      y: 849
+      x: 1607
+      y: 179
       width: 248
       height: 105
     inner:
       serializedVersion: 2
-      x: 567
-      y: 849
+      x: 1607
+      y: 179
       width: 248
       height: 105
     rotated: 0
@@ -457,14 +457,14 @@ MonoBehaviour:
   - name: Dirty
     outer:
       serializedVersion: 2
-      x: 0
-      y: 941
+      x: 1002
+      y: 431
       width: 293
       height: 142
     inner:
       serializedVersion: 2
-      x: 0
-      y: 941
+      x: 1002
+      y: 431
       width: 293
       height: 142
     rotated: 0
@@ -475,14 +475,14 @@ MonoBehaviour:
   - name: Cold
     outer:
       serializedVersion: 2
-      x: 885
-      y: 885
+      x: 1607
+      y: 285
       width: 239
       height: 118
     inner:
       serializedVersion: 2
-      x: 885
-      y: 885
+      x: 1607
+      y: 285
       width: 239
       height: 118
     rotated: 0
@@ -493,14 +493,14 @@ MonoBehaviour:
   - name: Thin
     outer:
       serializedVersion: 2
-      x: 1579
-      y: 1123
+      x: 1334
+      y: 261
       width: 263
       height: 120
     inner:
       serializedVersion: 2
-      x: 1579
-      y: 1123
+      x: 1334
+      y: 261
       width: 263
       height: 120
     rotated: 0
@@ -511,14 +511,14 @@ MonoBehaviour:
   - name: Short
     outer:
       serializedVersion: 2
-      x: 567
-      y: 955
+      x: 1607
+      y: 404
       width: 317
       height: 109
     inner:
       serializedVersion: 2
-      x: 567
-      y: 955
+      x: 1607
+      y: 404
       width: 317
       height: 109
     rotated: 0
@@ -529,14 +529,14 @@ MonoBehaviour:
   - name: Fast
     outer:
       serializedVersion: 2
-      x: 294
-      y: 839
+      x: 1607
+      y: 72
       width: 235
       height: 106
     inner:
       serializedVersion: 2
-      x: 294
-      y: 839
+      x: 1607
+      y: 72
       width: 235
       height: 106
     rotated: 0
@@ -547,14 +547,14 @@ MonoBehaviour:
   - name: Long
     outer:
       serializedVersion: 2
-      x: 1306
-      y: 1112
+      x: 1334
+      y: 382
       width: 272
       height: 131
     inner:
       serializedVersion: 2
-      x: 1306
-      y: 1112
+      x: 1334
+      y: 382
       width: 272
       height: 131
     rotated: 0
@@ -565,14 +565,14 @@ MonoBehaviour:
   - name: Small
     outer:
       serializedVersion: 2
-      x: 941
-      y: 1004
+      x: 1680
+      y: 518
       width: 300
       height: 117
     inner:
       serializedVersion: 2
-      x: 941
-      y: 1004
+      x: 1680
+      y: 518
       width: 300
       height: 117
     rotated: 0
@@ -583,14 +583,14 @@ MonoBehaviour:
   - name: Heavy
     outer:
       serializedVersion: 2
-      x: 944
-      y: 1122
+      x: 1683
+      y: 641
       width: 361
       height: 121
     inner:
       serializedVersion: 2
-      x: 944
-      y: 1122
+      x: 1683
+      y: 641
       width: 361
       height: 121
     rotated: 0
@@ -601,14 +601,14 @@ MonoBehaviour:
   - name: Clean
     outer:
       serializedVersion: 2
-      x: 595
-      y: 1187
+      x: 1334
+      y: 636
       width: 348
       height: 126
     inner:
       serializedVersion: 2
-      x: 595
-      y: 1187
+      x: 1334
+      y: 636
       width: 348
       height: 126
     rotated: 0
@@ -619,14 +619,14 @@ MonoBehaviour:
   - name: Young
     outer:
       serializedVersion: 2
-      x: 595
-      y: 1065
+      x: 1334
+      y: 514
       width: 345
       height: 121
     inner:
       serializedVersion: 2
-      x: 595
-      y: 1065
+      x: 1334
+      y: 514
       width: 345
       height: 121
     rotated: 0
@@ -637,14 +637,14 @@ MonoBehaviour:
   - name: Light
     outer:
       serializedVersion: 2
-      x: 294
-      y: 946
+      x: 591
+      y: 68
       width: 272
       height: 137
     inner:
       serializedVersion: 2
-      x: 294
-      y: 946
+      x: 591
+      y: 68
       width: 272
       height: 137
     rotated: 0
@@ -655,14 +655,14 @@ MonoBehaviour:
   - name: Old
     outer:
       serializedVersion: 2
-      x: 1466
-      y: 1552
+      x: 1822
+      y: 1817
       width: 186
       height: 118
     inner:
       serializedVersion: 2
-      x: 1466
-      y: 1552
+      x: 1822
+      y: 1817
       width: 186
       height: 118
     rotated: 0
@@ -673,14 +673,14 @@ MonoBehaviour:
   - name: Hard
     outer:
       serializedVersion: 2
-      x: 1242
-      y: 1003
+      x: 1334
+      y: 33
       width: 269
       height: 108
     inner:
       serializedVersion: 2
-      x: 1242
-      y: 1003
+      x: 1334
+      y: 33
       width: 269
       height: 108
     rotated: 0
@@ -688,6 +688,222 @@ MonoBehaviour:
     paddingRight: 4.56505585
     paddingTop: 7.37037039
     paddingBottom: 5.85185194
+  - name: Clean_Text
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 1330
+      width: 1099
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 1330
+      width: 1099
+      height: 93
+    rotated: 0
+    paddingLeft: .0354868062
+    paddingRight: .0282074604
+    paddingTop: .376344085
+    paddingBottom: .290322572
+  - name: Big_Text
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 574
+      width: 1014
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 574
+      width: 1014
+      height: 93
+    rotated: 0
+    paddingLeft: .0542406328
+    paddingRight: .0394477323
+    paddingTop: .440860212
+    paddingBottom: .333333343
+  - name: Cold_Text
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 763
+      width: 1045
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 763
+      width: 1045
+      height: 94
+    rotated: 0
+    paddingLeft: .059330143
+    paddingRight: .0296650715
+    paddingTop: .329787225
+    paddingBottom: .425531924
+  - name: Fast_Text
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 858
+      width: 1055
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 858
+      width: 1055
+      height: 94
+    rotated: 0
+    paddingLeft: .0360189565
+    paddingRight: .0255924165
+    paddingTop: .553191483
+    paddingBottom: .319148928
+  - name: Hard_Text
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 1141
+      width: 1075
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 1141
+      width: 1075
+      height: 94
+    rotated: 0
+    paddingLeft: .0334883705
+    paddingRight: .0279069766
+    paddingTop: .393617034
+    paddingBottom: .361702114
+  - name: Heavy_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1612
+      width: 1134
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1612
+      width: 1134
+      height: 94
+    rotated: 0
+    paddingLeft: .0326278657
+    paddingRight: .0343915336
+    paddingTop: .53191489
+    paddingBottom: .489361703
+  - name: Fat_Text
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 668
+      width: 1028
+      height: 94
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 668
+      width: 1028
+      height: 94
+    rotated: 0
+    paddingLeft: .036964979
+    paddingRight: .0398832671
+    paddingTop: .361702114
+    paddingBottom: .329787225
+  - name: Light_Text
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 1047
+      width: 1072
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 1047
+      width: 1072
+      height: 93
+    rotated: 0
+    paddingLeft: .0531716421
+    paddingRight: .0279850755
+    paddingTop: .408602148
+    paddingBottom: .483870953
+  - name: Slow_Text
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 953
+      width: 1071
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 953
+      width: 1071
+      height: 93
+    rotated: 0
+    paddingLeft: .0373482741
+    paddingRight: .0233426709
+    paddingTop: .537634432
+    paddingBottom: .247311831
+  - name: Short_Text
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 1424
+      width: 1105
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 1424
+      width: 1105
+      height: 93
+    rotated: 0
+    paddingLeft: .0479638018
+    paddingRight: .0334841646
+    paddingTop: .344086021
+    paddingBottom: .591397822
+  - name: Small_Text
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 1236
+      width: 1088
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 1236
+      width: 1088
+      height: 93
+    rotated: 0
+    paddingLeft: .0358455889
+    paddingRight: .0303308815
+    paddingTop: .376344085
+    paddingBottom: .387096763
+  - name: Young_Text
+    outer:
+      serializedVersion: 2
+      x: 305
+      y: 1518
+      width: 1117
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 305
+      y: 1518
+      width: 1117
+      height: 93
+    rotated: 0
+    paddingLeft: .025067145
+    paddingRight: .0295434203
+    paddingTop: .440860212
+    paddingBottom: .602150559
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
