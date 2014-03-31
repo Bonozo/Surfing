@@ -62,20 +62,20 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 1025
-      y: 1763
-      width: 654
-      height: 285
+      y: 1654
+      width: 945
+      height: 394
     inner:
       serializedVersion: 2
       x: 1025
-      y: 1763
-      width: 654
-      height: 285
+      y: 1654
+      width: 945
+      height: 394
     rotated: 0
-    paddingLeft: .365443438
-    paddingRight: .200305805
-    paddingTop: .407017529
-    paddingBottom: 1.28771925
+    paddingLeft: .0497354493
+    paddingRight: .0338624343
+    paddingTop: .0558375642
+    paddingBottom: .104060911
   - name: Patterns Background
     outer:
       serializedVersion: 2
