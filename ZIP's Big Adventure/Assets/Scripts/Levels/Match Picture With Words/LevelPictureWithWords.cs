@@ -6,10 +6,7 @@ public class LevelPictureWithWords : ZIPLevel {
 	public PictureWithWordButton[] buttons;
 	public PictureWithWordButton correctAnswer;
 	public EndItem[] endItems;
-	
-	public AudioClip clipCorrectAnswer;
-	public AudioClip clipWrongAnswer;
-	
+
 	public override void StartGame ()
 	{
 		foreach(var btr in buttons) btr.Reset();
@@ -25,13 +22,13 @@ public class LevelPictureWithWords : ZIPLevel {
 		}
 		else
 		{
-			AudioSource.PlayClipAtPoint(clipWrongAnswer,transform.position);
+			GameController.Instance.PlayWrongAnswer();
 		}
 	}
 	
 	private IEnumerator HappyEndThread()
 	{
-		AudioSource.PlayClipAtPoint(clipCorrectAnswer,transform.position);
+		GameController.Instance.PlayCorrectAnswer ();
 		
 		foreach(var btr in buttons) btr.DisableCollider();
 		foreach(var et in endItems) et.Work();
