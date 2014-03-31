@@ -47,6 +47,7 @@ public class JumbleDrag : MonoBehaviour {
 	// Give attention to this.
 	void OnPress(bool isDown)
 	{
+		if(GetComponent<UISprite>() == null) return;
 		if(isDown)
 			GetComponent<UISprite>().depth++;
 		else
