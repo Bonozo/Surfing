@@ -7,6 +7,7 @@ public class EndItemMoveTo : EndItem {
 
 	public float duration;
 	public float delay;
+	public bool resetBefore = true;
 
 	public bool defaultUp = true;
 	public Vector3 to;
@@ -33,7 +34,8 @@ public class EndItemMoveTo : EndItem {
 	
 	public override void Work ()
 	{
-		Reset ();
+		if(resetBefore)
+			Reset ();
 		StartCoroutine ("Working");
 	}
 

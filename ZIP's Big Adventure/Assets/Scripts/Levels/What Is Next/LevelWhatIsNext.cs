@@ -57,6 +57,9 @@ public class LevelWhatIsNext : ZIPLevel {
 	{
 		transform.localPosition = Vector3.zero;
 		transform.localScale = new Vector3 (1f, 1f, 1f);
+		gameBlock.level [0] = this;
+
+
 		correctAnswer = items [correctIndex-1];
 		for(int i=0;i<4;i++)
 		{
@@ -80,6 +83,7 @@ public class LevelWhatIsNext : ZIPLevel {
 				if(items[i].GetComponent<EndItemMoveTo>() == null)
 					items[i].gameObject.AddComponent<EndItemMoveTo>();
 				items[i].GetComponent<EndItemMoveTo>().defaultUp = false;
+				items[i].GetComponent<EndItemMoveTo>().resetBefore = false;
 				items[i].GetComponent<EndItemMoveTo>().to = items[i].transform.localPosition;
 				items[i].GetComponent<EndItemMoveTo>().duration = 2f;
 				items[i].GetComponent<EndItemMoveTo>().delay = 0.0f;
