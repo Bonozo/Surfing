@@ -1,11 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Jungle Jump\jungle-jump\Assets\Scripts\GorillaAnimationController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Levels\What Is Next\LevelWhatIsNext.cs">
     <Files>
-      <File FileName="..\..\..\Jungle Jump\jungle-jump\Assets\Scripts\GameManager.cs" Line="176" Column="68" />
-      <File FileName="..\..\..\Jungle Jump\jungle-jump\Assets\Scripts\JungleJump.cs" Line="88" Column="22" />
-      <File FileName="..\..\..\Jungle Jump\jungle-jump\Assets\Scripts\GorillaAnimationController.cs" Line="61" Column="23" />
-      <File FileName="..\..\..\Jungle Jump\jungle-jump\Assets\Scripts\test.cs" Line="12" Column="30" />
+      <File FileName="Assets\Scripts\Procedures\EndItemMoveTo.cs" Line="37" Column="17" />
+      <File FileName="Assets\Scripts\Levels\What Is Next\LevelWhatIsNext.cs" Line="91" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

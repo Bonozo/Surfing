@@ -61,7 +61,7 @@ public class LevelWhatIsNext : ZIPLevel {
 
 
 		correctAnswer = items [correctIndex-1];
-		for(int i=0;i<4;i++)
+		for(int i=0;i<itemnames.Length;i++)
 		{
 			SetSprite(items[i].GetComponent<UISprite>(),itemnames[i]);
 			if(i==correctIndex-1)

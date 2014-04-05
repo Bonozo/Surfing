@@ -1,0 +1,1245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PatternsFirstNotBelong
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 740e8d2c4e34f5847b817f149fdad9f5, type: 2}
+  sprites:
+  - name: WhichDoesNotBelong_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1844
+      width: 1167
+      height: 204
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1844
+      width: 1167
+      height: 204
+    rotated: 0
+    paddingLeft: .0351328179
+    paddingRight: .0299914312
+    paddingTop: .127450988
+    paddingBottom: .137254909
+  - name: Garbage Can
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1559
+      width: 373
+      height: 284
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1559
+      width: 373
+      height: 284
+    rotated: 0
+    paddingLeft: .152815014
+    paddingRight: .144772112
+    paddingTop: .214788735
+    paddingBottom: .158450708
+  - name: 1
+    outer:
+      serializedVersion: 2
+      x: 784
+      y: 923
+      width: 46
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 784
+      y: 923
+      width: 46
+      height: 106
+    rotated: 0
+    paddingLeft: .956521749
+    paddingRight: 1.45652175
+    paddingTop: .415094346
+    paddingBottom: .311320752
+  - name: 5
+    outer:
+      serializedVersion: 2
+      x: 535
+      y: 203
+      width: 73
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 535
+      y: 203
+      width: 73
+      height: 111
+    rotated: 0
+    paddingLeft: .684931517
+    paddingRight: .876712322
+    paddingTop: .342342347
+    paddingBottom: .306306303
+  - name: 7
+    outer:
+      serializedVersion: 2
+      x: 536
+      y: 461
+      width: 75
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 536
+      y: 461
+      width: 75
+      height: 111
+    rotated: 0
+    paddingLeft: .680000007
+    paddingRight: .773333311
+    paddingTop: .432432443
+    paddingBottom: .32432431
+  - name: 3
+    outer:
+      serializedVersion: 2
+      x: 1962
+      y: 1230
+      width: 72
+      height: 109
+    inner:
+      serializedVersion: 2
+      x: 1962
+      y: 1230
+      width: 72
+      height: 109
+    rotated: 0
+    paddingLeft: .694444418
+    paddingRight: .694444418
+    paddingTop: .311926603
+    paddingBottom: .394495428
+  - name: 9
+    outer:
+      serializedVersion: 2
+      x: 535
+      y: 315
+      width: 73
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 535
+      y: 315
+      width: 73
+      height: 112
+    rotated: 0
+    paddingLeft: .794520557
+    paddingRight: .849315047
+    paddingTop: .133928567
+    paddingBottom: .294642866
+  - name: 6
+    outer:
+      serializedVersion: 2
+      x: 1889
+      y: 1227
+      width: 72
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1889
+      y: 1227
+      width: 72
+      height: 112
+    rotated: 0
+    paddingLeft: .625
+    paddingRight: .888888896
+    paddingTop: .348214298
+    paddingBottom: .3125
+  - name: C
+    outer:
+      serializedVersion: 2
+      x: 266
+      y: 509
+      width: 96
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 266
+      y: 509
+      width: 96
+      height: 115
+    rotated: 0
+    paddingLeft: .729166687
+    paddingRight: .84375
+    paddingTop: .495652169
+    paddingBottom: .565217376
+  - name: D
+    outer:
+      serializedVersion: 2
+      x: 266
+      y: 780
+      width: 93
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 266
+      y: 780
+      width: 93
+      height: 126
+    rotated: 0
+    paddingLeft: .580645144
+    paddingRight: .623655915
+    paddingTop: .261904776
+    paddingBottom: .333333343
+  - name: M
+    outer:
+      serializedVersion: 2
+      x: 623
+      y: 101
+      width: 133
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 623
+      y: 101
+      width: 133
+      height: 117
+    rotated: 0
+    paddingLeft: .375939846
+    paddingRight: .48120302
+    paddingTop: .273504287
+    paddingBottom: .290598303
+  - name: A
+    outer:
+      serializedVersion: 2
+      x: 246
+      y: 1148
+      width: 106
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 246
+      y: 1148
+      width: 106
+      height: 121
+    rotated: 0
+    paddingLeft: .415094346
+    paddingRight: .745283008
+    paddingTop: .388429761
+    paddingBottom: .545454562
+  - name: L
+    outer:
+      serializedVersion: 2
+      x: 266
+      y: 391
+      width: 90
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 266
+      y: 391
+      width: 90
+      height: 117
+    rotated: 0
+    paddingLeft: .622222245
+    paddingRight: .655555546
+    paddingTop: .367521375
+    paddingBottom: .299145311
+  - name: I
+    outer:
+      serializedVersion: 2
+      x: 784
+      y: 1030
+      width: 47
+      height: 108
+    inner:
+      serializedVersion: 2
+      x: 784
+      y: 1030
+      width: 47
+      height: 108
+    rotated: 0
+    paddingLeft: 1.02127659
+    paddingRight: 1.57446814
+    paddingTop: .333333343
+    paddingBottom: .472222209
+  - name: B
+    outer:
+      serializedVersion: 2
+      x: 246
+      y: 1021
+      width: 97
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 246
+      y: 1021
+      width: 97
+      height: 126
+    rotated: 0
+    paddingLeft: .525773168
+    paddingRight: .556701005
+    paddingTop: .269841284
+    paddingBottom: .277777791
+  - name: E
+    outer:
+      serializedVersion: 2
+      x: 536
+      y: 573
+      width: 70
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 536
+      y: 573
+      width: 70
+      height: 125
+    rotated: 0
+    paddingLeft: .742857158
+    paddingRight: 1.18571424
+    paddingTop: .384000003
+    paddingBottom: .368000001
+  - name: O
+    outer:
+      serializedVersion: 2
+      x: 266
+      y: 666
+      width: 100
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 266
+      y: 666
+      width: 100
+      height: 113
+    rotated: 0
+    paddingLeft: .560000002
+    paddingRight: .639999986
+    paddingTop: .292035401
+    paddingBottom: .513274312
+  - name: Milk
+    outer:
+      serializedVersion: 2
+      x: 623
+      y: 421
+      width: 133
+      height: 260
+    inner:
+      serializedVersion: 2
+      x: 623
+      y: 421
+      width: 133
+      height: 260
+    rotated: 0
+    paddingLeft: .436090231
+    paddingRight: .533834577
+    paddingTop: .134615391
+    paddingBottom: .226923078
+  - name: Baseball
+    outer:
+      serializedVersion: 2
+      x: 1585
+      y: 1347
+      width: 165
+      height: 153
+    inner:
+      serializedVersion: 2
+      x: 1585
+      y: 1347
+      width: 165
+      height: 153
+    rotated: 0
+    paddingLeft: .345454544
+    paddingRight: .315151513
+    paddingTop: .156862751
+    paddingBottom: .254901975
+  - name: Moose
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 625
+      width: 265
+      height: 281
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 625
+      width: 265
+      height: 281
+    rotated: 0
+    paddingLeft: .245283023
+    paddingRight: .241509438
+    paddingTop: .128113881
+    paddingBottom: .120996438
+  - name: Mouse
+    outer:
+      serializedVersion: 2
+      x: 1486
+      y: 1856
+      width: 292
+      height: 192
+    inner:
+      serializedVersion: 2
+      x: 1486
+      y: 1856
+      width: 292
+      height: 192
+    rotated: 0
+    paddingLeft: .106164381
+    paddingRight: .212328762
+    paddingTop: .166666672
+    paddingBottom: .177083328
+  - name: Broccoli
+    outer:
+      serializedVersion: 2
+      x: 829
+      y: 1615
+      width: 281
+      height: 228
+    inner:
+      serializedVersion: 2
+      x: 829
+      y: 1615
+      width: 281
+      height: 228
+    rotated: 0
+    paddingLeft: .167259783
+    paddingRight: .202846974
+    paddingTop: .157894731
+    paddingBottom: .114035085
+  - name: Cotton candy
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 907
+      width: 245
+      height: 362
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 907
+      width: 245
+      height: 362
+    rotated: 0
+    paddingLeft: .130612239
+    paddingRight: .306122452
+    paddingTop: .0718232021
+    paddingBottom: 0
+  - name: Lollipop
+    outer:
+      serializedVersion: 2
+      x: 623
+      y: 682
+      width: 137
+      height: 276
+    inner:
+      serializedVersion: 2
+      x: 623
+      y: 682
+      width: 137
+      height: 276
+    rotated: 0
+    paddingLeft: .474452555
+    paddingRight: .613138676
+    paddingTop: .231884062
+    paddingBottom: .192028984
+  - name: Candy in wrapper
+    outer:
+      serializedVersion: 2
+      x: 1323
+      y: 1367
+      width: 261
+      height: 133
+    inner:
+      serializedVersion: 2
+      x: 1323
+      y: 1367
+      width: 261
+      height: 133
+    rotated: 0
+    paddingLeft: .14176245
+    paddingRight: .229885057
+    paddingTop: .293233097
+    paddingBottom: .330827057
+  - name: U
+    outer:
+      serializedVersion: 2
+      x: 1797
+      y: 1226
+      width: 91
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 1797
+      y: 1226
+      width: 91
+      height: 113
+    rotated: 0
+    paddingLeft: .6813187
+    paddingRight: .901098907
+    paddingTop: .442477882
+    paddingBottom: .415929198
+  - name: Chair
+    outer:
+      serializedVersion: 2
+      x: 1829
+      y: 1588
+      width: 184
+      height: 255
+    inner:
+      serializedVersion: 2
+      x: 1829
+      y: 1588
+      width: 184
+      height: 255
+    rotated: 0
+    paddingLeft: .451086968
+    paddingRight: .592391312
+    paddingTop: .215686277
+    paddingBottom: .184313729
+  - name: Beehive
+    outer:
+      serializedVersion: 2
+      x: 1357
+      y: 1590
+      width: 235
+      height: 253
+    inner:
+      serializedVersion: 2
+      x: 1357
+      y: 1590
+      width: 235
+      height: 253
+    rotated: 0
+    paddingLeft: .157446802
+    paddingRight: .289361715
+    paddingTop: .138339922
+    paddingBottom: .118577078
+  - name: House
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1270
+      width: 343
+      height: 288
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1270
+      width: 343
+      height: 288
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .119533531
+    paddingTop: .121527776
+    paddingBottom: .149305552
+  - name: Nest
+    outer:
+      serializedVersion: 2
+      x: 1049
+      y: 1369
+      width: 273
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 1049
+      y: 1369
+      width: 273
+      height: 131
+    rotated: 0
+    paddingLeft: .131868139
+    paddingRight: .168498173
+    paddingTop: .480916023
+    paddingBottom: .328244269
+  - name: Triangle 1 by 3 Colored
+    outer:
+      serializedVersion: 2
+      x: 246
+      y: 928
+      width: 126
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 246
+      y: 928
+      width: 126
+      height: 92
+    rotated: 0
+    paddingLeft: .357142866
+    paddingRight: .507936537
+    paddingTop: .402173907
+    paddingBottom: .489130437
+  - name: Circle Fully Colored
+    outer:
+      serializedVersion: 2
+      x: 1541
+      y: 1224
+      width: 128
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1541
+      y: 1224
+      width: 128
+      height: 115
+    rotated: 0
+    paddingLeft: .3203125
+    paddingRight: .375
+    paddingTop: .356521726
+    paddingBottom: .391304344
+  - name: Square 1 by 3  Colored
+    outer:
+      serializedVersion: 2
+      x: 1111
+      y: 1501
+      width: 129
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1111
+      y: 1501
+      width: 129
+      height: 98
+    rotated: 0
+    paddingLeft: .426356584
+    paddingRight: .511627913
+    paddingTop: .571428597
+    paddingBottom: .602040827
+  - name: Digital Clock with 4 pm
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 699
+      width: 240
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 699
+      width: 240
+      height: 195
+    rotated: 0
+    paddingLeft: .183333337
+    paddingRight: .220833331
+    paddingTop: .2871795
+    paddingBottom: .282051295
+  - name: Digital Clock with11 am
+    outer:
+      serializedVersion: 2
+      x: 1779
+      y: 1853
+      width: 241
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 1779
+      y: 1853
+      width: 241
+      height: 195
+    rotated: 0
+    paddingLeft: .257261425
+    paddingRight: .215767637
+    paddingTop: .241025642
+    paddingBottom: .235897437
+  - name: Digital Clock with7 am
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 895
+      width: 241
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 895
+      width: 241
+      height: 195
+    rotated: 0
+    paddingLeft: .199170128
+    paddingRight: .336099595
+    paddingTop: .194871798
+    paddingBottom: .282051295
+  - name: Digital Clock with10 am
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 1091
+      width: 241
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 1091
+      width: 241
+      height: 195
+    rotated: 0
+    paddingLeft: .203319505
+    paddingRight: .244813278
+    paddingTop: .246153846
+    paddingBottom: .230769232
+  - name: Cake
+    outer:
+      serializedVersion: 2
+      x: 784
+      y: 1340
+      width: 264
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 784
+      y: 1340
+      width: 264
+      height: 160
+    rotated: 0
+    paddingLeft: .181818187
+    paddingRight: .253787875
+    paddingTop: .362500012
+    paddingBottom: .34375
+  - name: Cat
+    outer:
+      serializedVersion: 2
+      x: 1111
+      y: 1600
+      width: 245
+      height: 243
+    inner:
+      serializedVersion: 2
+      x: 1111
+      y: 1600
+      width: 245
+      height: 243
+    rotated: 0
+    paddingLeft: .232653067
+    paddingRight: .326530606
+    paddingTop: .234567896
+    paddingBottom: .271604925
+  - name: Dog
+    outer:
+      serializedVersion: 2
+      x: 1168
+      y: 1847
+      width: 317
+      height: 201
+    inner:
+      serializedVersion: 2
+      x: 1168
+      y: 1847
+      width: 317
+      height: 201
+    rotated: 0
+    paddingLeft: .0788643509
+    paddingRight: .107255518
+    paddingTop: .12935324
+    paddingBottom: .24378109
+  - name: Carrot
+    outer:
+      serializedVersion: 2
+      x: 1751
+      y: 1383
+      width: 162
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 1751
+      y: 1383
+      width: 162
+      height: 117
+    rotated: 0
+    paddingLeft: .567901254
+    paddingRight: .493827164
+    paddingTop: .641025662
+    paddingBottom: .615384638
+  - name: Princess Patty
+    outer:
+      serializedVersion: 2
+      x: 588
+      y: 1570
+      width: 240
+      height: 273
+    inner:
+      serializedVersion: 2
+      x: 588
+      y: 1570
+      width: 240
+      height: 273
+    rotated: 0
+    paddingLeft: .229166672
+    paddingRight: .237499997
+    paddingTop: .109890111
+    paddingBottom: .197802201
+  - name: Lucky Puppy
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 58
+      width: 241
+      height: 284
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 58
+      width: 241
+      height: 284
+    rotated: 0
+    paddingLeft: .141078845
+    paddingRight: .269709557
+    paddingTop: .105633803
+    paddingBottom: .130281687
+  - name: Marty Moose
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 343
+      width: 265
+      height: 281
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 343
+      width: 265
+      height: 281
+    rotated: 0
+    paddingLeft: .200000003
+    paddingRight: .264150947
+    paddingTop: .138790041
+    paddingBottom: .174377218
+  - name: Barry Bear
+    outer:
+      serializedVersion: 2
+      x: 1593
+      y: 1592
+      width: 235
+      height: 251
+    inner:
+      serializedVersion: 2
+      x: 1593
+      y: 1592
+      width: 235
+      height: 251
+    rotated: 0
+    paddingLeft: .157446802
+    paddingRight: .200000003
+    paddingTop: .12350598
+    paddingBottom: .215139449
+  - name: Red Stop Sign
+    outer:
+      serializedVersion: 2
+      x: 996
+      y: 1157
+      width: 204
+      height: 182
+    inner:
+      serializedVersion: 2
+      x: 996
+      y: 1157
+      width: 204
+      height: 182
+    rotated: 0
+    paddingLeft: .200980395
+    paddingRight: .289215684
+    paddingTop: .32967034
+    paddingBottom: .219780222
+  - name: Red Ball
+    outer:
+      serializedVersion: 2
+      x: 1201
+      y: 1175
+      width: 171
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 1201
+      y: 1175
+      width: 171
+      height: 164
+    rotated: 0
+    paddingLeft: .286549717
+    paddingRight: .280701756
+    paddingTop: .213414639
+    paddingBottom: .286585361
+  - name: Purple Ball
+    outer:
+      serializedVersion: 2
+      x: 1373
+      y: 1174
+      width: 167
+      height: 165
+    inner:
+      serializedVersion: 2
+      x: 1373
+      y: 1174
+      width: 167
+      height: 165
+    rotated: 0
+    paddingLeft: .191616774
+    paddingRight: .359281451
+    paddingTop: .224242419
+    paddingBottom: .375757575
+  - name: Red Flower
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 1501
+      width: 213
+      height: 342
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 1501
+      width: 213
+      height: 342
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .291079819
+    paddingTop: .111111112
+    paddingBottom: .0994152054
+  - name: Circle Half Colored
+    outer:
+      serializedVersion: 2
+      x: 242
+      y: 111
+      width: 128
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 242
+      y: 111
+      width: 128
+      height: 115
+    rotated: 0
+    paddingLeft: .3671875
+    paddingRight: .3046875
+    paddingTop: .313043475
+    paddingBottom: .330434769
+  - name: Rhombus Half Colored
+    outer:
+      serializedVersion: 2
+      x: 623
+      y: 320
+      width: 159
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 623
+      y: 320
+      width: 159
+      height: 100
+    rotated: 0
+    paddingLeft: .176100627
+    paddingRight: .188679248
+    paddingTop: .449999988
+    paddingBottom: .469999999
+  - name: Rhombus Fully Colored
+    outer:
+      serializedVersion: 2
+      x: 623
+      y: 219
+      width: 159
+      height: 100
+    inner:
+      serializedVersion: 2
+      x: 623
+      y: 219
+      width: 159
+      height: 100
+    rotated: 0
+    paddingLeft: .188679248
+    paddingRight: .232704401
+    paddingTop: .430000007
+    paddingBottom: .579999983
+  - name: Socks with pink polka dots
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 428
+      width: 161
+      height: 270
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 428
+      width: 161
+      height: 270
+    rotated: 0
+    paddingLeft: .254658371
+    paddingRight: .447204977
+    paddingTop: .166666672
+    paddingBottom: .144444451
+  - name: Socks with green polka dots
+    outer:
+      serializedVersion: 2
+      x: 623
+      y: 1230
+      width: 160
+      height: 270
+    inner:
+      serializedVersion: 2
+      x: 623
+      y: 1230
+      width: 160
+      height: 270
+    rotated: 0
+    paddingLeft: .256249994
+    paddingRight: .474999994
+    paddingTop: .100000001
+    paddingBottom: .13333334
+  - name: Socks with green stripes
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 156
+      width: 160
+      height: 271
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 156
+      width: 160
+      height: 271
+    rotated: 0
+    paddingLeft: .3125
+    paddingRight: .606249988
+    paddingTop: .158671588
+    paddingBottom: .114391141
+  - name: Socks with red polka dots
+    outer:
+      serializedVersion: 2
+      x: 623
+      y: 959
+      width: 160
+      height: 270
+    inner:
+      serializedVersion: 2
+      x: 623
+      y: 959
+      width: 160
+      height: 270
+    rotated: 0
+    paddingLeft: .293749988
+    paddingRight: .474999994
+    paddingTop: .118518516
+    paddingBottom: .0925925896
+  - name: Circle  Fully Colored
+    outer:
+      serializedVersion: 2
+      x: 242
+      y: 227
+      width: 128
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 242
+      y: 227
+      width: 128
+      height: 115
+    rotated: 0
+    paddingLeft: .3671875
+    paddingRight: .328125
+    paddingTop: .339130431
+    paddingBottom: .356521726
+  - name: Square Not Colored
+    outer:
+      serializedVersion: 2
+      x: 242
+      y: 12
+      width: 129
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 242
+      y: 12
+      width: 129
+      height: 98
+    rotated: 0
+    paddingLeft: .565891445
+    paddingRight: .488372087
+    paddingTop: .581632674
+    paddingBottom: .653061211
+  - name: Triangle Fully Colored
+    outer:
+      serializedVersion: 2
+      x: 1670
+      y: 1247
+      width: 126
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 1670
+      y: 1247
+      width: 126
+      height: 92
+    rotated: 0
+    paddingLeft: .380952388
+    paddingRight: .317460328
+    paddingTop: .402173907
+    paddingBottom: .619565189
+  - name: Umbrella
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 1287
+      width: 248
+      height: 213
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 1287
+      width: 248
+      height: 213
+    rotated: 0
+    paddingLeft: .241935477
+    paddingRight: .274193555
+    paddingTop: .291079819
+    paddingBottom: .272300482
+  - name: Sunshine
+    outer:
+      serializedVersion: 2
+      x: 784
+      y: 1139
+      width: 211
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 784
+      y: 1139
+      width: 211
+      height: 200
+    rotated: 0
+    paddingLeft: .289099514
+    paddingRight: .265402853
+    paddingTop: .174999997
+    paddingBottom: .219999999
+  - name: Rain Cloud
+    outer:
+      serializedVersion: 2
+      x: 374
+      y: 35
+      width: 234
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 374
+      y: 35
+      width: 234
+      height: 120
+    rotated: 0
+    paddingLeft: .252136767
+    paddingRight: .405982912
+    paddingTop: .483333319
+    paddingBottom: .416666657
+  - name: Puddle
+    outer:
+      serializedVersion: 2
+      x: 829
+      y: 1519
+      width: 263
+      height: 95
+    inner:
+      serializedVersion: 2
+      x: 829
+      y: 1519
+      width: 263
+      height: 95
+    rotated: 0
+    paddingLeft: .235741451
+    paddingRight: .285171092
+    paddingTop: .431578934
+    paddingBottom: .715789497
+  - name: Triangle Half Colored
+    outer:
+      serializedVersion: 2
+      x: 1670
+      y: 1154
+      width: 126
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 1670
+      y: 1154
+      width: 126
+      height: 92
+    rotated: 0
+    paddingLeft: .357142866
+    paddingRight: .460317463
+    paddingTop: .358695656
+    paddingBottom: .728260875
+  - name: Square Half Colored
+    outer:
+      serializedVersion: 2
+      x: 623
+      y: 2
+      width: 129
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 623
+      y: 2
+      width: 129
+      height: 98
+    rotated: 0
+    paddingLeft: .356589139
+    paddingRight: .465116292
+    paddingTop: .673469365
+    paddingBottom: .561224461
+  - name: Circle Half Colored 2
+    outer:
+      serializedVersion: 2
+      x: 1914
+      y: 1385
+      width: 128
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1914
+      y: 1385
+      width: 128
+      height: 115
+    rotated: 0
+    paddingLeft: .453125
+    paddingRight: .4296875
+    paddingTop: .37391305
+    paddingBottom: .321739137
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
