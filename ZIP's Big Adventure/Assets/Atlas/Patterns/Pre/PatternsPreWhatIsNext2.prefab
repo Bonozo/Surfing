@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PatternsPreWhatIsNext2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: c11c52ea50c7b264cb1dc7e3277f19b5, type: 2}
+  sprites:
+  - name: Blue Circle_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1664
+      width: 1232
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1664
+      width: 1232
+      height: 180
+    rotated: 0
+    paddingLeft: .0349025987
+    paddingRight: .0324675329
+    paddingTop: .338888884
+    paddingBottom: .311111122
+  - name: Red Circle
+    outer:
+      serializedVersion: 2
+      x: 1429
+      y: 1729
+      width: 128
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1429
+      y: 1729
+      width: 128
+      height: 115
+    rotated: 0
+    paddingLeft: .140625
+    paddingRight: .25
+    paddingTop: .278260857
+    paddingBottom: .313043475
+  - name: Blue Triangle
+    outer:
+      serializedVersion: 2
+      x: 1563
+      y: 1856
+      width: 126
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1563
+      y: 1856
+      width: 126
+      height: 93
+    rotated: 0
+    paddingLeft: .539682567
+    paddingRight: .492063493
+    paddingTop: .322580636
+    paddingBottom: .54838711
+  - name: Blue Circle
+    outer:
+      serializedVersion: 2
+      x: 1558
+      y: 1729
+      width: 128
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1558
+      y: 1729
+      width: 128
+      height: 115
+    rotated: 0
+    paddingLeft: .3359375
+    paddingRight: .359375
+    paddingTop: .356521726
+    paddingBottom: .469565213
+  - name: Blue Circle_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1031
+      width: 1172
+      height: 120
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1031
+      width: 1172
+      height: 120
+    rotated: 0
+    paddingLeft: .0443686023
+    paddingRight: .0520477816
+    paddingTop: .708333313
+    paddingBottom: .741666675
+  - name: White Box
+    outer:
+      serializedVersion: 2
+      x: 1233
+      y: 1681
+      width: 195
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 1233
+      y: 1681
+      width: 195
+      height: 163
+    rotated: 0
+    paddingLeft: .210256413
+    paddingRight: .348717958
+    paddingTop: .294478536
+    paddingBottom: .361963183
+  - name: What'sNext_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1845
+      width: 1172
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1845
+      width: 1172
+      height: 203
+    rotated: 0
+    paddingLeft: .0435153581
+    paddingRight: .0554607511
+    paddingTop: .118226603
+    paddingBottom: .182266012
+  - name: Orange Circle
+    outer:
+      serializedVersion: 2
+      x: 1687
+      y: 1729
+      width: 128
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1687
+      y: 1729
+      width: 128
+      height: 115
+    rotated: 0
+    paddingLeft: .25
+    paddingRight: .3046875
+    paddingTop: .304347813
+    paddingBottom: .286956519
+  - name: Blue squaret
+    outer:
+      serializedVersion: 2
+      x: 1173
+      y: 1851
+      width: 129
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1173
+      y: 1851
+      width: 129
+      height: 98
+    rotated: 0
+    paddingLeft: .387596905
+    paddingRight: .503875971
+    paddingTop: .428571433
+    paddingBottom: .53061223
+  - name: Blue circleB_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 913
+      width: 1189
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 913
+      width: 1189
+      height: 117
+    rotated: 0
+    paddingLeft: .0521446578
+    paddingRight: .0513036177
+    paddingTop: .760683775
+    paddingBottom: 1.03418803
+  - name: Blue circleB_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1486
+      width: 1249
+      height: 177
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1486
+      width: 1249
+      height: 177
+    rotated: 0
+    paddingLeft: .049639713
+    paddingRight: .039231386
+    paddingTop: .451977402
+    paddingBottom: .276836157
+  - name: Blue Square_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1311
+      width: 1264
+      height: 174
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1311
+      width: 1264
+      height: 174
+    rotated: 0
+    paddingLeft: .0411392413
+    paddingRight: .0324367099
+    paddingTop: .396551728
+    paddingBottom: .448275864
+  - name: Red Square
+    outer:
+      serializedVersion: 2
+      x: 1303
+      y: 1851
+      width: 129
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1303
+      y: 1851
+      width: 129
+      height: 98
+    rotated: 0
+    paddingLeft: .434108526
+    paddingRight: .434108526
+    paddingTop: .428571433
+    paddingBottom: .561224461
+  - name: Blue Square
+    outer:
+      serializedVersion: 2
+      x: 1433
+      y: 1851
+      width: 129
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1433
+      y: 1851
+      width: 129
+      height: 98
+    rotated: 0
+    paddingLeft: .248062015
+    paddingRight: .4108527
+    paddingTop: .408163279
+    paddingBottom: .734693885
+  - name: Blue Square_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 798
+      width: 1204
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 798
+      width: 1204
+      height: 114
+    rotated: 0
+    paddingLeft: .050664451
+    paddingRight: .0465116277
+    paddingTop: .789473712
+    paddingBottom: .973684192
+  - name: Red Octagon
+    outer:
+      serializedVersion: 2
+      x: 1250
+      y: 1549
+      width: 114
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 1250
+      y: 1549
+      width: 114
+      height: 114
+    rotated: 0
+    paddingLeft: .447368413
+    paddingRight: .561403513
+    paddingTop: .447368413
+    paddingBottom: .421052635
+  - name: BlueTriangle_End
+    outer:
+      serializedVersion: 2
+      x: 1173
+      y: 1950
+      width: 864
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 1173
+      y: 1950
+      width: 864
+      height: 98
+    rotated: 0
+    paddingLeft: .0694444478
+    paddingRight: .0428240746
+    paddingTop: .724489808
+    paddingBottom: .846938789
+  - name: BlueTriangle_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1152
+      width: 924
+      height: 158
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1152
+      width: 924
+      height: 158
+    rotated: 0
+    paddingLeft: .0746753216
+    paddingRight: .0497835502
+    paddingTop: .430379748
+    paddingBottom: .449367076
+  - name: Yellow Circle
+    outer:
+      serializedVersion: 2
+      x: 1816
+      y: 1729
+      width: 128
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1816
+      y: 1729
+      width: 128
+      height: 115
+    rotated: 0
+    paddingLeft: .2265625
+    paddingRight: .375
+    paddingTop: .278260857
+    paddingBottom: .339130431
+  - name: Dotted line
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 210
+      width: 7
+      height: 587
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 210
+      width: 7
+      height: 587
+    rotated: 0
+    paddingLeft: 6.85714293
+    paddingRight: 11.5714283
+    paddingTop: .078364566
+    paddingBottom: .0919931829
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

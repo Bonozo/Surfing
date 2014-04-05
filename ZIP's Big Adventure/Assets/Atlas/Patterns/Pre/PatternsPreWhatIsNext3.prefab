@@ -1,0 +1,399 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PatternsPreWhatIsNext3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: bd0147ef876687249b823120a8c147d2, type: 2}
+  sprites:
+  - name: What'sNext_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2891
+      width: 1172
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2891
+      width: 1172
+      height: 203
+    rotated: 0
+    paddingLeft: .0435153581
+    paddingRight: .0554607511
+    paddingTop: .118226603
+    paddingBottom: .182266012
+  - name: Dotted line
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1817
+      width: 7
+      height: 587
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1817
+      width: 7
+      height: 587
+    rotated: 0
+    paddingLeft: 6.85714293
+    paddingRight: 11.5714283
+    paddingTop: .078364566
+    paddingBottom: .0919931829
+  - name: White Box
+    outer:
+      serializedVersion: 2
+      x: 1265
+      y: 3933
+      width: 195
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 3933
+      width: 195
+      height: 163
+    rotated: 0
+    paddingLeft: .210256413
+    paddingRight: .348717958
+    paddingTop: .294478536
+    paddingBottom: .361963183
+  - name: Butterfly with circles on its wings
+    outer:
+      serializedVersion: 2
+      x: 1265
+      y: 3649
+      width: 155
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 3649
+      width: 155
+      height: 106
+    rotated: 0
+    paddingLeft: .193548381
+    paddingRight: .225806445
+    paddingTop: .339622647
+    paddingBottom: .301886797
+  - name: Butterfly with Triangles on its wings
+    outer:
+      serializedVersion: 2
+      x: 1265
+      y: 3542
+      width: 155
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 3542
+      width: 155
+      height: 106
+    rotated: 0
+    paddingLeft: .251612902
+    paddingRight: .245161295
+    paddingTop: .53773582
+    paddingBottom: .358490556
+  - name: Butterfly with circles on its wings_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2405
+      width: 1349
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2405
+      width: 1349
+      height: 113
+    rotated: 0
+    paddingLeft: .0385470726
+    paddingRight: .0296515934
+    paddingTop: .672566354
+    paddingBottom: .823008835
+  - name: Butterfly with Squares on its wings
+    outer:
+      serializedVersion: 2
+      x: 1461
+      y: 3990
+      width: 155
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 1461
+      y: 3990
+      width: 155
+      height: 106
+    rotated: 0
+    paddingLeft: .174193546
+    paddingRight: .283870965
+    paddingTop: .415094346
+    paddingBottom: .311320752
+  - name: Butterfly with circles on its wings_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3095
+      width: 1409
+      height: 173
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 3095
+      width: 1409
+      height: 173
+    rotated: 0
+    paddingLeft: .0432931148
+    paddingRight: .0262597594
+    paddingTop: .439306349
+    paddingBottom: .294797689
+  - name: Carrot
+    outer:
+      serializedVersion: 2
+      x: 1617
+      y: 4029
+      width: 92
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 1617
+      y: 4029
+      width: 92
+      height: 67
+    rotated: 0
+    paddingLeft: .391304344
+    paddingRight: .347826093
+    paddingTop: .716417909
+    paddingBottom: .477611929
+  - name: Banana
+    outer:
+      serializedVersion: 2
+      x: 1461
+      y: 3730
+      width: 96
+      height: 133
+    inner:
+      serializedVersion: 2
+      x: 1461
+      y: 3730
+      width: 96
+      height: 133
+    rotated: 0
+    paddingLeft: .4375
+    paddingRight: .447916657
+    paddingTop: .36090225
+    paddingBottom: .24060151
+  - name: Carrot_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3269
+      width: 1225
+      height: 239
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 3269
+      width: 1225
+      height: 239
+    rotated: 0
+    paddingLeft: .0310204085
+    paddingRight: .0326530598
+    paddingTop: .15481171
+    paddingBottom: .313807517
+  - name: Carrot_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2711
+      width: 1165
+      height: 179
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2711
+      width: 1165
+      height: 179
+    rotated: 0
+    paddingLeft: .0351931341
+    paddingRight: .052360516
+    paddingTop: .25698325
+    paddingBottom: .502793312
+  - name: Honey Bunny
+    outer:
+      serializedVersion: 2
+      x: 1265
+      y: 3756
+      width: 133
+      height: 176
+    inner:
+      serializedVersion: 2
+      x: 1265
+      y: 3756
+      width: 133
+      height: 176
+    rotated: 0
+    paddingLeft: .300751865
+    paddingRight: .39849624
+    paddingTop: .1875
+    paddingBottom: .210227266
+  - name: D_End
+    outer:
+      serializedVersion: 2
+      x: 1032
+      y: 2579
+      width: 971
+      height: 131
+    inner:
+      serializedVersion: 2
+      x: 1032
+      y: 2579
+      width: 971
+      height: 131
+    rotated: 0
+    paddingLeft: .0576725043
+    paddingRight: .0494335741
+    paddingTop: .473282456
+    paddingBottom: .427480906
+  - name: D_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2519
+      width: 1031
+      height: 191
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2519
+      width: 1031
+      height: 191
+    rotated: 0
+    paddingLeft: .048496604
+    paddingRight: .0436469465
+    paddingTop: .261780113
+    paddingBottom: .230366498
+  - name: D
+    outer:
+      serializedVersion: 2
+      x: 1461
+      y: 3603
+      width: 93
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 1461
+      y: 3603
+      width: 93
+      height: 126
+    rotated: 0
+    paddingLeft: .559139788
+    paddingRight: .516129017
+    paddingTop: .261904776
+    paddingBottom: .261904776
+  - name: N
+    outer:
+      serializedVersion: 2
+      x: 1461
+      y: 3864
+      width: 105
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 1461
+      y: 3864
+      width: 105
+      height: 125
+    rotated: 0
+    paddingLeft: .304761916
+    paddingRight: .476190478
+    paddingTop: .231999993
+    paddingBottom: .30399999
+  - name: P
+    outer:
+      serializedVersion: 2
+      x: 1567
+      y: 3874
+      width: 82
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1567
+      y: 3874
+      width: 82
+      height: 115
+    rotated: 0
+    paddingLeft: .48780489
+    paddingRight: .573170722
+    paddingTop: .347826093
+    paddingBottom: .321739137
+  - name: D_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3509
+      width: 1264
+      height: 587
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 3509
+      width: 1264
+      height: 587
+    rotated: 0
+    paddingLeft: .0743670911
+    paddingRight: .0490506329
+    paddingTop: .0613287911
+    paddingBottom: .0834752992
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

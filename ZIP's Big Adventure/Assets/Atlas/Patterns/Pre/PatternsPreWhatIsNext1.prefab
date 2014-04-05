@@ -1,0 +1,381 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PatternsPreWhatIsNext1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 61699879fd6925e4fbcccdb9c5284285, type: 2}
+  sprites:
+  - name: Acorn_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1024
+      width: 1060
+      height: 173
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1024
+      width: 1060
+      height: 173
+    rotated: 0
+    paddingLeft: .0669811293
+    paddingRight: .100000001
+    paddingTop: .531791925
+    paddingBottom: .566473961
+  - name: Acorn_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1815
+      width: 1120
+      height: 233
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1815
+      width: 1120
+      height: 233
+    rotated: 0
+    paddingLeft: .0553571433
+    paddingRight: .0678571463
+    paddingTop: .407725334
+    paddingBottom: .356223166
+  - name: Big smile face_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1198
+      width: 1029
+      height: 189
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1198
+      width: 1029
+      height: 189
+    rotated: 0
+    paddingLeft: .0388726927
+    paddingRight: .0349854231
+    paddingTop: .306878299
+    paddingBottom: .343915343
+  - name: Big smile face_End
+    outer:
+      serializedVersion: 2
+      x: 1030
+      y: 1258
+      width: 969
+      height: 129
+    inner:
+      serializedVersion: 2
+      x: 1030
+      y: 1258
+      width: 969
+      height: 129
+    rotated: 0
+    paddingLeft: .0474716201
+    paddingRight: .043343652
+    paddingTop: .612403095
+    paddingBottom: .620155036
+  - name: Acorn
+    outer:
+      serializedVersion: 2
+      x: 1896
+      y: 1827
+      width: 87
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1896
+      y: 1827
+      width: 87
+      height: 93
+    rotated: 0
+    paddingLeft: .609195411
+    paddingRight: .643678188
+    paddingTop: .763440847
+    paddingBottom: .655913949
+  - name: Acorn_Apple
+    outer:
+      serializedVersion: 2
+      x: 1444
+      y: 1704
+      width: 121
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 1444
+      y: 1704
+      width: 121
+      height: 110
+    rotated: 0
+    paddingLeft: .495867759
+    paddingRight: .471074373
+    paddingTop: .654545426
+    paddingBottom: .418181807
+  - name: Acorn_Squirrel
+    outer:
+      serializedVersion: 2
+      x: 1317
+      y: 1889
+      width: 183
+      height: 159
+    inner:
+      serializedVersion: 2
+      x: 1317
+      y: 1889
+      width: 183
+      height: 159
+    rotated: 0
+    paddingLeft: .136612028
+    paddingRight: .213114753
+    paddingTop: .28930819
+    paddingBottom: .314465404
+  - name: Big smile face
+    outer:
+      serializedVersion: 2
+      x: 1896
+      y: 1921
+      width: 141
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 1896
+      y: 1921
+      width: 141
+      height: 127
+    rotated: 0
+    paddingLeft: .290780127
+    paddingRight: .226950347
+    paddingTop: .244094491
+    paddingBottom: .267716527
+  - name: Big smile face_Smile face
+    outer:
+      serializedVersion: 2
+      x: 1162
+      y: 1687
+      width: 140
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 1162
+      y: 1687
+      width: 140
+      height: 127
+    rotated: 0
+    paddingLeft: .22857143
+    paddingRight: .257142872
+    paddingTop: .322834641
+    paddingBottom: .307086617
+  - name: Big smile face_Frown face
+    outer:
+      serializedVersion: 2
+      x: 1303
+      y: 1687
+      width: 140
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 1303
+      y: 1687
+      width: 140
+      height: 127
+    rotated: 0
+    paddingLeft: .25
+    paddingRight: .364285707
+    paddingTop: .188976377
+    paddingBottom: .259842515
+  - name: What'sNext_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1388
+      width: 1172
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1388
+      width: 1172
+      height: 203
+    rotated: 0
+    paddingLeft: .0435153581
+    paddingRight: .0554607511
+    paddingTop: .118226603
+    paddingBottom: .182266012
+  - name: Dotted line
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 274
+      width: 7
+      height: 587
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 274
+      width: 7
+      height: 587
+    rotated: 0
+    paddingLeft: 6.85714293
+    paddingRight: 11.5714283
+    paddingTop: .078364566
+    paddingBottom: .0919931829
+  - name: White Box
+    outer:
+      serializedVersion: 2
+      x: 1121
+      y: 1885
+      width: 195
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 1121
+      y: 1885
+      width: 195
+      height: 163
+    rotated: 0
+    paddingLeft: .210256413
+    paddingRight: .348717958
+    paddingTop: .294478536
+    paddingBottom: .361963183
+  - name: Zip
+    outer:
+      serializedVersion: 2
+      x: 1775
+      y: 1890
+      width: 120
+      height: 158
+    inner:
+      serializedVersion: 2
+      x: 1775
+      y: 1890
+      width: 120
+      height: 158
+    rotated: 0
+    paddingLeft: .258333325
+    paddingRight: .375
+    paddingTop: .151898727
+    paddingBottom: .107594937
+  - name: Barry_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1592
+      width: 1161
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1592
+      width: 1161
+      height: 222
+    rotated: 0
+    paddingLeft: .0361757092
+    paddingRight: .0370370373
+    paddingTop: .288288295
+    paddingBottom: .333333343
+  - name: Barry
+    outer:
+      serializedVersion: 2
+      x: 1501
+      y: 1900
+      width: 141
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 1501
+      y: 1900
+      width: 141
+      height: 148
+    rotated: 0
+    paddingLeft: .219858155
+    paddingRight: .297872335
+    paddingTop: .270270258
+    paddingBottom: .290540546
+  - name: Lucky
+    outer:
+      serializedVersion: 2
+      x: 1643
+      y: 1901
+      width: 131
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 1643
+      y: 1901
+      width: 131
+      height: 147
+    rotated: 0
+    paddingLeft: .389312983
+    paddingRight: .312977105
+    paddingTop: .340136051
+    paddingBottom: .272108853
+  - name: Barry_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 862
+      width: 1101
+      height: 161
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 862
+      width: 1101
+      height: 161
+    rotated: 0
+    paddingLeft: .054495912
+    paddingRight: .0499545857
+    paddingTop: .41614908
+    paddingBottom: .614906847
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

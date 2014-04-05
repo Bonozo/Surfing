@@ -8,6 +8,7 @@ public class LevelWhatIsNext : ZIPLevel {
 	public WhatIsNextDrag correctAnswer;
 	public Transform answerPlace;
 	public EndItem[] endItems;
+	public float endTime = 2f;
 
 	public override void StartGame ()
 	{
@@ -37,7 +38,7 @@ public class LevelWhatIsNext : ZIPLevel {
 		foreach(var it in items) it.DisableCollider();
 		yield return new WaitForEndOfFrame ();
 
-		iTween.MoveTo (correctAnswer.gameObject, answerPlace.transform.position, 2f);
+		iTween.MoveTo (correctAnswer.gameObject, answerPlace.transform.position, endTime);
 		foreach(var et in endItems) et.Work();
 		yield return new WaitForSeconds(0.5f);
 		gameBlock.path.OneStepGo ();
@@ -49,7 +50,7 @@ public class LevelWhatIsNext : ZIPLevel {
 
 	#region What Does not Belong Editor
 
-	public int correctIndex;
+	/*public int correctIndex;
 	public string[] itemnames;
 	public Transform answer;
 
@@ -98,6 +99,23 @@ public class LevelWhatIsNext : ZIPLevel {
 		sprite.type = UISprite.Type.Simple;
 		sprite.MakePixelPerfect ();
 		sprite.type = UISprite.Type.Sliced;
+	}*/
+
+	#endregion
+
+	#region What Is Next
+
+	public GameObject Center;
+
+	public void Initialize()
+	{
+		transform.localPosition = Vector3.zero;
+		transform.localScale = new Vector3 (1f, 1f, 1f);
+		gameBlock.level [0] = this;
+
+		var pos = Center.transform.FindChild("Basic").transform.localPosition;
+		pos.x = -pos.x; pos.y=0; pos.z = 0;
+		Center.GetComponent<EndItemMoveTo> ().to = pos;
 	}
 
 	#endregion
