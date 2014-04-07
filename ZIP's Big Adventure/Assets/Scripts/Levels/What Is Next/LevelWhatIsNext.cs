@@ -116,6 +116,9 @@ public class LevelWhatIsNext : ZIPLevel {
 		var pos = Center.transform.FindChild("Basic").transform.localPosition;
 		pos.x = -pos.x; pos.y=0; pos.z = 0;
 		Center.GetComponent<EndItemMoveTo> ().to = pos;
+
+		if(Center.transform.parent.FindChild("_begin") != null)
+			DestroyImmediate(Center.transform.parent.FindChild("_begin").gameObject);
 	}
 
 	#endregion

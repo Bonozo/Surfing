@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PatternsPreWhatIsNext7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9be7a53190d72b040bf17ad8180fbf82, type: 2}
+  sprites:
+  - name: Dotted line
+    outer:
+      serializedVersion: 2
+      x: 1286
+      y: 2921
+      width: 7
+      height: 587
+    inner:
+      serializedVersion: 2
+      x: 1286
+      y: 2921
+      width: 7
+      height: 587
+    rotated: 0
+    paddingLeft: 6.85714293
+    paddingRight: 11.5714283
+    paddingTop: .078364566
+    paddingBottom: .0919931829
+  - name: What'sNext_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2009
+      width: 1172
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2009
+      width: 1172
+      height: 203
+    rotated: 0
+    paddingLeft: .0435153581
+    paddingRight: .0554607511
+    paddingTop: .118226603
+    paddingBottom: .182266012
+  - name: White Box
+    outer:
+      serializedVersion: 2
+      x: 1691
+      y: 3933
+      width: 195
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 1691
+      y: 3933
+      width: 195
+      height: 163
+    rotated: 0
+    paddingLeft: .210256413
+    paddingRight: .348717958
+    paddingTop: .294478536
+    paddingBottom: .361963183
+  - name: star with vertical stripes_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2213
+      width: 1347
+      height: 224
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2213
+      width: 1347
+      height: 224
+    rotated: 0
+    paddingLeft: .0415738672
+    paddingRight: .0660727546
+    paddingTop: .116071425
+    paddingBottom: .357142866
+  - name: star with horizontal stripes
+    outer:
+      serializedVersion: 2
+      x: 1856
+      y: 3771
+      width: 165
+      height: 161
+    inner:
+      serializedVersion: 2
+      x: 1856
+      y: 3771
+      width: 165
+      height: 161
+    rotated: 0
+    paddingLeft: .163636357
+    paddingRight: .278787881
+    paddingTop: .149068326
+    paddingBottom: .285714298
+  - name: star with vertical stripes
+    outer:
+      serializedVersion: 2
+      x: 1691
+      y: 3605
+      width: 165
+      height: 161
+    inner:
+      serializedVersion: 2
+      x: 1691
+      y: 3605
+      width: 165
+      height: 161
+    rotated: 0
+    paddingLeft: .430303037
+    paddingRight: .430303037
+    paddingTop: .130434781
+    paddingBottom: .24844721
+  - name: star with vertical stripes_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1666
+      width: 1287
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1666
+      width: 1287
+      height: 164
+    rotated: 0
+    paddingLeft: .0528360531
+    paddingRight: .0481740497
+    paddingTop: .414634138
+    paddingBottom: .670731723
+  - name: star with diagonal stripes
+    outer:
+      serializedVersion: 2
+      x: 1691
+      y: 3767
+      width: 164
+      height: 165
+    inner:
+      serializedVersion: 2
+      x: 1691
+      y: 3767
+      width: 164
+      height: 165
+    rotated: 0
+    paddingLeft: .286585361
+    paddingRight: .243902445
+    paddingTop: .230303034
+    paddingBottom: .24848485
+  - name: Short Tree
+    outer:
+      serializedVersion: 2
+      x: 1887
+      y: 3974
+      width: 145
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 1887
+      y: 3974
+      width: 145
+      height: 122
+    rotated: 0
+    paddingLeft: .331034482
+    paddingRight: .45517242
+    paddingTop: .196721315
+    paddingBottom: .311475396
+  - name: Tall Tree_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2438
+      width: 987
+      height: 415
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2438
+      width: 987
+      height: 415
+    rotated: 0
+    paddingLeft: .0385005064
+    paddingRight: .0658561289
+    paddingTop: .185542166
+    paddingBottom: .137349397
+  - name: Flower
+    outer:
+      serializedVersion: 2
+      x: 1857
+      y: 3565
+      width: 62
+      height: 104
+    inner:
+      serializedVersion: 2
+      x: 1857
+      y: 3565
+      width: 62
+      height: 104
+    rotated: 0
+    paddingLeft: 1.20967746
+    paddingRight: 1.29032254
+    paddingTop: .557692289
+    paddingBottom: .721153855
+  - name: Tall Tree
+    outer:
+      serializedVersion: 2
+      x: 1553
+      y: 3746
+      width: 137
+      height: 350
+    inner:
+      serializedVersion: 2
+      x: 1553
+      y: 3746
+      width: 137
+      height: 350
+    rotated: 0
+    paddingLeft: .43065694
+    paddingRight: .722627759
+    paddingTop: .151428565
+    paddingBottom: .168571427
+  - name: Tall Tree_End
+    outer:
+      serializedVersion: 2
+      x: 988
+      y: 2498
+      width: 927
+      height: 355
+    inner:
+      serializedVersion: 2
+      x: 988
+      y: 2498
+      width: 927
+      height: 355
+    rotated: 0
+    paddingLeft: .0733549073
+    paddingRight: .0765911564
+    paddingTop: .200000003
+    paddingBottom: .202816904
+  - name: Octagon
+    outer:
+      serializedVersion: 2
+      x: 1553
+      y: 3631
+      width: 114
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 1553
+      y: 3631
+      width: 114
+      height: 114
+    rotated: 0
+    paddingLeft: .464912295
+    paddingRight: .517543852
+    paddingTop: .421052635
+    paddingBottom: .394736856
+  - name: Triangle
+    outer:
+      serializedVersion: 2
+      x: 1553
+      y: 3534
+      width: 130
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 1553
+      y: 3534
+      width: 130
+      height: 96
+    rotated: 0
+    paddingLeft: .392307699
+    paddingRight: .41538462
+    paddingTop: .395833343
+    paddingBottom: .666666687
+  - name: Upside Down Triangle_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1831
+      width: 1332
+      height: 177
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1831
+      width: 1332
+      height: 177
+    rotated: 0
+    paddingLeft: .0225225221
+    paddingRight: .0352852866
+    paddingTop: .21468927
+    paddingBottom: .446327686
+  - name: Upside Down Triangle
+    outer:
+      serializedVersion: 2
+      x: 1857
+      y: 3670
+      width: 130
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 1857
+      y: 3670
+      width: 130
+      height: 96
+    rotated: 0
+    paddingLeft: .353846163
+    paddingRight: .36153847
+    paddingTop: .416666657
+    paddingBottom: .489583343
+  - name: Upside Down Triangle_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1548
+      width: 1272
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1548
+      width: 1272
+      height: 117
+    rotated: 0
+    paddingLeft: .0416666679
+    paddingRight: .0487421378
+    paddingTop: .452991456
+    paddingBottom: .905982912
+  - name: Tall Tree_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 2854
+      width: 1285
+      height: 654
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 2854
+      width: 1285
+      height: 654
+    rotated: 0
+    paddingLeft: .023346303
+    paddingRight: .0583657585
+    paddingTop: .125382259
+    paddingBottom: .103975534
+  - name: Upside Down Triangle_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 3509
+      width: 1552
+      height: 587
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 3509
+      width: 1552
+      height: 587
+    rotated: 0
+    paddingLeft: .0257731955
+    paddingRight: .0399484523
+    paddingTop: .0442930162
+    paddingBottom: .115843274
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
