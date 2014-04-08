@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: Dotted line
     outer:
       serializedVersion: 2
-      x: 1286
-      y: 2921
+      x: 138
+      y: 155
       width: 7
       height: 587
     inner:
       serializedVersion: 2
-      x: 1286
-      y: 2921
+      x: 138
+      y: 155
       width: 7
       height: 587
     rotated: 0
@@ -62,13 +62,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 2009
+      y: 1204
       width: 1172
       height: 203
     inner:
       serializedVersion: 2
       x: 0
-      y: 2009
+      y: 1204
       width: 1172
       height: 203
     rotated: 0
@@ -79,14 +79,14 @@ MonoBehaviour:
   - name: White Box
     outer:
       serializedVersion: 2
-      x: 1691
-      y: 3933
+      x: 1348
+      y: 1469
       width: 195
       height: 163
     inner:
       serializedVersion: 2
-      x: 1691
-      y: 3933
+      x: 1348
+      y: 1469
       width: 195
       height: 163
     rotated: 0
@@ -98,13 +98,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 2213
+      y: 1408
       width: 1347
       height: 224
     inner:
       serializedVersion: 2
       x: 0
-      y: 2213
+      y: 1408
       width: 1347
       height: 224
     rotated: 0
@@ -115,14 +115,14 @@ MonoBehaviour:
   - name: star with horizontal stripes
     outer:
       serializedVersion: 2
-      x: 1856
-      y: 3771
+      x: 1709
+      y: 1471
       width: 165
       height: 161
     inner:
       serializedVersion: 2
-      x: 1856
-      y: 3771
+      x: 1709
+      y: 1471
       width: 165
       height: 161
     rotated: 0
@@ -133,14 +133,14 @@ MonoBehaviour:
   - name: star with vertical stripes
     outer:
       serializedVersion: 2
-      x: 1691
-      y: 3605
+      x: 1875
+      y: 1471
       width: 165
       height: 161
     inner:
       serializedVersion: 2
-      x: 1691
-      y: 3605
+      x: 1875
+      y: 1471
       width: 165
       height: 161
     rotated: 0
@@ -152,13 +152,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1666
+      y: 861
       width: 1287
       height: 164
     inner:
       serializedVersion: 2
       x: 0
-      y: 1666
+      y: 861
       width: 1287
       height: 164
     rotated: 0
@@ -169,14 +169,14 @@ MonoBehaviour:
   - name: star with diagonal stripes
     outer:
       serializedVersion: 2
-      x: 1691
-      y: 3767
+      x: 1544
+      y: 1467
       width: 164
       height: 165
     inner:
       serializedVersion: 2
-      x: 1691
-      y: 3767
+      x: 1544
+      y: 1467
       width: 164
       height: 165
     rotated: 0
@@ -187,14 +187,14 @@ MonoBehaviour:
   - name: Short Tree
     outer:
       serializedVersion: 2
-      x: 1887
-      y: 3974
+      x: 1173
+      y: 1285
       width: 145
       height: 122
     inner:
       serializedVersion: 2
-      x: 1887
-      y: 3974
+      x: 1173
+      y: 1285
       width: 145
       height: 122
     rotated: 0
@@ -206,13 +206,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 2438
+      y: 1633
       width: 987
       height: 415
     inner:
       serializedVersion: 2
       x: 0
-      y: 2438
+      y: 1633
       width: 987
       height: 415
     rotated: 0
@@ -223,14 +223,14 @@ MonoBehaviour:
   - name: Flower
     outer:
       serializedVersion: 2
-      x: 1857
-      y: 3565
+      x: 1916
+      y: 1635
       width: 62
       height: 104
     inner:
       serializedVersion: 2
-      x: 1857
-      y: 3565
+      x: 1916
+      y: 1635
       width: 62
       height: 104
     rotated: 0
@@ -241,14 +241,14 @@ MonoBehaviour:
   - name: Tall Tree
     outer:
       serializedVersion: 2
-      x: 1553
-      y: 3746
+      x: 0
+      y: 392
       width: 137
       height: 350
     inner:
       serializedVersion: 2
-      x: 1553
-      y: 3746
+      x: 0
+      y: 392
       width: 137
       height: 350
     rotated: 0
@@ -260,13 +260,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 988
-      y: 2498
+      y: 1693
       width: 927
       height: 355
     inner:
       serializedVersion: 2
       x: 988
-      y: 2498
+      y: 1693
       width: 927
       height: 355
     rotated: 0
@@ -277,14 +277,14 @@ MonoBehaviour:
   - name: Octagon
     outer:
       serializedVersion: 2
-      x: 1553
-      y: 3631
+      x: 1916
+      y: 1934
       width: 114
       height: 114
     inner:
       serializedVersion: 2
-      x: 1553
-      y: 3631
+      x: 1916
+      y: 1934
       width: 114
       height: 114
     rotated: 0
@@ -295,14 +295,14 @@ MonoBehaviour:
   - name: Triangle
     outer:
       serializedVersion: 2
-      x: 1553
-      y: 3534
+      x: 1916
+      y: 1837
       width: 130
       height: 96
     inner:
       serializedVersion: 2
-      x: 1553
-      y: 3534
+      x: 1916
+      y: 1837
       width: 130
       height: 96
     rotated: 0
@@ -314,13 +314,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1831
+      y: 1026
       width: 1332
       height: 177
     inner:
       serializedVersion: 2
       x: 0
-      y: 1831
+      y: 1026
       width: 1332
       height: 177
     rotated: 0
@@ -331,14 +331,14 @@ MonoBehaviour:
   - name: Upside Down Triangle
     outer:
       serializedVersion: 2
-      x: 1857
-      y: 3670
+      x: 1916
+      y: 1740
       width: 130
       height: 96
     inner:
       serializedVersion: 2
-      x: 1857
-      y: 3670
+      x: 1916
+      y: 1740
       width: 130
       height: 96
     rotated: 0
@@ -350,13 +350,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1548
+      y: 743
       width: 1272
       height: 117
     inner:
       serializedVersion: 2
       x: 0
-      y: 1548
+      y: 743
       width: 1272
       height: 117
     rotated: 0
@@ -364,42 +364,6 @@ MonoBehaviour:
     paddingRight: .0487421378
     paddingTop: .452991456
     paddingBottom: .905982912
-  - name: Tall Tree_Begin
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 2854
-      width: 1285
-      height: 654
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 2854
-      width: 1285
-      height: 654
-    rotated: 0
-    paddingLeft: .023346303
-    paddingRight: .0583657585
-    paddingTop: .125382259
-    paddingBottom: .103975534
-  - name: Upside Down Triangle_Begin
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 3509
-      width: 1552
-      height: 587
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 3509
-      width: 1552
-      height: 587
-    rotated: 0
-    paddingLeft: .0257731955
-    paddingRight: .0399484523
-    paddingTop: .0442930162
-    paddingBottom: .115843274
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
