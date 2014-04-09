@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PatternsFirstWhatIsNext5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 17669cfb2a8f0554f807a424d0e64601, type: 2}
+  sprites:
+  - name: What'sNext_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 800
+      width: 1172
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 800
+      width: 1172
+      height: 203
+    rotated: 0
+    paddingLeft: .038395904
+    paddingRight: .0401023887
+    paddingTop: .14778325
+    paddingBottom: .167487681
+  - name: White Box
+    outer:
+      serializedVersion: 2
+      x: 1449
+      y: 1431
+      width: 235
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 1449
+      y: 1431
+      width: 235
+      height: 197
+    rotated: 0
+    paddingLeft: .212765962
+    paddingRight: .297872335
+    paddingTop: .223350257
+    paddingBottom: .269035518
+  - name: Dotted Line
+    outer:
+      serializedVersion: 2
+      x: 1547
+      y: 358
+      width: 7
+      height: 587
+    inner:
+      serializedVersion: 2
+      x: 1547
+      y: 358
+      width: 7
+      height: 587
+    rotated: 0
+    paddingLeft: 8.28571415
+    paddingRight: 12.7142859
+    paddingTop: .0545144789
+    paddingBottom: .0698466748
+  - name: L_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1629
+      width: 1606
+      height: 194
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1629
+      width: 1606
+      height: 194
+    rotated: 0
+    paddingLeft: .0199252795
+    paddingRight: .0342465751
+    paddingTop: .407216489
+    paddingBottom: .479381442
+  - name: L_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 509
+      width: 1546
+      height: 134
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 509
+      width: 1546
+      height: 134
+    rotated: 0
+    paddingLeft: .0517464429
+    paddingRight: .0375161693
+    paddingTop: .791044772
+    paddingBottom: .805970132
+  - name: M
+    outer:
+      serializedVersion: 2
+      x: 1173
+      y: 810
+      width: 133
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 1173
+      y: 810
+      width: 133
+      height: 117
+    rotated: 0
+    paddingLeft: .428571433
+    paddingRight: .496240616
+    paddingTop: .581196606
+    paddingBottom: .418803424
+  - name: D
+    outer:
+      serializedVersion: 2
+      x: 1452
+      y: 1110
+      width: 93
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 1452
+      y: 1110
+      width: 93
+      height: 126
+    rotated: 0
+    paddingLeft: .473118275
+    paddingRight: .634408593
+    paddingTop: .388888896
+    paddingBottom: .301587313
+  - name: L
+    outer:
+      serializedVersion: 2
+      x: 1546
+      y: 1119
+      width: 89
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 1546
+      y: 1119
+      width: 89
+      height: 117
+    rotated: 0
+    paddingLeft: .651685417
+    paddingRight: .550561786
+    paddingTop: .316239327
+    paddingBottom: .401709408
+  - name: Lucky_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1413
+      width: 1448
+      height: 215
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1413
+      width: 1448
+      height: 215
+    rotated: 0
+    paddingLeft: .029696133
+    paddingRight: .0524861887
+    paddingTop: .265116274
+    paddingBottom: .227906972
+  - name: Lucky_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 644
+      width: 1388
+      height: 155
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 644
+      width: 1388
+      height: 155
+    rotated: 0
+    paddingLeft: .0461095087
+    paddingRight: .0482708924
+    paddingTop: .425806463
+    paddingBottom: .52903223
+  - name: Marty
+    outer:
+      serializedVersion: 2
+      x: 1652
+      y: 1884
+      width: 153
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 1652
+      y: 1884
+      width: 153
+      height: 164
+    rotated: 0
+    paddingLeft: .359477133
+    paddingRight: .392156869
+    paddingTop: .310975611
+    paddingBottom: .243902445
+  - name: Kristy
+    outer:
+      serializedVersion: 2
+      x: 1451
+      y: 946
+      width: 130
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 1451
+      y: 946
+      width: 130
+      height: 142
+    rotated: 0
+    paddingLeft: .230769232
+    paddingRight: .438461542
+    paddingTop: .373239428
+    paddingBottom: .274647892
+  - name: Lucky
+    outer:
+      serializedVersion: 2
+      x: 1320
+      y: 1089
+      width: 131
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 1320
+      y: 1089
+      width: 131
+      height: 147
+    rotated: 0
+    paddingLeft: .274809152
+    paddingRight: .358778626
+    paddingTop: .272108853
+    paddingBottom: .238095239
+  - name: Marty_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 336
+      width: 1108
+      height: 172
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 336
+      width: 1108
+      height: 172
+    rotated: 0
+    paddingLeft: .0388086624
+    paddingRight: .0397111923
+    paddingTop: .215116277
+    paddingBottom: .284883708
+  - name: MartyB
+    outer:
+      serializedVersion: 2
+      x: 1607
+      y: 1659
+      width: 153
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 1607
+      y: 1659
+      width: 153
+      height: 164
+    rotated: 0
+    paddingLeft: .36601308
+    paddingRight: .326797396
+    paddingTop: .25
+    paddingBottom: .268292695
+  - name: Marty_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1004
+      width: 1168
+      height: 232
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1004
+      width: 1168
+      height: 232
+    rotated: 0
+    paddingLeft: .0342465751
+    paddingRight: .0325342454
+    paddingTop: .275862068
+    paddingBottom: .18534483
+  - name: Barry
+    outer:
+      serializedVersion: 2
+      x: 1173
+      y: 928
+      width: 141
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 1173
+      y: 928
+      width: 141
+      height: 148
+    rotated: 0
+    paddingLeft: .255319148
+    paddingRight: .326241136
+    paddingTop: .256756753
+    paddingBottom: .263513505
+  - name: Marty Moose_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1824
+      width: 1651
+      height: 224
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1824
+      width: 1651
+      height: 224
+    rotated: 0
+    paddingLeft: .0199878868
+    paddingRight: .0272562075
+    paddingTop: .15625
+    paddingBottom: .25
+  - name: Marty Moose_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1237
+      width: 1591
+      height: 175
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1237
+      width: 1591
+      height: 175
+    rotated: 0
+    paddingLeft: .0339409187
+    paddingRight: .0320553109
+    paddingTop: .239999995
+    paddingBottom: .371428579
+  - name: Barry Bear
+    outer:
+      serializedVersion: 2
+      x: 1389
+      y: 779
+      width: 133
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 1389
+      y: 779
+      width: 133
+      height: 142
+    rotated: 0
+    paddingLeft: .39849624
+    paddingRight: .368421048
+    paddingTop: .394366205
+    paddingBottom: .253521115
+  - name: Marty Moose
+    outer:
+      serializedVersion: 2
+      x: 1169
+      y: 1077
+      width: 150
+      height: 159
+    inner:
+      serializedVersion: 2
+      x: 1169
+      y: 1077
+      width: 150
+      height: 159
+    rotated: 0
+    paddingLeft: .239999995
+    paddingRight: .266666681
+    paddingTop: .226415098
+    paddingBottom: .188679248
+  - name: Princess Patty
+    outer:
+      serializedVersion: 2
+      x: 1315
+      y: 922
+      width: 135
+      height: 154
+    inner:
+      serializedVersion: 2
+      x: 1315
+      y: 922
+      width: 135
+      height: 154
+    rotated: 0
+    paddingLeft: .244444445
+    paddingRight: .318518519
+    paddingTop: .207792208
+    paddingBottom: .253246754
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

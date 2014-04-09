@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PatternsFirstWhatIsNext4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: fe23210bb27ffab4985a57ee11075ad7, type: 2}
+  sprites:
+  - name: White Box
+    outer:
+      serializedVersion: 2
+      x: 1533
+      y: 1585
+      width: 235
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 1533
+      y: 1585
+      width: 235
+      height: 197
+    rotated: 0
+    paddingLeft: .212765962
+    paddingRight: .297872335
+    paddingTop: .223350257
+    paddingBottom: .269035518
+  - name: What'sNext_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 313
+      width: 1172
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 313
+      width: 1172
+      height: 203
+    rotated: 0
+    paddingLeft: .038395904
+    paddingRight: .0401023887
+    paddingTop: .14778325
+    paddingBottom: .167487681
+  - name: Dotted Line
+    outer:
+      serializedVersion: 2
+      x: 1926
+      y: 1461
+      width: 7
+      height: 587
+    inner:
+      serializedVersion: 2
+      x: 1926
+      y: 1461
+      width: 7
+      height: 587
+    rotated: 0
+    paddingLeft: 8.28571415
+    paddingRight: 12.7142859
+    paddingTop: .0545144789
+    paddingBottom: .0698466748
+  - name: Clock with 4
+    outer:
+      serializedVersion: 2
+      x: 1640
+      y: 1109
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1640
+      y: 1109
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .24742268
+    paddingRight: .257731944
+    paddingTop: .178571433
+    paddingBottom: .183673471
+  - name: Clock with 4_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1783
+      width: 1599
+      height: 265
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1783
+      width: 1599
+      height: 265
+    rotated: 0
+    paddingLeft: .0318949334
+    paddingRight: .0456535332
+    paddingTop: .166037738
+    paddingBottom: .158490568
+  - name: Clock with 4_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 874
+      width: 1539
+      height: 205
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 874
+      width: 1539
+      height: 205
+    rotated: 0
+    paddingLeft: .0428849906
+    paddingRight: .0649772584
+    paddingTop: .331707329
+    paddingBottom: .336585373
+  - name: Clock with 6
+    outer:
+      serializedVersion: 2
+      x: 1473
+      y: 677
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1473
+      y: 677
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .185567006
+    paddingRight: .103092782
+    paddingTop: .214285716
+    paddingBottom: .147959188
+  - name: Clock with 9
+    outer:
+      serializedVersion: 2
+      x: 1445
+      y: 1109
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1445
+      y: 1109
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .185567006
+    paddingRight: .3041237
+    paddingTop: .183673471
+    paddingBottom: .193877548
+  - name: Clock with 12
+    outer:
+      serializedVersion: 2
+      x: 1540
+      y: 912
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1540
+      y: 912
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .159793809
+    paddingRight: .252577305
+    paddingTop: .137755096
+    paddingBottom: .255102038
+  - name: Clock with 2
+    outer:
+      serializedVersion: 2
+      x: 1600
+      y: 1852
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1600
+      y: 1852
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .29896906
+    paddingRight: .360824734
+    paddingTop: .260204077
+    paddingBottom: .239795923
+  - name: Clock with 12_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 677
+      width: 1472
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 677
+      width: 1472
+      height: 196
+    rotated: 0
+    paddingLeft: .0339673907
+    paddingRight: .040760871
+    paddingTop: .301020414
+    paddingBottom: .306122452
+  - name: Clock with 12_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1526
+      width: 1532
+      height: 256
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1526
+      width: 1532
+      height: 256
+    rotated: 0
+    paddingLeft: .0248041768
+    paddingRight: .0372062661
+    paddingTop: .265625
+    paddingBottom: .3046875
+  - name: Honey_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1306
+      width: 1738
+      height: 219
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1306
+      width: 1738
+      height: 219
+    rotated: 0
+    paddingLeft: .0391254313
+    paddingRight: .0506329127
+    paddingTop: .205479458
+    paddingBottom: .232876718
+  - name: Honey_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 517
+      width: 1678
+      height: 159
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 517
+      width: 1678
+      height: 159
+    rotated: 0
+    paddingLeft: .0423122756
+    paddingRight: .0595947541
+    paddingTop: .433962256
+    paddingBottom: .452830195
+  - name: Zip
+    outer:
+      serializedVersion: 2
+      x: 1735
+      y: 960
+      width: 114
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 1735
+      y: 960
+      width: 114
+      height: 148
+    rotated: 0
+    paddingLeft: .394736856
+    paddingRight: .429824561
+    paddingTop: .297297299
+    paddingBottom: .243243247
+  - name: Honey
+    outer:
+      serializedVersion: 2
+      x: 1668
+      y: 759
+      width: 116
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 1668
+      y: 759
+      width: 116
+      height: 152
+    rotated: 0
+    paddingLeft: .396551728
+    paddingRight: .37068966
+    paddingTop: .25
+    paddingBottom: .230263159
+  - name: Barry
+    outer:
+      serializedVersion: 2
+      x: 1769
+      y: 1711
+      width: 132
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 1769
+      y: 1711
+      width: 132
+      height: 140
+    rotated: 0
+    paddingLeft: .113636367
+    paddingRight: .189393938
+    paddingTop: .257142872
+    paddingBottom: .264285713
+  - name: Kristy_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1080
+      width: 1444
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1080
+      width: 1444
+      height: 225
+    rotated: 0
+    paddingLeft: .0283933524
+    paddingRight: .046398893
+    paddingTop: .26222223
+    paddingBottom: .431111097
+  - name: Kristy_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 147
+      width: 1384
+      height: 165
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 147
+      width: 1384
+      height: 165
+    rotated: 0
+    paddingLeft: .0426300578
+    paddingRight: .0354046226
+    paddingTop: .521212101
+    paddingBottom: .569696963
+  - name: Lucky
+    outer:
+      serializedVersion: 2
+      x: 1739
+      y: 1437
+      width: 131
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 1739
+      y: 1437
+      width: 131
+      height: 147
+    rotated: 0
+    paddingLeft: .366412222
+    paddingRight: .519083977
+    paddingTop: .25170067
+    paddingBottom: .319727898
+  - name: Kristy
+    outer:
+      serializedVersion: 2
+      x: 1795
+      y: 1906
+      width: 130
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 1795
+      y: 1906
+      width: 130
+      height: 142
+    rotated: 0
+    paddingLeft: .453846157
+    paddingRight: .423076928
+    paddingTop: .218309864
+    paddingBottom: .323943675
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

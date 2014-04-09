@@ -1,0 +1,453 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PatternsFirstWhatIsNext2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 39b6e9e0c9e16df43b7a29afde7f197c, type: 2}
+  sprites:
+  - name: Dotted Line
+    outer:
+      serializedVersion: 2
+      x: 1468
+      y: 280
+      width: 7
+      height: 587
+    inner:
+      serializedVersion: 2
+      x: 1468
+      y: 280
+      width: 7
+      height: 587
+    rotated: 0
+    paddingLeft: 8.28571415
+    paddingRight: 12.7142859
+    paddingTop: .0545144789
+    paddingBottom: .0698466748
+  - name: White Box
+    outer:
+      serializedVersion: 2
+      x: 1458
+      y: 1851
+      width: 235
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 1458
+      y: 1851
+      width: 235
+      height: 197
+    rotated: 0
+    paddingLeft: .212765962
+    paddingRight: .297872335
+    paddingTop: .223350257
+    paddingBottom: .269035518
+  - name: What'sNext_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 645
+      width: 1172
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 645
+      width: 1172
+      height: 203
+    rotated: 0
+    paddingLeft: .038395904
+    paddingRight: .0401023887
+    paddingTop: .14778325
+    paddingBottom: .167487681
+  - name: 85_90
+    outer:
+      serializedVersion: 2
+      x: 1173
+      y: 733
+      width: 148
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1173
+      y: 733
+      width: 148
+      height: 115
+    rotated: 0
+    paddingLeft: .358108103
+    paddingRight: .391891897
+    paddingTop: .234782606
+    paddingBottom: .434782594
+  - name: 85_95
+    outer:
+      serializedVersion: 2
+      x: 1042
+      y: 238
+      width: 148
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1042
+      y: 238
+      width: 148
+      height: 115
+    rotated: 0
+    paddingLeft: .418918908
+    paddingRight: .412162155
+    paddingTop: .243478253
+    paddingBottom: .426086962
+  - name: 85_87
+    outer:
+      serializedVersion: 2
+      x: 1248
+      y: 620
+      width: 148
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1248
+      y: 620
+      width: 148
+      height: 112
+    rotated: 0
+    paddingLeft: .277027041
+    paddingRight: .351351351
+    paddingTop: .294642866
+    paddingBottom: .419642866
+  - name: 85_85
+    outer:
+      serializedVersion: 2
+      x: 1191
+      y: 239
+      width: 147
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 1191
+      y: 239
+      width: 147
+      height: 114
+    rotated: 0
+    paddingLeft: .163265303
+    paddingRight: .170068026
+    paddingTop: .236842111
+    paddingBottom: .368421048
+  - name: 85_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 349
+      width: 1041
+      height: 117
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 349
+      width: 1041
+      height: 117
+    rotated: 0
+    paddingLeft: .0537944287
+    paddingRight: .0480307415
+    paddingTop: .444444448
+    paddingBottom: .529914558
+  - name: 85_100
+    outer:
+      serializedVersion: 2
+      x: 1042
+      y: 354
+      width: 200
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1042
+      y: 354
+      width: 200
+      height: 112
+    rotated: 0
+    paddingLeft: .204999998
+    paddingRight: .284999996
+    paddingTop: .410714298
+    paddingBottom: .517857134
+  - name: 85_80
+    outer:
+      serializedVersion: 2
+      x: 1243
+      y: 408
+      width: 148
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 1243
+      y: 408
+      width: 148
+      height: 113
+    rotated: 0
+    paddingLeft: .209459454
+    paddingRight: .418918908
+    paddingTop: .300884962
+    paddingBottom: .451327443
+  - name: 85_75
+    outer:
+      serializedVersion: 2
+      x: 1322
+      y: 735
+      width: 145
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 1322
+      y: 735
+      width: 145
+      height: 113
+    rotated: 0
+    paddingLeft: .324137926
+    paddingRight: .358620703
+    paddingTop: .460177004
+    paddingBottom: .424778759
+  - name: 85_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 467
+      width: 1101
+      height: 177
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 467
+      width: 1101
+      height: 177
+    rotated: 0
+    paddingLeft: .0317892842
+    paddingRight: .0317892842
+    paddingTop: .293785304
+    paddingBottom: .367231637
+  - name: Bee_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1269
+      width: 1397
+      height: 359
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1269
+      width: 1397
+      height: 359
+    rotated: 0
+    paddingLeft: .0343593396
+    paddingRight: .059413027
+    paddingTop: .253481895
+    paddingBottom: .292479098
+  - name: Tall Tree
+    outer:
+      serializedVersion: 2
+      x: 1398
+      y: 1278
+      width: 137
+      height: 350
+    inner:
+      serializedVersion: 2
+      x: 1398
+      y: 1278
+      width: 137
+      height: 350
+    rotated: 0
+    paddingLeft: .416058391
+    paddingRight: .540145993
+    paddingTop: .21714285
+    paddingBottom: .077142857
+  - name: Bee
+    outer:
+      serializedVersion: 2
+      x: 1248
+      y: 527
+      width: 126
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 1248
+      y: 527
+      width: 126
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .43650794
+    paddingTop: .521739125
+    paddingBottom: .532608688
+  - name: Short Tree
+    outer:
+      serializedVersion: 2
+      x: 1102
+      y: 522
+      width: 145
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 1102
+      y: 522
+      width: 145
+      height: 122
+    rotated: 0
+    paddingLeft: .37931034
+    paddingRight: .344827592
+    paddingTop: .245901644
+    paddingBottom: .327868849
+  - name: Bee_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1629
+      width: 1457
+      height: 419
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1629
+      width: 1457
+      height: 419
+    rotated: 0
+    paddingLeft: .0329444073
+    paddingRight: .0404941663
+    paddingTop: .181384251
+    paddingBottom: .136038184
+  - name: Flower_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1029
+      width: 1447
+      height: 239
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1029
+      width: 1447
+      height: 239
+    rotated: 0
+    paddingLeft: .0310988259
+    paddingRight: .0269523151
+    paddingTop: .167364016
+    paddingBottom: .22594142
+  - name: Flower_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 849
+      width: 1387
+      height: 179
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 849
+      width: 1387
+      height: 179
+    rotated: 0
+    paddingLeft: .0432588309
+    paddingRight: .058399424
+    paddingTop: .491620123
+    paddingBottom: .469273746
+  - name: Flower
+    outer:
+      serializedVersion: 2
+      x: 1388
+      y: 868
+      width: 101
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 1388
+      y: 868
+      width: 101
+      height: 160
+    rotated: 0
+    paddingLeft: .376237631
+    paddingRight: .594059408
+    paddingTop: .262499988
+    paddingBottom: .368750006
+  - name: Honey Bunny
+    outer:
+      serializedVersion: 2
+      x: 1458
+      y: 1674
+      width: 133
+      height: 176
+    inner:
+      serializedVersion: 2
+      x: 1458
+      y: 1674
+      width: 133
+      height: 176
+    rotated: 0
+    paddingLeft: .345864654
+    paddingRight: .443609029
+    paddingTop: .340909094
+    paddingBottom: .278409094
+  - name: Carrot
+    outer:
+      serializedVersion: 2
+      x: 1375
+      y: 552
+      width: 92
+      height: 67
+    inner:
+      serializedVersion: 2
+      x: 1375
+      y: 552
+      width: 92
+      height: 67
+    rotated: 0
+    paddingLeft: .456521749
+    paddingRight: .706521749
+    paddingTop: .656716406
+    paddingBottom: 1.119403
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,471 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: PatternsFirstWhatIsNext3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9626e999bcf2bab468b5c255fb7b9b79, type: 2}
+  sprites:
+  - name: What'sNext_Text
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 449
+      width: 1172
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 449
+      width: 1172
+      height: 203
+    rotated: 0
+    paddingLeft: .038395904
+    paddingRight: .0401023887
+    paddingTop: .14778325
+    paddingBottom: .167487681
+  - name: Dotted Line
+    outer:
+      serializedVersion: 2
+      x: 1296
+      y: 266
+      width: 7
+      height: 587
+    inner:
+      serializedVersion: 2
+      x: 1296
+      y: 266
+      width: 7
+      height: 587
+    rotated: 0
+    paddingLeft: 8.28571415
+    paddingRight: 12.7142859
+    paddingTop: .0545144789
+    paddingBottom: .0698466748
+  - name: White Box
+    outer:
+      serializedVersion: 2
+      x: 1553
+      y: 1851
+      width: 235
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 1553
+      y: 1851
+      width: 235
+      height: 197
+    rotated: 0
+    paddingLeft: .212765962
+    paddingRight: .297872335
+    paddingTop: .223350257
+    paddingBottom: .269035518
+  - name: Clock with 1_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1786
+      width: 1552
+      height: 262
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1786
+      width: 1552
+      height: 262
+    rotated: 0
+    paddingLeft: .0167525765
+    paddingRight: .0373711325
+    paddingTop: .24427481
+    paddingBottom: .290076345
+  - name: Clock with 1
+    outer:
+      serializedVersion: 2
+      x: 1789
+      y: 1852
+      width: 196
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1789
+      y: 1852
+      width: 196
+      height: 196
+    rotated: 0
+    paddingLeft: .209183678
+    paddingRight: .18877551
+    paddingTop: .234693885
+    paddingBottom: .173469394
+  - name: Clock with 1_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1058
+      width: 1492
+      height: 202
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1058
+      width: 1492
+      height: 202
+    rotated: 0
+    paddingLeft: .0315013416
+    paddingRight: .0348525457
+    paddingTop: .495049506
+    paddingBottom: .480198026
+  - name: Clock with 2.30
+    outer:
+      serializedVersion: 2
+      x: 1379
+      y: 1589
+      width: 195
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1379
+      y: 1589
+      width: 195
+      height: 196
+    rotated: 0
+    paddingLeft: .230769232
+    paddingRight: .220512822
+    paddingTop: .193877548
+    paddingBottom: .260204077
+  - name: Clock with 3.30
+    outer:
+      serializedVersion: 2
+      x: 1575
+      y: 1589
+      width: 195
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1575
+      y: 1589
+      width: 195
+      height: 196
+    rotated: 0
+    paddingLeft: .343589753
+    paddingRight: .292307705
+    paddingTop: .163265303
+    paddingBottom: .260204077
+  - name: Blue Triangle_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 141
+      width: 1202
+      height: 123
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 141
+      width: 1202
+      height: 123
+    rotated: 0
+    paddingLeft: .0357737094
+    paddingRight: .0357737094
+    paddingTop: .560975611
+    paddingBottom: .609756112
+  - name: Green Octagon
+    outer:
+      serializedVersion: 2
+      x: 1319
+      y: 943
+      width: 114
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 1319
+      y: 943
+      width: 114
+      height: 114
+    rotated: 0
+    paddingLeft: .315789461
+    paddingRight: .350877196
+    paddingTop: .429824561
+    paddingBottom: .280701756
+  - name: Blue Triangle
+    outer:
+      serializedVersion: 2
+      x: 1434
+      y: 964
+      width: 126
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 1434
+      y: 964
+      width: 126
+      height: 93
+    rotated: 0
+    paddingLeft: .40476191
+    paddingRight: .388888896
+    paddingTop: .344086021
+    paddingBottom: .591397822
+  - name: Blue Triangle_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 265
+      width: 1262
+      height: 183
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 265
+      width: 1262
+      height: 183
+    rotated: 0
+    paddingLeft: .0388272591
+    paddingRight: .0364500806
+    paddingTop: .377049178
+    paddingBottom: .27868852
+  - name: Red Circle
+    outer:
+      serializedVersion: 2
+      x: 1883
+      y: 1145
+      width: 128
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1883
+      y: 1145
+      width: 128
+      height: 115
+    rotated: 0
+    paddingLeft: .4140625
+    paddingRight: .421875
+    paddingTop: .278260857
+    paddingBottom: .365217388
+  - name: Clock with 3_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1522
+      width: 1378
+      height: 263
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1522
+      width: 1378
+      height: 263
+    rotated: 0
+    paddingLeft: .0377358496
+    paddingRight: .0537010171
+    paddingTop: .216730043
+    paddingBottom: .220532313
+  - name: Clock with 12
+    outer:
+      serializedVersion: 2
+      x: 1771
+      y: 1589
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1771
+      y: 1589
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .144329891
+    paddingRight: .283505142
+    paddingTop: .209183678
+    paddingBottom: .198979586
+  - name: Clock with 9
+    outer:
+      serializedVersion: 2
+      x: 1356
+      y: 1325
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1356
+      y: 1325
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .180412367
+    paddingRight: .185567006
+    paddingTop: .234693885
+    paddingBottom: .234693885
+  - name: Clock with 3
+    outer:
+      serializedVersion: 2
+      x: 1551
+      y: 1325
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1551
+      y: 1325
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .211340204
+    paddingRight: .216494843
+    paddingTop: .18877551
+    paddingBottom: .173469394
+  - name: Clock with 3_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 854
+      width: 1318
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 854
+      width: 1318
+      height: 203
+    rotated: 0
+    paddingLeft: .0576631278
+    paddingRight: .0584218502
+    paddingTop: .399014771
+    paddingBottom: .300492615
+  - name: Clock With 4_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1261
+      width: 1355
+      height: 260
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1261
+      width: 1355
+      height: 260
+    rotated: 0
+    paddingLeft: .0280442797
+    paddingRight: .0287822876
+    paddingTop: .180769235
+    paddingBottom: .169230774
+  - name: Clock With 3
+    outer:
+      serializedVersion: 2
+      x: 1746
+      y: 1325
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1746
+      y: 1325
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .221649483
+    paddingRight: .29896906
+    paddingTop: .163265303
+    paddingBottom: .137755096
+  - name: Clock With 4
+    outer:
+      serializedVersion: 2
+      x: 1493
+      y: 1064
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1493
+      y: 1064
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .268041223
+    paddingRight: .29896906
+    paddingTop: .198979586
+    paddingBottom: .163265303
+  - name: Clock With 2
+    outer:
+      serializedVersion: 2
+      x: 1688
+      y: 1064
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1688
+      y: 1064
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .216494843
+    paddingRight: .257731944
+    paddingTop: .193877548
+    paddingBottom: .198979586
+  - name: Clock With 4_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 653
+      width: 1295
+      height: 200
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 653
+      width: 1295
+      height: 200
+    rotated: 0
+    paddingLeft: .0316602327
+    paddingRight: .0393822379
+    paddingTop: .25
+    paddingBottom: .264999986
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

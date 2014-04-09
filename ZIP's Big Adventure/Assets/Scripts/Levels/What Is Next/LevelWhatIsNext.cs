@@ -113,12 +113,16 @@ public class LevelWhatIsNext : ZIPLevel {
 		transform.localScale = new Vector3 (1f, 1f, 1f);
 		gameBlock.level [0] = this;
 
-		var pos = Center.transform.FindChild("Basic").transform.localPosition;
+		Vector3 pos;
+		if(Center.transform.FindChild("Basic") != null)
+			pos = Center.transform.FindChild("Basic").transform.localPosition;
+		else
+			pos = Center.transform.FindChild("BasicEnd").transform.localPosition;
 		pos.x = -pos.x; pos.y=0; pos.z = 0;
 		Center.GetComponent<EndItemMoveTo> ().to = pos;
 
-		if(Center.transform.parent.FindChild("_begin") != null)
-			DestroyImmediate(Center.transform.parent.FindChild("_begin").gameObject);
+		//if(Center.transform.parent.FindChild("_begin") != null)
+		//	DestroyImmediate(Center.transform.parent.FindChild("_begin").gameObject);
 	}
 
 	#endregion
