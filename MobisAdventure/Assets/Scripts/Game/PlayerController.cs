@@ -22,11 +22,7 @@ public class PlayerController : MonoBehaviour
 	public bool _isGrounded = true;
 	
 	public bool isGas = false;
-	
-	public float boostJuice = 0.0f;
-	public float max_boost = 6.0f;
 	public bool isBoost = false;
-	public GameObject[] boostBloops;
 	
 	private Texture2D m_bar = null;
 	
@@ -93,9 +89,8 @@ public class PlayerController : MonoBehaviour
 	
 	// by Aharon
 	private bool tilt = false;
-	
-	// ragdoll
 	private Ragdoll ragdoll;
+	private Boost boost;
 	
 	void Awake()
 	{
@@ -104,6 +99,7 @@ public class PlayerController : MonoBehaviour
 
 
 		tilt = PlayerPrefs.GetInt("options_control")==1;
+		boost = GameObject.FindObjectOfType<Boost> ();
 	}
 	
 	
@@ -215,40 +211,8 @@ public class PlayerController : MonoBehaviour
 			if((Input.GetKey("up") || s_gas == 2) && currentBoost>0 && !boosting) //also check if we have boost juice
 			{
 				StartCoroutine(OneBoost(currentBoost));
-				foreach(var j in boostBloops) j.SetActive(false);
 				currentBoost = 0;
 				isGas = true;
-				/*if(m_backWheel.isGrounded){
-					Debug.Log("BOOSTTEST");
-					Gas(m_speed*m_boost);
-					boostJuice = boostJuice - Time.deltaTime;
-					isBoost = true;
-					if(boostJuice < 5.5){
-						boostBloops[5].SetActive(false);
-						if(boostJuice < 4.5){
-							boostBloops[4].SetActive(false);
-							if(boostJuice < 3.5){
-								boostBloops[3].SetActive(false);
-								if(boostJuice < 2.5){
-									boostBloops[2].SetActive(false);
-									if(boostJuice < 1.5){
-										boostBloops[1].SetActive(false);
-										if(boostJuice < 0.5){
-											boostBloops[0].SetActive(false);
-										}
-									}
-								}
-							}
-						}
-					}
-				}*/
-				
-				//add spin to play in the air
-				/*if(!m_backWheel.isGrounded){
-					rigidbody.AddRelativeTorque (-m_airSpeed, 0, 0);
-				}
-				else //apply torque
-					rigidbody.AddTorque (m_airSpeed, 0, 0);*/
 				
 			} 
 			if(s_gas == 0){
@@ -272,7 +236,7 @@ public class PlayerController : MonoBehaviour
 	{		
 		#region UNITY_EDITOR
 		if(Input.GetKeyDown(KeyCode.Space))
-			GiveBoost(1);
+			boost.AddBoost(1);
 		#endregion	
 		
 		if(m_init)
@@ -410,7 +374,7 @@ public class PlayerController : MonoBehaviour
 					//Instantiate(bonusText);
 					//ShowBonusText("front frip");
 					DeathScreen.Instance.levelController.ShowFrontflipBonus();
-					GiveBoost(1);
+					boost.AddBoost(1);
 					//instantiate particles and 
 				} else {
 					//BACK FLIPPED!!!!
@@ -423,7 +387,7 @@ public class PlayerController : MonoBehaviour
 					//Instantiate(bonusText);
 					//ShowBonusText("back flip");
 					DeathScreen.Instance.levelController.ShowBackflipBonus();
-					GiveBoost(1);
+					boost.AddBoost(1);
 				}
 			}
 			//upright
@@ -452,20 +416,6 @@ public class PlayerController : MonoBehaviour
 	void GiveCoins(int coins){
 		//in the coin counter prefab
 		Coin_Counter.AddCoins(coins);
-	}
-	
-	
-	//ADD BOOST
-	int maxBoost = 6;
-	void GiveBoost(int addBoost){
-		//Transform boostboom;
-		//boostboom = Instantiate(boost_trick1, s_boost.transform.position, Camera.mainCamera.transform.rotation) as Transform;
-		//boostboom.parent = s_boost.transform; 
-		
-		currentBoost += addBoost;
-		if(currentBoost>maxBoost) currentBoost = maxBoost;
-		for(int i=0;i<currentBoost;i++) boostBloops[i].SetActive(true);
-		for(int i=currentBoost;i<boostBloops.Length;i++) boostBloops[i].SetActive(false);
 	}
 	
 	//BRAKE	
