@@ -35,8 +35,11 @@ public class DeathScreen : MonoBehaviour {
 		bgAlphaTween.PlayForward();
 		yield return new WaitForSeconds(bgAlphaTween.duration);
 		stats.SetActive(true);
+
+		#if !UNITY_EDITOR
 		if(!CheckRated.Instance.RateButtonClicked)
 			UniRate.Instance.PromptIfNetworkAvailable();
+		#endif
 	}
 
 	public GameObject pauseScreen;

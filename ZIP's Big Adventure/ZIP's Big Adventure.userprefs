@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Levels\What Is Next\LevelWhatIsNext.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\MobisAdventure\Assets\Scripts\Game\PlayerController.cs">
     <Files>
-      <File FileName="Assets\Scripts\Levels\What Is Next\LevelWhatIsNext.cs" Line="115" Column="3" />
-      <File FileName="Assets\Scripts\Levels\What Is Next\LevelWhatIsNext.cs" Line="121" Column="12" />
+      <File FileName="..\MobisAdventure\Assets\Scripts\Game\PlayerController.cs" Line="76" Column="1" />
+      <File FileName="..\MobisAdventure\Assets\Scripts\Scripts2\CameraFollowPoint.cs" Line="24" Column="1" />
+      <File FileName="..\MobisAdventure\Assets\_Upgrade\Scripts\Death,Game\DeathScreen.cs" Line="38" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour
 {
 	public GameObject bonusText;
 	public bool s_pause = false;
-	public GameObject s_pauser;
 	
 	public WheelCollider m_backWheel = null;
 	public WheelCollider m_frontWheel = null;
@@ -72,14 +71,7 @@ public class PlayerController : MonoBehaviour
 	
 	public float p_maxHeight;
 	public TextMesh tm_maxHeight;
-	
-	public TextMesh txt_DeathReason;
-	public TextMesh txt_pausePosition;
-	public TextMesh txt_p1;
-	public TextMesh txt_p2;
-	public TextMesh txt_p3;
-	
-	public TextMesh tm_speedo;
+
 	public TextMesh tm_dist;
 	public TextMesh tm_distHigh;
 	
@@ -119,7 +111,6 @@ public class PlayerController : MonoBehaviour
 	void OnEnable(){
 		EasyTouch.On_TouchDown += On_TouchDown;
 		EasyTouch.On_TouchUp += On_TouchUp;
-		EasyTouch.On_SimpleTap += On_SimpleTap;
 	}
 	
 	void OnDisable(){
@@ -133,63 +124,6 @@ public class PlayerController : MonoBehaviour
 	void UnsubscribeEvent(){
 		EasyTouch.On_TouchDown -= On_TouchDown;
 		EasyTouch.On_TouchUp -= On_TouchUp;
-		EasyTouch.On_SimpleTap -= On_SimpleTap;
-	}
-	
-	public void Resume()
-	{
-		Gesture gesture = new Gesture ();
-		gesture.pickObject = s_pauser;
-		On_SimpleTap (gesture);
-	}
-	
-	private void On_SimpleTap( Gesture gesture){
-		Debug.Log("Simple Tap");
-		if(life && !death && gesture.pickObject == s_pauser){
-			s_pause = !s_pause;
-			//Time.timeScale = s_pause?0f:1f;
-			//txt_p1.text = ""
-			if (pause_flag == false){
-				//Time.timeScale = 0;
-				savedVelocity = rigidbody.velocity;
-				savedAngularVelocity = rigidbody.angularVelocity;
-				//rigidbody.isKinematic = true;
-				Debug.Log(savedVelocity);
-				rigidbody.Sleep();
-				//GameObject.Find("DarkPlanePause").SetActive(true);
-				darkScreenPause.SetActive(true);
-				//sfx_frostObj.renderer.material.color.a = 0.5f;
-				pause_flag = true;
-				txt_p1.text = "";
-				txt_p2.text = "";
-				txt_p3.text = "";
-				//txt_DeathReason.gameObject.transform.position = txt_p2.gameObject.transform.position;
-				//tm_coinsEarned.gameObject.transform.position = txt_pausePosition.gameObject.transform.position;
-				
-			}
-			else
-			{
-				//Time.timeScale = 1;
-				//rigidbody.isKinematic = false;
-				rigidbody.WakeUp();
-				//rigidbody.velocity = savedVelocity;
-				rigidbody.AddForce( savedVelocity, ForceMode.VelocityChange );
-				rigidbody.AddTorque( savedAngularVelocity, ForceMode.VelocityChange );
-				pause_flag = false;
-				//GameObject.Find("DarkPlanePause").SetActive(false);
-				//sfx_frostObj.renderer.material.color.a = 0.0f;
-				darkScreenPause.SetActive(false);
-			}
-			
-			DeathScreen.Instance.ShowPauseScreen(pause_flag);
-			//Debug.Log("paused");
-		}
-		
-		if (gesture.pickObject.name == "_Restart"){
-			Application.LoadLevel(Application.loadedLevel); //Application.loadedLevel
-		}else if (gesture.pickObject.name == "_MainMenu"){
-			Application.LoadLevel(0); //Application.loadedLevel
-		} 
 	}
 	
 	private void On_TouchDown( Gesture gesture){
@@ -227,8 +161,6 @@ public class PlayerController : MonoBehaviour
 			s_boost = GameObject.Find("BoostGas");
 		if(!chaseBar)
 			chaseBar = GameObject.Find("Chase_Bar").transform;
-		if(!s_pauser)
-			s_pauser = GameObject.Find("Pauser");
 		
 		m_frontWheel.motorTorque = 0;
 		m_backWheel.motorTorque = 0;
@@ -350,8 +282,7 @@ public class PlayerController : MonoBehaviour
 		}
 		if (life && !s_pause)
 			MonsterMover();
-		tm_speedo.text = Mathf.Round(rigidbody.velocity.magnitude*2.0f).ToString();// ((Mathf.Round(rigidbody.velocity.magnitude*10.0f)/10.0F)*2.0f).ToString();
-		//
+
 		//var speed = Mathf.Round(rigidbody.velocity.magnitude*2.0f);
 		//var topSpeed = 100;
 		//var speedFraction = speed / topSpeed;
@@ -409,10 +340,7 @@ public class PlayerController : MonoBehaviour
 		
 		
 	}
-	
-	
-	
-	
+
 	// TRICKS
 	private float trickHeight = 0.0f;
 	private bool highTrickCashed = false;
@@ -520,8 +448,7 @@ public class PlayerController : MonoBehaviour
 			/*??*/	//GiveBoost(1); 
 		}
 	}
-	
-	
+
 	void GiveCoins(int coins){
 		//in the coin counter prefab
 		Coin_Counter.AddCoins(coins);
@@ -540,32 +467,6 @@ public class PlayerController : MonoBehaviour
 		for(int i=0;i<currentBoost;i++) boostBloops[i].SetActive(true);
 		for(int i=currentBoost;i<boostBloops.Length;i++) boostBloops[i].SetActive(false);
 	}
-	/*void GiveBoost(float addBoost){
-		//Transform boostboom;
-        //boostboom = Instantiate(boost_trick1, s_boost.transform.position, Camera.mainCamera.transform.rotation) as Transform;
-		//boostboom.parent = s_boost.transform; 
-		
-		boostJuice = boostJuice + addBoost;	
-		boostJuice = Mathf.Clamp(boostJuice, 0.0f, max_boost);
-		if(boostJuice > 0.5){
-			boostBloops[0].SetActive(true);
-			if(boostJuice > 1.5){
-				boostBloops[1].SetActive(true);
-				if(boostJuice > 2.5){
-					boostBloops[2].SetActive(true);
-					if(boostJuice > 3.5){
-						boostBloops[3].SetActive(true);
-						if(boostJuice > 4.5){
-							boostBloops[4].SetActive(true);
-							if(boostJuice > 5.5){
-								boostBloops[5].SetActive(true);
-							}
-						}
-					}
-				}
-			}
-		}
-	}*/
 	
 	//BRAKE	
 	public void Brake(float amount)
@@ -679,9 +580,7 @@ public class PlayerController : MonoBehaviour
 				life = false;
 				//			MonsterCloseIn();
 				Death(true);
-				txt_p1.text = "try upgrading your engine to";
-				txt_p2.text = "increase speed and power";
-				txt_p3.text = "";
+
 				//play sound
 				darkScreenPause.SetActive( true);
 			}	
@@ -722,9 +621,6 @@ public class PlayerController : MonoBehaviour
 		if(life && other.gameObject.tag == "Ground"){
 			Debug.Log(other.gameObject.name);
 			Death(false);
-			txt_p1.text = "try upgrading your shocks";
-			txt_p2.text = "for better control";
-			txt_p3.text = "when landing or hitting a bump";
 		}
 	}
 	
@@ -762,9 +658,6 @@ public class PlayerController : MonoBehaviour
 		life=false;
 		rigidbody.drag = 2;
 		Debug.Log("DEATH");
-		s_gas = 0;
-		isGas = false;
-		isBoost = false;
 		
 		chaseBar.parent.gameObject.SetActive(false);
 		//bonus and save coins
@@ -772,11 +665,6 @@ public class PlayerController : MonoBehaviour
 		
 		rigidbody.isKinematic = true;
 		UpdateEndMenu();
-		
-		if(monstercause)
-			txt_DeathReason.text = "You are too slow!";
-		else
-			txt_DeathReason.text = "You Crashed!";
 		
 		// invention
 		DeathScreen.Instance.Show(monstercause,
@@ -949,8 +837,8 @@ public class PlayerController : MonoBehaviour
 		int suspension = PlayerPrefs.GetInt (GameManager.m_chosenSled.ToString () + "_" + "Suspension",0);
 		int tread = PlayerPrefs.GetInt (GameManager.m_chosenSled.ToString () + "_" + "Tread", 0);
 		
-		Debug.Log(GameManager.m_chosenSled.ToString() + " engine: " + engine +
-		          ", suspension: " + suspension + ", tread: " + tread);
+		//Debug.Log(GameManager.m_chosenSled.ToString() + " engine: " + engine +
+		//          ", suspension: " + suspension + ", tread: " + tread);
 		
 		m_accelThresh = (acc_bonus) + engine;
 		m_airSpeed = 100 + 10*suspension;
@@ -967,15 +855,49 @@ public class PlayerController : MonoBehaviour
 		transform.position = startPos + (transform.up * transform.localScale.y);
 	}
 	
-	#region Upgrade1
+	#region Properties
 	
-	public bool GamePaused{
-		get{
-			return s_pause;
+	public bool GamePaused { get{ return s_pause; }}
+	
+	#endregion
+
+	#region Pause
+
+	public void PauseGame()
+	{
+		if(life && !death)
+		{
+			isGas = false;
+			s_pause = !s_pause;
+			pause_flag = s_pause;
+			Time.timeScale = s_pause ? 0.0f : 1f;
+			DeathScreen.Instance.ShowPauseScreen(pause_flag);
+		}
+	}
+
+	#endregion
+
+	#region Static Instance
+	
+	// Multithreaded Safe Singleton Pattern
+	// URL: http://msdn.microsoft.com/en-us/library/ms998558.aspx
+	private static readonly object _syncRoot = new Object();
+	private static volatile PlayerController _staticInstance;	
+	public static PlayerController Instance 
+	{
+		get {
+			if (_staticInstance == null) {				
+				lock (_syncRoot) {
+					_staticInstance = FindObjectOfType (typeof(PlayerController)) as PlayerController;
+					if (_staticInstance == null) {
+						Debug.LogError("The PlayerController instance was unable to be found, if this error persists please contact support.");						
+					}
+				}
+			}
+			return _staticInstance;
 		}
 	}
 	
 	#endregion
+	
 }
-
-
