@@ -175,10 +175,58 @@ public class PlayerController : MonoBehaviour
 		A_Howel();
 		StartCoroutine("Monster");
 	}
-	
+
+	public float rotateFactor = 1f;
 	void FixedUpdate()
 	{
-		//StartCoroutine("UpdateSpeed");
+		if(life && !s_pause && !death){
+			if(controlLeftRotate || Input.GetAxis("Horizontal")<0){
+				if(rigidbody.angularVelocity.z<0f)
+					rigidbody.angularVelocity += new Vector3(0f,0f,10*rotateFactor*Time.deltaTime);
+				else
+					rigidbody.angularVelocity += new Vector3(0f,0f,rotateFactor*Time.deltaTime);
+				//transform.Rotate(-rotateFactor*Time.fixedDeltaTime,0f,0f);
+			}
+			else if(controlRightRotate || Input.GetAxis("Horizontal")>0){
+				if(rigidbody.angularVelocity.z>0f)
+					rigidbody.angularVelocity += new Vector3(0f,0f,-10*rotateFactor*Time.deltaTime);
+				else
+					rigidbody.angularVelocity += new Vector3(0f,0f,-rotateFactor*Time.deltaTime);
+				//transform.Rotate(rotateFactor*Time.fixedDeltaTime,0f,0f);
+			}
+			else
+				rigidbody.angularVelocity *= 0.9f;
+
+			if(controlAcceleration){
+				isGas = true;
+				if(m_backWheel.isGrounded)
+					Gas(m_speed);
+				else if(!controlLeftRotate && !controlRightRotate && Input.GetAxis("Horizontal")==0f)
+				{
+					rigidbody.AddRelativeTorque (-m_airSpeed, 0, 0);
+				}
+			}
+			else if(controlBoost){
+				isGas = true;
+				if(m_backWheel.isGrounded)
+					Gas(2*m_speed);
+				else if(!controlLeftRotate && !controlRightRotate)
+					rigidbody.AddRelativeTorque (-m_airSpeed, 0, 0);
+			}
+			else{
+				isGas = false;
+			}
+
+
+
+			/*float angle = -4f*DeviceAcceleration.Acceleration.x;
+			if(!m_backWheel.isGrounded){
+				rigidbody.AddRelativeTorque (-m_airSpeed*angle, 0, 0);
+			}
+			else //apply torque
+				rigidbody.AddTorque (m_airSpeed*angle, 0, 0);*/
+		}
+		return;
 		//REMOVE THE AFTER OR HAHA
 		if(life && !s_pause && !death){
 			//Gas!..
@@ -811,7 +859,7 @@ public class PlayerController : MonoBehaviour
 	
 	#endregion
 
-	#region Pause
+	#region Updates 3
 
 	public void PauseGame()
 	{
@@ -824,6 +872,11 @@ public class PlayerController : MonoBehaviour
 			DeathScreen.Instance.ShowPauseScreen(pause_flag);
 		}
 	}
+
+	public bool controlAcceleration{get;set;}
+	public bool controlBoost{get;set;}
+	public bool controlLeftRotate{get;set;}
+	public bool controlRightRotate{get;set;}
 
 	#endregion
 
