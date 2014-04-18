@@ -88,9 +88,11 @@ public class PlayerController : MonoBehaviour
 	Vector3 savedAngularVelocity;
 	
 	// by Aharon
+	// messing up the code that had already messed up
 	private bool tilt = false;
 	private Ragdoll ragdoll;
 	private Boost boost;
+	private ButtonBoost buttonBoost;
 	
 	void Awake()
 	{
@@ -100,6 +102,7 @@ public class PlayerController : MonoBehaviour
 
 		tilt = PlayerPrefs.GetInt("options_control")==1;
 		boost = GameObject.FindObjectOfType<Boost> ();
+		buttonBoost = GameObject.FindObjectOfType<ButtonBoost> ();
 	}
 	
 	
@@ -536,6 +539,8 @@ public class PlayerController : MonoBehaviour
 			dist -= Time.deltaTime*9f;
 			monster.transform.position = new Vector3 (transform.position.x - dist,
 			                                          transform.position.y, transform.position.z);
+			if(life && transform.position.x < monster.position.x + 100f)
+				buttonBoost.Animate(true);
 			if(life && transform.position.x < monster.position.x + 30f)
 			{	
 				life = false;
@@ -553,6 +558,7 @@ public class PlayerController : MonoBehaviour
 		{
 			stoping = true;
 			StopCoroutine ("StartMonsterBoost");
+			buttonBoost.Animate(false);
 
 			float dist = transform.position.x - monster.position.x;
 			while(dist<savedDist)

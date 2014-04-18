@@ -9,14 +9,6 @@ public class Boost : MonoBehaviour {
 	private int maxframe = 4;
 	private float framerate = 0.25f;
 
-	void OnClick(bool isDown)
-	{
-		if(isDown)
-		{
-			// to do
-		}
-	}
-
 	IEnumerator Start()
 	{
 		UISprite sprite = GetComponent<UISprite> ();

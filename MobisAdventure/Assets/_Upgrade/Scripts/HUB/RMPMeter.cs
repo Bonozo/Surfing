@@ -4,7 +4,7 @@ using System.Collections;
 public class RMPMeter : MonoBehaviour {
 
 	private PlayMakerFSM fsm;
-	private float smoothPeriod = 0.02f;
+	private float smoothPeriod = 0.05f;
 	private float[] length = new float[] {0.99f,2.534f,3f,5f};
 	private int current = 0;
 	private float tm=0f;
