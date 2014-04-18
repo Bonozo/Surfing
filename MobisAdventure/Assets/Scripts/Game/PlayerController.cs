@@ -536,6 +536,12 @@ public class PlayerController : MonoBehaviour
 			dist -= Time.deltaTime*9f;
 			monster.transform.position = new Vector3 (transform.position.x - dist,
 			                                          transform.position.y, transform.position.z);
+			if(life && transform.position.x < monster.position.x + 30f)
+			{	
+				life = false;
+				Death(true);
+				darkScreenPause.SetActive( true);
+			}
 			yield return new WaitForEndOfFrame();
 		}
 	}
@@ -573,10 +579,9 @@ public class PlayerController : MonoBehaviour
 			monster.position = Vector3.MoveTowards(monster.position, transform.position, step);
 			
 			//if the monster is too close life is over
-			if(life && Vector3.Distance(transform.position, monster.position)<30)
+			if(life && transform.position.x < monster.position.x + 30f)
 			{	
 				life = false;
-				//			MonsterCloseIn();
 				Death(true);
 
 				//play sound
