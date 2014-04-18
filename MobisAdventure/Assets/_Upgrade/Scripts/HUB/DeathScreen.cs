@@ -48,7 +48,7 @@ public class DeathScreen : MonoBehaviour {
 		pauseScreen.SetActive(active);
 	}
 
-	public string levelName{ get { return levelController.levelName; } }
+	public string levelName{ get { return levelController.uiParams.levelName; } }
 
 	#region Static Instance
 	

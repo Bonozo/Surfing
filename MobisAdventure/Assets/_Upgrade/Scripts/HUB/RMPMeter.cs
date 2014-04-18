@@ -16,9 +16,8 @@ public class RMPMeter : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		if (fsm.ActiveStateName [0] == 'G' && fsm.ActiveStateName [1] == 'e' && fsm.ActiveStateName.Length == 5) {
+		if (fsm.ActiveStateName.Length == 5 && fsm.ActiveStateName [0] == 'G' && fsm.ActiveStateName [1] == 'e') {
 			int ind = (int)(fsm.ActiveStateName[4]-'1');
-			Debug.Log(ind);
 			if(current!=ind)
 			{
 				current = ind;

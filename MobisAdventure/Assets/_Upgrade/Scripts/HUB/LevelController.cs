@@ -3,11 +3,10 @@ using System.Collections;
 
 public class LevelController : MonoBehaviour {
 
-	public Color uiColor;
+	public UIParams uiParams;
 	private int[] levelDist = new int[]{0,0,1500,3000,4500,6000,7500,10000};
 	private int[] levelBonus = new int[]{0,0,1000,1500,2000,2500,3000,4500};
-
-	public string levelName;
+	
 	public UILabel labelText;
 	public UILabel labelBackflip;
 	public UILabel labelFrontflip;
@@ -21,7 +20,7 @@ public class LevelController : MonoBehaviour {
 
 	public int CurrentLevel{
 		get{
-			id = "level_" + levelName;
+			id = "level_" + uiParams.levelName;
 			var currentLevel = PlayerPrefs.GetInt (id, 1);
 			return currentLevel;
 		}
@@ -30,16 +29,16 @@ public class LevelController : MonoBehaviour {
 	void Awake()
 	{
 		player = GameObject.FindObjectOfType (typeof(PlayerController)) as PlayerController;		
-		id = "level_" + levelName;
+		id = "level_" + uiParams.levelName;
 		textMeshLevel.text = "LEVEL: " + CurrentLevel;
 		nextLevel = CurrentLevel + 1;
 		labelText.gameObject.SetActive (false);
 		labelBackflip.gameObject.SetActive (false);
 		labelFrontflip.gameObject.SetActive (false);
 
-		labelText.color = uiColor;
-		labelBackflip.color = uiColor;
-		labelFrontflip.color = uiColor;
+		labelText.color = uiParams.uiColor;
+		labelBackflip.color = uiParams.uiColor;
+		labelFrontflip.color = uiParams.uiColor;
 	}
 
 	IEnumerator Start()
