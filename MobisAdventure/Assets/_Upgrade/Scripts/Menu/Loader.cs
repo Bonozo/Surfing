@@ -10,7 +10,7 @@ public class Loader : MonoBehaviour {
 	
 	// Use this for initialization
 	IEnumerator Start () {
-
+		Time.timeScale = 1f;
 		System.GC.Collect();
 
 		background.SetActive(true);
