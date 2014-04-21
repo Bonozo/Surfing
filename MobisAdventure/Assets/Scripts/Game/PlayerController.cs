@@ -209,7 +209,8 @@ public class PlayerController : MonoBehaviour
 					Gas(m_speed*(boostingTime>0f?4f:1f) );
 				else if(!controlLeftRotate && !controlRightRotate && Input.GetAxis("Horizontal")==0f)
 				{
-					float airSpeed = Mathf.Max(25f,200f-Speed*200f/30f);
+					// airSpeed is 25f after 30 speed
+					float airSpeed = Mathf.Max(25f,m_airSpeed-Speed*m_airSpeed/30f);
 					rigidbody.AddRelativeTorque (-airSpeed, 0, 0);
 				}
 			}
@@ -775,7 +776,7 @@ public class PlayerController : MonoBehaviour
 		//          ", suspension: " + suspension + ", tread: " + tread);
 		
 		m_accelThresh = (acc_bonus) + engine;
-		m_airSpeed = 100 + 10*suspension;
+		m_airSpeed = 150 + 10*suspension;
 		//set players springness? mass?
 		m_speed = speed_bonus + 25*tread;
 		
