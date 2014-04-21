@@ -35,14 +35,10 @@ public class Ragdoll : MonoBehaviour {
 		foreach(var t in tt0)
 			Destroy(t);
 
-		var force = transform.root.rigidbody.velocity*4000;
+		var force = PlayerController.Instance.rigidbody.velocity*4000;
 		StartCoroutine(AddRigidbodies(force));
 
-		//if( transform.root.rigidbody.velocity != null)
-		{
-			//Debug.Log( transform.root.rigidbody.velocity);
-			rootRigidbody.AddForce(force);
-		}
+		rootRigidbody.AddForce(force);
 	}
 
 	IEnumerator AddRigidbodies(Vector3 force)

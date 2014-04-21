@@ -5,7 +5,7 @@ public class FixRotation : MonoBehaviour {
 
 	void Update()
 	{
-		transform.rotation = transform.root.rotation;
+		transform.rotation = PlayerController.Instance.transform.rotation;
 		transform.Rotate(0f,-90f,0f);
 	}
 }

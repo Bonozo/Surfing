@@ -21,12 +21,4 @@ public class ButtonBoost : MonoBehaviour {
 		if(value) tweener.Play();
 		else tweener.transform.localScale = new Vector3(1f,1f,1f);
 	}
-	
-	void Update()
-	{
-		if(Input.GetKeyDown(KeyCode.D))
-			Animate(true);
-		if(Input.GetKeyDown(KeyCode.F))
-			Animate(false);
-	}
 }

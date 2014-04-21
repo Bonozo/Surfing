@@ -37,6 +37,8 @@ public class Boost : MonoBehaviour {
 
 	}
 
+	public int currentBoosts { get { return currentBoost; } }
+
 	public void ClearBoosts()
 	{
 		currentBoost = 0;

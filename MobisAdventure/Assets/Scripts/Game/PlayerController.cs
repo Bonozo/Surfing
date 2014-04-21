@@ -179,10 +179,13 @@ public class PlayerController : MonoBehaviour
 		StartCoroutine("Monster");
 	}
 
-	public float rotateFactor = 1f;
+	private float rotateFactor = 2f;
+	private float boostingTime = 0f;
 	void FixedUpdate()
 	{
 		if(life && !s_pause && !death){
+			boostingTime = Mathf.Max(0f,boostingTime -= Time.deltaTime);
+
 			if(controlLeftRotate || Input.GetAxis("Horizontal")<0){
 				if(rigidbody.angularVelocity.z<0f)
 					rigidbody.angularVelocity += new Vector3(0f,0f,10*rotateFactor*Time.deltaTime);
@@ -200,28 +203,28 @@ public class PlayerController : MonoBehaviour
 			else
 				rigidbody.angularVelocity *= 0.9f;
 
-			if(controlAcceleration){
+			if(controlAcceleration || boostingTime>0f){
 				isGas = true;
 				if(m_backWheel.isGrounded)
-					Gas(m_speed);
+					Gas(m_speed*(boostingTime>0f?4f:1f) );
 				else if(!controlLeftRotate && !controlRightRotate && Input.GetAxis("Horizontal")==0f)
 				{
-					rigidbody.AddRelativeTorque (-m_airSpeed, 0, 0);
+					float airSpeed = Mathf.Max(25f,200f-Speed*200f/30f);
+					rigidbody.AddRelativeTorque (-airSpeed, 0, 0);
 				}
-			}
-			else if(controlBoost){
-				isGas = true;
-				if(m_backWheel.isGrounded)
-					Gas(2*m_speed);
-				else if(!controlLeftRotate && !controlRightRotate)
-					rigidbody.AddRelativeTorque (-m_airSpeed, 0, 0);
 			}
 			else{
 				isGas = false;
 			}
 
+			if(controlBoost && boost.currentBoosts>0){
+				if(monsterBoost)
+					StartCoroutine("StopMonsterBoost");
+				boostingTime += (float)boost.currentBoosts;
+				boost.ClearBoosts();
+			}
 
-
+			// if(tilt)
 			/*float angle = -4f*DeviceAcceleration.Acceleration.x;
 			if(!m_backWheel.isGrounded){
 				rigidbody.AddRelativeTorque (-m_airSpeed*angle, 0, 0);
@@ -230,58 +233,7 @@ public class PlayerController : MonoBehaviour
 				rigidbody.AddTorque (m_airSpeed*angle, 0, 0);*/
 		}
 		return;
-		//REMOVE THE AFTER OR HAHA
-		if(life && !s_pause && !death){
-			//Gas!..
-			if(Input.GetKey("right") || s_gas == 1)
-			{
-				isGas = true;
-				if(m_backWheel.isGrounded)
-					Gas(m_speed);
-				
-				//add spin to play in the air
-				if(!m_backWheel.isGrounded){
-					rigidbody.AddRelativeTorque (-m_airSpeed, 0, 0);
-				}
-				else //apply torque
-					rigidbody.AddTorque (m_airSpeed, 0, 0);
-				
-			}
-			if(Input.GetKey("left") || s_gas == -1) //Brake!..
-			{
-				isGas = false;
-				if(m_backWheel.isGrounded )
-					Brake(m_break);
-				
-				//add spin to play in the air
-				if(!m_frontWheel.isGrounded)
-					rigidbody.AddRelativeTorque (m_airSpeed, 0, 0);
-				else
-					rigidbody.AddRelativeTorque (m_airSpeed, 0, 0);
-			}
-			if((Input.GetKey("up") || s_gas == 2) && currentBoost>0 && !boosting) //also check if we have boost juice
-			{
-				StartCoroutine(OneBoost(currentBoost));
-				currentBoost = 0;
-				isGas = true;
-				
-			} 
-			if(s_gas == 0){
-				isGas = false;	
-			}
-
-			if(tilt)
-			{
-				float angle = -4f*DeviceAcceleration.Acceleration.x;
-				if(!m_backWheel.isGrounded){
-					rigidbody.AddRelativeTorque (-m_airSpeed*angle, 0, 0);
-				}
-				else //apply torque
-					rigidbody.AddTorque (m_airSpeed*angle, 0, 0);
-			}
-		}
 	}
-	
 	
 	void Update()
 	{		
@@ -596,28 +548,6 @@ public class PlayerController : MonoBehaviour
 		}
 	}
 	
-	int currentBoost = 0;
-	bool boosting = false;	
-	IEnumerator OneBoost(float amount)
-	{
-		boosting = true;
-		if(monsterBoost)
-			StartCoroutine("StopMonsterBoost");
-		float tm = 1.5f;
-		float ddt = 0f;
-		float am = 1.5f+amount*0.5f;
-		while(tm>0f && !death)
-		{
-			if(!s_pause){
-				tm-=Time.fixedDeltaTime;
-				ddt = 0.5f+(1.5f-tm)/2f;
-				Gas(m_speed*ddt*am);
-			}
-			yield return new WaitForFixedUpdate();
-		}
-		boosting = false;
-	}
-	
 	public void MonsterCloseIn(){
 		monster.position += Vector3.up *30;//.Set(monster.position.x ,transform.position.y + 30, monster.position.z);
 		m_monsterSpeed = 5;
@@ -802,7 +732,6 @@ public class PlayerController : MonoBehaviour
 			//set collider
 			collider.center = classic_cc;
 			//upgrades
-			m_airSpeed = m_airSpeed + 0f;
 			acc_bonus = 12f; //low numbers
 			speed_bonus = 300f;
 			rigidbody.mass = rigidbody.mass + 0f;
@@ -811,7 +740,6 @@ public class PlayerController : MonoBehaviour
 			//set collider
 			collider.center = turbo_cc;
 			//upgrades
-			m_airSpeed = m_airSpeed + 0f;
 			acc_bonus = 14f; //low numbers
 			speed_bonus = 400f;
 			rigidbody.mass = rigidbody.mass + 0f;
@@ -819,7 +747,6 @@ public class PlayerController : MonoBehaviour
 			//set collider
 			collider.center = track_cc;
 			//upgrades
-			m_airSpeed = m_airSpeed + 0f;
 			acc_bonus = 16f; //low numbers
 			speed_bonus = 500f;
 			rigidbody.mass = rigidbody.mass + 0;
@@ -827,7 +754,6 @@ public class PlayerController : MonoBehaviour
 			//set collider
 			collider.center = sport_cc;
 			//upgrades
-			m_airSpeed = m_airSpeed + 0f;
 			acc_bonus = 18f; //low numbers
 			speed_bonus = 600f;
 			rigidbody.mass = rigidbody.mass + 0f;
@@ -835,7 +761,6 @@ public class PlayerController : MonoBehaviour
 			//set collider
 			collider.center = hybrid_cc;
 			//upgrades
-			m_airSpeed = m_airSpeed + 0f;
 			acc_bonus = 20f; //low numbers
 			speed_bonus = 700f;
 			rigidbody.mass = rigidbody.mass + 0f;
@@ -867,6 +792,7 @@ public class PlayerController : MonoBehaviour
 	#region Properties
 	
 	public bool GamePaused { get{ return s_pause; }}
+	public float Speed { get { return Mathf.Round (rigidbody.velocity.magnitude * 2.0f); } }
 	
 	#endregion
 

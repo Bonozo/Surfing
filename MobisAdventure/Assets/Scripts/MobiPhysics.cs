@@ -10,7 +10,7 @@ public class MobiPhysics : MonoBehaviour {
 	
 	void Start()
 	{
-		follow = transform.root;
+		follow = PlayerController.Instance.transform;
 	}
 	
 	void Update()
