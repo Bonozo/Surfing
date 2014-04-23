@@ -27,4 +27,19 @@ public class Coin : MonoBehaviour
 		gameObject.SetActive(false);
 		gameObject.SetActive(true);
 	}
+
+	float initialY;
+
+	void OnEnable()
+	{
+		initialY = transform.localPosition.y;
+	}
+
+	float a=0.5f,b=4f;
+	void Update()
+	{
+		var pos = transform.localPosition;
+		pos.y = initialY + 0.5f + a*Mathf.Sin (b*Time.time);
+		transform.localPosition = pos;
+	}
 }

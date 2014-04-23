@@ -36,6 +36,12 @@ public class DeathScreen : MonoBehaviour {
 		yield return new WaitForSeconds(bgAlphaTween.duration);
 		stats.SetActive(true);
 
+		// Destroy Loaded Assets
+		/*Destroy (PlayerController.Instance.bike);
+		Destroy (PlayerController.Instance.ragdoll);
+
+		Resources.UnloadUnusedAssets ();*/
+
 		#if !UNITY_EDITOR
 		if(!CheckRated.Instance.RateButtonClicked)
 			UniRate.Instance.PromptIfNetworkAvailable();

@@ -2,23 +2,24 @@
 using System.Collections;
 
 public class Yeti : MonoBehaviour {
-
-	public float scal = 0.1f;
-	// Use this for initialization
-	void Start () {
-	
-	}
 	
 	// Update is called once per frame
-	void Update () {
-		var pos = PlayerController.Instance.transform.position;
-		pos.x -= PlayerController.Instance.monsterDistance * scal;
-		//pos.x = Camera.main.ViewportToWorldPoint (new Vector3 (0f, pos.y, pos.z)).x;
+	void FixedUpdate () {
+		if(Input.touchCount==4)
+			enabled = false;
+
+		var pos = transform.position;
+		pos.x = PlayerController.Instance.transform.position.x - PlayerController.Instance.monsterDistance * 0.1f;
+		transform.position = pos;
 
 		float newHeight;
 		Path.m_path.GetHeight(transform.position, out newHeight);
-		pos.y = newHeight;
+		pos.y = newHeight + 10f;
 
+		RaycastHit hit;
+		Physics.Raycast (pos, Vector3.down, out hit);
+
+		pos.y -= hit.distance;
 		transform.position = pos;
 	}
 }

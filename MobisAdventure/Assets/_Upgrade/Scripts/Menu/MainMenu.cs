@@ -11,9 +11,7 @@ public class MainMenu : MonoBehaviour {
 	
 	void Awake()
 	{
-		#if UNITY_IPHONE
 		Application.targetFrameRate = 60;
-		#endif
 		
 		coinshow = PlayerPrefs.GetInt ("pp_coins");
 	}

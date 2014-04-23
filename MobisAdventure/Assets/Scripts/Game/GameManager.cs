@@ -17,8 +17,6 @@ public class GameManager : MonoBehaviour
 //	private int m_hours = 0;
 //	private int m_days = 0;
 	
-	[HideInInspector] public bool m_touchDown = false;
-	
 	private static GameManager m_gameManager = null;
 	
 	void Awake()
@@ -31,49 +29,6 @@ public class GameManager : MonoBehaviour
 	{
 		//m_timer.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(20.0f, Screen.height - 20.0f, 1.0f));
 		//m_timer.renderer.material.color = Color.green;
-	}
-	
-	// Subscribe to events
-	void OnEnable()
-	{
-		EasyTouch.On_TouchStart += On_TouchStart;
-		EasyTouch.On_TouchDown += On_TouchDown;
-		EasyTouch.On_TouchUp += On_TouchUp;
-	}
-	
-	// Unsubscribe
-	void OnDisable()
-	{
-		EasyTouch.On_TouchStart -= On_TouchStart;
-		EasyTouch.On_TouchDown -= On_TouchDown;
-		EasyTouch.On_TouchUp -= On_TouchUp;
-	}
-	
-	// Unsubscribe
-	void OnDestroy()
-	{
-		EasyTouch.On_TouchStart -= On_TouchStart;
-		EasyTouch.On_TouchDown -= On_TouchDown;
-		EasyTouch.On_TouchUp -= On_TouchUp;
-	}
-	
-	// Touch start event
-	public void On_TouchStart(Gesture gesture)
-	{
-		//Debug.Log( "On " + gesture.position);
-	}
-	
-	// Touch start event
-	public void On_TouchUp(Gesture gesture)
-	{
-		//Debug.Log( "Off " + gesture.position);
-		m_touchDown = false;
-	}
-	
-	// Touch start event
-	private void On_TouchDown(Gesture gesture)
-	{
-		m_touchDown = true;
 	}
 	
 	// Update is called once per frame

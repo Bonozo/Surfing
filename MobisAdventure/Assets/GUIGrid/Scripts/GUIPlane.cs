@@ -4,7 +4,6 @@ using System.Collections;
 public class GUIPlane : MonoBehaviour
 {
 	public bool m_lockToGrid = true;
-	public Vector2 m_uvAnimationRate = Vector2.zero;
 	
 	//private Vector2 m_uvOffset = Vector2.zero;
 	
@@ -33,20 +32,8 @@ public class GUIPlane : MonoBehaviour
 	{
 		if(renderer)
 		{
-			/*Vector2 current = m_uvOffset;
-			Vector2 upd = current + (m_uvAnimationRate * Time.deltaTime);
-			current.x = Mathf.SmoothStep(current.x,upd.x,1f);
-			current.y = Mathf.SmoothStep(current.y,upd.y,1f);
-			m_uvOffset = current;
-			Debug.Log(current-upd);
-			renderer.material.SetTextureOffset("_MainTex", m_uvOffset);*/
-
-			/*m_uvOffset += (m_uvAnimationRate * Time.deltaTime);
-			renderer.material.SetTextureOffset("_MainTex", m_uvOffset);*/
-
 			float dist = transform.position.x-initialCameraPos;
 			renderer.material.SetTextureOffset("_MainTex", new Vector2(dist*0.0012f,0f));
-
 		}
 	}
 	

@@ -5,7 +5,6 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
-	public GameObject bonusText;
 	public bool s_pause = false;
 	
 	public WheelCollider m_backWheel = null;
@@ -19,9 +18,12 @@ public class PlayerController : MonoBehaviour
 	public float m_accelThresh = 8.0f;
 	public float m_boost = 10.0f; //multiplyer for speed
 	private int s_gas = 0;
+
+	[HideInInspector]
 	public bool _isGrounded = true;
-	
+	[HideInInspector]
 	public bool isGas = false;
+	[HideInInspector]
 	public bool isBoost = false;
 	
 	private Texture2D m_bar = null;
@@ -33,9 +35,6 @@ public class PlayerController : MonoBehaviour
 	public AudioClip[] a_monsterHowel;
 	public AudioClip[] a_monsterGrunt;
 	public AudioClip[] a_monsterAttack;
-	
-	public Transform trick1;
-	public Transform boost_trick1;
 	
 	//MONSTER
 	public bool life = true;
@@ -49,30 +48,13 @@ public class PlayerController : MonoBehaviour
 	private Vector3 sport_cc = new Vector3(0f, 1.3f, -.27f);
 	private Vector3 hybrid_cc = new Vector3(0f, 1.3f, -.21f);
 	
-	//mobi swapping
-	//private GameObject newMobi;
-	//public Material[] mobiMats;
-	
-	//end menu
-	public Transform endMenuButton;
-	public Transform endMenuHome;
-	public GameObject s_left;
-	public GameObject s_right;
-	public GameObject s_boost;
-	
-	
 	private Vector3 p_startPosition;
 	public float p_distTraveled;
-	public TextMesh tm_distTraveled;
 	
 	public float p_maxHeight;
-	public TextMesh tm_maxHeight;
 
 	public TextMesh tm_dist;
 	public TextMesh tm_distHigh;
-	
-	//	public int p_coinsEarned;
-	public TextMesh tm_coinsEarned;
 	
 	//dark screen
 	public Transform sfx_frostObj;
@@ -83,16 +65,19 @@ public class PlayerController : MonoBehaviour
 	//pause flag
 	
 	private bool pause_flag = false;
-	public GameObject darkScreenPause;
 	Vector3 savedVelocity;
 	Vector3 savedAngularVelocity;
 	
 	// by Aharon
 	// messing up the code that had already messed up
 	private bool tilt = false;
-	private Ragdoll ragdoll;
 	private Boost boost;
 	private ButtonBoost buttonBoost;
+	
+	[System.NonSerialized][HideInInspector]
+	public Ragdoll ragdoll;
+	[System.NonSerialized][HideInInspector]
+	public GameObject bike;
 	
 	void Awake()
 	{
@@ -104,60 +89,11 @@ public class PlayerController : MonoBehaviour
 		boost = GameObject.FindObjectOfType<Boost> ();
 		buttonBoost = GameObject.FindObjectOfType<ButtonBoost> ();
 	}
-	
-	
-	// Subscribe to events
-	void OnEnable(){
-		EasyTouch.On_TouchDown += On_TouchDown;
-		EasyTouch.On_TouchUp += On_TouchUp;
-	}
-	
-	void OnDisable(){
-		UnsubscribeEvent();
-	}
-	
-	void OnDestroy(){
-		UnsubscribeEvent();
-	}
-	
-	void UnsubscribeEvent(){
-		EasyTouch.On_TouchDown -= On_TouchDown;
-		EasyTouch.On_TouchUp -= On_TouchUp;
-	}
-	
-	private void On_TouchDown( Gesture gesture){
-		if(life && !s_pause && !death){
-			if(gesture.pickObject.name == "LeftGas"){
-				s_gas = -1;	
-			} else if (gesture.pickObject.name == "RightGas"){
-				s_gas = 1;
-			} else if (gesture.pickObject.name == "BoostGas"){
-				s_gas = 2;
-			}
-		}
-		//		else {
-		//			if (gesture.pickObject.name == "_Restart"){
-		//						Application.LoadLevel(Application.loadedLevel); //Application.loadedLevel
-		//			}else if (gesture.pickObject.name == "_MainMenu"){
-		//				Application.LoadLevel(0); //Application.loadedLevel
-		//			} 
-		//		}
-	}
-	private void On_TouchUp( Gesture gesture){
-		s_gas = 0;
-	}
-	
+
 	void Start()
 	{
 		SetupBike();
 		DistanceHighScore();
-		//find left and right
-		if(!s_left)
-			s_left = GameObject.Find("LeftGas");
-		if(!s_right)
-			s_right = GameObject.Find("RightGas");
-		if(!s_boost)
-			s_boost = GameObject.Find("BoostGas");
 		if(!chaseBar)
 			chaseBar = GameObject.Find("Chase_Bar").transform;
 		
@@ -287,23 +223,15 @@ public class PlayerController : MonoBehaviour
 			t_isFlipping = false;
 			t_endTrick = false;
 		}
-		
-		//		//turn up volume on doom music
-		//		if (a_doom){
-		//			a_doom.volume = 1 - (monsterDistance * 0.01f);
-		//		}
-		
+
 		float fadeAmmount = 0.75f;
 		if(!life)
 			fadeAmmount = 1.0f;
-		
-		//if(pause_flag)
-		//	fadeAmmount = 1.0f;
+
 		
 		if (sfx_frostObj){
 			sfx_frostColor.a =  fadeAmmount - (monsterDistance * 0.01f);
 			sfx_frostObj.renderer.material.color = sfx_frostColor;
-			//sfx_frostObj.transform.localScale = new Vector3(5, 1, Mathf.Lerp(2, 30, (monsterDistance * 0.01f)));
 		}
 		
 		
@@ -367,29 +295,12 @@ public class PlayerController : MonoBehaviour
 		}if(t_endTrick && transform.up.y > 0) {	
 			if(t_isFlipping){
 				if(t_frontFlip){
-					//FRONT FLIPPED!!!!
-					Debug.Log("FRONT FLIPPED!!!!");
-					//Instantiate(boost_trick1, transform.position, Camera.mainCamera.transform.rotation);
-					//Transform boostboom;
-					//boostboom = Instantiate(boost_trick1, s_boost.transform.position, Camera.mainCamera.transform.rotation) as Transform;
-					//boostboom.parent = s_boost.transform; 
 					GiveCoins(1000);
-					Debug.Log ("FLIPPPPPP");
-					//Instantiate(bonusText);
-					//ShowBonusText("front frip");
 					DeathScreen.Instance.levelController.ShowFrontflipBonus();
 					boost.AddBoost(1);
 					//instantiate particles and 
 				} else {
-					//BACK FLIPPED!!!!
-					Debug.Log("BACK FLIPPED!!!!");
-					//Transform boostboom;
-					//boostboom = Instantiate(boost_trick1, s_boost.transform.position, Camera.mainCamera.transform.rotation) as Transform;
-					//boostboom.parent = s_boost.transform; 
-					//Instantiate(boost_trick1, transform.position, Camera.mainCamera.transform.rotation);
 					GiveCoins(1000);
-					//Instantiate(bonusText);
-					//ShowBonusText("back flip");
 					DeathScreen.Instance.levelController.ShowBackflipBonus();
 					boost.AddBoost(1);
 				}
@@ -399,15 +310,7 @@ public class PlayerController : MonoBehaviour
 			t_endTrick = false;
 		}
 	}
-	
-	void ShowBonusText(string message)
-	{
-		if(bonusText.activeSelf)
-		{
-			bonusText.SetActive(false);
-		}
-		bonusText.SetActive ( true );
-	}
+
 	//LANDING
 	IEnumerator LandingTrick(){
 		yield return new WaitForSeconds(0.5f);
@@ -498,7 +401,6 @@ public class PlayerController : MonoBehaviour
 			{	
 				life = false;
 				Death(true);
-				darkScreenPause.SetActive( true);
 			}
 			yield return new WaitForEndOfFrame();
 		}
@@ -542,9 +444,6 @@ public class PlayerController : MonoBehaviour
 			{	
 				life = false;
 				Death(true);
-
-				//play sound
-				darkScreenPause.SetActive( true);
 			}	
 		}
 	}
@@ -627,40 +526,31 @@ public class PlayerController : MonoBehaviour
 	public void UpdateEndMenu() {		
 		//update dist traveled
 		p_distTraveled = Mathf.RoundToInt(p_distTraveled);
-		tm_distTraveled.text = p_distTraveled.ToString() + "m";
 		//is it farther than ever before?!
 		if(PlayerPrefs.HasKey(DeathScreen.Instance.levelName + "MaxDistance")){
 			if(PlayerPrefs.GetFloat(DeathScreen.Instance.levelName + "MaxDistance") < p_distTraveled){
 				//NEW RECORD!
 				PlayerPrefs.SetFloat(DeathScreen.Instance.levelName + "MaxDistance", p_distTraveled);
-				tm_distTraveled.gameObject.renderer.material.color = Color.yellow;	
 			}
 		} else {
 			PlayerPrefs.SetFloat(DeathScreen.Instance.levelName + "MaxDistance", p_distTraveled);
-			tm_distTraveled.gameObject.renderer.material.color = Color.yellow;				
 		}
 		
 		
 		
 		//uptate highest jump
-		tm_maxHeight.text = ((Mathf.Round(p_maxHeight)*10.0f)/10.0F).ToString() + "m";
 		//is it higher than ever before?!
 		if(PlayerPrefs.HasKey("MaxHeight")){
 			if(PlayerPrefs.GetFloat("MaxHeight") < p_maxHeight){
 				//NEW RECORD!
 				PlayerPrefs.SetFloat("MaxHeight", p_maxHeight);
-				tm_maxHeight.gameObject.renderer.material.color = Color.yellow;	
 			}
 		} else {
-			PlayerPrefs.SetFloat("MaxHeight", p_maxHeight);
-			tm_maxHeight.gameObject.renderer.material.color = Color.yellow;				
+			PlayerPrefs.SetFloat("MaxHeight", p_maxHeight);			
 		}
 		
 		int coinDif;
 		coinDif = Coin_Counter.m_ccounter.coin_balance - Coin_Counter.m_ccounter.start_balance;
-		tm_coinsEarned.text = "+" + coinDif.ToString();
-		tm_coinsEarned.gameObject.renderer.material.color = Color.yellow;
-		
 	} 
 	
 	//END SCREEN
@@ -692,28 +582,22 @@ public class PlayerController : MonoBehaviour
 	public void SetupBike(){
 		//load selected sled
 		//		Debug.Log(GameManager.m_chosenSled);
-		GameObject newSled = Instantiate(Resources.Load("Bikes/Sled_" + GameManager.m_chosenSled)) as GameObject;
+		bike = Instantiate(Resources.Load("Bikes/Sled_" + GameManager.m_chosenSled)) as GameObject;
 		
-		if(!newSled)
+		if(!bike)
 		{
-			newSled = Instantiate(Resources.Load("Classic")) as GameObject;
+			bike = Instantiate(Resources.Load("Classic")) as GameObject;
 		} 
 		//place selected sled
-		newSled.transform.parent = transform.Find("Sled");
-		newSled.transform.localPosition = Vector3.zero;
-		//load selected Mobi
-		///////////newMobi = newSled.transform.Find("2_Mobi").gameObject;
-		//update the newMobi material appropriatly, player's choice from the main menu
-		///////////	newMobi.renderer.material = mobiMats[(int)GameManager.m_chosenMobi];
-		
+		bike.transform.parent = transform.Find("Sled");
+		bike.transform.localPosition = Vector3.zero;
 		
 		// update 1
-		newSled.transform.Find("2_Mobi").gameObject.SetActive(false);
-		///////////newMobi.SetActive(false);
+		bike.transform.Find("2_Mobi").gameObject.SetActive(false);
 		GameObject rg = Instantiate(Resources.Load("Ragdolls/"+GameManager.m_chosenMobi)) as GameObject;
 		ragdoll = rg.GetComponent<Ragdoll>();
 		ragdoll.gameObject.SetActive(false);
-		ragdoll.gameObject.transform.parent = newSled.transform.Find("ragdollposition");
+		ragdoll.gameObject.transform.parent = bike.transform.Find("ragdollposition");
 		//Debug.Log("name is: " + newSled.transform.Find("ragdollposition").name);
 		ragdoll.gameObject.transform.localPosition = Vector3.zero;
 		ragdoll.gameObject.transform.localScale = new Vector3(1f,1f,1f);
