@@ -38,8 +38,6 @@ public class PlayerController : MonoBehaviour
 	
 	//MONSTER
 	public bool life = true;
-	public Transform monster;
-	public float monsterDistance;
 	
 	//collider settings
 	private Vector3 classic_cc = new Vector3(0f, 1.15f, -.48f);
@@ -73,6 +71,7 @@ public class PlayerController : MonoBehaviour
 	private bool tilt = false;
 	private Boost boost;
 	private ButtonBoost buttonBoost;
+	private Yeti yeti;
 	
 	[System.NonSerialized][HideInInspector]
 	public Ragdoll ragdoll;
@@ -88,6 +87,7 @@ public class PlayerController : MonoBehaviour
 		tilt = PlayerPrefs.GetInt("options_control")==1;
 		boost = GameObject.FindObjectOfType<Boost> ();
 		buttonBoost = GameObject.FindObjectOfType<ButtonBoost> ();
+		yeti = GameObject.FindObjectOfType<Yeti> ();
 	}
 
 	void Start()
@@ -112,7 +112,6 @@ public class PlayerController : MonoBehaviour
 		p_startPosition = transform.position;
 		
 		A_Howel();
-		StartCoroutine("Monster");
 	}
 
 	private float rotateFactor = 2f;
@@ -155,8 +154,7 @@ public class PlayerController : MonoBehaviour
 			}
 
 			if(controlBoost && boost.currentBoosts>0){
-				if(monsterBoost)
-					StartCoroutine("StopMonsterBoost");
+				yeti.boost = false;
 				boostingTime += (float)boost.currentBoosts;
 				boost.ClearBoosts();
 			}
@@ -184,8 +182,6 @@ public class PlayerController : MonoBehaviour
 			PlaceOnPath();
 			m_init = false;
 		}
-		if (life && !s_pause)
-			MonsterMover();
 
 		//var speed = Mathf.Round(rigidbody.velocity.magnitude*2.0f);
 		//var topSpeed = 100;
@@ -198,14 +194,10 @@ public class PlayerController : MonoBehaviour
 		//p_distTraveled = Mathf.Round(Vector3.Distance(transform.position, p_startPosition));
 		p_distTraveled = Mathf.Round(transform.position.x-p_startPosition.x);
 		tm_dist.text = p_distTraveled.ToString();
-		
-		
-		//expose
-		monsterDistance = Vector3.Distance(transform.position, monster.position);
-		
+
 		//update chase bar
 		if(chaseBar){
-			chaseBar_scale = 4.0f*Mathf.Clamp(monsterDistance-30, 0.0f, 100.0f)*.01f;
+			chaseBar_scale = 4.0f*Mathf.Clamp(2*yeti.Distance, 0.0f, 100.0f)*.01f;
 			chaseBar.localPosition = new Vector3(chaseBar_scale + 2, chaseBar.localPosition.y, chaseBar.localPosition.z) ;
 		}
 		
@@ -225,12 +217,12 @@ public class PlayerController : MonoBehaviour
 		}
 
 		float fadeAmmount = 0.75f;
-		if(!life)
-			fadeAmmount = 1.0f;
+		//if(!life)
+		//	fadeAmmount = 1f;
 
 		
 		if (sfx_frostObj){
-			sfx_frostColor.a =  fadeAmmount - (monsterDistance * 0.01f);
+			sfx_frostColor.a =  fadeAmmount - (yeti.Distance * 0.13f);
 			sfx_frostObj.renderer.material.color = sfx_frostColor;
 		}
 		
@@ -342,119 +334,7 @@ public class PlayerController : MonoBehaviour
 		else
 			rigidbody.AddForce (Vector3.right * amount);
 	}
-	
-	#region Monster
-	
-	private float m_monsterSpeed = 12.0f;
-	private float monsterSpeedUpTimestep = 30f;
-	
-	private float speedup=0f;
-	private float nextMonsterBoost = 1300;
-	private bool monsterBoost = false;
-	
-	public IEnumerator Monster(){
-		
-		while (life){
-			
-			if(!s_pause)
-			{
-				if(!monsterBoost)
-				{
-					speedup += Time.deltaTime;
-					if(speedup >= monsterSpeedUpTimestep)
-					{
-						speedup = 0f;
-						m_monsterSpeed += 1;
-					}
-				}
-				
-				if(!monsterBoost && p_distTraveled >= nextMonsterBoost )
-				{
-					monsterBoost = true;
-					StartCoroutine("StartMonsterBoost");
-				}
-			}
-			yield return new WaitForEndOfFrame();
-		}
-	}
-	
-	private float savedSpeed;
-	private float savedDist;
-	IEnumerator StartMonsterBoost()
-	{
-		savedSpeed = m_monsterSpeed;
-		savedDist = monsterDistance;
-		nextMonsterBoost += 1500f;
 
-		float dist = monsterDistance;
-		monster.transform.position = new Vector3 (transform.position.x - Mathf.Min (150f, dist),
-		                                         transform.position.y, transform.position.z);
-		dist = transform.position.x - monster.position.x;
-		while(true)
-		{
-			dist -= Time.deltaTime*9f;
-			monster.transform.position = new Vector3 (transform.position.x - dist,
-			                                          transform.position.y, transform.position.z);
-			if(life && transform.position.x < monster.position.x + 100f)
-				buttonBoost.Animate(true);
-			if(life && transform.position.x < monster.position.x + 30f)
-			{	
-				life = false;
-				Death(true);
-			}
-			yield return new WaitForEndOfFrame();
-		}
-	}
-	
-	private bool stoping = false;
-	IEnumerator StopMonsterBoost()
-	{
-		if(!stoping)
-		{
-			stoping = true;
-			StopCoroutine ("StartMonsterBoost");
-			buttonBoost.Animate(false);
-
-			float dist = transform.position.x - monster.position.x;
-			while(dist<savedDist)
-			{
-				dist += Time.deltaTime*20f;
-				monster.transform.position = new Vector3 (transform.position.x - dist,
-				                                          transform.position.y, transform.position.z);
-				yield return new WaitForEndOfFrame();
-			}
-
-			m_monsterSpeed = savedSpeed;
-			yield return null;
-			monsterBoost = false;
-			stoping = false;
-		}
-	}
-	
-	public void MonsterMover(){
-		if(!s_pause && !monsterBoost){
-			// The step size is equal to speed times frame time.
-			float step = m_monsterSpeed * Time.deltaTime;
-			
-			// Move our position a step closer to the target.
-			monster.position = Vector3.MoveTowards(monster.position, transform.position, step);
-			
-			//if the monster is too close life is over
-			if(life && transform.position.x < monster.position.x + 30f)
-			{	
-				life = false;
-				Death(true);
-			}	
-		}
-	}
-	
-	public void MonsterCloseIn(){
-		monster.position += Vector3.up *30;//.Set(monster.position.x ,transform.position.y + 30, monster.position.z);
-		m_monsterSpeed = 5;
-	}
-	
-	#endregion
-	
 	//KILL TRIGGER
 	public void OnTriggerEnter(Collider other){
 		if(life && other.gameObject.tag == "Ground"){

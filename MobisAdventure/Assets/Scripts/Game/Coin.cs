@@ -33,6 +33,7 @@ public class Coin : MonoBehaviour
 	void OnEnable()
 	{
 		initialY = transform.localPosition.y;
+		collider.enabled = true;
 	}
 
 	float a=0.5f,b=4f;
@@ -41,5 +42,7 @@ public class Coin : MonoBehaviour
 		var pos = transform.localPosition;
 		pos.y = initialY + 0.5f + a*Mathf.Sin (b*Time.time);
 		transform.localPosition = pos;
+		if(transform.position.x < PlayerController.Instance.transform.position.x)
+			collider.enabled = false;
 	}
 }
