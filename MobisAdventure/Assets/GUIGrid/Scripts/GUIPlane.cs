@@ -32,8 +32,9 @@ public class GUIPlane : MonoBehaviour
 	{
 		if(renderer)
 		{
-			float dist = transform.position.x-initialCameraPos;
-			renderer.material.SetTextureOffset("_MainTex", new Vector2(dist*0.0012f,0f));
+			float offset = ((transform.position.x-initialCameraPos)*0.0012f)%1f;
+			if(offset>0.5f) offset-=1f;
+			renderer.material.SetTextureOffset("_MainTex", new Vector2(offset,0f));
 		}
 	}
 	

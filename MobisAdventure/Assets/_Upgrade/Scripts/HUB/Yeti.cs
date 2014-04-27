@@ -140,13 +140,4 @@ public class Yeti : MonoBehaviour {
 		pos.y -= hit.distance;
 		transform.position = pos;
 	}
-
-	void Update()
-	{
-		if(Input.GetKeyDown(KeyCode.B))
-			boost = true;
-		if(Input.GetKeyDown(KeyCode.N))
-			boost = false;
-	}
-
 }
