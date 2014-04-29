@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Title : MonoBehaviour {
 
+	public GameObject title;
 	public GameObject tableOfContests;
 	public GameObject endGame;
 
@@ -21,14 +22,14 @@ public class Title : MonoBehaviour {
 		if(completed == 4)
 		{
 			endGame.SetActive(true);
-			gameObject.SetActive(false);
+			title.SetActive(false);
 			return;
 		}
 
 		if(GameController.gameLevel != GameLevel.None)
 		{
 			tableOfContests.SetActive(true);
-			gameObject.SetActive(false);
+			title.SetActive(false);
 		}
 	}
 

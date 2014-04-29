@@ -10,8 +10,7 @@ public class CameraFollowPoint : MonoBehaviour
 	public float z_offsetRatio;
 	
 	private Vector3 m_targetPos = Vector3.zero;
-
-	// Update is called once per frame
+	
 	void FixedUpdate()
 	{
 		if(PlayerController.Instance.GamePaused)
@@ -20,10 +19,29 @@ public class CameraFollowPoint : MonoBehaviour
 		Path.Current.GetHeight(m_target.position, out path_y);			
 		
 		m_targetPos.Set(m_target.position.x + 6.0f, m_target.position.y + y_offset + (z_offsetRatio/2), -15);
-		transform.position = m_targetPos;
-		
-		followCam.transform.position = Vector3.Lerp(followCam.transform.position,
-			transform.position, m_followSpeed * Time.fixedDeltaTime);
+		m_targetPos = Vector3.Lerp(followCam.transform.position,
+		                           m_targetPos, m_followSpeed * Time.fixedDeltaTime);
+				followCam.transform.position = m_targetPos;
+	}
+
+	public float maxAllowedAcc = 0.0015f;
+	private Vector3 lastPosition = Vector3.zero;
+	private float lastDist=0f;
+	bool SmoothPlayer()
+	{
+		// check player's last move
+		float dist = Vector3.Distance (lastPosition, m_target.position);
+		lastPosition = m_target.position;
+		if (dist > lastDist + maxAllowedAcc)
+		{
+			Debug.Log ("Jerk");
+			m_target.position = Vector3.MoveTowards(lastPosition,m_target.position,lastDist);
+			lastDist += maxAllowedAcc;
+			return true;
+		}
+		else
+			lastDist = dist;
+		return false;
 	}
 }
 

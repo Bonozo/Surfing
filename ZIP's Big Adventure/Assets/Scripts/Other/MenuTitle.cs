@@ -5,6 +5,7 @@ using System.Collections;
 public class MenuTitle : MonoBehaviour {
 
 	public string[] spriteName;
+	public AudioClip[] clips;
 	public bool pixelPerfect = true;
 	private UISprite sprite;
 
@@ -16,5 +17,6 @@ public class MenuTitle : MonoBehaviour {
 		sprite.spriteName = spriteName [completed];
 		if(pixelPerfect)
 			sprite.MakePixelPerfect ();
+		AudioManager.Instance.PlayClip(clips[completed]);
 	}
 }
