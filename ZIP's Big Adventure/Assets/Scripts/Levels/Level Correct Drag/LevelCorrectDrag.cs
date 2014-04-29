@@ -35,11 +35,12 @@ public class LevelCorrectDrag : ZIPLevel {
 	void OnEnable()
 	{
 		Reset();
-		SendMessage ("StartLevel");
+		SendMessage ("PlayStart",SendMessageOptions.DontRequireReceiver);
 	}
 
 	public void Answered (GameObject other)
 	{
+		//SendMessage ("PlayAnswer", other == rightAnswer);
 		if(other == rightAnswer)
 		{
 			GameController.Instance.PlayCorrectAnswer();

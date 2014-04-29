@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
+  - 114: {fileID: 11402124}
   m_Layer: 8
   m_Name: 6. Fish
   m_TagString: Untagged
@@ -62,6 +63,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400006}
   - 114: {fileID: 11400012}
+  - 114: {fileID: 11402108}
   m_Layer: 8
   m_Name: 4. Fish
   m_TagString: Untagged
@@ -348,6 +350,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400038}
   - 114: {fileID: 11400090}
+  - 114: {fileID: 11402114}
   m_Layer: 8
   m_Name: 7. Tomatoes
   m_TagString: Untagged
@@ -795,6 +798,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400090}
   - 114: {fileID: 11400190}
+  - 114: {fileID: 11402102}
   m_Layer: 8
   m_Name: 1. Butterflies
   m_TagString: Untagged
@@ -886,6 +890,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400100}
   - 114: {fileID: 11400214}
+  - 114: {fileID: 11402096}
   m_Layer: 8
   m_Name: 2. Bowl
   m_TagString: Untagged
@@ -1157,6 +1162,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400132}
   - 114: {fileID: 11400264}
+  - 114: {fileID: 11402088}
   m_Layer: 8
   m_Name: 7. Shoe
   m_TagString: Untagged
@@ -1462,6 +1468,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400168}
   - 114: {fileID: 11400324}
+  - 114: {fileID: 11402132}
   m_Layer: 8
   m_Name: 9. Whiskers
   m_TagString: Untagged
@@ -1720,6 +1727,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400198}
   - 114: {fileID: 11400378}
+  - 114: {fileID: 11402116}
   m_Layer: 8
   m_Name: 1. Branches
   m_TagString: Untagged
@@ -2521,6 +2529,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400288}
   - 114: {fileID: 11400576}
+  - 114: {fileID: 11402106}
   m_Layer: 8
   m_Name: 3. Ducks
   m_TagString: Untagged
@@ -3518,6 +3527,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400406}
   - 114: {fileID: 11400752}
+  - 114: {fileID: 11402138}
   m_Layer: 8
   m_Name: 2. Butterflies
   m_TagString: Untagged
@@ -3756,6 +3766,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400432}
   - 114: {fileID: 11400820}
+  - 114: {fileID: 11402110}
   m_Layer: 8
   m_Name: 5. Ice cube
   m_TagString: Untagged
@@ -3912,6 +3923,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400450}
   - 114: {fileID: 11400858}
+  - 114: {fileID: 11402152}
   m_Layer: 8
   m_Name: 9. Tomatoes
   m_TagString: Untagged
@@ -4068,6 +4080,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400468}
   - 114: {fileID: 11400898}
+  - 114: {fileID: 11402090}
   m_Layer: 8
   m_Name: 6. Penguin
   m_TagString: Untagged
@@ -4336,6 +4349,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400498}
   - 114: {fileID: 11400968}
+  - 114: {fileID: 11402122}
   m_Layer: 8
   m_Name: 4. Duck
   m_TagString: Untagged
@@ -4821,6 +4835,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400554}
   - 114: {fileID: 11401078}
+  - 114: {fileID: 11402134}
   m_Layer: 8
   m_Name: 10. Tomatoes
   m_TagString: Untagged
@@ -5673,6 +5688,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400652}
   - 114: {fileID: 11401268}
+  - 114: {fileID: 11402120}
   m_Layer: 8
   m_Name: 3. Carrots
   m_TagString: Untagged
@@ -5689,6 +5705,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400654}
   - 114: {fileID: 11401270}
+  - 114: {fileID: 11402140}
   m_Layer: 8
   m_Name: 3. Carrots
   m_TagString: Untagged
@@ -6001,6 +6018,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400688}
   - 114: {fileID: 11401362}
+  - 114: {fileID: 11402126}
   m_Layer: 8
   m_Name: 5. Ice cubes
   m_TagString: Untagged
@@ -6035,6 +6053,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400692}
   - 114: {fileID: 11401370}
+  - 114: {fileID: 11402142}
   m_Layer: 8
   m_Name: 4. Duck
   m_TagString: Untagged
@@ -6147,6 +6166,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400706}
   - 114: {fileID: 11401382}
+  - 114: {fileID: 11402136}
   m_Layer: 8
   m_Name: 1. Branches
   m_TagString: Untagged
@@ -6478,6 +6498,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400744}
   - 114: {fileID: 11401456}
+  - 114: {fileID: 11402148}
   m_Layer: 8
   m_Name: 7. Shoes
   m_TagString: Untagged
@@ -7042,6 +7063,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400810}
   - 114: {fileID: 11401558}
+  - 114: {fileID: 11402092}
   m_Layer: 8
   m_Name: 5. Ice Cream Cone
   m_TagString: Untagged
@@ -7122,6 +7144,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400820}
   - 114: {fileID: 11401568}
+  - 114: {fileID: 11402098}
   m_Layer: 8
   m_Name: 3. Caterpillar
   m_TagString: Untagged
@@ -7283,6 +7306,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400838}
   - 114: {fileID: 11401610}
+  - 114: {fileID: 11402086}
   m_Layer: 8
   m_Name: 1. Bird
   m_TagString: Untagged
@@ -7470,6 +7494,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400860}
   - 114: {fileID: 11401652}
+  - 114: {fileID: 11402100}
   m_Layer: 8
   m_Name: 8. Square
   m_TagString: Untagged
@@ -7536,6 +7561,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400868}
   - 114: {fileID: 11401664}
+  - 114: {fileID: 11402150}
   m_Layer: 8
   m_Name: 8. Swings
   m_TagString: Untagged
@@ -7878,6 +7904,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400908}
   - 114: {fileID: 11401732}
+  - 114: {fileID: 11402144}
   m_Layer: 8
   m_Name: 5. Fish
   m_TagString: Untagged
@@ -8064,6 +8091,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400930}
   - 114: {fileID: 11401770}
+  - 114: {fileID: 11402094}
   m_Layer: 8
   m_Name: 4. Daisy Flower
   m_TagString: Untagged
@@ -8131,6 +8159,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400938}
   - 114: {fileID: 11401782}
+  - 114: {fileID: 11402130}
   m_Layer: 8
   m_Name: 8. Swing
   m_TagString: Untagged
@@ -8231,6 +8260,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400950}
   - 114: {fileID: 11401800}
+  - 114: {fileID: 11402118}
   m_Layer: 8
   m_Name: 2. Butterfly
   m_TagString: Untagged
@@ -8547,6 +8577,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400986}
   - 114: {fileID: 11401876}
+  - 114: {fileID: 11402112}
   m_Layer: 8
   m_Name: 6. Shoes
   m_TagString: Untagged
@@ -8984,6 +9015,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 401036}
   - 114: {fileID: 11401980}
+  - 114: {fileID: 11402128}
   m_Layer: 8
   m_Name: 7. Shoes
   m_TagString: Untagged
@@ -9048,6 +9080,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 401044}
   - 114: {fileID: 11401986}
+  - 114: {fileID: 11402146}
   m_Layer: 8
   m_Name: 6. Ice cubes
   m_TagString: Untagged
@@ -9489,6 +9522,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 401096}
   - 114: {fileID: 11402072}
+  - 114: {fileID: 11402104}
   m_Layer: 8
   m_Name: 2. Carrots
   m_TagString: Untagged
@@ -16979,7 +17013,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500004
 BoxCollider:
@@ -17027,7 +17061,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500012
 BoxCollider:
@@ -17231,7 +17265,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500046
 BoxCollider:
@@ -17255,7 +17289,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500050
 BoxCollider:
@@ -17267,7 +17301,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500052
 BoxCollider:
@@ -17279,7 +17313,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500054
 BoxCollider:
@@ -17339,7 +17373,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500064
 BoxCollider:
@@ -17387,7 +17421,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500072
 BoxCollider:
@@ -17435,7 +17469,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500080
 BoxCollider:
@@ -17507,7 +17541,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500092
 BoxCollider:
@@ -17567,7 +17601,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500102
 BoxCollider:
@@ -17603,7 +17637,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500108
 BoxCollider:
@@ -17711,7 +17745,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500126
 BoxCollider:
@@ -17735,7 +17769,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500130
 BoxCollider:
@@ -17795,7 +17829,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500140
 BoxCollider:
@@ -17819,7 +17853,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500144
 BoxCollider:
@@ -17831,7 +17865,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500146
 BoxCollider:
@@ -17867,7 +17901,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500152
 BoxCollider:
@@ -17987,7 +18021,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500172
 BoxCollider:
@@ -17999,7 +18033,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500174
 BoxCollider:
@@ -18095,7 +18129,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500190
 BoxCollider:
@@ -18107,7 +18141,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500192
 BoxCollider:
@@ -18203,7 +18237,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500208
 BoxCollider:
@@ -18275,7 +18309,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500220
 BoxCollider:
@@ -18347,7 +18381,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500232
 BoxCollider:
@@ -18551,7 +18585,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500266
 BoxCollider:
@@ -18563,7 +18597,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500268
 BoxCollider:
@@ -18755,7 +18789,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500300
 BoxCollider:
@@ -18803,7 +18837,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500308
 BoxCollider:
@@ -18815,7 +18849,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 3, y: 2, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500310
 BoxCollider:
@@ -19007,14 +19041,6 @@ MonoBehaviour:
   - {fileID: 11400504}
   - {fileID: 11400768}
   - {fileID: 11400860}
-  rightanswrindex: 2
-  howmany: 0
-  ans1: {fileID: 11400502}
-  ans2: {fileID: 11400766}
-  rightans: {fileID: 11401896}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19068,6 +19094,7 @@ MonoBehaviour:
   - {fileID: 6500118}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19131,10 +19158,6 @@ MonoBehaviour:
   - {fileID: 11400262}
   - {fileID: 11401984}
   dragsLenght: 5
-  txt: 
-  box: []
-  item: []
-  gray: {fileID: 0}
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19265,6 +19288,7 @@ MonoBehaviour:
   - {fileID: 6500328}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19337,6 +19361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 104, y: 176, z: 0}
 --- !u!114 &11400038
@@ -19452,6 +19477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 410, y: 379, z: 0}
 --- !u!114 &11400052
@@ -19497,6 +19523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 160, y: 380.5, z: 0}
 --- !u!114 &11400058
@@ -19552,6 +19579,7 @@ MonoBehaviour:
   - {fileID: 6500118}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19804,10 +19832,6 @@ MonoBehaviour:
   - {fileID: 11401042}
   - {fileID: 11401844}
   dragsLenght: 5
-  txt: 
-  box: []
-  item: []
-  gray: {fileID: 0}
 --- !u!114 &11400092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20015,6 +20039,7 @@ MonoBehaviour:
   - {fileID: 6500328}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400116
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20205,6 +20230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 268, y: 68, z: 0}
 --- !u!114 &11400138
@@ -20548,6 +20574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: -210, y: 23, z: 0}
 --- !u!114 &11400178
@@ -20617,6 +20644,7 @@ MonoBehaviour:
   - {fileID: 6500272}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20676,10 +20704,6 @@ MonoBehaviour:
   - {fileID: 11401540}
   - {fileID: 11400126}
   dragsLenght: 2
-  txt: 
-  box: []
-  item: []
-  gray: {fileID: 0}
 --- !u!114 &11400192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20747,6 +20771,7 @@ MonoBehaviour:
   - {fileID: 6500322}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400200
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20819,6 +20844,7 @@ MonoBehaviour:
   - {fileID: 6500220}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20898,14 +20924,6 @@ MonoBehaviour:
   - {fileID: 11401704}
   - {fileID: 11400814}
   - {fileID: 11400400}
-  rightanswrindex: 0
-  howmany: 0
-  ans1: {fileID: 0}
-  ans2: {fileID: 0}
-  rightans: {fileID: 0}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11400216
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21042,6 +21060,7 @@ MonoBehaviour:
   - {fileID: 6500118}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21149,6 +21168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 160, y: 184, z: 0}
 --- !u!114 &11400244
@@ -21248,6 +21268,7 @@ MonoBehaviour:
   - {fileID: 6500220}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400254
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21364,14 +21385,6 @@ MonoBehaviour:
   - {fileID: 11401552}
   - {fileID: 11400104}
   - {fileID: 11400804}
-  rightanswrindex: 0
-  howmany: 0
-  ans1: {fileID: 0}
-  ans2: {fileID: 0}
-  rightans: {fileID: 0}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11400266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21512,6 +21525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 410, y: 379, z: 0}
 --- !u!114 &11400284
@@ -21578,6 +21592,7 @@ MonoBehaviour:
   - {fileID: 6500220}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400292
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21893,14 +21908,6 @@ MonoBehaviour:
   - {fileID: 11400394}
   - {fileID: 11401584}
   - {fileID: 11400826}
-  rightanswrindex: 1
-  howmany: 0
-  ans1: {fileID: 11400392}
-  ans2: {fileID: 11401582}
-  rightans: {fileID: 11400916}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11400326
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21934,6 +21941,7 @@ MonoBehaviour:
   - {fileID: 6500328}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22143,6 +22151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 380, y: 169, z: 0}
 --- !u!114 &11400354
@@ -22196,6 +22205,7 @@ MonoBehaviour:
   - {fileID: 6500222}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400360
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22381,14 +22391,6 @@ MonoBehaviour:
   - {fileID: 11400784}
   - {fileID: 11400070}
   - {fileID: 11401364}
-  rightanswrindex: 2
-  howmany: 0
-  ans1: {fileID: 11400782}
-  ans2: {fileID: 11400068}
-  rightans: {fileID: 11400592}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11400380
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22616,6 +22618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: 230, y: 150, z: 0}
 --- !u!114 &11400406
@@ -22693,6 +22696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 275, y: 420.5, z: 0}
 --- !u!114 &11400416
@@ -22748,6 +22752,7 @@ MonoBehaviour:
   - {fileID: 6500118}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400422
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22853,6 +22858,7 @@ MonoBehaviour:
   - {fileID: 6500118}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23012,6 +23018,7 @@ MonoBehaviour:
   - {fileID: 6500222}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23163,6 +23170,7 @@ MonoBehaviour:
   - {fileID: 6500222}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400470
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23270,6 +23278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 373, y: 176, z: 0}
 --- !u!114 &11400482
@@ -23308,6 +23317,7 @@ MonoBehaviour:
   - {fileID: 6500252}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23409,6 +23419,7 @@ MonoBehaviour:
   - {fileID: 6500222}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23611,6 +23622,7 @@ MonoBehaviour:
   - {fileID: 6500272}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400522
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23683,6 +23695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: 210, y: 150, z: 0}
 --- !u!114 &11400530
@@ -23792,6 +23805,7 @@ MonoBehaviour:
   - {fileID: 6500222}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23862,6 +23876,7 @@ MonoBehaviour:
   - {fileID: 6500322}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23983,6 +23998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 300, y: 220, z: 0}
 --- !u!114 &11400566
@@ -24091,10 +24107,6 @@ MonoBehaviour:
   - {fileID: 11400476}
   - {fileID: 11401560}
   dragsLenght: 3
-  txt: 
-  box: []
-  item: []
-  gray: {fileID: 0}
 --- !u!114 &11400578
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -24254,6 +24266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: 210, y: 150, z: 0}
 --- !u!114 &11400596
@@ -24399,6 +24412,7 @@ MonoBehaviour:
   - {fileID: 6500328}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -24471,6 +24485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 380, y: 240.5, z: 0}
 --- !u!114 &11400622
@@ -24856,6 +24871,7 @@ MonoBehaviour:
   - {fileID: 6500322}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400666
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -24942,6 +24958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 276, y: 300, z: 0}
 --- !u!114 &11400676
@@ -24978,6 +24995,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 255, y: 410.5, z: 0}
 --- !u!114 &11400680
@@ -25035,6 +25053,7 @@ MonoBehaviour:
   - {fileID: 6500220}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25226,6 +25245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: 350, y: 150, z: 0}
 --- !u!114 &11400706
@@ -25287,6 +25307,7 @@ MonoBehaviour:
   - {fileID: 6500118}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25403,6 +25424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 410, y: 379, z: 0}
 --- !u!114 &11400728
@@ -25469,6 +25491,7 @@ MonoBehaviour:
   - {fileID: 6500220}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25541,6 +25564,7 @@ MonoBehaviour:
   - {fileID: 6500220}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25636,14 +25660,6 @@ MonoBehaviour:
   - {fileID: 11401930}
   - {fileID: 11401036}
   - {fileID: 11400584}
-  rightanswrindex: 3
-  howmany: 0
-  ans1: {fileID: 11401928}
-  ans2: {fileID: 11401034}
-  rightans: {fileID: 11401146}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11400754
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25676,6 +25692,7 @@ MonoBehaviour:
   - {fileID: 6500322}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400758
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25842,6 +25859,7 @@ MonoBehaviour:
   - {fileID: 6500272}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26020,6 +26038,7 @@ MonoBehaviour:
   - {fileID: 6500220}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400798
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26114,6 +26133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: -210, y: 23, z: 0}
 --- !u!114 &11400808
@@ -26242,10 +26262,6 @@ MonoBehaviour:
   - {fileID: 11400850}
   - {fileID: 11402044}
   dragsLenght: 6
-  txt: 
-  box: []
-  item: []
-  gray: {fileID: 0}
 --- !u!114 &11400822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26299,6 +26315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: -210, y: 23, z: 0}
 --- !u!114 &11400828
@@ -26385,6 +26402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: -210, y: 23, z: 0}
 --- !u!114 &11400838
@@ -26455,6 +26473,7 @@ MonoBehaviour:
   - {fileID: 6500322}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400846
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26520,6 +26539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: -210, y: 23, z: 0}
 --- !u!114 &11400854
@@ -26581,14 +26601,6 @@ MonoBehaviour:
   - {fileID: 11401530}
   - {fileID: 11401346}
   - {fileID: 11401458}
-  rightanswrindex: 2
-  howmany: 0
-  ans1: {fileID: 11400890}
-  ans2: {fileID: 11401528}
-  rightans: {fileID: 11400044}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11400860
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26602,6 +26614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: -210, y: 23, z: 0}
 --- !u!114 &11400862
@@ -26695,6 +26708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: -210, y: 23, z: 0}
 --- !u!114 &11400872
@@ -26781,6 +26795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: -210, y: 23, z: 0}
 --- !u!114 &11400882
@@ -26938,14 +26953,6 @@ MonoBehaviour:
   - {fileID: 11400636}
   - {fileID: 11401886}
   - {fileID: 11400386}
-  rightanswrindex: 0
-  howmany: 0
-  ans1: {fileID: 0}
-  ans2: {fileID: 0}
-  rightans: {fileID: 0}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11400900
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27041,6 +27048,7 @@ MonoBehaviour:
   - {fileID: 6500328}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27113,6 +27121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: 230, y: 150, z: 0}
 --- !u!114 &11400920
@@ -27327,6 +27336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: -210, y: 23, z: 0}
 --- !u!114 &11400946
@@ -27383,6 +27393,7 @@ MonoBehaviour:
   - {fileID: 6500328}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11400952
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27540,14 +27551,6 @@ MonoBehaviour:
   - {fileID: 11400654}
   - {fileID: 11401862}
   - {fileID: 11400176}
-  rightanswrindex: 2
-  howmany: 0
-  ans1: {fileID: 11400660}
-  ans2: {fileID: 11401860}
-  rightans: {fileID: 11401182}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11400970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27582,6 +27585,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: 210, y: 160, z: 0}
 --- !u!114 &11400974
@@ -27752,6 +27756,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 410, y: 379, z: 0}
 --- !u!114 &11400996
@@ -27837,6 +27842,7 @@ MonoBehaviour:
   - {fileID: 6500118}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27907,6 +27913,7 @@ MonoBehaviour:
   - {fileID: 6500322}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28282,6 +28289,7 @@ MonoBehaviour:
   - {fileID: 6500328}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28490,14 +28498,6 @@ MonoBehaviour:
   - {fileID: 11401124}
   - {fileID: 11400334}
   - {fileID: 11400806}
-  rightanswrindex: 3
-  howmany: 0
-  ans1: {fileID: 11401122}
-  ans2: {fileID: 11400340}
-  rightans: {fileID: 11400402}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28511,6 +28511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 150, y: 330, z: 0}
 --- !u!114 &11401082
@@ -28725,6 +28726,7 @@ MonoBehaviour:
   - {fileID: 6500328}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28953,6 +28955,7 @@ MonoBehaviour:
   - {fileID: 6500272}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29125,6 +29128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 410, y: 379, z: 0}
 --- !u!114 &11401154
@@ -29214,6 +29218,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 410, y: 379, z: 0}
 --- !u!114 &11401166
@@ -29377,6 +29382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: 270, y: 180, z: 0}
 --- !u!114 &11401186
@@ -29664,6 +29670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 410, y: 379, z: 0}
 --- !u!114 &11401222
@@ -29975,6 +29982,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 410, y: 379, z: 0}
 --- !u!114 &11401260
@@ -30064,14 +30072,6 @@ MonoBehaviour:
   - {fileID: 11400936}
   - {fileID: 11400902}
   - {fileID: 11400836}
-  rightanswrindex: 3
-  howmany: 0
-  ans1: {fileID: 11400942}
-  ans2: {fileID: 11400900}
-  rightans: {fileID: 11401590}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30094,14 +30094,6 @@ MonoBehaviour:
   - {fileID: 11402022}
   - {fileID: 11401752}
   - {fileID: 11401062}
-  rightanswrindex: 1
-  howmany: 0
-  ans1: {fileID: 11402020}
-  ans2: {fileID: 11401750}
-  rightans: {fileID: 11400720}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401272
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30115,6 +30107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 245, y: 215, z: 0}
 --- !u!114 &11401274
@@ -30234,6 +30227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: 210, y: 150, z: 0}
 --- !u!114 &11401288
@@ -30353,6 +30347,7 @@ MonoBehaviour:
   - {fileID: 6500220}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30408,6 +30403,7 @@ MonoBehaviour:
   - {fileID: 6500252}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30532,6 +30528,7 @@ MonoBehaviour:
   - {fileID: 6500118}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30615,6 +30612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 268, y: 68, z: 0}
 --- !u!114 &11401332
@@ -30883,14 +30881,6 @@ MonoBehaviour:
   - {fileID: 11400458}
   - {fileID: 11400944}
   - {fileID: 11401390}
-  rightanswrindex: 1
-  howmany: 0
-  ans1: {fileID: 11400370}
-  ans2: {fileID: 11400464}
-  rightans: {fileID: 11400970}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401364
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30904,6 +30894,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: -210, y: 23, z: 0}
 --- !u!114 &11401366
@@ -30964,14 +30955,6 @@ MonoBehaviour:
   - {fileID: 11400308}
   - {fileID: 11401828}
   - {fileID: 11402028}
-  rightanswrindex: 2
-  howmany: 0
-  ans1: {fileID: 11400306}
-  ans2: {fileID: 11401826}
-  rightans: {fileID: 11401214}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401372
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31085,14 +31068,6 @@ MonoBehaviour:
   - {fileID: 11401046}
   - {fileID: 11401176}
   - {fileID: 11401384}
-  rightanswrindex: 2
-  howmany: 0
-  ans1: {fileID: 11401044}
-  ans2: {fileID: 11401174}
-  rightans: {fileID: 11401158}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401384
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31265,6 +31240,7 @@ MonoBehaviour:
   - {fileID: 6500328}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31334,6 +31310,7 @@ MonoBehaviour:
   - {fileID: 6500272}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401412
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31488,6 +31465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 268, y: 68, z: 0}
 --- !u!114 &11401430
@@ -31648,6 +31626,7 @@ MonoBehaviour:
   - {fileID: 6500328}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31729,14 +31708,6 @@ MonoBehaviour:
   - {fileID: 11400962}
   - {fileID: 11400570}
   - {fileID: 11402038}
-  rightanswrindex: 1
-  howmany: 0
-  ans1: {fileID: 11400960}
-  ans2: {fileID: 11400568}
-  rightans: {fileID: 11401940}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31803,6 +31774,7 @@ MonoBehaviour:
   - {fileID: 6500272}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31854,6 +31826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 144, y: 240.5, z: 0}
 --- !u!114 &11401472
@@ -31907,6 +31880,7 @@ MonoBehaviour:
   - {fileID: 6500222}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -32178,6 +32152,7 @@ MonoBehaviour:
   - {fileID: 6500252}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401508
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -32283,6 +32258,7 @@ MonoBehaviour:
   - {fileID: 6500220}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -32628,14 +32604,6 @@ MonoBehaviour:
   - {fileID: 11400220}
   - {fileID: 11400270}
   - {fileID: 11401562}
-  rightanswrindex: 0
-  howmany: 0
-  ans1: {fileID: 0}
-  ans2: {fileID: 0}
-  rightans: {fileID: 0}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -32732,14 +32700,6 @@ MonoBehaviour:
   - {fileID: 11401088}
   - {fileID: 11400604}
   - {fileID: 11401762}
-  rightanswrindex: 0
-  howmany: 0
-  ans1: {fileID: 0}
-  ans2: {fileID: 0}
-  rightans: {fileID: 0}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -32814,6 +32774,7 @@ MonoBehaviour:
   - {fileID: 6500322}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401578
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -32948,6 +32909,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: 230, y: 190, z: 0}
 --- !u!114 &11401594
@@ -33022,6 +32984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 268, y: 68, z: 0}
 --- !u!114 &11401604
@@ -33088,14 +33051,6 @@ MonoBehaviour:
   - {fileID: 11401228}
   - {fileID: 11401202}
   - {fileID: 11400482}
-  rightanswrindex: 0
-  howmany: 0
-  ans1: {fileID: 0}
-  ans2: {fileID: 0}
-  rightans: {fileID: 0}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401612
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -33306,6 +33261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 268, y: 68, z: 0}
 --- !u!114 &11401632
@@ -33454,6 +33410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 128, y: 400, z: 0}
 --- !u!114 &11401650
@@ -33499,14 +33456,6 @@ MonoBehaviour:
   - {fileID: 11401776}
   - {fileID: 11401742}
   - {fileID: 11400792}
-  rightanswrindex: 0
-  howmany: 0
-  ans1: {fileID: 0}
-  ans2: {fileID: 0}
-  rightans: {fileID: 0}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401654
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -33520,6 +33469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 360, y: 380.5, z: 0}
 --- !u!114 &11401656
@@ -33577,6 +33527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 150, y: 169, z: 0}
 --- !u!114 &11401662
@@ -33622,14 +33573,6 @@ MonoBehaviour:
   - {fileID: 11401340}
   - {fileID: 11401276}
   - {fileID: 11401418}
-  rightanswrindex: 1
-  howmany: 0
-  ans1: {fileID: 11401338}
-  ans2: {fileID: 11401282}
-  rightans: {fileID: 11400988}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401666
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -33760,6 +33703,7 @@ MonoBehaviour:
   - {fileID: 6500322}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401680
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -33811,6 +33755,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 350, y: 400, z: 0}
 --- !u!114 &11401686
@@ -33847,6 +33792,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 455, y: 215, z: 0}
 --- !u!114 &11401690
@@ -33925,6 +33871,7 @@ MonoBehaviour:
   - {fileID: 6500220}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -34038,6 +33985,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 268, y: 68, z: 0}
 --- !u!114 &11401712
@@ -34242,14 +34190,6 @@ MonoBehaviour:
   - {fileID: 11401954}
   - {fileID: 11402002}
   - {fileID: 11400510}
-  rightanswrindex: 2
-  howmany: 0
-  ans1: {fileID: 11401952}
-  ans2: {fileID: 11402000}
-  rightans: {fileID: 11400276}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -34263,6 +34203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 266, y: 220, z: 0}
 --- !u!114 &11401736
@@ -34582,14 +34523,6 @@ MonoBehaviour:
   - {fileID: 11402048}
   - {fileID: 11400158}
   - {fileID: 11400300}
-  rightanswrindex: 0
-  howmany: 0
-  ans1: {fileID: 0}
-  ans2: {fileID: 0}
-  rightans: {fileID: 0}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -34695,14 +34628,6 @@ MonoBehaviour:
   - {fileID: 11401196}
   - {fileID: 11401438}
   - {fileID: 11400870}
-  rightanswrindex: 2
-  howmany: 0
-  ans1: {fileID: 11401194}
-  ans2: {fileID: 11401436}
-  rightans: {fileID: 11400702}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401784
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -34758,6 +34683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 268, y: 68, z: 0}
 --- !u!114 &11401790
@@ -34856,14 +34782,6 @@ MonoBehaviour:
   - {fileID: 11401354}
   - {fileID: 11401112}
   - {fileID: 11400852}
-  rightanswrindex: 1
-  howmany: 0
-  ans1: {fileID: 11401352}
-  ans2: {fileID: 11401110}
-  rightans: {fileID: 11401284}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401802
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35007,6 +34925,7 @@ MonoBehaviour:
   - {fileID: 6500272}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401818
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35079,6 +34998,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 263, y: 325, z: 0}
 --- !u!114 &11401826
@@ -35358,6 +35278,7 @@ MonoBehaviour:
   - {fileID: 6500220}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401856
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35475,6 +35396,7 @@ MonoBehaviour:
   - {fileID: 6500252}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401870
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35549,10 +35471,6 @@ MonoBehaviour:
   - {fileID: 11401246}
   - {fileID: 11400590}
   dragsLenght: 4
-  txt: 
-  box: []
-  item: []
-  gray: {fileID: 0}
 --- !u!114 &11401878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35770,6 +35688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 0
+  resetBefore: 1
   defaultUp: 0
   to: {x: 320, y: 175, z: 0}
 --- !u!114 &11401900
@@ -36162,6 +36081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 410, y: 379, z: 0}
 --- !u!114 &11401948
@@ -36289,6 +36209,7 @@ MonoBehaviour:
   - {fileID: 6500328}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11401964
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -36461,14 +36382,6 @@ MonoBehaviour:
   - {fileID: 11400018}
   - {fileID: 11401918}
   - {fileID: 11400880}
-  rightanswrindex: 3
-  howmany: 0
-  ans1: {fileID: 11400024}
-  ans2: {fileID: 11401916}
-  rightans: {fileID: 11400526}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401982
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -36532,14 +36445,6 @@ MonoBehaviour:
   - {fileID: 11401500}
   - {fileID: 11401240}
   - {fileID: 11400534}
-  rightanswrindex: 1
-  howmany: 0
-  ans1: {fileID: 11401498}
-  ans2: {fileID: 11401238}
-  rightans: {fileID: 11401252}
-  hms: []
-  shapes: {fileID: 0}
-  shapeX: {fileID: 0}
 --- !u!114 &11401988
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -36609,6 +36514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 258, y: 195, z: 0}
 --- !u!114 &11401996
@@ -36728,6 +36634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 380, y: 330, z: 0}
 --- !u!114 &11402010
@@ -37187,6 +37094,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 2
   delay: 1.5
+  resetBefore: 1
   defaultUp: 0
   to: {x: 372, y: 184, z: 0}
 --- !u!114 &11402062
@@ -37242,6 +37150,7 @@ MonoBehaviour:
   - {fileID: 6500118}
   convertTargetToBox: 1
   distanceMode: 0
+  fixCollider: 1
 --- !u!114 &11402068
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37308,10 +37217,6 @@ MonoBehaviour:
   - {fileID: 11400982}
   - {fileID: 11401624}
   dragsLenght: 7
-  txt: 
-  box: []
-  item: []
-  gray: {fileID: 0}
 --- !u!114 &11402074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37357,6 +37262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 1.5
   delay: .75
+  resetBefore: 1
   defaultUp: 0
   to: {x: 268, y: 68, z: 0}
 --- !u!114 &11402080
@@ -37401,6 +37307,482 @@ MonoBehaviour:
   hover: {x: 1, y: 1, z: 1}
   pressed: {x: 1.04999995, y: 1.04999995, z: 1.04999995}
   duration: .200000003
+--- !u!114 &11402086
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402092
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402094
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402096
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402100
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 34121da3ba25a0a469abd3337ede8bac, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 67c0f478ae4d3a545b78eb91dd4fbf61, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: a4d0b81068b30e94a91f7d7a41dd3c66, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 8f0c8864e45250043a39e2bd6bbf760e, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 53e07524b3a637e488020781e618448a, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402112
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 69e33b4c7961e544da6c9d631bfc5bef, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: eb15edf58d6e39c4aab29fffe662a8dd, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 6959ed8250146444c82b32e1004d147f, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 4383fa33212797b4080a67ecae6f4a04, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402120
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 1b34b1813f14c9b4aa574be88c2e106b, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402122
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 0a692aba89d53cd4caf5f6c38404b16e, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: cc10e64d72ff6c64f8f1053000f0150a, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 8172a86fc568fd84f8cca9356832a471, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 5df8a4b6222491b4e8cdb83d8ea4a740, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 1f4bc44e00aea9b4eb9b6db4a98fdee0, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 45ed917dd2d0b2e40950208eb10345ad, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: ed209980d74f73941939029b86d933dc, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 34e92c1d28befb646bbb39c58abe650e, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 82b93340baaf265499a4f3b3efe0655c, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 9d2759175c7b4ed4abb2c651fbc3cf34, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 665ae5b1d2537ea42b2b241945af6b48, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402144
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 9921d81d4ff46ad4b8b2959d03d61fdb, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 9ac0138bbd8502748b35035135e25a05, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402148
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 864ecb74b6dd7d445b0b4524a43464c2, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402150
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 60449746d109c004f9b4ddcbcbc03a29, type: 3}
+  clipCorrect: []
+  clipWrong: []
+--- !u!114 &11402152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: be29178d39027df4db0b50784ca9561b, type: 3}
+  clipCorrect: []
+  clipWrong: []
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

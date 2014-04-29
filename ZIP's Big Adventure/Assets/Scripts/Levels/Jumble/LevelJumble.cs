@@ -16,6 +16,7 @@ public class LevelJumble : ZIPLevel {
 		done = 0;
 
 		gameObject.SetActive (true);
+		SendMessage ("PlayStart",SendMessageOptions.DontRequireReceiver);
 	}
 
 	public void Answered(JumbleDrag drag)
@@ -244,7 +245,7 @@ public class LevelJumble : ZIPLevel {
 	/*public string[] names;
 	public int correct;
 	public UISprite cor, wr1, wr2;
-	public UISprite box;*/
+	public UISprite box;
 
 	public void Initialize()
 	{		
@@ -252,7 +253,7 @@ public class LevelJumble : ZIPLevel {
 		transform.localScale = new Vector3 (1f, 1f, 1f);
 		gameBlock.level [0] = this;
 
-		/*Vector3[] tt = new Vector3[] { new Vector3(-500f,-310f,0f),new Vector3(0,-310f,0f),new Vector3(500f,-310f,0f)};
+		Vector3[] tt = new Vector3[] { new Vector3(-500f,-310f,0f),new Vector3(0,-310f,0f),new Vector3(500f,-310f,0f)};
 
 		if(correct==1)
 		{
@@ -281,8 +282,8 @@ public class LevelJumble : ZIPLevel {
 
 		box.spriteName = names [correct - 1];
 		box.MakePixelPerfect ();
-		box.enabled = !box.enabled;*/
+		box.enabled = !box.enabled;
 	}
-	
+	*/
 	#endregion
 }

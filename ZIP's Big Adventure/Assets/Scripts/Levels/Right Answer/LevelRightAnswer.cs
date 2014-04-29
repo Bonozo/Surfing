@@ -12,6 +12,7 @@ public class LevelRightAnswer : ZIPLevel {
 		foreach(var btr in buttons) btr.Reset();
 		foreach(var et in endItems) et.Reset();
 		gameObject.SetActive (true);
+		SendMessage ("PlayStart",SendMessageOptions.DontRequireReceiver);
 	}
 	
 	public void Answered(LevelRightAnswerButton point)
@@ -161,7 +162,7 @@ public class LevelRightAnswer : ZIPLevel {
 	#region Editor Point
 	
 	//public string answer1, answer2, answer3;
-	public int rightanswrindex;
+	/*public int rightanswrindex;
 	public int howmany;
 	public UISprite ans1, ans2, rightans;
 	public UISprite[] hms;
@@ -268,7 +269,7 @@ public class LevelRightAnswer : ZIPLevel {
 		sprite.type = UISprite.Type.Simple;
 		sprite.MakePixelPerfect ();
 		sprite.type = UISprite.Type.Sliced;
-	}
+	}*/
 	
 	#endregion
 }
