@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\MobisAdventure\Assets\Scripts\Game\PlayerController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Audio\VoiceTaskLevel.cs">
     <Files>
-      <File FileName="..\MobisAdventure\Assets\Scripts\Game\PlayerController.cs" Line="76" Column="1" />
-      <File FileName="..\MobisAdventure\Assets\Scripts\Scripts2\CameraFollowPoint.cs" Line="24" Column="1" />
-      <File FileName="..\MobisAdventure\Assets\_Upgrade\Scripts\Death,Game\DeathScreen.cs" Line="38" Column="36" />
+      <File FileName="Assets\Scripts\Editor\EndItemListEditor.cs" Line="16" Column="2" />
+      <File FileName="Assets\Scripts\Levels\GameBlock.cs" Line="174" Column="5" />
+      <File FileName="Assets\Scripts\Levels\Level Correct Drag\LevelCorrectDrag.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Audio\VoiceTaskLevel.cs" Line="4" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

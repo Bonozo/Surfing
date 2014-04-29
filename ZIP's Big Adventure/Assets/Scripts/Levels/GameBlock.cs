@@ -159,4 +159,21 @@ public class GameBlock : MonoBehaviour {
 		}
 	}
 
+	#region Editor
+
+	public Transform editorLevelsRoot;
+	public int editorStartIndex;
+
+	public void InitLevels()
+	{
+		for(int i=0;i<7;i++)
+		{
+			if(editorStartIndex+i < editorLevelsRoot.childCount)
+			{
+				level[i] = editorLevelsRoot.GetChild(editorStartIndex+i).GetComponent<ZIPLevel>();
+			}
+		}
+	}
+
+	#endregion
 }

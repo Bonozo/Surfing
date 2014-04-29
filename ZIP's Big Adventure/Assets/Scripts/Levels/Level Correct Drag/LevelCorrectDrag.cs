@@ -5,7 +5,6 @@ public class LevelCorrectDrag : ZIPLevel {
 	
 	public DragZIP dragZIP;
 	public GameObject rightAnswer;
-	//public float happyEndScale = 2f;
 
 	public GameObject guiAction;
 	public GameObject guiEnd;
@@ -20,7 +19,6 @@ public class LevelCorrectDrag : ZIPLevel {
 
 	void Awake()
 	{
-		//guiEnd.transform.localScale = new Vector3(happyEndScale,happyEndScale,happyEndScale);
 		zipPos = goodEndZip.transform.position;
 		zipSprite = goodEndSprite.transform.position;
 
@@ -31,16 +29,13 @@ public class LevelCorrectDrag : ZIPLevel {
 		float currentRation = clipRange.z / clipRange.w;
 		clipRange.z *= aspectRation / currentRation;
 
-		// adding margins to the borders
-		/*clipRange.z *= 0.95f;
-		clipRange.w *= 0.95f;*/
-
 		panel.clipRange = clipRange;
 	}
 
 	void OnEnable()
 	{
 		Reset();
+		SendMessage ("StartLevel");
 	}
 
 	public void Answered (GameObject other)
@@ -75,9 +70,7 @@ public class LevelCorrectDrag : ZIPLevel {
 		iTween.MoveTo(goodEndSprite,iTween.Hash("position",zipSprite,"time",happyEndTime,"easetype",easyType,"islocal",false));
 
 		guiEnd.transform.localScale = new Vector3(1f,1f,1f);
-		//iTween.ScaleTo(guiEnd,new Vector3(happyEndScale,happyEndScale,happyEndScale),1f);
 
-		
 		yield return new WaitForSeconds(0.5f);
 		gameBlock.path.OneStepGo();
 

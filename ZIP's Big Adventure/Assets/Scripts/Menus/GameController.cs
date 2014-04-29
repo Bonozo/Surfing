@@ -105,11 +105,13 @@ public class GameController : MonoBehaviour {
 	public void PlayCorrectAnswer()
 	{
 		AudioSource.PlayClipAtPoint(clipCorrectAnswer,transform.position);
+		AudioManager.Instance.PlayCorrectAnswer ();
 	}
 
 	public void PlayWrongAnswer()
 	{
 		AudioSource.PlayClipAtPoint(clipWrongAnswer,transform.position);
+		AudioManager.Instance.PlayWrongAnswer ();
 	}
 
 	#endregion
