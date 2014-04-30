@@ -25,6 +25,7 @@ public class LevelRightAnswer : ZIPLevel {
 		{
 			GameController.Instance.PlayWrongAnswer();
 		}
+		SendMessage ("PlayEnd",point == correctAnswer,SendMessageOptions.DontRequireReceiver);
 	}
 	
 	private IEnumerator HappyEndThread()

@@ -11,12 +11,12 @@ public class LevelTrace : ZIPTrace {
 		trace.Reset();
 		foreach(var et in endItems) et.Reset();
 		gameObject.SetActive(true);
-		SendMessage ("StartLevel");
+		SendMessage ("PlayStart", SendMessageOptions.DontRequireReceiver);
 	}
 
 	public override void Complete()
 	{
-		SendMessage ("EndLevel");
+		SendMessage ("PlayEnd", true, SendMessageOptions.DontRequireReceiver);
 		StartCoroutine(HappyEndThread());
 	}
 

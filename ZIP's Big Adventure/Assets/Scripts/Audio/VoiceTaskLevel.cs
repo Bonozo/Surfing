@@ -12,15 +12,16 @@ public class VoiceTaskLevel : MonoBehaviour {
 			gameObject.AddComponent<AudioSource>();
 	}
 
-	void StartLevel()
+	void PlayStart()
 	{
 		audio.Stop ();
 		if(clipStart != null)
 			StartCoroutine (PlayClipDelayed (clipStart, delayStart));
 	}
 
-	void EndLevel()
+	void PlayEnd(bool correct)
 	{
+		if(!correct) return;
 		audio.Stop ();
 		if(clipFinish != null)
 			StartCoroutine (PlayClipDelayed (clipFinish, delayFinish));

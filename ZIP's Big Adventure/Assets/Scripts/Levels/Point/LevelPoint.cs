@@ -15,6 +15,7 @@ public class LevelPoint : ZIPLevel {
 
 		basicEndItem.GetComponent<UISprite> ().color = new Color (1f, 1f, 1f, 0f);
 		gameObject.SetActive (true);
+		SendMessage ("PlayStart", SendMessageOptions.DontRequireReceiver);
 	}
 	
 	public void Answered(PointButton point)
