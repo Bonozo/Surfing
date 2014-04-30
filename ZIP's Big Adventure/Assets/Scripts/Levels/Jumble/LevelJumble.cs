@@ -30,6 +30,8 @@ public class LevelJumble : ZIPLevel {
 
 	private IEnumerator HappyEndThread()
 	{
+		SendMessage ("PlayEnd", true, SendMessageOptions.DontRequireReceiver);
+
 		foreach(var et in endItems) et.Work();
 		foreach(var dr in drags) dr.DisableCollider();
 

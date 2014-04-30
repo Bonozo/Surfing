@@ -12,6 +12,7 @@ public class LevelPictureWithWords : ZIPLevel {
 		foreach(var btr in buttons) btr.Reset();
 		foreach(var et in endItems) et.Reset();
 		gameObject.SetActive (true);
+		SendMessage ("PlayStart",SendMessageOptions.DontRequireReceiver);
 	}
 	
 	public void Answered(PictureWithWordButton point)
@@ -24,6 +25,7 @@ public class LevelPictureWithWords : ZIPLevel {
 		{
 			GameController.Instance.PlayWrongAnswer();
 		}
+		SendMessage ("PlayEnd", point == correctAnswer, SendMessageOptions.DontRequireReceiver);
 	}
 	
 	private IEnumerator HappyEndThread()
