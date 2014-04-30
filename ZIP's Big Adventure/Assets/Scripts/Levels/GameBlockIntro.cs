@@ -10,12 +10,6 @@ public class GameBlockIntro : MonoBehaviour {
 	private Vector3 to = new Vector3(2500f,0f,0f);
 	public float dur = 2f;
 
-	void Awake()
-	{
-		gameObject.AddComponent<AudioSource> ();
-		audio.clip = clipSpeech;
-	}
-
 	public void Reset()
 	{
 		transform.localPosition = from;
@@ -27,7 +21,7 @@ public class GameBlockIntro : MonoBehaviour {
 		transform.localPosition = from;
 		iTween.MoveTo(gameObject,iTween.Hash("position",Vector3.zero,"easetype",easyType1,"time",dur,"islocal",true));
 		yield return new WaitForSeconds (dur + 0.1f);
-		audio.Play ();
+		AudioManager.Instance.PlayClip (clipSpeech);
 	}
 
 	public IEnumerator GoAway()

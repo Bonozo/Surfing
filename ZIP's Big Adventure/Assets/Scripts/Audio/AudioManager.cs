@@ -26,6 +26,11 @@ public class AudioManager : MonoBehaviour {
 		audio.Play ();
 	}
 
+	public void Stop()
+	{
+		audio.Stop ();
+	}
+
 	#endregion
 	
 	#region Static Instace

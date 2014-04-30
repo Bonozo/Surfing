@@ -2601,7 +2601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   easyType1: 13
   easyType2: 12
-  clipSpeech: {fileID: 8300000, guid: 8cba0fc95a66ac5449a1332ed51c4f43, type: 3}
+  clipSpeech: {fileID: 8300000, guid: 0d8c39db90053584395fd103560acb6b, type: 3}
   dur: 1.5
 --- !u!1 &1966882393
 GameObject:
@@ -2765,7 +2765,7 @@ Prefab:
     - target: {fileID: 11400002, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
       propertyPath: clipSpeech
       value: 
-      objectReference: {fileID: 8300000, guid: 8cba0fc95a66ac5449a1332ed51c4f43, type: 3}
+      objectReference: {fileID: 8300000, guid: 0d8c39db90053584395fd103560acb6b, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
   m_RootGameObject: {fileID: 1880594702}
