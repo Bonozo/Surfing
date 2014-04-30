@@ -15,7 +15,7 @@ public class VoiceTaskLevel : MonoBehaviour {
 	void PlayStart()
 	{
 		AudioManager.Instance.Stop ();
-		audio.Stop ();
+		//audio.Stop ();
 		if(clipStart != null)
 			StartCoroutine (PlayClipDelayed (clipStart, delayStart));
 	}
@@ -23,7 +23,7 @@ public class VoiceTaskLevel : MonoBehaviour {
 	void PlayEnd(bool correct)
 	{
 		if(!correct) return;
-		audio.Stop ();
+		//audio.Stop ();
 		if(clipFinish != null)
 			StartCoroutine (PlayClipDelayed (clipFinish, delayFinish));
 	}
