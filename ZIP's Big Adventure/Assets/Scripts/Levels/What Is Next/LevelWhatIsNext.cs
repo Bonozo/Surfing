@@ -19,6 +19,7 @@ public class LevelWhatIsNext : ZIPLevel {
 		basicEndSprite.gameObject.SetActive (true);
 
 		gameObject.SetActive (true);
+		SendMessage ("PlayStart",SendMessageOptions.DontRequireReceiver);
 	}
 
 	public void Answered(WhatIsNextDrag item)
@@ -34,6 +35,7 @@ public class LevelWhatIsNext : ZIPLevel {
 
 	private IEnumerator HappyEndThread()
 	{
+		SendMessage ("PlayEnd", true, SendMessageOptions.DontRequireReceiver);
 		GameController.Instance.PlayCorrectAnswer ();
 		foreach(var it in items) it.DisableCollider();
 		yield return new WaitForEndOfFrame ();
