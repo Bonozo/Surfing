@@ -24,6 +24,7 @@ public class LevelRightSequence : ZIPLevel {
 				child.Reset();
 			}
 		}
+		SendMessage ("PlayStart",SendMessageOptions.DontRequireReceiver);
 	}
 	
 	public void Answer(LevelRightSequenceButton answer)
