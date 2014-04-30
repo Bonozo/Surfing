@@ -7994,8 +7994,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 210.5, y: 115.5, z: -1}
-  m_LocalScale: {x: 265, y: 281, z: 1}
+  m_LocalPosition: {x: 200, y: 101, z: -1}
+  m_LocalScale: {x: 265, y: 367, z: 1}
   m_Children: []
   m_Father: {fileID: 400450}
 --- !u!4 &400128
@@ -8394,8 +8394,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100192}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -139.5, y: 94.5, z: -1}
-  m_LocalScale: {x: 280, y: 265, z: 1}
+  m_LocalPosition: {x: -163, y: 84, z: -1}
+  m_LocalScale: {x: 298, y: 339, z: 1}
   m_Children: []
   m_Father: {fileID: 400450}
 --- !u!4 &400194
@@ -11019,8 +11019,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -490.5, y: 180, z: -1}
-  m_LocalScale: {x: 269, y: 421, z: 1}
+  m_LocalPosition: {x: -490, y: 180, z: -1}
+  m_LocalScale: {x: 269, y: 518, z: 1}
   m_Children: []
   m_Father: {fileID: 400450}
 --- !u!4 &400636
@@ -11773,8 +11773,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100760}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 524, y: 68, z: -1}
-  m_LocalScale: {x: 284, y: 183, z: 1}
+  m_LocalPosition: {x: 525.5, y: 54.5, z: -1}
+  m_LocalScale: {x: 284, y: 268, z: 1}
   m_Children: []
   m_Father: {fileID: 400450}
 --- !u!4 &400762
@@ -18384,7 +18384,7 @@ MonoBehaviour:
   delay: 0
   resetBefore: 0
   defaultUp: 0
-  to: {x: 210.5, y: 115.5, z: -1}
+  to: {x: 200, y: 101, z: -1}
 --- !u!114 &11400248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -18432,7 +18432,7 @@ MonoBehaviour:
   mAtlas: {fileID: 11400000, guid: 5bdec8b04d7bd2a47b42d63698338536, type: 2}
   mSpriteName: Moose
   mFillCenter: 1
-  mType: 1
+  mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -19530,7 +19530,7 @@ MonoBehaviour:
   mAtlas: {fileID: 11400000, guid: 5bdec8b04d7bd2a47b42d63698338536, type: 2}
   mSpriteName: Sun
   mFillCenter: 1
-  mType: 1
+  mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -27561,7 +27561,7 @@ MonoBehaviour:
   mAtlas: {fileID: 11400000, guid: 5bdec8b04d7bd2a47b42d63698338536, type: 2}
   mSpriteName: Mop
   mFillCenter: 1
-  mType: 1
+  mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -27601,7 +27601,7 @@ MonoBehaviour:
     e10: 0
     e11: 384
     e12: 0
-    e13: -2.00522184
+    e13: -1.8595643
     e20: 0
     e21: 0
     e22: 384
@@ -29891,7 +29891,7 @@ MonoBehaviour:
   delay: 0
   resetBefore: 0
   defaultUp: 0
-  to: {x: 524, y: 68, z: -1}
+  to: {x: 525.5, y: 54.5, z: -1}
 --- !u!114 &11401516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29939,7 +29939,7 @@ MonoBehaviour:
   mAtlas: {fileID: 11400000, guid: 5bdec8b04d7bd2a47b42d63698338536, type: 2}
   mSpriteName: Mouse
   mFillCenter: 1
-  mType: 1
+  mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0

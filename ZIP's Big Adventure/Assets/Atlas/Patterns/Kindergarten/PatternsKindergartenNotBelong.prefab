@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: Magazine
     outer:
       serializedVersion: 2
-      x: 1165
-      y: 865
+      x: 211
+      y: 471
       width: 306
       height: 148
     inner:
       serializedVersion: 2
-      x: 1165
-      y: 865
+      x: 211
+      y: 471
       width: 306
       height: 148
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: Newspaper
     outer:
       serializedVersion: 2
-      x: 1121
-      y: 1103
+      x: 247
+      y: 620
       width: 337
       height: 184
     inner:
       serializedVersion: 2
-      x: 1121
-      y: 1103
+      x: 247
+      y: 620
       width: 337
       height: 184
     rotated: 0
@@ -79,14 +79,14 @@ MonoBehaviour:
   - name: Book
     outer:
       serializedVersion: 2
-      x: 1472
-      y: 882
+      x: 247
+      y: 817
       width: 291
       height: 131
     inner:
       serializedVersion: 2
-      x: 1472
-      y: 882
+      x: 247
+      y: 817
       width: 291
       height: 131
     rotated: 0
@@ -97,14 +97,14 @@ MonoBehaviour:
   - name: Ball
     outer:
       serializedVersion: 2
-      x: 1293
-      y: 289
+      x: 1206
+      y: 890
       width: 146
       height: 141
     inner:
       serializedVersion: 2
-      x: 1293
-      y: 289
+      x: 1206
+      y: 890
       width: 146
       height: 141
     rotated: 0
@@ -133,14 +133,14 @@ MonoBehaviour:
   - name: Garbage Can
     outer:
       serializedVersion: 2
-      x: 270
-      y: 1308
+      x: 463
+      y: 1559
       width: 373
       height: 284
     inner:
       serializedVersion: 2
-      x: 270
-      y: 1308
+      x: 463
+      y: 1559
       width: 373
       height: 284
     rotated: 0
@@ -151,14 +151,14 @@ MonoBehaviour:
   - name: Ice Cream
     outer:
       serializedVersion: 2
-      x: 1165
-      y: 511
+      x: 549
+      y: 1033
       width: 127
       height: 245
     inner:
       serializedVersion: 2
-      x: 1165
-      y: 511
+      x: 549
+      y: 1033
       width: 127
       height: 245
     rotated: 0
@@ -169,14 +169,14 @@ MonoBehaviour:
   - name: Pie
     outer:
       serializedVersion: 2
-      x: 1764
-      y: 885
+      x: 1654
+      y: 525
       width: 271
       height: 128
     inner:
       serializedVersion: 2
-      x: 1764
-      y: 885
+      x: 1654
+      y: 525
       width: 271
       height: 128
     rotated: 0
@@ -187,14 +187,14 @@ MonoBehaviour:
   - name: Cake
     outer:
       serializedVersion: 2
-      x: 1782
-      y: 1127
+      x: 1128
+      y: 521
       width: 264
       height: 160
     inner:
       serializedVersion: 2
-      x: 1782
-      y: 1127
+      x: 1128
+      y: 521
       width: 264
       height: 160
     rotated: 0
@@ -205,14 +205,14 @@ MonoBehaviour:
   - name: Banana
     outer:
       serializedVersion: 2
-      x: 880
-      y: 428
+      x: 0
+      y: 117
       width: 174
       height: 239
     inner:
       serializedVersion: 2
-      x: 880
-      y: 428
+      x: 0
+      y: 117
       width: 174
       height: 239
     rotated: 0
@@ -241,14 +241,14 @@ MonoBehaviour:
   - name: Mittens
     outer:
       serializedVersion: 2
-      x: 1459
-      y: 1109
+      x: 585
+      y: 626
       width: 322
       height: 178
     inner:
       serializedVersion: 2
-      x: 1459
-      y: 1109
+      x: 585
+      y: 626
       width: 322
       height: 178
     rotated: 0
@@ -259,14 +259,14 @@ MonoBehaviour:
   - name: Bathing Suit
     outer:
       serializedVersion: 2
-      x: 644
-      y: 646
+      x: 1009
+      y: 699
       width: 196
       height: 332
     inner:
       serializedVersion: 2
-      x: 644
-      y: 646
+      x: 1009
+      y: 699
       width: 196
       height: 332
     rotated: 0
@@ -277,14 +277,14 @@ MonoBehaviour:
   - name: Winter Hat
     outer:
       serializedVersion: 2
-      x: 880
-      y: 217
+      x: 807
+      y: 238
       width: 182
       height: 210
     inner:
       serializedVersion: 2
-      x: 880
-      y: 217
+      x: 807
+      y: 238
       width: 182
       height: 210
     rotated: 0
@@ -295,14 +295,14 @@ MonoBehaviour:
   - name: Bear
     outer:
       serializedVersion: 2
-      x: 0
-      y: 841
+      x: 292
+      y: 949
       width: 256
       height: 329
     inner:
       serializedVersion: 2
-      x: 0
-      y: 841
+      x: 292
+      y: 949
       width: 256
       height: 329
     rotated: 0
@@ -313,14 +313,14 @@ MonoBehaviour:
   - name: Boat
     outer:
       serializedVersion: 2
-      x: 270
-      y: 68
+      x: 0
+      y: 960
       width: 291
       height: 323
     inner:
       serializedVersion: 2
-      x: 270
-      y: 68
+      x: 0
+      y: 960
       width: 291
       height: 323
     rotated: 0
@@ -331,14 +331,14 @@ MonoBehaviour:
   - name: Fish
     outer:
       serializedVersion: 2
-      x: 1855
-      y: 1857
+      x: 838
+      y: 835
       width: 167
       height: 191
     inner:
       serializedVersion: 2
-      x: 1855
-      y: 1857
+      x: 838
+      y: 835
       width: 167
       height: 191
     rotated: 0
@@ -349,14 +349,14 @@ MonoBehaviour:
   - name: Bike
     outer:
       serializedVersion: 2
-      x: 644
-      y: 401
+      x: 585
+      y: 381
       width: 221
       height: 244
     inner:
       serializedVersion: 2
-      x: 644
-      y: 401
+      x: 585
+      y: 381
       width: 221
       height: 244
     rotated: 0
@@ -367,14 +367,14 @@ MonoBehaviour:
   - name: Elephant
     outer:
       serializedVersion: 2
-      x: 270
-      y: 392
+      x: 327
+      y: 1279
       width: 359
       height: 279
     inner:
       serializedVersion: 2
-      x: 270
-      y: 392
+      x: 327
+      y: 1279
       width: 359
       height: 279
     rotated: 0
@@ -385,14 +385,14 @@ MonoBehaviour:
   - name: Frog
     outer:
       serializedVersion: 2
-      x: 880
-      y: 24
+      x: 429
+      y: 188
       width: 197
       height: 192
     inner:
       serializedVersion: 2
-      x: 880
-      y: 24
+      x: 429
+      y: 188
       width: 197
       height: 192
     rotated: 0
@@ -403,14 +403,14 @@ MonoBehaviour:
   - name: Ear
     outer:
       serializedVersion: 2
-      x: 1293
-      y: 431
+      x: 1886
+      y: 702
       width: 152
       height: 192
     inner:
       serializedVersion: 2
-      x: 1293
-      y: 431
+      x: 1886
+      y: 702
       width: 152
       height: 192
     rotated: 0
@@ -421,14 +421,14 @@ MonoBehaviour:
   - name: Eggs
     outer:
       serializedVersion: 2
-      x: 0
-      y: 24
+      x: 1463
+      y: 1472
       width: 229
       height: 208
     inner:
       serializedVersion: 2
-      x: 0
-      y: 24
+      x: 1463
+      y: 1472
       width: 229
       height: 208
     rotated: 0
@@ -439,14 +439,14 @@ MonoBehaviour:
   - name: Hat
     outer:
       serializedVersion: 2
-      x: 1293
-      y: 624
+      x: 175
+      y: 135
       width: 232
       height: 132
     inner:
       serializedVersion: 2
-      x: 1293
-      y: 624
+      x: 175
+      y: 135
       width: 232
       height: 132
     rotated: 0
@@ -457,14 +457,14 @@ MonoBehaviour:
   - name: Hay
     outer:
       serializedVersion: 2
-      x: 1168
-      y: 1856
+      x: 1009
+      y: 1032
       width: 368
       height: 192
     inner:
       serializedVersion: 2
-      x: 1168
-      y: 1856
+      x: 1009
+      y: 1032
       width: 368
       height: 192
     rotated: 0
@@ -475,14 +475,14 @@ MonoBehaviour:
   - name: Key
     outer:
       serializedVersion: 2
-      x: 1782
-      y: 1024
+      x: 1516
+      y: 314
       width: 192
       height: 102
     inner:
       serializedVersion: 2
-      x: 1782
-      y: 1024
+      x: 1516
+      y: 314
       width: 192
       height: 102
     rotated: 0
@@ -493,14 +493,14 @@ MonoBehaviour:
   - name: Horse
     outer:
       serializedVersion: 2
-      x: 954
-      y: 1322
+      x: 687
+      y: 1027
       width: 321
       height: 270
     inner:
       serializedVersion: 2
-      x: 954
-      y: 1322
+      x: 687
+      y: 1027
       width: 321
       height: 270
     rotated: 0
@@ -511,14 +511,14 @@ MonoBehaviour:
   - name: King
     outer:
       serializedVersion: 2
-      x: 270
-      y: 981
+      x: 837
+      y: 1517
       width: 315
       height: 326
     inner:
       serializedVersion: 2
-      x: 270
-      y: 981
+      x: 837
+      y: 1517
       width: 315
       height: 326
     rotated: 0
@@ -529,14 +529,14 @@ MonoBehaviour:
   - name: Leaf
     outer:
       serializedVersion: 2
-      x: 1625
-      y: 482
+      x: 1334
+      y: 350
       width: 181
       height: 141
     inner:
       serializedVersion: 2
-      x: 1625
-      y: 482
+      x: 1334
+      y: 350
       width: 181
       height: 141
     rotated: 0
@@ -547,14 +547,14 @@ MonoBehaviour:
   - name: Kite
     outer:
       serializedVersion: 2
-      x: 1199
-      y: 1603
+      x: 1619
+      y: 654
       width: 266
       height: 240
     inner:
       serializedVersion: 2
-      x: 1199
-      y: 1603
+      x: 1619
+      y: 654
       width: 266
       height: 240
     rotated: 0
@@ -565,14 +565,14 @@ MonoBehaviour:
   - name: Lion
     outer:
       serializedVersion: 2
-      x: 270
-      y: 672
+      x: 0
+      y: 1284
       width: 326
       height: 308
     inner:
       serializedVersion: 2
-      x: 270
-      y: 672
+      x: 0
+      y: 1284
       width: 326
       height: 308
     rotated: 0
@@ -583,14 +583,14 @@ MonoBehaviour:
   - name: Lamp
     outer:
       serializedVersion: 2
-      x: 1755
-      y: 1594
+      x: 908
+      y: 449
       width: 219
       height: 249
     inner:
       serializedVersion: 2
-      x: 1755
-      y: 1594
+      x: 908
+      y: 449
       width: 219
       height: 249
     rotated: 0
@@ -601,32 +601,32 @@ MonoBehaviour:
   - name: Mouse
     outer:
       serializedVersion: 2
-      x: 880
-      y: 830
+      x: 1704
+      y: 1440
       width: 284
-      height: 183
+      height: 268
     inner:
       serializedVersion: 2
-      x: 880
-      y: 830
+      x: 1704
+      y: 1440
       width: 284
-      height: 183
+      height: 268
     rotated: 0
-    paddingLeft: 0
-    paddingRight: .169014081
-    paddingTop: .234972671
-    paddingBottom: .240437165
+    paddingLeft: .0105633801
+    paddingRight: .17605634
+    paddingTop: .119402982
+    paddingBottom: .175373137
   - name: Pig
     outer:
       serializedVersion: 2
-      x: 880
-      y: 668
+      x: 1393
+      y: 492
       width: 260
       height: 161
     inner:
       serializedVersion: 2
-      x: 880
-      y: 668
+      x: 1393
+      y: 492
       width: 260
       height: 161
     rotated: 0
@@ -637,14 +637,14 @@ MonoBehaviour:
   - name: Shark
     outer:
       serializedVersion: 2
-      x: 463
-      y: 1625
+      x: 687
+      y: 1298
       width: 425
       height: 218
     inner:
       serializedVersion: 2
-      x: 463
-      y: 1625
+      x: 687
+      y: 1298
       width: 425
       height: 218
     rotated: 0
@@ -655,14 +655,14 @@ MonoBehaviour:
   - name: Octopus
     outer:
       serializedVersion: 2
-      x: 889
-      y: 1608
+      x: 1729
+      y: 1204
       width: 309
       height: 235
     inner:
       serializedVersion: 2
-      x: 889
-      y: 1608
+      x: 1729
+      y: 1204
       width: 309
       height: 235
     rotated: 0
@@ -673,14 +673,14 @@ MonoBehaviour:
   - name: Marty Moose
     outer:
       serializedVersion: 2
-      x: 0
-      y: 233
+      x: 1463
+      y: 1158
       width: 265
       height: 281
     inner:
       serializedVersion: 2
-      x: 0
-      y: 233
+      x: 1463
+      y: 1158
       width: 265
       height: 281
     rotated: 0
@@ -691,14 +691,14 @@ MonoBehaviour:
   - name: Princess Patty
     outer:
       serializedVersion: 2
-      x: 880
-      y: 1014
+      x: 1378
+      y: 884
       width: 240
       height: 273
     inner:
       serializedVersion: 2
-      x: 880
-      y: 1014
+      x: 1378
+      y: 884
       width: 240
       height: 273
     rotated: 0
@@ -709,14 +709,14 @@ MonoBehaviour:
   - name: Barry Bear
     outer:
       serializedVersion: 2
-      x: 644
-      y: 979
+      x: 1729
+      y: 895
       width: 235
       height: 308
     inner:
       serializedVersion: 2
-      x: 644
-      y: 979
+      x: 1729
+      y: 895
       width: 235
       height: 308
     rotated: 0
@@ -727,14 +727,14 @@ MonoBehaviour:
   - name: Zip Zebra
     outer:
       serializedVersion: 2
-      x: 1823
-      y: 1316
+      x: 0
+      y: 357
       width: 210
       height: 276
     inner:
       serializedVersion: 2
-      x: 1823
-      y: 1316
+      x: 0
+      y: 357
       width: 210
       height: 276
     rotated: 0
@@ -745,14 +745,14 @@ MonoBehaviour:
   - name: Pumpkin
     outer:
       serializedVersion: 2
-      x: 1466
-      y: 1622
+      x: 549
+      y: 805
       width: 288
       height: 221
     inner:
       serializedVersion: 2
-      x: 1466
-      y: 1622
+      x: 549
+      y: 805
       width: 288
       height: 221
     rotated: 0
@@ -763,14 +763,14 @@ MonoBehaviour:
   - name: Dog
     outer:
       serializedVersion: 2
-      x: 1537
-      y: 1847
+      x: 1206
+      y: 682
       width: 317
       height: 201
     inner:
       serializedVersion: 2
-      x: 1537
-      y: 1847
+      x: 1206
+      y: 682
       width: 317
       height: 201
     rotated: 0
@@ -781,14 +781,14 @@ MonoBehaviour:
   - name: Duck
     outer:
       serializedVersion: 2
-      x: 1446
-      y: 471
+      x: 627
+      y: 228
       width: 178
       height: 152
     inner:
       serializedVersion: 2
-      x: 1446
-      y: 471
+      x: 627
+      y: 228
       width: 178
       height: 152
     rotated: 0
@@ -799,14 +799,14 @@ MonoBehaviour:
   - name: Drum
     outer:
       serializedVersion: 2
-      x: 644
-      y: 1288
+      x: 1153
+      y: 1225
       width: 309
       height: 304
     inner:
       serializedVersion: 2
-      x: 644
-      y: 1288
+      x: 1153
+      y: 1225
       width: 309
       height: 304
     rotated: 0
@@ -817,68 +817,68 @@ MonoBehaviour:
   - name: Sun
     outer:
       serializedVersion: 2
-      x: 1542
-      y: 1327
-      width: 280
-      height: 265
+      x: 1704
+      y: 1709
+      width: 298
+      height: 339
     inner:
       serializedVersion: 2
-      x: 1542
-      y: 1327
-      width: 280
-      height: 265
+      x: 1704
+      y: 1709
+      width: 298
+      height: 339
     rotated: 0
-    paddingLeft: .200000003
-    paddingRight: .260714293
-    paddingTop: .132075474
-    paddingBottom: .169811323
+    paddingLeft: .0838926211
+    paddingRight: 0
+    paddingTop: .0501474924
+    paddingBottom: .126843661
   - name: Mop
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1171
+      x: 1168
+      y: 1530
       width: 269
-      height: 421
+      height: 518
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1171
+      x: 1168
+      y: 1530
       width: 269
-      height: 421
+      height: 518
     rotated: 0
-    paddingLeft: 0
-    paddingRight: .498141259
-    paddingTop: .125890732
-    paddingBottom: .0997624695
+    paddingLeft: .0148698883
+    paddingRight: .144981414
+    paddingTop: .100386098
+    paddingBottom: .119691119
   - name: Moose
     outer:
       serializedVersion: 2
-      x: 1276
-      y: 1311
+      x: 1438
+      y: 1681
       width: 265
-      height: 281
+      height: 367
     inner:
       serializedVersion: 2
-      x: 1276
-      y: 1311
+      x: 1438
+      y: 1681
       width: 265
-      height: 281
+      height: 367
     rotated: 0
-    paddingLeft: .169811323
-    paddingRight: .283018857
-    paddingTop: .131672591
-    paddingBottom: .202846974
+    paddingLeft: .098113209
+    paddingRight: .143396229
+    paddingTop: .054495912
+    paddingBottom: .106267028
   - name: Cloud
     outer:
       serializedVersion: 2
-      x: 1165
-      y: 757
+      x: 1654
+      y: 417
       width: 314
       height: 107
     inner:
       serializedVersion: 2
-      x: 1165
-      y: 757
+      x: 1654
+      y: 417
       width: 314
       height: 107
     rotated: 0
@@ -889,14 +889,14 @@ MonoBehaviour:
   - name: Star
     outer:
       serializedVersion: 2
-      x: 644
-      y: 2
+      x: 1128
+      y: 325
       width: 205
       height: 195
     inner:
       serializedVersion: 2
-      x: 644
-      y: 2
+      x: 1128
+      y: 325
       width: 205
       height: 195
     rotated: 0
@@ -907,14 +907,14 @@ MonoBehaviour:
   - name: Moon
     outer:
       serializedVersion: 2
-      x: 644
-      y: 198
+      x: 211
+      y: 268
       width: 217
       height: 202
     inner:
       serializedVersion: 2
-      x: 644
-      y: 198
+      x: 211
+      y: 268
       width: 217
       height: 202
     rotated: 0
@@ -926,13 +926,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 515
+      y: 634
       width: 246
       height: 325
     inner:
       serializedVersion: 2
       x: 0
-      y: 515
+      y: 634
       width: 246
       height: 325
     rotated: 0

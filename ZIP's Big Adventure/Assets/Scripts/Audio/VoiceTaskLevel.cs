@@ -6,11 +6,11 @@ public class VoiceTaskLevel : MonoBehaviour {
 	public AudioClip clipStart,clipFinish;
 	public float delayStart=0f,delayFinish=0f;
 
-	void Awake()
+	/*void Awake()
 	{
 		if(audio == null)
 			gameObject.AddComponent<AudioSource>();
-	}
+	}*/
 
 	void PlayStart()
 	{
@@ -31,7 +31,8 @@ public class VoiceTaskLevel : MonoBehaviour {
 	IEnumerator PlayClipDelayed(AudioClip clip,float delay)
 	{
 		yield return new WaitForSeconds (delay);
-		audio.clip = clip;
-		audio.Play ();
+		//audio.clip = clip;
+		//audio.Play ();
+		AudioManager.Instance.PlayClip (clip);
 	}
 }
