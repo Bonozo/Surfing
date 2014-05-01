@@ -44,13 +44,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 821
+      y: 1845
       width: 1168
       height: 203
     inner:
       serializedVersion: 2
       x: 0
-      y: 821
+      y: 1845
       width: 1168
       height: 203
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: Two Fish_A
     outer:
       serializedVersion: 2
-      x: 0
-      y: 570
+      x: 485
+      y: 914
       width: 628
       height: 250
     inner:
       serializedVersion: 2
-      x: 0
-      y: 570
+      x: 485
+      y: 914
       width: 628
       height: 250
     rotated: 0
@@ -79,14 +79,14 @@ MonoBehaviour:
   - name: There are two
     outer:
       serializedVersion: 2
-      x: 1169
-      y: 462
+      x: 976
+      y: 1409
       width: 699
       height: 83
     inner:
       serializedVersion: 2
-      x: 1169
-      y: 462
+      x: 976
+      y: 1409
       width: 699
       height: 83
     rotated: 0
@@ -97,14 +97,14 @@ MonoBehaviour:
   - name: There is one
     outer:
       serializedVersion: 2
-      x: 0
-      y: 114
+      x: 485
+      y: 363
       width: 608
       height: 83
     inner:
       serializedVersion: 2
-      x: 0
-      y: 114
+      x: 485
+      y: 363
       width: 608
       height: 83
     rotated: 0
@@ -115,14 +115,14 @@ MonoBehaviour:
   - name: Two Fish_B
     outer:
       serializedVersion: 2
-      x: 0
-      y: 319
+      x: 485
+      y: 663
       width: 628
       height: 250
     inner:
       serializedVersion: 2
-      x: 0
-      y: 319
+      x: 485
+      y: 663
       width: 628
       height: 250
     rotated: 0
@@ -133,14 +133,14 @@ MonoBehaviour:
   - name: Zip is slow
     outer:
       serializedVersion: 2
-      x: 629
-      y: 605
+      x: 485
+      y: 447
       width: 511
       height: 107
     inner:
       serializedVersion: 2
-      x: 629
-      y: 605
+      x: 485
+      y: 447
       width: 511
       height: 107
     rotated: 0
@@ -151,14 +151,14 @@ MonoBehaviour:
   - name: Zip Fast_A
     outer:
       serializedVersion: 2
-      x: 629
-      y: 202
+      x: 0
+      y: 993
       width: 375
       height: 367
     inner:
       serializedVersion: 2
-      x: 629
-      y: 202
+      x: 0
+      y: 993
       width: 375
       height: 367
     rotated: 0
@@ -169,14 +169,14 @@ MonoBehaviour:
   - name: There are two_Color
     outer:
       serializedVersion: 2
-      x: 1169
-      y: 546
+      x: 976
+      y: 1493
       width: 705
       height: 107
     inner:
       serializedVersion: 2
-      x: 1169
-      y: 546
+      x: 976
+      y: 1493
       width: 705
       height: 107
     rotated: 0
@@ -187,14 +187,14 @@ MonoBehaviour:
   - name: Zip is fast_Color
     outer:
       serializedVersion: 2
-      x: 0
-      y: 198
+      x: 1453
+      y: 1255
       width: 545
       height: 120
     inner:
       serializedVersion: 2
-      x: 0
-      y: 198
+      x: 1453
+      y: 1255
       width: 545
       height: 120
     rotated: 0
@@ -205,14 +205,14 @@ MonoBehaviour:
   - name: Zip is fast
     outer:
       serializedVersion: 2
-      x: 629
-      y: 713
+      x: 485
+      y: 555
       width: 516
       height: 107
     inner:
       serializedVersion: 2
-      x: 629
-      y: 713
+      x: 485
+      y: 555
       width: 516
       height: 107
     rotated: 0
@@ -223,14 +223,14 @@ MonoBehaviour:
   - name: Zip Fast_B
     outer:
       serializedVersion: 2
-      x: 1169
-      y: 654
+      x: 0
+      y: 622
       width: 325
       height: 370
     inner:
       serializedVersion: 2
-      x: 1169
-      y: 654
+      x: 0
+      y: 622
       width: 325
       height: 370
     rotated: 0
@@ -238,6 +238,96 @@ MonoBehaviour:
     paddingRight: .347692311
     paddingTop: .0648648664
     paddingBottom: .159459457
+  - name: Patty with full bag_A
+    outer:
+      serializedVersion: 2
+      x: 485
+      y: 1376
+      width: 490
+      height: 468
+    inner:
+      serializedVersion: 2
+      x: 485
+      y: 1376
+      width: 490
+      height: 468
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: The bag is full
+    outer:
+      serializedVersion: 2
+      x: 1169
+      y: 1871
+      width: 817
+      height: 177
+    inner:
+      serializedVersion: 2
+      x: 1169
+      y: 1871
+      width: 817
+      height: 177
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: The bag is empty
+    outer:
+      serializedVersion: 2
+      x: 485
+      y: 1165
+      width: 967
+      height: 210
+    inner:
+      serializedVersion: 2
+      x: 485
+      y: 1165
+      width: 967
+      height: 210
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Patty with full bag_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1361
+      width: 484
+      height: 483
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1361
+      width: 484
+      height: 483
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: The bag is full_Color
+    outer:
+      serializedVersion: 2
+      x: 976
+      y: 1601
+      width: 841
+      height: 243
+    inner:
+      serializedVersion: 2
+      x: 976
+      y: 1601
+      width: 841
+      height: 243
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

@@ -4846,8 +4846,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 215.5, y: -60, z: 0}
-  m_LocalScale: {x: 847, y: 107, z: 1}
+  m_LocalPosition: {x: 216.5, y: -60, z: 0}
+  m_LocalScale: {x: 967, y: 210, z: 1}
   m_Children: []
   m_Father: {fileID: 400036}
 --- !u!4 &400068
@@ -5728,8 +5728,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -513, y: 82, z: 0}
-  m_LocalScale: {x: 379, y: 361, z: 1}
+  m_LocalPosition: {x: -513, y: 56.9900017, z: 0}
+  m_LocalScale: {x: 490, y: 468, z: 1}
   m_Children: []
   m_Father: {fileID: 400036}
 --- !u!4 &400218
@@ -6009,7 +6009,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100266}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 280, y: 51.0491638, z: 0}
+  m_LocalPosition: {x: 280, y: 51, z: 0}
   m_LocalScale: {x: 786, y: 130, z: 1}
   m_Children: []
   m_Father: {fileID: 400512}
@@ -6020,8 +6020,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100270}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 215.5, y: 0, z: 0}
-  m_LocalScale: {x: 733, y: 140, z: 1}
+  m_LocalPosition: {x: 215.5, y: .5, z: 0}
+  m_LocalScale: {x: 841, y: 243, z: 1}
   m_Children: []
   m_Father: {fileID: 400036}
 --- !u!4 &400272
@@ -6086,7 +6086,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100282}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 290.799988, y: 126, z: 0}
+  m_LocalPosition: {x: 291.5, y: 126.5, z: 0}
   m_LocalScale: {x: 709, y: 107, z: 1}
   m_Children: []
   m_Father: {fileID: 400344}
@@ -6097,8 +6097,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100284}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -400, y: 40, z: 0}
-  m_LocalScale: {x: 874, y: 250, z: 1}
+  m_LocalPosition: {x: -399.5, y: 40.5, z: 0}
+  m_LocalScale: {x: 628, y: 250, z: 1}
   m_Children: []
   m_Father: {fileID: 400298}
 --- !u!4 &400286
@@ -6391,7 +6391,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100334}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 290.799988, y: -60, z: 0}
+  m_LocalPosition: {x: 291.5, y: -60, z: 0}
   m_LocalScale: {x: 847, y: 107, z: 1}
   m_Children: []
   m_Father: {fileID: 400344}
@@ -6612,8 +6612,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -388.540009, y: 0, z: 0}
-  m_LocalScale: {x: 530, y: 388, z: 1}
+  m_LocalPosition: {x: -389, y: 49.5, z: 0}
+  m_LocalScale: {x: 640, y: 495, z: 1}
   m_Children: []
   m_Father: {fileID: 400196}
 --- !u!4 &400372
@@ -6657,7 +6657,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100378}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -433.660004, y: 54, z: 0}
+  m_LocalPosition: {x: -434, y: 54.5, z: 0}
   m_LocalScale: {x: 278, y: 420, z: 1}
   m_Children: []
   m_Father: {fileID: 400344}
@@ -6873,8 +6873,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 215.5, y: 126, z: 0}
-  m_LocalScale: {x: 709, y: 107, z: 1}
+  m_LocalPosition: {x: 216.5, y: 126.5, z: 0}
+  m_LocalScale: {x: 817, y: 177, z: 1}
   m_Children: []
   m_Father: {fileID: 400036}
 --- !u!4 &400418
@@ -7258,7 +7258,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100486}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -473, y: 68, z: 0}
+  m_LocalPosition: {x: -472.5, y: 68, z: 0}
   m_LocalScale: {x: 340, y: 359, z: 1}
   m_Children: []
   m_Father: {fileID: 400512}
@@ -9511,11 +9511,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 0
+    e03: 2.12889814
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.8595643
+    e13: 0
     e20: 0
     e21: 0
     e22: 384
@@ -10173,10 +10173,10 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: e1fcc252ecdc9474eb265b7d38cf485f, type: 2}
-  mSpriteName: the bag is empty
+  mAtlas: {fileID: 11400000, guid: 0745578231c90f2499e6722817ab9f4d, type: 2}
+  mSpriteName: The bag is empty
   mFillCenter: 1
-  mType: 1
+  mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -12514,8 +12514,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: e1fcc252ecdc9474eb265b7d38cf485f, type: 2}
-  mSpriteName: Patty with full bag_B
+  mAtlas: {fileID: 11400000, guid: 0745578231c90f2499e6722817ab9f4d, type: 2}
+  mSpriteName: Patty with full bag_A
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -13401,7 +13401,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: e1fcc252ecdc9474eb265b7d38cf485f, type: 2}
+  mAtlas: {fileID: 11400000, guid: 0745578231c90f2499e6722817ab9f4d, type: 2}
   mSpriteName: The bag is full_Color
   mFillCenter: 1
   mType: 0
@@ -13686,9 +13686,9 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 3
   mAtlas: {fileID: 11400000, guid: e1fcc252ecdc9474eb265b7d38cf485f, type: 2}
-  mSpriteName: The bag is full
+  mSpriteName: the bag is full
   mFillCenter: 1
-  mType: 1
+  mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -13724,7 +13724,7 @@ MonoBehaviour:
   mAtlas: {fileID: 11400000, guid: 0745578231c90f2499e6722817ab9f4d, type: 2}
   mSpriteName: Two Fish_B
   mFillCenter: 1
-  mType: 0
+  mType: 1
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -14557,7 +14557,7 @@ MonoBehaviour:
   mAtlas: {fileID: 11400000, guid: e1fcc252ecdc9474eb265b7d38cf485f, type: 2}
   mSpriteName: the bag is empty
   mFillCenter: 1
-  mType: 1
+  mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -15767,10 +15767,10 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: e1fcc252ecdc9474eb265b7d38cf485f, type: 2}
+  mAtlas: {fileID: 11400000, guid: 0745578231c90f2499e6722817ab9f4d, type: 2}
   mSpriteName: The bag is full
   mFillCenter: 1
-  mType: 1
+  mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -15848,7 +15848,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: e1fcc252ecdc9474eb265b7d38cf485f, type: 2}
+  mAtlas: {fileID: 11400000, guid: 0745578231c90f2499e6722817ab9f4d, type: 2}
   mSpriteName: Question text
   mFillCenter: 1
   mType: 0
