@@ -12,7 +12,7 @@ public class LevelCorrectDrag : ZIPLevel {
 	public GameObject goodEndSprite;
 
 	private float happyEndTime = 1.4f;
-	private iTween.EaseType easyType;
+	private iTween.EaseType easyType = 0;
 
 	private Vector3 zipPos;
 	private Vector3 zipSprite;
