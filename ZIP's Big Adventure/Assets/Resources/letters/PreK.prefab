@@ -50874,9 +50874,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: b088f7173716b8447881e2e3cf2deec3, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -50889,9 +50893,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 0c460d0f6f4a8d340b0a9786e80609ad, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402446
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -50904,9 +50912,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 12c1606bb856d314187acc7591b36c5b, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -50919,9 +50931,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 17f45fccf80b63a4d8483eca10807d13, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402450
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -50934,9 +50950,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: ac9f4c76565acd4448b4180352bd484a, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -50949,9 +50969,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 4e5d32ce0d729d748b297e6e5bb0851f, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -50964,9 +50988,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 7a832ac7f7922204eb2cc82313413edd, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402456
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -50979,9 +51007,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: cf2d23759e265f8448bddf259ac1f4b9, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -50994,9 +51026,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: ae8ddf2b8ab2024449a355bf0b955946, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402460
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51009,9 +51045,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 552d835d1fb168744bba7cb2fcebfc2a, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402462
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51024,9 +51064,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: c231e0cb9bb6e524990a2e2c9ef41e3d, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402464
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51039,9 +51083,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: c1683d0a3d6387f47951df75e30ecb49, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402466
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51054,9 +51102,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 6eab76268469cc848b24ae1dd3ba1913, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402468
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51069,9 +51121,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: cb51ec824a75aae42930009c7c0d8ae9, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402470
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51084,9 +51140,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 4131d438d083a654090342844ec6ba56, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402472
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51099,9 +51159,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 4438fae6596b680489110c8de1df0f17, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51114,9 +51178,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 0b2009bb3abe41d4ca893dbda65caa67, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402476
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51129,9 +51197,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 229d7781136f4e0438d4e1053cb0f101, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51144,9 +51216,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 06908bf322374144eb124e72af2dcfeb, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402480
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51159,9 +51235,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 41969f4a90be14a469eb59d62e9ed243, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402482
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51174,9 +51254,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: 6108c008459040d44b0e4ffcc66fa659, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51189,9 +51273,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: fc05a06b551253b4bab0670a9333d692, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51204,9 +51292,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f168e149d11c4f42bcddd3b69dd5433, type: 3}
+  playPartMessage: 1
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 8300000, guid: fef6427593464d44f8e0a6447e9520a4, type: 3}
-  delayStart: 0
-  delayFinish: 1
+  delayFinish: .5
+  randomFinish: 0
 --- !u!114 &11402488
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51219,9 +51311,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: c5d1befb70fb34e43b570915ee693a09, type: 3}
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 1
   clipFinish: {fileID: 0}
-  delayStart: 0
   delayFinish: 0
+  randomFinish: 0
 --- !u!114 &11402490
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51234,9 +51330,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: c5d1befb70fb34e43b570915ee693a09, type: 3}
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 1
   clipFinish: {fileID: 0}
-  delayStart: 0
   delayFinish: 0
+  randomFinish: 0
 --- !u!114 &11402492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51249,9 +51349,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: c5d1befb70fb34e43b570915ee693a09, type: 3}
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 1
   clipFinish: {fileID: 0}
-  delayStart: 0
   delayFinish: 0
+  randomFinish: 0
 --- !u!114 &11402494
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51264,9 +51368,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: c5d1befb70fb34e43b570915ee693a09, type: 3}
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 1
   clipFinish: {fileID: 0}
-  delayStart: 0
   delayFinish: 0
+  randomFinish: 0
 --- !u!114 &11402496
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51279,9 +51387,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: c5d1befb70fb34e43b570915ee693a09, type: 3}
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 1
   clipFinish: {fileID: 0}
-  delayStart: 0
   delayFinish: 0
+  randomFinish: 0
 --- !u!114 &11402498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51294,9 +51406,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: b8c13b445b55f9840a8659517cdc55ca, type: 3}
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 0}
-  delayStart: 0
   delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51309,9 +51425,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 2e1899e626a9c4b408b2e7286873825f, type: 3}
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 0}
-  delayStart: 0
   delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402502
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51324,9 +51444,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: aabf3ab14ac7abe41bdd5b50df42dcaa, type: 3}
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 0}
-  delayStart: 0
   delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402504
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51339,9 +51463,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1ec0f39be2dc6c64eb6a2dddf186880b, type: 3}
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
   clipFinish: {fileID: 0}
-  delayStart: 0
   delayFinish: 0
+  randomFinish: 1
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1

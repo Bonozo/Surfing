@@ -215,6 +215,7 @@
      <Compile Include="Assets\Scripts\Menus\Title.cs" />
      <Compile Include="Assets\Scripts\Menus\TitleButton.cs" />
      <Compile Include="Assets\Scripts\Other\AutoDestroy.cs" />
+     <Compile Include="Assets\Scripts\Other\EditorTask.cs" />
      <Compile Include="Assets\Scripts\Other\Fireworks.cs" />
      <Compile Include="Assets\Scripts\Other\FireworksPart.cs" />
      <Compile Include="Assets\Scripts\Other\MenuTitle.cs" />

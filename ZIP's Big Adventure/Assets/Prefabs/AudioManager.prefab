@@ -144,6 +144,33 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 3c6e698960db53b45a820a950393238d, type: 3}
   - {fileID: 8300000, guid: 9b44a0bc26de5714ab46f2028ab561ca, type: 3}
   - {fileID: 8300000, guid: 94564a03903835641ac43d471fec362c, type: 3}
+  clipLetter:
+  - {fileID: 8300000, guid: 655f4be0c9ca1e14893d25428540215b, type: 3}
+  - {fileID: 8300000, guid: abd238b68f7afca40841fa4d3d06eece, type: 3}
+  - {fileID: 8300000, guid: 078d4b515257b044082e2c91c0f6f1f2, type: 3}
+  - {fileID: 8300000, guid: c01acb8fa2afc7f4bbfddedde446576e, type: 3}
+  - {fileID: 8300000, guid: 6247a2641c4de2c4da23e027fb24a5ea, type: 3}
+  - {fileID: 8300000, guid: f12c6ee5907abb649ae6f99db2a79f6d, type: 3}
+  - {fileID: 8300000, guid: eb0d03f1506020c46908dd2c5f9a560c, type: 3}
+  - {fileID: 8300000, guid: 689942cbd40f2a74199e12cbdd4814e0, type: 3}
+  - {fileID: 8300000, guid: 347487ae5c7a98d4f9a778183b5bdf63, type: 3}
+  - {fileID: 8300000, guid: dd45146e6d37f604f8e0162ed21a977c, type: 3}
+  - {fileID: 8300000, guid: 3fdcbe38f0e0fc640a54d5931fcad631, type: 3}
+  - {fileID: 8300000, guid: cd8372df11071484888fb82c6d576200, type: 3}
+  - {fileID: 8300000, guid: 99be786614167624b896d0ba2e40f672, type: 3}
+  - {fileID: 8300000, guid: b577240f947cfb14cbe0e8ef20d66168, type: 3}
+  - {fileID: 8300000, guid: be9cb98e764a21049bcbe6d75b723156, type: 3}
+  - {fileID: 8300000, guid: e208c339784791545bb331e764c3fe48, type: 3}
+  - {fileID: 8300000, guid: 47bdd6efd4f7d7f4b99f8c06b291deeb, type: 3}
+  - {fileID: 8300000, guid: d42376783fd2a5944bb53f72aa4f1520, type: 3}
+  - {fileID: 8300000, guid: beb2f155bbac8314c8ee9da77383881e, type: 3}
+  - {fileID: 8300000, guid: 905d35a5a1f24c047ad362f961f4aa7d, type: 3}
+  - {fileID: 8300000, guid: dd09b0bcc1fc360489c7c15c6cadd9d8, type: 3}
+  - {fileID: 8300000, guid: 826f71c1ffe4ed140af2e45179ead4d0, type: 3}
+  - {fileID: 8300000, guid: 7aa7c2d9729478947900a70b6ef651a7, type: 3}
+  - {fileID: 8300000, guid: 2a7bd18e7b2d9cf48828a1b50c1dba57, type: 3}
+  - {fileID: 8300000, guid: c00b63944258a1c4d9a3c0d4d46d54db, type: 3}
+  - {fileID: 8300000, guid: 0bbcc177e13f1f74dad057e91ae8b0fe, type: 3}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

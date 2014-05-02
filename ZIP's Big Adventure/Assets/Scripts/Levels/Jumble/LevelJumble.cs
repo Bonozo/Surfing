@@ -25,13 +25,23 @@ public class LevelJumble : ZIPLevel {
 		if(drag.GetComponent<UISprite>() != null)
 			drag.GetComponent<UISprite> ().depth--;
 		if( done == dragsLenght)
+		{
 			StartCoroutine(HappyEndThread());
+			SendMessage ("PlayFinish", SendMessageOptions.DontRequireReceiver);
+		}
+	}
+
+	// Used for audio effects
+	public void DragComplete(JumbleDrag drag)
+	{
+		if(drag.GetComponent<UISprite>() != null)
+			SendMessage("PlayPart",drag.GetComponent<UISprite>().spriteName,SendMessageOptions.DontRequireReceiver);
+		if(done == dragsLenght-1)
+			SendMessage ("PlayEnd", SendMessageOptions.DontRequireReceiver);
 	}
 
 	private IEnumerator HappyEndThread()
 	{
-		SendMessage ("PlayEnd", true, SendMessageOptions.DontRequireReceiver);
-
 		foreach(var et in endItems) et.Work();
 		foreach(var dr in drags) dr.DisableCollider();
 

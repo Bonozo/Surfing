@@ -81,6 +81,7 @@
      <Compile Include="Assets\NGUI\Scripts\Editor\UITiledSpriteInspector.cs" />
      <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
      <Compile Include="Assets\Pixelplacement\iTweenPath\Editor\iTweenPathEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\EditorTaskEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\EndItemListEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\GameBlockEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\LevelJumbleEditor.cs" />

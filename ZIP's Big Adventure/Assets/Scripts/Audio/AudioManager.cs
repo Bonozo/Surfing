@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour {
 
 	public AudioClip[] clipRightAnswer;
 	public AudioClip[] clipWrongAnswer;
+	public AudioClip[] clipLetter;
 
 	public void PlayCorrectAnswer()
 	{
@@ -14,10 +15,24 @@ public class AudioManager : MonoBehaviour {
 		audio.Play ();
 	}
 
+	public void PlayCorrectAnswer(float delay)
+	{
+		StartCoroutine (PlayClipDelayed (clipRightAnswer [Random.Range (0, clipRightAnswer.Length)], delay));
+	}
+
+
 	public void PlayWrongAnswer()
 	{
 		audio.clip = clipWrongAnswer[Random.Range(0,clipWrongAnswer.Length)];
 		audio.Play ();
+	}
+
+	public void PlayLetter(char c)
+	{
+		int index = (int)(char.ToLower (c) - 'a');
+		audio.clip = clipLetter [index];
+		audio.Play ();
+
 	}
 
 	public void PlayClip(AudioClip clip)
@@ -29,6 +44,13 @@ public class AudioManager : MonoBehaviour {
 	public void Stop()
 	{
 		audio.Stop ();
+	}
+
+	IEnumerator PlayClipDelayed(AudioClip clip,float delay)
+	{
+		yield return new WaitForSeconds (delay);
+		audio.clip = clip;
+		audio.Play ();
 	}
 
 	#endregion

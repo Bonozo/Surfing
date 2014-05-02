@@ -3,36 +3,74 @@ using System.Collections;
 
 public class VoiceTaskLevel : MonoBehaviour {
 
-	public AudioClip clipStart,clipFinish;
-	public float delayStart=0f,delayFinish=0f;
-
-	/*void Awake()
-	{
-		if(audio == null)
-			gameObject.AddComponent<AudioSource>();
-	}*/
+	#region Start
+	public AudioClip clipStart;
 
 	void PlayStart()
 	{
 		AudioManager.Instance.Stop ();
-		//audio.Stop ();
 		if(clipStart != null)
-			StartCoroutine (PlayClipDelayed (clipStart, delayStart));
+			AudioManager.Instance.PlayClip (clipStart);
 	}
 
-	void PlayEnd(bool correct)
+	#endregion
+
+	#region Part
+	
+	public bool playPartMessage;
+
+	void PlayPart(string value)
 	{
-		if(!correct) return;
-		//audio.Stop ();
-		if(clipFinish != null)
+		if(playPartMessage)
+		{
+			// letter
+			if(value.Length == 1 && char.IsLetter(value[0]))
+				AudioManager.Instance.PlayLetter(value[0]);
+		}
+	}
+
+	#endregion
+
+	#region End
+
+	public AudioClip clipEnd;
+	public float delayEnd;
+	public bool randomEnd;
+
+	void PlayEnd()
+	{
+		if(randomEnd)
+			AudioManager.Instance.PlayCorrectAnswer(delayEnd);
+		
+		else if(clipEnd != null)
+			StartCoroutine (PlayClipDelayed (clipEnd, delayEnd));
+	}
+
+	#endregion
+
+	#region Finish
+
+	// finish
+	public AudioClip clipFinish;
+	public float delayFinish;
+	public bool randomFinish;
+
+	void PlayFinish()
+	{
+		if(randomFinish)
+			AudioManager.Instance.PlayCorrectAnswer(delayFinish);
+		
+		else if(clipFinish != null)
 			StartCoroutine (PlayClipDelayed (clipFinish, delayFinish));
 	}
+
+	#endregion
+
+
 
 	IEnumerator PlayClipDelayed(AudioClip clip,float delay)
 	{
 		yield return new WaitForSeconds (delay);
-		//audio.clip = clip;
-		//audio.Play ();
 		AudioManager.Instance.PlayClip (clip);
 	}
 }

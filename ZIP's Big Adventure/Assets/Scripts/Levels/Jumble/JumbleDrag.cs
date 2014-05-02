@@ -79,7 +79,6 @@ public class JumbleDrag : MonoBehaviour {
 				if( firstcond || secondcond )
 				{
 					StartCoroutine(HappyEnd(col));
-					GameController.Instance.PlayCorrectAnswer();
 					return;
 				}
 			}
@@ -95,6 +94,8 @@ public class JumbleDrag : MonoBehaviour {
 
 	IEnumerator HappyEnd(Collider col)
 	{
+		GameController.Instance.PlayCorrectAnswer();
+		level.DragComplete (this);
 		DisableCollider ();
 		dragTime = 0.5f;
 		this.GetComponent<UIDragObject> ().enabled = false;
