@@ -104,6 +104,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipRightAnswer: []
   clipWrongAnswer: []
+  playLetters: 1
+  clipLetter: []
+  playNumbers: 1
+  clipNumber: []
 --- !u!4 &20280535
 Transform:
   m_ObjectHideFlags: 0
@@ -669,8 +673,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 426705994}
   - 82: {fileID: 426705993}
+  - 114: {fileID: 426705995}
   m_Layer: 0
-  m_Name: jungle theme
+  m_Name: MusicLoop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -685,7 +690,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 08d3966fcbd506e49ba97b0d47b9e070, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: .5
   m_Pitch: 1
   Loop: 1
@@ -745,6 +750,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &426705995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 426705992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15a12c258549c6e48a1a419068b1a3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &427594445
 GameObject:
   m_ObjectHideFlags: 0
@@ -2217,7 +2233,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.8595643, z: 0}
+  m_LocalPosition: {x: 0, y: 2.00522184, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1243174000}

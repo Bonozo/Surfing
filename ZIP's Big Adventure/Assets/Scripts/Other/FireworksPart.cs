@@ -8,6 +8,7 @@ public class FireworksPart : MonoBehaviour {
 	void Start()
 	{
 		Destroy (this.gameObject,4f);
+		audio.volume = 0.5f;
 		audio.clip = clips [Random.Range (0, clips.Length)];
 		audio.Play ();
 	}

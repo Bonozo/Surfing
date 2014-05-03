@@ -167,6 +167,7 @@
      <Compile Include="Assets\Pixelplacement\iTween.cs" />
      <Compile Include="Assets\Pixelplacement\iTweenPath\iTweenPath.cs" />
      <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Audio\MusicLoop.cs" />
      <Compile Include="Assets\Scripts\Audio\VoiceTaskLevel.cs" />
      <Compile Include="Assets\Scripts\End Items\EndItem.cs" />
      <Compile Include="Assets\Scripts\End Items\EndItemChangeTexture.cs" />
