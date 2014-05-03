@@ -49,7 +49,7 @@ public class AudioManager : MonoBehaviour {
 		number--;
 		if(playNumbers && number>=0 && number<clipNumber.Length)
 		{
-			audio.clip = clipLetter [number];
+			audio.clip = clipNumber [number];
 			audio.Play ();
 		}
 	}

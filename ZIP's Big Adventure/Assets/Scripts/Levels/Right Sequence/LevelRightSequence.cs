@@ -29,6 +29,7 @@ public class LevelRightSequence : ZIPLevel {
 	
 	public void Answer(LevelRightSequenceButton answer)
 	{
+		SendMessage ("PlayPart", answer.name, SendMessageOptions.DontRequireReceiver);
 		if(answer.value == current)
 		{
 			current += countBy;

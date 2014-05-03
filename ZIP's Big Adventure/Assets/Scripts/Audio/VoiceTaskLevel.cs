@@ -21,11 +21,17 @@ public class VoiceTaskLevel : MonoBehaviour {
 
 	void PlayPart(string value)
 	{
+		Debug.Log ("receive Part: " + value);
 		if(playPartMessage)
 		{
 			// letter
 			if(value.Length == 1 && char.IsLetter(value[0]))
 				AudioManager.Instance.PlayLetter(value[0]);
+
+			// number
+			int num=0;
+			if( int.TryParse(value,out num) )
+				AudioManager.Instance.PlayNumber(num);
 		}
 	}
 
