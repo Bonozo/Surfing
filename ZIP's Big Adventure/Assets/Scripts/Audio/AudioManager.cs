@@ -7,7 +7,11 @@ public class AudioManager : MonoBehaviour {
 
 	public AudioClip[] clipRightAnswer;
 	public AudioClip[] clipWrongAnswer;
+
+	public bool playLetters = true;
 	public AudioClip[] clipLetter;
+	public bool playNumbers = true;
+	public AudioClip[] clipNumber;
 
 	public void PlayCorrectAnswer()
 	{
@@ -29,10 +33,25 @@ public class AudioManager : MonoBehaviour {
 
 	public void PlayLetter(char c)
 	{
-		int index = (int)(char.ToLower (c) - 'a');
-		audio.clip = clipLetter [index];
-		audio.Play ();
+		if(playLetters)
+		{
+			int index = (int)(char.ToLower (c) - 'a');
+			if(index<clipLetter.Length)
+			{
+				audio.clip = clipLetter [index];
+				audio.Play ();
+			}
+		}
+	}
 
+	public void PlayNumber(int number)
+	{
+		number--;
+		if(playNumbers && number>=0 && number<clipNumber.Length)
+		{
+			audio.clip = clipLetter [number];
+			audio.Play ();
+		}
 	}
 
 	public void PlayClip(AudioClip clip)
