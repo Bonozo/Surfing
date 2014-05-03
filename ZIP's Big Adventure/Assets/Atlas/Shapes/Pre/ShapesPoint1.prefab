@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ShapesPoint1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: e4df2d47514dabf478ea8bb9eb351b26, type: 2}
+  sprites:
+  - name: Circle_Text
+    outer:
+      serializedVersion: 2
+      x: 900
+      y: 1182
+      width: 1147
+      height: 231
+    inner:
+      serializedVersion: 2
+      x: 900
+      y: 1182
+      width: 1147
+      height: 231
+    rotated: 0
+    paddingLeft: .0383609422
+    paddingRight: .0322580636
+    paddingTop: .164502159
+    paddingBottom: .186147183
+  - name: CircleBird_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 353
+      width: 498
+      height: 487
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 353
+      width: 498
+      height: 487
+    rotated: 0
+    paddingLeft: .0502008051
+    paddingRight: .0602409653
+    paddingTop: .0759753585
+    paddingBottom: .00410677632
+  - name: CircleBird_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 841
+      width: 899
+      height: 579
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 841
+      width: 899
+      height: 579
+    rotated: 0
+    paddingLeft: .0311457179
+    paddingRight: 0
+    paddingTop: .0811744407
+    paddingBottom: .0604490489
+  - name: CircleBird_End_B
+    outer:
+      serializedVersion: 2
+      x: 900
+      y: 652
+      width: 486
+      height: 529
+    inner:
+      serializedVersion: 2
+      x: 900
+      y: 652
+      width: 486
+      height: 529
+    rotated: 0
+    paddingLeft: .131687239
+    paddingRight: .135802463
+    paddingTop: .0812854469
+    paddingBottom: 0
+  - name: CircleBirthdayCake_End_B
+    outer:
+      serializedVersion: 2
+      x: 499
+      y: 467
+      width: 311
+      height: 373
+    inner:
+      serializedVersion: 2
+      x: 499
+      y: 467
+      width: 311
+      height: 373
+    rotated: 0
+    paddingLeft: .147909969
+    paddingRight: .167202577
+    paddingTop: .0723860562
+    paddingBottom: .0938337818
+  - name: CircleBirthdayCake_End
+    outer:
+      serializedVersion: 2
+      x: 499
+      y: 93
+      width: 311
+      height: 373
+    inner:
+      serializedVersion: 2
+      x: 499
+      y: 93
+      width: 311
+      height: 373
+    rotated: 0
+    paddingLeft: .0900321528
+    paddingRight: .147909969
+    paddingTop: .0884718522
+    paddingBottom: .0938337818
+  - name: CircleBirthdayCake_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1421
+      width: 917
+      height: 627
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1421
+      width: 917
+      height: 627
+    rotated: 0
+    paddingLeft: .0370774269
+    paddingRight: 0
+    paddingTop: .0701754391
+    paddingBottom: 0
+  - name: CircleSoccerBall_Begin
+    outer:
+      serializedVersion: 2
+      x: 918
+      y: 1414
+      width: 902
+      height: 634
+    inner:
+      serializedVersion: 2
+      x: 918
+      y: 1414
+      width: 902
+      height: 634
+    rotated: 0
+    paddingLeft: .053215079
+    paddingRight: .0421286039
+    paddingTop: .0899053663
+    paddingBottom: .0457413234
+  - name: CircleSoccerBall_End
+    outer:
+      serializedVersion: 2
+      x: 1387
+      y: 882
+      width: 315
+      height: 299
+    inner:
+      serializedVersion: 2
+      x: 1387
+      y: 882
+      width: 315
+      height: 299
+    rotated: 0
+    paddingLeft: .161904767
+    paddingRight: .117460318
+    paddingTop: .0836120397
+    paddingBottom: .130434781
+  - name: CircleSoccerBall_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 53
+      width: 315
+      height: 299
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 53
+      width: 315
+      height: 299
+    rotated: 0
+    paddingLeft: .13333334
+    paddingRight: .117460318
+    paddingTop: .0836120397
+    paddingBottom: .130434781
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

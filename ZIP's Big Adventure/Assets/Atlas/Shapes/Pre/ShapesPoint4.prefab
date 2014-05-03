@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ShapesPoint4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: d757c299869aaa542b84fb48a85f84de, type: 2}
+  sprites:
+  - name: TriangleSliceofPizza_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1407
+      width: 776
+      height: 641
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1407
+      width: 776
+      height: 641
+    rotated: 0
+    paddingLeft: .117268041
+    paddingRight: .0592783503
+    paddingTop: .0608424321
+    paddingBottom: .0670826808
+  - name: TriangleMagician_Begin
+    outer:
+      serializedVersion: 2
+      x: 777
+      y: 1410
+      width: 775
+      height: 638
+    inner:
+      serializedVersion: 2
+      x: 777
+      y: 1410
+      width: 775
+      height: 638
+    rotated: 0
+    paddingLeft: .059354838
+    paddingRight: .0645161271
+    paddingTop: .0438871458
+    paddingBottom: .0564263314
+  - name: TriangleMagician_End
+    outer:
+      serializedVersion: 2
+      x: 777
+      y: 623
+      width: 620
+      height: 786
+    inner:
+      serializedVersion: 2
+      x: 777
+      y: 623
+      width: 620
+      height: 786
+    rotated: 0
+    paddingLeft: .0661290288
+    paddingRight: .0806451589
+    paddingTop: .0407124683
+    paddingBottom: .0356234089
+  - name: TriangleMountain_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 783
+      width: 768
+      height: 623
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 783
+      width: 768
+      height: 623
+    rotated: 0
+    paddingLeft: .111979164
+    paddingRight: .0416666679
+    paddingTop: .0738362744
+    paddingBottom: 0
+  - name: TriangleMagician_End_B
+    outer:
+      serializedVersion: 2
+      x: 1398
+      y: 623
+      width: 591
+      height: 786
+    inner:
+      serializedVersion: 2
+      x: 1398
+      y: 623
+      width: 591
+      height: 786
+    rotated: 0
+    paddingLeft: .054145515
+    paddingRight: .0676818937
+    paddingTop: .0330788791
+    paddingBottom: .0547073781
+  - name: Text_Triangle
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 364
+      width: 1147
+      height: 258
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 364
+      width: 1147
+      height: 258
+    rotated: 0
+    paddingLeft: .0435919799
+    paddingRight: .0270270277
+    paddingTop: .112403102
+    paddingBottom: .178294569
+  - name: TriangleSliceofPizza_End_B
+    outer:
+      serializedVersion: 2
+      x: 1553
+      y: 1736
+      width: 360
+      height: 312
+    inner:
+      serializedVersion: 2
+      x: 1553
+      y: 1736
+      width: 360
+      height: 312
+    rotated: 0
+    paddingLeft: .0944444463
+    paddingRight: .116666667
+    paddingTop: .160256416
+    paddingBottom: .205128208
+  - name: TriangleMountain_End
+    outer:
+      serializedVersion: 2
+      x: 1553
+      y: 1487
+      width: 365
+      height: 248
+    inner:
+      serializedVersion: 2
+      x: 1553
+      y: 1487
+      width: 365
+      height: 248
+    rotated: 0
+    paddingLeft: .20273973
+    paddingRight: .115068495
+    paddingTop: .125
+    paddingBottom: .266129047
+  - name: TriangleSliceofPizza_End
+    outer:
+      serializedVersion: 2
+      x: 1148
+      y: 310
+      width: 360
+      height: 312
+    inner:
+      serializedVersion: 2
+      x: 1148
+      y: 310
+      width: 360
+      height: 312
+    rotated: 0
+    paddingLeft: .100000001
+    paddingRight: 0
+    paddingTop: .150641024
+    paddingBottom: .125
+  - name: TriangleMountain_End_B
+    outer:
+      serializedVersion: 2
+      x: 1509
+      y: 374
+      width: 365
+      height: 248
+    inner:
+      serializedVersion: 2
+      x: 1509
+      y: 374
+      width: 365
+      height: 248
+    rotated: 0
+    paddingLeft: .145205483
+    paddingRight: .106849313
+    paddingTop: .137096778
+    paddingBottom: .193548381
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

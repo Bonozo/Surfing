@@ -6390,7 +6390,7 @@ GameObject:
   - 114: {fileID: 11401330}
   - 114: {fileID: 11402442}
   m_Layer: 8
-  m_Name: 11. TriangleSliceofPizza
+  m_Name: 12. TriangleSliceofPizza
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11228,7 +11228,7 @@ GameObject:
   - 114: {fileID: 11402322}
   - 114: {fileID: 11402440}
   m_Layer: 8
-  m_Name: 10. TriangleMountain
+  m_Name: 11. TriangleMountain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11413,7 +11413,7 @@ GameObject:
   - 114: {fileID: 11402356}
   - 114: {fileID: 11402438}
   m_Layer: 8
-  m_Name: 9. TriangleMagician
+  m_Name: 10. TriangleMagician
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11430,7 +11430,7 @@ GameObject:
   - 114: {fileID: 11402358}
   - 114: {fileID: 11402436}
   m_Layer: 8
-  m_Name: 8. HappyTriangle
+  m_Name: 9. HappyTriangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11615,6 +11615,107 @@ GameObject:
   - 114: {fileID: 11402392}
   - 114: {fileID: 11402434}
   m_Layer: 8
+  m_Name: 8. SquareRobot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &101322
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 401322}
+  - 114: {fileID: 11402468}
+  m_Layer: 8
+  m_Name: Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &101324
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 401324}
+  - 114: {fileID: 11402472}
+  - 114: {fileID: 11402470}
+  - 65: {fileID: 6500838}
+  m_Layer: 8
+  m_Name: point button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &101326
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 401326}
+  - 114: {fileID: 11402478}
+  - 114: {fileID: 11402476}
+  - 114: {fileID: 11402474}
+  m_Layer: 8
+  m_Name: answer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &101328
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 401330}
+  m_Layer: 8
+  m_Name: Game
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &101330
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 401328}
+  - 114: {fileID: 11402480}
+  - 114: {fileID: 11402482}
+  m_Layer: 8
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &101332
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 401332}
+  - 114: {fileID: 11402486}
+  - 114: {fileID: 11402484}
+  m_Layer: 8
   m_Name: 7. SquareOven
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11728,7 +11829,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
   m_LocalScale: {x: 899, y: 579, z: 1}
   m_Children: []
   m_Father: {fileID: 400688}
@@ -11989,7 +12090,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19, y: -57, z: 0}
+  m_LocalPosition: {x: -34, y: -49, z: 0}
   m_LocalScale: {x: 457, y: 430, z: 1}
   m_Children: []
   m_Father: {fileID: 401154}
@@ -12786,8 +12887,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100204}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -108, y: -126, z: 0}
-  m_LocalScale: {x: 315, y: 299, z: 1}
+  m_LocalPosition: {x: -103, y: -115, z: 0}
+  m_LocalScale: {x: 316, y: 300, z: 1}
   m_Children: []
   m_Father: {fileID: 400770}
 --- !u!4 &400206
@@ -14662,7 +14763,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100502}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .5, y: .5, z: 0}
   m_LocalScale: {x: 917, y: 627, z: 1}
   m_Children: []
   m_Father: {fileID: 400440}
@@ -14998,7 +15099,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9, y: 14, z: 0}
+  m_LocalPosition: {x: -7, y: 11, z: 0}
   m_LocalScale: {x: 364, y: 358, z: 1}
   m_Children: []
   m_Father: {fileID: 400768}
@@ -17696,8 +17797,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37, y: 52, z: 0}
-  m_LocalScale: {x: 311, y: 373, z: 1}
+  m_LocalPosition: {x: -48, y: 40, z: 0}
+  m_LocalScale: {x: 312, y: 372, z: 1}
   m_Children: []
   m_Father: {fileID: 400440}
 --- !u!4 &401014
@@ -17716,11 +17817,12 @@ Transform:
   - {fileID: 400336}
   - {fileID: 400276}
   - {fileID: 401002}
-  - {fileID: 401320}
+  - {fileID: 401332}
   - {fileID: 401298}
   - {fileID: 401296}
   - {fileID: 401274}
   - {fileID: 400722}
+  - {fileID: 401320}
   m_Father: {fileID: 400206}
 --- !u!4 &401016
 Transform:
@@ -17936,7 +18038,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101040}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33, y: 94, z: 0}
+  m_LocalPosition: {x: 52, y: 90, z: 0}
   m_LocalScale: {x: 360, y: 312, z: 1}
   m_Children: []
   m_Father: {fileID: 400666}
@@ -18442,7 +18544,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -124, z: 0}
+  m_LocalPosition: {x: 7, y: -114, z: 0}
   m_LocalScale: {x: 404, y: 376, z: 1}
   m_Children: []
   m_Father: {fileID: 400688}
@@ -19115,8 +19217,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101246}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20, y: -79, z: 0}
-  m_LocalScale: {x: 498, y: 528, z: 1}
+  m_LocalPosition: {x: -21, y: -84, z: 0}
+  m_LocalScale: {x: 498, y: 488, z: 1}
   m_Children: []
   m_Father: {fileID: 400688}
 --- !u!4 &401248
@@ -19313,8 +19415,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: 44, z: 0}
-  m_LocalScale: {x: 365, y: 248, z: 1}
+  m_LocalPosition: {x: 22, y: 64, z: 0}
+  m_LocalScale: {x: 364, y: 248, z: 1}
   m_Children: []
   m_Father: {fileID: 401276}
 --- !u!4 &401282
@@ -19368,8 +19470,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39, y: -52, z: 0}
-  m_LocalScale: {x: 711, y: 846, z: 1}
+  m_LocalPosition: {x: -22, y: -13, z: 0}
+  m_LocalScale: {x: 620, y: 786, z: 1}
   m_Children: []
   m_Father: {fileID: 401294}
 --- !u!4 &401292
@@ -19478,7 +19580,7 @@ Transform:
   m_GameObject: {fileID: 101308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 600.5, z: 0}
-  m_LocalScale: {x: 958, y: 215, z: 1}
+  m_LocalScale: {x: 1147, y: 258, z: 1}
   m_Children: []
   m_Father: {fileID: 401300}
 --- !u!4 &401310
@@ -19499,8 +19601,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 98, y: 14, z: 0}
-  m_LocalScale: {x: 308, y: 300, z: 1}
+  m_LocalPosition: {x: 41.197052, y: -83.4890289, z: 0}
+  m_LocalScale: {x: 328.394104, y: 312.978058, z: 0}
   m_Children: []
   m_Father: {fileID: 401318}
 --- !u!4 &401314
@@ -19510,8 +19612,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 104, y: 4, z: 0}
-  m_LocalScale: {x: 364, y: 323, z: 1}
+  m_LocalPosition: {x: 12, y: -3, z: 0}
+  m_LocalScale: {x: 576, y: 516, z: 1}
   m_Children: []
   m_Father: {fileID: 401318}
 --- !u!4 &401316
@@ -19522,7 +19624,7 @@ Transform:
   m_GameObject: {fileID: 101318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 985, y: 769, z: 1}
+  m_LocalScale: {x: 766, y: 553, z: 1}
   m_Children: []
   m_Father: {fileID: 401318}
 --- !u!4 &401318
@@ -19547,10 +19649,81 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2.62260437e-05, z: 0}
+  m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
+  m_Children:
+  - {fileID: 401318}
+  m_Father: {fileID: 401014}
+--- !u!4 &401322
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101322}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 600, z: 0}
+  m_LocalScale: {x: 1147, y: 259, z: 1}
+  m_Children: []
+  m_Father: {fileID: 401330}
+--- !u!4 &401324
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 98, y: 14, z: 0}
+  m_LocalScale: {x: 308, y: 300, z: 1}
+  m_Children: []
+  m_Father: {fileID: 401330}
+--- !u!4 &401326
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 104, y: 4, z: 0}
+  m_LocalScale: {x: 364, y: 324, z: 1}
+  m_Children: []
+  m_Father: {fileID: 401330}
+--- !u!4 &401328
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 985, y: 769, z: 1}
+  m_Children: []
+  m_Father: {fileID: 401330}
+--- !u!4 &401330
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101328}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .5, y: .5, z: 1}
+  m_Children:
+  - {fileID: 401328}
+  - {fileID: 401326}
+  - {fileID: 401324}
+  - {fileID: 401322}
+  m_Father: {fileID: 401332}
+--- !u!4 &401332
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101332}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 401318}
+  - {fileID: 401330}
   m_Father: {fileID: 401014}
 --- !u!54 &5400000
 Rigidbody:
@@ -25255,6 +25428,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.03999996, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &6500838
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.03999996, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25515,7 +25700,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: CircleBird_Begin
   mFillCenter: 1
   mType: 0
@@ -26285,7 +26470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 150eea64ba46e6747bdd1109cb739f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mFPS: 4
+  mFPS: 2
   mPrefix: CircleSun_End
   mLoop: 1
   mPixelPerfect: 1
@@ -26300,10 +26485,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 0}
+  mColor: {r: 1, g: 1, b: 1, a: .403921574}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
   mSpriteName: CircleSun_End_B
   mFillCenter: 1
   mType: 0
@@ -26679,7 +26864,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -28813,10 +28998,10 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: CircleSoccerBall_End_B
   mFillCenter: 1
-  mType: 0
+  mType: 1
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -29177,7 +29362,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
   mSpriteName: SquareHappySquare_Begin
   mFillCenter: 1
   mType: 0
@@ -29483,7 +29668,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
   mSpriteName: SquareBook_Begin
   mFillCenter: 1
   mType: 0
@@ -30667,8 +30852,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
-  mSpriteName: Text
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
+  mSpriteName: Circle_Text
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -31413,7 +31598,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -33122,7 +33307,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
   mSpriteName: SquareBook_Text
   mFillCenter: 1
   mType: 0
@@ -33410,7 +33595,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: CircleBirthdayCake_Begin
   mFillCenter: 1
   mType: 0
@@ -34364,7 +34549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   to: {r: 1, g: 1, b: 1, a: 1}
-  duration: 1
+  duration: 1.5
   delay: 0
 --- !u!114 &11401054
 MonoBehaviour:
@@ -34392,10 +34577,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 0}
+  mColor: {r: 1, g: 1, b: 1, a: .243137255}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
   mSpriteName: SquareBook_End
   mFillCenter: 1
   mType: 0
@@ -35319,7 +35504,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: TriangleSliceofPizza_Begin
   mFillCenter: 1
   mType: 0
@@ -35430,7 +35615,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: Text_Triangle
   mFillCenter: 1
   mType: 0
@@ -36001,7 +36186,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
   mSpriteName: SquareBook_Text
   mFillCenter: 1
   mType: 0
@@ -36536,7 +36721,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: CircleSoccerBall_Begin
   mFillCenter: 1
   mType: 0
@@ -37523,7 +37708,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -37799,7 +37984,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
   mSpriteName: SquareHappySquare_End
   mFillCenter: 1
   mType: 0
@@ -38907,8 +39092,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
-  mSpriteName: Text
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
+  mSpriteName: Circle_Text
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -41573,10 +41758,10 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: CircleBirthdayCake_End
   mFillCenter: 1
-  mType: 0
+  mType: 1
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -41935,7 +42120,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -41982,13 +42167,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 0}
+  mColor: {r: 1, g: 1, b: 1, a: .250980407}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: TriangleSliceofPizza_End
   mFillCenter: 1
-  mType: 0
+  mType: 1
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -43328,7 +43513,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: Circle6
   mFillCenter: 1
   mType: 0
@@ -43898,8 +44083,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
-  mSpriteName: Text
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
+  mSpriteName: Circle_Text
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -44146,7 +44331,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: Circle8
   mFillCenter: 1
   mType: 0
@@ -44595,7 +44780,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
   mSpriteName: CircleSun_Begin
   mFillCenter: 1
   mType: 0
@@ -44649,8 +44834,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
-  mSpriteName: Text
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
+  mSpriteName: Circle_Text
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -45059,10 +45244,10 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: CircleBird_End
   mFillCenter: 1
-  mType: 0
+  mType: 1
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -45187,7 +45372,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -45498,7 +45683,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: TriangleMountain_Begin
   mFillCenter: 1
   mType: 0
@@ -45516,13 +45701,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 0}
+  mColor: {r: 1, g: 1, b: 1, a: .458823532}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: TriangleMountain_End
   mFillCenter: 1
-  mType: 0
+  mType: 1
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -45569,7 +45754,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -45602,7 +45787,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: Text_Triangle
   mFillCenter: 1
   mType: 0
@@ -45623,7 +45808,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: Text_Triangle
   mFillCenter: 1
   mType: 0
@@ -45656,7 +45841,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -45688,10 +45873,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 150eea64ba46e6747bdd1109cb739f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mFPS: 2
+  mFPS: 1
   mPrefix: TriangleMagician_End
   mLoop: 1
-  mPixelPerfect: 0
+  mPixelPerfect: 1
 --- !u!114 &11402350
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -45703,11 +45888,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 0}
+  mColor: {r: 1, g: 1, b: 1, a: .368627459}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
-  mSpriteName: TriangleMagician_End_B
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
+  mSpriteName: TriangleMagician_End
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -45727,7 +45912,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: TriangleMagician_Begin
   mFillCenter: 1
   mType: 0
@@ -45808,7 +45993,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
   mSpriteName: TriangleHappyTriangle_Begin
   mFillCenter: 1
   mType: 0
@@ -45829,7 +46014,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
   mSpriteName: TriangleHappyTriangle_End
   mFillCenter: 1
   mType: 0
@@ -45879,7 +46064,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -45912,7 +46097,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 48b9ecd61b237864c8d1f50ffe5a6cc3, type: 2}
+  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
   mSpriteName: Text_Triangle
   mFillCenter: 1
   mType: 0
@@ -45933,7 +46118,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
   mSpriteName: SquareBook_Text
   mFillCenter: 1
   mType: 0
@@ -45966,7 +46151,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -45998,8 +46183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 150eea64ba46e6747bdd1109cb739f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mFPS: 2
-  mPrefix: SquareOven_End
+  mFPS: 1
+  mPrefix: SquareRobot_End
   mLoop: 1
   mPixelPerfect: 1
 --- !u!114 &11402386
@@ -46016,10 +46201,10 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
-  mSpriteName: SquareOven_End
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
+  mSpriteName: SquareRobot_End_B
   mFillCenter: 1
-  mType: 0
+  mType: 1
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -46037,8 +46222,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 4c2a2403bbcda574686bcba16fb5a821, type: 2}
-  mSpriteName: SquareOven_Begin
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
+  mSpriteName: SquareRobot_Begin
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -46777,6 +46962,180 @@ MonoBehaviour:
   clipFinish: {fileID: 0}
   delayFinish: 0
   randomFinish: 1
+--- !u!114 &11402468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 4
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
+  mSpriteName: SquareBook_Text
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &11402470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d30536bb4916d349a57f1b46f1ef6da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: {fileID: 11402486}
+--- !u!114 &11402472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101324}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 5
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
+  mSpriteName: Circle5
+  mFillCenter: 1
+  mType: 1
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &11402474
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22dc6ac1fd3ce594b89dfbfad7673c40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  to: {r: 1, g: 1, b: 1, a: 1}
+  duration: 1
+  delay: 0
+--- !u!114 &11402476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150eea64ba46e6747bdd1109cb739f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mFPS: 2
+  mPrefix: SquareOven_End
+  mLoop: 1
+  mPixelPerfect: 1
+--- !u!114 &11402478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: .403921574}
+  mPivot: 4
+  mDepth: 6
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
+  mSpriteName: SquareOven_End
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &11402480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 4
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
+  mSpriteName: SquareOven_Begin
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!114 &11402482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22dc6ac1fd3ce594b89dfbfad7673c40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  to: {r: 1, g: 1, b: 1, a: 0}
+  duration: 1
+  delay: 0
+--- !u!114 &11402484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipStart: {fileID: 8300000, guid: 5c0c3d1d844341042a9bcd8954103c40, type: 3}
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
+--- !u!114 &11402486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59ad3d5eb9f2c8f4597243731af9af34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameBlock: {fileID: 0}
+  endItems:
+  - {fileID: 11402482}
+  basicEndItem: {fileID: 11402474}
+  pointButton: {fileID: 11402470}
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1
