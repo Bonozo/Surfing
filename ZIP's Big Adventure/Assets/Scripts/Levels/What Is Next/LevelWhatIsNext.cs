@@ -35,7 +35,7 @@ public class LevelWhatIsNext : ZIPLevel {
 
 	private IEnumerator HappyEndThread()
 	{
-		SendMessage ("PlayEnd", true, SendMessageOptions.DontRequireReceiver);
+		SendMessage ("PlayFinish", true, SendMessageOptions.DontRequireReceiver);
 		GameController.Instance.PlayCorrectAnswer ();
 		foreach(var it in items) it.DisableCollider();
 		yield return new WaitForEndOfFrame ();
