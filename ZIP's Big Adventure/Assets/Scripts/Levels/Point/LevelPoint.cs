@@ -26,6 +26,7 @@ public class LevelPoint : ZIPLevel {
 	
 	private IEnumerator HappyEndThread()
 	{
+		SendMessage ("PlayFinish", SendMessageOptions.DontRequireReceiver);
 		GameController.Instance.PlayCorrectAnswer ();
 
 		foreach(var et in endItems) et.Work();
