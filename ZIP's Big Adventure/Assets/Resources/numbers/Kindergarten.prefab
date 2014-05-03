@@ -19158,6 +19158,7 @@ MonoBehaviour:
   - {fileID: 11400262}
   - {fileID: 11401984}
   dragsLenght: 5
+  playCount: 1
 --- !u!114 &11400014
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19832,6 +19833,7 @@ MonoBehaviour:
   - {fileID: 11401042}
   - {fileID: 11401844}
   dragsLenght: 5
+  playCount: 1
 --- !u!114 &11400092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20704,6 +20706,7 @@ MonoBehaviour:
   - {fileID: 11401540}
   - {fileID: 11400126}
   dragsLenght: 2
+  playCount: 1
 --- !u!114 &11400192
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -24107,6 +24110,7 @@ MonoBehaviour:
   - {fileID: 11400476}
   - {fileID: 11401560}
   dragsLenght: 3
+  playCount: 1
 --- !u!114 &11400578
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26262,6 +26266,7 @@ MonoBehaviour:
   - {fileID: 11400850}
   - {fileID: 11402044}
   dragsLenght: 6
+  playCount: 1
 --- !u!114 &11400822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35471,6 +35476,7 @@ MonoBehaviour:
   - {fileID: 11401246}
   - {fileID: 11400590}
   dragsLenght: 4
+  playCount: 1
 --- !u!114 &11401878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37217,6 +37223,7 @@ MonoBehaviour:
   - {fileID: 11400982}
   - {fileID: 11401624}
   dragsLenght: 7
+  playCount: 1
 --- !u!114 &11402074
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37323,9 +37330,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 5204921a3e87fb940b64d360bdd73fe7, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37342,9 +37349,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 03e6cb294d09a12499ea30f8f9089b67, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402090
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37361,9 +37368,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: fc7ecb4b26974f84d85960a3a88ae25e, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37380,9 +37387,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 5204921a3e87fb940b64d360bdd73fe7, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402094
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37399,9 +37406,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 66d3f39fe5e11c547834577e95e32671, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37418,9 +37425,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 66d3f39fe5e11c547834577e95e32671, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402098
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37437,9 +37444,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 5204921a3e87fb940b64d360bdd73fe7, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37456,9 +37463,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 5204921a3e87fb940b64d360bdd73fe7, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37608,9 +37615,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 853f365bd360b374a84c43555f2f88b3, type: 3}
+  delayFinish: 1
+  randomFinish: 0
 --- !u!114 &11402118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37627,9 +37634,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 5204921a3e87fb940b64d360bdd73fe7, type: 3}
+  delayFinish: 1
+  randomFinish: 0
 --- !u!114 &11402120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37646,9 +37653,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 853f365bd360b374a84c43555f2f88b3, type: 3}
+  delayFinish: 1
+  randomFinish: 0
 --- !u!114 &11402122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37665,9 +37672,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 12b184434901ca14589266741657525d, type: 3}
+  delayFinish: 1
+  randomFinish: 0
 --- !u!114 &11402124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37684,9 +37691,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 853f365bd360b374a84c43555f2f88b3, type: 3}
+  delayFinish: 1
+  randomFinish: 0
 --- !u!114 &11402126
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37703,9 +37710,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 5204921a3e87fb940b64d360bdd73fe7, type: 3}
+  delayFinish: 1
+  randomFinish: 0
 --- !u!114 &11402128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37722,9 +37729,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: c3b4d54dee909bd44a365fcee0880488, type: 3}
+  delayFinish: 1
+  randomFinish: 0
 --- !u!114 &11402130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37741,9 +37748,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 5204921a3e87fb940b64d360bdd73fe7, type: 3}
+  delayFinish: 1
+  randomFinish: 0
 --- !u!114 &11402132
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37760,9 +37767,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 66d3f39fe5e11c547834577e95e32671, type: 3}
+  delayFinish: 1
+  randomFinish: 0
 --- !u!114 &11402134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37779,9 +37786,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: e7de84355c8b7ec45a53bb60cff07e61, type: 3}
+  delayFinish: 1
+  randomFinish: 0
 --- !u!114 &11402136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37798,9 +37805,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 853f365bd360b374a84c43555f2f88b3, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402138
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37817,9 +37824,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 66d3f39fe5e11c547834577e95e32671, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37836,9 +37843,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 56af2ea3c66322942869ba96cd001631, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37855,9 +37862,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 66d3f39fe5e11c547834577e95e32671, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402144
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37874,9 +37881,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 66d3f39fe5e11c547834577e95e32671, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37893,9 +37900,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 12b184434901ca14589266741657525d, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37912,9 +37919,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 66d3f39fe5e11c547834577e95e32671, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37931,9 +37938,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: 5204921a3e87fb940b64d360bdd73fe7, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!114 &11402152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37950,9 +37957,9 @@ MonoBehaviour:
   clipEnd: {fileID: 0}
   delayEnd: 0
   randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
+  clipFinish: {fileID: 8300000, guid: c3b4d54dee909bd44a365fcee0880488, type: 3}
+  delayFinish: 1.5
+  randomFinish: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

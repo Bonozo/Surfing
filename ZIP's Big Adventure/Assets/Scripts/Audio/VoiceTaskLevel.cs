@@ -21,7 +21,6 @@ public class VoiceTaskLevel : MonoBehaviour {
 
 	void PlayPart(string value)
 	{
-		Debug.Log ("receive Part: " + value);
 		if(playPartMessage)
 		{
 			// letter

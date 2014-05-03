@@ -6,14 +6,17 @@ public class LevelJumble : ZIPLevel {
 	public JumbleDrag[] drags;
 	public EndItem[] endItems;
 	public int dragsLenght;
+	public bool playCount = false;
 
 	private int done;
+	private int count;//the same done but counted before animation, used for sound effects
 
 	public override void StartGame ()
 	{
 		foreach(var dr in drags) dr.Reset();
 		foreach(var et in endItems) et.Reset();
 		done = 0;
+		count = 0;
 
 		gameObject.SetActive (true);
 		SendMessage ("PlayStart",SendMessageOptions.DontRequireReceiver);
@@ -34,9 +37,12 @@ public class LevelJumble : ZIPLevel {
 	// Used for audio effects
 	public void DragComplete(JumbleDrag drag)
 	{
+		count++;
+		if(playCount)
+			AudioManager.Instance.PlayNumber(count);
 		if(drag.GetComponent<UISprite>() != null)
 			SendMessage("PlayPart",drag.GetComponent<UISprite>().spriteName,SendMessageOptions.DontRequireReceiver);
-		if(done == dragsLenght-1)
+		if(count == dragsLenght-1)
 			SendMessage ("PlayEnd", SendMessageOptions.DontRequireReceiver);
 	}
 
