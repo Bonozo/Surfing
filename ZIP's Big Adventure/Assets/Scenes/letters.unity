@@ -118,9 +118,9 @@ MonoBehaviour:
   - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
   - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
   rangeBound: {x: 120, y: 120, z: 0}
-  rateMin: 2
-  rateMax: 4
-  startDelayRate: 4
+  rateMin: 3
+  rateMax: 5
+  startDelayRate: 5
 --- !u!1 &243864997
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,9 +264,9 @@ MonoBehaviour:
   - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
   - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
   rangeBound: {x: 120, y: 120, z: 0}
-  rateMin: 2
-  rateMax: 4
-  startDelayRate: 4
+  rateMin: 3
+  rateMax: 5
+  startDelayRate: 5
 --- !u!1 &415727274
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,9 +535,9 @@ MonoBehaviour:
   - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
   - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
   rangeBound: {x: 120, y: 120, z: 0}
-  rateMin: 2
-  rateMax: 4
-  startDelayRate: 4
+  rateMin: 3
+  rateMax: 5
+  startDelayRate: 5
 --- !u!1 &573083112
 GameObject:
   m_ObjectHideFlags: 0
@@ -633,7 +633,7 @@ MonoBehaviour:
   rangeBound: {x: 120, y: 120, z: 0}
   rateMin: 3
   rateMax: 5
-  startDelayRate: 4
+  startDelayRate: 5
 --- !u!1 &640925309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1759,6 +1759,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 65dda21258360b546b640e8d96a2cb34, type: 2}
+      propertyPath: clipNumber.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 65dda21258360b546b640e8d96a2cb34, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1786,6 +1790,10 @@ Prefab:
     - target: {fileID: 400000, guid: 65dda21258360b546b640e8d96a2cb34, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 65dda21258360b546b640e8d96a2cb34, type: 2}
+      propertyPath: playNumbers
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 65dda21258360b546b640e8d96a2cb34, type: 2}
@@ -1836,9 +1844,9 @@ MonoBehaviour:
   - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
   - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
   rangeBound: {x: 120, y: 120, z: 0}
-  rateMin: 2
-  rateMax: 4
-  startDelayRate: 4
+  rateMin: 3
+  rateMax: 5
+  startDelayRate: 5
 --- !u!1 &1410591231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,9 +1891,9 @@ MonoBehaviour:
   - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
   - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
   rangeBound: {x: 120, y: 120, z: 0}
-  rateMin: 2
-  rateMax: 4
-  startDelayRate: 4
+  rateMin: 3
+  rateMax: 5
+  startDelayRate: 5
 --- !u!1 &1497076528
 GameObject:
   m_ObjectHideFlags: 0
@@ -1965,9 +1973,9 @@ MonoBehaviour:
   - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
   - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
   rangeBound: {x: 120, y: 120, z: 0}
-  rateMin: 2
-  rateMax: 4
-  startDelayRate: 4
+  rateMin: 3
+  rateMax: 5
+  startDelayRate: 5
 --- !u!1 &1558198527
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,7 +2196,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.800000072, y: .800000072, z: 0}
+  m_LocalPosition: {x: 0, y: 2.00522184, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1607776916}
@@ -2257,9 +2265,9 @@ MonoBehaviour:
   - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
   - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
   rangeBound: {x: 120, y: 120, z: 0}
-  rateMin: 2
-  rateMax: 4
-  startDelayRate: 4
+  rateMin: 3
+  rateMax: 5
+  startDelayRate: 5
 --- !u!1 &1759640168
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,6 +2538,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 3c6e698960db53b45a820a950393238d, type: 3}
   - {fileID: 8300000, guid: 9b44a0bc26de5714ab46f2028ab561ca, type: 3}
   - {fileID: 8300000, guid: 94564a03903835641ac43d471fec362c, type: 3}
+  playLetters: 1
   clipLetter:
   - {fileID: 8300000, guid: 655f4be0c9ca1e14893d25428540215b, type: 3}
   - {fileID: 8300000, guid: abd238b68f7afca40841fa4d3d06eece, type: 3}
@@ -2557,6 +2566,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 2a7bd18e7b2d9cf48828a1b50c1dba57, type: 3}
   - {fileID: 8300000, guid: c00b63944258a1c4d9a3c0d4d46d54db, type: 3}
   - {fileID: 8300000, guid: 0bbcc177e13f1f74dad057e91ae8b0fe, type: 3}
+  playNumbers: 0
+  clipNumber: []
 --- !u!4 &1781130348
 Transform:
   m_ObjectHideFlags: 0
@@ -2773,7 +2784,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1956016496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -512.799988, y: -383.199982, z: 0}
+  m_LocalPosition: {x: -513.001953, y: -382.997375, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 1898425767}
@@ -2842,9 +2853,9 @@ MonoBehaviour:
   - {fileID: 100002, guid: bf16dbd2e0e32af4a9ab0de9c17749f2, type: 2}
   - {fileID: 100002, guid: d3a8c07cb6be10d4e8f5795e79f58da1, type: 2}
   rangeBound: {x: 120, y: 120, z: 0}
-  rateMin: 2
-  rateMax: 4
-  startDelayRate: 4
+  rateMin: 3
+  rateMax: 5
+  startDelayRate: 5
 --- !u!1 &1991042297
 GameObject:
   m_ObjectHideFlags: 0
