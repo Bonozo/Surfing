@@ -37315,12 +37315,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402088
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37329,12 +37334,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402090
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37343,12 +37353,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37357,12 +37372,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402094
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37371,12 +37391,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100930}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402096
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37385,12 +37410,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100100}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402098
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37399,12 +37429,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100820}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402100
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37413,12 +37448,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100860}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: fbc492237cd742d49babe83d7a2cf40c, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402102
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37427,12 +37467,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100090}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 34121da3ba25a0a469abd3337ede8bac, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402104
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37441,12 +37486,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 101096}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 67c0f478ae4d3a545b78eb91dd4fbf61, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37455,12 +37505,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: a4d0b81068b30e94a91f7d7a41dd3c66, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37469,12 +37524,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100006}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 8f0c8864e45250043a39e2bd6bbf760e, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402110
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37483,12 +37543,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100432}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 53e07524b3a637e488020781e618448a, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402112
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37497,12 +37562,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100986}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 69e33b4c7961e544da6c9d631bfc5bef, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402114
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37511,12 +37581,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: eb15edf58d6e39c4aab29fffe662a8dd, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402116
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37525,12 +37600,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100198}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 6959ed8250146444c82b32e1004d147f, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37539,12 +37619,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 4383fa33212797b4080a67ecae6f4a04, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402120
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37553,12 +37638,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100652}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1b34b1813f14c9b4aa574be88c2e106b, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37567,12 +37657,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 0a692aba89d53cd4caf5f6c38404b16e, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402124
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37581,12 +37676,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: cc10e64d72ff6c64f8f1053000f0150a, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402126
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37595,12 +37695,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100688}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 8172a86fc568fd84f8cca9356832a471, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402128
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37609,12 +37714,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 101036}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 5df8a4b6222491b4e8cdb83d8ea4a740, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402130
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37623,12 +37733,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100938}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 1f4bc44e00aea9b4eb9b6db4a98fdee0, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402132
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37637,12 +37752,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 45ed917dd2d0b2e40950208eb10345ad, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37651,12 +37771,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: ed209980d74f73941939029b86d933dc, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402136
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37665,12 +37790,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 34e92c1d28befb646bbb39c58abe650e, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402138
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37679,12 +37809,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100406}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 82b93340baaf265499a4f3b3efe0655c, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402140
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37693,12 +37828,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 9d2759175c7b4ed4abb2c651fbc3cf34, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37707,12 +37847,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 665ae5b1d2537ea42b2b241945af6b48, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402144
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37721,12 +37866,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100908}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 9921d81d4ff46ad4b8b2959d03d61fdb, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37735,12 +37885,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 101044}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 9ac0138bbd8502748b35035135e25a05, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402148
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37749,12 +37904,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100744}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 864ecb74b6dd7d445b0b4524a43464c2, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37763,12 +37923,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: 60449746d109c004f9b4ddcbcbc03a29, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!114 &11402152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37777,12 +37942,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 100450}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b0a3ca77fd19c4a9d41584745bdfbb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clipStart: {fileID: 8300000, guid: be29178d39027df4db0b50784ca9561b, type: 3}
-  clipCorrect: []
-  clipWrong: []
+  playPartMessage: 0
+  clipEnd: {fileID: 0}
+  delayEnd: 0
+  randomEnd: 0
+  clipFinish: {fileID: 0}
+  delayFinish: 0
+  randomFinish: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

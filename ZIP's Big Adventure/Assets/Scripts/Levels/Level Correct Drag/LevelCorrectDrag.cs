@@ -43,7 +43,6 @@ public class LevelCorrectDrag : ZIPLevel {
 		//SendMessage ("PlayAnswer", other == rightAnswer);
 		if(other == rightAnswer)
 		{
-			GameController.Instance.PlayCorrectAnswer();
 			StartCoroutine(HappyEnd());
 		}
 		else
@@ -55,6 +54,9 @@ public class LevelCorrectDrag : ZIPLevel {
 
 	private IEnumerator HappyEnd()
 	{
+		GameController.Instance.PlayCorrectAnswer();
+		SendMessage ("PlayFinish",SendMessageOptions.DontRequireReceiver);
+
 		yield return new WaitForEndOfFrame();
 		dragZIP.DisableCollider();
 

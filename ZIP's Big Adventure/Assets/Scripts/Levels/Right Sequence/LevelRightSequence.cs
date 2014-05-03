@@ -49,6 +49,7 @@ public class LevelRightSequence : ZIPLevel {
 	
 	private IEnumerator HappyEndThread()
 	{
+		SendMessage ("PlayFinish",SendMessageOptions.DontRequireReceiver);
 		yield return new WaitForSeconds(0.5f);
 		gameBlock.path.OneStepGo ();
 		yield return new WaitForSeconds(6f);

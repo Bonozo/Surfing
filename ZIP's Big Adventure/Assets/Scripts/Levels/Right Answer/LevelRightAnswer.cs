@@ -25,12 +25,12 @@ public class LevelRightAnswer : ZIPLevel {
 		{
 			GameController.Instance.PlayWrongAnswer();
 		}
-		SendMessage ("PlayEnd",point == correctAnswer,SendMessageOptions.DontRequireReceiver);
 	}
 	
 	private IEnumerator HappyEndThread()
 	{
 		GameController.Instance.PlayCorrectAnswer();
+		SendMessage ("PlayFinish",SendMessageOptions.DontRequireReceiver);
 		
 		foreach(var btr in buttons) btr.DisableCollider();
 		foreach(var et in endItems) et.Work();

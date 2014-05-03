@@ -16,7 +16,7 @@ public class LevelTrace : ZIPTrace {
 
 	public override void Complete()
 	{
-		SendMessage ("PlayEnd", true, SendMessageOptions.DontRequireReceiver);
+		SendMessage ("PlayFinish", true, SendMessageOptions.DontRequireReceiver);
 		StartCoroutine(HappyEndThread());
 	}
 
