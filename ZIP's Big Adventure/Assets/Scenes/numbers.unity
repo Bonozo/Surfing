@@ -604,6 +604,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 426705994}
   - 82: {fileID: 426705993}
+  - 114: {fileID: 426705995}
   m_Layer: 0
   m_Name: MusicLoop
   m_TagString: Untagged
@@ -620,7 +621,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 08d3966fcbd506e49ba97b0d47b9e070, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: .5
   m_Pitch: 1
   Loop: 1
@@ -680,6 +681,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &426705995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 426705992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15a12c258549c6e48a1a419068b1a3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &440979504
 GameObject:
   m_ObjectHideFlags: 0
