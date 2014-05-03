@@ -3,8 +3,13 @@ using System.Collections;
 
 public class WinScreen : MonoBehaviour {
 
-	public GameObject backButton;
-	bool ended = false;
+	private ButtonBack backButton;
+	private bool ended = false;
+
+	void Awake()
+	{
+		backButton = GameObject.FindObjectOfType<ButtonBack> ();
+	}
 
 	void OnEnable()
 	{
@@ -27,18 +32,19 @@ public class WinScreen : MonoBehaviour {
 
 		int cmpt = PlayerPrefs.GetInt ("completed_games", 0);
 		PlayerPrefs.SetInt ("completed_games", cmpt + 1);
-
 		PlayerPrefs.Save ();
+
 		if(backButton != null)
-			backButton.SetActive(false);
+			backButton.gameObject.SetActive(false);
 		yield return new WaitForSeconds (8f);
-		foreach(Transform t in transform)
+		var fw = transform.Find ("Fireworks");
+		foreach(Transform t in fw)
 		{
 			if(t.gameObject.GetComponent<Fireworks>() != null)
 				Destroy(t.gameObject.GetComponent<Fireworks>());
 		}
 
-		yield return new WaitForSeconds (5f);
+		yield return new WaitForSeconds (3.1f);
 		ended = true;
 	}
 }

@@ -15,6 +15,7 @@ public class Fireworks : MonoBehaviour {
 	{
 		work = true;
 		nextTime = Random.Range(0.1f,startDelayRate);
+		if(Random.Range(0,3)==0) nextTime/=2f;
 	}
 
 	void Update()
