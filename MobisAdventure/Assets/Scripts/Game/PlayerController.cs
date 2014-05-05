@@ -374,14 +374,14 @@ public class PlayerController : MonoBehaviour
 		
 		//GameObject.Find("RevmobManager").SendMessage("showRevmobFullScreen",SendMessageOptions.DontRequireReceiver);
 		life=false;
-		rigidbody.drag = 2;
-		Debug.Log("DEATH");
+		//rigidbody.drag = 2;
+		//Debug.Log("DEATH");
 		
 		chaseBar.parent.gameObject.SetActive(false);
 		//bonus and save coins
 		Coin_Counter.AddSaveCoins(250);
 		
-		rigidbody.isKinematic = true;
+		//rigidbody.isKinematic = true;
 		UpdateEndMenu();
 		
 		// invention
@@ -542,6 +542,9 @@ public class PlayerController : MonoBehaviour
 		m_airSpeed = 150 + 10*suspension;
 		//set players springness? mass?
 		m_speed = speed_bonus + 25*tread;
+
+		// new control system
+		rotateFactor += 0.2f * suspension;
 		
 	}
 	
