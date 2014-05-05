@@ -110,8 +110,6 @@ public class PlayerController : MonoBehaviour
 		
 		//get start position
 		p_startPosition = transform.position;
-		
-		A_Howel();
 	}
 
 	private float rotateFactor = 2f;
@@ -179,6 +177,7 @@ public class PlayerController : MonoBehaviour
 		
 		if(m_init)
 		{
+			A_Howel();
 			PlaceOnPath();
 			m_init = false;
 		}
@@ -498,7 +497,7 @@ public class PlayerController : MonoBehaviour
 			collider.center = classic_cc;
 			//upgrades
 			acc_bonus = 12f; //low numbers
-			speed_bonus = 300f;
+			speed_bonus = 350f;
 			rigidbody.mass = rigidbody.mass + 0f;
 			
 		} else if(GameManager.m_chosenSled.ToString() == "Turbo") {
