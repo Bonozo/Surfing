@@ -99,8 +99,8 @@ public class Yeti : MonoBehaviour {
 		if(boost)
 		{
 			currentSpeed *= 2f;
-			currentAppearSpeed *= 1.5f;
-			currentChaseSpeed *= 1.5f;
+			currentAppearSpeed *= 2f;
+			currentChaseSpeed *= 2f;
 		}
 
 		float mmin = Camera.main.ScreenToWorldPoint (new Vector3 (0f, 0f, 0f)).x - 4f;
