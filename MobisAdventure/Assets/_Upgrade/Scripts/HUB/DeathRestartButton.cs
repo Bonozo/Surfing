@@ -10,11 +10,12 @@ public class DeathRestartButton : MonoBehaviour {
 
 	void OnClick()
 	{
-		GameManager.m_chosenSled = (GameManager.ChosenSled)(PlayerPrefs.GetInt("mobisled",1)-1);
+		Restarter.Instance.CreateLevel ();
+		/*GameManager.m_chosenSled = (GameManager.ChosenSled)(PlayerPrefs.GetInt("mobisled",1)-1);
 		GameManager.m_chosenMobi = (GameManager.ChosenMobi)(PlayerPrefs.GetInt("mobicharacter",1)-1);
 		GameManager.m_chosenLevel = (GameManager.ChosenLevel)(PlayerPrefs.GetInt("mobilevel",1)-1);
 		Loader.sceneName = GameManager.m_chosenLevel.ToString();
 		Loader.destroyme = true;
-		Application.LoadLevel("Loader");
+		Application.LoadLevel("Loader");*/
 	}
 }

@@ -23,14 +23,7 @@ public class Path : MonoBehaviour
 	private float m_timeStride = 0.0f;
 	
 	public delegate void PosDel(Vector3[] positions);
-	
-	public static Path m_path = null;
-	
-	void Awake()
-	{
-		m_path = this;
-	}
-	
+
 	void Start()
 	{
 		m_timeStride = 1.0f/m_numCurvePositions;
@@ -173,7 +166,10 @@ public class Path : MonoBehaviour
 					Curve.SetPosOnCubicCurve(out position, time % 1.0f, m_pathPoints[index], m_pathPoints[index + 1],
 						m_pathPoints[index + 2], m_pathPoints[index + 3]);
 				else
-					position = m_pathPoints[index];
+				{
+					if(index < m_pathPoints.Length)
+						position = m_pathPoints[index];
+				}
 				break;
 			default:
 				break;
@@ -317,4 +313,27 @@ public class Path : MonoBehaviour
     {
         get { return m_path; }
     }
+
+	#region Static Instance
+	
+	// Multithreaded Safe Singleton Pattern
+	// URL: http://msdn.microsoft.com/en-us/library/ms998558.aspx
+	private static readonly object _syncRoot = new Object();
+	private static volatile Path _staticInstance;	
+	public static Path m_path 
+	{
+		get {
+			if (_staticInstance == null) {				
+				lock (_syncRoot) {
+					_staticInstance = FindObjectOfType (typeof(Path)) as Path;
+					if (_staticInstance == null) {
+						Debug.LogError("The Path instance was unable to be found, if this error persists please contact support.");						
+					}
+				}
+			}
+			return _staticInstance;
+		}
+	}
+	
+	#endregion
 }

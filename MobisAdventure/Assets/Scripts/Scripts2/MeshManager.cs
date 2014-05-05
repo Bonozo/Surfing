@@ -63,8 +63,9 @@ public class MeshManager : MonoBehaviour
 	}
 	
 	// Use this for initialization
-	void Start()
+	IEnumerator Start()
 	{
+		yield return new WaitForEndOfFrame ();
 		GameObject gameObj = null;
 		CurveMesh curveMesh = null;
 		
