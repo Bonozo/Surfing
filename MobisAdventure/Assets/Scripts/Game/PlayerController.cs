@@ -220,8 +220,8 @@ public class PlayerController : MonoBehaviour
 		//	fadeAmmount = 1f;
 
 		
-		if (sfx_frostObj){
-			sfx_frostColor.a =  fadeAmmount - (yeti.Distance * 0.13f);
+		if (sfx_frostObj && !yeti.IsIntro){
+			sfx_frostColor.a =  fadeAmmount - (yeti.Distance * 0.18f);
 			sfx_frostObj.renderer.material.color = sfx_frostColor;
 		}
 		

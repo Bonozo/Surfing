@@ -23,6 +23,7 @@ public class Yeti : MonoBehaviour {
 	public bool boost{ get; set; }
 
 	public float Distance{ get { return PlayerController.Instance.transform.position.x - playerDeathDistance - distance; } }
+	public bool IsIntro { get { return !started; } }
 
 	private ButtonBoost buttonBoost;
 
