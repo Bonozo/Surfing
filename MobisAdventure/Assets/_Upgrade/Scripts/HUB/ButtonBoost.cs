@@ -18,7 +18,7 @@ public class ButtonBoost : MonoBehaviour {
 	{
 		if(tweener.enabled && value) return;
 		tweener.enabled = value;
-		if(value) tweener.Play();
+		if(value) tweener.PlayForward();
 		else tweener.transform.localScale = new Vector3(1f,1f,1f);
 	}
 }

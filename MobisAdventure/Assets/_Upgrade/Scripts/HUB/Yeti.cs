@@ -14,7 +14,7 @@ public class Yeti : MonoBehaviour {
 	private float maxChaseSpeed = 11f;
 
 	private float distance = 10f;
-	private float begginingAppearTime = 5f;
+	//private float begginingAppearTime = 5f;
 
 	private float boostAlertDistance = 50f;
 	private float playerDeathDistance = 2.5f;

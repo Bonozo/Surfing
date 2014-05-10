@@ -428,8 +428,7 @@ public class PlayerController : MonoBehaviour
 			PlayerPrefs.SetFloat("MaxHeight", p_maxHeight);			
 		}
 		
-		int coinDif;
-		coinDif = Coin_Counter.m_ccounter.coin_balance - Coin_Counter.m_ccounter.start_balance;
+		int coinDif = Coin_Counter.m_ccounter.coin_balance - Coin_Counter.m_ccounter.start_balance;
 	} 
 	
 	//END SCREEN
