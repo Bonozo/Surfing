@@ -93,6 +93,7 @@ public class PlayerController : MonoBehaviour
 	void Start()
 	{
 		SetupBike();
+		SetupAudio ();
 		DistanceHighScore();
 		if(!chaseBar)
 			chaseBar = GameObject.Find("Chase_Bar").transform;
@@ -110,6 +111,19 @@ public class PlayerController : MonoBehaviour
 		
 		//get start position
 		p_startPosition = transform.position;
+	}
+
+	void SetupAudio()
+	{
+		bool optMusic = PlayerPrefs.GetInt ("options_music", 0) == 1;
+		bool optSound = PlayerPrefs.GetInt ("options_sound", 0) == 1;
+		MusicLoop.Instance.audio.mute = !optMusic;
+
+
+		AudioSource[] audios = GameObject.FindObjectsOfType<AudioSource>();
+		foreach(var aud in audios)
+			if( aud != MusicLoop.Instance.audio)
+				aud.mute = !optSound;
 	}
 
 	private float rotateFactor = 2f;

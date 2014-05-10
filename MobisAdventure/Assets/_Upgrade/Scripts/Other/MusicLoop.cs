@@ -2,9 +2,7 @@
 using System.Collections;
 
 public class MusicLoop : MonoBehaviour {
-
-	public bool playAutomatically = false;
-
+	
 	void Awake()
 	{
 		audio.playOnAwake = false;
@@ -15,8 +13,7 @@ public class MusicLoop : MonoBehaviour {
 	{
 		yield return new WaitForEndOfFrame();
 		yield return new WaitForEndOfFrame();
-		if (playAutomatically)
-			audio.Play ();
+		audio.Play ();
 	}
 
 	#region Static Instance
