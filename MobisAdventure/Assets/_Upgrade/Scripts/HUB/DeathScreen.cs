@@ -31,6 +31,7 @@ public class DeathScreen : MonoBehaviour {
 
 	IEnumerator ShowThread()
 	{
+		MusicLoop.Instance.DropVolume (0.4f, 1f);
 		yield return new WaitForSeconds(1f);
 		bgAlphaTween.PlayForward();
 		yield return new WaitForSeconds(bgAlphaTween.duration);

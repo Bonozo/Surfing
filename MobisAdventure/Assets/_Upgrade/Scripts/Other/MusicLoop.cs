@@ -16,6 +16,23 @@ public class MusicLoop : MonoBehaviour {
 		audio.Play ();
 	}
 
+	public void DropVolume(float delta,float timeDelta)
+	{
+		StartCoroutine (DropVolumeThread (delta, timeDelta));
+	}
+
+	private IEnumerator DropVolumeThread(float delta,float timeDelta)
+	{
+		float speed = delta / timeDelta;
+		while(timeDelta > 0f)
+		{
+			float ddt = Time.deltaTime;
+			timeDelta -= ddt;
+			audio.volume = Mathf.Clamp01(audio.volume - speed*ddt);
+			yield return new WaitForEndOfFrame();
+		}
+	}
+
 	#region Static Instance
 	
 	// Multithreaded Safe Singleton Pattern

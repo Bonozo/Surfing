@@ -82,9 +82,9 @@ public class PlayerController : MonoBehaviour
 	{
 		m_backWheel.radius = 0.74f;
 		m_frontWheel.radius = 0.68f;
-
-
+		
 		tilt = PlayerPrefs.GetInt("options_control")==1;
+
 		boost = GameObject.FindObjectOfType<Boost> ();
 		buttonBoost = GameObject.FindObjectOfType<ButtonBoost> ();
 		yeti = GameObject.FindObjectOfType<Yeti> ();
@@ -117,8 +117,10 @@ public class PlayerController : MonoBehaviour
 	{
 		bool optMusic = PlayerPrefs.GetInt ("options_music", 0) == 1;
 		bool optSound = PlayerPrefs.GetInt ("options_sound", 0) == 1;
-		MusicLoop.Instance.audio.mute = !optMusic;
 
+		MusicLoop.Instance.audio.mute = !optMusic;
+		MusicLoop.Instance.audio.volume = 0.1f;
+		MusicLoop.Instance.DropVolume (-0.4f, 3f);
 
 		AudioSource[] audios = GameObject.FindObjectsOfType<AudioSource>();
 		foreach(var aud in audios)
@@ -131,21 +133,40 @@ public class PlayerController : MonoBehaviour
 	void FixedUpdate()
 	{
 		if(life && !s_pause && !death){
+
+			float tiltangle = -8f*DeviceAcceleration.Acceleration.x;
+			float tiltMin = 0.8f;
+			if(!tilt) tiltangle = 0;
+
 			boostingTime = Mathf.Max(0f,boostingTime -= Time.deltaTime);
 
-			if(controlLeftRotate || Input.GetAxis("Horizontal")<0){
+			if(controlLeftRotate){
 				if(rigidbody.angularVelocity.z<0f)
 					rigidbody.angularVelocity += new Vector3(0f,0f,10*rotateFactor*Time.deltaTime);
 				else
 					rigidbody.angularVelocity += new Vector3(0f,0f,rotateFactor*Time.deltaTime);
 				//transform.Rotate(-rotateFactor*Time.fixedDeltaTime,0f,0f);
 			}
-			else if(controlRightRotate || Input.GetAxis("Horizontal")>0){
+			else if(controlRightRotate){
 				if(rigidbody.angularVelocity.z>0f)
 					rigidbody.angularVelocity += new Vector3(0f,0f,-10*rotateFactor*Time.deltaTime);
 				else
 					rigidbody.angularVelocity += new Vector3(0f,0f,-rotateFactor*Time.deltaTime);
 				//transform.Rotate(rotateFactor*Time.fixedDeltaTime,0f,0f);
+			}
+			else if(Mathf.Abs(tiltangle)>tiltMin) {
+				if(tiltangle>0){
+					if(rigidbody.angularVelocity.z<0f)
+						rigidbody.angularVelocity += new Vector3(0f,0f,10*tiltangle*Time.deltaTime);
+					else
+						rigidbody.angularVelocity += new Vector3(0f,0f,tiltangle*Time.deltaTime);
+				}
+				else{
+					if(rigidbody.angularVelocity.z>0f)
+						rigidbody.angularVelocity += new Vector3(0f,0f,10*tiltangle*Time.deltaTime);
+					else
+						rigidbody.angularVelocity += new Vector3(0f,0f,tiltangle*Time.deltaTime);
+				}
 			}
 			else
 				rigidbody.angularVelocity *= 0.9f;
