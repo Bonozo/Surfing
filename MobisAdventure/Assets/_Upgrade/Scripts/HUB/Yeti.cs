@@ -26,10 +26,13 @@ public class Yeti : MonoBehaviour {
 	public bool IsIntro { get { return !started; } }
 
 	private ButtonBoost buttonBoost;
+	private GameObject monsterT;
 
 	void Awake()
 	{
 		buttonBoost = GameObject.FindObjectOfType<ButtonBoost> ();
+		monsterT = transform.parent.FindChild ("Monster").gameObject;
+		if(monsterT == null) Debug.Log("why is null?");
 		boost = false;
 
 		var pos = transform.position;
@@ -43,10 +46,10 @@ public class Yeti : MonoBehaviour {
 		StartCoroutine ("MonsterBoost");
 	}
 
-
 	IEnumerator MonsterAI()
 	{
 		yield return new WaitForSeconds (0.25f);
+		monsterT.audio.Play ();
 		// First plan
 		float ttime = 0f;
 		while( ttime < 2f)
@@ -91,6 +94,17 @@ public class Yeti : MonoBehaviour {
 				nextBoostDistance += nextBoostDelta;
 			}
 			yield return new WaitForEndOfFrame();
+		}
+	}
+
+	void Update()
+	{
+		// Audio
+		if( PlayerController.Instance.life)
+		{
+			float dist = Distance;
+			MusicLoop.Instance.audio.volume = 0.05f + Mathf.Clamp (Distance * 0.1f, 0f, 0.5f);
+			monsterT.audio.volume = 2f * (0.55f - MusicLoop.Instance.audio.volume);
 		}
 	}
 

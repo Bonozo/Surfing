@@ -22,7 +22,7 @@ public class SettingsItem : MonoBehaviour {
 		sprite.color = status?colGreen:colRed;
 
 		if (!PlayerPrefs.HasKey (optionName))
-			savedValue = defaultChecked;
+			status = defaultChecked;
 	}
 	
 	void OnClick()

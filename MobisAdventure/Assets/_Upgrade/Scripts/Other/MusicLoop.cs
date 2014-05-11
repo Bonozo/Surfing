@@ -28,7 +28,7 @@ public class MusicLoop : MonoBehaviour {
 		{
 			float ddt = Time.deltaTime;
 			timeDelta -= ddt;
-			audio.volume = Mathf.Clamp01(audio.volume - speed*ddt);
+			audio.volume = Mathf.Clamp(audio.volume - speed*ddt,0.05f,1f);
 			yield return new WaitForEndOfFrame();
 		}
 	}
