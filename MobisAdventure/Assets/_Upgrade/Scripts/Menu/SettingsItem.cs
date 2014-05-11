@@ -20,6 +20,9 @@ public class SettingsItem : MonoBehaviour {
 	{
 		sprite = gameObject.GetComponentInChildren<UISprite>();
 		sprite.color = status?colGreen:colRed;
+
+		if (!PlayerPrefs.HasKey (optionName))
+			savedValue = defaultChecked;
 	}
 	
 	void OnClick()
