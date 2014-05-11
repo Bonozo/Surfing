@@ -31,6 +31,10 @@ public class Yeti : MonoBehaviour {
 	{
 		buttonBoost = GameObject.FindObjectOfType<ButtonBoost> ();
 		boost = false;
+
+		var pos = transform.position;
+		pos.z = 6;
+		transform.position = pos;
 	}
 
 	void Start()
