@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: NumbersTraceThePath2
+  m_Name: NumbersTraceThePath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,44 +38,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: dff0abce2f670d046a7f2825d540d10d, type: 2}
+  material: {fileID: 2100000, guid: 4668bc45010d3834cb9d244af1bd568b, type: 2}
   sprites:
-  - name: A path from Lucky Puppy to a bone (numbers 10 through 20)
+  - name: A path from Marty Moose to a forest (numbers 5 through 15)
+    outer:
+      serializedVersion: 2
+      x: 975
+      y: 865
+      width: 999
+      height: 522
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 865
+      width: 999
+      height: 522
+    rotated: 0
+    paddingLeft: .0170170162
+    paddingRight: .00800800789
+    paddingTop: .0210727975
+    paddingBottom: .0268199239
+  - name: A path from Honey to a Carrot (numbers 1 through 10)
     outer:
       serializedVersion: 2
       x: 0
-      y: 474
-      width: 1192
-      height: 794
+      y: 1387
+      width: 1000
+      height: 661
     inner:
       serializedVersion: 2
       x: 0
-      y: 474
-      width: 1192
-      height: 794
+      y: 1387
+      width: 1000
+      height: 661
     rotated: 0
-    paddingLeft: .0209731553
-    paddingRight: .0218120813
-    paddingTop: .0403022654
-    paddingBottom: .0440806039
+    paddingLeft: .0240000002
+    paddingRight: 0
+    paddingTop: .0378214829
+    paddingBottom: .0408472009
+  - name: A path from Lucky Puppy to a bone (numbers 10 through 20)
+    outer:
+      serializedVersion: 2
+      x: 1000
+      y: 1393
+      width: 982
+      height: 655
+    inner:
+      serializedVersion: 2
+      x: 1000
+      y: 1393
+      width: 982
+      height: 655
+    rotated: 0
+    paddingLeft: .0203665979
+    paddingRight: .0224032588
+    paddingTop: .0396946557
+    paddingBottom: .0427480899
   - name: A path from Kristy Kitty to a ball of yarn (numbers 15 through 25)
     outer:
       serializedVersion: 2
       x: 0
-      y: 1269
-      width: 1223
-      height: 779
+      y: 766
+      width: 975
+      height: 621
     inner:
       serializedVersion: 2
       x: 0
-      y: 1269
-      width: 1223
-      height: 779
+      y: 766
+      width: 975
+      height: 621
     rotated: 0
-    paddingLeft: .0253475066
-    paddingRight: .0253475066
-    paddingTop: .0231065471
-    paddingBottom: .0141206672
+    paddingLeft: .0246153846
+    paddingRight: .025641026
+    paddingTop: .0225442834
+    paddingBottom: .0128824478
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
