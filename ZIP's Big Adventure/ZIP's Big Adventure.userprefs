@@ -1,15 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\MobisAdventure\Assets\_Upgrade\Scripts\Menu\Restarter.cs">
-    <Files>
-      <File FileName="..\MobisAdventure\Assets\_Upgrade\Scripts\Menu\Restarter.cs" Line="20" Column="3" />
-      <File FileName="..\MobisAdventure\Assets\Scripts\Scripts2\Path.cs" Line="171" Column="1" />
-      <File FileName="..\MobisAdventure\Assets\Scripts\Game\CoinPlop.cs" Line="14" Column="4" />
-      <File FileName="..\MobisAdventure\Assets\Scripts\Game\PlayerController.cs" Line="542" Column="40" />
-      <File FileName="..\MobisAdventure\Assets\Scripts\Scripts2\MeshManager.cs" Line="66" Column="6" />
-      <File FileName="..\MobisAdventure\Assets\_Upgrade\Scripts\HUB\DeathRestartButton.cs" Line="13" Column="37" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

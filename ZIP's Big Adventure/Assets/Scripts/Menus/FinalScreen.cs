@@ -7,10 +7,7 @@ public class FinalScreen : MonoBehaviour {
 
 	void OnClick()
 	{
-		PlayerPrefs.DeleteAll ();
-		PlayerPrefs.Save ();
 		Title.firstLaunch = true;
-		mainMenu.SetActive (true);
-		gameObject.SetActive (false);
+		Application.LoadLevel ("title");
 	}
 }
