@@ -23,7 +23,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 300, z: 0}
+  m_LocalPosition: {x: 0, y: 680, z: 0}
   m_LocalScale: {x: 108, y: 108, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -39,10 +39,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
-  mPivot: 0
+  mPivot: 1
   mDepth: 7
   mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
-  mText: Title
+  mText: Point to the heart on the left
   mMaxLineWidth: 0
   mMaxLineHeight: 0
   mEncoding: 1

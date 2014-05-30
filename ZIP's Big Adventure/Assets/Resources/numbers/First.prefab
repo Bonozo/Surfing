@@ -15629,7 +15629,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 2
   mAtlas: {fileID: 11400000, guid: 8d8dbd8812cff1744bff921dd13aa401, type: 2}
-  mSpriteName: 20
+  mSpriteName: 2_20
   mFillCenter: 1
   mType: 1
   mFillDirection: 4
@@ -16115,7 +16115,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 2
   mAtlas: {fileID: 11400000, guid: 8d8dbd8812cff1744bff921dd13aa401, type: 2}
-  mSpriteName: 14
+  mSpriteName: 2_14
   mFillCenter: 1
   mType: 1
   mFillDirection: 4
@@ -16368,7 +16368,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 3
   mAtlas: {fileID: 11400000, guid: 8d8dbd8812cff1744bff921dd13aa401, type: 2}
-  mSpriteName: 6
+  mSpriteName: 2_6
   mFillCenter: 1
   mType: 1
   mFillDirection: 4
@@ -22466,7 +22466,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 2
   mAtlas: {fileID: 11400000, guid: 8d8dbd8812cff1744bff921dd13aa401, type: 2}
-  mSpriteName: 10
+  mSpriteName: 2_10
   mFillCenter: 1
   mType: 1
   mFillDirection: 4
@@ -24213,7 +24213,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 2
   mAtlas: {fileID: 11400000, guid: 8d8dbd8812cff1744bff921dd13aa401, type: 2}
-  mSpriteName: 18
+  mSpriteName: 2_18
   mFillCenter: 1
   mType: 1
   mFillDirection: 4
@@ -24556,7 +24556,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 2
   mAtlas: {fileID: 11400000, guid: 8d8dbd8812cff1744bff921dd13aa401, type: 2}
-  mSpriteName: 4
+  mSpriteName: 2_4
   mFillCenter: 1
   mType: 1
   mFillDirection: 4
@@ -26118,7 +26118,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 2
   mAtlas: {fileID: 11400000, guid: 8d8dbd8812cff1744bff921dd13aa401, type: 2}
-  mSpriteName: 8
+  mSpriteName: 2_8
   mFillCenter: 1
   mType: 1
   mFillDirection: 4
@@ -27255,7 +27255,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 3
   mAtlas: {fileID: 11400000, guid: 8d8dbd8812cff1744bff921dd13aa401, type: 2}
-  mSpriteName: 2
+  mSpriteName: 2_2
   mFillCenter: 1
   mType: 1
   mFillDirection: 4
@@ -27387,7 +27387,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 3
   mAtlas: {fileID: 11400000, guid: 8d8dbd8812cff1744bff921dd13aa401, type: 2}
-  mSpriteName: 12
+  mSpriteName: 2_12
   mFillCenter: 1
   mType: 1
   mFillDirection: 4
@@ -27512,7 +27512,7 @@ MonoBehaviour:
   mPivot: 4
   mDepth: 3
   mAtlas: {fileID: 11400000, guid: 8d8dbd8812cff1744bff921dd13aa401, type: 2}
-  mSpriteName: 16
+  mSpriteName: 2_16
   mFillCenter: 1
   mType: 1
   mFillDirection: 4

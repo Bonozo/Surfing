@@ -38,170 +38,152 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 5362c3a6386ae114c9ca6be0153f21fa, type: 2}
+  material: {fileID: 2100000, guid: bbe8f3fa81c8d2e49b05ba73b3d191e2, type: 2}
   sprites:
-  - name: Big Square_End
+  - name: Small Circle_Begin
     outer:
       serializedVersion: 2
       x: 0
-      y: 18
-      width: 668
-      height: 404
+      y: 698
+      width: 1277
+      height: 359
     inner:
       serializedVersion: 2
       x: 0
-      y: 18
-      width: 668
-      height: 404
+      y: 698
+      width: 1277
+      height: 359
     rotated: 0
-    paddingLeft: .0508982018
-    paddingRight: .136227548
-    paddingTop: .118811883
-    paddingBottom: .150990099
-  - name: Big Square_Text
+    paddingLeft: .0485512912
+    paddingRight: .0422866084
+    paddingTop: .250696391
+    paddingBottom: .220055714
+  - name: Small Circle_End
+    outer:
+      serializedVersion: 2
+      x: 1278
+      y: 869
+      width: 331
+      height: 188
+    inner:
+      serializedVersion: 2
+      x: 1278
+      y: 869
+      width: 331
+      height: 188
+    rotated: 0
+    paddingLeft: .108761333
+    paddingRight: .154078543
+    paddingTop: .340425521
+    paddingBottom: .207446814
+  - name: Small Oval_End
+    outer:
+      serializedVersion: 2
+      x: 339
+      y: 1924
+      width: 941
+      height: 296
+    inner:
+      serializedVersion: 2
+      x: 339
+      y: 1924
+      width: 266
+      height: 123
+    rotated: 0
+    paddingLeft: .0488841645
+    paddingRight: .05844846
+    paddingTop: -1807646.38
+    paddingBottom: -1807646.38
+  - name: Small Oval_Begin
     outer:
       serializedVersion: 2
       x: 0
-      y: 622
-      width: 1448
-      height: 221
+      y: 424
+      width: 1308
+      height: 273
     inner:
       serializedVersion: 2
       x: 0
-      y: 622
-      width: 1448
-      height: 221
+      y: 424
+      width: 1308
+      height: 273
     rotated: 0
-    paddingLeft: .0227900557
-    paddingRight: .0283149164
-    paddingTop: .12669684
-    paddingBottom: .122171946
-  - name: Big Square_Begin
+    paddingLeft: .0259938836
+    paddingRight: .0412844047
+    paddingTop: .399267405
+    paddingBottom: .369963378
+  - name: Small Square_Begin
     outer:
       serializedVersion: 2
       x: 0
-      y: 1684
-      width: 1326
+      y: 1058
+      width: 1338
       height: 364
     inner:
       serializedVersion: 2
       x: 0
-      y: 1684
-      width: 1326
+      y: 1058
+      width: 1338
       height: 364
     rotated: 0
-    paddingLeft: .0588235296
-    paddingRight: .0641025677
-    paddingTop: .244505495
-    paddingBottom: .263736278
-  - name: Big Triangle_Begin
+    paddingLeft: .0470852032
+    paddingRight: .0343796723
+    paddingTop: .120879121
+    paddingBottom: .313186824
+  - name: Small Rectangle_Begin
     outer:
       serializedVersion: 2
       x: 0
-      y: 1066
-      width: 1277
-      height: 308
+      y: 189
+      width: 1408
+      height: 234
     inner:
       serializedVersion: 2
       x: 0
-      y: 1066
-      width: 1277
-      height: 308
+      y: 189
+      width: 1408
+      height: 234
     rotated: 0
-    paddingLeft: .0117462799
-    paddingRight: .02192639
-    paddingTop: .058441557
-    paddingBottom: .207792208
-  - name: Big Triangle_End
+    paddingLeft: .0376420468
+    paddingRight: .0220170449
+    paddingTop: .465811968
+    paddingBottom: .329059839
+  - name: Small Square_End
     outer:
       serializedVersion: 2
-      x: 669
-      y: 51
-      width: 397
-      height: 371
+      x: 1309
+      y: 682
+      width: 303
+      height: 186
     inner:
       serializedVersion: 2
-      x: 669
-      y: 51
-      width: 397
-      height: 371
+      x: 1309
+      y: 682
+      width: 303
+      height: 186
     rotated: 0
-    paddingLeft: .146095723
-    paddingRight: .125944585
-    paddingTop: .094339624
-    paddingBottom: .11051213
-  - name: Big Triangle_Text
+    paddingLeft: .20792079
+    paddingRight: .250825077
+    paddingTop: .295698911
+    paddingBottom: .252688169
+  - name: Small Rectangle_End
     outer:
       serializedVersion: 2
-      x: 0
-      y: 844
-      width: 1482
-      height: 221
+      x: 1309
+      y: 532
+      width: 294
+      height: 149
     inner:
       serializedVersion: 2
-      x: 0
-      y: 844
-      width: 1482
-      height: 221
+      x: 1309
+      y: 532
+      width: 294
+      height: 149
     rotated: 0
-    paddingLeft: .0242914986
-    paddingRight: .0188933872
-    paddingTop: .167420819
-    paddingBottom: .122171946
-  - name: Small Triangle_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 423
-      width: 1482
-      height: 198
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 423
-      width: 1482
-      height: 198
-    rotated: 0
-    paddingLeft: .0242914986
-    paddingRight: .0209176783
-    paddingTop: .217171714
-    paddingBottom: .191919193
-  - name: Small Triangle_Begin
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1375
-      width: 1277
-      height: 308
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1375
-      width: 1277
-      height: 308
-    rotated: 0
-    paddingLeft: .0501174629
-    paddingRight: .0266249012
-    paddingTop: .175324678
-    paddingBottom: .266233772
-  - name: Small Triangle_End
-    outer:
-      serializedVersion: 2
-      x: 1327
-      y: 1934
-      width: 144
-      height: 114
-    inner:
-      serializedVersion: 2
-      x: 1327
-      y: 1934
-      width: 144
-      height: 114
-    rotated: 0
-    paddingLeft: .215277776
-    paddingRight: .270833343
-    paddingTop: .315789461
-    paddingBottom: .394736856
+    paddingLeft: .187074825
+    paddingRight: .224489793
+    paddingTop: .308724821
+    paddingBottom: .503355682
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: Big Circle_End
     outer:
       serializedVersion: 2
-      x: 0
-      y: 88
+      x: 1315
+      y: 853
       width: 662
       height: 425
     inner:
       serializedVersion: 2
-      x: 0
-      y: 88
+      x: 1315
+      y: 853
       width: 662
       height: 425
     rotated: 0
@@ -62,13 +62,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1689
+      y: 706
       width: 1314
       height: 359
     inner:
       serializedVersion: 2
       x: 0
-      y: 1689
+      y: 706
       width: 1314
       height: 359
     rotated: 0
@@ -76,35 +76,17 @@ MonoBehaviour:
     paddingRight: .0563165918
     paddingTop: .167130917
     paddingBottom: .203342617
-  - name: Big Circle_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 736
-      width: 1383
-      height: 221
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 736
-      width: 1383
-      height: 221
-    rotated: 0
-    paddingLeft: .0274765007
-    paddingRight: .0354302227
-    paddingTop: .113122173
-    paddingBottom: .117647059
   - name: Big Oval_End
     outer:
       serializedVersion: 2
-      x: 663
-      y: 142
+      x: 1367
+      y: 109
       width: 593
       height: 371
     inner:
       serializedVersion: 2
-      x: 663
-      y: 142
+      x: 1367
+      y: 109
       width: 593
       height: 371
     rotated: 0
@@ -116,13 +98,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1415
+      y: 432
       width: 1308
       height: 273
     inner:
       serializedVersion: 2
       x: 0
-      y: 1415
+      y: 432
       width: 1308
       height: 273
     rotated: 0
@@ -130,35 +112,17 @@ MonoBehaviour:
     paddingRight: .0458715595
     paddingTop: .388278395
     paddingBottom: .271062285
-  - name: Big Oval_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 514
-      width: 1348
-      height: 221
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 514
-      width: 1348
-      height: 221
-    rotated: 0
-    paddingLeft: .0311572701
-    paddingRight: .0311572701
-    paddingTop: .15384616
-    paddingBottom: .217194572
   - name: Big Rectangle_Begin
     outer:
       serializedVersion: 2
       x: 0
-      y: 958
+      y: 197
       width: 1366
       height: 234
     inner:
       serializedVersion: 2
       x: 0
-      y: 958
+      y: 197
       width: 1366
       height: 234
     rotated: 0
@@ -166,34 +130,16 @@ MonoBehaviour:
     paddingRight: .0424597375
     paddingTop: .41452992
     paddingBottom: .508547008
-  - name: Big Rectangle_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1193
-      width: 1551
-      height: 221
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1193
-      width: 1551
-      height: 221
-    rotated: 0
-    paddingLeft: .0225660857
-    paddingRight: .034171503
-    paddingTop: .15384616
-    paddingBottom: .162895933
   - name: Big Rectangle_End
     outer:
       serializedVersion: 2
-      x: 1315
+      x: 1327
       y: 1728
       width: 668
       height: 320
     inner:
       serializedVersion: 2
-      x: 1315
+      x: 1327
       y: 1728
       width: 668
       height: 320
@@ -202,6 +148,114 @@ MonoBehaviour:
     paddingRight: .0688622743
     paddingTop: .193749994
     paddingBottom: .165625006
+  - name: Big Square_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1684
+      width: 1326
+      height: 364
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1684
+      width: 1326
+      height: 364
+    rotated: 0
+    paddingLeft: .0588235296
+    paddingRight: .0641025677
+    paddingTop: .244505495
+    paddingBottom: .263736278
+  - name: Small Triangle_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1375
+      width: 1277
+      height: 308
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1375
+      width: 1277
+      height: 308
+    rotated: 0
+    paddingLeft: .0501174629
+    paddingRight: .0266249012
+    paddingTop: .175324678
+    paddingBottom: .266233772
+  - name: Big Triangle_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1066
+      width: 1277
+      height: 308
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1066
+      width: 1277
+      height: 308
+    rotated: 0
+    paddingLeft: .0117462799
+    paddingRight: .02192639
+    paddingTop: .058441557
+    paddingBottom: .207792208
+  - name: Big Square_End
+    outer:
+      serializedVersion: 2
+      x: 1278
+      y: 1279
+      width: 668
+      height: 404
+    inner:
+      serializedVersion: 2
+      x: 1278
+      y: 1279
+      width: 668
+      height: 404
+    rotated: 0
+    paddingLeft: .0508982018
+    paddingRight: .136227548
+    paddingTop: .118811883
+    paddingBottom: .150990099
+  - name: Big Triangle_End
+    outer:
+      serializedVersion: 2
+      x: 1315
+      y: 481
+      width: 397
+      height: 371
+    inner:
+      serializedVersion: 2
+      x: 1315
+      y: 481
+      width: 397
+      height: 371
+    rotated: 0
+    paddingLeft: .146095723
+    paddingRight: .125944585
+    paddingTop: .094339624
+    paddingBottom: .11051213
+  - name: Small Triangle_End
+    outer:
+      serializedVersion: 2
+      x: 1713
+      y: 738
+      width: 144
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 1713
+      y: 738
+      width: 144
+      height: 114
+    rotated: 0
+    paddingLeft: .215277776
+    paddingRight: .270833343
+    paddingTop: .315789461
+    paddingBottom: .394736856
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
