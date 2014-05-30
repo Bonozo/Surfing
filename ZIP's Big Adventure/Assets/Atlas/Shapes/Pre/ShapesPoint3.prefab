@@ -43,86 +43,86 @@ MonoBehaviour:
   - name: SquareOven_Begin
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1279
-      width: 985
-      height: 769
+      x: 472
+      y: 64
+      width: 467
+      height: 364
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1279
-      width: 985
-      height: 769
+      x: 472
+      y: 64
+      width: 467
+      height: 364
     rotated: 0
-    paddingLeft: .049746193
-    paddingRight: .0446700491
-    paddingTop: .0741222352
-    paddingBottom: 0
+    paddingLeft: .0513918623
+    paddingRight: .0449678786
+    paddingTop: .0741758272
+    paddingBottom: .00274725282
   - name: SquareRobot_Begin
     outer:
       serializedVersion: 2
-      x: 986
-      y: 869
-      width: 766
-      height: 553
+      x: 924
+      y: 736
+      width: 465
+      height: 326
     inner:
       serializedVersion: 2
-      x: 986
-      y: 869
-      width: 766
-      height: 553
+      x: 924
+      y: 736
+      width: 465
+      height: 326
     rotated: 0
-    paddingLeft: .0509138368
-    paddingRight: .0509138368
-    paddingTop: .0687160939
-    paddingBottom: .121157326
+    paddingLeft: .0516129024
+    paddingRight: .0494623668
+    paddingTop: .0705521479
+    paddingBottom: .15337424
   - name: SquareRobot_End_B
     outer:
       serializedVersion: 2
       x: 0
-      y: 761
-      width: 576
-      height: 517
+      y: 298
+      width: 471
+      height: 424
     inner:
       serializedVersion: 2
       x: 0
-      y: 761
-      width: 576
-      height: 517
+      y: 298
+      width: 471
+      height: 424
     rotated: 0
     paddingLeft: 0
-    paddingRight: .078125
-    paddingTop: .112185687
-    paddingBottom: .0967117995
+    paddingRight: .078556262
+    paddingTop: .11084906
+    paddingBottom: .0966981128
   - name: SquareRobot_End
     outer:
       serializedVersion: 2
-      x: 577
-      y: 351
-      width: 576
-      height: 517
+      x: 472
+      y: 429
+      width: 451
+      height: 405
     inner:
       serializedVersion: 2
-      x: 577
-      y: 351
-      width: 576
-      height: 517
+      x: 472
+      y: 429
+      width: 451
+      height: 405
     rotated: 0
     paddingLeft: 0
-    paddingRight: .135416672
-    paddingTop: .0290135387
-    paddingBottom: .102514505
+    paddingRight: .135254994
+    paddingTop: .0271604937
+    paddingBottom: .10123457
   - name: SquareOven_End_B
     outer:
       serializedVersion: 2
-      x: 1148
-      y: 30
+      x: 1338
+      y: 43
       width: 412
       height: 320
     inner:
       serializedVersion: 2
-      x: 1148
-      y: 30
+      x: 1338
+      y: 43
       width: 412
       height: 320
     rotated: 0
@@ -133,14 +133,14 @@ MonoBehaviour:
   - name: SquareOven_End
     outer:
       serializedVersion: 2
-      x: 1561
-      y: 545
+      x: 1160
+      y: 1367
       width: 364
       height: 323
     inner:
       serializedVersion: 2
-      x: 1561
-      y: 545
+      x: 1160
+      y: 1367
       width: 364
       height: 323
     rotated: 0
@@ -148,53 +148,35 @@ MonoBehaviour:
     paddingRight: .151098907
     paddingTop: .12693499
     paddingBottom: .154798761
-  - name: SquareBook_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 91
-      width: 1147
-      height: 259
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 91
-      width: 1147
-      height: 259
-    rotated: 0
-    paddingLeft: .0357454233
-    paddingRight: .0479511768
-    paddingTop: .100386098
-    paddingBottom: .108108111
   - name: TriangleHappyTriangle_Begin
     outer:
       serializedVersion: 2
-      x: 986
-      y: 1423
-      width: 842
-      height: 625
+      x: 812
+      y: 1691
+      width: 481
+      height: 357
     inner:
       serializedVersion: 2
-      x: 986
-      y: 1423
-      width: 842
-      height: 625
+      x: 812
+      y: 1691
+      width: 481
+      height: 357
     rotated: 0
-    paddingLeft: .0653206632
+    paddingLeft: .0644490644
     paddingRight: 0
-    paddingTop: .0656000003
-    paddingBottom: .0384000018
+    paddingTop: .0644257739
+    paddingBottom: .0364145674
   - name: TriangleHappyTriangle_End_B
     outer:
       serializedVersion: 2
-      x: 577
-      y: 907
+      x: 940
+      y: 115
       width: 397
       height: 371
     inner:
       serializedVersion: 2
-      x: 577
-      y: 907
+      x: 940
+      y: 115
       width: 397
       height: 371
     rotated: 0
@@ -205,14 +187,14 @@ MonoBehaviour:
   - name: TriangleHappyTriangle_End
     outer:
       serializedVersion: 2
-      x: 0
-      y: 389
+      x: 1338
+      y: 364
       width: 360
       height: 371
     inner:
       serializedVersion: 2
-      x: 0
-      y: 389
+      x: 1338
+      y: 364
       width: 360
       height: 371
     rotated: 0
@@ -220,6 +202,168 @@ MonoBehaviour:
     paddingRight: .150000006
     paddingTop: .0835579485
     paddingBottom: .118598379
+  - name: TriangleMagician_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1572
+      width: 375
+      height: 476
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1572
+      width: 375
+      height: 476
+    rotated: 0
+    paddingLeft: .0666666701
+    paddingRight: .0799999982
+    paddingTop: .0399159677
+    paddingBottom: .0357142873
+  - name: TriangleMagician_Begin
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1196
+      width: 456
+      height: 375
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1196
+      width: 456
+      height: 375
+    rotated: 0
+    paddingLeft: .0592105277
+    paddingRight: .0635964945
+    paddingTop: .0426666662
+    paddingBottom: .0560000017
+  - name: TriangleSliceofPizza_Begin
+    outer:
+      serializedVersion: 2
+      x: 376
+      y: 1689
+      width: 435
+      height: 359
+    inner:
+      serializedVersion: 2
+      x: 376
+      y: 1689
+      width: 435
+      height: 359
+    rotated: 0
+    paddingLeft: .117241383
+    paddingRight: .0597701147
+    paddingTop: .0612813383
+    paddingBottom: .0668523684
+  - name: TriangleMagician_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 723
+      width: 354
+      height: 472
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 723
+      width: 354
+      height: 472
+    rotated: 0
+    paddingLeft: .0536723174
+    paddingRight: .0677966103
+    paddingTop: .0317796618
+    paddingBottom: .052966103
+  - name: TriangleMountain_Begin
+    outer:
+      serializedVersion: 2
+      x: 355
+      y: 835
+      width: 443
+      height: 360
+    inner:
+      serializedVersion: 2
+      x: 355
+      y: 835
+      width: 443
+      height: 360
+    rotated: 0
+    paddingLeft: .115124151
+    paddingRight: .0406320542
+    paddingTop: .0722222254
+    paddingBottom: 0
+  - name: TriangleSliceofPizza_End_B
+    outer:
+      serializedVersion: 2
+      x: 457
+      y: 1376
+      width: 360
+      height: 312
+    inner:
+      serializedVersion: 2
+      x: 457
+      y: 1376
+      width: 360
+      height: 312
+    rotated: 0
+    paddingLeft: .0944444463
+    paddingRight: .116666667
+    paddingTop: .160256416
+    paddingBottom: .205128208
+  - name: TriangleMountain_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 49
+      width: 365
+      height: 248
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 49
+      width: 365
+      height: 248
+    rotated: 0
+    paddingLeft: .20273973
+    paddingRight: .115068495
+    paddingTop: .125
+    paddingBottom: .266129047
+  - name: TriangleSliceofPizza_End
+    outer:
+      serializedVersion: 2
+      x: 799
+      y: 1063
+      width: 360
+      height: 312
+    inner:
+      serializedVersion: 2
+      x: 799
+      y: 1063
+      width: 360
+      height: 312
+    rotated: 0
+    paddingLeft: .100000001
+    paddingRight: 0
+    paddingTop: .150641024
+    paddingBottom: .125
+  - name: TriangleMountain_End_B
+    outer:
+      serializedVersion: 2
+      x: 924
+      y: 487
+      width: 365
+      height: 248
+    inner:
+      serializedVersion: 2
+      x: 924
+      y: 487
+      width: 365
+      height: 248
+    rotated: 0
+    paddingLeft: .145205483
+    paddingRight: .106849313
+    paddingTop: .137096778
+    paddingBottom: .193548381
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

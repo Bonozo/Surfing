@@ -13692,10 +13692,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600, z: 0}
-  m_LocalScale: {x: 1147, y: 231, z: 1}
+  m_LocalPosition: {x: 0, y: 702.600098, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: .999935985}
   m_Children: []
-  m_Father: {fileID: 400440}
+  m_Father: {fileID: 400666}
 --- !u!4 &400332
 Transform:
   m_ObjectHideFlags: 1
@@ -14330,7 +14330,7 @@ Transform:
   - {fileID: 400502}
   - {fileID: 401012}
   - {fileID: 401182}
-  - {fileID: 400330}
+  - {fileID: 401310}
   m_Father: {fileID: 401200}
 --- !u!4 &400442
 Transform:
@@ -14587,10 +14587,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100484}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600, z: 0}
-  m_LocalScale: {x: 1147, y: 259, z: 1}
+  m_LocalPosition: {x: 0, y: 702.600098, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: .999935985}
   m_Children: []
-  m_Father: {fileID: 400976}
+  m_Father: {fileID: 401276}
 --- !u!4 &400486
 Transform:
   m_ObjectHideFlags: 1
@@ -15454,10 +15454,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600.5, z: 0}
-  m_LocalScale: {x: 958, y: 215, z: 1}
+  m_LocalPosition: {x: 0, y: 702.600098, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: .999935985}
   m_Children: []
-  m_Father: {fileID: 400666}
+  m_Father: {fileID: 401294}
 --- !u!4 &400626
 Transform:
   m_ObjectHideFlags: 1
@@ -15637,10 +15637,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100656}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600, z: 0}
-  m_LocalScale: {x: 1147, y: 259, z: 1}
+  m_LocalPosition: {x: 0, y: 702.600098, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: .999935985}
   m_Children: []
-  m_Father: {fileID: 400768}
+  m_Father: {fileID: 401300}
 --- !u!4 &400658
 Transform:
   m_ObjectHideFlags: 1
@@ -15702,7 +15702,7 @@ Transform:
   - {fileID: 400618}
   - {fileID: 401040}
   - {fileID: 401038}
-  - {fileID: 400624}
+  - {fileID: 400330}
   m_Father: {fileID: 400722}
 --- !u!4 &400668
 Transform:
@@ -15836,7 +15836,7 @@ Transform:
   - {fileID: 400018}
   - {fileID: 401246}
   - {fileID: 401128}
-  - {fileID: 401166}
+  - {fileID: 401322}
   m_Father: {fileID: 400374}
 --- !u!4 &400690
 Transform:
@@ -16317,7 +16317,7 @@ Transform:
   - {fileID: 400250}
   - {fileID: 400562}
   - {fileID: 400376}
-  - {fileID: 400656}
+  - {fileID: 401284}
   m_Father: {fileID: 400276}
 --- !u!4 &400770
 Transform:
@@ -16332,7 +16332,7 @@ Transform:
   - {fileID: 400696}
   - {fileID: 400204}
   - {fileID: 400082}
-  - {fileID: 400850}
+  - {fileID: 401308}
   m_Father: {fileID: 400610}
 --- !u!4 &400772
 Transform:
@@ -16791,10 +16791,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600, z: 0}
-  m_LocalScale: {x: 1147, y: 231, z: 1}
+  m_LocalPosition: {x: 0, y: 702.600037, z: 0}
+  m_LocalScale: {x: 108.006912, y: 108.006912, z: 1}
   m_Children: []
-  m_Father: {fileID: 400770}
+  m_Father: {fileID: 401318}
 --- !u!4 &400852
 Transform:
   m_ObjectHideFlags: 1
@@ -17600,7 +17600,7 @@ Transform:
   - {fileID: 400230}
   - {fileID: 400780}
   - {fileID: 400762}
-  - {fileID: 400484}
+  - {fileID: 401218}
   m_Father: {fileID: 401002}
 --- !u!4 &400978
 Transform:
@@ -18693,7 +18693,7 @@ Transform:
   - {fileID: 401214}
   - {fileID: 400064}
   - {fileID: 401252}
-  - {fileID: 401218}
+  - {fileID: 401286}
   m_Father: {fileID: 400336}
 --- !u!4 &401156
 Transform:
@@ -18758,10 +18758,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101166}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600, z: 0}
-  m_LocalScale: {x: 1147, y: 231, z: 1}
+  m_LocalPosition: {x: 0, y: 702.600098, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: .999935985}
   m_Children: []
-  m_Father: {fileID: 400688}
+  m_Father: {fileID: 401330}
 --- !u!4 &401168
 Transform:
   m_ObjectHideFlags: 1
@@ -19058,10 +19058,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101218}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600, z: 0}
-  m_LocalScale: {x: 1147, y: 231, z: 1}
+  m_LocalPosition: {x: 0, y: 702.600098, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: .999935985}
   m_Children: []
-  m_Father: {fileID: 401154}
+  m_Father: {fileID: 400976}
 --- !u!4 &401220
 Transform:
   m_ObjectHideFlags: 1
@@ -19395,7 +19395,7 @@ Transform:
   - {fileID: 401278}
   - {fileID: 401280}
   - {fileID: 401282}
-  - {fileID: 401284}
+  - {fileID: 400484}
   m_Father: {fileID: 401274}
 --- !u!4 &401278
 Transform:
@@ -19437,10 +19437,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101284}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600.5, z: 0}
-  m_LocalScale: {x: 958, y: 215, z: 1}
+  m_LocalPosition: {x: 0, y: 702.599976, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: .999935985}
   m_Children: []
-  m_Father: {fileID: 401276}
+  m_Father: {fileID: 400768}
 --- !u!4 &401286
 Transform:
   m_ObjectHideFlags: 1
@@ -19448,10 +19448,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101286}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600.5, z: 0}
-  m_LocalScale: {x: 958, y: 215, z: 1}
+  m_LocalPosition: {x: 0, y: 702.600098, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: .999935985}
   m_Children: []
-  m_Father: {fileID: 401294}
+  m_Father: {fileID: 401154}
 --- !u!4 &401288
 Transform:
   m_ObjectHideFlags: 1
@@ -19498,7 +19498,7 @@ Transform:
   - {fileID: 401292}
   - {fileID: 401290}
   - {fileID: 401288}
-  - {fileID: 401286}
+  - {fileID: 400624}
   m_Father: {fileID: 401296}
 --- !u!4 &401296
 Transform:
@@ -19537,7 +19537,7 @@ Transform:
   - {fileID: 401302}
   - {fileID: 401304}
   - {fileID: 401306}
-  - {fileID: 401308}
+  - {fileID: 400656}
   m_Father: {fileID: 401298}
 --- !u!4 &401302
 Transform:
@@ -19579,10 +19579,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600.5, z: 0}
-  m_LocalScale: {x: 1147, y: 258, z: 1}
+  m_LocalPosition: {x: 0, y: 702.600098, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: .999935985}
   m_Children: []
-  m_Father: {fileID: 401300}
+  m_Father: {fileID: 400770}
 --- !u!4 &401310
 Transform:
   m_ObjectHideFlags: 1
@@ -19590,10 +19590,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101310}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600, z: 0}
-  m_LocalScale: {x: 1147, y: 259, z: 1}
+  m_LocalPosition: {x: 0, y: 702.600098, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: .999935985}
   m_Children: []
-  m_Father: {fileID: 401318}
+  m_Father: {fileID: 400440}
 --- !u!4 &401312
 Transform:
   m_ObjectHideFlags: 1
@@ -19640,7 +19640,7 @@ Transform:
   - {fileID: 401316}
   - {fileID: 401314}
   - {fileID: 401312}
-  - {fileID: 401310}
+  - {fileID: 400850}
   m_Father: {fileID: 401320}
 --- !u!4 &401320
 Transform:
@@ -19661,10 +19661,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 101322}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 600, z: 0}
-  m_LocalScale: {x: 1147, y: 259, z: 1}
+  m_LocalPosition: {x: 0, y: 702.599976, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: 1}
   m_Children: []
-  m_Father: {fileID: 401330}
+  m_Father: {fileID: 400688}
 --- !u!4 &401324
 Transform:
   m_ObjectHideFlags: 1
@@ -19711,7 +19711,7 @@ Transform:
   - {fileID: 401328}
   - {fileID: 401326}
   - {fileID: 401324}
-  - {fileID: 401322}
+  - {fileID: 401166}
   m_Father: {fileID: 401332}
 --- !u!4 &401332
 Transform:
@@ -26488,7 +26488,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: .403921574}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: CircleSun_End_B
   mFillCenter: 1
   mType: 0
@@ -29373,7 +29373,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: SquareHappySquare_Begin
   mFillCenter: 1
   mType: 0
@@ -29679,7 +29679,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: SquareBook_Begin
   mFillCenter: 1
   mType: 0
@@ -30860,19 +30860,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 100330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
-  mSpriteName: Circle_Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the triangle
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11400630
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31622,7 +31630,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
+  mAtlas: {fileID: 0}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -33336,19 +33344,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 100484}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
-  mSpriteName: SquareBook_Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the triangle
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11400908
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -34627,7 +34643,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: .243137255}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: SquareBook_End
   mFillCenter: 1
   mType: 0
@@ -35551,7 +35567,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
   mSpriteName: TriangleSliceofPizza_Begin
   mFillCenter: 1
   mType: 0
@@ -35656,19 +35672,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 100624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
-  mSpriteName: Text_Triangle
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the triangle
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11401174
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -36237,19 +36261,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 100656}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
-  mSpriteName: SquareBook_Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the triangle
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11401232
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -37768,7 +37800,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
+  mAtlas: {fileID: 0}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -38045,7 +38077,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 0}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: SquareHappySquare_End
   mFillCenter: 1
   mType: 0
@@ -39147,19 +39179,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 100850}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
-  mSpriteName: Circle_Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the square
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11401570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -42214,7 +42254,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
+  mAtlas: {fileID: 0}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -42246,7 +42286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 150eea64ba46e6747bdd1109cb739f70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mFPS: 2
+  mFPS: 1
   mPrefix: TriangleSliceofPizza_End
   mLoop: 1
   mPixelPerfect: 0
@@ -42264,7 +42304,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: .250980407}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
   mSpriteName: TriangleSliceofPizza_End
   mFillCenter: 1
   mType: 1
@@ -44191,19 +44231,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 101166}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
-  mSpriteName: Circle_Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the square
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11402146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -44895,7 +44943,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
+  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
   mSpriteName: CircleSun_Begin
   mFillCenter: 1
   mType: 0
@@ -44943,19 +44991,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 101218}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 11c5ebcc19b19454690224ec7bce3d79, type: 2}
-  mSpriteName: Circle_Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the square
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11402228
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -45487,7 +45543,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 776eb795edfe3fa469b7382d2494ea78, type: 2}
+  mAtlas: {fileID: 0}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -45799,7 +45855,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
   mSpriteName: TriangleMountain_Begin
   mFillCenter: 1
   mType: 0
@@ -45820,7 +45876,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: .458823532}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
   mSpriteName: TriangleMountain_End
   mFillCenter: 1
   mType: 1
@@ -45870,7 +45926,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
+  mAtlas: {fileID: 0}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -45897,19 +45953,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 101284}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
-  mSpriteName: Text_Triangle
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the square
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11402340
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -45918,19 +45982,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 101286}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
-  mSpriteName: Text_Triangle
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the circle
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11402342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -45957,7 +46029,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 5
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
+  mAtlas: {fileID: 0}
   mSpriteName: Circle5
   mFillCenter: 1
   mType: 1
@@ -45992,7 +46064,7 @@ MonoBehaviour:
   mFPS: 1
   mPrefix: TriangleMagician_End
   mLoop: 1
-  mPixelPerfect: 1
+  mPixelPerfect: 0
 --- !u!114 &11402350
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -46007,7 +46079,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: .368627459}
   mPivot: 4
   mDepth: 6
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
   mSpriteName: TriangleMagician_End
   mFillCenter: 1
   mType: 0
@@ -46028,7 +46100,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
+  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
   mSpriteName: TriangleMagician_Begin
   mFillCenter: 1
   mType: 0
@@ -46207,19 +46279,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 101308}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6dfbf1986ed79624180ffee1b209fff8, type: 2}
-  mSpriteName: Text_Triangle
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the circle
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11402376
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -46228,19 +46308,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 101310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
-  mSpriteName: SquareBook_Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the circle
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11402378
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -47086,19 +47174,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 101322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 77aa22e545ec2414aa687c9ee38ad4cb, type: 2}
-  mSpriteName: SquareBook_Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 1
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Use Zip's nose to point to the circle
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11402470
 MonoBehaviour:
   m_ObjectHideFlags: 1

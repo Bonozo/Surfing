@@ -62,6 +62,11 @@ public class UIAnimation : MonoBehaviour
 	
 	void Update ()
 	{
+		// special for the app
+		// do not animate if gameobject contains sprite and it's color has 0 alpha
+		if (sprite != null && sprite.color.a == 0f)
+				return;
+
 		if (!mPause && mActive && mSpriteNames.Count > 1 && Application.isPlaying && mFPS > 0f)
 		{
 			mDelta += Time.deltaTime;
@@ -136,6 +141,12 @@ public class UIAnimation : MonoBehaviour
 	// Additional Functions
 
 	private bool mStopped = false;
+	private UISprite sprite;
+
+	void Awake()
+	{
+		sprite = GetComponent<UISprite> ();
+	}
 
 	public void Pause()
 	{
