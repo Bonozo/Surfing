@@ -70,6 +70,7 @@ public class Trace : MonoBehaviour {
 
 	public int editorDepth = 6;
 	public Color editorColor;
+	public UIAtlas editorAtlas;
 	public void IndexEditor()
 	{
 		for(int i=0;i<transform.childCount;i++)
@@ -79,6 +80,8 @@ public class Trace : MonoBehaviour {
 			transform.GetChild(i).GetComponent<TraceElement>().index=i+1;
 			transform.GetChild(i).GetComponent<UISprite>().depth = editorDepth;
 			transform.GetChild(i).GetComponent<UISprite>().color = editorColor;
+			
+			transform.GetChild(i).GetComponent<UISprite>().atlas = editorAtlas;
 		}
 	}
 }

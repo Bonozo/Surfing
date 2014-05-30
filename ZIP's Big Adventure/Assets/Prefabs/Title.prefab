@@ -9,8 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
-  m_Layer: 0
-  m_Name: LettersAlphabetMaze2
+  m_Layer: 8
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23,8 +23,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 300, z: 0}
+  m_LocalScale: {x: 108, y: 108, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!114 &11400000
@@ -35,50 +35,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: cd269082479ae494f98d44bd23e0bfa5, type: 2}
-  sprites:
-  - name: Marty_Alphabet Maze(D to N)
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1233
-      width: 1560
-      height: 815
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1233
-      width: 1560
-      height: 815
-    rotated: 0
-    paddingLeft: .0250000004
-    paddingRight: .0102564106
-    paddingTop: .0539877303
-    paddingBottom: .0539877303
-  - name: Lucky_Alphabet Maze(A to K)
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 438
-      width: 1192
-      height: 794
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 438
-      width: 1192
-      height: 794
-    rotated: 0
-    paddingLeft: .0268456377
-    paddingRight: 0
-    paddingTop: .0554156154
-    paddingBottom: .0516372807
-  mCoordinates: 0
-  mPixelSize: 1
-  mReplacement: {fileID: 0}
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 0
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: Title
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
