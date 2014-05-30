@@ -40,169 +40,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: 8e732941001d966499127b44dc756534, type: 2}
   sprites:
-  - name: 4
-    outer:
-      serializedVersion: 2
-      x: 342
-      y: 30
-      width: 340
-      height: 497
-    inner:
-      serializedVersion: 2
-      x: 342
-      y: 30
-      width: 340
-      height: 497
-    rotated: 0
-    paddingLeft: 4.35588217
-    paddingRight: .667647064
-    paddingTop: 1.41046274
-    paddingBottom: .680080473
-  - name: 10
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 528
-      width: 341
-      height: 496
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 528
-      width: 341
-      height: 496
-    rotated: 0
-    paddingLeft: 1.56304991
-    paddingRight: 3.4428153
-    paddingTop: .88911289
-    paddingBottom: 1.20766127
-  - name: 12
-    outer:
-      serializedVersion: 2
-      x: 1025
-      y: 528
-      width: 339
-      height: 496
-    inner:
-      serializedVersion: 2
-      x: 1025
-      y: 528
-      width: 339
-      height: 496
-    rotated: 0
-    paddingLeft: .356932163
-    paddingRight: 4.68436575
-    paddingTop: 1.47177422
-    paddingBottom: .625
-  - name: 16
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 31
-      width: 341
-      height: 496
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 31
-      width: 341
-      height: 496
-    rotated: 0
-    paddingLeft: 1.5865103
-    paddingRight: 3.41935492
-    paddingTop: 1.52016127
-    paddingBottom: .57661289
-  - name: 8
-    outer:
-      serializedVersion: 2
-      x: 1025
-      y: 31
-      width: 339
-      height: 496
-    inner:
-      serializedVersion: 2
-      x: 1025
-      y: 31
-      width: 339
-      height: 496
-    rotated: 0
-    paddingLeft: 3.36283183
-    paddingRight: 1.67846608
-    paddingTop: .804435492
-    paddingBottom: 1.29233873
-  - name: 14
-    outer:
-      serializedVersion: 2
-      x: 684
-      y: 527
-      width: 340
-      height: 497
-    inner:
-      serializedVersion: 2
-      x: 684
-      y: 527
-      width: 340
-      height: 497
-    rotated: 0
-    paddingLeft: 4.21176481
-    paddingRight: .811764717
-    paddingTop: .521126747
-    paddingBottom: 1.56941652
-  - name: 6
-    outer:
-      serializedVersion: 2
-      x: 1704
-      y: 528
-      width: 338
-      height: 496
-    inner:
-      serializedVersion: 2
-      x: 1704
-      y: 528
-      width: 338
-      height: 496
-    rotated: 0
-    paddingLeft: 3.55917168
-    paddingRight: 1.5
-    paddingTop: 1.41532254
-    paddingBottom: .681451619
-  - name: 18
-    outer:
-      serializedVersion: 2
-      x: 684
-      y: 31
-      width: 340
-      height: 495
-    inner:
-      serializedVersion: 2
-      x: 684
-      y: 31
-      width: 340
-      height: 495
-    rotated: 0
-    paddingLeft: .694117665
-    paddingRight: 4.32941198
-    paddingTop: .773737371
-    paddingBottom: 1.32929289
-  - name: 20
-    outer:
-      serializedVersion: 2
-      x: 1365
-      y: 527
-      width: 338
-      height: 497
-    inner:
-      serializedVersion: 2
-      x: 1365
-      y: 527
-      width: 338
-      height: 497
-    rotated: 0
-    paddingLeft: 2.4260354
-    paddingRight: 2.63313603
-    paddingTop: .720321953
-    paddingBottom: 1.37022138
-  - name: 2
+  - name: 2_2
     outer:
       serializedVersion: 2
       x: 342
@@ -220,6 +58,168 @@ MonoBehaviour:
     paddingRight: 2.37829924
     paddingTop: 1.75604844
     paddingBottom: .340725809
+  - name: 2_20
+    outer:
+      serializedVersion: 2
+      x: 1365
+      y: 527
+      width: 338
+      height: 497
+    inner:
+      serializedVersion: 2
+      x: 1365
+      y: 527
+      width: 338
+      height: 497
+    rotated: 0
+    paddingLeft: 2.4260354
+    paddingRight: 2.63313603
+    paddingTop: .720321953
+    paddingBottom: 1.37022138
+  - name: 2_6
+    outer:
+      serializedVersion: 2
+      x: 1704
+      y: 528
+      width: 338
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 1704
+      y: 528
+      width: 338
+      height: 496
+    rotated: 0
+    paddingLeft: 3.55917168
+    paddingRight: 1.5
+    paddingTop: 1.41532254
+    paddingBottom: .681451619
+  - name: 2_12
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 31
+      width: 339
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 31
+      width: 339
+      height: 496
+    rotated: 0
+    paddingLeft: .356932163
+    paddingRight: 4.68436575
+    paddingTop: 1.47177422
+    paddingBottom: .625
+  - name: 2_14
+    outer:
+      serializedVersion: 2
+      x: 684
+      y: 527
+      width: 340
+      height: 497
+    inner:
+      serializedVersion: 2
+      x: 684
+      y: 527
+      width: 340
+      height: 497
+    rotated: 0
+    paddingLeft: 4.21176481
+    paddingRight: .811764717
+    paddingTop: .521126747
+    paddingBottom: 1.56941652
+  - name: 2_8
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 528
+      width: 339
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 528
+      width: 339
+      height: 496
+    rotated: 0
+    paddingLeft: 3.36283183
+    paddingRight: 1.67846608
+    paddingTop: .804435492
+    paddingBottom: 1.29233873
+  - name: 2_16
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 31
+      width: 341
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 31
+      width: 341
+      height: 496
+    rotated: 0
+    paddingLeft: 1.5865103
+    paddingRight: 3.41935492
+    paddingTop: 1.52016127
+    paddingBottom: .57661289
+  - name: 2_4
+    outer:
+      serializedVersion: 2
+      x: 342
+      y: 30
+      width: 340
+      height: 497
+    inner:
+      serializedVersion: 2
+      x: 342
+      y: 30
+      width: 340
+      height: 497
+    rotated: 0
+    paddingLeft: 4.35588217
+    paddingRight: .667647064
+    paddingTop: 1.41046274
+    paddingBottom: .680080473
+  - name: 2_18
+    outer:
+      serializedVersion: 2
+      x: 684
+      y: 31
+      width: 340
+      height: 495
+    inner:
+      serializedVersion: 2
+      x: 684
+      y: 31
+      width: 340
+      height: 495
+    rotated: 0
+    paddingLeft: .694117665
+    paddingRight: 4.32941198
+    paddingTop: .773737371
+    paddingBottom: 1.32929289
+  - name: 2_10
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 528
+      width: 341
+      height: 496
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 528
+      width: 341
+      height: 496
+    rotated: 0
+    paddingLeft: 1.56304991
+    paddingRight: 3.4428153
+    paddingTop: .88911289
+    paddingBottom: 1.20766127
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
