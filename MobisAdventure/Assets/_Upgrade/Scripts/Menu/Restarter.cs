@@ -8,7 +8,8 @@ public class Restarter : MonoBehaviour {
 
 	void Awake()
 	{
-		CreateLevel ();
+		if(PlayerController.Instance == null)
+			CreateLevel ();
 	}
 
 	void Update () 

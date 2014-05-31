@@ -140,14 +140,14 @@ public class PlayerController : MonoBehaviour
 
 			boostingTime = Mathf.Max(0f,boostingTime -= Time.deltaTime);
 
-			if(controlLeftRotate){
+			if(controlLeftRotate || Input.GetAxis("Horizontal")<0f){
 				if(rigidbody.angularVelocity.z<0f)
 					rigidbody.angularVelocity += new Vector3(0f,0f,10*rotateFactor*Time.deltaTime);
 				else
 					rigidbody.angularVelocity += new Vector3(0f,0f,rotateFactor*Time.deltaTime);
 				//transform.Rotate(-rotateFactor*Time.fixedDeltaTime,0f,0f);
 			}
-			else if(controlRightRotate){
+			else if(controlRightRotate || Input.GetAxis("Horizontal")>0f){
 				if(rigidbody.angularVelocity.z>0f)
 					rigidbody.angularVelocity += new Vector3(0f,0f,-10*rotateFactor*Time.deltaTime);
 				else
@@ -190,6 +190,7 @@ public class PlayerController : MonoBehaviour
 				yeti.boost = false;
 				boostingTime += (float)boost.currentBoosts;
 				boost.ClearBoosts();
+				AudioSource.PlayClipAtPoint(MobiAssets.Instance.clipBoostUsage,transform.position);
 			}
 
 			// if(tilt)

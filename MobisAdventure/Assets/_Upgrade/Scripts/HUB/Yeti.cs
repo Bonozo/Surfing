@@ -27,6 +27,7 @@ public class Yeti : MonoBehaviour {
 
 	private ButtonBoost buttonBoost;
 	private GameObject monsterT;
+	private exSpriteAnimation anim;
 
 	void Awake()
 	{
@@ -34,6 +35,9 @@ public class Yeti : MonoBehaviour {
 		monsterT = transform.parent.FindChild ("Monster").gameObject;
 		if(monsterT == null) Debug.Log("why is null?");
 		boost = false;
+
+		anim = transform.FindChild ("Animation").GetComponent<exSpriteAnimation> ();
+		audio.clip = MobiAssets.Instance.clipMonsterFootstep;
 
 		var pos = transform.position;
 		pos.z = 6;
@@ -99,13 +103,7 @@ public class Yeti : MonoBehaviour {
 
 	void Update()
 	{
-		// Audio
-		if( PlayerController.Instance.life)
-		{
-			float dist = Distance;
-			MusicLoop.Instance.audio.volume = 0.05f + Mathf.Clamp (Distance * 0.1f, 0f, 0.5f);
-			monsterT.audio.volume = 2f * (0.55f - MusicLoop.Instance.audio.volume);
-		}
+		UpdateAudio ();
 	}
 
 	void FixedUpdate () 
@@ -158,5 +156,39 @@ public class Yeti : MonoBehaviour {
 		
 		pos.y -= hit.distance;
 		transform.position = pos;
+	}
+
+	int framestate=0;
+	int firstStepFrame=2;
+	int secondStepFrame=9;
+	void UpdateAudio()
+	{
+		// Footsteps
+		if( PlayerController.Instance.life)
+		{
+			int step = anim.GetCurFrameIndex ();
+			if(framestate==0&&step>firstStepFrame)
+			{
+				audio.Play();
+				framestate=1;
+			}
+			else if(framestate==1&&step>secondStepFrame)
+			{
+				audio.Play();
+				framestate=2;
+			}
+			else if(step<firstStepFrame)
+				framestate=0;
+		}
+		else
+			audio.volume -= 0.5f*Time.deltaTime;
+
+		// Caught
+		if( PlayerController.Instance.life)
+		{
+			float dist = Distance;
+			MusicLoop.Instance.audio.volume = 0.05f + Mathf.Clamp (Distance * 0.05f, 0f, 0.5f);
+			monsterT.audio.volume = 2f * (0.55f - MusicLoop.Instance.audio.volume);
+		}
 	}
 }
