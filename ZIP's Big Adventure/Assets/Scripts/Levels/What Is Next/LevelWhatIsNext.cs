@@ -108,9 +108,17 @@ public class LevelWhatIsNext : ZIPLevel {
 	#region What Is Next
 
 	public GameObject Center;
+	public UIAtlas atlas;
 
 	public void Initialize()
 	{
+		/*for(int i=0;i<Center.transform.childCount;i++)
+			Center.transform.GetChild(i).GetComponent<UISprite>().atlas = atlas;
+		Center.transform.parent.FindChild("Title").GetComponent<UISprite>().atlas = atlas;
+		gameBlock = transform.parent.parent.parent.parent.GetComponent<GameBlock> ();
+		return;*/
+
+
 		transform.localPosition = Vector3.zero;
 		transform.localScale = new Vector3 (1f, 1f, 1f);
 		gameBlock.level [0] = this;

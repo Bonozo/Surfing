@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: Dotted Line
     outer:
       serializedVersion: 2
-      x: 1468
-      y: 280
+      x: 2034
+      y: 31
       width: 7
       height: 587
     inner:
       serializedVersion: 2
-      x: 1468
-      y: 280
+      x: 2034
+      y: 31
       width: 7
       height: 587
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: White Box
     outer:
       serializedVersion: 2
-      x: 1458
-      y: 1851
+      x: 1173
+      y: 1610
       width: 235
       height: 197
     inner:
       serializedVersion: 2
-      x: 1458
-      y: 1851
+      x: 1173
+      y: 1610
       width: 235
       height: 197
     rotated: 0
@@ -80,13 +80,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 645
+      y: 1569
       width: 1172
       height: 203
     inner:
       serializedVersion: 2
       x: 0
-      y: 645
+      y: 1569
       width: 1172
       height: 203
     rotated: 0
@@ -94,197 +94,53 @@ MonoBehaviour:
     paddingRight: .0401023887
     paddingTop: .14778325
     paddingBottom: .167487681
-  - name: 85_90
-    outer:
-      serializedVersion: 2
-      x: 1173
-      y: 733
-      width: 148
-      height: 115
-    inner:
-      serializedVersion: 2
-      x: 1173
-      y: 733
-      width: 148
-      height: 115
-    rotated: 0
-    paddingLeft: .358108103
-    paddingRight: .391891897
-    paddingTop: .234782606
-    paddingBottom: .434782594
-  - name: 85_95
-    outer:
-      serializedVersion: 2
-      x: 1042
-      y: 238
-      width: 148
-      height: 115
-    inner:
-      serializedVersion: 2
-      x: 1042
-      y: 238
-      width: 148
-      height: 115
-    rotated: 0
-    paddingLeft: .418918908
-    paddingRight: .412162155
-    paddingTop: .243478253
-    paddingBottom: .426086962
-  - name: 85_87
-    outer:
-      serializedVersion: 2
-      x: 1248
-      y: 620
-      width: 148
-      height: 112
-    inner:
-      serializedVersion: 2
-      x: 1248
-      y: 620
-      width: 148
-      height: 112
-    rotated: 0
-    paddingLeft: .277027041
-    paddingRight: .351351351
-    paddingTop: .294642866
-    paddingBottom: .419642866
-  - name: 85_85
-    outer:
-      serializedVersion: 2
-      x: 1191
-      y: 239
-      width: 147
-      height: 114
-    inner:
-      serializedVersion: 2
-      x: 1191
-      y: 239
-      width: 147
-      height: 114
-    rotated: 0
-    paddingLeft: .163265303
-    paddingRight: .170068026
-    paddingTop: .236842111
-    paddingBottom: .368421048
-  - name: 85_End
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 349
-      width: 1041
-      height: 117
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 349
-      width: 1041
-      height: 117
-    rotated: 0
-    paddingLeft: .0537944287
-    paddingRight: .0480307415
-    paddingTop: .444444448
-    paddingBottom: .529914558
-  - name: 85_100
-    outer:
-      serializedVersion: 2
-      x: 1042
-      y: 354
-      width: 200
-      height: 112
-    inner:
-      serializedVersion: 2
-      x: 1042
-      y: 354
-      width: 200
-      height: 112
-    rotated: 0
-    paddingLeft: .204999998
-    paddingRight: .284999996
-    paddingTop: .410714298
-    paddingBottom: .517857134
-  - name: 85_80
-    outer:
-      serializedVersion: 2
-      x: 1243
-      y: 408
-      width: 148
-      height: 113
-    inner:
-      serializedVersion: 2
-      x: 1243
-      y: 408
-      width: 148
-      height: 113
-    rotated: 0
-    paddingLeft: .209459454
-    paddingRight: .418918908
-    paddingTop: .300884962
-    paddingBottom: .451327443
-  - name: 85_75
-    outer:
-      serializedVersion: 2
-      x: 1322
-      y: 735
-      width: 145
-      height: 113
-    inner:
-      serializedVersion: 2
-      x: 1322
-      y: 735
-      width: 145
-      height: 113
-    rotated: 0
-    paddingLeft: .324137926
-    paddingRight: .358620703
-    paddingTop: .460177004
-    paddingBottom: .424778759
-  - name: 85_End_B
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 467
-      width: 1101
-      height: 177
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 467
-      width: 1101
-      height: 177
-    rotated: 0
-    paddingLeft: .0317892842
-    paddingRight: .0317892842
-    paddingTop: .293785304
-    paddingBottom: .367231637
   - name: Bee_End
     outer:
       serializedVersion: 2
+      x: 956
+      y: 1808
+      width: 937
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 956
+      y: 1808
+      width: 937
+      height: 240
+    rotated: 0
+    paddingLeft: .0341515467
+    paddingRight: .0586979724
+    paddingTop: .254166663
+    paddingBottom: .291666657
+  - name: Bee_End_B
+    outer:
+      serializedVersion: 2
       x: 0
-      y: 1269
-      width: 1397
-      height: 359
+      y: 1773
+      width: 955
+      height: 275
     inner:
       serializedVersion: 2
       x: 0
-      y: 1269
-      width: 1397
-      height: 359
+      y: 1773
+      width: 955
+      height: 275
     rotated: 0
-    paddingLeft: .0343593396
-    paddingRight: .059413027
-    paddingTop: .253481895
-    paddingBottom: .292479098
+    paddingLeft: .0324607342
+    paddingRight: .0397905745
+    paddingTop: .178181812
+    paddingBottom: .13454546
   - name: Tall Tree
     outer:
       serializedVersion: 2
-      x: 1398
-      y: 1278
+      x: 1894
+      y: 1698
       width: 137
       height: 350
     inner:
       serializedVersion: 2
-      x: 1398
-      y: 1278
+      x: 1894
+      y: 1698
       width: 137
       height: 350
     rotated: 0
@@ -292,35 +148,17 @@ MonoBehaviour:
     paddingRight: .540145993
     paddingTop: .21714285
     paddingBottom: .077142857
-  - name: Bee
-    outer:
-      serializedVersion: 2
-      x: 1248
-      y: 527
-      width: 126
-      height: 92
-    inner:
-      serializedVersion: 2
-      x: 1248
-      y: 527
-      width: 126
-      height: 92
-    rotated: 0
-    paddingLeft: 0
-    paddingRight: .43650794
-    paddingTop: .521739125
-    paddingBottom: .532608688
   - name: Short Tree
     outer:
       serializedVersion: 2
-      x: 1102
-      y: 522
+      x: 1888
+      y: 482
       width: 145
       height: 122
     inner:
       serializedVersion: 2
-      x: 1102
-      y: 522
+      x: 1888
+      y: 482
       width: 145
       height: 122
     rotated: 0
@@ -328,89 +166,557 @@ MonoBehaviour:
     paddingRight: .344827592
     paddingTop: .245901644
     paddingBottom: .327868849
-  - name: Bee_End_B
+  - name: Bee
+    outer:
+      serializedVersion: 2
+      x: 1888
+      y: 389
+      width: 126
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 1888
+      y: 389
+      width: 126
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .43650794
+    paddingTop: .521739125
+    paddingBottom: .532608688
+  - name: Blue Triangle_End_B
     outer:
       serializedVersion: 2
       x: 0
-      y: 1629
-      width: 1457
-      height: 419
+      y: 744
+      width: 953
+      height: 138
     inner:
       serializedVersion: 2
       x: 0
-      y: 1629
-      width: 1457
-      height: 419
+      y: 744
+      width: 953
+      height: 138
     rotated: 0
-    paddingLeft: .0329444073
-    paddingRight: .0404941663
-    paddingTop: .181384251
-    paddingBottom: .136038184
-  - name: Flower_End_B
+    paddingLeft: .0388247631
+    paddingRight: .0356768109
+    paddingTop: .376811594
+    paddingBottom: .275362313
+  - name: Blue Triangle_End
     outer:
       serializedVersion: 2
       x: 0
-      y: 1029
-      width: 1447
-      height: 239
+      y: 381
+      width: 956
+      height: 99
     inner:
       serializedVersion: 2
       x: 0
-      y: 1029
-      width: 1447
-      height: 239
+      y: 381
+      width: 956
+      height: 99
     rotated: 0
-    paddingLeft: .0310988259
-    paddingRight: .0269523151
-    paddingTop: .167364016
-    paddingBottom: .22594142
+    paddingLeft: .0355648547
+    paddingRight: .0355648547
+    paddingTop: .545454562
+    paddingBottom: .595959604
+  - name: Red Circle
+    outer:
+      serializedVersion: 2
+      x: 1916
+      y: 619
+      width: 128
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1916
+      y: 619
+      width: 128
+      height: 115
+    rotated: 0
+    paddingLeft: .4140625
+    paddingRight: .421875
+    paddingTop: .278260857
+    paddingBottom: .365217388
+  - name: Blue Triangle
+    outer:
+      serializedVersion: 2
+      x: 780
+      y: 287
+      width: 126
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 780
+      y: 287
+      width: 126
+      height: 93
+    rotated: 0
+    paddingLeft: .40476191
+    paddingRight: .388888896
+    paddingTop: .344086021
+    paddingBottom: .591397822
+  - name: Green Octagon
+    outer:
+      serializedVersion: 2
+      x: 1917
+      y: 919
+      width: 114
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 1917
+      y: 919
+      width: 114
+      height: 114
+    rotated: 0
+    paddingLeft: .315789461
+    paddingRight: .350877196
+    paddingTop: .429824561
+    paddingBottom: .280701756
+  - name: Clock with 1_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 602
+      width: 961
+      height: 130
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 602
+      width: 961
+      height: 130
+    rotated: 0
+    paddingLeft: .0312174819
+    paddingRight: .0343392305
+    paddingTop: .492307693
+    paddingBottom: .476923078
+  - name: Clock with 1_End_B
+    outer:
+      serializedVersion: 2
+      x: 940
+      y: 1195
+      width: 972
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 940
+      y: 1195
+      width: 972
+      height: 164
+    rotated: 0
+    paddingLeft: .0164609049
+    paddingRight: .0370370373
+    paddingTop: .243902445
+    paddingBottom: .286585361
+  - name: Clock with 3.30
+    outer:
+      serializedVersion: 2
+      x: 1606
+      y: 1611
+      width: 195
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1606
+      y: 1611
+      width: 195
+      height: 196
+    rotated: 0
+    paddingLeft: .343589753
+    paddingRight: .292307705
+    paddingTop: .163265303
+    paddingBottom: .260204077
+  - name: Clock with 2.30
+    outer:
+      serializedVersion: 2
+      x: 957
+      y: 283
+      width: 195
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 957
+      y: 283
+      width: 195
+      height: 196
+    rotated: 0
+    paddingLeft: .230769232
+    paddingRight: .220512822
+    paddingTop: .193877548
+    paddingBottom: .260204077
+  - name: Clock with 1
+    outer:
+      serializedVersion: 2
+      x: 1409
+      y: 1611
+      width: 196
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1409
+      y: 1611
+      width: 196
+      height: 196
+    rotated: 0
+    paddingLeft: .209183678
+    paddingRight: .18877551
+    paddingTop: .234693885
+    paddingBottom: .173469394
+  - name: Clock with 3_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1201
+      width: 939
+      height: 180
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1201
+      width: 939
+      height: 180
+    rotated: 0
+    paddingLeft: .0372736938
+    paddingRight: .0532481372
+    paddingTop: .211111113
+    paddingBottom: .216666669
+  - name: Clock with 3_End
+    outer:
+      serializedVersion: 2
+      x: 954
+      y: 733
+      width: 918
+      height: 142
+    inner:
+      serializedVersion: 2
+      x: 954
+      y: 733
+      width: 918
+      height: 142
+    rotated: 0
+    paddingLeft: .0577342063
+    paddingRight: .0577342063
+    paddingTop: .394366205
+    paddingBottom: .295774639
+  - name: Clock with 12
+    outer:
+      serializedVersion: 2
+      x: 1170
+      y: 86
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1170
+      y: 86
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .159793809
+    paddingRight: .252577305
+    paddingTop: .137755096
+    paddingBottom: .255102038
+  - name: Clock with 9
+    outer:
+      serializedVersion: 2
+      x: 1153
+      y: 283
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1153
+      y: 283
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .185567006
+    paddingRight: .3041237
+    paddingTop: .183673471
+    paddingBottom: .193877548
+  - name: Clock with 3
+    outer:
+      serializedVersion: 2
+      x: 975
+      y: 86
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 975
+      y: 86
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .211340204
+    paddingRight: .216494843
+    paddingTop: .18877551
+    paddingBottom: .173469394
+  - name: Clock With 4_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1382
+      width: 969
+      height: 186
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1382
+      width: 969
+      height: 186
+    rotated: 0
+    paddingLeft: .0278637763
+    paddingRight: .0288957693
+    paddingTop: .17741935
+    paddingBottom: .166666672
+  - name: Clock With 4_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 883
+      width: 957
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 883
+      width: 957
+      height: 148
+    rotated: 0
+    paddingLeft: .031347964
+    paddingRight: .0386624858
+    paddingTop: .243243247
+    paddingBottom: .263513505
+  - name: Clock With 4
+    outer:
+      serializedVersion: 2
+      x: 1348
+      y: 283
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 1348
+      y: 283
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .268041223
+    paddingRight: .29896906
+    paddingTop: .198979586
+    paddingBottom: .163265303
+  - name: Clock With 2
+    outer:
+      serializedVersion: 2
+      x: 195
+      y: 184
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 195
+      y: 184
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .216494843
+    paddingRight: .257731944
+    paddingTop: .193877548
+    paddingBottom: .198979586
+  - name: Clock With 3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 184
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 184
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .221649483
+    paddingRight: .29896906
+    paddingTop: .163265303
+    paddingBottom: .137755096
+  - name: Clock with 4_End_B
+    outer:
+      serializedVersion: 2
+      x: 965
+      y: 876
+      width: 951
+      height: 157
+    inner:
+      serializedVersion: 2
+      x: 965
+      y: 876
+      width: 951
+      height: 157
+    rotated: 0
+    paddingLeft: .0315457396
+    paddingRight: .045215562
+    paddingTop: .165605098
+    paddingBottom: .159235671
+  - name: Clock with 4_End
+    outer:
+      serializedVersion: 2
+      x: 962
+      y: 480
+      width: 925
+      height: 124
+    inner:
+      serializedVersion: 2
+      x: 962
+      y: 480
+      width: 925
+      height: 124
+    rotated: 0
+    paddingLeft: .0421621613
+    paddingRight: .0648648664
+    paddingTop: .322580636
+    paddingBottom: .330645174
+  - name: Clock with 4
+    outer:
+      serializedVersion: 2
+      x: 780
+      y: 86
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 780
+      y: 86
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .24742268
+    paddingRight: .257731944
+    paddingTop: .178571433
+    paddingBottom: .183673471
+  - name: Clock with 6
+    outer:
+      serializedVersion: 2
+      x: 585
+      y: 184
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 585
+      y: 184
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .164948449
+    paddingRight: .340206176
+    paddingTop: .183673471
+    paddingBottom: .25
+  - name: Clock with 12_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1032
+      width: 964
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1032
+      width: 964
+      height: 162
+    rotated: 0
+    paddingLeft: .0248962659
+    paddingRight: .0373443998
+    paddingTop: .259259254
+    paddingBottom: .302469134
+  - name: Clock with 12_End
+    outer:
+      serializedVersion: 2
+      x: 962
+      y: 605
+      width: 953
+      height: 127
+    inner:
+      serializedVersion: 2
+      x: 962
+      y: 605
+      width: 953
+      height: 127
+    rotated: 0
+    paddingLeft: .0335781723
+    paddingRight: .040923398
+    paddingTop: .299212605
+    paddingBottom: .299212605
+  - name: Clock with 2
+    outer:
+      serializedVersion: 2
+      x: 390
+      y: 184
+      width: 194
+      height: 196
+    inner:
+      serializedVersion: 2
+      x: 390
+      y: 184
+      width: 194
+      height: 196
+    rotated: 0
+    paddingLeft: .29896906
+    paddingRight: .360824734
+    paddingTop: .260204077
+    paddingBottom: .239795923
   - name: Flower_End
     outer:
       serializedVersion: 2
       x: 0
-      y: 849
-      width: 1387
-      height: 179
+      y: 481
+      width: 930
+      height: 120
     inner:
       serializedVersion: 2
       x: 0
-      y: 849
-      width: 1387
-      height: 179
+      y: 481
+      width: 930
+      height: 120
     rotated: 0
-    paddingLeft: .0432588309
-    paddingRight: .058399424
-    paddingTop: .491620123
-    paddingBottom: .469273746
-  - name: Flower
+    paddingLeft: .0430107526
+    paddingRight: .0580645166
+    paddingTop: .491666675
+    paddingBottom: .466666669
+  - name: Flower_End_B
     outer:
       serializedVersion: 2
-      x: 1388
-      y: 868
-      width: 101
+      x: 965
+      y: 1034
+      width: 968
       height: 160
     inner:
       serializedVersion: 2
-      x: 1388
-      y: 868
-      width: 101
+      x: 965
+      y: 1034
+      width: 968
       height: 160
     rotated: 0
-    paddingLeft: .376237631
-    paddingRight: .594059408
-    paddingTop: .262499988
-    paddingBottom: .368750006
+    paddingLeft: .0309917349
+    paddingRight: .0268595032
+    paddingTop: .162499994
+    paddingBottom: .224999994
   - name: Honey Bunny
     outer:
       serializedVersion: 2
-      x: 1458
-      y: 1674
+      x: 1913
+      y: 1219
       width: 133
       height: 176
     inner:
       serializedVersion: 2
-      x: 1458
-      y: 1674
+      x: 1913
+      y: 1219
       width: 133
       height: 176
     rotated: 0
@@ -418,17 +724,35 @@ MonoBehaviour:
     paddingRight: .443609029
     paddingTop: .340909094
     paddingBottom: .278409094
+  - name: Flower
+    outer:
+      serializedVersion: 2
+      x: 1934
+      y: 1058
+      width: 101
+      height: 160
+    inner:
+      serializedVersion: 2
+      x: 1934
+      y: 1058
+      width: 101
+      height: 160
+    rotated: 0
+    paddingLeft: .376237631
+    paddingRight: .594059408
+    paddingTop: .262499988
+    paddingBottom: .368750006
   - name: Carrot
     outer:
       serializedVersion: 2
-      x: 1375
-      y: 552
+      x: 1802
+      y: 1630
       width: 92
       height: 67
     inner:
       serializedVersion: 2
-      x: 1375
-      y: 552
+      x: 1802
+      y: 1630
       width: 92
       height: 67
     rotated: 0
@@ -436,6 +760,96 @@ MonoBehaviour:
     paddingRight: .706521749
     paddingTop: .656716406
     paddingBottom: 1.119403
+  - name: Honey_End_B
+    outer:
+      serializedVersion: 2
+      x: 970
+      y: 1449
+      width: 940
+      height: 119
+    inner:
+      serializedVersion: 2
+      x: 970
+      y: 1449
+      width: 940
+      height: 119
+    rotated: 0
+    paddingLeft: .0393617004
+    paddingRight: .0500000007
+    paddingTop: .201680675
+    paddingBottom: .226890758
+  - name: Honey_End
+    outer:
+      serializedVersion: 2
+      x: 970
+      y: 1360
+      width: 929
+      height: 88
+    inner:
+      serializedVersion: 2
+      x: 970
+      y: 1360
+      width: 929
+      height: 88
+    rotated: 0
+    paddingLeft: .0430570506
+    paddingRight: .0592034459
+    paddingTop: .431818187
+    paddingBottom: .454545468
+  - name: Zip
+    outer:
+      serializedVersion: 2
+      x: 1911
+      y: 1549
+      width: 114
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 1911
+      y: 1549
+      width: 114
+      height: 148
+    rotated: 0
+    paddingLeft: .394736856
+    paddingRight: .429824561
+    paddingTop: .297297299
+    paddingBottom: .243243247
+  - name: Honey
+    outer:
+      serializedVersion: 2
+      x: 1911
+      y: 1396
+      width: 116
+      height: 152
+    inner:
+      serializedVersion: 2
+      x: 1911
+      y: 1396
+      width: 116
+      height: 152
+    rotated: 0
+    paddingLeft: .396551728
+    paddingRight: .37068966
+    paddingTop: .25
+    paddingBottom: .230263159
+  - name: Barry
+    outer:
+      serializedVersion: 2
+      x: 1873
+      y: 735
+      width: 132
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 1873
+      y: 735
+      width: 132
+      height: 140
+    rotated: 0
+    paddingLeft: .113636367
+    paddingRight: .189393938
+    paddingTop: .257142872
+    paddingBottom: .264285713
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

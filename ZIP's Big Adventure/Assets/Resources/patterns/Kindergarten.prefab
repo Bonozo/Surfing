@@ -805,24 +805,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100088
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400088}
-  - 114: {fileID: 11400200}
-  - 65: {fileID: 6500042}
-  - 114: {fileID: 11400198}
-  m_Layer: 8
-  m_Name: Box
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100090
 GameObject:
   m_ObjectHideFlags: 1
@@ -914,22 +896,6 @@ GameObject:
   - 4: {fileID: 400100}
   m_Layer: 8
   m_Name: GoodEnd
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100102
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400102}
-  - 114: {fileID: 11400214}
-  m_Layer: 8
-  m_Name: BasicEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1443,23 +1409,6 @@ GameObject:
   - 114: {fileID: 11400308}
   m_Layer: 8
   m_Name: Title
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100164
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400164}
-  - 114: {fileID: 11400312}
-  - 114: {fileID: 11400310}
-  m_Layer: 8
-  m_Name: Drag Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1998,42 +1947,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100226
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400226}
-  - 114: {fileID: 11400436}
-  - 65: {fileID: 6500082}
-  - 114: {fileID: 11400434}
-  - 114: {fileID: 11400432}
-  - 54: {fileID: 5400072}
-  m_Layer: 8
-  m_Name: Answer Place
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!1 &100228
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400228}
-  - 114: {fileID: 11400438}
-  m_Layer: 8
-  m_Name: Title
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100230
 GameObject:
   m_ObjectHideFlags: 1
@@ -2543,21 +2456,6 @@ GameObject:
   - 4: {fileID: 400286}
   m_Layer: 8
   m_Name: Kindergarten
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100288
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400288}
-  m_Layer: 8
-  m_Name: Game
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3637,27 +3535,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!1 &100410
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400410}
-  - 114: {fileID: 11400802}
-  - 65: {fileID: 6500162}
-  - 114: {fileID: 11400800}
-  - 114: {fileID: 11400798}
-  - 54: {fileID: 5400130}
-  - 114: {fileID: 11400796}
-  m_Layer: 8
-  m_Name: Item2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100412
 GameObject:
   m_ObjectHideFlags: 1
@@ -3804,24 +3681,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!1 &100428
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400428}
-  - 114: {fileID: 11400840}
-  - 65: {fileID: 6500174}
-  - 114: {fileID: 11400838}
-  m_Layer: 8
-  m_Name: Box
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100430
 GameObject:
   m_ObjectHideFlags: 1
@@ -4159,22 +4018,6 @@ GameObject:
   - 114: {fileID: 11400916}
   m_Layer: 8
   m_Name: Item1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100468
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400468}
-  - 114: {fileID: 11400924}
-  m_Layer: 8
-  m_Name: Basic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4572,22 +4415,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100514
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400514}
-  - 114: {fileID: 11401008}
-  m_Layer: 8
-  m_Name: Center
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100516
 GameObject:
   m_ObjectHideFlags: 1
@@ -4797,23 +4624,6 @@ GameObject:
   - 114: {fileID: 11401046}
   m_Layer: 8
   m_Name: Item2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100540
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400540}
-  - 114: {fileID: 11401056}
-  - 114: {fileID: 11401054}
-  m_Layer: 8
-  m_Name: Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5446,26 +5256,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100612
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400612}
-  - 114: {fileID: 11401212}
-  - 65: {fileID: 6500258}
-  - 114: {fileID: 11401210}
-  - 114: {fileID: 11401208}
-  - 54: {fileID: 5400200}
-  m_Layer: 8
-  m_Name: ItemRight
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100614
 GameObject:
   m_ObjectHideFlags: 1
@@ -5919,23 +5709,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100664
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400664}
-  - 114: {fileID: 11401322}
-  - 114: {fileID: 11401666}
-  m_Layer: 8
-  m_Name: 20. Tall Tree
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
 --- !u!1 &100666
 GameObject:
   m_ObjectHideFlags: 1
@@ -6187,27 +5960,6 @@ GameObject:
   - 4: {fileID: 400694}
   m_Layer: 8
   m_Name: Game
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100696
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400696}
-  - 114: {fileID: 11401378}
-  - 65: {fileID: 6500292}
-  - 114: {fileID: 11401376}
-  - 114: {fileID: 11401374}
-  - 54: {fileID: 5400228}
-  - 114: {fileID: 11401372}
-  m_Layer: 8
-  m_Name: Item1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7756,17 +7508,6 @@ Transform:
   m_LocalScale: {x: 153, y: 164, z: 1}
   m_Children: []
   m_Father: {fileID: 400442}
---- !u!4 &400088
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100088}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 240, y: 190.850906, z: 0}
-  m_LocalScale: {x: 195, y: 192, z: 0}
-  m_Children: []
-  m_Father: {fileID: 400514}
 --- !u!4 &400090
 Transform:
   m_ObjectHideFlags: 1
@@ -7841,17 +7582,6 @@ Transform:
   m_Children:
   - {fileID: 400458}
   m_Father: {fileID: 400356}
---- !u!4 &400102
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100102}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -178, y: 105.5, z: 1}
-  m_LocalScale: {x: 987, y: 415, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400514}
 --- !u!4 &400104
 Transform:
   m_ObjectHideFlags: 1
@@ -8214,18 +7944,6 @@ Transform:
   m_LocalScale: {x: 1167, y: 204, z: 1}
   m_Children: []
   m_Father: {fileID: 400500}
---- !u!4 &400164
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100164}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400288}
-  m_Father: {fileID: 400664}
 --- !u!4 &400166
 Transform:
   m_ObjectHideFlags: 1
@@ -8584,28 +8302,6 @@ Transform:
   m_LocalScale: {x: 1219, y: 166, z: 1}
   m_Children: []
   m_Father: {fileID: 400536}
---- !u!4 &400226
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100226}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 213, y: 119, z: -.996136546}
-  m_LocalScale: {x: 137, y: 350, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400514}
---- !u!4 &400228
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100228}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40, y: 590, z: 0}
-  m_LocalScale: {x: 1172, y: 203, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400288}
 --- !u!4 &400230
 Transform:
   m_ObjectHideFlags: 1
@@ -8966,19 +8662,6 @@ Transform:
   - {fileID: 400782}
   - {fileID: 400264}
   m_Father: {fileID: 0}
---- !u!4 &400288
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100288}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .5, y: .5, z: 1}
-  m_Children:
-  - {fileID: 400514}
-  - {fileID: 400228}
-  m_Father: {fileID: 400164}
 --- !u!4 &400290
 Transform:
   m_ObjectHideFlags: 1
@@ -9681,17 +9364,6 @@ Transform:
   m_LocalScale: {x: 128, y: 115, z: 1}
   m_Children: []
   m_Father: {fileID: 400702}
---- !u!4 &400410
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100410}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 551, y: 244, z: -.996365428}
-  m_LocalScale: {x: 62, y: 104, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400514}
 --- !u!4 &400412
 Transform:
   m_ObjectHideFlags: 1
@@ -9782,17 +9454,6 @@ Transform:
   m_LocalScale: {x: 128, y: 115, z: 1}
   m_Children: []
   m_Father: {fileID: 400254}
---- !u!4 &400428
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100428}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 240, y: 5.13654804, z: 0}
-  m_LocalScale: {x: 195, y: 192, z: 0}
-  m_Children: []
-  m_Father: {fileID: 400514}
 --- !u!4 &400430
 Transform:
   m_ObjectHideFlags: 1
@@ -10028,17 +9689,6 @@ Transform:
   m_LocalScale: {x: 284, y: 183, z: 1}
   m_Children: []
   m_Father: {fileID: 400500}
---- !u!4 &400468
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100468}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -186, y: 105, z: .997372508}
-  m_LocalScale: {x: 927, y: 355, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400514}
 --- !u!4 &400470
 Transform:
   m_ObjectHideFlags: 1
@@ -10303,26 +9953,6 @@ Transform:
   m_Children:
   - {fileID: 400040}
   m_Father: {fileID: 400526}
---- !u!4 &400514
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100514}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400226}
-  - {fileID: 400468}
-  - {fileID: 400102}
-  - {fileID: 400428}
-  - {fileID: 400088}
-  - {fileID: 400612}
-  - {fileID: 400696}
-  - {fileID: 400410}
-  - {fileID: 400540}
-  m_Father: {fileID: 400288}
 --- !u!4 &400516
 Transform:
   m_ObjectHideFlags: 1
@@ -10473,17 +10103,6 @@ Transform:
   m_LocalScale: {x: 129, y: 98, z: 1}
   m_Children: []
   m_Father: {fileID: 400750}
---- !u!4 &400540
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100540}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 434, y: -3, z: 0}
-  m_LocalScale: {x: 7, y: 587, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400514}
 --- !u!4 &400542
 Transform:
   m_ObjectHideFlags: 1
@@ -10881,17 +10500,6 @@ Transform:
   m_Children:
   - {fileID: 400534}
   m_Father: {fileID: 400304}
---- !u!4 &400612
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100612}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 554, y: 15, z: -.99659431}
-  m_LocalScale: {x: 137, y: 350, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400514}
 --- !u!4 &400614
 Transform:
   m_ObjectHideFlags: 1
@@ -11182,18 +10790,6 @@ Transform:
   m_LocalScale: {x: 1067, y: 191, z: 1}
   m_Children: []
   m_Father: {fileID: 400670}
---- !u!4 &400664
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100664}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400164}
-  m_Father: {fileID: 400782}
 --- !u!4 &400666
 Transform:
   m_ObjectHideFlags: 1
@@ -11374,17 +10970,6 @@ Transform:
   - {fileID: 400170}
   - {fileID: 400438}
   m_Father: {fileID: 400582}
---- !u!4 &400696
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100696}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 569, y: -277, z: -.995953441}
-  m_LocalScale: {x: 145, y: 122, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400514}
 --- !u!4 &400698
 Transform:
   m_ObjectHideFlags: 1
@@ -11823,7 +11408,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 318, y: 26, z: -.993715346}
+  m_LocalPosition: {x: 313, y: 27, z: -.993715346}
   m_LocalScale: {x: 131, y: 147, z: 1}
   m_Children: []
   m_Father: {fileID: 400392}
@@ -11939,7 +11524,6 @@ Transform:
   - {fileID: 400744}
   - {fileID: 400006}
   - {fileID: 400594}
-  - {fileID: 400664}
   m_Father: {fileID: 400286}
 --- !u!4 &400784
 Transform:
@@ -12660,21 +12244,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!54 &5400072
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100226}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!54 &5400074
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -13086,21 +12655,6 @@ Rigidbody:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100408}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!54 &5400130
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100410}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -13620,21 +13174,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!54 &5400200
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100612}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!54 &5400202
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -13821,21 +13360,6 @@ Rigidbody:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100692}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!54 &5400228
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100696}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -14352,18 +13876,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500042
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100088}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: .75, y: .75, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500044
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -14586,18 +14098,6 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100220}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500082
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100226}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
@@ -15072,18 +14572,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500162
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100410}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500164
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -15143,18 +14631,6 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500174
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100428}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: .75, y: .75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500176
 BoxCollider:
@@ -15648,18 +15124,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500258
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100612}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500260
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -15846,18 +15310,6 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100692}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500292
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100696}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
@@ -16106,7 +15558,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -16177,6 +15629,7 @@ MonoBehaviour:
   - {fileID: 11401492}
   endTime: 1
   Center: {fileID: 100750}
+  atlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16204,6 +15657,7 @@ MonoBehaviour:
   - {fileID: 11400752}
   endTime: 1
   Center: {fileID: 100392}
+  atlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
 --- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -16285,7 +15739,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Lucky_End_B
   mFillCenter: 1
   mType: 0
@@ -16306,7 +15760,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: L_End_B
   mFillCenter: 1
   mType: 0
@@ -16389,7 +15843,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Barry
   mFillCenter: 1
   mType: 0
@@ -16440,7 +15894,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Purple Square
   mFillCenter: 1
   mType: 0
@@ -16496,7 +15950,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Red Circle_End
   mFillCenter: 1
   mType: 0
@@ -16535,11 +15989,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.18336892
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.09090912
+    e13: -1.27152324
     e20: 0
     e21: 0
     e22: 384
@@ -16581,6 +16035,7 @@ MonoBehaviour:
   - {fileID: 11400206}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400050
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17079,7 +16534,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -17130,7 +16585,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Pink Balloon
   mFillCenter: 1
   mType: 0
@@ -17164,6 +16619,7 @@ MonoBehaviour:
   - {fileID: 11400316}
   endTime: 1
   Center: {fileID: 100170}
+  atlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
 --- !u!114 &11400118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17219,7 +16675,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Kristy
   mFillCenter: 1
   mType: 0
@@ -17258,11 +16714,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.18336892
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.09090912
+    e13: -2.21325636
     e20: 0
     e21: 0
     e22: 384
@@ -17433,7 +16889,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Bee
   mFillCenter: 1
   mType: 0
@@ -17468,6 +16924,7 @@ MonoBehaviour:
   - {fileID: 11401424}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17523,7 +16980,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Green Triangle
   mFillCenter: 1
   mType: 0
@@ -17544,7 +17001,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Octagon_End
   mFillCenter: 1
   mType: 0
@@ -17578,6 +17035,7 @@ MonoBehaviour:
   - {fileID: 11400888}
   endTime: 1
   Center: {fileID: 100452}
+  atlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
 --- !u!114 &11400164
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17858,43 +17316,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Marty
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11400198
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22dc6ac1fd3ce594b89dfbfad7673c40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  to: {r: 1, g: 1, b: 1, a: 0}
-  duration: 1
-  delay: 0
---- !u!114 &11400200
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
-  mSpriteName: White Box
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -17999,7 +17422,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Lucky_B_End
   mFillCenter: 1
   mType: 0
@@ -18022,27 +17445,6 @@ MonoBehaviour:
   mDepth: 3
   mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: What'sNext_Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11400214
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
-  mSpriteName: Tall Tree_End_B
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -18096,6 +17498,7 @@ MonoBehaviour:
   - {fileID: 11400002}
   endTime: 1
   Center: {fileID: 100002}
+  atlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
 --- !u!114 &11400220
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -18128,11 +17531,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .992248058
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.98449612
+    e13: -2.21325636
     e20: 0
     e21: 0
     e22: 384
@@ -18176,7 +17579,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -18210,6 +17613,7 @@ MonoBehaviour:
   - {fileID: 11400186}
   endTime: 1
   Center: {fileID: 100080}
+  atlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
 --- !u!114 &11400230
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -18224,7 +17628,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -18468,11 +17872,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 1.02400005
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -2.04799986
+    e13: -2.21325636
     e20: 0
     e21: 0
     e22: 384
@@ -18518,11 +17922,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.18336892
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.09090912
+    e13: -1.27152324
     e20: 0
     e21: 0
     e22: 384
@@ -18667,7 +18071,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -18755,7 +18159,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -18776,7 +18180,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Purple Square_End_B
   mFillCenter: 1
   mType: 0
@@ -18892,7 +18296,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Octagon
   mFillCenter: 1
   mType: 0
@@ -18929,7 +18333,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Short  Tree_End
   mFillCenter: 1
   mType: 0
@@ -18963,6 +18367,7 @@ MonoBehaviour:
   - {fileID: 11400302}
   endTime: 1
   Center: {fileID: 100152}
+  atlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
 --- !u!114 &11400308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -18984,56 +18389,6 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
---- !u!114 &11400310
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b3e0228d934ab2438c00ea1903f88b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11400312
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100164}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sortByDepth: 1
-  showInPanelTool: 1
-  generateNormals: 0
-  depthPass: 0
-  widgetsAreStatic: 0
-  cullWhileDragging: 0
-  worldToLocal:
-    e00: 384
-    e01: 0
-    e02: 0
-    e03: 2.18336892
-    e10: 0
-    e11: 384
-    e12: 0
-    e13: -1.09090912
-    e20: 0
-    e21: 0
-    e22: 384
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
-  mAlpha: 1
-  mDebugInfo: 1
-  mClipping: 2
-  mClipRange: {x: 0, y: 0, z: 1024, w: 768}
-  mClipSoftness: {x: 40, y: 40}
 --- !u!114 &11400314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19048,7 +18403,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Short  Tree_End_B
   mFillCenter: 1
   mType: 0
@@ -19166,6 +18521,7 @@ MonoBehaviour:
   - {fileID: 11401548}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400328
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19231,7 +18587,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Marty_End
   mFillCenter: 1
   mType: 0
@@ -19252,7 +18608,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Green Circle_End
   mFillCenter: 1
   mType: 0
@@ -19400,7 +18756,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: D
   mFillCenter: 1
   mType: 0
@@ -19631,7 +18987,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Blue Circle
   mFillCenter: 1
   mType: 0
@@ -19689,7 +19045,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -19724,7 +19080,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -19763,11 +19119,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .643216074
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: 0
+    e13: -2.21325636
     e20: 0
     e21: 0
     e22: 384
@@ -19978,7 +19334,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Honey
   mFillCenter: 1
   mType: 0
@@ -20061,80 +19417,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Honey_End
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11400432
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33223b2eb84e8040a4d9a0be2a0ca55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level: {fileID: 11401322}
-  targetCollider: {fileID: 6500174}
---- !u!114 &11400434
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90fc8427bee38c478f5b2f6f0ae9580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 400226}
-  scale: {x: 1, y: 1, z: 1}
-  scrollWheelFactor: 0
-  restrictWithinPanel: 1
-  dragEffect: 2
-  momentumAmount: 35
---- !u!114 &11400436
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
-  mSpriteName: Tall Tree
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11400438
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
-  mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -20154,7 +19438,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Pink Balloon_End
   mFillCenter: 1
   mType: 0
@@ -20189,7 +19473,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -20328,7 +19612,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Lucky_End
   mFillCenter: 1
   mType: 0
@@ -20379,7 +19663,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Octagon
   mFillCenter: 1
   mType: 0
@@ -20456,7 +19740,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Carrot_End
   mFillCenter: 1
   mType: 0
@@ -20512,6 +19796,7 @@ MonoBehaviour:
   - {fileID: 11400038}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400480
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20690,7 +19975,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -20778,7 +20063,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Marty_End_B
   mFillCenter: 1
   mType: 0
@@ -20875,7 +20160,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -20937,7 +20222,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Honey Bunny
   mFillCenter: 1
   mType: 0
@@ -20976,11 +20261,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.18336892
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.09090912
+    e13: -1.27152324
     e20: 0
     e21: 0
     e22: 384
@@ -21021,6 +20306,7 @@ MonoBehaviour:
   - {fileID: 11400874}
   endTime: 1
   Center: {fileID: 100442}
+  atlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
 --- !u!114 &11400538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21115,6 +20401,7 @@ MonoBehaviour:
   - {fileID: 11401326}
   endTime: 1
   Center: {fileID: 100670}
+  atlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
 --- !u!114 &11400548
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21143,7 +20430,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -21194,7 +20481,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: L
   mFillCenter: 1
   mType: 0
@@ -21256,7 +20543,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Flower
   mFillCenter: 1
   mType: 0
@@ -21316,11 +20603,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.18336892
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.09090912
+    e13: -1.27152324
     e20: 0
     e21: 0
     e22: 384
@@ -21417,6 +20704,7 @@ MonoBehaviour:
   - {fileID: 11400062}
   endTime: 1
   Center: {fileID: 100036}
+  atlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
 --- !u!114 &11400580
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21452,7 +20740,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -21508,7 +20796,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -21580,7 +20868,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -21601,7 +20889,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Purple Square_End
   mFillCenter: 1
   mType: 0
@@ -21640,11 +20928,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.18336892
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.09090912
+    e13: -2.21325636
     e20: 0
     e21: 0
     e22: 384
@@ -21688,7 +20976,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -21760,6 +21048,7 @@ MonoBehaviour:
   - {fileID: 11400884}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21836,7 +21125,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -21915,7 +21204,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -21977,7 +21266,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Tall Tree
   mFillCenter: 1
   mType: 0
@@ -21998,7 +21287,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Red Square_End_B
   mFillCenter: 1
   mType: 0
@@ -22074,11 +21363,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .992248058
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.98449612
+    e13: -2.21325636
     e20: 0
     e21: 0
     e22: 384
@@ -22122,7 +21411,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -22157,6 +21446,7 @@ MonoBehaviour:
   - {fileID: 11401522}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22187,7 +21477,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -22222,6 +21512,7 @@ MonoBehaviour:
   - {fileID: 11400896}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400662
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22405,11 +21696,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .992248058
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.98449612
+    e13: -2.21325636
     e20: 0
     e21: 0
     e22: 384
@@ -22478,7 +21769,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Green Square
   mFillCenter: 1
   mType: 0
@@ -22540,7 +21831,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: D
   mFillCenter: 1
   mType: 0
@@ -22653,7 +21944,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Honey
   mFillCenter: 1
   mType: 0
@@ -22822,7 +22113,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -22973,6 +22264,7 @@ MonoBehaviour:
   - {fileID: 11400480}
   endTime: 1
   Center: {fileID: 100254}
+  atlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
 --- !u!114 &11400744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23028,7 +22320,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Blue Balloon
   mFillCenter: 1
   mType: 0
@@ -23095,7 +22387,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Short Tree
   mFillCenter: 1
   mType: 0
@@ -23213,7 +22505,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Green Circle
   mFillCenter: 1
   mType: 0
@@ -23331,7 +22623,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Carrot
   mFillCenter: 1
   mType: 0
@@ -23352,7 +22644,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Pink Balloon_End_B
   mFillCenter: 1
   mType: 0
@@ -23410,68 +22702,6 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
---- !u!114 &11400796
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d61a7ccd28f6554ba162b70e312cd1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11400798
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33223b2eb84e8040a4d9a0be2a0ca55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level: {fileID: 11401322}
-  targetCollider: {fileID: 6500174}
---- !u!114 &11400800
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90fc8427bee38c478f5b2f6f0ae9580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 400410}
-  scale: {x: 1, y: 1, z: 1}
-  scrollWheelFactor: 0
-  restrictWithinPanel: 1
-  dragEffect: 2
-  momentumAmount: 35
---- !u!114 &11400802
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
-  mSpriteName: Flower
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
 --- !u!114 &11400804
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23486,7 +22716,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Honey_End_B
   mFillCenter: 1
   mType: 0
@@ -23537,7 +22767,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Lucky
   mFillCenter: 1
   mType: 0
@@ -23599,7 +22829,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Kristy
   mFillCenter: 1
   mType: 0
@@ -23641,7 +22871,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Carrot_End_B
   mFillCenter: 1
   mType: 0
@@ -23759,43 +22989,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Green Circle
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11400838
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22dc6ac1fd3ce594b89dfbfad7673c40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  to: {r: 1, g: 1, b: 1, a: 0}
-  duration: 1
-  delay: 0
---- !u!114 &11400840
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
-  mSpriteName: White Box
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -23856,7 +23051,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Green Balloon
   mFillCenter: 1
   mType: 0
@@ -24035,7 +23230,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Red Octagon
   mFillCenter: 1
   mType: 0
@@ -24056,7 +23251,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -24077,7 +23272,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Octagon_End_B
   mFillCenter: 1
   mType: 0
@@ -24260,7 +23455,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Short Tree
   mFillCenter: 1
   mType: 0
@@ -24346,7 +23541,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Red Circle
   mFillCenter: 1
   mType: 0
@@ -24434,7 +23629,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -24503,27 +23698,6 @@ MonoBehaviour:
   mSpriteName: Mouse
   mFillCenter: 1
   mType: 1
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11400924
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
-  mSpriteName: Tall Tree_End
-  mFillCenter: 1
-  mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -24597,7 +23771,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: D_End
   mFillCenter: 1
   mType: 0
@@ -24632,6 +23806,7 @@ MonoBehaviour:
   - {fileID: 11401174}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400936
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -24754,7 +23929,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Zip
   mFillCenter: 1
   mType: 0
@@ -24788,6 +23963,7 @@ MonoBehaviour:
   - {fileID: 11401386}
   endTime: 1
   Center: {fileID: 100704}
+  atlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
 --- !u!114 &11400954
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -24832,7 +24008,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Red Square
   mFillCenter: 1
   mType: 0
@@ -24894,7 +24070,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Purple Triangle
   mFillCenter: 1
   mType: 0
@@ -24950,7 +24126,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: L_End
   mFillCenter: 1
   mType: 0
@@ -25033,7 +24209,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: M
   mFillCenter: 1
   mType: 0
@@ -25054,7 +24230,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -25154,7 +24330,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -25216,7 +24392,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: P
   mFillCenter: 1
   mType: 0
@@ -25237,29 +24413,13 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Red Circle_End_B
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
---- !u!114 &11401008
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe676d7ca25224343bb206d86bd7fb07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  duration: 5
-  delay: 1.5
-  resetBefore: 1
-  defaultUp: 0
-  to: {x: 186, y: 0, z: 0}
 --- !u!114 &11401010
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25417,6 +24577,7 @@ MonoBehaviour:
   - {fileID: 11401074}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25445,6 +24606,7 @@ MonoBehaviour:
   - {fileID: 11400072}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25556,7 +24718,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Marty
   mFillCenter: 1
   mType: 0
@@ -25634,45 +24796,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Blue Square
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11401054
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe676d7ca25224343bb206d86bd7fb07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  duration: 10
-  delay: 0
-  resetBefore: 1
-  defaultUp: 1
-  to: {x: 0, y: 0, z: 0}
---- !u!114 &11401056
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
-  mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -25757,7 +24882,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Red Circle
   mFillCenter: 1
   mType: 0
@@ -25815,7 +24940,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -25952,7 +25077,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -26035,7 +25160,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Red Circle
   mFillCenter: 1
   mType: 0
@@ -26072,7 +25197,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -26135,7 +25260,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Green Circle_End_B
   mFillCenter: 1
   mType: 0
@@ -26156,7 +25281,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -26218,7 +25343,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: N
   mFillCenter: 1
   mType: 0
@@ -26322,7 +25447,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -26357,7 +25482,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -26463,11 +25588,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .643216074
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: 0
+    e13: -2.21325636
     e20: 0
     e21: 0
     e22: 384
@@ -26657,7 +25782,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Upside down Triangle
   mFillCenter: 1
   mType: 0
@@ -26691,6 +25816,7 @@ MonoBehaviour:
   - {fileID: 11400590}
   endTime: 1
   Center: {fileID: 100314}
+  atlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
 --- !u!114 &11401172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26969,11 +26095,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.18336892
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.09090912
+    e13: -1.27152324
     e20: 0
     e21: 0
     e22: 384
@@ -27019,11 +26145,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.18336892
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.09090912
+    e13: -1.27152324
     e20: 0
     e21: 0
     e22: 384
@@ -27037,57 +26163,6 @@ MonoBehaviour:
   mClipping: 2
   mClipRange: {x: 0, y: 0, z: 1024, w: 768}
   mClipSoftness: {x: 40, y: 40}
---- !u!114 &11401208
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33223b2eb84e8040a4d9a0be2a0ca55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level: {fileID: 11401322}
-  targetCollider: {fileID: 6500174}
---- !u!114 &11401210
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90fc8427bee38c478f5b2f6f0ae9580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 400612}
-  scale: {x: 1, y: 1, z: 1}
-  scrollWheelFactor: 0
-  restrictWithinPanel: 1
-  dragEffect: 2
-  momentumAmount: 35
---- !u!114 &11401212
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100612}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
-  mSpriteName: Tall Tree
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
 --- !u!114 &11401214
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27219,7 +26294,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Lucky
   mFillCenter: 1
   mType: 0
@@ -27270,7 +26345,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Pink Balloon
   mFillCenter: 1
   mType: 0
@@ -27357,7 +26432,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -27440,7 +26515,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Patty
   mFillCenter: 1
   mType: 0
@@ -27491,7 +26566,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Carrot
   mFillCenter: 1
   mType: 0
@@ -27835,7 +26910,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Purple Square
   mFillCenter: 1
   mType: 0
@@ -27870,7 +26945,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -27904,6 +26979,7 @@ MonoBehaviour:
   - {fileID: 11401220}
   endTime: 1
   Center: {fileID: 100618}
+  atlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
 --- !u!114 &11401302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27948,7 +27024,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: D
   mFillCenter: 1
   mType: 0
@@ -27985,7 +27061,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -28073,41 +27149,13 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: D_End_B
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
---- !u!114 &11401322
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b879502587b91bc45a2a55ef62989ee4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameBlock: {fileID: 0}
-  basicEndSprite: {fileID: 11400214}
-  items:
-  - {fileID: 11401208}
-  - {fileID: 11401374}
-  - {fileID: 11400798}
-  correctAnswer: {fileID: 11401208}
-  answerPlace: {fileID: 400226}
-  endItems:
-  - {fileID: 11400796}
-  - {fileID: 11401372}
-  - {fileID: 11401054}
-  - {fileID: 11400838}
-  - {fileID: 11401008}
-  - {fileID: 11400198}
-  endTime: 1
-  Center: {fileID: 100514}
 --- !u!114 &11401324
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28177,11 +27225,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.18336892
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.09090912
+    e13: -1.27152324
     e20: 0
     e21: 0
     e22: 384
@@ -28314,6 +27362,7 @@ MonoBehaviour:
   - {fileID: 11400234}
   endTime: 1
   Center: {fileID: 100120}
+  atlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
 --- !u!114 &11401342
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28393,7 +27442,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -28414,7 +27463,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -28571,68 +27620,6 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
---- !u!114 &11401372
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d61a7ccd28f6554ba162b70e312cd1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11401374
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33223b2eb84e8040a4d9a0be2a0ca55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level: {fileID: 11401322}
-  targetCollider: {fileID: 6500174}
---- !u!114 &11401376
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90fc8427bee38c478f5b2f6f0ae9580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 400696}
-  scale: {x: 1, y: 1, z: 1}
-  scrollWheelFactor: 0
-  restrictWithinPanel: 1
-  dragEffect: 2
-  momentumAmount: 35
---- !u!114 &11401378
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6273ce49ec1139245a664906999c1136, type: 2}
-  mSpriteName: Short Tree
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
 --- !u!114 &11401380
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28747,11 +27734,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.18336892
+    e03: 1.98065782
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.09090912
+    e13: -.989690661
     e20: 0
     e21: 0
     e22: 384
@@ -28820,7 +27807,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Blue Triangle
   mFillCenter: 1
   mType: 0
@@ -28857,7 +27844,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -28919,7 +27906,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Triangle
   mFillCenter: 1
   mType: 0
@@ -28954,7 +27941,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 0
@@ -29016,7 +28003,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Lucky
   mFillCenter: 1
   mType: 0
@@ -29086,6 +28073,7 @@ MonoBehaviour:
   - {fileID: 11401058}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401430
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29141,7 +28129,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Barry
   mFillCenter: 1
   mType: 0
@@ -29176,6 +28164,7 @@ MonoBehaviour:
   - {fileID: 11401196}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401440
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29310,11 +28299,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .992248058
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.98449612
+    e13: -2.21325636
     e20: 0
     e21: 0
     e22: 384
@@ -29427,11 +28416,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .92086333
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: 0
+    e13: -2.21325636
     e20: 0
     e21: 0
     e22: 384
@@ -29510,7 +28499,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -29606,6 +28595,7 @@ MonoBehaviour:
   - {fileID: 11401600}
   endTime: 1
   Center: {fileID: 100812}
+  atlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
 --- !u!114 &11401486
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29620,7 +28610,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Red Square_End
   mFillCenter: 1
   mType: 0
@@ -29708,6 +28698,7 @@ MonoBehaviour:
   - {fileID: 11400346}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401496
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29807,11 +28798,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.18336892
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.09090912
+    e13: -1.27152324
     e20: 0
     e21: 0
     e22: 384
@@ -29869,7 +28860,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: L
   mFillCenter: 1
   mType: 0
@@ -30089,7 +29080,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Lucky
   mFillCenter: 1
   mType: 0
@@ -30123,6 +29114,7 @@ MonoBehaviour:
   - {fileID: 11401044}
   endTime: 1
   Center: {fileID: 100536}
+  atlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
 --- !u!114 &11401542
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30153,7 +29145,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -30255,7 +29247,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Lucky
   mFillCenter: 1
   mType: 0
@@ -30347,7 +29339,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Lucky_B_End_B
   mFillCenter: 1
   mType: 0
@@ -30384,7 +29376,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 6f79c0fb08bba2a4599a963338da25b7, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -30418,6 +29410,7 @@ MonoBehaviour:
   - {fileID: 11401546}
   endTime: 1
   Center: {fileID: 100774}
+  atlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
 --- !u!114 &11401572
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30432,7 +29425,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -30559,7 +29552,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 1d9647d15e7923e4980ea22aed65d368, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
   mSpriteName: Patty
   mFillCenter: 1
   mType: 0
@@ -30593,6 +29586,7 @@ MonoBehaviour:
   - {fileID: 11401384}
   endTime: 1
   Center: {fileID: 100702}
+  atlas: {fileID: 11400000, guid: 3b74b8da398ff8543a595800c656af5e, type: 2}
 --- !u!114 &11401592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30637,7 +29631,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 87408ff264b4ec047be15b7f476735df, type: 2}
+  mAtlas: {fileID: 11400000, guid: f9209c694b317914da340465791150b4, type: 2}
   mSpriteName: Red Square
   mFillCenter: 1
   mType: 0
@@ -31276,25 +30270,6 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipStart: {fileID: 8300000, guid: ff2d20e3a5d3ec34a9e5cdf9078a798a, type: 3}
-  playPartMessage: 0
-  clipEnd: {fileID: 0}
-  delayEnd: 0
-  randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
---- !u!114 &11401666
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100664}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}

@@ -128,23 +128,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100014
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400014}
-  - 114: {fileID: 11400032}
-  - 114: {fileID: 11400030}
-  m_Layer: 8
-  m_Name: Line
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100016
 GameObject:
   m_ObjectHideFlags: 1
@@ -1705,22 +1688,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100190
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400190}
-  - 114: {fileID: 11400402}
-  m_Layer: 8
-  m_Name: Center
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100192
 GameObject:
   m_ObjectHideFlags: 1
@@ -2123,22 +2090,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100238
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400238}
-  - 114: {fileID: 11400482}
-  m_Layer: 8
-  m_Name: Basic
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100240
 GameObject:
   m_ObjectHideFlags: 1
@@ -2387,26 +2338,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100268
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400268}
-  - 114: {fileID: 11400542}
-  - 65: {fileID: 6500110}
-  - 114: {fileID: 11400540}
-  - 114: {fileID: 11400538}
-  - 54: {fileID: 5400090}
-  m_Layer: 8
-  m_Name: Answer Place
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
 --- !u!1 &100270
 GameObject:
   m_ObjectHideFlags: 1
@@ -2714,26 +2645,6 @@ GameObject:
   - 114: {fileID: 11400616}
   m_Layer: 8
   m_Name: Answer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100304
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400304}
-  - 114: {fileID: 11400624}
-  - 65: {fileID: 6500132}
-  - 114: {fileID: 11400622}
-  - 114: {fileID: 11400620}
-  - 54: {fileID: 5400108}
-  m_Layer: 8
-  m_Name: ItemRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3651,7 +3562,7 @@ GameObject:
   - 114: {fileID: 11400822}
   - 114: {fileID: 11401772}
   m_Layer: 8
-  m_Name: 23. Upside Down Triangle
+  m_Name: 22. Upside Down Triangle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3765,24 +3676,6 @@ GameObject:
   - 114: {fileID: 11400836}
   m_Layer: 8
   m_Name: Title
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100424
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400424}
-  - 114: {fileID: 11400840}
-  - 65: {fileID: 6500174}
-  - 114: {fileID: 11400838}
-  m_Layer: 8
-  m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3961,23 +3854,6 @@ GameObject:
   - 114: {fileID: 11400880}
   m_Layer: 8
   m_Name: Title
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100446
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400446}
-  - 114: {fileID: 11400884}
-  - 114: {fileID: 11400882}
-  m_Layer: 8
-  m_Name: Drag Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4578,21 +4454,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!1 &100514
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400514}
-  m_Layer: 8
-  m_Name: Game
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100516
 GameObject:
   m_ObjectHideFlags: 1
@@ -4823,27 +4684,6 @@ GameObject:
   - 54: {fileID: 5400182}
   m_Layer: 8
   m_Name: ItemRight
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100542
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400542}
-  - 114: {fileID: 11401086}
-  - 65: {fileID: 6500226}
-  - 114: {fileID: 11401084}
-  - 114: {fileID: 11401082}
-  - 54: {fileID: 5400184}
-  - 114: {fileID: 11401080}
-  m_Layer: 8
-  m_Name: Item1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5465,27 +5305,6 @@ GameObject:
   - 114: {fileID: 11401228}
   m_Layer: 8
   m_Name: Line
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100614
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400614}
-  - 114: {fileID: 11401236}
-  - 65: {fileID: 6500254}
-  - 114: {fileID: 11401234}
-  - 114: {fileID: 11401232}
-  - 54: {fileID: 5400208}
-  - 114: {fileID: 11401230}
-  m_Layer: 8
-  m_Name: Item2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6348,24 +6167,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100714
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400714}
-  - 114: {fileID: 11401412}
-  - 65: {fileID: 6500292}
-  - 114: {fileID: 11401410}
-  m_Layer: 8
-  m_Name: Box
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100716
 GameObject:
   m_ObjectHideFlags: 1
@@ -6688,22 +6489,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100752
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400752}
-  - 114: {fileID: 11401488}
-  m_Layer: 8
-  m_Name: Title
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &100754
 GameObject:
   m_ObjectHideFlags: 1
@@ -6739,23 +6524,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &100758
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400758}
-  - 114: {fileID: 11401496}
-  - 114: {fileID: 11401774}
-  m_Layer: 8
-  m_Name: 22. Tall Tree
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
 --- !u!1 &100760
 GameObject:
   m_ObjectHideFlags: 1
@@ -7048,22 +6816,6 @@ GameObject:
   - 114: {fileID: 11401574}
   m_Layer: 8
   m_Name: Title
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &100792
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400792}
-  - 114: {fileID: 11401576}
-  m_Layer: 8
-  m_Name: BasicEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7814,17 +7566,6 @@ Transform:
   - {fileID: 400782}
   - {fileID: 400328}
   m_Father: {fileID: 400786}
---- !u!4 &400014
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100014}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 424, y: -1, z: 0}
-  m_LocalScale: {x: 7, y: 587, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400190}
 --- !u!4 &400016
 Transform:
   m_ObjectHideFlags: 1
@@ -8842,26 +8583,6 @@ Transform:
   m_LocalScale: {x: 183, y: 159, z: 1}
   m_Children: []
   m_Father: {fileID: 400578}
---- !u!4 &400190
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100190}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400268}
-  - {fileID: 400238}
-  - {fileID: 400792}
-  - {fileID: 400714}
-  - {fileID: 400424}
-  - {fileID: 400304}
-  - {fileID: 400542}
-  - {fileID: 400614}
-  - {fileID: 400014}
-  m_Father: {fileID: 400514}
 --- !u!4 &400192
 Transform:
   m_ObjectHideFlags: 1
@@ -9158,17 +8879,6 @@ Transform:
   m_LocalScale: {x: 186, y: 142, z: 1}
   m_Children: []
   m_Father: {fileID: 400018}
---- !u!4 &400238
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100238}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -200, y: 104, z: .996713519}
-  m_LocalScale: {x: 927, y: 355, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400190}
 --- !u!4 &400240
 Transform:
   m_ObjectHideFlags: 1
@@ -9347,17 +9057,6 @@ Transform:
   m_LocalScale: {x: 183, y: 294, z: 1}
   m_Children: []
   m_Father: {fileID: 400560}
---- !u!4 &400268
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100268}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 214, y: 103, z: -.996159434}
-  m_LocalScale: {x: 137, y: 350, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400190}
 --- !u!4 &400270
 Transform:
   m_ObjectHideFlags: 1
@@ -9555,17 +9254,6 @@ Transform:
   m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 400042}
---- !u!4 &400304
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100304}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 556, y: 8, z: -.99407661}
-  m_LocalScale: {x: 137, y: 350, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400190}
 --- !u!4 &400306
 Transform:
   m_ObjectHideFlags: 1
@@ -10286,17 +9974,6 @@ Transform:
   m_LocalScale: {x: 1167, y: 204, z: 1}
   m_Children: []
   m_Father: {fileID: 400024}
---- !u!4 &400424
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100424}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 226.399994, y: 192, z: 0}
-  m_LocalScale: {x: 212, y: 194, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400190}
 --- !u!4 &400426
 Transform:
   m_ObjectHideFlags: 1
@@ -10375,7 +10052,6 @@ Transform:
   - {fileID: 400674}
   - {fileID: 400244}
   - {fileID: 400408}
-  - {fileID: 400758}
   m_Father: {fileID: 400182}
 --- !u!4 &400436
 Transform:
@@ -10433,18 +10109,6 @@ Transform:
   m_LocalScale: {x: 1167, y: 204, z: 1}
   m_Children: []
   m_Father: {fileID: 400406}
---- !u!4 &400446
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100446}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400514}
-  m_Father: {fileID: 400758}
 --- !u!4 &400448
 Transform:
   m_ObjectHideFlags: 1
@@ -10828,19 +10492,6 @@ Transform:
   m_Children:
   - {fileID: 400596}
   m_Father: {fileID: 400434}
---- !u!4 &400514
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100514}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: .5, y: .5, z: 1}
-  m_Children:
-  - {fileID: 400190}
-  - {fileID: 400752}
-  m_Father: {fileID: 400446}
 --- !u!4 &400516
 Transform:
   m_ObjectHideFlags: 1
@@ -10994,17 +10645,6 @@ Transform:
   m_LocalScale: {x: 129, y: 98, z: 1}
   m_Children: []
   m_Father: {fileID: 400200}
---- !u!4 &400542
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100542}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 535, y: 260, z: -.990689158}
-  m_LocalScale: {x: 62, y: 104, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400190}
 --- !u!4 &400544
 Transform:
   m_ObjectHideFlags: 1
@@ -11423,17 +11063,6 @@ Transform:
   m_LocalScale: {x: 7, y: 587, z: 1}
   m_Children: []
   m_Father: {fileID: 400578}
---- !u!4 &400614
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100614}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 558, y: -279, z: -.993801951}
-  m_LocalScale: {x: 145, y: 122, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400190}
 --- !u!4 &400616
 Transform:
   m_ObjectHideFlags: 1
@@ -11614,7 +11243,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100646}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 473, y: 26, z: -1}
+  m_LocalPosition: {x: 464, y: 16, z: -1}
   m_LocalScale: {x: 130, y: 142, z: 1}
   m_Children: []
   m_Father: {fileID: 400812}
@@ -12009,17 +11638,6 @@ Transform:
   m_LocalScale: {x: 86, y: 104, z: 1}
   m_Children: []
   m_Father: {fileID: 400784}
---- !u!4 &400714
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100714}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 226.399994, y: 8, z: 0}
-  m_LocalScale: {x: 212, y: 194, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400190}
 --- !u!4 &400716
 Transform:
   m_ObjectHideFlags: 1
@@ -12229,17 +11847,6 @@ Transform:
   m_LocalScale: {x: 1274, y: 186, z: 1}
   m_Children: []
   m_Father: {fileID: 400392}
---- !u!4 &400752
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100752}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -40, y: 590, z: 0}
-  m_LocalScale: {x: 1172, y: 203, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400514}
 --- !u!4 &400754
 Transform:
   m_ObjectHideFlags: 1
@@ -12268,18 +11875,6 @@ Transform:
   - {fileID: 400698}
   - {fileID: 400318}
   m_Father: {fileID: 400080}
---- !u!4 &400758
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100758}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 400446}
-  m_Father: {fileID: 400434}
 --- !u!4 &400760
 Transform:
   m_ObjectHideFlags: 1
@@ -12473,17 +12068,6 @@ Transform:
   m_LocalScale: {x: 1172, y: 203, z: 1}
   m_Children: []
   m_Father: {fileID: 400820}
---- !u!4 &400792
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100792}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -188, y: 114, z: .987220466}
-  m_LocalScale: {x: 987, y: 415, z: 1}
-  m_Children: []
-  m_Father: {fileID: 400190}
 --- !u!4 &400794
 Transform:
   m_ObjectHideFlags: 1
@@ -13623,21 +13207,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!54 &5400090
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100268}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!54 &5400092
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -13749,21 +13318,6 @@ Rigidbody:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100300}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!54 &5400108
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100304}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -14328,21 +13882,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!54 &5400184
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100542}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!54 &5400186
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -14499,21 +14038,6 @@ Rigidbody:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100602}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!54 &5400208
-Rigidbody:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100614}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -15708,18 +15232,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500110
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100268}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500112
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -15834,18 +15346,6 @@ BoxCollider:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100300}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500132
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100304}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
@@ -16091,18 +15591,6 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500174
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100424}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: .75, y: .75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500176
 BoxCollider:
@@ -16404,18 +15892,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500226
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100542}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500228
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -16571,18 +16047,6 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .75, y: .75, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500254
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100614}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500256
 BoxCollider:
@@ -16799,18 +16263,6 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &6500292
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100714}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: .75, y: .75, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &6500294
 BoxCollider:
@@ -17174,7 +16626,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -17225,7 +16677,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: star with vertical stripes
   mFillCenter: 1
   mType: 0
@@ -17287,7 +16739,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Purple Triangle
   mFillCenter: 1
   mType: 0
@@ -17349,7 +16801,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: star with horizontal stripes
   mFillCenter: 1
   mType: 0
@@ -17400,45 +16852,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: I
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11400030
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe676d7ca25224343bb206d86bd7fb07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  duration: 10
-  delay: 0
-  resetBefore: 1
-  defaultUp: 1
-  to: {x: 0, y: 0, z: 0}
---- !u!114 &11400032
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
-  mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -17543,7 +16958,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -17605,7 +17020,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue squaret
   mFillCenter: 1
   mType: 0
@@ -17642,7 +17057,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -17806,7 +17221,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: L
   mFillCenter: 1
   mType: 0
@@ -17827,7 +17242,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -17862,6 +17277,7 @@ MonoBehaviour:
   - {fileID: 11401670}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400080
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -17876,7 +17292,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Carrot_End_B
   mFillCenter: 1
   mType: 0
@@ -17938,7 +17354,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Yellow Circle
   mFillCenter: 1
   mType: 0
@@ -17975,7 +17391,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -18061,7 +17477,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Orange
   mFillCenter: 1
   mType: 0
@@ -18096,7 +17512,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -18158,7 +17574,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Butterfly with Triangles on its wings
   mFillCenter: 1
   mType: 0
@@ -18179,7 +17595,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -18218,11 +17634,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.24070024
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: 0
+    e13: -1.5
     e20: 0
     e21: 0
     e22: 384
@@ -18264,7 +17680,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -18449,7 +17865,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Circle
   mFillCenter: 1
   mType: 0
@@ -18637,7 +18053,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: BlueTriangle_End
   mFillCenter: 1
   mType: 0
@@ -18708,7 +18124,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Lucky_End_B
   mFillCenter: 1
   mType: 0
@@ -18745,7 +18161,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -18784,11 +18200,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .924187779
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -.923076987
+    e13: -1.5
     e20: 0
     e21: 0
     e22: 384
@@ -18830,7 +18246,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -18892,7 +18308,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Banana
   mFillCenter: 1
   mType: 0
@@ -18996,7 +18412,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Red Circle_End_B
   mFillCenter: 1
   mType: 0
@@ -19051,6 +18467,7 @@ MonoBehaviour:
   - {fileID: 11401560}
   endTime: 1
   Center: {fileID: 100784}
+  atlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
 --- !u!114 &11400212
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -19199,7 +18616,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -19236,7 +18653,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -19271,7 +18688,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -19292,7 +18709,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: D_End_B
   mFillCenter: 1
   mType: 0
@@ -19484,11 +18901,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .992248058
+    e03: .996108949
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.98449612
+    e13: -.994818628
     e20: 0
     e21: 0
     e22: 384
@@ -19624,7 +19041,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Blue Balloon
   mFillCenter: 1
   mType: 0
@@ -19675,7 +19092,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: star with vertical stripes
   mFillCenter: 1
   mType: 0
@@ -19731,7 +19148,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -19814,7 +19231,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: E
   mFillCenter: 1
   mType: 0
@@ -19902,7 +19319,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -20012,7 +19429,7 @@ MonoBehaviour:
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: -1.5
     e20: 0
     e21: 0
     e22: 384
@@ -20081,7 +19498,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Triangle
   mFillCenter: 1
   mType: 0
@@ -20201,7 +19618,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -20270,6 +19687,7 @@ MonoBehaviour:
   - {fileID: 11400338}
   endTime: 1
   Center: {fileID: 100152}
+  atlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
 --- !u!114 &11400350
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20298,7 +19716,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -20335,7 +19753,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -20386,7 +19804,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Triangle
   mFillCenter: 1
   mType: 0
@@ -20437,7 +19855,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: D
   mFillCenter: 1
   mType: 0
@@ -20536,7 +19954,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -20570,6 +19988,7 @@ MonoBehaviour:
   - {fileID: 11401630}
   endTime: 1
   Center: {fileID: 100812}
+  atlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
 --- !u!114 &11400384
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20598,7 +20017,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -20669,7 +20088,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -20738,22 +20157,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d61a7ccd28f6554ba162b70e312cd1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11400402
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe676d7ca25224343bb206d86bd7fb07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  duration: 5
-  delay: 1.5
-  resetBefore: 1
-  defaultUp: 0
-  to: {x: 200, y: 0, z: 0}
 --- !u!114 &11400404
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -20768,7 +20171,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Butterfly with circles on its wings_End_B
   mFillCenter: 1
   mType: 0
@@ -20886,7 +20289,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -20907,7 +20310,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: D_End
   mFillCenter: 1
   mType: 0
@@ -20993,7 +20396,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Upside Down Triangle_End_B
   mFillCenter: 1
   mType: 0
@@ -21014,7 +20417,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -21048,6 +20451,7 @@ MonoBehaviour:
   - {fileID: 11401688}
   endTime: 1
   Center: {fileID: 100854}
+  atlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
 --- !u!114 &11400436
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21205,6 +20609,7 @@ MonoBehaviour:
   - {fileID: 11400666}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21325,7 +20730,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Barry
   mFillCenter: 1
   mType: 0
@@ -21360,6 +20765,7 @@ MonoBehaviour:
   - {fileID: 11400616}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400472
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21448,27 +20854,6 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
---- !u!114 &11400482
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100238}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
-  mSpriteName: Tall Tree_End
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
 --- !u!114 &11400484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21483,7 +20868,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Orange_End_B
   mFillCenter: 1
   mType: 0
@@ -21533,6 +20918,7 @@ MonoBehaviour:
   - {fileID: 11401330}
   endTime: 1
   Center: {fileID: 100672}
+  atlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
 --- !u!114 &11400490
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -21588,7 +20974,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Red circle
   mFillCenter: 1
   mType: 0
@@ -21700,7 +21086,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Blue Triangle
   mFillCenter: 1
   mType: 0
@@ -21814,7 +21200,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Green Circle_End_B
   mFillCenter: 1
   mType: 0
@@ -21955,57 +21341,6 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
---- !u!114 &11400538
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33223b2eb84e8040a4d9a0be2a0ca55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level: {fileID: 11401496}
-  targetCollider: {fileID: 6500292}
---- !u!114 &11400540
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90fc8427bee38c478f5b2f6f0ae9580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 400268}
-  scale: {x: 1, y: 1, z: 1}
-  scrollWheelFactor: 0
-  restrictWithinPanel: 1
-  dragEffect: 2
-  momentumAmount: 35
---- !u!114 &11400542
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
-  mSpriteName: Tall Tree
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
 --- !u!114 &11400544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22050,7 +21385,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Square
   mFillCenter: 1
   mType: 0
@@ -22087,7 +21422,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -22149,7 +21484,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Lucky
   mFillCenter: 1
   mType: 0
@@ -22221,7 +21556,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Circle
   mFillCenter: 1
   mType: 0
@@ -22417,7 +21752,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Green Balloon
   mFillCenter: 1
   mType: 0
@@ -22473,7 +21808,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -22524,7 +21859,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Circle
   mFillCenter: 1
   mType: 0
@@ -22558,6 +21893,7 @@ MonoBehaviour:
   - {fileID: 11400406}
   endTime: 1
   Center: {fileID: 100196}
+  atlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
 --- !u!114 &11400608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22572,7 +21908,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue circleB_End_B
   mFillCenter: 1
   mType: 0
@@ -22665,57 +22001,6 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
---- !u!114 &11400620
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33223b2eb84e8040a4d9a0be2a0ca55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level: {fileID: 11401496}
-  targetCollider: {fileID: 6500292}
---- !u!114 &11400622
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90fc8427bee38c478f5b2f6f0ae9580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 400304}
-  scale: {x: 1, y: 1, z: 1}
-  scrollWheelFactor: 0
-  restrictWithinPanel: 1
-  dragEffect: 2
-  momentumAmount: 35
---- !u!114 &11400624
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
-  mSpriteName: Tall Tree
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
 --- !u!114 &11400626
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -22746,7 +22031,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -22797,7 +22082,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: I
   mFillCenter: 1
   mType: 0
@@ -22818,7 +22103,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: star with vertical stripes_End_B
   mFillCenter: 1
   mType: 0
@@ -22896,7 +22181,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: D
   mFillCenter: 1
   mType: 0
@@ -22935,11 +22220,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 0
+    e03: .996108949
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: -.994818628
     e20: 0
     e21: 0
     e22: 384
@@ -23068,7 +22353,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Red Circle
   mFillCenter: 1
   mType: 0
@@ -23089,7 +22374,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Pink Balloon_End
   mFillCenter: 1
   mType: 0
@@ -23196,7 +22481,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Triangle
   mFillCenter: 1
   mType: 0
@@ -23233,7 +22518,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -23307,7 +22592,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: star with vertical stripes_End
   mFillCenter: 1
   mType: 0
@@ -23497,6 +22782,7 @@ MonoBehaviour:
   - {fileID: 11400516}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11400710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23576,7 +22862,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: D
   mFillCenter: 1
   mType: 0
@@ -23627,7 +22913,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Carrot
   mFillCenter: 1
   mType: 0
@@ -23661,6 +22947,7 @@ MonoBehaviour:
   - {fileID: 11400682}
   endTime: 1
   Center: {fileID: 100334}
+  atlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
 --- !u!114 &11400728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23675,7 +22962,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -23712,7 +22999,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -23747,7 +23034,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -23768,7 +23055,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: L_End
   mFillCenter: 1
   mType: 0
@@ -23819,7 +23106,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Pink Balloon
   mFillCenter: 1
   mType: 0
@@ -23862,7 +23149,7 @@ MonoBehaviour:
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: 0
     e20: 0
     e21: 0
     e22: 384
@@ -23931,7 +23218,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: N
   mFillCenter: 1
   mType: 0
@@ -23993,7 +23280,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Red Circle
   mFillCenter: 1
   mType: 0
@@ -24014,7 +23301,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Kristy_End_B
   mFillCenter: 1
   mType: 0
@@ -24185,7 +23472,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -24219,6 +23506,7 @@ MonoBehaviour:
   - {fileID: 11400798}
   endTime: 1
   Center: {fileID: 100392}
+  atlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
 --- !u!114 &11400790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -24344,7 +23632,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Butterfly with circles on its wings
   mFillCenter: 1
   mType: 0
@@ -24422,7 +23710,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Octagon
   mFillCenter: 1
   mType: 0
@@ -24512,6 +23800,7 @@ MonoBehaviour:
   - {fileID: 11400638}
   endTime: 1
   Center: {fileID: 100312}
+  atlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
 --- !u!114 &11400824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -24544,11 +23833,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 0
+    e03: .996108949
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: -.994818628
     e20: 0
     e21: 0
     e22: 384
@@ -24594,11 +23883,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .800000072
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -.800000072
+    e13: -1.5
     e20: 0
     e21: 0
     e22: 384
@@ -24647,7 +23936,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Circle_End
   mFillCenter: 1
   mType: 0
@@ -24672,41 +23961,6 @@ MonoBehaviour:
   mSpriteName: WhichDoesNotBelong_Text
   mFillCenter: 1
   mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11400838
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22dc6ac1fd3ce594b89dfbfad7673c40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  to: {r: 1, g: 1, b: 1, a: 0}
-  duration: 1
-  delay: 0
---- !u!114 &11400840
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
-  mSpriteName: White Box
-  mFillCenter: 1
-  mType: 1
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -24765,7 +24019,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Kristy
   mFillCenter: 1
   mType: 0
@@ -24786,7 +24040,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Honey _End_B
   mFillCenter: 1
   mType: 0
@@ -24837,7 +24091,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Red Circle
   mFillCenter: 1
   mType: 0
@@ -24858,7 +24112,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -24920,7 +24174,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: M
   mFillCenter: 1
   mType: 0
@@ -25026,11 +24280,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .992248058
+    e03: .996108949
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.98449612
+    e13: -.994818628
     e20: 0
     e21: 0
     e22: 384
@@ -25065,56 +24319,6 @@ MonoBehaviour:
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
---- !u!114 &11400882
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b3e0228d934ab2438c00ea1903f88b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11400884
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae942c9068183dc40a9d01f648273726, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sortByDepth: 1
-  showInPanelTool: 1
-  generateNormals: 0
-  depthPass: 0
-  widgetsAreStatic: 0
-  cullWhileDragging: 0
-  worldToLocal:
-    e00: 384
-    e01: 0
-    e02: 0
-    e03: .992248058
-    e10: 0
-    e11: 384
-    e12: 0
-    e13: -1.98449612
-    e20: 0
-    e21: 0
-    e22: 384
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
-  mAlpha: 1
-  mDebugInfo: 1
-  mClipping: 2
-  mClipRange: {x: 0, y: 0, z: 1024, w: 768}
-  mClipSoftness: {x: 40, y: 40}
 --- !u!114 &11400886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25129,7 +24333,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Green Circle_End
   mFillCenter: 1
   mType: 0
@@ -25184,6 +24388,7 @@ MonoBehaviour:
   - {fileID: 11400416}
   endTime: 1
   Center: {fileID: 100200}
+  atlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
 --- !u!114 &11400892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25239,7 +24444,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Honey Bunny
   mFillCenter: 1
   mType: 0
@@ -25297,7 +24502,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Circle_End_B
   mFillCenter: 1
   mType: 0
@@ -25339,7 +24544,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -25401,7 +24606,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: P
   mFillCenter: 1
   mType: 0
@@ -25489,7 +24694,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: BlueTriangle_End_B
   mFillCenter: 1
   mType: 0
@@ -25523,6 +24728,7 @@ MonoBehaviour:
   - {fileID: 11400806}
   endTime: 1
   Center: {fileID: 100398}
+  atlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
 --- !u!114 &11400930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25567,7 +24773,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Lucky
   mFillCenter: 1
   mType: 0
@@ -25683,7 +24889,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Butterfly with circles on its wings
   mFillCenter: 1
   mType: 0
@@ -25717,6 +24923,7 @@ MonoBehaviour:
   - {fileID: 11400684}
   endTime: 1
   Center: {fileID: 100336}
+  atlas: {fileID: 0}
 --- !u!114 &11400952
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -25747,7 +24954,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -25890,11 +25097,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 0
+    e03: .996108949
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: -.994818628
     e20: 0
     e21: 0
     e22: 384
@@ -25963,7 +25170,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: A
   mFillCenter: 1
   mType: 0
@@ -26002,11 +25209,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 0
+    e03: .996108949
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: -.994818628
     e20: 0
     e21: 0
     e22: 384
@@ -26117,7 +25324,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -26244,7 +25451,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Red Octagon
   mFillCenter: 1
   mType: 0
@@ -26341,7 +25548,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -26375,6 +25582,7 @@ MonoBehaviour:
   - {fileID: 11400900}
   endTime: 1
   Center: {fileID: 100456}
+  atlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
 --- !u!114 &11401026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26403,6 +25611,7 @@ MonoBehaviour:
   - {fileID: 11400094}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -26525,7 +25734,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Red Square
   mFillCenter: 1
   mType: 0
@@ -26546,7 +25755,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -26581,7 +25790,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -26704,7 +25913,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -26766,7 +25975,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Triangle
   mFillCenter: 1
   mType: 0
@@ -26787,7 +25996,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Butterfly with circles on its wings_End
   mFillCenter: 1
   mType: 0
@@ -26838,70 +26047,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Square
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11401080
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d61a7ccd28f6554ba162b70e312cd1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11401082
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33223b2eb84e8040a4d9a0be2a0ca55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level: {fileID: 11401496}
-  targetCollider: {fileID: 6500292}
---- !u!114 &11401084
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90fc8427bee38c478f5b2f6f0ae9580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 400542}
-  scale: {x: 1, y: 1, z: 1}
-  scrollWheelFactor: 0
-  restrictWithinPanel: 1
-  dragEffect: 2
-  momentumAmount: 35
---- !u!114 &11401086
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
-  mSpriteName: Flower
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -27038,7 +26185,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -27059,7 +26206,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Carrot_End
   mFillCenter: 1
   mType: 0
@@ -27094,6 +26241,7 @@ MonoBehaviour:
   - {fileID: 11401360}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -27108,7 +26256,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -27147,11 +26295,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .992248058
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.98449612
+    e13: -1.5
     e20: 0
     e21: 0
     e22: 384
@@ -27209,7 +26357,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Kristy
   mFillCenter: 1
   mType: 0
@@ -27306,7 +26454,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: star with diagonal stripes
   mFillCenter: 1
   mType: 0
@@ -27368,7 +26516,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Honey Bunny
   mFillCenter: 1
   mType: 0
@@ -27430,7 +26578,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Red Square
   mFillCenter: 1
   mType: 0
@@ -27451,7 +26599,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Kristy_End
   mFillCenter: 1
   mType: 0
@@ -27504,7 +26652,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -27683,7 +26831,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Marty
   mFillCenter: 1
   mType: 0
@@ -27734,7 +26882,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Marty Moose
   mFillCenter: 1
   mType: 0
@@ -27755,7 +26903,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -27861,11 +27009,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 0
+    e03: .996108949
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: -.994818628
     e20: 0
     e21: 0
     e22: 384
@@ -27893,7 +27041,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Orange_End
   mFillCenter: 1
   mType: 0
@@ -28022,7 +27170,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Butterfly with Squares on its wings
   mFillCenter: 1
   mType: 0
@@ -28043,7 +27191,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: I_End
   mFillCenter: 1
   mType: 0
@@ -28082,11 +27230,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .800000072
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -.800000072
+    e13: -1.5
     e20: 0
     e21: 0
     e22: 384
@@ -28128,7 +27276,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -28222,68 +27370,6 @@ MonoBehaviour:
   resetBefore: 1
   defaultUp: 1
   to: {x: 0, y: 0, z: 0}
---- !u!114 &11401230
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d61a7ccd28f6554ba162b70e312cd1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11401232
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e33223b2eb84e8040a4d9a0be2a0ca55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level: {fileID: 11401496}
-  targetCollider: {fileID: 6500292}
---- !u!114 &11401234
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b90fc8427bee38c478f5b2f6f0ae9580, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 400614}
-  scale: {x: 1, y: 1, z: 1}
-  scrollWheelFactor: 0
-  restrictWithinPanel: 1
-  dragEffect: 2
-  momentumAmount: 35
---- !u!114 &11401236
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
-  mSpriteName: Short Tree
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
 --- !u!114 &11401238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28328,7 +27414,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Upside Down Triangle
   mFillCenter: 1
   mType: 0
@@ -28379,7 +27465,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Marty Moose
   mFillCenter: 1
   mType: 0
@@ -28416,7 +27502,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -28471,6 +27557,7 @@ MonoBehaviour:
   - {fileID: 11401438}
   endTime: 1
   Center: {fileID: 100728}
+  atlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
 --- !u!114 &11401258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28485,7 +27572,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -28520,6 +27607,7 @@ MonoBehaviour:
   - {fileID: 11400156}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401262
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28605,7 +27693,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Square_End_B
   mFillCenter: 1
   mType: 0
@@ -28685,7 +27773,7 @@ MonoBehaviour:
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: -1.5
     e20: 0
     e21: 0
     e22: 384
@@ -28754,7 +27842,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Barry Bear
   mFillCenter: 1
   mType: 0
@@ -28805,7 +27893,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Kristy
   mFillCenter: 1
   mType: 0
@@ -28863,7 +27951,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -28919,6 +28007,7 @@ MonoBehaviour:
   - {fileID: 11400034}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28933,7 +28022,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Square_End
   mFillCenter: 1
   mType: 0
@@ -28995,7 +28084,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Orange Circle
   mFillCenter: 1
   mType: 0
@@ -29030,7 +28119,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -29051,7 +28140,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Honey _End
   mFillCenter: 1
   mType: 0
@@ -29072,7 +28161,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Lucky_End
   mFillCenter: 1
   mType: 0
@@ -29106,6 +28195,7 @@ MonoBehaviour:
   - {fileID: 11400486}
   endTime: 1
   Center: {fileID: 100242}
+  atlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
 --- !u!114 &11401322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29216,6 +28306,7 @@ MonoBehaviour:
   - {fileID: 11401346}
   endTime: 1
   Center: {fileID: 100684}
+  atlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
 --- !u!114 &11401334
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29244,6 +28335,7 @@ MonoBehaviour:
   - {fileID: 11400240}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401336
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -29288,7 +28380,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Green circle
   mFillCenter: 1
   mType: 0
@@ -29397,7 +28489,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Green circle
   mFillCenter: 1
   mType: 0
@@ -29440,7 +28532,7 @@ MonoBehaviour:
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: -1.5
     e20: 0
     e21: 0
     e22: 384
@@ -29468,7 +28560,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Marty Moose_End_B
   mFillCenter: 1
   mType: 0
@@ -29653,7 +28745,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -29695,7 +28787,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: I_End_B
   mFillCenter: 1
   mType: 0
@@ -29799,11 +28891,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 0
+    e03: .996108949
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: -.994818628
     e20: 0
     e21: 0
     e22: 384
@@ -29861,7 +28953,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Honey
   mFillCenter: 1
   mType: 0
@@ -29923,45 +29015,10 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Strawberry
   mFillCenter: 1
   mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11401410
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22dc6ac1fd3ce594b89dfbfad7673c40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  to: {r: 1, g: 1, b: 1, a: 0}
-  duration: 1
-  delay: 0
---- !u!114 &11401412
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
-  mSpriteName: White Box
-  mFillCenter: 1
-  mType: 1
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
@@ -29979,7 +29036,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -30018,11 +29075,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 2.24070024
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: 0
+    e13: -1.5
     e20: 0
     e21: 0
     e22: 384
@@ -30101,7 +29158,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: L
   mFillCenter: 1
   mType: 0
@@ -30163,7 +29220,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Banana
   mFillCenter: 1
   mType: 0
@@ -30197,6 +29254,7 @@ MonoBehaviour:
   - {fileID: 11401614}
   endTime: 1
   Center: {fileID: 100806}
+  atlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
 --- !u!114 &11401438
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30257,7 +29315,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Honey
   mFillCenter: 1
   mType: 0
@@ -30294,7 +29352,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Dotted line
   mFillCenter: 1
   mType: 0
@@ -30396,7 +29454,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -30452,7 +29510,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Red Circle_End
   mFillCenter: 1
   mType: 0
@@ -30491,11 +29549,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .924187779
+    e03: 0
     e10: 0
     e11: 384
     e12: 0
-    e13: -.923076987
+    e13: -1.5
     e20: 0
     e21: 0
     e22: 384
@@ -30588,7 +29646,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -30623,7 +29681,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -30644,29 +29702,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Marty Moose_End
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11401488
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
-  mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -30716,41 +29753,13 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Upside Down Triangle
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
   mFillAmount: 1
   mInvert: 0
---- !u!114 &11401496
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100758}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b879502587b91bc45a2a55ef62989ee4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameBlock: {fileID: 0}
-  basicEndSprite: {fileID: 11401576}
-  items:
-  - {fileID: 11400620}
-  - {fileID: 11401082}
-  - {fileID: 11401232}
-  correctAnswer: {fileID: 11400620}
-  answerPlace: {fileID: 400268}
-  endItems:
-  - {fileID: 11401230}
-  - {fileID: 11401080}
-  - {fileID: 11400030}
-  - {fileID: 11401410}
-  - {fileID: 11400402}
-  - {fileID: 11400838}
-  endTime: 1
-  Center: {fileID: 100190}
 --- !u!114 &11401498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30779,6 +29788,7 @@ MonoBehaviour:
   - {fileID: 11400816}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401500
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -30834,7 +29844,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Triangle
   mFillCenter: 1
   mType: 0
@@ -30999,6 +30009,7 @@ MonoBehaviour:
   - {fileID: 11400344}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401526
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31027,6 +30038,7 @@ MonoBehaviour:
   - {fileID: 11401634}
   endTime: 2
   Center: {fileID: 0}
+  atlas: {fileID: 0}
 --- !u!114 &11401528
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31121,6 +30133,7 @@ MonoBehaviour:
   - {fileID: 11400578}
   endTime: 1
   Center: {fileID: 100282}
+  atlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
 --- !u!114 &11401538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31135,7 +30148,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Pink Balloon_End_B
   mFillCenter: 1
   mType: 0
@@ -31174,11 +30187,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 0
+    e03: .996108949
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: -.994818628
     e20: 0
     e21: 0
     e22: 384
@@ -31468,29 +30481,8 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: What'sNext_Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
---- !u!114 &11401576
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
-  mSpriteName: Tall Tree_End_B
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -31551,7 +30543,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Honey
   mFillCenter: 1
   mType: 0
@@ -31702,6 +30694,7 @@ MonoBehaviour:
   - {fileID: 11400514}
   endTime: 1
   Center: {fileID: 100256}
+  atlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
 --- !u!114 &11401600
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -31746,7 +30739,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 01cd218f3d3e0c34d98c738da5a18f03, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Carrot
   mFillCenter: 1
   mType: 0
@@ -31945,7 +30938,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Pink Balloon
   mFillCenter: 1
   mType: 0
@@ -31982,7 +30975,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: L_End_B
   mFillCenter: 1
   mType: 0
@@ -32056,11 +31049,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 0
+    e03: .996108949
     e10: 0
     e11: 384
     e12: 0
-    e13: -1.97429299
+    e13: -.994818628
     e20: 0
     e21: 0
     e22: 384
@@ -32102,7 +31095,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: White Box
   mFillCenter: 1
   mType: 1
@@ -32173,7 +31166,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: What'sNext_Text
   mFillCenter: 1
   mType: 0
@@ -32194,7 +31187,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 3c25876e5fc3fc54f97d5486db50a051, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Upside Down Triangle_End
   mFillCenter: 1
   mType: 0
@@ -32245,7 +31238,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: b1fae2d8075ba0146ae21ec04e0b1e96, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Lucky
   mFillCenter: 1
   mType: 0
@@ -32307,7 +31300,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 748d8adc2e0df2f4ea260440fa1defde, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Lucky
   mFillCenter: 1
   mType: 0
@@ -32341,6 +31334,7 @@ MonoBehaviour:
   - {fileID: 11400196}
   endTime: 1
   Center: {fileID: 100092}
+  atlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
 --- !u!114 &11401670
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -32424,6 +31418,7 @@ MonoBehaviour:
   - {fileID: 11401148}
   endTime: 1
   Center: {fileID: 100578}
+  atlas: {fileID: 0}
 --- !u!114 &11401678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -32468,7 +31463,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue Circle
   mFillCenter: 1
   mType: 0
@@ -32502,6 +31497,7 @@ MonoBehaviour:
   - {fileID: 11401686}
   endTime: 1
   Center: {fileID: 100852}
+  atlas: {fileID: 0}
 --- !u!114 &11401686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -32548,7 +31544,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
+  mAtlas: {fileID: 11400000, guid: 5460dd1ccb37d6742ae6581ad4133584, type: 2}
   mSpriteName: Blue circleB_End
   mFillCenter: 1
   mType: 0
@@ -32662,7 +31658,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 9e72d5f218c446947af3567c1e9a4e7b, type: 2}
+  mAtlas: {fileID: 11400000, guid: aac1a6eb95561e64cbed5748eeaa64af, type: 2}
   mSpriteName: Orange
   mFillCenter: 1
   mType: 0
@@ -33323,25 +32319,6 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipStart: {fileID: 8300000, guid: ff2d20e3a5d3ec34a9e5cdf9078a798a, type: 3}
-  playPartMessage: 0
-  clipEnd: {fileID: 0}
-  delayEnd: 0
-  randomEnd: 0
-  clipFinish: {fileID: 0}
-  delayFinish: 0
-  randomFinish: 1
---- !u!114 &11401774
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100758}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6099ef8254429b14d90bb12f17562b7d, type: 3}

@@ -43,14 +43,14 @@ MonoBehaviour:
   - name: White Box
     outer:
       serializedVersion: 2
-      x: 1312
-      y: 1885
+      x: 1173
+      y: 1602
       width: 195
       height: 163
     inner:
       serializedVersion: 2
-      x: 1312
-      y: 1885
+      x: 1173
+      y: 1602
       width: 195
       height: 163
     rotated: 0
@@ -61,14 +61,14 @@ MonoBehaviour:
   - name: Dotted line
     outer:
       serializedVersion: 2
-      x: 0
-      y: 195
+      x: 1937
+      y: 3
       width: 7
       height: 587
     inner:
       serializedVersion: 2
-      x: 0
-      y: 195
+      x: 1937
+      y: 3
       width: 7
       height: 587
     rotated: 0
@@ -80,13 +80,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1605
+      y: 1540
       width: 1172
       height: 203
     inner:
       serializedVersion: 2
       x: 0
-      y: 1605
+      y: 1540
       width: 1172
       height: 203
     rotated: 0
@@ -94,276 +94,780 @@ MonoBehaviour:
     paddingRight: .0298634805
     paddingTop: .133004919
     paddingBottom: .0935960561
-  - name: Carrot
-    outer:
-      serializedVersion: 2
-      x: 1312
-      y: 1817
-      width: 92
-      height: 67
-    inner:
-      serializedVersion: 2
-      x: 1312
-      y: 1817
-      width: 92
-      height: 67
-    rotated: 0
-    paddingLeft: .326086968
-    paddingRight: .315217406
-    paddingTop: .76119405
-    paddingBottom: .522388041
-  - name: Carrot_End
+  - name: Lucky_End
     outer:
       serializedVersion: 2
       x: 0
-      y: 1425
-      width: 1251
-      height: 179
+      y: 560
+      width: 964
+      height: 106
     inner:
       serializedVersion: 2
       x: 0
-      y: 1425
-      width: 1251
-      height: 179
+      y: 560
+      width: 964
+      height: 106
     rotated: 0
-    paddingLeft: .0575539581
-    paddingRight: .0511590727
-    paddingTop: .335195541
-    paddingBottom: .458100557
-  - name: Flower
-    outer:
-      serializedVersion: 2
-      x: 1642
-      y: 1888
-      width: 101
-      height: 160
-    inner:
-      serializedVersion: 2
-      x: 1642
-      y: 1888
-      width: 101
-      height: 160
-    rotated: 0
-    paddingLeft: .27722773
-    paddingRight: .485148519
-    paddingTop: .262499988
-    paddingBottom: .21875
-  - name: Honey Bunny
-    outer:
-      serializedVersion: 2
-      x: 1508
-      y: 1872
-      width: 133
-      height: 176
-    inner:
-      serializedVersion: 2
-      x: 1508
-      y: 1872
-      width: 133
-      height: 176
-    rotated: 0
-    paddingLeft: .345864654
-    paddingRight: .353383452
-    paddingTop: .221590906
-    paddingBottom: .17613636
-  - name: Carrot_End_B
+    paddingLeft: .0280082989
+    paddingRight: .0342323668
+    paddingTop: .424528301
+    paddingBottom: .528301895
+  - name: Lucky_End_B
     outer:
       serializedVersion: 2
       x: 0
-      y: 1809
-      width: 1311
-      height: 239
+      y: 881
+      width: 972
+      height: 143
     inner:
       serializedVersion: 2
       x: 0
-      y: 1809
-      width: 1311
-      height: 239
+      y: 881
+      width: 972
+      height: 143
     rotated: 0
-    paddingLeft: .0366132706
-    paddingRight: .0533943549
-    paddingTop: .17573221
-    paddingBottom: .330543935
-  - name: D_End
+    paddingLeft: .0164609049
+    paddingRight: .0370370373
+    paddingTop: .223776221
+    paddingBottom: .195804194
+  - name: Lucky
+    outer:
+      serializedVersion: 2
+      x: 1915
+      y: 1359
+      width: 131
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 1915
+      y: 1359
+      width: 131
+      height: 147
+    rotated: 0
+    paddingLeft: .343511462
+    paddingRight: .381679386
+    paddingTop: .292517006
+    paddingBottom: .278911561
+  - name: Barry
+    outer:
+      serializedVersion: 2
+      x: 1664
+      y: 1549
+      width: 141
+      height: 148
+    inner:
+      serializedVersion: 2
+      x: 1664
+      y: 1549
+      width: 141
+      height: 148
+    rotated: 0
+    paddingLeft: .148936167
+    paddingRight: .156028375
+    paddingTop: .23648648
+    paddingBottom: .162162155
+  - name: Kristy
     outer:
       serializedVersion: 2
       x: 0
-      y: 783
-      width: 1007
-      height: 131
+      y: 338
+      width: 130
+      height: 142
     inner:
       serializedVersion: 2
       x: 0
-      y: 783
-      width: 1007
-      height: 131
+      y: 338
+      width: 130
+      height: 142
     rotated: 0
-    paddingLeft: .0744786486
-    paddingRight: .0436941423
-    paddingTop: .519083977
-    paddingBottom: .656488538
-  - name: N
+    paddingLeft: .192307696
+    paddingRight: .269230783
+    paddingTop: .204225346
+    paddingBottom: .190140843
+  - name: Lucky_B_End_B
     outer:
       serializedVersion: 2
-      x: 1873
-      y: 1923
-      width: 105
-      height: 125
+      x: 948
+      y: 1025
+      width: 949
+      height: 147
     inner:
       serializedVersion: 2
-      x: 1873
-      y: 1923
-      width: 105
-      height: 125
+      x: 948
+      y: 1025
+      width: 949
+      height: 147
     rotated: 0
-    paddingLeft: .533333361
-    paddingRight: .533333361
-    paddingTop: .328000009
-    paddingBottom: .328000009
-  - name: P
-    outer:
-      serializedVersion: 2
-      x: 1267
-      y: 1693
-      width: 82
-      height: 115
-    inner:
-      serializedVersion: 2
-      x: 1267
-      y: 1693
-      width: 82
-      height: 115
-    rotated: 0
-    paddingLeft: .597561002
-    paddingRight: .646341443
-    paddingTop: .269565225
-    paddingBottom: .37391305
-  - name: D_End_B
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1044
-      width: 1067
-      height: 191
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1044
-      width: 1067
-      height: 191
-    rotated: 0
-    paddingLeft: .0421743207
-    paddingRight: .0299906284
-    paddingTop: .230366498
-    paddingBottom: .34031415
-  - name: D
-    outer:
-      serializedVersion: 2
-      x: 1173
-      y: 1682
-      width: 93
-      height: 126
-    inner:
-      serializedVersion: 2
-      x: 1173
-      y: 1682
-      width: 93
-      height: 126
-    rotated: 0
-    paddingLeft: .365591407
-    paddingRight: .645161271
+    paddingLeft: .0316122249
+    paddingRight: .0474183336
     paddingTop: .333333343
-    paddingBottom: .261904776
-  - name: Green Circle
+    paddingBottom: .272108853
+  - name: Lucky_B_End
     outer:
       serializedVersion: 2
-      x: 1744
-      y: 1933
+      x: 973
+      y: 784
+      width: 965
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 973
+      y: 784
+      width: 965
+      height: 114
+    rotated: 0
+    paddingLeft: .0331606232
+    paddingRight: .0279792752
+    paddingTop: .298245609
+    paddingBottom: .333333343
+  - name: Zip
+    outer:
+      serializedVersion: 2
+      x: 961
+      y: 329
+      width: 120
+      height: 158
+    inner:
+      serializedVersion: 2
+      x: 961
+      y: 329
+      width: 120
+      height: 158
+    rotated: 0
+    paddingLeft: .291666657
+    paddingRight: .466666669
+    paddingTop: .297468364
+    paddingBottom: .221518993
+  - name: Marty_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1027
+      width: 909
+      height: 141
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1027
+      width: 909
+      height: 141
+    rotated: 0
+    paddingLeft: .073707372
+    paddingRight: .0528052822
+    paddingTop: .361702114
+    paddingBottom: .496453911
+  - name: Marty_End_B
+    outer:
+      serializedVersion: 2
+      x: 970
+      y: 1173
+      width: 927
+      height: 184
+    inner:
+      serializedVersion: 2
+      x: 970
+      y: 1173
+      width: 927
+      height: 184
+    rotated: 0
+    paddingLeft: .0571736768
+    paddingRight: .0474649407
+    paddingTop: .217391297
+    paddingBottom: .119565219
+  - name: Marty
+    outer:
+      serializedVersion: 2
+      x: 1369
+      y: 1601
+      width: 153
+      height: 164
+    inner:
+      serializedVersion: 2
+      x: 1369
+      y: 1601
+      width: 153
+      height: 164
+    rotated: 0
+    paddingLeft: .294117659
+    paddingRight: .379084975
+    paddingTop: .207317069
+    paddingBottom: .219512194
+  - name: Patty
+    outer:
+      serializedVersion: 2
+      x: 1523
+      y: 1602
+      width: 140
+      height: 163
+    inner:
+      serializedVersion: 2
+      x: 1523
+      y: 1602
+      width: 140
+      height: 163
+    rotated: 0
+    paddingLeft: .192857146
+    paddingRight: .378571421
+    paddingTop: .147239268
+    paddingBottom: .21472393
+  - name: Octagon_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 682
+      width: 919
+      height: 84
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 682
+      width: 919
+      height: 84
+    rotated: 0
+    paddingLeft: .055495102
+    paddingRight: .0587595217
+    paddingTop: .583333313
+    paddingBottom: .940476179
+  - name: Octagon_End_B
+    outer:
+      serializedVersion: 2
+      x: 973
+      y: 899
+      width: 958
+      height: 125
+    inner:
+      serializedVersion: 2
+      x: 973
+      y: 899
+      width: 958
+      height: 125
+    rotated: 0
+    paddingLeft: .0344467647
+    paddingRight: .0344467647
+    paddingTop: .280000001
+    paddingBottom: .312000006
+  - name: Octagon
+    outer:
+      serializedVersion: 2
+      x: 258
+      y: 250
+      width: 114
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 258
+      y: 250
+      width: 114
+      height: 114
+    rotated: 0
+    paddingLeft: .394736856
+    paddingRight: .561403513
+    paddingTop: .307017535
+    paddingBottom: .666666687
+  - name: Triangle
+    outer:
+      serializedVersion: 2
+      x: 521
+      y: 384
+      width: 130
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 521
+      y: 384
+      width: 130
+      height: 96
+    rotated: 0
+    paddingLeft: .261538476
+    paddingRight: .315384626
+    paddingTop: .458333343
+    paddingBottom: .510416687
+  - name: Upside down Triangle
+    outer:
+      serializedVersion: 2
+      x: 633
+      y: 287
+      width: 130
+      height: 96
+    inner:
+      serializedVersion: 2
+      x: 633
+      y: 287
+      width: 130
+      height: 96
+    rotated: 0
+    paddingLeft: .323076934
+    paddingRight: .41538462
+    paddingTop: .354166657
+    paddingBottom: .333333343
+  - name: Pink Balloon_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1342
+      width: 969
+      height: 197
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1342
+      width: 969
+      height: 197
+    rotated: 0
+    paddingLeft: .0319917426
+    paddingRight: .0247678012
+    paddingTop: .18274112
+    paddingBottom: .314720809
+  - name: Pink Balloon_End
+    outer:
+      serializedVersion: 2
+      x: 970
+      y: 1358
+      width: 944
+      height: 181
+    inner:
+      serializedVersion: 2
+      x: 970
+      y: 1358
+      width: 944
+      height: 181
+    rotated: 0
+    paddingLeft: .0233050846
+    paddingRight: .0614406765
+    paddingTop: .165745854
+    paddingBottom: .204419896
+  - name: Blue Balloon
+    outer:
+      serializedVersion: 2
+      x: 1898
+      y: 1165
+      width: 119
+      height: 192
+    inner:
+      serializedVersion: 2
+      x: 1898
+      y: 1165
+      width: 119
+      height: 192
+    rotated: 0
+    paddingLeft: .394957989
+    paddingRight: .529411793
+    paddingTop: .229166672
+    paddingBottom: .427083343
+  - name: Pink Balloon
+    outer:
+      serializedVersion: 2
+      x: 1915
+      y: 1507
+      width: 120
+      height: 190
+    inner:
+      serializedVersion: 2
+      x: 1915
+      y: 1507
+      width: 120
+      height: 190
+    rotated: 0
+    paddingLeft: .233333334
+    paddingRight: .425000012
+    paddingTop: .178947374
+    paddingBottom: .49473685
+  - name: Green Balloon
+    outer:
+      serializedVersion: 2
+      x: 1924
+      y: 591
+      width: 120
+      height: 192
+    inner:
+      serializedVersion: 2
+      x: 1924
+      y: 591
+      width: 120
+      height: 192
+    rotated: 0
+    paddingLeft: .266666681
+    paddingRight: .416666657
+    paddingTop: .151041672
+    paddingBottom: .364583343
+  - name: Purple Square_End_B
+    outer:
+      serializedVersion: 2
+      x: 965
+      y: 560
+      width: 958
+      height: 106
+    inner:
+      serializedVersion: 2
+      x: 965
+      y: 560
+      width: 958
+      height: 106
+    rotated: 0
+    paddingLeft: .0323590823
+    paddingRight: .0365344472
+    paddingTop: .349056602
+    paddingBottom: .358490556
+  - name: Purple Square_End
+    outer:
+      serializedVersion: 2
+      x: 961
+      y: 488
+      width: 975
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 961
+      y: 488
+      width: 975
+      height: 71
+    rotated: 0
+    paddingLeft: .0164102558
+    paddingRight: .0338461548
+    paddingTop: .577464759
+    paddingBottom: .718309879
+  - name: Green Square
+    outer:
+      serializedVersion: 2
+      x: 391
+      y: 382
+      width: 129
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 391
+      y: 382
+      width: 129
+      height: 98
+    rotated: 0
+    paddingLeft: .302325577
+    paddingRight: .379844964
+    paddingTop: .5
+    paddingBottom: .428571433
+  - name: Purple Square
+    outer:
+      serializedVersion: 2
+      x: 373
+      y: 283
+      width: 129
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 373
+      y: 283
+      width: 129
+      height: 98
+    rotated: 0
+    paddingLeft: .209302321
+    paddingRight: .286821693
+    paddingTop: .275510192
+    paddingBottom: .561224461
+  - name: Green Triangle
+    outer:
+      serializedVersion: 2
+      x: 764
+      y: 291
+      width: 126
+      height: 93
+    inner:
+      serializedVersion: 2
+      x: 764
+      y: 291
+      width: 126
+      height: 93
+    rotated: 0
+    paddingLeft: .206349209
+    paddingRight: .301587313
+    paddingTop: .30107528
+    paddingBottom: .505376339
+  - name: Red Circle_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1169
+      width: 947
+      height: 172
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1169
+      width: 947
+      height: 172
+    rotated: 0
+    paddingLeft: .0401267149
+    paddingRight: .0411826819
+    paddingTop: .168604657
+    paddingBottom: .174418598
+  - name: Red Circle_End
+    outer:
+      serializedVersion: 2
+      x: 956
+      y: 667
+      width: 909
+      height: 116
+    inner:
+      serializedVersion: 2
+      x: 956
+      y: 667
+      width: 909
+      height: 116
+    rotated: 0
+    paddingLeft: .0231023096
+    paddingRight: .0440043993
+    paddingTop: .310344815
+    paddingBottom: .5
+  - name: Blue Circle
+    outer:
+      serializedVersion: 2
+      x: 131
+      y: 365
       width: 128
       height: 115
     inner:
       serializedVersion: 2
-      x: 1744
-      y: 1933
+      x: 131
+      y: 365
       width: 128
       height: 115
     rotated: 0
-    paddingLeft: .2890625
-    paddingRight: .4296875
-    paddingTop: .156521738
-    paddingBottom: .165217385
-  - name: Green Circle_End_B
+    paddingLeft: .328125
+    paddingRight: .4140625
+    paddingTop: .304347813
+    paddingBottom: .339130431
+  - name: Purple Triangle
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1236
-      width: 1147
-      height: 188
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1236
-      width: 1147
-      height: 188
-    rotated: 0
-    paddingLeft: .0348735824
-    paddingRight: .0383609422
-    paddingTop: .21808511
-    paddingBottom: .202127665
-  - name: Green Circle_End
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 915
-      width: 1087
-      height: 128
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 915
-      width: 1087
-      height: 128
-    rotated: 0
-    paddingLeft: .0671573132
-    paddingRight: .0542778298
-    paddingTop: .5078125
-    paddingBottom: .53125
-  - name: Blue Triangle
-    outer:
-      serializedVersion: 2
-      x: 1873
-      y: 1830
+      x: 652
+      y: 385
       width: 126
-      height: 92
+      height: 95
     inner:
       serializedVersion: 2
-      x: 1873
-      y: 1830
+      x: 652
+      y: 385
       width: 126
-      height: 92
+      height: 95
     rotated: 0
     paddingLeft: .325396836
-    paddingRight: .301587313
-    paddingTop: .304347813
-    paddingBottom: .521739125
+    paddingRight: .420634925
+    paddingTop: .431578934
+    paddingBottom: .49473685
   - name: Red Circle
     outer:
       serializedVersion: 2
-      x: 1744
-      y: 1817
+      x: 0
+      y: 222
       width: 128
       height: 115
     inner:
       serializedVersion: 2
-      x: 1744
-      y: 1817
+      x: 0
+      y: 222
       width: 128
       height: 115
     rotated: 0
-    paddingLeft: .3046875
-    paddingRight: .2734375
-    paddingTop: .313043475
-    paddingBottom: .304347813
+    paddingLeft: .390625
+    paddingRight: .375
+    paddingTop: .20869565
+    paddingBottom: .269565225
+  - name: Red Square_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 767
+      width: 955
+      height: 113
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 767
+      width: 955
+      height: 113
+    rotated: 0
+    paddingLeft: .0282722507
+    paddingRight: .0439790562
+    paddingTop: .292035401
+    paddingBottom: .371681422
+  - name: Red Square_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 481
+      width: 960
+      height: 78
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 481
+      width: 960
+      height: 78
+    rotated: 0
+    paddingLeft: .0354166664
+    paddingRight: .03125
+    paddingTop: .705128193
+    paddingBottom: .641025662
+  - name: Red Octagon
+    outer:
+      serializedVersion: 2
+      x: 1932
+      y: 927
+      width: 114
+      height: 114
+    inner:
+      serializedVersion: 2
+      x: 1932
+      y: 927
+      width: 114
+      height: 114
+    rotated: 0
+    paddingLeft: .403508782
+    paddingRight: .5
+    paddingTop: .3859649
+    paddingBottom: .377192974
+  - name: Blue Square
+    outer:
+      serializedVersion: 2
+      x: 503
+      y: 283
+      width: 129
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 503
+      y: 283
+      width: 129
+      height: 98
+    rotated: 0
+    paddingLeft: .333333343
+    paddingRight: .279069781
+    paddingTop: .540816307
+    paddingBottom: .540816307
+  - name: Red Square
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 382
+      width: 130
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 382
+      width: 130
+      height: 98
+    rotated: 0
+    paddingLeft: .338461548
+    paddingRight: .353846163
+    paddingTop: .428571433
+    paddingBottom: .5
+  - name: Stop Sign
+    outer:
+      serializedVersion: 2
+      x: 129
+      y: 222
+      width: 128
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 129
+      y: 222
+      width: 128
+      height: 115
+    rotated: 0
+    paddingLeft: .3203125
+    paddingRight: .328125
+    paddingTop: .269565225
+    paddingBottom: .400000006
+  - name: Short  Tree_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1744
+      width: 933
+      height: 304
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1744
+      width: 933
+      height: 304
+    rotated: 0
+    paddingLeft: .0342979617
+    paddingRight: .0632368699
+    paddingTop: .138157889
+    paddingBottom: .141447365
+  - name: Short  Tree_End
+    outer:
+      serializedVersion: 2
+      x: 934
+      y: 1766
+      width: 961
+      height: 282
+    inner:
+      serializedVersion: 2
+      x: 934
+      y: 1766
+      width: 961
+      height: 282
+    rotated: 0
+    paddingLeft: .0260145683
+    paddingRight: .0395421423
+    paddingTop: .184397161
+    paddingBottom: .141843975
+  - name: Tall Tree
+    outer:
+      serializedVersion: 2
+      x: 1896
+      y: 1698
+      width: 137
+      height: 350
+    inner:
+      serializedVersion: 2
+      x: 1896
+      y: 1698
+      width: 137
+      height: 350
+    rotated: 0
+    paddingLeft: .299270064
+    paddingRight: .613138676
+    paddingTop: .125714287
+    paddingBottom: .0742857158
+  - name: Short Tree
+    outer:
+      serializedVersion: 2
+      x: 1898
+      y: 1042
+      width: 145
+      height: 122
+    inner:
+      serializedVersion: 2
+      x: 1898
+      y: 1042
+      width: 145
+      height: 122
+    rotated: 0
+    paddingLeft: .351724148
+    paddingRight: .393103451
+    paddingTop: .385245889
+    paddingBottom: .336065561
+  - name: Bee
+    outer:
+      serializedVersion: 2
+      x: 779
+      y: 388
+      width: 126
+      height: 92
+    inner:
+      serializedVersion: 2
+      x: 779
+      y: 388
+      width: 126
+      height: 92
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .349206358
+    paddingTop: .260869563
+    paddingBottom: .402173907
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
