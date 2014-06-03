@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -38,237 +39,165 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 9f56b0319e2088546844476c6e7e94ac, type: 2}
+  material: {fileID: 2100000, guid: b828c7b8bac0cce429e7028e622ba175, type: 2}
   sprites:
-  - name: Table of Contents_TextC
-    outer:
-      serializedVersion: 2
-      x: 2298
-      y: 2259
-      width: 1373
-      height: 172
-    inner:
-      serializedVersion: 2
-      x: 2298
-      y: 2259
-      width: 1373
-      height: 172
-    rotated: 0
-    paddingLeft: .0801165327
-    paddingRight: .411507636
-    paddingTop: .604651153
-    paddingBottom: 7.32558155
-  - name: Play Arrow Honey
-    outer:
-      serializedVersion: 2
-      x: 3957
-      y: 4018
-      width: 110
-      height: 78
-    inner:
-      serializedVersion: 2
-      x: 3957
-      y: 4018
-      width: 110
-      height: 78
-    rotated: 0
-    paddingLeft: 10.1727276
-    paddingRight: 7.4454546
-    paddingTop: 16.1153851
-    paddingBottom: 2.57692313
   - name: Table of Contents_TextD
     outer:
       serializedVersion: 2
-      x: 2670
-      y: 2688
-      width: 1302
-      height: 255
+      x: 1025
+      y: 1151
+      width: 652
+      height: 128
     inner:
       serializedVersion: 2
-      x: 2670
-      y: 2688
-      width: 1302
-      height: 255
+      x: 1025
+      y: 1151
+      width: 652
+      height: 128
     rotated: 0
-    paddingLeft: .0652841777
-    paddingRight: .507680476
-    paddingTop: .274509817
-    paddingBottom: 4.74901962
-  - name: Play Arrow Lucky
-    outer:
-      serializedVersion: 2
-      x: 2049
-      y: 3939
-      width: 110
-      height: 78
-    inner:
-      serializedVersion: 2
-      x: 2049
-      y: 3939
-      width: 110
-      height: 78
-    rotated: 0
-    paddingLeft: 4.89090919
-    paddingRight: 12.727273
-    paddingTop: 10.0256414
-    paddingBottom: 8.66666698
-  - name: Play Arrow Marty
-    outer:
-      serializedVersion: 2
-      x: 2049
-      y: 4018
-      width: 110
-      height: 78
-    inner:
-      serializedVersion: 2
-      x: 2049
-      y: 4018
-      width: 110
-      height: 78
-    rotated: 0
-    paddingLeft: 11.4454546
-    paddingRight: 6.17272711
-    paddingTop: 10.0384617
-    paddingBottom: 8.65384579
-  - name: Play Arrow Patty
-    outer:
-      serializedVersion: 2
-      x: 2160
-      y: 4018
-      width: 110
-      height: 78
-    inner:
-      serializedVersion: 2
-      x: 2160
-      y: 4018
-      width: 110
-      height: 78
-    rotated: 0
-    paddingLeft: 5.26363659
-    paddingRight: 12.3545456
-    paddingTop: 16.333334
-    paddingBottom: 2.35897446
-  - name: Table of Contents_TextA
-    outer:
-      serializedVersion: 2
-      x: 2049
-      y: 2432
-      width: 1488
-      height: 255
-    inner:
-      serializedVersion: 2
-      x: 2049
-      y: 2432
-      width: 1488
-      height: 255
-    rotated: 0
-    paddingLeft: .0349462368
-    paddingRight: .341397852
-    paddingTop: .301960796
-    paddingBottom: 4.72156858
-  - name: Table of Contents_TextB
-    outer:
-      serializedVersion: 2
-      x: 2271
-      y: 3924
-      width: 1064
-      height: 172
-    inner:
-      serializedVersion: 2
-      x: 2271
-      y: 3924
-      width: 1064
-      height: 172
-    rotated: 0
-    paddingLeft: .154135332
-    paddingRight: .770676672
-    paddingTop: .633720934
-    paddingBottom: 7.29651165
+    paddingLeft: .0644171759
+    paddingRight: .506134987
+    paddingTop: .2734375
+    paddingBottom: 4.7265625
   - name: TOC_Lucky
     outer:
       serializedVersion: 2
-      x: 1584
-      y: 1855
-      width: 713
-      height: 576
+      x: 1647
+      y: 1390
+      width: 357
+      height: 288
     inner:
       serializedVersion: 2
-      x: 1584
-      y: 1855
-      width: 713
-      height: 576
+      x: 1647
+      y: 1390
+      width: 357
+      height: 288
     rotated: 0
-    paddingLeft: .0406732112
-    paddingRight: 1.83169711
+    paddingLeft: .0392156877
+    paddingRight: 1.8291316
     paddingTop: .6875
     paddingBottom: .979166687
-  - name: TOC_Marty
+  - name: Table of Contents_TextB
     outer:
       serializedVersion: 2
-      x: 886
-      y: 2028
-      width: 697
-      height: 531
+      x: 1025
+      y: 976
+      width: 532
+      height: 87
     inner:
       serializedVersion: 2
-      x: 886
-      y: 2028
-      width: 697
-      height: 531
+      x: 1025
+      y: 976
+      width: 532
+      height: 87
     rotated: 0
-    paddingLeft: 1.06456244
-    paddingRight: .873744607
-    paddingTop: .745762706
-    paddingBottom: 1.14689267
-  - name: TOC_Honey
+    paddingLeft: .154135332
+    paddingRight: .770676672
+    paddingTop: .620689631
+    paddingBottom: 7.20689678
+  - name: TOC_Background
     outer:
       serializedVersion: 2
       x: 0
-      y: 1793
-      width: 885
-      height: 766
+      y: 511
+      width: 1024
+      height: 768
     inner:
       serializedVersion: 2
       x: 0
-      y: 1793
-      width: 885
-      height: 766
+      y: 511
+      width: 1024
+      height: 768
     rotated: 0
-    paddingLeft: .625988722
-    paddingRight: .688135564
-    paddingTop: .976501286
-    paddingBottom: .0287206266
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Zip
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1339
+      width: 104
+      height: 132
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1339
+      width: 104
+      height: 132
+    rotated: 0
+    paddingLeft: 7.94230747
+    paddingRight: .903846145
+    paddingTop: .234848484
+    paddingBottom: 4.58333349
   - name: TOC_Patty
     outer:
       serializedVersion: 2
-      x: 886
-      y: 1500
-      width: 697
-      height: 527
+      x: 350
+      y: 118
+      width: 348
+      height: 263
     inner:
       serializedVersion: 2
-      x: 886
-      y: 1500
-      width: 697
-      height: 527
+      x: 350
+      y: 118
+      width: 348
+      height: 263
     rotated: 0
-    paddingLeft: .0387374461
-    paddingRight: 1.89956963
-    paddingTop: 1.87286532
-    paddingBottom: .0417457297
+    paddingLeft: .0402298868
+    paddingRight: 1.90229881
+    paddingTop: 1.87832701
+    paddingBottom: .0418250933
+  - name: Play Arrow Marty
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1298
+      width: 56
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1298
+      width: 56
+      height: 40
+    rotated: 0
+    paddingLeft: 11.2321424
+    paddingRight: 6.05357122
+    paddingTop: 9.77499962
+    paddingBottom: 8.42500019
+  - name: TOC_Honey
+    outer:
+      serializedVersion: 2
+      x: 1647
+      y: 1679
+      width: 362
+      height: 369
+    inner:
+      serializedVersion: 2
+      x: 1647
+      y: 1679
+      width: 362
+      height: 369
+    rotated: 0
+    paddingLeft: .988950253
+    paddingRight: .839779019
+    paddingTop: 1.05149055
+    paddingBottom: .0298102982
   - name: TOC_ParkB
     outer:
       serializedVersion: 2
-      x: 3336
-      y: 2944
-      width: 620
-      height: 1152
+      x: 1025
+      y: 1472
+      width: 310
+      height: 576
     inner:
       serializedVersion: 2
-      x: 3336
-      y: 2944
-      width: 620
-      height: 1152
+      x: 1025
+      y: 1472
+      width: 310
+      height: 576
     rotated: 0
     paddingLeft: 2.30322576
     paddingRight: 0
@@ -277,52 +206,142 @@ MonoBehaviour:
   - name: TOC_ParkA
     outer:
       serializedVersion: 2
-      x: 2049
-      y: 2771
-      width: 620
-      height: 1152
+      x: 1336
+      y: 1472
+      width: 310
+      height: 576
     inner:
       serializedVersion: 2
-      x: 2049
-      y: 2771
-      width: 620
-      height: 1152
+      x: 1336
+      y: 1472
+      width: 310
+      height: 576
     rotated: 0
     paddingLeft: 2.30322576
     paddingRight: 0
     paddingTop: .333333343
     paddingBottom: 0
-  - name: Zip
+  - name: Table of Contents_TextA
     outer:
       serializedVersion: 2
-      x: 2670
-      y: 3660
-      width: 208
-      height: 263
+      x: 0
+      y: 382
+      width: 744
+      height: 128
     inner:
       serializedVersion: 2
-      x: 2670
-      y: 3660
-      width: 208
-      height: 263
+      x: 0
+      y: 382
+      width: 744
+      height: 128
     rotated: 0
-    paddingLeft: 7.94230747
-    paddingRight: .903846145
-    paddingTop: .235741451
-    paddingBottom: 4.60456276
-  - name: TOC_Background
+    paddingLeft: .0349462368
+    paddingRight: .341397852
+    paddingTop: .296875
+    paddingBottom: 4.703125
+  - name: Play Arrow Honey
+    outer:
+      serializedVersion: 2
+      x: 1130
+      y: 1431
+      width: 56
+      height: 40
+    inner:
+      serializedVersion: 2
+      x: 1130
+      y: 1431
+      width: 56
+      height: 40
+    rotated: 0
+    paddingLeft: 9.98214245
+    paddingRight: 7.30357122
+    paddingTop: 15.6999998
+    paddingBottom: 2.5
+  - name: Play Arrow Lucky
+    outer:
+      serializedVersion: 2
+      x: 1244
+      y: 1432
+      width: 55
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 1244
+      y: 1432
+      width: 55
+      height: 39
+    rotated: 0
+    paddingLeft: 4.89090919
+    paddingRight: 12.727273
+    paddingTop: 10.0256414
+    paddingBottom: 8.66666698
+  - name: Table of Contents_TextC
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1064
+      width: 687
+      height: 86
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1064
+      width: 687
+      height: 86
+    rotated: 0
+    paddingLeft: .0800582245
+    paddingRight: .41048035
+    paddingTop: .604651153
+    paddingBottom: 7.32558155
+  - name: TOC_Marty
     outer:
       serializedVersion: 2
       x: 0
-      y: 2560
-      width: 2048
-      height: 1536
+      y: 116
+      width: 349
+      height: 265
     inner:
       serializedVersion: 2
       x: 0
-      y: 2560
-      width: 2048
-      height: 1536
+      y: 116
+      width: 349
+      height: 265
+    rotated: 0
+    paddingLeft: 1.06303728
+    paddingRight: .871060193
+    paddingTop: .747169793
+    paddingBottom: 1.1509434
+  - name: Play Arrow Patty
+    outer:
+      serializedVersion: 2
+      x: 1187
+      y: 1432
+      width: 56
+      height: 39
+    inner:
+      serializedVersion: 2
+      x: 1187
+      y: 1432
+      width: 56
+      height: 39
+    rotated: 0
+    paddingLeft: 5.16071415
+    paddingRight: 12.125
+    paddingTop: 16.333334
+    paddingBottom: 2.35897446
+  - name: GameEndImage
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1280
+      width: 1024
+      height: 768
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1280
+      width: 1024
+      height: 768
     rotated: 0
     paddingLeft: 0
     paddingRight: 0
@@ -330,7 +349,7 @@ MonoBehaviour:
     paddingBottom: 0
   mCoordinates: 0
   mPixelSize: 1
-  mReplacement: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
+  mReplacement: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

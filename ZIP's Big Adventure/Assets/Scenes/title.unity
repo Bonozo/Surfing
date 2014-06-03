@@ -119,6 +119,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!82 &20280536
 AudioSource:
   m_ObjectHideFlags: 0
@@ -204,6 +205,7 @@ Transform:
   m_LocalScale: {x: 188.5, y: 73.5, z: 1}
   m_Children: []
   m_Father: {fileID: 89417623}
+  m_RootOrder: 0
 --- !u!114 &86055404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,7 +220,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 76fd98593636a8948ae87a8829ba6cff, type: 2}
+  mAtlas: {fileID: 11400000, guid: 041d0bb79c6d03049a067a99bf6b5e6a, type: 2}
   mSpriteName: Kindergarten
   mFillCenter: 1
   mType: 1
@@ -257,6 +259,7 @@ Transform:
   m_Children:
   - {fileID: 86055403}
   m_Father: {fileID: 1017941300}
+  m_RootOrder: 2
 --- !u!114 &89417624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -362,6 +365,7 @@ Transform:
   - {fileID: 1321500076}
   - {fileID: 119122912}
   m_Father: {fileID: 427594446}
+  m_RootOrder: 5
 --- !u!114 &111568872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -465,6 +469,7 @@ Transform:
   m_Children:
   - {fileID: 537050817}
   m_Father: {fileID: 1017941300}
+  m_RootOrder: 0
 --- !u!114 &113789589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,6 +569,7 @@ Transform:
   m_LocalScale: {x: 110, y: 78, z: 1}
   m_Children: []
   m_Father: {fileID: 111568871}
+  m_RootOrder: 1
 --- !u!114 &119122913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -578,7 +584,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: Play Arrow Honey
   mFillCenter: 1
   mType: 0
@@ -613,6 +619,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1243174000}
+  m_RootOrder: 1
 --- !u!114 &190458301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -664,6 +671,7 @@ Transform:
   m_Children:
   - {fileID: 427594446}
   m_Father: {fileID: 1670326203}
+  m_RootOrder: 1
 --- !u!1 &426705992
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,6 +758,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 3
 --- !u!114 &426705995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,6 +804,7 @@ Transform:
   - {fileID: 1509985280}
   - {fileID: 1060421176}
   m_Father: {fileID: 322977017}
+  m_RootOrder: 0
 --- !u!1 &441360129
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +832,7 @@ Transform:
   m_LocalScale: {x: 2048, y: 1536, z: 1}
   m_Children: []
   m_Father: {fileID: 427594446}
+  m_RootOrder: 0
 --- !u!114 &441360131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -836,7 +847,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: TOC_Background
   mFillCenter: 1
   mType: 0
@@ -875,6 +886,7 @@ Transform:
   m_Children:
   - {fileID: 954461100}
   m_Father: {fileID: 1017941300}
+  m_RootOrder: 1
 --- !u!114 &444300850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -974,6 +986,7 @@ Transform:
   m_LocalScale: {x: 188.5, y: 73.5, z: 1}
   m_Children: []
   m_Father: {fileID: 113789588}
+  m_RootOrder: 0
 --- !u!114 &537050818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -988,7 +1001,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 76fd98593636a8948ae87a8829ba6cff, type: 2}
+  mAtlas: {fileID: 11400000, guid: 041d0bb79c6d03049a067a99bf6b5e6a, type: 2}
   mSpriteName: First grade
   mFillCenter: 1
   mType: 1
@@ -1028,6 +1041,7 @@ Transform:
   - {fileID: 906629062}
   - {fileID: 2071723288}
   m_Father: {fileID: 427594446}
+  m_RootOrder: 3
 --- !u!114 &560835719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,6 +1141,7 @@ Transform:
   m_LocalScale: {x: 2048, y: 1536, z: 1}
   m_Children: []
   m_Father: {fileID: 1293832762}
+  m_RootOrder: 0
 --- !u!114 &601466795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1156,7 +1171,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 76fd98593636a8948ae87a8829ba6cff, type: 2}
+  mAtlas: {fileID: 11400000, guid: 041d0bb79c6d03049a067a99bf6b5e6a, type: 2}
   mSpriteName: Cover Page_a
   mFillCenter: 1
   mType: 0
@@ -1191,6 +1206,7 @@ Transform:
   m_LocalScale: {x: 687, y: 86, z: 1}
   m_Children: []
   m_Father: {fileID: 971227259}
+  m_RootOrder: 0
 --- !u!114 &649654979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1205,7 +1221,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: Table of Contents_TextC
   mFillCenter: 1
   mType: 0
@@ -1261,6 +1277,7 @@ Transform:
   m_LocalScale: {x: 110, y: 78, z: 1}
   m_Children: []
   m_Father: {fileID: 1567172404}
+  m_RootOrder: 1
 --- !u!114 &660274032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1275,7 +1292,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: Play Arrow Marty
   mFillCenter: 1
   mType: 0
@@ -1309,6 +1326,7 @@ Transform:
   m_LocalScale: {x: 713, y: 576, z: 1}
   m_Children: []
   m_Father: {fileID: 560835718}
+  m_RootOrder: 0
 --- !u!114 &906629063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1323,7 +1341,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: TOC_Lucky
   mFillCenter: 1
   mType: 1
@@ -1357,6 +1375,7 @@ Transform:
   m_LocalScale: {x: 188.5, y: 73.5, z: 1}
   m_Children: []
   m_Father: {fileID: 444300849}
+  m_RootOrder: 0
 --- !u!114 &954461101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1371,7 +1390,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 76fd98593636a8948ae87a8829ba6cff, type: 2}
+  mAtlas: {fileID: 11400000, guid: 041d0bb79c6d03049a067a99bf6b5e6a, type: 2}
   mSpriteName: pre-k
   mFillCenter: 1
   mType: 1
@@ -1405,6 +1424,7 @@ Transform:
   m_Children:
   - {fileID: 649654978}
   m_Father: {fileID: 427594446}
+  m_RootOrder: 1
 --- !u!1 &1017941299
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,6 +1455,7 @@ Transform:
   - {fileID: 89417623}
   - {fileID: 1293832762}
   m_Father: {fileID: 1670326203}
+  m_RootOrder: 2
 --- !u!1 &1060421175
 GameObject:
   m_ObjectHideFlags: 0
@@ -1463,6 +1484,7 @@ Transform:
   m_LocalScale: {x: 620, y: 1152, z: 1}
   m_Children: []
   m_Father: {fileID: 427594446}
+  m_RootOrder: 7
 --- !u!114 &1060421177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1477,7 +1499,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: TOC_ParkA
   mFillCenter: 0
   mType: 0
@@ -1566,8 +1588,11 @@ Camera:
     m_Bits: 4294967039
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
   m_HDR: 0
   m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
 --- !u!4 &1079422386
 Transform:
   m_ObjectHideFlags: 0
@@ -1579,6 +1604,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 2
 --- !u!1 &1125794887
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,6 +1632,7 @@ Transform:
   m_LocalScale: {x: 1024.00012, y: 768, z: .999935985}
   m_Children: []
   m_Father: {fileID: 1243174000}
+  m_RootOrder: 0
 --- !u!114 &1125794889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1620,7 +1647,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 1
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: GameEndImage
   mFillCenter: 1
   mType: 0
@@ -1654,6 +1681,7 @@ Transform:
   m_LocalScale: {x: 697, y: 531, z: 1}
   m_Children: []
   m_Father: {fileID: 1567172404}
+  m_RootOrder: 0
 --- !u!114 &1147840296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1668,7 +1696,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: TOC_Marty
   mFillCenter: 1
   mType: 1
@@ -1703,6 +1731,7 @@ Transform:
   - {fileID: 1125794888}
   - {fileID: 190458300}
   m_Father: {fileID: 1670326203}
+  m_RootOrder: 0
 --- !u!1 &1246021789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,6 +1773,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 4
 --- !u!1 &1293832761
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,6 +1801,7 @@ Transform:
   m_Children:
   - {fileID: 601466794}
   m_Father: {fileID: 1017941300}
+  m_RootOrder: 3
 --- !u!1 &1315570634
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,6 +1829,7 @@ Transform:
   m_LocalScale: {x: 697, y: 527, z: 1}
   m_Children: []
   m_Father: {fileID: 1509985280}
+  m_RootOrder: 1
 --- !u!114 &1315570636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1812,7 +1844,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: TOC_Patty
   mFillCenter: 1
   mType: 1
@@ -1846,6 +1878,7 @@ Transform:
   m_LocalScale: {x: 724, y: 738, z: 1}
   m_Children: []
   m_Father: {fileID: 111568871}
+  m_RootOrder: 0
 --- !u!114 &1321500077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1860,7 +1893,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: TOC_Honey
   mFillCenter: 1
   mType: 1
@@ -1900,6 +1933,7 @@ Transform:
   - {fileID: 2083403430}
   - {fileID: 1315570635}
   m_Father: {fileID: 427594446}
+  m_RootOrder: 6
 --- !u!114 &1509985281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1998,6 +2032,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 1
 --- !u!114 &1558198529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2045,6 +2080,7 @@ Transform:
   - {fileID: 1147840295}
   - {fileID: 660274031}
   m_Father: {fileID: 427594446}
+  m_RootOrder: 4
 --- !u!114 &1567172405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2145,6 +2181,7 @@ Transform:
   m_Children:
   - {fileID: 1670326203}
   m_Father: {fileID: 2067992101}
+  m_RootOrder: 0
 --- !u!114 &1623334907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2208,8 +2245,11 @@ Camera:
     m_Bits: 256
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
   m_HDR: 0
   m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: .0219999999
 --- !u!1 &1670326202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,13 +2273,14 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.00522184, z: 0}
+  m_LocalPosition: {x: 0, y: .716417909, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1243174000}
   - {fileID: 322977017}
   - {fileID: 1017941300}
   m_Father: {fileID: 1623334906}
+  m_RootOrder: 0
 --- !u!114 &1670326204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2304,6 +2345,7 @@ Transform:
   m_Children:
   - {fileID: 1623334906}
   m_Father: {fileID: 0}
+  m_RootOrder: 5
 --- !u!114 &2067992102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2370,6 +2412,7 @@ Transform:
   m_LocalScale: {x: 110, y: 78, z: 1}
   m_Children: []
   m_Father: {fileID: 560835718}
+  m_RootOrder: 1
 --- !u!114 &2071723289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2384,7 +2427,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: Play Arrow Lucky
   mFillCenter: 1
   mType: 0
@@ -2418,6 +2461,7 @@ Transform:
   m_LocalScale: {x: 110, y: 78, z: 1}
   m_Children: []
   m_Father: {fileID: 1509985280}
+  m_RootOrder: 0
 --- !u!114 &2083403431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2432,7 +2476,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 4
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: Play Arrow Patty
   mFillCenter: 1
   mType: 0
@@ -2466,6 +2510,7 @@ Transform:
   m_LocalScale: {x: 208, y: 263, z: 1}
   m_Children: []
   m_Father: {fileID: 427594446}
+  m_RootOrder: 2
 --- !u!114 &2131785676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2480,7 +2525,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 2
-  mAtlas: {fileID: 11400000, guid: 6c199b1d6f7fa4d4394c0dbaf4e566ee, type: 2}
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: Zip
   mFillCenter: 1
   mType: 0
