@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -43,14 +44,14 @@ MonoBehaviour:
   - name: Branches_End_B
     outer:
       serializedVersion: 2
-      x: 450
-      y: 216
+      x: 414
+      y: 1226
       width: 295
       height: 511
     inner:
       serializedVersion: 2
-      x: 450
-      y: 216
+      x: 414
+      y: 1226
       width: 295
       height: 511
     rotated: 0
@@ -58,35 +59,17 @@ MonoBehaviour:
     paddingRight: .162711859
     paddingTop: .0508806258
     paddingBottom: .052837573
-  - name: Branches_Text
-    outer:
-      serializedVersion: 2
-      x: 773
-      y: 1134
-      width: 1065
-      height: 215
-    inner:
-      serializedVersion: 2
-      x: 773
-      y: 1134
-      width: 1065
-      height: 215
-    rotated: 0
-    paddingLeft: .0431924872
-    paddingRight: .0441314541
-    paddingTop: .116279073
-    paddingBottom: .0837209299
   - name: Branches_End
     outer:
       serializedVersion: 2
-      x: 773
-      y: 126
+      x: 0
+      y: 730
       width: 283
       height: 511
     inner:
       serializedVersion: 2
-      x: 773
-      y: 126
+      x: 0
+      y: 730
       width: 283
       height: 511
     rotated: 0
@@ -97,14 +80,14 @@ MonoBehaviour:
   - name: Butterfly_End
     outer:
       serializedVersion: 2
-      x: 0
-      y: 243
+      x: 1546
+      y: 1564
       width: 449
       height: 484
     inner:
       serializedVersion: 2
-      x: 0
-      y: 243
+      x: 1546
+      y: 1564
       width: 449
       height: 484
     rotated: 0
@@ -115,14 +98,14 @@ MonoBehaviour:
   - name: Butterfly_End_B
     outer:
       serializedVersion: 2
-      x: 773
-      y: 638
+      x: 0
+      y: 1242
       width: 413
       height: 495
     inner:
       serializedVersion: 2
-      x: 773
-      y: 638
+      x: 0
+      y: 1242
       width: 413
       height: 495
     rotated: 0
@@ -130,53 +113,17 @@ MonoBehaviour:
     paddingRight: .176755443
     paddingTop: .0363636352
     paddingBottom: 0
-  - name: Butterfly_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1350
-      width: 1124
-      height: 216
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1350
-      width: 1124
-      height: 216
-    rotated: 0
-    paddingLeft: .0533807836
-    paddingRight: .0311387908
-    paddingTop: .125
-    paddingBottom: .138888896
-  - name: Carrots_Text
-    outer:
-      serializedVersion: 2
-      x: 1038
-      y: 1567
-      width: 1008
-      height: 240
-    inner:
-      serializedVersion: 2
-      x: 1038
-      y: 1567
-      width: 1008
-      height: 240
-    rotated: 0
-    paddingLeft: .065476194
-    paddingRight: .0575396828
-    paddingTop: .216666669
-    paddingBottom: .104166664
   - name: Carrots_End_B
     outer:
       serializedVersion: 2
-      x: 1061
-      y: 1873
+      x: 710
+      y: 1562
       width: 624
       height: 175
     inner:
       serializedVersion: 2
-      x: 1061
-      y: 1873
+      x: 710
+      y: 1562
       width: 624
       height: 175
     rotated: 0
@@ -187,14 +134,14 @@ MonoBehaviour:
   - name: Carrots_End
     outer:
       serializedVersion: 2
-      x: 1125
-      y: 1395
+      x: 1335
+      y: 1392
       width: 624
       height: 171
     inner:
       serializedVersion: 2
-      x: 1125
-      y: 1395
+      x: 1335
+      y: 1392
       width: 624
       height: 171
     rotated: 0
@@ -205,14 +152,14 @@ MonoBehaviour:
   - name: Duck_End_B
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1039
+      x: 773
+      y: 1738
       width: 772
       height: 310
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1039
+      x: 773
+      y: 1738
       width: 772
       height: 310
     rotated: 0
@@ -220,35 +167,17 @@ MonoBehaviour:
     paddingRight: .0531088077
     paddingTop: .167741939
     paddingBottom: .138709679
-  - name: Duck_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1567
-      width: 1037
-      height: 240
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1567
-      width: 1037
-      height: 240
-    rotated: 0
-    paddingLeft: .0443587266
-    paddingRight: .0395371281
-    paddingTop: .129166663
-    paddingBottom: .0708333328
   - name: Duck_End
     outer:
       serializedVersion: 2
       x: 0
-      y: 728
+      y: 1738
       width: 772
       height: 310
     inner:
       serializedVersion: 2
       x: 0
-      y: 728
+      y: 1738
       width: 772
       height: 310
     rotated: 0
@@ -256,35 +185,17 @@ MonoBehaviour:
     paddingRight: .0544041432
     paddingTop: .167741939
     paddingBottom: .138709679
-  - name: Ice cubes_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1808
-      width: 1060
-      height: 240
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1808
-      width: 1060
-      height: 240
-    rotated: 0
-    paddingLeft: .047169812
-    paddingRight: .0320754722
-    paddingTop: .129166663
-    paddingBottom: .116666667
   - name: Ice cubes_End_B
     outer:
       serializedVersion: 2
-      x: 1187
-      y: 856
+      x: 995
+      y: 1284
       width: 284
       height: 277
     inner:
       serializedVersion: 2
-      x: 1187
-      y: 856
+      x: 995
+      y: 1284
       width: 284
       height: 277
     rotated: 0
@@ -295,14 +206,14 @@ MonoBehaviour:
   - name: Ice cubes_End
     outer:
       serializedVersion: 2
-      x: 1472
-      y: 856
+      x: 710
+      y: 1284
       width: 284
       height: 277
     inner:
       serializedVersion: 2
-      x: 1472
-      y: 856
+      x: 710
+      y: 1284
       width: 284
       height: 277
     rotated: 0

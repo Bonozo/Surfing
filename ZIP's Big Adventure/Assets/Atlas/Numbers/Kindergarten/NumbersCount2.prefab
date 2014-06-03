@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -40,35 +41,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: f2df384b33235ad4892805f917fbc991, type: 2}
   sprites:
-  - name: Fish_Text
-    outer:
-      serializedVersion: 2
-      x: 773
-      y: 622
-      width: 947
-      height: 240
-    inner:
-      serializedVersion: 2
-      x: 773
-      y: 622
-      width: 947
-      height: 240
-    rotated: 0
-    paddingLeft: .0654699057
-    paddingRight: .0623020045
-    paddingTop: .129166663
-    paddingBottom: .0791666657
   - name: Fish_End
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1010
+      x: 681
+      y: 1230
       width: 772
       height: 310
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1010
+      x: 681
+      y: 1230
       width: 772
       height: 310
     rotated: 0
@@ -80,13 +63,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 699
+      y: 919
       width: 772
       height: 310
     inner:
       serializedVersion: 2
       x: 0
-      y: 699
+      y: 919
       width: 772
       height: 310
     rotated: 0
@@ -97,14 +80,14 @@ MonoBehaviour:
   - name: Shoes_End
     outer:
       serializedVersion: 2
-      x: 773
-      y: 245
+      x: 1454
+      y: 874
       width: 416
       height: 376
     inner:
       serializedVersion: 2
-      x: 773
-      y: 245
+      x: 1454
+      y: 874
       width: 416
       height: 376
     rotated: 0
@@ -112,35 +95,17 @@ MonoBehaviour:
     paddingRight: .0504807681
     paddingTop: .079787232
     paddingBottom: .101063833
-  - name: Shoes_Text
-    outer:
-      serializedVersion: 2
-      x: 773
-      y: 1104
-      width: 1058
-      height: 216
-    inner:
-      serializedVersion: 2
-      x: 773
-      y: 1104
-      width: 1058
-      height: 216
-    rotated: 0
-    paddingLeft: .0491493382
-    paddingRight: .0359168239
-    paddingTop: .157407403
-    paddingBottom: .143518522
   - name: Shoes_End_B
     outer:
       serializedVersion: 2
-      x: 1190
-      y: 245
+      x: 773
+      y: 853
       width: 416
       height: 376
     inner:
       serializedVersion: 2
-      x: 1190
-      y: 245
+      x: 773
+      y: 853
       width: 416
       height: 376
     rotated: 0
@@ -148,24 +113,6 @@ MonoBehaviour:
     paddingRight: .0504807681
     paddingTop: .079787232
     paddingBottom: .101063833
-  - name: Swing_Text
-    outer:
-      serializedVersion: 2
-      x: 773
-      y: 863
-      width: 950
-      height: 240
-    inner:
-      serializedVersion: 2
-      x: 773
-      y: 863
-      width: 950
-      height: 240
-    rotated: 0
-    paddingLeft: .0694736838
-    paddingRight: .115789473
-    paddingTop: .154166669
-    paddingBottom: .0416666679
   - name: Swing_End
     outer:
       serializedVersion: 2
@@ -205,14 +152,14 @@ MonoBehaviour:
   - name: Whiskers_End_B
     outer:
       serializedVersion: 2
-      x: 1362
-      y: 1650
+      x: 1454
+      y: 1251
       width: 431
       height: 398
     inner:
       serializedVersion: 2
-      x: 1362
-      y: 1650
+      x: 1454
+      y: 1251
       width: 431
       height: 398
     rotated: 0
@@ -223,14 +170,14 @@ MonoBehaviour:
   - name: Whiskers_End
     outer:
       serializedVersion: 2
-      x: 0
-      y: 300
+      x: 1362
+      y: 1650
       width: 431
       height: 398
     inner:
       serializedVersion: 2
-      x: 0
-      y: 300
+      x: 1362
+      y: 1650
       width: 431
       height: 398
     rotated: 0
@@ -238,24 +185,6 @@ MonoBehaviour:
     paddingRight: .0974477977
     paddingTop: .0452261306
     paddingBottom: .100502513
-  - name: Whiskers_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1321
-      width: 1214
-      height: 215
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1321
-      width: 1214
-      height: 215
-    rotated: 0
-    paddingLeft: .0263591427
-    paddingRight: .022240527
-    paddingTop: .227906972
-    paddingBottom: .153488368
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
