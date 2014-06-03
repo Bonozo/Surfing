@@ -139,7 +139,7 @@ public class LevelController : MonoBehaviour {
 	{
 		yield return new WaitForEndOfFrame ();
 
-		AudioSource.PlayClipAtPoint(MobiAssets.Instance.clipBoostPowerup,transform.position);
+		PlayerController.Instance.audio.PlayOneShot(MobiAssets.Instance.clipBoostPowerup);
 		labelFrontflip.transform.localScale = new Vector3 (0f, 0f, 1f);
 		labelFrontflip.text = "Front flip\n+1000 pt";
 		NGUITools.SetActive (labelFrontflip.gameObject, true);
@@ -156,7 +156,7 @@ public class LevelController : MonoBehaviour {
 	{
 		yield return new WaitForEndOfFrame ();
 		
-		AudioSource.PlayClipAtPoint(MobiAssets.Instance.clipBoostPowerup,transform.position);
+		PlayerController.Instance.audio.PlayOneShot(MobiAssets.Instance.clipBoostPowerup);
 		labelBackflip.transform.localScale = new Vector3 (0f, 0f, 1f);
 		labelBackflip.text = "Back flip\n+1000 pt";
 		NGUITools.SetActive (labelBackflip.gameObject, true);

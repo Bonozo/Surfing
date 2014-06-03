@@ -190,7 +190,7 @@ public class PlayerController : MonoBehaviour
 				yeti.boost = false;
 				boostingTime += (float)boost.currentBoosts;
 				boost.ClearBoosts();
-				AudioSource.PlayClipAtPoint(MobiAssets.Instance.clipBoostUsage,transform.position);
+				audio.PlayOneShot(MobiAssets.Instance.clipBoostUsage);
 			}
 
 			// if(tilt)
