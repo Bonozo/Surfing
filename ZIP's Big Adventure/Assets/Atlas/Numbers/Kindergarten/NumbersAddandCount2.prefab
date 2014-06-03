@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: NumbersAdd2
+  m_Name: NumbersAddandCount2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,14 +44,14 @@ MonoBehaviour:
   - name: Single shoe_Yellow
     outer:
       serializedVersion: 2
-      x: 226
-      y: 1167
+      x: 1205
+      y: 1377
       width: 110
       height: 63
     inner:
       serializedVersion: 2
-      x: 226
-      y: 1167
+      x: 1205
+      y: 1377
       width: 110
       height: 63
     rotated: 0
@@ -62,14 +62,14 @@ MonoBehaviour:
   - name: Single shoe_Pink
     outer:
       serializedVersion: 2
-      x: 115
-      y: 1167
+      x: 1637
+      y: 845
       width: 110
       height: 63
     inner:
       serializedVersion: 2
-      x: 115
-      y: 1167
+      x: 1637
+      y: 845
       width: 110
       height: 63
     rotated: 0
@@ -80,14 +80,14 @@ MonoBehaviour:
   - name: Shoes_End
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1231
+      x: 1610
+      y: 510
       width: 338
       height: 305
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1231
+      x: 1610
+      y: 510
       width: 338
       height: 305
     rotated: 0
@@ -98,14 +98,14 @@ MonoBehaviour:
   - name: Single shoe_Blue
     outer:
       serializedVersion: 2
-      x: 448
-      y: 1167
+      x: 1205
+      y: 1249
       width: 110
       height: 63
     inner:
       serializedVersion: 2
-      x: 448
-      y: 1167
+      x: 1205
+      y: 1249
       width: 110
       height: 63
     rotated: 0
@@ -116,14 +116,14 @@ MonoBehaviour:
   - name: Shoes_End_B
     outer:
       serializedVersion: 2
-      x: 339
-      y: 1231
+      x: 1637
+      y: 909
       width: 338
       height: 305
     inner:
       serializedVersion: 2
-      x: 339
-      y: 1231
+      x: 1637
+      y: 909
       width: 338
       height: 305
     rotated: 0
@@ -134,14 +134,14 @@ MonoBehaviour:
   - name: Single shoe_Green
     outer:
       serializedVersion: 2
-      x: 337
-      y: 1167
+      x: 1205
+      y: 1313
       width: 110
       height: 63
     inner:
       serializedVersion: 2
-      x: 337
-      y: 1167
+      x: 1205
+      y: 1313
       width: 110
       height: 63
     rotated: 0
@@ -152,14 +152,14 @@ MonoBehaviour:
   - name: Single swing
     outer:
       serializedVersion: 2
-      x: 1874
-      y: 851
+      x: 1058
+      y: 237
       width: 104
       height: 363
     inner:
       serializedVersion: 2
-      x: 1874
-      y: 851
+      x: 1058
+      y: 237
       width: 104
       height: 363
     rotated: 0
@@ -206,14 +206,14 @@ MonoBehaviour:
   - name: Tomatoes Sprite
     outer:
       serializedVersion: 2
-      x: 1322
-      y: 901
+      x: 641
+      y: 601
       width: 551
       height: 313
     inner:
       serializedVersion: 2
-      x: 1322
-      y: 901
+      x: 641
+      y: 601
       width: 551
       height: 313
     rotated: 0
@@ -224,14 +224,14 @@ MonoBehaviour:
   - name: SingleTomatoe
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1131
+      x: 1205
+      y: 1441
       width: 114
       height: 99
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1131
+      x: 1205
+      y: 1441
       width: 114
       height: 99
     rotated: 0
@@ -242,14 +242,14 @@ MonoBehaviour:
   - name: Plant Sprite
     outer:
       serializedVersion: 2
-      x: 681
-      y: 1196
+      x: 0
+      y: 570
       width: 640
       height: 344
     inner:
       serializedVersion: 2
-      x: 681
-      y: 1196
+      x: 0
+      y: 570
       width: 640
       height: 344
     rotated: 0
@@ -293,6 +293,114 @@ MonoBehaviour:
     paddingRight: .0390625
     paddingTop: .0815347731
     paddingBottom: .134292573
+  - name: Fish_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1226
+      width: 772
+      height: 310
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1226
+      width: 772
+      height: 310
+    rotated: 0
+    paddingLeft: .0427461155
+    paddingRight: .046632126
+    paddingTop: .20645161
+    paddingBottom: .138709679
+  - name: Fish_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 915
+      width: 772
+      height: 310
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 915
+      width: 772
+      height: 310
+    rotated: 0
+    paddingLeft: .0427461155
+    paddingRight: .046632126
+    paddingTop: .20645161
+    paddingBottom: .138709679
+  - name: Shoes7_End_B
+    outer:
+      serializedVersion: 2
+      x: 641
+      y: 224
+      width: 416
+      height: 376
+    inner:
+      serializedVersion: 2
+      x: 641
+      y: 224
+      width: 416
+      height: 376
+    rotated: 0
+    paddingLeft: .0865384638
+    paddingRight: .0504807681
+    paddingTop: .079787232
+    paddingBottom: .101063833
+  - name: Shoes7_End
+    outer:
+      serializedVersion: 2
+      x: 1193
+      y: 439
+      width: 416
+      height: 376
+    inner:
+      serializedVersion: 2
+      x: 1193
+      y: 439
+      width: 416
+      height: 376
+    rotated: 0
+    paddingLeft: .0865384638
+    paddingRight: .0504807681
+    paddingTop: .079787232
+    paddingBottom: .101063833
+  - name: Whiskers_End_B
+    outer:
+      serializedVersion: 2
+      x: 773
+      y: 1142
+      width: 431
+      height: 398
+    inner:
+      serializedVersion: 2
+      x: 773
+      y: 1142
+      width: 431
+      height: 398
+    rotated: 0
+    paddingLeft: .0742459372
+    paddingRight: .0974477977
+    paddingTop: .0452261306
+    paddingBottom: .100502513
+  - name: Whiskers_End
+    outer:
+      serializedVersion: 2
+      x: 1205
+      y: 816
+      width: 431
+      height: 398
+    inner:
+      serializedVersion: 2
+      x: 1205
+      y: 816
+      width: 431
+      height: 398
+    rotated: 0
+    paddingLeft: .0742459372
+    paddingRight: .0974477977
+    paddingTop: .0452261306
+    paddingBottom: .100502513
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
