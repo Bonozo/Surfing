@@ -44,14 +44,14 @@ MonoBehaviour:
   - name: pre-k
     outer:
       serializedVersion: 2
-      x: 1025
-      y: 1901
+      x: 0
+      y: 67
       width: 377
       height: 147
     inner:
       serializedVersion: 2
-      x: 1025
-      y: 1901
+      x: 0
+      y: 67
       width: 377
       height: 147
     rotated: 0
@@ -62,14 +62,14 @@ MonoBehaviour:
   - name: Kindergarten
     outer:
       serializedVersion: 2
-      x: 1025
-      y: 1753
+      x: 0
+      y: 363
       width: 377
       height: 147
     inner:
       serializedVersion: 2
-      x: 1025
-      y: 1753
+      x: 0
+      y: 363
       width: 377
       height: 147
     rotated: 0
@@ -80,14 +80,14 @@ MonoBehaviour:
   - name: First grade
     outer:
       serializedVersion: 2
-      x: 1025
-      y: 1605
+      x: 0
+      y: 215
       width: 377
       height: 147
     inner:
       serializedVersion: 2
-      x: 1025
-      y: 1605
+      x: 0
+      y: 215
       width: 377
       height: 147
     rotated: 0

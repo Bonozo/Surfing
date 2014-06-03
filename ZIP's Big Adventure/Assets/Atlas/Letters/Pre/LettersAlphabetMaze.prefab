@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -43,57 +44,57 @@ MonoBehaviour:
   - name: Kristy_Alphabet Maze(L to U)
     outer:
       serializedVersion: 2
-      x: 0
-      y: 774
+      x: 999
+      y: 784
       width: 956
-      height: 609
+      height: 610
     inner:
       serializedVersion: 2
-      x: 0
-      y: 774
+      x: 999
+      y: 784
       width: 956
-      height: 609
+      height: 610
     rotated: 0
     paddingLeft: .0303347278
     paddingRight: .0407949798
-    paddingTop: .0640394092
-    paddingBottom: .0640394092
+    paddingTop: .063934423
+    paddingBottom: .063934423
   - name: Honey_Alphabet Maze(P to Y)
     outer:
       serializedVersion: 2
-      x: 998
-      y: 1396
+      x: 999
+      y: 1395
       width: 987
-      height: 652
+      height: 653
     inner:
       serializedVersion: 2
-      x: 998
-      y: 1396
+      x: 999
+      y: 1395
       width: 987
-      height: 652
+      height: 653
     rotated: 0
     paddingLeft: .0374873355
     paddingRight: 0
-    paddingTop: .0644171759
-    paddingBottom: .0490797535
+    paddingTop: .0643185303
+    paddingBottom: .0490045957
   - name: Marty_Alphabet Maze(D to N)
     outer:
       serializedVersion: 2
-      x: 956
-      y: 867
+      x: 0
+      y: 865
       width: 990
-      height: 516
+      height: 517
     inner:
       serializedVersion: 2
-      x: 956
-      y: 867
+      x: 0
+      y: 865
       width: 990
-      height: 516
+      height: 517
     rotated: 0
     paddingLeft: .0242424235
     paddingRight: .0101010101
-    paddingTop: .0542635657
-    paddingBottom: .0542635657
+    paddingTop: .0541586056
+    paddingBottom: .0541586056
   - name: Lucky_Alphabet Maze(A to K)
     outer:
       serializedVersion: 2
