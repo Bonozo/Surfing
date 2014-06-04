@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -43,14 +44,14 @@ MonoBehaviour:
   - name: Star
     outer:
       serializedVersion: 2
-      x: 799
-      y: 1562
+      x: 0
+      y: 2025
       width: 25
       height: 23
     inner:
       serializedVersion: 2
-      x: 799
-      y: 1562
+      x: 0
+      y: 2025
       width: 25
       height: 23
     rotated: 0
@@ -61,14 +62,14 @@ MonoBehaviour:
   - name: whitecyrcle
     outer:
       serializedVersion: 2
-      x: 1508
-      y: 1922
+      x: 597
+      y: 1429
       width: 122
       height: 126
     inner:
       serializedVersion: 2
-      x: 1508
-      y: 1922
+      x: 597
+      y: 1429
       width: 122
       height: 126
     rotated: 0
@@ -79,13 +80,13 @@ MonoBehaviour:
   - name: Trace5_End
     outer:
       serializedVersion: 2
-      x: 0
+      x: 26
       y: 1556
       width: 798
       height: 492
     inner:
       serializedVersion: 2
-      x: 0
+      x: 26
       y: 1556
       width: 798
       height: 492
@@ -97,14 +98,14 @@ MonoBehaviour:
   - name: Trace5_Text 2
     outer:
       serializedVersion: 2
-      x: 656
-      y: 783
+      x: 670
+      y: 625
       width: 951
       height: 129
     inner:
       serializedVersion: 2
-      x: 656
-      y: 783
+      x: 670
+      y: 625
       width: 951
       height: 129
     rotated: 0
@@ -115,14 +116,14 @@ MonoBehaviour:
   - name: Trace5_Begin
     outer:
       serializedVersion: 2
-      x: 0
-      y: 533
+      x: 648
+      y: 203
       width: 643
       height: 269
     inner:
       serializedVersion: 2
-      x: 0
-      y: 533
+      x: 648
+      y: 203
       width: 643
       height: 269
     rotated: 0
@@ -133,14 +134,14 @@ MonoBehaviour:
   - name: Trace6_Begin
     outer:
       serializedVersion: 2
-      x: 656
-      y: 1041
+      x: 0
+      y: 473
       width: 669
       height: 281
     inner:
       serializedVersion: 2
-      x: 656
-      y: 1041
+      x: 0
+      y: 473
       width: 669
       height: 281
     rotated: 0
@@ -151,13 +152,13 @@ MonoBehaviour:
   - name: Trace6_End
     outer:
       serializedVersion: 2
-      x: 799
+      x: 825
       y: 1586
       width: 708
       height: 462
     inner:
       serializedVersion: 2
-      x: 799
+      x: 825
       y: 1586
       width: 708
       height: 462
@@ -169,14 +170,14 @@ MonoBehaviour:
   - name: Trace6_Text 2
     outer:
       serializedVersion: 2
-      x: 656
-      y: 1323
+      x: 0
+      y: 877
       width: 1285
       height: 232
     inner:
       serializedVersion: 2
-      x: 656
-      y: 1323
+      x: 0
+      y: 877
       width: 1285
       height: 232
     rotated: 0
@@ -188,13 +189,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 803
+      y: 196
       width: 647
       height: 276
     inner:
       serializedVersion: 2
       x: 0
-      y: 803
+      y: 196
       width: 647
       height: 276
     rotated: 0
@@ -205,14 +206,14 @@ MonoBehaviour:
   - name: Trace9_End
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1080
+      x: 825
+      y: 1110
       width: 655
       height: 475
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1080
+      x: 825
+      y: 1110
       width: 655
       height: 475
     rotated: 0
@@ -223,14 +224,14 @@ MonoBehaviour:
   - name: Trace9_Text 2
     outer:
       serializedVersion: 2
-      x: 656
-      y: 913
+      x: 648
+      y: 75
       width: 1149
       height: 127
     inner:
       serializedVersion: 2
-      x: 656
-      y: 913
+      x: 648
+      y: 75
       width: 1149
       height: 127
     rotated: 0
@@ -241,14 +242,14 @@ MonoBehaviour:
   - name: Trace_Text 1
     outer:
       serializedVersion: 2
-      x: 656
-      y: 677
+      x: 670
+      y: 519
       width: 978
       height: 105
     inner:
       serializedVersion: 2
-      x: 656
-      y: 677
+      x: 670
+      y: 519
       width: 978
       height: 105
     rotated: 0
@@ -256,6 +257,60 @@ MonoBehaviour:
     paddingRight: .0204498973
     paddingTop: .333333343
     paddingBottom: .438095242
+  - name: Trace8_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1149
+      width: 596
+      height: 406
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1149
+      width: 596
+      height: 406
+    rotated: 0
+    paddingLeft: .048657719
+    paddingRight: .0536912754
+    paddingTop: .0541871935
+    paddingBottom: .068965517
+  - name: Trace8_Text 2
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 755
+      width: 1601
+      height: 121
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 755
+      width: 1601
+      height: 121
+    rotated: 0
+    paddingLeft: .0256089941
+    paddingRight: .01686446
+    paddingTop: .247933879
+    paddingBottom: .0909090936
+  - name: Trace8_Begin
+    outer:
+      serializedVersion: 2
+      x: 1481
+      y: 1276
+      width: 502
+      height: 309
+    inner:
+      serializedVersion: 2
+      x: 1481
+      y: 1276
+      width: 502
+      height: 309
+    rotated: 0
+    paddingLeft: .0517928302
+    paddingRight: .0557768941
+    paddingTop: .148867309
+    paddingBottom: .106796116
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
