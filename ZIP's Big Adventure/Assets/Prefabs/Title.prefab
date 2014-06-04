@@ -43,7 +43,7 @@ MonoBehaviour:
   mPivot: 1
   mDepth: 7
   mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
-  mText: How man
+  mText: Trace
   mMaxLineWidth: 0
   mMaxLineHeight: 0
   mEncoding: 1

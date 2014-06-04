@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -44,13 +45,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 698
+      y: 1324
       width: 1277
       height: 359
     inner:
       serializedVersion: 2
       x: 0
-      y: 698
+      y: 1324
       width: 1277
       height: 359
     rotated: 0
@@ -61,14 +62,14 @@ MonoBehaviour:
   - name: Small Circle_End
     outer:
       serializedVersion: 2
-      x: 1278
-      y: 869
+      x: 0
+      y: 105
       width: 331
       height: 188
     inner:
       serializedVersion: 2
-      x: 1278
-      y: 869
+      x: 0
+      y: 105
       width: 331
       height: 188
     rotated: 0
@@ -79,16 +80,16 @@ MonoBehaviour:
   - name: Small Oval_End
     outer:
       serializedVersion: 2
-      x: 339
-      y: 1924
+      x: 352
+      y: 220
       width: 941
-      height: 296
+      height: 124
     inner:
       serializedVersion: 2
-      x: 339
-      y: 1924
+      x: 352
+      y: 220
       width: 266
-      height: 123
+      height: -49
     rotated: 0
     paddingLeft: .0488841645
     paddingRight: .05844846
@@ -98,13 +99,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 424
+      y: 1050
       width: 1308
       height: 273
     inner:
       serializedVersion: 2
       x: 0
-      y: 424
+      y: 1050
       width: 1308
       height: 273
     rotated: 0
@@ -116,13 +117,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1058
+      y: 1684
       width: 1338
       height: 364
     inner:
       serializedVersion: 2
       x: 0
-      y: 1058
+      y: 1684
       width: 1338
       height: 364
     rotated: 0
@@ -134,13 +135,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 189
+      y: 815
       width: 1408
       height: 234
     inner:
       serializedVersion: 2
       x: 0
-      y: 189
+      y: 815
       width: 1408
       height: 234
     rotated: 0
@@ -151,14 +152,14 @@ MonoBehaviour:
   - name: Small Square_End
     outer:
       serializedVersion: 2
-      x: 1309
-      y: 682
+      x: 1294
+      y: 158
       width: 303
       height: 186
     inner:
       serializedVersion: 2
-      x: 1309
-      y: 682
+      x: 1294
+      y: 158
       width: 303
       height: 186
     rotated: 0
@@ -169,14 +170,14 @@ MonoBehaviour:
   - name: Small Rectangle_End
     outer:
       serializedVersion: 2
-      x: 1309
-      y: 532
+      x: 1747
+      y: 1899
       width: 294
       height: 149
     inner:
       serializedVersion: 2
-      x: 1309
-      y: 532
+      x: 1747
+      y: 1899
       width: 294
       height: 149
     rotated: 0
@@ -184,6 +185,168 @@ MonoBehaviour:
     paddingRight: .224489793
     paddingTop: .308724821
     paddingBottom: .503355682
+  - name: Star
+    outer:
+      serializedVersion: 2
+      x: 1278
+      y: 1660
+      width: 25
+      height: 23
+    inner:
+      serializedVersion: 2
+      x: 1278
+      y: 1660
+      width: 25
+      height: 23
+    rotated: 0
+    paddingLeft: 8.88000011
+    paddingRight: 31.0799999
+    paddingTop: 29.434782
+    paddingBottom: 2.95652175
+  - name: whitecyrcle
+    outer:
+      serializedVersion: 2
+      x: 1747
+      y: 1772
+      width: 122
+      height: 126
+    inner:
+      serializedVersion: 2
+      x: 1747
+      y: 1772
+      width: 122
+      height: 126
+    rotated: 0
+    paddingLeft: .0245901644
+    paddingRight: .0245901644
+    paddingTop: .00793650839
+    paddingBottom: .00793650839
+  - name: TraceSmile_Begin
+    outer:
+      serializedVersion: 2
+      x: 1309
+      y: 1216
+      width: 491
+      height: 467
+    inner:
+      serializedVersion: 2
+      x: 1309
+      y: 1216
+      width: 491
+      height: 467
+    rotated: 0
+    paddingLeft: .160896137
+    paddingRight: .142566189
+    paddingTop: .145610273
+    paddingBottom: .109207712
+  - name: Trace Rectangle_Begin
+    outer:
+      serializedVersion: 2
+      x: 1409
+      y: 695
+      width: 351
+      height: 520
+    inner:
+      serializedVersion: 2
+      x: 1409
+      y: 695
+      width: 351
+      height: 520
+    rotated: 0
+    paddingLeft: .133903131
+    paddingRight: .193732187
+    paddingTop: .0865384638
+    paddingBottom: .107692309
+  - name: Trace Square_Begin
+    outer:
+      serializedVersion: 2
+      x: 728
+      y: 435
+      width: 373
+      height: 379
+    inner:
+      serializedVersion: 2
+      x: 728
+      y: 435
+      width: 373
+      height: 379
+    rotated: 0
+    paddingLeft: .182305634
+    paddingRight: .163538873
+    paddingTop: .113456465
+    paddingBottom: .1530343
+  - name: Trace Triangle_Begin
+    outer:
+      serializedVersion: 2
+      x: 1102
+      y: 345
+      width: 399
+      height: 349
+    inner:
+      serializedVersion: 2
+      x: 1102
+      y: 345
+      width: 399
+      height: 349
+    rotated: 0
+    paddingLeft: .137844607
+    paddingRight: .135338351
+    paddingTop: .100286536
+    paddingBottom: .214899719
+  - name: Trace Rectangle_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 294
+      width: 351
+      height: 520
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 294
+      width: 351
+      height: 520
+    rotated: 0
+    paddingLeft: .176638171
+    paddingRight: .210826218
+    paddingTop: .138461545
+    paddingBottom: .125
+  - name: Trace Square_End
+    outer:
+      serializedVersion: 2
+      x: 352
+      y: 435
+      width: 375
+      height: 379
+    inner:
+      serializedVersion: 2
+      x: 352
+      y: 435
+      width: 375
+      height: 379
+    rotated: 0
+    paddingLeft: .109333336
+    paddingRight: .141333327
+    paddingTop: .0976253301
+    paddingBottom: .137203172
+  - name: Trace Triangle_End
+    outer:
+      serializedVersion: 2
+      x: 1339
+      y: 1696
+      width: 407
+      height: 352
+    inner:
+      serializedVersion: 2
+      x: 1339
+      y: 1696
+      width: 407
+      height: 352
+    rotated: 0
+    paddingLeft: .0638820603
+    paddingRight: .0737100765
+    paddingTop: .133522734
+    paddingBottom: .14488636
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
