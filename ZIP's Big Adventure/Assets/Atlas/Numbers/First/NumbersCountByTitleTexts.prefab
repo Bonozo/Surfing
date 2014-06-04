@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -40,7 +41,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: fc66967c5b5cb08419f5d8a1e7a609dd, type: 2}
   sprites:
-  - name: Text2
+  - name: text5
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 302
+      width: 1154
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 302
+      width: 1154
+      height: 240
+    rotated: 0
+    paddingLeft: .0554592721
+    paddingRight: .0363951474
+    paddingTop: .174999997
+    paddingBottom: .100000001
+  - name: text4
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 61
+      width: 1154
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 61
+      width: 1154
+      height: 240
+    rotated: 0
+    paddingLeft: .0242634322
+    paddingRight: .0242634322
+    paddingTop: .100000001
+    paddingBottom: .0833333358
+  - name: text3
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 543
+      width: 1154
+      height: 240
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 543
+      width: 1154
+      height: 240
+    rotated: 0
+    paddingLeft: .0433275551
+    paddingRight: .0207972266
+    paddingTop: .108333334
+    paddingBottom: .075000003
+  - name: text2
     outer:
       serializedVersion: 2
       x: 0
@@ -58,60 +113,6 @@ MonoBehaviour:
     paddingRight: .0372616984
     paddingTop: .0916666687
     paddingBottom: .183333337
-  - name: text5
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 543
-      width: 1154
-      height: 240
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 543
-      width: 1154
-      height: 240
-    rotated: 0
-    paddingLeft: .0554592721
-    paddingRight: .0363951474
-    paddingTop: .174999997
-    paddingBottom: .100000001
-  - name: text4
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 302
-      width: 1154
-      height: 240
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 302
-      width: 1154
-      height: 240
-    rotated: 0
-    paddingLeft: .0242634322
-    paddingRight: .0242634322
-    paddingTop: .100000001
-    paddingBottom: .0833333358
-  - name: text3
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 61
-      width: 1154
-      height: 240
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 61
-      width: 1154
-      height: 240
-    rotated: 0
-    paddingLeft: .0433275551
-    paddingRight: .0207972266
-    paddingTop: .108333334
-    paddingBottom: .075000003
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
