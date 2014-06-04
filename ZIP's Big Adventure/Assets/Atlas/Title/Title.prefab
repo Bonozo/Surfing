@@ -41,71 +41,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   material: {fileID: 2100000, guid: af6441f1d27207042baef0688bbb7e31, type: 2}
   sprites:
-  - name: pre-k
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 67
-      width: 377
-      height: 147
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 67
-      width: 377
-      height: 147
-    rotated: 0
-    paddingLeft: .0848806351
-    paddingRight: .0291777197
-    paddingTop: .122448981
-    paddingBottom: .163265303
-  - name: Kindergarten
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 363
-      width: 377
-      height: 147
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 363
-      width: 377
-      height: 147
-    rotated: 0
-    paddingLeft: .0424403176
-    paddingRight: .0397877991
-    paddingTop: .136054426
-    paddingBottom: .197278917
-  - name: First grade
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 215
-      width: 377
-      height: 147
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 215
-      width: 377
-      height: 147
-    rotated: 0
-    paddingLeft: .0450928397
-    paddingRight: .068965517
-    paddingTop: .136054426
-    paddingBottom: .15646258
   - name: Cover Page_a
     outer:
       serializedVersion: 2
       x: 0
-      y: 1280
+      y: 256
       width: 1024
       height: 768
     inner:
       serializedVersion: 2
       x: 0
-      y: 1280
+      y: 256
       width: 1024
       height: 768
     rotated: 0
@@ -116,14 +62,14 @@ MonoBehaviour:
   - name: Cover Page_b
     outer:
       serializedVersion: 2
-      x: 0
-      y: 511
+      x: 1024
+      y: 256
       width: 1024
       height: 768
     inner:
       serializedVersion: 2
-      x: 0
-      y: 511
+      x: 1024
+      y: 256
       width: 1024
       height: 768
     rotated: 0
