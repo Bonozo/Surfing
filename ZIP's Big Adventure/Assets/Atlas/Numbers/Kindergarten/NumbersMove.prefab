@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -43,14 +44,14 @@ MonoBehaviour:
   - name: Flower Sprite
     outer:
       serializedVersion: 2
-      x: 342
-      y: 205
+      x: 416
+      y: 417
       width: 230
       height: 357
     inner:
       serializedVersion: 2
-      x: 342
-      y: 205
+      x: 416
+      y: 417
       width: 230
       height: 357
     rotated: 0
@@ -61,14 +62,14 @@ MonoBehaviour:
   - name: Single Butterfly
     outer:
       serializedVersion: 2
-      x: 1876
-      y: 1665
+      x: 624
+      y: 882
       width: 150
       height: 142
     inner:
       serializedVersion: 2
-      x: 1876
-      y: 1665
+      x: 624
+      y: 882
       width: 150
       height: 142
     rotated: 0
@@ -79,14 +80,14 @@ MonoBehaviour:
   - name: Single Carrot
     outer:
       serializedVersion: 2
-      x: 1823
-      y: 1400
+      x: 912
+      y: 952
       width: 98
       height: 72
     inner:
       serializedVersion: 2
-      x: 1823
-      y: 1400
+      x: 912
+      y: 952
       width: 98
       height: 72
     rotated: 0
@@ -98,13 +99,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 563
+      y: 430
       width: 416
       height: 344
     inner:
       serializedVersion: 2
       x: 0
-      y: 563
+      y: 430
       width: 416
       height: 344
     rotated: 0
@@ -115,14 +116,14 @@ MonoBehaviour:
   - name: Single Duck
     outer:
       serializedVersion: 2
-      x: 1823
-      y: 1473
+      x: 774
+      y: 906
       width: 138
       height: 118
     inner:
       serializedVersion: 2
-      x: 1823
-      y: 1473
+      x: 774
+      y: 906
       width: 138
       height: 118
     rotated: 0
@@ -134,13 +135,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 908
+      y: 774
       width: 624
       height: 250
     inner:
       serializedVersion: 2
       x: 0
-      y: 908
+      y: 774
       width: 624
       height: 250
     rotated: 0
@@ -151,14 +152,14 @@ MonoBehaviour:
   - name: Single Fish
     outer:
       serializedVersion: 2
-      x: 1876
-      y: 1596
+      x: 624
+      y: 814
       width: 105
       height: 68
     inner:
       serializedVersion: 2
-      x: 1876
-      y: 1596
+      x: 624
+      y: 814
       width: 105
       height: 68
     rotated: 0
@@ -169,14 +170,14 @@ MonoBehaviour:
   - name: Cup Sprite
     outer:
       serializedVersion: 2
-      x: 417
-      y: 630
+      x: 646
+      y: 497
       width: 284
       height: 277
     inner:
       serializedVersion: 2
-      x: 417
-      y: 630
+      x: 646
+      y: 497
       width: 284
       height: 277
     rotated: 0
@@ -187,14 +188,14 @@ MonoBehaviour:
   - name: Single Ice cube
     outer:
       serializedVersion: 2
-      x: 1922
-      y: 1393
+      x: 774
+      y: 827
       width: 89
       height: 79
     inner:
       serializedVersion: 2
-      x: 1922
-      y: 1393
+      x: 774
+      y: 827
       width: 89
       height: 79
     rotated: 0
@@ -205,14 +206,14 @@ MonoBehaviour:
   - name: SingleTomatoe
     outer:
       serializedVersion: 2
-      x: 1962
-      y: 1518
+      x: 0
+      y: 1
       width: 85
       height: 73
     inner:
       serializedVersion: 2
-      x: 1962
-      y: 1518
+      x: 0
+      y: 1
       width: 85
       height: 73
     rotated: 0
@@ -223,14 +224,14 @@ MonoBehaviour:
   - name: Single Shoe
     outer:
       serializedVersion: 2
-      x: 625
-      y: 1095
+      x: 863
+      y: 843
       width: 110
       height: 63
     inner:
       serializedVersion: 2
-      x: 625
-      y: 1095
+      x: 863
+      y: 843
       width: 110
       height: 63
     rotated: 0
@@ -242,13 +243,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 206
+      y: 74
       width: 341
       height: 356
     inner:
       serializedVersion: 2
       x: 0
-      y: 206
+      y: 74
       width: 341
       height: 356
     rotated: 0
@@ -256,132 +257,6 @@ MonoBehaviour:
     paddingRight: .131964803
     paddingTop: .16853933
     paddingBottom: 0
-  - name: Ducks_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1592
-      width: 982
-      height: 215
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1592
-      width: 982
-      height: 215
-    rotated: 0
-    paddingLeft: .098778002
-    paddingRight: .0997963324
-    paddingTop: .204651162
-    paddingBottom: .227906972
-  - name: Fish_Text
-    outer:
-      serializedVersion: 2
-      x: 932
-      y: 1375
-      width: 890
-      height: 216
-    inner:
-      serializedVersion: 2
-      x: 932
-      y: 1375
-      width: 890
-      height: 216
-    rotated: 0
-    paddingLeft: .0943820253
-    paddingRight: .129213482
-    paddingTop: .157407403
-    paddingBottom: .175925925
-  - name: Butterflies_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1375
-      width: 931
-      height: 216
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1375
-      width: 931
-      height: 216
-    rotated: 0
-    paddingLeft: .0515574664
-    paddingRight: .0676691756
-    paddingTop: .16203703
-    paddingBottom: .171296299
-  - name: Ice cubes_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1808
-      width: 982
-      height: 240
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1808
-      width: 982
-      height: 240
-    rotated: 0
-    paddingLeft: .0519348271
-    paddingRight: .0407331958
-    paddingTop: .0958333313
-    paddingBottom: .0791666657
-  - name: Carrots_Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1159
-      width: 807
-      height: 215
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1159
-      width: 807
-      height: 215
-    rotated: 0
-    paddingLeft: .0693928152
-    paddingRight: .068153657
-    paddingTop: .209302321
-    paddingBottom: .16744186
-  - name: Move Shoes_Text
-    outer:
-      serializedVersion: 2
-      x: 983
-      y: 1832
-      width: 1003
-      height: 216
-    inner:
-      serializedVersion: 2
-      x: 983
-      y: 1832
-      width: 1003
-      height: 216
-    rotated: 0
-    paddingLeft: .0667996034
-    paddingRight: .0767696872
-    paddingTop: .148148149
-    paddingBottom: .138888896
-  - name: Tomatoes_Text
-    outer:
-      serializedVersion: 2
-      x: 983
-      y: 1592
-      width: 892
-      height: 215
-    inner:
-      serializedVersion: 2
-      x: 983
-      y: 1592
-      width: 892
-      height: 215
-    rotated: 0
-    paddingLeft: .139013454
-    paddingRight: .109865472
-    paddingTop: .158139542
-    paddingBottom: .19069767
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
