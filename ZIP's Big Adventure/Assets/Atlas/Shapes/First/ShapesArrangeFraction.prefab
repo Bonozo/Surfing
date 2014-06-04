@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: ShapesArrange
+  m_Name: ShapesArrangeFraction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -43,14 +44,14 @@ MonoBehaviour:
   - name: Circle_3
     outer:
       serializedVersion: 2
-      x: 0
-      y: 11
+      x: 744
+      y: 1082
       width: 308
       height: 299
     inner:
       serializedVersion: 2
-      x: 0
-      y: 11
+      x: 744
+      y: 1082
       width: 308
       height: 299
     rotated: 0
@@ -61,14 +62,14 @@ MonoBehaviour:
   - name: Circle_1
     outer:
       serializedVersion: 2
-      x: 407
-      y: 1418
+      x: 1318
+      y: 1529
       width: 138
       height: 138
     inner:
       serializedVersion: 2
-      x: 407
-      y: 1418
+      x: 1318
+      y: 1529
       width: 138
       height: 138
     rotated: 0
@@ -79,14 +80,14 @@ MonoBehaviour:
   - name: Red Lines
     outer:
       serializedVersion: 2
-      x: 546
-      y: 1452
+      x: 0
+      y: 424
       width: 1297
       height: 6
     inner:
       serializedVersion: 2
-      x: 546
-      y: 1452
+      x: 0
+      y: 424
       width: 1297
       height: 6
     rotated: 0
@@ -97,14 +98,14 @@ MonoBehaviour:
   - name: Circle_4
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1123
+      x: 748
+      y: 1689
       width: 385
       height: 359
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1123
+      x: 748
+      y: 1689
       width: 385
       height: 359
     rotated: 0
@@ -115,14 +116,14 @@ MonoBehaviour:
   - name: Circle_2
     outer:
       serializedVersion: 2
-      x: 1497
-      y: 1631
+      x: 1494
+      y: 1007
       width: 214
       height: 213
     inner:
       serializedVersion: 2
-      x: 1497
-      y: 1631
+      x: 1494
+      y: 1007
       width: 214
       height: 213
     rotated: 0
@@ -130,35 +131,17 @@ MonoBehaviour:
     paddingRight: .369158864
     paddingTop: .244131461
     paddingBottom: .262910783
-  - name: Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1845
-      width: 1239
-      height: 203
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1845
-      width: 1239
-      height: 203
-    rotated: 0
-    paddingLeft: .0338983051
-    paddingRight: .0250201784
-    paddingTop: .152709365
-    paddingBottom: .118226603
   - name: Oval_2
     outer:
       serializedVersion: 2
-      x: 1712
-      y: 1698
+      x: 1346
+      y: 860
       width: 212
       height: 146
     inner:
       serializedVersion: 2
-      x: 1712
-      y: 1698
+      x: 1346
+      y: 860
       width: 212
       height: 146
     rotated: 0
@@ -169,14 +152,14 @@ MonoBehaviour:
   - name: Oval_4
     outer:
       serializedVersion: 2
-      x: 0
-      y: 844
+      x: 1464
+      y: 1482
       width: 406
       height: 278
     inner:
       serializedVersion: 2
-      x: 0
-      y: 844
+      x: 1464
+      y: 1482
       width: 406
       height: 278
     rotated: 0
@@ -187,14 +170,14 @@ MonoBehaviour:
   - name: Oval_1
     outer:
       serializedVersion: 2
-      x: 691
-      y: 1466
+      x: 1704
+      y: 735
       width: 145
       height: 90
     inner:
       serializedVersion: 2
-      x: 691
-      y: 1466
+      x: 1704
+      y: 735
       width: 145
       height: 90
     rotated: 0
@@ -205,14 +188,14 @@ MonoBehaviour:
   - name: Oval_3
     outer:
       serializedVersion: 2
-      x: 1176
-      y: 1624
+      x: 0
+      y: 849
       width: 320
       height: 220
     inner:
       serializedVersion: 2
-      x: 1176
-      y: 1624
+      x: 0
+      y: 849
       width: 320
       height: 220
     rotated: 0
@@ -223,14 +206,14 @@ MonoBehaviour:
   - name: Rectangle_1
     outer:
       serializedVersion: 2
-      x: 837
-      y: 1470
+      x: 1850
+      y: 739
       width: 141
       height: 86
     inner:
       serializedVersion: 2
-      x: 837
-      y: 1470
+      x: 1850
+      y: 739
       width: 141
       height: 86
     rotated: 0
@@ -241,14 +224,14 @@ MonoBehaviour:
   - name: Rectangle_2
     outer:
       serializedVersion: 2
-      x: 1712
-      y: 1569
+      x: 1006
+      y: 857
       width: 216
       height: 128
     inner:
       serializedVersion: 2
-      x: 1712
-      y: 1569
+      x: 1006
+      y: 857
       width: 216
       height: 128
     rotated: 0
@@ -259,14 +242,14 @@ MonoBehaviour:
   - name: Rectangle_3
     outer:
       serializedVersion: 2
-      x: 1240
-      y: 1861
+      x: 0
+      y: 661
       width: 316
       height: 187
     inner:
       serializedVersion: 2
-      x: 1240
-      y: 1861
+      x: 0
+      y: 661
       width: 316
       height: 187
     rotated: 0
@@ -277,14 +260,14 @@ MonoBehaviour:
   - name: Rectangle_4
     outer:
       serializedVersion: 2
-      x: 0
-      y: 311
+      x: 1097
+      y: 1247
       width: 396
       height: 234
     inner:
       serializedVersion: 2
-      x: 0
-      y: 311
+      x: 1097
+      y: 1247
       width: 396
       height: 234
     rotated: 0
@@ -295,14 +278,14 @@ MonoBehaviour:
   - name: Square_3
     outer:
       serializedVersion: 2
-      x: 0
-      y: 546
+      x: 407
+      y: 1370
       width: 336
       height: 297
     inner:
       serializedVersion: 2
-      x: 0
-      y: 546
+      x: 407
+      y: 1370
       width: 336
       height: 297
     rotated: 0
@@ -314,13 +297,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1483
+      y: 1306
       width: 406
       height: 361
     inner:
       serializedVersion: 2
       x: 0
-      y: 1483
+      y: 1306
       width: 406
       height: 361
     rotated: 0
@@ -331,14 +314,14 @@ MonoBehaviour:
   - name: Square_2
     outer:
       serializedVersion: 2
-      x: 1557
-      y: 1853
+      x: 1709
+      y: 826
       width: 217
       height: 195
     inner:
       serializedVersion: 2
-      x: 1557
-      y: 1853
+      x: 1709
+      y: 826
       width: 217
       height: 195
     rotated: 0
@@ -349,14 +332,14 @@ MonoBehaviour:
   - name: Square_1
     outer:
       serializedVersion: 2
-      x: 407
-      y: 1293
+      x: 1559
+      y: 882
       width: 138
       height: 124
     inner:
       serializedVersion: 2
-      x: 407
-      y: 1293
+      x: 1559
+      y: 882
       width: 138
       height: 124
     rotated: 0
@@ -367,14 +350,14 @@ MonoBehaviour:
   - name: Triangle_4
     outer:
       serializedVersion: 2
-      x: 407
-      y: 1557
+      x: 1464
+      y: 1761
       width: 422
       height: 287
     inner:
       serializedVersion: 2
-      x: 407
-      y: 1557
+      x: 1464
+      y: 1761
       width: 422
       height: 287
     rotated: 0
@@ -385,14 +368,14 @@ MonoBehaviour:
   - name: Triangle_1
     outer:
       serializedVersion: 2
-      x: 546
-      y: 1459
+      x: 1559
+      y: 784
       width: 144
       height: 97
     inner:
       serializedVersion: 2
-      x: 546
-      y: 1459
+      x: 1559
+      y: 784
       width: 144
       height: 97
     rotated: 0
@@ -403,14 +386,14 @@ MonoBehaviour:
   - name: Triangle_3
     outer:
       serializedVersion: 2
-      x: 1775
-      y: 1903
+      x: 1097
+      y: 1522
       width: 220
       height: 145
     inner:
       serializedVersion: 2
-      x: 1775
-      y: 1903
+      x: 1097
+      y: 1522
       width: 220
       height: 145
     rotated: 0
@@ -421,14 +404,14 @@ MonoBehaviour:
   - name: Triangle_2
     outer:
       serializedVersion: 2
-      x: 830
-      y: 1609
+      x: 0
+      y: 1070
       width: 345
       height: 235
     inner:
       serializedVersion: 2
-      x: 830
-      y: 1609
+      x: 0
+      y: 1070
       width: 345
       height: 235
     rotated: 0
@@ -436,6 +419,294 @@ MonoBehaviour:
     paddingRight: .121739127
     paddingTop: .123404257
     paddingBottom: .255319148
+  - name: lucky
+    outer:
+      serializedVersion: 2
+      x: 365
+      y: 1668
+      width: 382
+      height: 380
+    inner:
+      serializedVersion: 2
+      x: 365
+      y: 1668
+      width: 382
+      height: 380
+    rotated: 0
+    paddingLeft: .0785340294
+    paddingRight: .125654444
+    paddingTop: .0631578937
+    paddingBottom: .0973684192
+  - name: One fourth Eaten
+    outer:
+      serializedVersion: 2
+      x: 407
+      y: 1075
+      width: 305
+      height: 294
+    inner:
+      serializedVersion: 2
+      x: 407
+      y: 1075
+      width: 305
+      height: 294
+    rotated: 0
+    paddingLeft: .101639345
+    paddingRight: .0983606577
+    paddingTop: .105442174
+    paddingBottom: .125850335
+  - name: One third Eaten
+    outer:
+      serializedVersion: 2
+      x: 346
+      y: 851
+      width: 324
+      height: 223
+    inner:
+      serializedVersion: 2
+      x: 346
+      y: 851
+      width: 324
+      height: 223
+    rotated: 0
+    paddingLeft: .0648148134
+    paddingRight: .0339506157
+    paddingTop: .11210762
+    paddingBottom: .219730943
+  - name: Half Eaten
+    outer:
+      serializedVersion: 2
+      x: 321
+      y: 655
+      width: 322
+      height: 195
+    inner:
+      serializedVersion: 2
+      x: 321
+      y: 655
+      width: 322
+      height: 195
+    rotated: 0
+    paddingLeft: .0838509351
+    paddingRight: .0186335407
+    paddingTop: .14358975
+    paddingBottom: .128205135
+  - name: Circle_Lucky
+    outer:
+      serializedVersion: 2
+      x: 1134
+      y: 1668
+      width: 329
+      height: 380
+    inner:
+      serializedVersion: 2
+      x: 1134
+      y: 1668
+      width: 329
+      height: 380
+    rotated: 0
+    paddingLeft: .106382981
+    paddingRight: .0942249224
+    paddingTop: .0552631579
+    paddingBottom: .036842104
+  - name: Circle half colored
+    outer:
+      serializedVersion: 2
+      x: 1787
+      y: 1022
+      width: 236
+      height: 229
+    inner:
+      serializedVersion: 2
+      x: 1787
+      y: 1022
+      width: 236
+      height: 229
+    rotated: 0
+    paddingLeft: .224576265
+    paddingRight: .169491529
+    paddingTop: .18777293
+    paddingBottom: .131004363
+  - name: Circle one fourth colored
+    outer:
+      serializedVersion: 2
+      x: 1787
+      y: 1252
+      width: 236
+      height: 229
+    inner:
+      serializedVersion: 2
+      x: 1787
+      y: 1252
+      width: 236
+      height: 229
+    rotated: 0
+    paddingLeft: .139830515
+    paddingRight: .131355926
+    paddingTop: .174672484
+    paddingBottom: .144104809
+  - name: Circle One third colored
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 431
+      width: 236
+      height: 229
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 431
+      width: 236
+      height: 229
+    rotated: 0
+    paddingLeft: .144067794
+    paddingRight: .0762711838
+    paddingTop: .170305684
+    paddingBottom: .117903933
+  - name: Garden_Lucky
+    outer:
+      serializedVersion: 2
+      x: 748
+      y: 1382
+      width: 348
+      height: 306
+    inner:
+      serializedVersion: 2
+      x: 748
+      y: 1382
+      width: 348
+      height: 306
+    rotated: 0
+    paddingLeft: .0459770113
+    paddingRight: .0862068981
+    paddingTop: .130718961
+    paddingBottom: .14705883
+  - name: Half Planted
+    outer:
+      serializedVersion: 2
+      x: 713
+      y: 821
+      width: 292
+      height: 260
+    inner:
+      serializedVersion: 2
+      x: 713
+      y: 821
+      width: 292
+      height: 260
+    rotated: 0
+    paddingLeft: .157534242
+    paddingRight: .0924657509
+    paddingTop: .16538462
+    paddingBottom: .150000006
+  - name: Fully Planted
+    outer:
+      serializedVersion: 2
+      x: 1494
+      y: 1221
+      width: 292
+      height: 260
+    inner:
+      serializedVersion: 2
+      x: 1494
+      y: 1221
+      width: 292
+      height: 260
+    rotated: 0
+    paddingLeft: .1369863
+    paddingRight: .0719178095
+    paddingTop: .184615389
+    paddingBottom: .161538467
+  - name: one fourth Planted
+    outer:
+      serializedVersion: 2
+      x: 1053
+      y: 986
+      width: 292
+      height: 260
+    inner:
+      serializedVersion: 2
+      x: 1053
+      y: 986
+      width: 292
+      height: 260
+    rotated: 0
+    paddingLeft: .1369863
+    paddingRight: .0616438352
+    paddingTop: .169230774
+    paddingBottom: .142307699
+  - name: Vase_Lucky
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1668
+      width: 364
+      height: 380
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1668
+      width: 364
+      height: 380
+    rotated: 0
+    paddingLeft: .0934065953
+    paddingRight: .0714285746
+    paddingTop: .092105262
+    paddingBottom: .0842105299
+  - name: Vase One third full
+    outer:
+      serializedVersion: 2
+      x: 1346
+      y: 1007
+      width: 147
+      height: 239
+    inner:
+      serializedVersion: 2
+      x: 1346
+      y: 1007
+      width: 147
+      height: 239
+    rotated: 0
+    paddingLeft: .190476194
+    paddingRight: .224489793
+    paddingTop: .15481171
+    paddingBottom: .13389121
+  - name: Vase Half full
+    outer:
+      serializedVersion: 2
+      x: 1871
+      y: 1521
+      width: 147
+      height: 239
+    inner:
+      serializedVersion: 2
+      x: 1871
+      y: 1521
+      width: 147
+      height: 239
+    rotated: 0
+    paddingLeft: .163265303
+    paddingRight: .197278917
+    paddingTop: .196652725
+    paddingBottom: .142259419
+  - name: Vase One fourth full
+    outer:
+      serializedVersion: 2
+      x: 1887
+      y: 1809
+      width: 148
+      height: 239
+    inner:
+      serializedVersion: 2
+      x: 1887
+      y: 1809
+      width: 148
+      height: 239
+    rotated: 0
+    paddingLeft: .175675675
+    paddingRight: .168918923
+    paddingTop: .163179919
+    paddingBottom: .13389121
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
