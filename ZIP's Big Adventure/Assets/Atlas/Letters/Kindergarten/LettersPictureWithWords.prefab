@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -61,14 +62,14 @@ MonoBehaviour:
   - name: Big Dinosaur_B
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1081
+      x: 689
+      y: 1553
       width: 640
       height: 495
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1081
+      x: 689
+      y: 1553
       width: 640
       height: 495
     rotated: 0
@@ -79,14 +80,14 @@ MonoBehaviour:
   - name: It is big
     outer:
       serializedVersion: 2
-      x: 1628
-      y: 1363
+      x: 0
+      y: 238
       width: 404
       height: 105
     inner:
       serializedVersion: 2
-      x: 1628
-      y: 1363
+      x: 0
+      y: 238
       width: 404
       height: 105
     rotated: 0
@@ -97,14 +98,14 @@ MonoBehaviour:
   - name: It is big_Color
     outer:
       serializedVersion: 2
-      x: 1550
-      y: 1716
+      x: 1416
+      y: 323
       width: 364
       height: 128
     inner:
       serializedVersion: 2
-      x: 1550
-      y: 1716
+      x: 1416
+      y: 323
       width: 364
       height: 128
     rotated: 0
@@ -115,14 +116,14 @@ MonoBehaviour:
   - name: It is small
     outer:
       serializedVersion: 2
-      x: 1550
-      y: 1629
+      x: 1441
+      y: 473
       width: 494
       height: 86
     inner:
       serializedVersion: 2
-      x: 1550
-      y: 1629
+      x: 1441
+      y: 473
       width: 494
       height: 86
     rotated: 0
@@ -130,35 +131,17 @@ MonoBehaviour:
     paddingRight: .115384616
     paddingTop: .697674394
     paddingBottom: .813953459
-  - name: Question text
-    outer:
-      serializedVersion: 2
-      x: 689
-      y: 1845
-      width: 1168
-      height: 203
-    inner:
-      serializedVersion: 2
-      x: 689
-      y: 1845
-      width: 1168
-      height: 203
-    rotated: 0
-    paddingLeft: .0445205495
-    paddingRight: .0325342454
-    paddingTop: .192118227
-    paddingBottom: .152709365
   - name: Marty is happy
     outer:
       serializedVersion: 2
-      x: 1207
-      y: 1110
+      x: 0
+      y: 452
       width: 730
       height: 107
     inner:
       serializedVersion: 2
-      x: 1207
-      y: 1110
+      x: 0
+      y: 452
       width: 730
       height: 107
     rotated: 0
@@ -169,14 +152,14 @@ MonoBehaviour:
   - name: Marty happy_A
     outer:
       serializedVersion: 2
-      x: 0
-      y: 721
+      x: 1003
+      y: 1076
       width: 340
       height: 359
     inner:
       serializedVersion: 2
-      x: 0
-      y: 721
+      x: 1003
+      y: 1076
       width: 340
       height: 359
     rotated: 0
@@ -187,14 +170,14 @@ MonoBehaviour:
   - name: Marty is sad
     outer:
       serializedVersion: 2
-      x: 982
-      y: 1233
+      x: 1344
+      y: 1169
       width: 615
       height: 107
     inner:
       serializedVersion: 2
-      x: 982
-      y: 1233
+      x: 1344
+      y: 1169
       width: 615
       height: 107
     rotated: 0
@@ -205,14 +188,14 @@ MonoBehaviour:
   - name: Marty is happy_Color
     outer:
       serializedVersion: 2
-      x: 689
-      y: 1578
+      x: 961
+      y: 668
       width: 786
       height: 130
     inner:
       serializedVersion: 2
-      x: 689
-      y: 1578
+      x: 961
+      y: 668
       width: 786
       height: 130
     rotated: 0
@@ -224,13 +207,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 361
+      y: 966
       width: 340
       height: 359
     inner:
       serializedVersion: 2
       x: 0
-      y: 361
+      y: 966
       width: 340
       height: 359
     rotated: 0
@@ -242,13 +225,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 2
+      y: 607
       width: 340
       height: 358
     inner:
       serializedVersion: 2
       x: 0
-      y: 2
+      y: 607
       width: 340
       height: 358
     rotated: 0
@@ -259,14 +242,14 @@ MonoBehaviour:
   - name: Marty is sad_Color
     outer:
       serializedVersion: 2
-      x: 982
-      y: 1341
+      x: 1344
+      y: 1277
       width: 645
       height: 127
     inner:
       serializedVersion: 2
-      x: 982
-      y: 1341
+      x: 1344
+      y: 1277
       width: 645
       height: 127
     rotated: 0
@@ -277,14 +260,14 @@ MonoBehaviour:
   - name: Marty sad_B
     outer:
       serializedVersion: 2
-      x: 641
-      y: 1218
+      x: 341
+      y: 832
       width: 340
       height: 358
     inner:
       serializedVersion: 2
-      x: 641
-      y: 1218
+      x: 341
+      y: 832
       width: 340
       height: 358
     rotated: 0
@@ -295,14 +278,14 @@ MonoBehaviour:
   - name: Patty with empty bag_B
     outer:
       serializedVersion: 2
-      x: 641
-      y: 797
+      x: 682
+      y: 770
       width: 278
       height: 420
     inner:
       serializedVersion: 2
-      x: 641
-      y: 797
+      x: 682
+      y: 770
       width: 278
       height: 420
     rotated: 0
@@ -313,14 +296,14 @@ MonoBehaviour:
   - name: the bag is empty_Color
     outer:
       serializedVersion: 2
-      x: 689
-      y: 1709
+      x: 961
+      y: 940
       width: 860
       height: 135
     inner:
       serializedVersion: 2
-      x: 689
-      y: 1709
+      x: 961
+      y: 940
       width: 860
       height: 135
     rotated: 0
@@ -331,14 +314,14 @@ MonoBehaviour:
   - name: the bag is empty
     outer:
       serializedVersion: 2
-      x: 982
-      y: 1469
+      x: 1189
+      y: 560
       width: 847
       height: 107
     inner:
       serializedVersion: 2
-      x: 982
-      y: 1469
+      x: 1189
+      y: 560
       width: 847
       height: 107
     rotated: 0
@@ -349,14 +332,14 @@ MonoBehaviour:
   - name: the bag is full
     outer:
       serializedVersion: 2
-      x: 1207
-      y: 1002
+      x: 0
+      y: 344
       width: 709
       height: 107
     inner:
       serializedVersion: 2
-      x: 1207
-      y: 1002
+      x: 0
+      y: 344
       width: 709
       height: 107
     rotated: 0
@@ -367,14 +350,14 @@ MonoBehaviour:
   - name: Patty with empty bag_A
     outer:
       serializedVersion: 2
-      x: 920
-      y: 825
+      x: 1710
+      y: 1405
       width: 286
       height: 392
     inner:
       serializedVersion: 2
-      x: 920
-      y: 825
+      x: 1710
+      y: 1405
       width: 286
       height: 392
     rotated: 0
@@ -382,6 +365,186 @@ MonoBehaviour:
     paddingRight: .251748264
     paddingTop: .150510207
     paddingBottom: .0816326514
+  - name: Patty with full bag_B
+    outer:
+      serializedVersion: 2
+      x: 1330
+      y: 1436
+      width: 379
+      height: 361
+    inner:
+      serializedVersion: 2
+      x: 1330
+      y: 1436
+      width: 379
+      height: 361
+    rotated: 0
+    paddingLeft: .100263849
+    paddingRight: .176780999
+    paddingTop: .174515232
+    paddingBottom: .163434908
+  - name: Patty with full bag_A
+    outer:
+      serializedVersion: 2
+      x: 629
+      y: 1191
+      width: 373
+      height: 361
+    inner:
+      serializedVersion: 2
+      x: 629
+      y: 1191
+      width: 373
+      height: 361
+    rotated: 0
+    paddingLeft: .0938337818
+    paddingRight: .219839141
+    paddingTop: .141274244
+    paddingBottom: .155124649
+  - name: The bag is full_Color
+    outer:
+      serializedVersion: 2
+      x: 961
+      y: 799
+      width: 733
+      height: 140
+    inner:
+      serializedVersion: 2
+      x: 961
+      y: 799
+      width: 733
+      height: 140
+    rotated: 0
+    paddingLeft: .0832196474
+    paddingRight: .0641200542
+    paddingTop: .449999988
+    paddingBottom: .285714298
+  - name: The bag is empty
+    outer:
+      serializedVersion: 2
+      x: 341
+      y: 560
+      width: 847
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 341
+      y: 560
+      width: 847
+      height: 107
+    rotated: 0
+    paddingLeft: .0767414421
+    paddingRight: .0649350658
+    paddingTop: .598130822
+    paddingBottom: .364485979
+  - name: The bag is full
+    outer:
+      serializedVersion: 2
+      x: 731
+      y: 452
+      width: 709
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 731
+      y: 452
+      width: 709
+      height: 107
+    rotated: 0
+    paddingLeft: .0705218613
+    paddingRight: .0818053633
+    paddingTop: .392523378
+    paddingBottom: .261682242
+  - name: Two Fish_A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1326
+      width: 628
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1326
+      width: 628
+      height: 250
+    rotated: 0
+    paddingLeft: .0812101886
+    paddingRight: .11942675
+    paddingTop: .272000015
+    paddingBottom: .143999994
+  - name: Two Fish_B
+    outer:
+      serializedVersion: 2
+      x: 1330
+      y: 1798
+      width: 628
+      height: 250
+    inner:
+      serializedVersion: 2
+      x: 1330
+      y: 1798
+      width: 628
+      height: 250
+    rotated: 0
+    paddingLeft: .0621019118
+    paddingRight: .114649683
+    paddingTop: .128000006
+    paddingBottom: .131999999
+  - name: There are two_Color
+    outer:
+      serializedVersion: 2
+      x: 710
+      y: 344
+      width: 705
+      height: 107
+    inner:
+      serializedVersion: 2
+      x: 710
+      y: 344
+      width: 705
+      height: 107
+    rotated: 0
+    paddingLeft: .11914894
+    paddingRight: .0695035458
+    paddingTop: .560747683
+    paddingBottom: .626168251
+  - name: There are two
+    outer:
+      serializedVersion: 2
+      x: 1344
+      y: 1085
+      width: 699
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 1344
+      y: 1085
+      width: 699
+      height: 83
+    rotated: 0
+    paddingLeft: .0615164526
+    paddingRight: .0643776804
+    paddingTop: .710843384
+    paddingBottom: .67469877
+  - name: There is one
+    outer:
+      serializedVersion: 2
+      x: 341
+      y: 686
+      width: 608
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 341
+      y: 686
+      width: 608
+      height: 83
+    rotated: 0
+    paddingLeft: .090460524
+    paddingRight: .0707236826
+    paddingTop: .783132553
+    paddingBottom: .783132553
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}
