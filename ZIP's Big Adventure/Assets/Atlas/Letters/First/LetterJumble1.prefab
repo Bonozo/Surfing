@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -44,13 +45,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 28
+      y: 135
       width: 221
       height: 241
     inner:
       serializedVersion: 2
       x: 0
-      y: 28
+      y: 135
       width: 221
       height: 241
     rotated: 0
@@ -61,14 +62,14 @@ MonoBehaviour:
   - name: Patty with Cake
     outer:
       serializedVersion: 2
-      x: 0
-      y: 844
+      x: 1131
+      y: 1278
       width: 516
       height: 383
     inner:
       serializedVersion: 2
-      x: 0
-      y: 844
+      x: 1131
+      y: 1278
       width: 516
       height: 383
     rotated: 0
@@ -76,34 +77,16 @@ MonoBehaviour:
     paddingRight: 2.72480631
     paddingTop: 1.28459525
     paddingBottom: 1.72584856
-  - name: Jumble Text
-    outer:
-      serializedVersion: 2
-      x: 642
-      y: 1357
-      width: 1011
-      height: 214
-    inner:
-      serializedVersion: 2
-      x: 642
-      y: 1357
-      width: 1011
-      height: 214
-    rotated: 0
-    paddingLeft: .517309606
-    paddingRight: .508407533
-    paddingTop: .560747683
-    paddingBottom: 5.61682224
   - name: Kristy_B
     outer:
       serializedVersion: 2
-      x: 489
+      x: 1083
       y: 1662
       width: 593
       height: 386
     inner:
       serializedVersion: 2
-      x: 489
+      x: 1083
       y: 1662
       width: 593
       height: 386
@@ -115,13 +98,13 @@ MonoBehaviour:
   - name: Kristy_A
     outer:
       serializedVersion: 2
-      x: 1083
+      x: 489
       y: 1662
       width: 593
       height: 386
     inner:
       serializedVersion: 2
-      x: 1083
+      x: 489
       y: 1662
       width: 593
       height: 386
@@ -151,14 +134,14 @@ MonoBehaviour:
   - name: Princess Patty
     outer:
       serializedVersion: 2
-      x: 320
-      y: 139
+      x: 1766
+      y: 805
       width: 246
       height: 282
     inner:
       serializedVersion: 2
-      x: 320
-      y: 139
+      x: 1766
+      y: 805
       width: 246
       height: 282
     rotated: 0
@@ -169,14 +152,14 @@ MonoBehaviour:
   - name: Patty with Cookie plate
     outer:
       serializedVersion: 2
-      x: 642
-      y: 959
+      x: 0
+      y: 1174
       width: 418
       height: 397
     inner:
       serializedVersion: 2
-      x: 642
-      y: 959
+      x: 0
+      y: 1174
       width: 418
       height: 397
     rotated: 0
@@ -187,14 +170,14 @@ MonoBehaviour:
   - name: Cookie plate
     outer:
       serializedVersion: 2
-      x: 489
-      y: 1573
+      x: 1677
+      y: 1718
       width: 260
       height: 88
     inner:
       serializedVersion: 2
-      x: 489
-      y: 1573
+      x: 1677
+      y: 1718
       width: 260
       height: 88
     rotated: 0
@@ -205,14 +188,14 @@ MonoBehaviour:
   - name: Eaten cookie Cookie
     outer:
       serializedVersion: 2
-      x: 750
-      y: 1613
+      x: 845
+      y: 894
       width: 123
       height: 48
     inner:
       serializedVersion: 2
-      x: 750
-      y: 1613
+      x: 845
+      y: 894
       width: 123
       height: 48
     rotated: 0
@@ -223,14 +206,14 @@ MonoBehaviour:
   - name: Crayon_B
     outer:
       serializedVersion: 2
-      x: 1360
-      y: 611
+      x: 608
+      y: 377
       width: 523
       height: 193
     inner:
       serializedVersion: 2
-      x: 1360
-      y: 611
+      x: 608
+      y: 377
       width: 523
       height: 193
     rotated: 0
@@ -241,14 +224,14 @@ MonoBehaviour:
   - name: Crayon_A
     outer:
       serializedVersion: 2
-      x: 1360
-      y: 417
+      x: 1279
+      y: 493
       width: 523
       height: 193
     inner:
       serializedVersion: 2
-      x: 1360
-      y: 417
+      x: 1279
+      y: 493
       width: 523
       height: 193
     rotated: 0
@@ -259,14 +242,14 @@ MonoBehaviour:
   - name: Patty Drawing_A
     outer:
       serializedVersion: 2
-      x: 1504
-      y: 805
+      x: 845
+      y: 571
       width: 433
       height: 305
     inner:
       serializedVersion: 2
-      x: 1504
-      y: 805
+      x: 845
+      y: 571
       width: 433
       height: 305
     rotated: 0
@@ -277,14 +260,14 @@ MonoBehaviour:
   - name: Patty Drawing_B
     outer:
       serializedVersion: 2
-      x: 1061
-      y: 805
+      x: 402
+      y: 766
       width: 442
       height: 305
     inner:
       serializedVersion: 2
-      x: 1061
-      y: 805
+      x: 402
+      y: 766
       width: 442
       height: 305
     rotated: 0
@@ -295,14 +278,14 @@ MonoBehaviour:
   - name: Honey Bunny_B
     outer:
       serializedVersion: 2
-      x: 642
-      y: 183
+      x: 1414
+      y: 687
       width: 351
       height: 400
     inner:
       serializedVersion: 2
-      x: 642
-      y: 183
+      x: 1414
+      y: 687
       width: 351
       height: 400
     rotated: 0
@@ -313,14 +296,14 @@ MonoBehaviour:
   - name: Honey Bunny_A
     outer:
       serializedVersion: 2
-      x: 1677
-      y: 1648
+      x: 1061
+      y: 877
       width: 352
       height: 400
     inner:
       serializedVersion: 2
-      x: 1677
-      y: 1648
+      x: 1061
+      y: 877
       width: 352
       height: 400
     rotated: 0
@@ -331,14 +314,14 @@ MonoBehaviour:
   - name: Zip_B
     outer:
       serializedVersion: 2
-      x: 320
-      y: 422
+      x: 0
+      y: 377
       width: 308
       height: 421
     inner:
       serializedVersion: 2
-      x: 320
-      y: 422
+      x: 0
+      y: 377
       width: 308
       height: 421
     rotated: 0
@@ -349,14 +332,14 @@ MonoBehaviour:
   - name: Zip_A
     outer:
       serializedVersion: 2
-      x: 1061
-      y: 383
+      x: 309
+      y: 344
       width: 298
       height: 421
     inner:
       serializedVersion: 2
-      x: 1061
-      y: 383
+      x: 309
+      y: 344
       width: 298
       height: 421
     rotated: 0
@@ -367,14 +350,14 @@ MonoBehaviour:
   - name: Flower_B
     outer:
       serializedVersion: 2
-      x: 642
-      y: 584
+      x: 0
+      y: 799
       width: 401
       height: 374
     inner:
       serializedVersion: 2
-      x: 642
-      y: 584
+      x: 0
+      y: 799
       width: 401
       height: 374
     rotated: 0
@@ -385,14 +368,14 @@ MonoBehaviour:
   - name: Flower_A
     outer:
       serializedVersion: 2
-      x: 1703
-      y: 1115
+      x: 1677
+      y: 1807
       width: 177
       height: 241
     inner:
       serializedVersion: 2
-      x: 1703
-      y: 1115
+      x: 1677
+      y: 1807
       width: 177
       height: 241
     rotated: 0
@@ -403,14 +386,14 @@ MonoBehaviour:
   - name: Ball on grass_B
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1228
+      x: 489
+      y: 1318
       width: 641
       height: 343
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1228
+      x: 489
+      y: 1318
       width: 641
       height: 343
     rotated: 0
@@ -421,14 +404,14 @@ MonoBehaviour:
   - name: Ball on grass_A
     outer:
       serializedVersion: 2
-      x: 1061
-      y: 1111
+      x: 419
+      y: 1072
       width: 641
       height: 245
     inner:
       serializedVersion: 2
-      x: 1061
-      y: 1111
+      x: 419
+      y: 1072
       width: 641
       height: 245
     rotated: 0
@@ -439,14 +422,14 @@ MonoBehaviour:
   - name: Princess Patty with Red Balloon
     outer:
       serializedVersion: 2
-      x: 0
-      y: 270
+      x: 1648
+      y: 1088
       width: 319
       height: 573
     inner:
       serializedVersion: 2
-      x: 0
-      y: 270
+      x: 1648
+      y: 1088
       width: 319
       height: 573
     rotated: 0
@@ -457,14 +440,14 @@ MonoBehaviour:
   - name: Ladybug_B
     outer:
       serializedVersion: 2
-      x: 1654
-      y: 1414
+      x: 1803
+      y: 647
       width: 240
       height: 157
     inner:
       serializedVersion: 2
-      x: 1654
-      y: 1414
+      x: 1803
+      y: 647
       width: 240
       height: 157
     rotated: 0
@@ -475,14 +458,14 @@ MonoBehaviour:
   - name: Ladybug_A
     outer:
       serializedVersion: 2
-      x: 320
-      y: 10
+      x: 845
+      y: 943
       width: 185
       height: 128
     inner:
       serializedVersion: 2
-      x: 320
-      y: 10
+      x: 845
+      y: 943
       width: 185
       height: 128
     rotated: 0
