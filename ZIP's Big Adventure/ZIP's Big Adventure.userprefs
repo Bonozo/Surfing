@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NGUI\Scripts\UI\UICamera.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Menus\Loader.cs">
     <Files>
-      <File FileName="Assets\Scripts\Levels\Trace\Trace.cs" Line="14" Column="28" />
-      <File FileName="Assets\NGUI\Scripts\UI\UICamera.cs" Line="729" Column="1" />
+      <File FileName="Assets\Scripts\End Items\EndItemChangeText.cs" Line="41" Column="48" />
+      <File FileName="Assets\Scripts\Menus\Loader.cs" Line="32" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

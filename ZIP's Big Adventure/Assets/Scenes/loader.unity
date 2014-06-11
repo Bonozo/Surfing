@@ -83,6 +83,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 234360829}
   - 114: {fileID: 234360830}
+  - 114: {fileID: 234360831}
   m_Layer: 8
   m_Name: text
   m_TagString: Untagged
@@ -97,8 +98,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 234360828}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 45, z: 0}
-  m_LocalScale: {x: 100, y: 60, z: 1}
+  m_LocalPosition: {x: -242, y: 45, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 1}
   m_Children: []
   m_Father: {fileID: 1691617995}
   m_RootOrder: 1
@@ -114,10 +115,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
+  mPivot: 3
   mDepth: 3
-  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
-  mText: Loading...
+  mFont: {fileID: 11400000, guid: 58d2879dbc988ec45b1d2f6d760c9b8d, type: 2}
+  mText: LOADING
   mMaxLineWidth: 0
   mMaxLineHeight: 0
   mEncoding: 1
@@ -131,6 +132,18 @@ MonoBehaviour:
   mShrinkToFit: 0
   mLineWidth: 0
   mMultiline: 1
+--- !u!114 &234360831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 234360828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4de1d78e6d43e234abcf0c05c987f7bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: .100000001
 --- !u!1 &1064363457
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +168,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1064363457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 160, z: 0}
+  m_LocalPosition: {x: 0, y: 175, z: 0}
   m_LocalScale: {x: 100, y: 92, z: 1}
   m_Children: []
   m_Father: {fileID: 1691617995}
@@ -174,7 +187,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 11400000, guid: e8ea6f132f38ebb48a2f106ff85d395c, type: 2}
+  mAtlas: {fileID: 11400000, guid: 1fddbe2d470de6d40842ac6e4d90877a, type: 2}
   mSpriteName: Star
   mFillCenter: 1
   mType: 1
@@ -192,7 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c36e4f23f09899645a801e22fe8471b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 0, y: 0, z: -50}
+  speed: {x: 0, y: 0, z: -100}
   random: 0
   minRange: {x: 0, y: 0, z: 0}
   maxRange: {x: 0, y: 0, z: 0}
@@ -394,7 +407,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1651816731}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.06451607, y: -765.935486, z: 0}
+  m_LocalPosition: {x: -2.0869565, y: -765.913086, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1691617995}
@@ -451,11 +464,11 @@ MonoBehaviour:
     e00: 768
     e01: 0
     e02: 0
-    e03: 2.06451607
+    e03: 2.0869565
     e10: 0
     e11: 768
     e12: 0
-    e13: 765.935486
+    e13: 765.913086
     e20: 0
     e21: 0
     e22: 768
