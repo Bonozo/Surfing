@@ -170,6 +170,7 @@
      <Compile Include="Assets\Scripts\Audio\MusicLoop.cs" />
      <Compile Include="Assets\Scripts\Audio\VoiceTaskLevel.cs" />
      <Compile Include="Assets\Scripts\End Items\EndItem.cs" />
+     <Compile Include="Assets\Scripts\End Items\EndItemChangeText.cs" />
      <Compile Include="Assets\Scripts\End Items\EndItemChangeTexture.cs" />
      <Compile Include="Assets\Scripts\End Items\EndItemColor.cs" />
      <Compile Include="Assets\Scripts\End Items\EndItemGoRootIfCollider.cs" />
