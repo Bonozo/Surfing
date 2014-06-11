@@ -19,8 +19,6 @@ public class GameBlock : MonoBehaviour {
 	{
 		if(readyToPublish)
 		{
-			Resources.UnloadUnusedAssets();
-
 			// Load games into the memory
 			var path = GameController.gameType + "/" + GameController.gameLevel;
 			GameObject allgames = Instantiate(Resources.Load<GameObject>(path)) as GameObject;

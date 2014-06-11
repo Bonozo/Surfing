@@ -70,10 +70,8 @@ public class UISpriteAnimation : MonoBehaviour
 	{
 		// special for the app
 		// do not animate if gameobject contains sprite and it's color has 0 alpha
-		if (sprite != null && sprite.color.a == 0f){
-			Debug.Log("Interupt");
+		if (sprite != null && sprite.color.a == 0f)
 			return;
-		}
 
 		if (mActive && mSpriteNames.Count > 1 && Application.isPlaying && mFPS > 0f)
 		{

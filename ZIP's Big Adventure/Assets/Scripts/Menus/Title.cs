@@ -32,9 +32,4 @@ public class Title : MonoBehaviour {
 			title.SetActive(false);
 		}
 	}
-
-	void Start()
-	{
-		Resources.UnloadUnusedAssets();
-	}
 }
