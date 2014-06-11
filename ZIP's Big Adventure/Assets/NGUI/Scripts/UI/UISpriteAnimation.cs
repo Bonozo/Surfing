@@ -68,6 +68,13 @@ public class UISpriteAnimation : MonoBehaviour
 
 	void Update ()
 	{
+		// special for the app
+		// do not animate if gameobject contains sprite and it's color has 0 alpha
+		if (sprite != null && sprite.color.a == 0f){
+			Debug.Log("Interupt");
+			return;
+		}
+
 		if (mActive && mSpriteNames.Count > 1 && Application.isPlaying && mFPS > 0f)
 		{
 			mDelta += Time.deltaTime;
@@ -134,5 +141,14 @@ public class UISpriteAnimation : MonoBehaviour
 			if(pixelPerfect)
 				mSprite.MakePixelPerfect();
 		}
+	}
+
+	// Additional Functions
+
+	private UISprite sprite;
+	
+	void Awake()
+	{
+		sprite = GetComponent<UISprite> ();
 	}
 }
