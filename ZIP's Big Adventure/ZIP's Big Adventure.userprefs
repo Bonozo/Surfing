@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Menus\Loader.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Other\LoadingText.cs">
     <Files>
       <File FileName="Assets\Scripts\End Items\EndItemChangeText.cs" Line="41" Column="48" />
       <File FileName="Assets\Scripts\Menus\Loader.cs" Line="32" Column="9" />
+      <File FileName="Assets\Scripts\Other\LoadingText.cs" Line="14" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
