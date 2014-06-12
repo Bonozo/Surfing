@@ -5,8 +5,6 @@ using System.Collections.Generic;
 public class GameBlock : MonoBehaviour {
 
 	public bool readyToPublish = false;
-	public bool randomizedGames = true;
-	public bool allLevelsDetermined = false;
 	public ZIPLevel[] level;
 	public LevelPath path;
 	public bool showIntro = true;
@@ -55,52 +53,6 @@ public class GameBlock : MonoBehaviour {
 			// Start game
 			StartCoroutine(StartGame());
 			return;
-		}
-
-		// Set up Levels
-		if(randomizedGames)
-		{
-			List<ZIPLevel> levels = new List<ZIPLevel>();
-			GameObject gmb;
-
-			if(GameController.gameLevel == GameLevel.First || !allLevelsDetermined)
-			{
-				gmb = GameObject.Find("First");
-				foreach(Transform g in gmb.transform)
-					foreach(Transform gg in g)
-						levels.Add(gg.GetComponent<ZIPLevel>());
-			}
-
-			if(GameController.gameLevel == GameLevel.Kindergarten || !allLevelsDetermined)
-			{
-				gmb = GameObject.Find("Kindergarten");
-				foreach(Transform g in gmb.transform)
-					foreach(Transform gg in g)
-						levels.Add(gg.GetComponent<ZIPLevel>());
-			}
-
-			if(GameController.gameLevel == GameLevel.PreK || !allLevelsDetermined)
-			{
-				gmb = GameObject.Find("PreK");
-				foreach(Transform g in gmb.transform)
-					foreach(Transform gg in g)
-						levels.Add(gg.GetComponent<ZIPLevel>());
-			}
-
-			if(levels.Count < level.Length)
-			{
-				Debug.Log("There is no enought levels.");
-				return;
-			}
-
-			for (int i = 0; i < levels.Count; i++) {
-				var temp = levels[i];
-				int randomIndex = Random.Range(i, levels.Count);
-				levels[i] = levels[randomIndex];
-				levels[randomIndex] = temp;
-			}
-			for(int i=0;i<level.Length;i++)
-				level[i] = levels[i];
 		}
 
 		StartCoroutine(StartGame());
