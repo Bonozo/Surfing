@@ -12,6 +12,7 @@ public class Loader : MonoBehaviour {
 	IEnumerator Start () {
 		Time.timeScale = 1f;
 		System.GC.Collect();
+		yield return Resources.UnloadUnusedAssets ();
 
 		background.SetActive(true);
 		sliderLoadingStatus.gameObject.SetActive(true);
@@ -22,15 +23,18 @@ public class Loader : MonoBehaviour {
 			yield return null;
 		}
 
-		background.SetActive(false);
-		sliderLoadingStatus.gameObject.SetActive(false);
-		
 		// set-up default parameters
 		var save_destroyme = destroyme;
 		sceneName = "menu";
 		destroyme = false;
-		
-		if(save_destroyme) Destroy(this.gameObject);
+
+		yield return new WaitForEndOfFrame();
+		if(save_destroyme){
+			Destroy(this.gameObject);
+		} else{
+			background.SetActive(false);
+			sliderLoadingStatus.gameObject.SetActive(false);
+		}
 	}
 	
 	// Multithreaded Safe Singleton Pattern
