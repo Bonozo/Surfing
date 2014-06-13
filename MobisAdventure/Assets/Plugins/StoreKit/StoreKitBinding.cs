@@ -7,20 +7,45 @@ using System.Runtime.InteropServices;
 #if UNITY_IPHONE
 public class StoreKitBinding
 {
-    [DllImport("__Internal")]
-    private static extern bool _storeKitCanMakePayments();
- 
-    public static bool canMakePayments()
-    {
-        if( Application.platform == RuntimePlatform.IPhonePlayer )
+	[DllImport("__Internal")]
+	private static extern bool _storeKitCanMakePayments();
+
+	public static bool canMakePayments()
+	{
+		if( Application.platform == RuntimePlatform.IPhonePlayer )
 			return _storeKitCanMakePayments();
 		return false;
+	}
+	
+	
+	[DllImport("__Internal")]
+	private static extern void _storeKitSetApplicationUsername( string applicationUserName );
+
+	// iOS 7+ only. This is used to help the store detect irregular activity.
+	// The recommended implementation is to use a one-way hash of the user's account name to calculate the value for this property.
+    public static void setApplicationUsername( string applicationUserName )
+    {
+        if( Application.platform == RuntimePlatform.IPhonePlayer )
+			_storeKitSetApplicationUsername( applicationUserName );
+    }
+	
+	
+    [DllImport("__Internal")]
+    private static extern string _storeKitGetAppStoreReceiptUrl();
+
+	// iOS 7 only. Returns the location of the App Store receipt file. If called on an older iOS version it returns null.
+    public static string getAppStoreReceiptLocation()
+    {
+        if( Application.platform == RuntimePlatform.IPhonePlayer )
+			return _storeKitGetAppStoreReceiptUrl();
+
+		return null;
     }
 
 
-    [DllImport("__Internal")]
-    private static extern void _storeKitRequestProductData( string productIdentifier );
- 
+	[DllImport("__Internal")]
+	private static extern void _storeKitRequestProductData( string productIdentifier );
+
 	// Accepts an array of product identifiers. All of the products you have for sale should be requested in one call.
     public static void requestProductData( string[] productIdentifiers )
     {
@@ -38,8 +63,8 @@ public class StoreKitBinding
         if( Application.platform == RuntimePlatform.IPhonePlayer )
 			_storeKitPurchaseProduct( productIdentifier, quantity );
     }
-	
-	
+
+
     [DllImport("__Internal")]
     private static extern void _storeKitFinishPendingTransactions();
 
@@ -49,8 +74,8 @@ public class StoreKitBinding
         if( Application.platform == RuntimePlatform.IPhonePlayer )
 			_storeKitFinishPendingTransactions();
     }
-	
-	
+
+
     [DllImport("__Internal")]
     private static extern void _storeKitFinishPendingTransaction( string transactionIdentifier );
 
@@ -60,13 +85,47 @@ public class StoreKitBinding
         if( Application.platform == RuntimePlatform.IPhonePlayer )
 			_storeKitFinishPendingTransaction( transactionIdentifier );
     }
+	
+	
+    [DllImport("__Internal")]
+    private static extern void _storeKitPauseDownloads();
+
+	// Pauses any pending downloads
+    public static void pauseDownloads()
+    {
+        if( Application.platform == RuntimePlatform.IPhonePlayer )
+			_storeKitPauseDownloads();
+    }
+	
+	
+    [DllImport("__Internal")]
+    private static extern void _storeKitResumeDownloads();
+
+	// Resumes any pending paused downloads
+    public static void resumeDownloads()
+    {
+        if( Application.platform == RuntimePlatform.IPhonePlayer )
+			_storeKitResumeDownloads();
+    }
+	
+	
+    [DllImport("__Internal")]
+    private static extern void _storeKitCancelDownloads();
+
+	// Cancels any pending downloads
+    public static void cancelDownloads()
+    {
+        if( Application.platform == RuntimePlatform.IPhonePlayer )
+			_storeKitCancelDownloads();
+    }
 
 
     [DllImport("__Internal")]
     private static extern void _storeKitRestoreCompletedTransactions();
 
 	// Restores all previous transactions.  This is used when a user gets a new device and they need to restore their old purchases.
-	// DO NOT call this on every launch.  It will prompt the user for their password.
+	// DO NOT call this on every launch.  It will prompt the user for their password. Each transaction that is restored will have the normal
+	// purchaseSuccessfulEvent fire for when restoration is complete.
     public static void restoreCompletedTransactions()
     {
         if( Application.platform == RuntimePlatform.IPhonePlayer )
@@ -75,32 +134,8 @@ public class StoreKitBinding
 
 
     [DllImport("__Internal")]
-    private static extern void _storeKitValidateReceipt( string base64EncodedTransactionReceipt, bool isTest );
-
-	// Deprecated. Receipt validation should be done on a web server for it to be secure.
-	// Validates the given receipt for non-consumable products.  If you are using the sandbox server (not a live sale) set isTest to true.
-    public static void validateReceipt( string base64EncodedTransactionReceipt, bool isTest )
-    {
-        if( Application.platform == RuntimePlatform.IPhonePlayer )
-			_storeKitValidateReceipt( base64EncodedTransactionReceipt, isTest );
-    }
-
-
-	[DllImport("__Internal")]
-	private static extern void _storeKitValidateAutoRenewableReceipt( string base64EncodedTransactionReceipt, string secret, bool isTest );
-
-	// Deprecated. Receipt validation should be done on a web server for it to be secure.
-	// Validates a receipt from an auto-renewable product
-	public static void validateAutoRenewableReceipt( string base64EncodedTransactionReceipt, string secret, bool isTest )
-	{
-	    if( Application.platform == RuntimePlatform.IPhonePlayer )
-			_storeKitValidateAutoRenewableReceipt( base64EncodedTransactionReceipt, secret, isTest );
-	}
-
-	
-    [DllImport("__Internal")]
     private static extern string _storeKitGetAllSavedTransactions();
- 
+
 	// Returns a list of all the transactions that occured on this device.  They are stored in the Document directory.
     public static List<StoreKitTransaction> getAllSavedTransactions()
     {
@@ -110,9 +145,20 @@ public class StoreKitBinding
 			var json = _storeKitGetAllSavedTransactions();
 			return StoreKitTransaction.transactionsFromJson( json );
 		}
-		
+
 		return new List<StoreKitTransaction>();
     }
-	
+
+
+	[DllImport("__Internal")]
+	private static extern void _storeKitDisplayStoreWithProductId( string productId );
+
+	// iOS 6+ only! Displays the App Store with the given productId in app
+	public static void displayStoreWithProductId( string productId )
+	{
+		if( Application.platform == RuntimePlatform.IPhonePlayer )
+			_storeKitDisplayStoreWithProductId( productId );
+	}
+
 }
 #endif

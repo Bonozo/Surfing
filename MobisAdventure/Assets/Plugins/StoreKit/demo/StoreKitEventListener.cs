@@ -8,18 +8,16 @@ public class StoreKitEventListener : MonoBehaviour
 #if UNITY_IPHONE
 	void OnEnable()
 	{
-		// Listens to all the StoreKit events.  All event listeners MUST be removed before this object is disposed!
+		// Listens to all the StoreKit events. All event listeners MUST be removed before this object is disposed!
+		StoreKitManager.transactionUpdatedEvent += transactionUpdatedEvent;
 		StoreKitManager.productPurchaseAwaitingConfirmationEvent += productPurchaseAwaitingConfirmationEvent;
-		StoreKitManager.purchaseSuccessfulEvent += purchaseSuccessful;
-		StoreKitManager.purchaseCancelledEvent += purchaseCancelled;
-		StoreKitManager.purchaseFailedEvent += purchaseFailed;
-		StoreKitManager.receiptValidationFailedEvent += receiptValidationFailed;
-		StoreKitManager.receiptValidationRawResponseReceivedEvent += receiptValidationRawResponseReceived;
-		StoreKitManager.receiptValidationSuccessfulEvent += receiptValidationSuccessful;
+		StoreKitManager.purchaseSuccessfulEvent += purchaseSuccessfulEvent;
+		StoreKitManager.purchaseCancelledEvent += purchaseCancelledEvent;
+		StoreKitManager.purchaseFailedEvent += purchaseFailedEvent;
 		StoreKitManager.productListReceivedEvent += productListReceivedEvent;
-		StoreKitManager.productListRequestFailedEvent += productListRequestFailed;
-		StoreKitManager.restoreTransactionsFailedEvent += restoreTransactionsFailed;
-		StoreKitManager.restoreTransactionsFinishedEvent += restoreTransactionsFinished;
+		StoreKitManager.productListRequestFailedEvent += productListRequestFailedEvent;
+		StoreKitManager.restoreTransactionsFailedEvent += restoreTransactionsFailedEvent;
+		StoreKitManager.restoreTransactionsFinishedEvent += restoreTransactionsFinishedEvent;
 		StoreKitManager.paymentQueueUpdatedDownloadsEvent += paymentQueueUpdatedDownloadsEvent;
 	}
 	
@@ -27,20 +25,25 @@ public class StoreKitEventListener : MonoBehaviour
 	void OnDisable()
 	{
 		// Remove all the event handlers
+		StoreKitManager.transactionUpdatedEvent -= transactionUpdatedEvent;
 		StoreKitManager.productPurchaseAwaitingConfirmationEvent -= productPurchaseAwaitingConfirmationEvent;
-		StoreKitManager.purchaseSuccessfulEvent -= purchaseSuccessful;
-		StoreKitManager.purchaseCancelledEvent -= purchaseCancelled;
-		StoreKitManager.purchaseFailedEvent -= purchaseFailed;
-		StoreKitManager.receiptValidationFailedEvent -= receiptValidationFailed;
-		StoreKitManager.receiptValidationRawResponseReceivedEvent -= receiptValidationRawResponseReceived;
-		StoreKitManager.receiptValidationSuccessfulEvent -= receiptValidationSuccessful;
+		StoreKitManager.purchaseSuccessfulEvent -= purchaseSuccessfulEvent;
+		StoreKitManager.purchaseCancelledEvent -= purchaseCancelledEvent;
+		StoreKitManager.purchaseFailedEvent -= purchaseFailedEvent;
 		StoreKitManager.productListReceivedEvent -= productListReceivedEvent;
-		StoreKitManager.productListRequestFailedEvent -= productListRequestFailed;
-		StoreKitManager.restoreTransactionsFailedEvent -= restoreTransactionsFailed;
-		StoreKitManager.restoreTransactionsFinishedEvent -= restoreTransactionsFinished;
+		StoreKitManager.productListRequestFailedEvent -= productListRequestFailedEvent;
+		StoreKitManager.restoreTransactionsFailedEvent -= restoreTransactionsFailedEvent;
+		StoreKitManager.restoreTransactionsFinishedEvent -= restoreTransactionsFinishedEvent;
 		StoreKitManager.paymentQueueUpdatedDownloadsEvent -= paymentQueueUpdatedDownloadsEvent;
 	}
 	
+	
+	
+	void transactionUpdatedEvent( StoreKitTransaction transaction )
+	{
+		Debug.Log( "transactionUpdatedEvent: " + transaction );
+	}
+
 	
 	void productListReceivedEvent( List<StoreKitProduct> productList )
 	{
@@ -52,39 +55,21 @@ public class StoreKitEventListener : MonoBehaviour
 	}
 	
 	
-	void productListRequestFailed( string error )
+	void productListRequestFailedEvent( string error )
 	{
-		Debug.Log( "productListRequestFailed: " + error );
-	}
-	
-	
-	void receiptValidationSuccessful()
-	{
-		Debug.Log( "receipt validation successful" );
-	}
-	
-	
-	void receiptValidationFailed( string error )
-	{
-		Debug.Log( "receipt validation failed with error: " + error );
-	}
-	
-	
-	void receiptValidationRawResponseReceived( string response )
-	{
-		Debug.Log( "receipt validation raw response: " + response );
+		Debug.Log( "productListRequestFailedEvent: " + error );
 	}
 	
 
-	void purchaseFailed( string error )
+	void purchaseFailedEvent( string error )
 	{
-		Debug.Log( "purchase failed with error: " + error );
+		Debug.Log( "purchaseFailedEvent: " + error );
 	}
 	
 
-	void purchaseCancelled( string error )
+	void purchaseCancelledEvent( string error )
 	{
-		Debug.Log( "purchase cancelled with error: " + error );
+		Debug.Log( "purchaseCancelledEvent: " + error );
 	}
 	
 	
@@ -94,19 +79,19 @@ public class StoreKitEventListener : MonoBehaviour
 	}
 	
 	
-	void purchaseSuccessful( StoreKitTransaction transaction )
+	void purchaseSuccessfulEvent( StoreKitTransaction transaction )
 	{
-		Debug.Log( "purchased product: " + transaction );
+		Debug.Log( "purchaseSuccessfulEvent: " + transaction );
 	}
 	
 	
-	void restoreTransactionsFailed( string error )
+	void restoreTransactionsFailedEvent( string error )
 	{
-		Debug.Log( "restoreTransactionsFailed: " + error );
+		Debug.Log( "restoreTransactionsFailedEvent: " + error );
 	}
 	
 	
-	void restoreTransactionsFinished()
+	void restoreTransactionsFinishedEvent()
 	{
 		Debug.Log( "restoreTransactionsFinished" );
 	}

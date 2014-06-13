@@ -3,7 +3,7 @@ using System.Collections;
 
 public class StorePurchase : MonoBehaviour {
 
-	public static bool debug = true;
+	public static bool debug = false;
 
 	public int debugCoinsAdd = 0; // used in degug
 	public string iapMethod;

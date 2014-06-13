@@ -5,12 +5,21 @@ using Prime31;
 
 
 #if UNITY_IPHONE
+public enum StoreKitTransactionState
+{
+    Purchasing,    // Transaction is being added to the server queue.
+    Purchased,     // Transaction is in queue, user has been charged.  Client should complete the transaction.
+    Failed,        // Transaction was cancelled or failed before being added to the server queue.
+    Restored       // Transaction was restored from user's purchase history.  Client should complete the transaction.
+}
+
 public class StoreKitTransaction
 {
     public string productIdentifier;
 	public string transactionIdentifier;
     public string base64EncodedTransactionReceipt;
     public int quantity;
+	public StoreKitTransactionState transactionState;
 	
 	
 	
@@ -55,6 +64,9 @@ public class StoreKitTransaction
 		
 		if( dict.ContainsKey( "quantity" ) )
         	transaction.quantity = int.Parse( dict["quantity"].ToString() );
+		
+		if( dict.ContainsKey( "transactionState" ) )
+			transaction.transactionState = (StoreKitTransactionState)int.Parse( dict["transactionState"].ToString() );
 
         return transaction;
     }
@@ -62,7 +74,8 @@ public class StoreKitTransaction
 	
 	public override string ToString()
 	{
-		return string.Format( "<StoreKitTransaction> ID: {0}, quantity: {1}, transactionIdentifier: {2}", productIdentifier, quantity, transactionIdentifier );
+		return string.Format( "<StoreKitTransaction> ID: {0}, quantity: {1}, transactionIdentifier: {2}, transactionState: {3}",
+			productIdentifier, quantity, transactionIdentifier, transactionState );
 	}
 
 }

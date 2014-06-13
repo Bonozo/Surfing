@@ -24,7 +24,7 @@ public class GoogleIAB
 	{
 		if( Application.platform != RuntimePlatform.Android )
 			return;
-		
+
 		if( shouldEnable )
 			Debug.LogWarning( "YOU HAVE ENABLED HIGH DETAIL LOGS. DO NOT DISTRIBUTE THE GENERATED APK PUBLICLY. IT WILL DUMP SENSITIVE INFORMATION TO THE CONSOLE!" );
 		_plugin.Call( "enableLogging", shouldEnable );
@@ -70,7 +70,7 @@ public class GoogleIAB
 		return _plugin.Call<bool>( "areSubscriptionsSupported" );
 	}
 
-	
+
 	// Sends a request to get all completed purchases and product information as setup in the Play dashboard about the provided skus
 	public static void queryInventory( string[] skus )
 	{
@@ -78,6 +78,9 @@ public class GoogleIAB
 			return;
 
 		_plugin.Call( "queryInventory", new object[] { skus } );
+
+		//var method = AndroidJNI.GetMethodID( _plugin.GetRawClass(), "queryInventory", "([Ljava/lang/String;)V" );
+		//AndroidJNI.CallVoidMethod( _plugin.GetRawObject(), method, AndroidJNIHelper.CreateJNIArgArray( new object[] { skus } ) );
 	}
 
 
@@ -86,7 +89,7 @@ public class GoogleIAB
 	{
 		purchaseProduct( sku, string.Empty );
 	}
-	
+
 	public static void purchaseProduct( string sku, string developerPayload )
 	{
 		if( Application.platform != RuntimePlatform.Android )
@@ -104,8 +107,8 @@ public class GoogleIAB
 
 		_plugin.Call( "consumeProduct", sku );
 	}
-	
-	
+
+
 	// Sends out a request to consume all of the provided products
 	public static void consumeProducts( string[] skus )
 	{

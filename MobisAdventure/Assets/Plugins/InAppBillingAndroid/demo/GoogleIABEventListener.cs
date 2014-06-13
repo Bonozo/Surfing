@@ -52,7 +52,7 @@ public class GoogleIABEventListener : MonoBehaviour
 
 	void queryInventorySucceededEvent( List<GooglePurchase> purchases, List<GoogleSkuInfo> skus )
 	{
-		Debug.Log( "queryInventorySucceededEvent" );
+		Debug.Log( string.Format( "queryInventorySucceededEvent. total purchases: {0}, total skus: {1}", purchases.Count, skus.Count ) );
 		Prime31.Utils.logObject( purchases );
 		Prime31.Utils.logObject( skus );
 	}

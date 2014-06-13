@@ -45,13 +45,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1280
+      y: 256
       width: 1024
       height: 768
     inner:
       serializedVersion: 2
       x: 0
-      y: 1280
+      y: 256
       width: 1024
       height: 768
     rotated: 0
@@ -59,35 +59,17 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Patterns Intro
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 115
-      width: 945
-      height: 395
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 115
-      width: 945
-      height: 395
-    rotated: 0
-    paddingLeft: .0497354493
-    paddingRight: .0338624343
-    paddingTop: .0556962043
-    paddingBottom: .103797466
   - name: Patterns Background
     outer:
       serializedVersion: 2
-      x: 0
-      y: 511
+      x: 1024
+      y: 256
       width: 1024
       height: 768
     inner:
       serializedVersion: 2
-      x: 0
-      y: 511
+      x: 1024
+      y: 256
       width: 1024
       height: 768
     rotated: 0

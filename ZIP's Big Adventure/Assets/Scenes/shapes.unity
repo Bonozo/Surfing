@@ -811,7 +811,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 11400000, guid: 881ce7e23b102a141b12f151bbac334c, type: 2}
+  mAtlas: {fileID: 11400000, guid: 3a47abf9d66855149aa0c6bcd0f1171f, type: 2}
   mSpriteName: Shapes Intro
   mFillCenter: 1
   mType: 1
@@ -1981,7 +1981,7 @@ Prefab:
     - target: {fileID: 11400012, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
       propertyPath: mAtlas
       value: 
-      objectReference: {fileID: 11400000, guid: 881ce7e23b102a141b12f151bbac334c,
+      objectReference: {fileID: 11400000, guid: 3a47abf9d66855149aa0c6bcd0f1171f,
         type: 2}
     - target: {fileID: 11400012, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
       propertyPath: mType
@@ -2450,8 +2450,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   readyToPublish: 1
-  randomizedGames: 1
-  allLevelsDetermined: 1
   level:
   - {fileID: 0}
   - {fileID: 0}

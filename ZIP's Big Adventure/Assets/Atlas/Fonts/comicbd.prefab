@@ -61,7 +61,7 @@ MonoBehaviour:
   mSymbols: []
   mDynamicFont: {fileID: 12800000, guid: 811575af96374b8438fdcadd0585d116, type: 3}
   mDynamicFontSize: 100
-  mDynamicFontStyle: 1
+  mDynamicFontStyle: 0
   mDynamicFontOffset: 52.3671875
 --- !u!1001 &100100000
 Prefab:

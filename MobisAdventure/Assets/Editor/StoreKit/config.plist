@@ -11,7 +11,9 @@
 	<key>pListAdditions</key>
 	<array/>
 	<key>weakLinkFrameworks</key>
-	<array/>
+	<array>
+		<string>StoreKit</string>
+	</array>
 	<key>linkerFlags</key>
 	<array>
 		<string>-ObjC</string>

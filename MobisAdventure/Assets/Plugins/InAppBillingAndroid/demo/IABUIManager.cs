@@ -32,7 +32,7 @@ public class IABUIManager : MonoBehaviourGUI
 		}
 
 
-		if( GUILayout.Button( "Test Purchase with Test Product" ) )
+		if( GUILayout.Button( "Purchase Test Product" ) )
 		{
 			GoogleIAB.purchaseProduct( "android.test.purchased" );
 		}
@@ -68,12 +68,6 @@ public class IABUIManager : MonoBehaviourGUI
 		if( GUILayout.Button( "Consume Real Purchase" ) )
 		{
 			GoogleIAB.consumeProduct( "com.prime31.testproduct" );
-		}
-
-
-		if( GUILayout.Button( "Purchase Real Subscription") )
-		{
-			GoogleIAB.purchaseProduct( "com.prime31.testsubscription", "my subscription payload" );
 		}
 
 

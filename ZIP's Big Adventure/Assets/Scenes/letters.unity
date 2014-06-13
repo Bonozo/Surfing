@@ -601,7 +601,7 @@ MonoBehaviour:
   mColor: {r: 1, g: 1, b: 1, a: 1}
   mPivot: 4
   mDepth: 0
-  mAtlas: {fileID: 11400000, guid: 8eab278fbf96d8e48bedc946a8dc4911, type: 2}
+  mAtlas: {fileID: 11400000, guid: d122f9f0366779442892a8183c990b90, type: 2}
   mSpriteName: Letters Intro
   mFillCenter: 1
   mType: 0
@@ -1097,7 +1097,7 @@ Transform:
   m_GameObject: {fileID: 968029640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1034.23999, y: 775.679993, z: 1}
+  m_LocalScale: {x: 1032.9209, y: 775.679993, z: 1}
   m_Children: []
   m_Father: {fileID: 1607776916}
   m_RootOrder: 0
@@ -1680,7 +1680,7 @@ Prefab:
     - target: {fileID: 11400012, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
       propertyPath: mAtlas
       value: 
-      objectReference: {fileID: 11400000, guid: 8eab278fbf96d8e48bedc946a8dc4911,
+      objectReference: {fileID: 11400000, guid: d122f9f0366779442892a8183c990b90,
         type: 2}
     - target: {fileID: 11400012, guid: ec75ab6a03bf1f24099db9223e147697, type: 2}
       propertyPath: mSpriteName
@@ -2112,8 +2112,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   readyToPublish: 1
-  randomizedGames: 1
-  allLevelsDetermined: 1
   level:
   - {fileID: 0}
   - {fileID: 0}
@@ -2250,7 +2248,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.03225803, y: 1.03225803, z: 0}
+  m_LocalPosition: {x: -.979591846, y: .979591846, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1607776916}
@@ -2847,7 +2845,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1956016496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -513.032349, y: -382.967743, z: 0}
+  m_LocalPosition: {x: -512.326477, y: -383.020416, z: 0}
   m_LocalScale: {x: .999935985, y: .999935985, z: .999935985}
   m_Children:
   - {fileID: 1898425767}

@@ -186,7 +186,6 @@ public class Yeti : MonoBehaviour {
 		// Caught
 		if( PlayerController.Instance.life)
 		{
-			float dist = Distance;
 			MusicLoop.Instance.audio.volume = 0.05f + Mathf.Clamp (Distance * 0.05f, 0f, 0.5f);
 			monsterT.audio.volume = 2f * (0.55f - MusicLoop.Instance.audio.volume);
 		}
