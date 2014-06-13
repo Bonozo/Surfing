@@ -2389,7 +2389,7 @@ GameObject:
   - 4: {fileID: 400268}
   - 114: {fileID: 11400494}
   m_Layer: 8
-  m_Name: title
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2788,7 +2788,7 @@ GameObject:
   - 4: {fileID: 400312}
   - 114: {fileID: 11400580}
   m_Layer: 8
-  m_Name: title
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7231,7 +7231,7 @@ GameObject:
   - 4: {fileID: 400814}
   - 114: {fileID: 11401494}
   m_Layer: 8
-  m_Name: title
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9905,7 +9905,7 @@ Transform:
   m_LocalScale: {x: 386, y: 148, z: 1}
   m_Children: []
   m_Father: {fileID: 400998}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!4 &400032
 Transform:
   m_ObjectHideFlags: 1
@@ -11408,11 +11408,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100268}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 640, z: 0}
-  m_LocalScale: {x: 1243, y: 203, z: 1}
+  m_LocalPosition: {x: -614, y: 733, z: 0}
+  m_LocalScale: {x: 90, y: 90, z: 1}
   m_Children: []
-  m_Father: {fileID: 400878}
-  m_RootOrder: 2
+  m_Father: {fileID: 400998}
+  m_RootOrder: 3
 --- !u!4 &400270
 Transform:
   m_ObjectHideFlags: 1
@@ -11686,11 +11686,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100312}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 640, z: 0}
-  m_LocalScale: {x: 1243, y: 203, z: 1}
+  m_LocalPosition: {x: -614, y: 733, z: 0}
+  m_LocalScale: {x: 90, y: 90, z: 1}
   m_Children: []
-  m_Father: {fileID: 400998}
-  m_RootOrder: 2
+  m_Father: {fileID: 400634}
+  m_RootOrder: 3
 --- !u!4 &400314
 Transform:
   m_ObjectHideFlags: 1
@@ -12913,7 +12913,7 @@ Transform:
   m_LocalScale: {x: 427, y: 145, z: 1}
   m_Children: []
   m_Father: {fileID: 400634}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!4 &400504
 Transform:
   m_ObjectHideFlags: 1
@@ -13775,8 +13775,8 @@ Transform:
   m_Children:
   - {fileID: 400140}
   - {fileID: 400736}
-  - {fileID: 400814}
   - {fileID: 400502}
+  - {fileID: 400312}
   m_Father: {fileID: 400646}
   m_RootOrder: 0
 --- !u!4 &400636
@@ -14979,11 +14979,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 640, z: 0}
-  m_LocalScale: {x: 1243, y: 203, z: 1}
+  m_LocalPosition: {x: -614, y: 733, z: 0}
+  m_LocalScale: {x: 90, y: 90, z: 1}
   m_Children: []
-  m_Father: {fileID: 400634}
-  m_RootOrder: 2
+  m_Father: {fileID: 400878}
+  m_RootOrder: 3
 --- !u!4 &400816
 Transform:
   m_ObjectHideFlags: 1
@@ -15389,8 +15389,8 @@ Transform:
   m_Children:
   - {fileID: 401046}
   - {fileID: 400748}
-  - {fileID: 400268}
   - {fileID: 401044}
+  - {fileID: 400814}
   m_Father: {fileID: 400228}
   m_RootOrder: 0
 --- !u!4 &400880
@@ -16180,8 +16180,8 @@ Transform:
   m_Children:
   - {fileID: 400332}
   - {fileID: 400026}
-  - {fileID: 400312}
   - {fileID: 400030}
+  - {fileID: 400268}
   m_Father: {fileID: 400496}
   m_RootOrder: 0
 --- !u!4 &401000
@@ -16475,7 +16475,7 @@ Transform:
   m_LocalScale: {x: 344, y: 147, z: 1}
   m_Children: []
   m_Father: {fileID: 400878}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!4 &401046
 Transform:
   m_ObjectHideFlags: 1
@@ -26697,11 +26697,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 1.00392175
+    e03: .979591846
     e10: 0
     e11: 384
     e12: 0
-    e13: 0
+    e13: -.979591846
     e20: 0
     e21: 0
     e22: 384
@@ -27437,19 +27437,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 100268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01b27709461f4b74a9ad0cd94d37dac1, type: 2}
-  mSpriteName: Question Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 0
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: 'Drag either [029AFB]-s[-] or [029AFB]-es[-] into the box
+
+    to make the word plural'
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11400496
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -28257,19 +28267,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 100312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01b27709461f4b74a9ad0cd94d37dac1, type: 2}
-  mSpriteName: Question Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 0
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: 'Drag either [029AFB]-s[-] or [029AFB]-es[-] into the box
+
+    to make the word plural'
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11400582
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -34205,11 +34225,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: 0
+    e03: .979591846
     e10: 0
     e11: 384
     e12: 0
-    e13: -.936585367
+    e13: -.979591846
     e20: 0
     e21: 0
     e22: 384
@@ -36651,11 +36671,11 @@ MonoBehaviour:
     e00: 384
     e01: 0
     e02: 0
-    e03: .870748281
+    e03: .979591846
     e10: 0
     e11: 384
     e12: 0
-    e13: 0
+    e13: -.979591846
     e20: 0
     e21: 0
     e22: 384
@@ -37104,19 +37124,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 100814}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9d0b5f3bbe925a408bd595c79d0bf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mColor: {r: 1, g: 1, b: 1, a: 1}
-  mPivot: 4
-  mDepth: 3
-  mAtlas: {fileID: 11400000, guid: 01b27709461f4b74a9ad0cd94d37dac1, type: 2}
-  mSpriteName: Question Text
-  mFillCenter: 1
-  mType: 0
-  mFillDirection: 4
-  mFillAmount: 1
-  mInvert: 0
+  mColor: {r: .823529422, g: 0, b: .200000003, a: 1}
+  mPivot: 0
+  mDepth: 7
+  mFont: {fileID: 11400000, guid: ab5c5f9c09e1f4647ab018c26538da16, type: 2}
+  mText: 'Drag either [029AFB]-s[-] or [029AFB]-es[-] into the box
+
+    to make the word plural'
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mEncoding: 1
+  mMaxLineCount: 0
+  mPassword: 0
+  mShowLastChar: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mShrinkToFit: 0
+  mLineWidth: 0
+  mMultiline: 1
 --- !u!114 &11401496
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -42346,7 +42376,7 @@ MonoBehaviour:
   randomEnd: 1
   clipFinish: {fileID: 0}
   delayFinish: 0
-  randomFinish: 0
+  randomFinish: 1
 --- !u!114 &11402028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -42365,7 +42395,7 @@ MonoBehaviour:
   randomEnd: 1
   clipFinish: {fileID: 0}
   delayFinish: 0
-  randomFinish: 0
+  randomFinish: 1
 --- !u!114 &11402030
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -42384,7 +42414,7 @@ MonoBehaviour:
   randomEnd: 1
   clipFinish: {fileID: 0}
   delayFinish: 0
-  randomFinish: 0
+  randomFinish: 1
 --- !u!114 &11402032
 MonoBehaviour:
   m_ObjectHideFlags: 1

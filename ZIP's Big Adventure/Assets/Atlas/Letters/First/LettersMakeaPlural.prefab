@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -43,14 +44,14 @@ MonoBehaviour:
   - name: Gray Box
     outer:
       serializedVersion: 2
-      x: 1800
-      y: 1417
+      x: 1137
+      y: 235
       width: 223
       height: 197
     inner:
       serializedVersion: 2
-      x: 1800
-      y: 1417
+      x: 1137
+      y: 235
       width: 223
       height: 197
     rotated: 0
@@ -58,35 +59,17 @@ MonoBehaviour:
     paddingRight: .354260087
     paddingTop: .263959378
     paddingBottom: .31979695
-  - name: Question Text
-    outer:
-      serializedVersion: 2
-      x: 0
-      y: 1411
-      width: 1243
-      height: 203
-    inner:
-      serializedVersion: 2
-      x: 0
-      y: 1411
-      width: 1243
-      height: 203
-    rotated: 0
-    paddingLeft: .0490748174
-    paddingRight: .04022526
-    paddingTop: .216748774
-    paddingBottom: .187192112
   - name: '- es'
     outer:
       serializedVersion: 2
-      x: 404
-      y: 699
+      x: 0
+      y: 31
       width: 210
       height: 107
     inner:
       serializedVersion: 2
-      x: 404
-      y: 699
+      x: 0
+      y: 31
       width: 210
       height: 107
     rotated: 0
@@ -97,14 +80,14 @@ MonoBehaviour:
   - name: -s
     outer:
       serializedVersion: 2
-      x: 404
-      y: 592
+      x: 211
+      y: 32
       width: 133
       height: 106
     inner:
       serializedVersion: 2
-      x: 404
-      y: 592
+      x: 211
+      y: 32
       width: 133
       height: 106
     rotated: 0
@@ -115,14 +98,14 @@ MonoBehaviour:
   - name: Balls_B
     outer:
       serializedVersion: 2
-      x: 1580
-      y: 1764
+      x: 624
+      y: 458
       width: 403
       height: 284
     inner:
       serializedVersion: 2
-      x: 1580
-      y: 1764
+      x: 624
+      y: 458
       width: 403
       height: 284
     rotated: 0
@@ -133,14 +116,14 @@ MonoBehaviour:
   - name: Ball
     outer:
       serializedVersion: 2
-      x: 624
-      y: 1263
+      x: 1693
+      y: 877
       width: 344
       height: 147
     inner:
       serializedVersion: 2
-      x: 624
-      y: 1263
+      x: 1693
+      y: 877
       width: 344
       height: 147
     rotated: 0
@@ -151,14 +134,14 @@ MonoBehaviour:
   - name: Balls_A
     outer:
       serializedVersion: 2
-      x: 0
-      y: 576
+      x: 624
+      y: 227
       width: 403
       height: 230
     inner:
       serializedVersion: 2
-      x: 0
-      y: 576
+      x: 624
+      y: 227
       width: 403
       height: 230
     rotated: 0
@@ -169,14 +152,14 @@ MonoBehaviour:
   - name: Balls
     outer:
       serializedVersion: 2
-      x: 0
-      y: 282
+      x: 1137
+      y: 582
       width: 400
       height: 147
     inner:
       serializedVersion: 2
-      x: 0
-      y: 282
+      x: 1137
+      y: 582
       width: 400
       height: 147
     rotated: 0
@@ -187,14 +170,14 @@ MonoBehaviour:
   - name: Hearts
     outer:
       serializedVersion: 2
-      x: 0
-      y: 430
+      x: 624
+      y: 81
       width: 498
       height: 145
     inner:
       serializedVersion: 2
-      x: 0
-      y: 430
+      x: 624
+      y: 81
       width: 498
       height: 145
     rotated: 0
@@ -206,13 +189,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1091
+      y: 705
       width: 623
       height: 319
     inner:
       serializedVersion: 2
       x: 0
-      y: 1091
+      y: 705
       width: 623
       height: 319
     rotated: 0
@@ -224,13 +207,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 807
+      y: 421
       width: 551
       height: 283
     inner:
       serializedVersion: 2
       x: 0
-      y: 807
+      y: 421
       width: 551
       height: 283
     rotated: 0
@@ -241,14 +224,14 @@ MonoBehaviour:
   - name: Heart
     outer:
       serializedVersion: 2
-      x: 1580
-      y: 1618
+      x: 1137
+      y: 730
       width: 427
       height: 145
     inner:
       serializedVersion: 2
-      x: 1580
-      y: 1618
+      x: 1137
+      y: 730
       width: 427
       height: 145
     rotated: 0
@@ -259,50 +242,50 @@ MonoBehaviour:
   - name: Shooting stars_B
     outer:
       serializedVersion: 2
-      x: 0
-      y: 1615
-      width: 789
-      height: 433
+      x: 624
+      y: 743
+      width: 512
+      height: 281
     inner:
       serializedVersion: 2
-      x: 0
-      y: 1615
-      width: 789
-      height: 433
+      x: 624
+      y: 743
+      width: 512
+      height: 281
     rotated: 0
     paddingLeft: 0
     paddingRight: 0
-    paddingTop: .0969976932
-    paddingBottom: .0808314085
+    paddingTop: .0960854068
+    paddingBottom: .0818505362
   - name: Shooting stars_A
     outer:
       serializedVersion: 2
-      x: 790
-      y: 1615
-      width: 789
-      height: 433
+      x: 0
+      y: 139
+      width: 512
+      height: 281
     inner:
       serializedVersion: 2
-      x: 790
-      y: 1615
-      width: 789
-      height: 433
+      x: 0
+      y: 139
+      width: 512
+      height: 281
     rotated: 0
     paddingLeft: 0
     paddingRight: 0
     paddingTop: 0
-    paddingBottom: .0739030018
+    paddingBottom: .0747330934
   - name: Wishes
     outer:
       serializedVersion: 2
-      x: 1244
-      y: 1466
+      x: 1137
+      y: 876
       width: 555
       height: 148
     inner:
       serializedVersion: 2
-      x: 1244
-      y: 1466
+      x: 1137
+      y: 876
       width: 555
       height: 148
     rotated: 0
@@ -313,14 +296,14 @@ MonoBehaviour:
   - name: Wish
     outer:
       serializedVersion: 2
-      x: 0
-      y: 133
+      x: 1137
+      y: 433
       width: 386
       height: 148
     inner:
       serializedVersion: 2
-      x: 0
-      y: 133
+      x: 1137
+      y: 433
       width: 386
       height: 148
     rotated: 0
