@@ -70,7 +70,6 @@ public class PlayerController : MonoBehaviour
 	// messing up the code that had already messed up
 	private bool tilt = false;
 	private Boost boost;
-	private ButtonBoost buttonBoost;
 	private Yeti yeti;
 	
 	[System.NonSerialized][HideInInspector]
@@ -86,7 +85,6 @@ public class PlayerController : MonoBehaviour
 		tilt = PlayerPrefs.GetInt("options_control")==1;
 
 		boost = GameObject.FindObjectOfType<Boost> ();
-		buttonBoost = GameObject.FindObjectOfType<ButtonBoost> ();
 		yeti = GameObject.FindObjectOfType<Yeti> ();
 	}
 
@@ -463,8 +461,6 @@ public class PlayerController : MonoBehaviour
 		} else {
 			PlayerPrefs.SetFloat("MaxHeight", p_maxHeight);			
 		}
-		
-		int coinDif = Coin_Counter.m_ccounter.coin_balance - Coin_Counter.m_ccounter.start_balance;
 	} 
 	
 	//END SCREEN

@@ -1,26 +1,32 @@
 ﻿using UnityEngine;
 using System.Collections;
-using GooglePlayGames;
 using UnityEngine.SocialPlatforms;
+#if UNITY_IPHONE
+using UnityEngine.SocialPlatforms.GameCenter;
+#endif
+#if UNITY_ANDROID
+using GooglePlayGames;
+#endif
 
 public class GameServices : MonoBehaviour {
 
 	#if UNITY_ANDROID
+	private static bool playInitialized = false;
+	#endif
 
-	private static bool initialized = false;
-	
 	void Start()
 	{
-		if(!initialized)
+		#if UNITY_ANDROID
+		if(!playInitialized)
 		{
-			PlayGamesPlatform.DebugLogEnabled = true;
-		
 			// Activate the Google Play Games platform
+			//PlayGamesPlatform.DebugLogEnabled = true;
 			PlayGamesPlatform.Activate();
-
-			initialized = true;
+			playInitialized = true;
 		}
+		#endif
+		Social.localUser.Authenticate(success => {
+			Debug.Log("Game Center Authentication Status: " + success); });
 	}
 
-	#endif
 }

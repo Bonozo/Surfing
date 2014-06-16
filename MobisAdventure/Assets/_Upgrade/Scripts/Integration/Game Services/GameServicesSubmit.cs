@@ -12,70 +12,37 @@ using GooglePlayGames;
 
 public class GameServicesSubmit : MonoBehaviour {
 
-	void Update()
-	{
+	#if UNITY_ANDROID
+	private string leaderboardName = "CgkIu_XOtq8QEAIQAQ";
+	#elif UNITY_IPHONE
+	private string leaderboardName = "monsterhillracing_best";
+	#endif
+
+	void Update(){
 		collider.enabled = !DeathScreen.Instance.messageBox.gameObject.activeSelf;
 	}
 
-	#if UNITY_ANDROID
+	#if UNITY_ANDROID || UNITY_IPHONE
 
-	void OnClick()
-	{
+	void OnClick(){
 		int score = DeathScreen.Instance.LastDistanceTravelled;
-		Social.localUser.Authenticate((bool success) => {
-			if(success)
-			{
-				Social.ReportScore(score, "CgkIu_XOtq8QEAIQAQ", (bool submit) => {
-					if(submit)
-					{
-						Social.ShowLeaderboardUI();
-					}
-				});
-			}
-		});
+
+		if(!Social.localUser.authenticated){
+			Social.localUser.Authenticate(success => {
+				if(success)
+					SubmitScore(score);
+				Debug.Log("Game Center Authentication Status: " + success); });
+		} else{
+			SubmitScore(score);
+		}
 	}
 
-	#endif
-
-	#if UNITY_IPHONE
-	
-		void OnClick()
-		{
-			DoLeaderboard ();
-		}
-
-		void DoLeaderboard () {
-		
-			Social.localUser.Authenticate (success => {
-				
-				if (success) {
-
-					int score = DeathScreen.Instance.LastDistanceTravelled;
-
-					Debug.Log ("Authentication successful");
-					string userInfo = "Username: " + Social.localUser.userName + 
-						"\nUser ID: " + Social.localUser.id + 
-							"\nIsUnderage: " + Social.localUser.underage;
-					Debug.Log (userInfo);
-					
-					Social.CreateLeaderboard();
-
-						Social.CreateLeaderboard().id = "mobisRunLeaderboard";
-						ReportScore(score, "mobisRunLeaderboard");
-
-					Social.ShowLeaderboardUI();
-				}
-				else
-					Debug.Log ("Authentication failed");
-			} );
-		}
-	
-	void ReportScore (long score, string leaderboardID) {
-		Debug.Log ("Reporting score " + score + " on leaderboard " + leaderboardID);
-		Social.ReportScore (score, leaderboardID, success => {
-			Debug.Log(success ? "Reported score successfully" : "Failed to report score");
-		});
+	void SubmitScore(int score){
+		Social.ReportScore(score,  leaderboardName, submit => {
+			if(submit)
+				Social.ShowLeaderboardUI();
+			Debug.Log("Report Score Status: " + submit); });
 	}
-	
+
 	#endif
 }
