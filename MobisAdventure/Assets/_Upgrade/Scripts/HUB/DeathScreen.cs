@@ -26,6 +26,7 @@ public class DeathScreen : MonoBehaviour {
 		labelStates.text = "" + distance + "m\n" + best + "m (best)\n in " + sll[1].ToLower();
 		labelCoins.text = "+" + score;
 		labelLevel.text = "Level: " + levelController.CurrentLevel;
+
 		StartCoroutine(ShowThread());
 	}
 
@@ -36,6 +37,18 @@ public class DeathScreen : MonoBehaviour {
 		bgAlphaTween.PlayForward();
 		yield return new WaitForSeconds(bgAlphaTween.duration);
 		stats.SetActive(true);
+
+		#if UNITY_IPHONE
+		// for iPhone platform disabling fb ad twitter buttons
+		var buttonFacebook =  GameObject.FindObjectOfType<ButtonShareFacebook>().gameObject;
+		var buttonTwitter =  GameObject.FindObjectOfType<ButtonShareTwitter>().gameObject;
+		var buttonGamecenter =  GameObject.FindObjectOfType<GameServicesSubmit>().gameObject;
+		buttonGamecenter.transform.localPosition = buttonFacebook.transform.localPosition;
+		buttonFacebook.SetActive(false);
+		buttonTwitter.SetActive(false);
+		buttonGamecenter.transform.parent.FindChild("label facebook coins").gameObject.SetActive(false);
+		buttonGamecenter.transform.parent.FindChild("label twitter coins").gameObject.SetActive(false);
+		#endif
 
 		// Destroy Loaded Assets
 		/*Destroy (PlayerController.Instance.bike);
