@@ -136,7 +136,7 @@ public class Yeti : MonoBehaviour {
 		}
 
 		// Alert: Need Boost
-		buttonBoost.Animate(boost && Distance < boostAlertDistance);
+		//buttonBoost.Animate(boost && Distance < boostAlertDistance);
 
 		if(distance < mmin)
 			transform.position.Set(distance,0f,transform.position.z);

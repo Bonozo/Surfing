@@ -591,6 +591,7 @@ public class PlayerController : MonoBehaviour
 	
 	public bool GamePaused { get{ return s_pause; }}
 	public float Speed { get { return Mathf.Round (rigidbody.velocity.magnitude * 2.0f); } }
+	public float BoostingTime { get { return boostingTime; } }
 	
 	#endregion
 
