@@ -8,7 +8,7 @@ public class RevmobManager : MonoBehaviour ,IRevMobListener {
 	
 	private static readonly Dictionary<String, String> REVMOB_APP_IDS = new Dictionary<String, String>() {
         { "Android", "51b1cbaa1eb3ebaabd00011e"},
-        { "IOS", "51b1cbaa1eb3ebaabd00011e" }
+		{ "IOS", "51b1cb9870b6a791b3000130" }
     };
     private RevMob revmob;
 	private RevMobFullscreen fullscreen;
@@ -17,17 +17,6 @@ public class RevmobManager : MonoBehaviour ,IRevMobListener {
         revmob = RevMob.Start(REVMOB_APP_IDS, "RevmobManager");
 		//fullscreen = revmob.CreateFullscreen();
     }
-	
-	// Use this for initialization
-	void Start () {
-		//revmob = RevMob.Start(REVMOB_APP_IDS, "RevmobManager");
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 	
 	public void AdDidReceive (string revMobAdType) {
         Debug.Log("Ad did receive.");
@@ -71,11 +60,7 @@ public class RevmobManager : MonoBehaviour ,IRevMobListener {
 	{
 		if (PlayerPrefs.GetInt("RevmobStatus", 0) == 0 )
 		{
-/*#if UNITY_ANDROID
-			revmob.ShowPopup();
-#elif UNITY_IPHONE*/
 			revmob.ShowFullscreen();
-//#endif
 			//fullscreen.Show();
 		}
 	}

@@ -11,17 +11,34 @@ public class MobiIAB : MonoBehaviour
 		@"mobisrun_500k_coins", @"mobisrun_750k_coins",@"mobisrun_2m_coins" ,@"mobisrun_5m_coins" ,@"mobisrun_10m_coins"  };
 	private bool queryInventorySucceeded = false;
 
-	IEnumerator Start(){
+	void Start(){
 		IAP.init (key);
-		yield return new WaitForSeconds(1f); // Why?
-		
+		RequestProductData ();
+	}
+
+	private void RequestProductData(){
 		IAP.requestProductData(skus,skus,productList => {
-			Debug.Log( "Product list received" );
+			Debug.Log( "***Important***:::::Product list received" );
 			Utils.logObject( productList );
-			
+
+			if(productList.Count == 0){
+				Debug.Log("Product Count is 0: Why this happens when no connection");
+				return;
+			}
 			queryInventorySucceeded = true;
 			for(int i=0;i<productList.Count;i++)
 				Debug.Log("Product: " + productList[i].title + " ::: " + productList[i].price);
+		});
+	}
+
+	public void RestoreTransactions(){
+		IAP.restoreCompletedTransactions( productId => {
+			Debug.Log( "restored purchased product: " + productId );
+			if(productId == skus[0] && PlayerPrefs.GetInt("RevmobStatus",0) != 1){
+				PlayerPrefs.SetInt("RevmobStatus",1);
+				PlayerPrefs.Save();
+				ShowMessage("Great !\nAds will never appear !");
+			}
 		});
 	}
 
@@ -29,6 +46,7 @@ public class MobiIAB : MonoBehaviour
 	{
 		if(!queryInventorySucceeded){
 			Debug.Log("queryInventory is not succedded yet");
+			RequestProductData();
 		}
 		else{
 			if(skuIndex==0){ // no ads
