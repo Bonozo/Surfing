@@ -15,6 +15,17 @@ public class ButtonRun : MonoBehaviour {
 		GameManager.m_chosenLevel = (GameManager.ChosenLevel)(PlayerPrefs.GetInt("mobilevel",1)-1);
 		Loader.sceneName = GameManager.m_chosenLevel.ToString();
 		Loader.destroyme = true;
+
+		StartCoroutine (DoTweens ());
+	}
+
+	public UITweener[] tweeners;
+
+	
+	public float tweenTime = 0.5f;
+	IEnumerator DoTweens(){
+		foreach(var t in tweeners) t.PlayReverse();
+		yield return new WaitForSeconds(tweenTime);
 		Application.LoadLevel("Loader");
 	}
 }

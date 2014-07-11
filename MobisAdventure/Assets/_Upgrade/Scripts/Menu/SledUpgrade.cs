@@ -3,11 +3,10 @@ using System.Collections;
 
 public class SledUpgrade : MonoBehaviour {
 
-	public string upgradeName;
-	public UpgradeMenu menu;
-	public UILabel labelName;
-	public UILabel labelCost;
-	public UISprite spriteFillbar;
+	public PowerupMenu menu;
+	//public UILabel labelName;
+	//public UILabel labelCost;
+	//public UISprite spriteFillbar;
 
 	void Update()
 	{
@@ -21,7 +20,7 @@ public class SledUpgrade : MonoBehaviour {
 
 	IEnumerator UpgradeThread()
 	{
-		int currentLevel = PlayerPrefs.GetInt(menu.CurrentSledName+"_"+upgradeName,0);
+		int currentLevel = PlayerPrefs.GetInt(menu.CurrentSledName+"_"+menu.upgradeName,0);
 		int newlevel = currentLevel+1;
 		int coins = PlayerPrefs.GetInt("pp_coins");
 		int newlevelcost = newlevel*25000;
@@ -50,9 +49,10 @@ public class SledUpgrade : MonoBehaviour {
 			{
 				coins -= newlevelcost;
 				PlayerPrefs.SetInt("pp_coins",coins);
-				PlayerPrefs.SetInt(menu.CurrentSledName+"_"+upgradeName,newlevel);
+				PlayerPrefs.SetInt(menu.CurrentSledName+"_"+menu.upgradeName,newlevel);
 				PlayerPrefs.Save();
 				Init();
+				menu.RefreshWindow();
 			}
 			else
 			{
@@ -63,11 +63,11 @@ public class SledUpgrade : MonoBehaviour {
 
 	public void Init()
 	{
-		int currentLevel = PlayerPrefs.GetInt(menu.CurrentSledName+"_"+upgradeName,0);
-		labelCost.text = MainMenu.PutCommas( (1+currentLevel)*25000);
-		labelName.text = upgradeName.ToUpper() + " (LEVEL " + (currentLevel+1) + " )";
+		int currentLevel = PlayerPrefs.GetInt(menu.CurrentSledName+"_"+menu.upgradeName,0);
+		//labelCost.text = MainMenu.PutCommas( (1+currentLevel)*25000);
+		//labelName.text = upgradeName.ToUpper() + " (LEVEL " + (currentLevel+1) + " )";
 
-		int fillbarindex = Mathf.Min(8,currentLevel);
-		spriteFillbar.spriteName = "fillbar_"+fillbarindex;
+		//int fillbarindex = Mathf.Min(8,currentLevel);
+		//spriteFillbar.spriteName = "fillbar_"+fillbarindex;
 	}
 }

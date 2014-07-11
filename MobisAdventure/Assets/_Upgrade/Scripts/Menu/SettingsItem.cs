@@ -11,8 +11,8 @@ public class SettingsItem : MonoBehaviour {
 	public UILabel label;
 	private UISprite sprite;
 	
-	private Color colGreen = new Color(0.75f,1f,0.75f,1f);
-	private Color colRed = new Color(1f,0.75f,0.75f,1f);
+	private Color colGreen = Color.green;//new Color(0.75f,1f,0.75f,1f);
+	private Color colRed = Color.red;//new Color(1f,0.75f,0.75f,1f);
 	bool savedValue;
 	bool gotcha=false;
 	

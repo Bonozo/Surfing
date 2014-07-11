@@ -32,6 +32,7 @@ public class MobiIAB : MonoBehaviour
 	}
 
 	public void RestoreTransactions(){
+		#if UNITY_IPHONE
 		IAP.restoreCompletedTransactions( productId => {
 			Debug.Log( "restored purchased product: " + productId );
 			if(productId == skus[0] && PlayerPrefs.GetInt("RevmobStatus",0) != 1){
@@ -40,6 +41,7 @@ public class MobiIAB : MonoBehaviour
 				ShowMessage("Great !\nAds will never appear !");
 			}
 		});
+		#endif
 	}
 
 	private void PurchaseProduct(int skuIndex)

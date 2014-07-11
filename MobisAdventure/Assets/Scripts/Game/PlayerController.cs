@@ -113,8 +113,8 @@ public class PlayerController : MonoBehaviour
 
 	void SetupAudio()
 	{
-		bool optMusic = PlayerPrefs.GetInt ("options_music", 0) == 1;
-		bool optSound = PlayerPrefs.GetInt ("options_sound", 0) == 1;
+		bool optMusic = PlayerPrefs.GetInt ("options_music", 1) == 1; // default value: true
+		bool optSound = PlayerPrefs.GetInt ("options_sound", 1) == 1; // default value: true
 
 		MusicLoop.Instance.audio.mute = !optMusic;
 		MusicLoop.Instance.audio.volume = 0.1f;

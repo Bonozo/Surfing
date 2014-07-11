@@ -11,7 +11,9 @@ public class GameManager : MonoBehaviour
 	public static ChosenSled m_chosenSled = ChosenSled.Classic;
 	public static ChosenMobi m_chosenMobi = ChosenMobi.CLASSIC;
 	public static ChosenLevel m_chosenLevel = ChosenLevel.Level_Arctic;
-	
+
+	public static string[] levelNames = {"Arctic","Icy Tundra", "Forest", "Mars", "Beach"};
+
 //	private int m_seconds = 0;
 //	private int m_minutes = 0;
 //	private int m_hours = 0;

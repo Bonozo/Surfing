@@ -12,6 +12,6 @@ public class LevelNameText : MonoBehaviour {
 		var idd = "level_" + id;
 		var currentLevel = PlayerPrefs.GetInt (idd, 1);
 
-		transform.FindChild ("Name").GetComponent<UILabel> ().text = levelName + " (level: " + currentLevel + " )";
+		transform.FindChild ("Name").GetComponent<UILabel> ().text = levelName + " (level: " + currentLevel + ")";
 	}
 }

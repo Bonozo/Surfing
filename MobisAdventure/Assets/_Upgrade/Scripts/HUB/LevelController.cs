@@ -4,7 +4,7 @@ using System.Collections;
 public class LevelController : MonoBehaviour {
 
 	public UIParams uiParams;
-	private int[] levelDist = new int[]{0,0,1500,3000,4500,6000,7500,10000};
+	public static readonly int[] levelDist = new int[]{0,0,1500,3000,4500,6000,7500,10000};
 	private int[] levelBonus = new int[]{0,0,1000,1500,2000,2500,3000,4500};
 	
 	public UILabel labelText;
