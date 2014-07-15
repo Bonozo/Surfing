@@ -10,16 +10,18 @@ public class SettingsItem : MonoBehaviour {
 	public string optionName;
 	public UILabel label;
 	private UISprite sprite;
-	
-	private Color colGreen = Color.green;//new Color(0.75f,1f,0.75f,1f);
-	private Color colRed = Color.red;//new Color(1f,0.75f,0.75f,1f);
+
+	public string spriteEnabled;
+	public string spriteDisabled;
+	//private Color colGreen = Color.green;//new Color(0.75f,1f,0.75f,1f);
+	//private Color colRed = Color.red;//new Color(1f,0.75f,0.75f,1f);
 	bool savedValue;
 	bool gotcha=false;
 	
 	void Awake()
 	{
 		sprite = gameObject.GetComponentInChildren<UISprite>();
-		sprite.color = status?colGreen:colRed;
+		sprite.spriteName = status ? spriteEnabled : spriteDisabled;
 
 		if (!PlayerPrefs.HasKey (optionName))
 			status = defaultChecked;
@@ -28,7 +30,7 @@ public class SettingsItem : MonoBehaviour {
 	void OnClick()
 	{
 		status=!status;
-		sprite.color = status?colGreen:colRed;
+		sprite.spriteName = status ? spriteEnabled : spriteDisabled;
 	}
 
 	public bool status{
