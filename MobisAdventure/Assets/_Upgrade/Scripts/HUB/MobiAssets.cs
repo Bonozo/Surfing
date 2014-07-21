@@ -7,6 +7,8 @@ public class MobiAssets : MonoBehaviour {
 	public AudioClip clipBoostPowerup;
 	public AudioClip clipBoostUsage;
 
+	public AudioClip clipImpactCrash;
+
 	#region Static Instance
 	
 	// Multithreaded Safe Singleton Pattern

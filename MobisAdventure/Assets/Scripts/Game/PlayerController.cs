@@ -371,8 +371,10 @@ public class PlayerController : MonoBehaviour
 	//KILL TRIGGER
 	public void OnTriggerEnter(Collider other){
 		if(life && other.gameObject.tag == "Ground"){
-			Debug.Log(other.gameObject.name);
+			// Sled crash
+			audio.PlayOneShot(MobiAssets.Instance.clipImpactCrash,1f);
 			Death(false);
+
 		}
 	}
 	
