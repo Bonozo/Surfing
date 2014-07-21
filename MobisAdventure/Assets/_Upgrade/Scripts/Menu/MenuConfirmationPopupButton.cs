@@ -6,7 +6,7 @@ public class MenuConfirmationPopupButton : MonoBehaviour {
 	public MenuConfirmationPopup popup;
 	public bool status;
 
-	void OnPress()
+	void OnClick()
 	{
 		//popup.OnPress(align);
 		popup.Confirm(status);
