@@ -179,6 +179,7 @@
      <Compile Include="Assets\Scripts\End Items\EndItemMoveTo.cs" />
      <Compile Include="Assets\Scripts\End Items\EndItemMultipleEndItem.cs" />
      <Compile Include="Assets\Scripts\End Items\EndItemScaleTo.cs" />
+     <Compile Include="Assets\Scripts\Levels\ButtonBack.cs" />
      <Compile Include="Assets\Scripts\Levels\DragArea.cs" />
      <Compile Include="Assets\Scripts\Levels\GameBlock.cs" />
      <Compile Include="Assets\Scripts\Levels\GameBlockIntro.cs" />
@@ -203,7 +204,6 @@
      <Compile Include="Assets\Scripts\Levels\What Is Next\WhatIsNextDrag.cs" />
      <Compile Include="Assets\Scripts\Levels\WinScreen.cs" />
      <Compile Include="Assets\Scripts\Levels\ZIPLevel.cs" />
-     <Compile Include="Assets\Scripts\Menus\ButtonBack.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonContent.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonLoad.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonSimpleToggle.cs" />
@@ -214,6 +214,7 @@
      <Compile Include="Assets\Scripts\Menus\InGameLoad.cs" />
      <Compile Include="Assets\Scripts\Menus\Jungle.cs" />
      <Compile Include="Assets\Scripts\Menus\Loader.cs" />
+     <Compile Include="Assets\Scripts\Menus\MenuBackButton.cs" />
      <Compile Include="Assets\Scripts\Menus\Title.cs" />
      <Compile Include="Assets\Scripts\Menus\TitleButton.cs" />
      <Compile Include="Assets\Scripts\Other\AutoDestroy.cs" />

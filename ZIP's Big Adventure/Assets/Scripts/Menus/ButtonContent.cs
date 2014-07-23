@@ -17,6 +17,8 @@ public class ButtonContent : MonoBehaviour {
 		var buttons = GameObject.FindObjectsOfType<ButtonContent> ();
 		foreach(var bt in buttons)
 			bt.collider.enabled = false;
+		var backbutton = GameObject.FindObjectOfType<MenuBackButton> ();
+		backbutton.collider.enabled = false;
 		StartCoroutine (StartGame ());
 	}
 	IEnumerator StartGame()

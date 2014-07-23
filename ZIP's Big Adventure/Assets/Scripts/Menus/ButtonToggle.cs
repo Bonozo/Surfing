@@ -11,7 +11,7 @@ public class ButtonToggle : MonoBehaviour {
 	public ToggleType toggleType = ToggleType.Rotate;
 	public GameObject from,to;
 	
-	void OnClick()
+	protected virtual void OnClick()
 	{
 		switch (toggleType) 
 		{
