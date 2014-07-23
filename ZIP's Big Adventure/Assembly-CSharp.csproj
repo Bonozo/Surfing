@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity_4.5/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity_4.5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -209,6 +209,7 @@
      <Compile Include="Assets\Scripts\Menus\ButtonSimpleToggle.cs" />
      <Compile Include="Assets\Scripts\Menus\ButtonToggle.cs" />
      <Compile Include="Assets\Scripts\Menus\FinalScreen.cs" />
+     <Compile Include="Assets\Scripts\Menus\FirstTimePlayScreen.cs" />
      <Compile Include="Assets\Scripts\Menus\GameController.cs" />
      <Compile Include="Assets\Scripts\Menus\InGameLoad.cs" />
      <Compile Include="Assets\Scripts\Menus\Jungle.cs" />

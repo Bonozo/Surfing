@@ -13,7 +13,11 @@ public class Title : MonoBehaviour {
 	{
 		if(firstLaunch)
 		{
-			PlayerPrefs.DeleteAll();
+			PlayerPrefs.DeleteKey("completed_games");
+			PlayerPrefs.DeleteKey("letters");
+			PlayerPrefs.DeleteKey("numbers");
+			PlayerPrefs.DeleteKey("patterns");
+			PlayerPrefs.DeleteKey("shapes");
 			PlayerPrefs.Save();
 			firstLaunch = false;
 			return;
