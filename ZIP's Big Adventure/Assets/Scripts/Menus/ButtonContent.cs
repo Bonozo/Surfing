@@ -5,6 +5,7 @@ public class ButtonContent : MonoBehaviour {
 
 	public GameType gameType;
 	public AudioClip clip;
+	public GameObject dancingCharacter;
 	private Color grayOutColor = new Color(0.2f,0.2f,0.2f,1f);
 
 	void Awake()
@@ -14,6 +15,9 @@ public class ButtonContent : MonoBehaviour {
 		if (PlayerPrefs.HasKey (gameType.ToString())){
 			button.isEnabled = false;
 			transform.FindChild("Play").gameObject.SetActive(false);
+			dancingCharacter.SetActive(true);
+		} else{
+			dancingCharacter.SetActive(false);
 		}
 	}
 

@@ -401,6 +401,222 @@ MonoBehaviour:
     paddingRight: .0291777197
     paddingTop: .122448981
     paddingBottom: .163265303
+  - name: DanceHoneyBunny_3
+    outer:
+      serializedVersion: 2
+      x: 1222
+      y: 81
+      width: 173
+      height: 234
+    inner:
+      serializedVersion: 2
+      x: 1222
+      y: 81
+      width: 173
+      height: 234
+    rotated: 0
+    paddingLeft: .231213868
+    paddingRight: .156069368
+    paddingTop: .00427350448
+    paddingBottom: .0897435918
+  - name: DanceMartyB_1
+    outer:
+      serializedVersion: 2
+      x: 1592
+      y: 561
+      width: 181
+      height: 206
+    inner:
+      serializedVersion: 2
+      x: 1592
+      y: 561
+      width: 181
+      height: 206
+    rotated: 0
+    paddingLeft: .0883977935
+    paddingRight: .325966865
+    paddingTop: .0582524277
+    paddingBottom: .126213595
+  - name: DanceHoneyBunny_2
+    outer:
+      serializedVersion: 2
+      x: 1411
+      y: 326
+      width: 172
+      height: 224
+    inner:
+      serializedVersion: 2
+      x: 1411
+      y: 326
+      width: 172
+      height: 224
+    rotated: 0
+    paddingLeft: .203488365
+    paddingRight: .191860467
+    paddingTop: .0491071418
+    paddingBottom: .09375
+  - name: DanceLucky_2
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 85
+      width: 190
+      height: 223
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 85
+      width: 190
+      height: 223
+    rotated: 0
+    paddingLeft: .110526316
+    paddingRight: .0947368443
+    paddingTop: .0941704065
+    paddingBottom: .0538116582
+  - name: DancePatty_2
+    outer:
+      serializedVersion: 2
+      x: 699
+      y: 150
+      width: 208
+      height: 231
+    inner:
+      serializedVersion: 2
+      x: 699
+      y: 150
+      width: 208
+      height: 231
+    rotated: 0
+    paddingLeft: .024038462
+    paddingRight: .0480769239
+    paddingTop: .0519480519
+    paddingBottom: .0562770553
+  - name: DanceMartyB_3
+    outer:
+      serializedVersion: 2
+      x: 1584
+      y: 347
+      width: 178
+      height: 203
+    inner:
+      serializedVersion: 2
+      x: 1584
+      y: 347
+      width: 178
+      height: 203
+    rotated: 0
+    paddingLeft: .275280893
+    paddingRight: .162921354
+    paddingTop: .113300495
+    paddingBottom: .133004919
+  - name: DanceLucky_1
+    outer:
+      serializedVersion: 2
+      x: 1222
+      y: 542
+      width: 188
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 1222
+      y: 542
+      width: 188
+      height: 225
+    rotated: 0
+    paddingLeft: .106382981
+    paddingRight: .111702129
+    paddingTop: .0844444409
+    paddingBottom: .0533333346
+  - name: DancePatty_1
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 536
+      width: 196
+      height: 231
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 536
+      width: 196
+      height: 231
+    rotated: 0
+    paddingLeft: .0561224483
+    paddingRight: .0816326514
+    paddingTop: .0519480519
+    paddingBottom: .0562770553
+  - name: DancePatty_3
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 309
+      width: 196
+      height: 226
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 309
+      width: 196
+      height: 226
+    rotated: 0
+    paddingLeft: .0561224483
+    paddingRight: .0816326514
+    paddingTop: .0752212405
+    paddingBottom: .0575221255
+  - name: DanceLucky_3
+    outer:
+      serializedVersion: 2
+      x: 1222
+      y: 316
+      width: 188
+      height: 225
+    inner:
+      serializedVersion: 2
+      x: 1222
+      y: 316
+      width: 188
+      height: 225
+    rotated: 0
+    paddingLeft: .143617019
+    paddingRight: .0744680837
+    paddingTop: .0844444409
+    paddingBottom: .0533333346
+  - name: DanceHoneyBunny_1
+    outer:
+      serializedVersion: 2
+      x: 1411
+      y: 551
+      width: 180
+      height: 216
+    inner:
+      serializedVersion: 2
+      x: 1411
+      y: 551
+      width: 180
+      height: 216
+    rotated: 0
+    paddingLeft: .155555561
+    paddingRight: .177777782
+    paddingTop: .0879629627
+    paddingBottom: .0972222239
+  - name: DanceMartyB_2
+    outer:
+      serializedVersion: 2
+      x: 1774
+      y: 568
+      width: 187
+      height: 199
+    inner:
+      serializedVersion: 2
+      x: 1774
+      y: 568
+      width: 187
+      height: 199
+    rotated: 0
+    paddingLeft: .144385025
+    paddingRight: .224598929
+    paddingTop: .110552765
+    paddingBottom: .160804018
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

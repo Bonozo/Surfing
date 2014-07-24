@@ -178,6 +178,37 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!1 &62374250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 62374251}
+  m_Layer: 8
+  m_Name: Dancing Characters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &62374251
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 62374250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .800000012, y: .800000012, z: 1}
+  m_Children:
+  - {fileID: 224255767}
+  - {fileID: 1839978558}
+  - {fileID: 102107221}
+  - {fileID: 678653232}
+  m_Father: {fileID: 427594446}
+  m_RootOrder: 9
 --- !u!1 &86055402
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,6 +363,71 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 195, y: 85, z: 0}
   m_Center: {x: -7.62939453e-06, y: -1.90734863e-06, z: -.75}
+--- !u!1 &102107220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 102107221}
+  - 114: {fileID: 102107223}
+  - 114: {fileID: 102107222}
+  m_Layer: 8
+  m_Name: Dancing Patty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &102107221
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 102107220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 955.466919, y: -524.393799, z: 0}
+  m_LocalScale: {x: 196, y: 231, z: 1}
+  m_Children: []
+  m_Father: {fileID: 62374251}
+  m_RootOrder: 2
+--- !u!114 &102107222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 102107220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150eea64ba46e6747bdd1109cb739f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mFPS: 3
+  mPrefix: DancePatty_
+  mLoop: 1
+  mPixelPerfect: 1
+--- !u!114 &102107223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 102107220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
+  mSpriteName: DancePatty_1
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
 --- !u!1 &111568870
 GameObject:
   m_ObjectHideFlags: 0
@@ -394,6 +490,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameType: 3
   clip: {fileID: 8300000, guid: 2e46707d8b643e640908f01241933968, type: 3}
+  dancingCharacter: {fileID: 678653231}
 --- !u!114 &111568874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -644,6 +741,71 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2000, y: 2000, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &224255766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 224255767}
+  - 114: {fileID: 224255769}
+  - 114: {fileID: 224255768}
+  m_Layer: 8
+  m_Name: Dancing Marty
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &224255767
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 224255766}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 834.126282, y: -21.1757641, z: 0}
+  m_LocalScale: {x: 181, y: 206.000015, z: 1}
+  m_Children: []
+  m_Father: {fileID: 62374251}
+  m_RootOrder: 0
+--- !u!114 &224255768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 224255766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150eea64ba46e6747bdd1109cb739f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mFPS: 3
+  mPrefix: DanceMartyB_
+  mLoop: 1
+  mPixelPerfect: 1
+--- !u!114 &224255769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 224255766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
+  mSpriteName: DanceMartyB_1
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
 --- !u!1 &322977016
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,6 +1033,7 @@ Transform:
   - {fileID: 1509985280}
   - {fileID: 1060421176}
   - {fileID: 1650076954}
+  - {fileID: 62374251}
   m_Father: {fileID: 322977017}
   m_RootOrder: 0
 --- !u!1 &441360129
@@ -1152,6 +1315,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameType: 0
   clip: {fileID: 8300000, guid: 3ba615b63d1047c4ea024a1fd40ecec6, type: 3}
+  dancingCharacter: {fileID: 1839978557}
 --- !u!114 &560835720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1376,6 +1540,71 @@ MonoBehaviour:
   mDepth: 4
   mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
   mSpriteName: Play Arrow Marty
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+--- !u!1 &678653231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 678653232}
+  - 114: {fileID: 678653234}
+  - 114: {fileID: 678653233}
+  m_Layer: 8
+  m_Name: Dancing Honey
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &678653232
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 678653231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1095.41248, y: -250.901169, z: 0}
+  m_LocalScale: {x: 180, y: 216, z: 1}
+  m_Children: []
+  m_Father: {fileID: 62374251}
+  m_RootOrder: 3
+--- !u!114 &678653233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 678653231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150eea64ba46e6747bdd1109cb739f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mFPS: 3
+  mPrefix: DanceHoneyBunny_
+  mLoop: 1
+  mPixelPerfect: 1
+--- !u!114 &678653234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 678653231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
+  mSpriteName: DanceHoneyBunny_1
   mFillCenter: 1
   mType: 0
   mFillDirection: 4
@@ -2149,6 +2378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameType: 2
   clip: {fileID: 8300000, guid: 72742ae3aa74b614bbb84612700397b8, type: 3}
+  dancingCharacter: {fileID: 102107220}
 --- !u!114 &1509985283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2296,6 +2526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameType: 1
   clip: {fileID: 8300000, guid: a81a3c72a17a0214fb88cb40282cff25, type: 3}
+  dancingCharacter: {fileID: 224255766}
 --- !u!114 &1567172407
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2624,7 +2855,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1670326202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.57700205, y: 1.57700205, z: 0}
+  m_LocalPosition: {x: -.827586174, y: .827586174, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1243174000}
@@ -2652,6 +2883,71 @@ MonoBehaviour:
   runOnlyOnce: 0
   relativeOffset: {x: 0, y: 0}
   pixelOffset: {x: 0, y: 0}
+--- !u!1 &1839978557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1839978558}
+  - 114: {fileID: 1839978560}
+  - 114: {fileID: 1839978559}
+  m_Layer: 8
+  m_Name: Dancing Lucky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1839978558
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1839978557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 726.599976, y: -280.299988, z: 0}
+  m_LocalScale: {x: 188, y: 225, z: 1}
+  m_Children: []
+  m_Father: {fileID: 62374251}
+  m_RootOrder: 1
+--- !u!114 &1839978559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1839978557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150eea64ba46e6747bdd1109cb739f70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mFPS: 3
+  mPrefix: DanceLucky_
+  mLoop: 1
+  mPixelPerfect: 1
+--- !u!114 &1839978560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1839978557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3dc54f924693f41b5cbecb267e647a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mDepth: 3
+  mAtlas: {fileID: 11400000, guid: fd4923e78a18c1a4a9d435af11f29f21, type: 2}
+  mSpriteName: DanceLucky_1
+  mFillCenter: 1
+  mType: 0
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
 --- !u!1 &2067992099
 GameObject:
   m_ObjectHideFlags: 0
