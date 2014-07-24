@@ -5,11 +5,16 @@ public class ButtonContent : MonoBehaviour {
 
 	public GameType gameType;
 	public AudioClip clip;
+	private Color grayOutColor = new Color(0.2f,0.2f,0.2f,1f);
 
 	void Awake()
 	{
-		if (PlayerPrefs.HasKey (gameType.ToString()))
-			this.GetComponent<UIButton> ().isEnabled = false;
+		var button = GetComponent<UIButton> ();
+		button.disabledColor = grayOutColor;
+		if (PlayerPrefs.HasKey (gameType.ToString())){
+			button.isEnabled = false;
+			transform.FindChild("Play").gameObject.SetActive(false);
+		}
 	}
 
 	void OnClick()

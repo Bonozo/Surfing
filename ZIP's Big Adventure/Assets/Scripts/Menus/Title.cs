@@ -9,7 +9,7 @@ public class Title : MonoBehaviour {
 
 	public static bool firstLaunch=true;
 
-	void Awake()
+	void OnEnable()
 	{
 		if(firstLaunch)
 		{
