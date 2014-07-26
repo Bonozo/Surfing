@@ -10,6 +10,8 @@ public class EndItemMoveTo : EndItem {
 	public bool resetBefore = true;
 
 	public bool defaultUp = true;
+	public bool linear = false;
+
 	public Vector3 to;
 	private bool saved=false;
 	private Vector3 savePosition;
@@ -42,7 +44,10 @@ public class EndItemMoveTo : EndItem {
 	private IEnumerator Working()
 	{
 		yield return new WaitForSeconds (delay);
-		iTween.MoveTo(gameObject,iTween.Hash("position",to,"time",duration,"islocal",true));
+		if(linear)
+			iTween.MoveTo(gameObject,iTween.Hash("position",to,"time",duration,"islocal",true,"easetype",iTween.EaseType.linear));
+		else
+			iTween.MoveTo(gameObject,iTween.Hash("position",to,"time",duration,"islocal",true));
 	}
 
 	#if UNITY_EDITOR

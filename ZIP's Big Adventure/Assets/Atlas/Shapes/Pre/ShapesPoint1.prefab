@@ -27,6 +27,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+  m_RootOrder: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -61,14 +62,14 @@ MonoBehaviour:
   - name: CircleBird_Begin
     outer:
       serializedVersion: 2
-      x: 1365
-      y: 1291
+      x: 914
+      y: 1268
       width: 493
       height: 316
     inner:
       serializedVersion: 2
-      x: 1365
-      y: 1291
+      x: 914
+      y: 1268
       width: 493
       height: 316
     rotated: 0
@@ -98,13 +99,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 852
+      y: 457
       width: 311
       height: 373
     inner:
       serializedVersion: 2
       x: 0
-      y: 852
+      y: 457
       width: 311
       height: 373
     rotated: 0
@@ -116,13 +117,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 478
+      y: 83
       width: 311
       height: 373
     inner:
       serializedVersion: 2
       x: 0
-      y: 478
+      y: 83
       width: 311
       height: 373
     rotated: 0
@@ -133,14 +134,14 @@ MonoBehaviour:
   - name: CircleBirthdayCake_Begin
     outer:
       serializedVersion: 2
-      x: 1365
-      y: 964
+      x: 420
+      y: 1258
       width: 493
       height: 326
     inner:
       serializedVersion: 2
-      x: 1365
-      y: 964
+      x: 420
+      y: 1258
       width: 493
       height: 326
     rotated: 0
@@ -151,14 +152,14 @@ MonoBehaviour:
   - name: CircleSoccerBall_Begin
     outer:
       serializedVersion: 2
-      x: 365
-      y: 918
+      x: 420
+      y: 928
       width: 467
       height: 329
     inner:
       serializedVersion: 2
-      x: 365
-      y: 918
+      x: 420
+      y: 928
       width: 467
       height: 329
     rotated: 0
@@ -169,14 +170,14 @@ MonoBehaviour:
   - name: CircleSoccerBall_End
     outer:
       serializedVersion: 2
-      x: 1701
-      y: 664
+      x: 888
+      y: 696
       width: 315
       height: 299
     inner:
       serializedVersion: 2
-      x: 1701
-      y: 664
+      x: 888
+      y: 696
       width: 315
       height: 299
     rotated: 0
@@ -187,14 +188,14 @@ MonoBehaviour:
   - name: CircleSoccerBall_End_B
     outer:
       serializedVersion: 2
-      x: 761
-      y: 609
+      x: 888
+      y: 396
       width: 315
       height: 299
     inner:
       serializedVersion: 2
-      x: 761
-      y: 609
+      x: 888
+      y: 396
       width: 315
       height: 299
     rotated: 0
@@ -241,14 +242,14 @@ MonoBehaviour:
   - name: CircleSun_End_B
     outer:
       serializedVersion: 2
-      x: 945
-      y: 1238
+      x: 0
+      y: 1190
       width: 419
       height: 394
     inner:
       serializedVersion: 2
-      x: 945
-      y: 1238
+      x: 0
+      y: 1190
       width: 419
       height: 394
     rotated: 0
@@ -259,14 +260,14 @@ MonoBehaviour:
   - name: CircleSun_Begin
     outer:
       serializedVersion: 2
-      x: 483
-      y: 1248
+      x: 420
+      y: 579
       width: 437
       height: 348
     inner:
       serializedVersion: 2
-      x: 483
-      y: 1248
+      x: 420
+      y: 579
       width: 437
       height: 348
     rotated: 0
@@ -278,13 +279,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 1226
+      y: 831
       width: 364
       height: 358
     inner:
       serializedVersion: 2
       x: 0
-      y: 1226
+      y: 831
       width: 364
       height: 358
     rotated: 0
@@ -295,14 +296,14 @@ MonoBehaviour:
   - name: SquareBook_Begin
     outer:
       serializedVersion: 2
-      x: 833
-      y: 909
+      x: 420
+      y: 250
       width: 440
       height: 328
     inner:
       serializedVersion: 2
-      x: 833
-      y: 909
+      x: 420
+      y: 250
       width: 440
       height: 328
     rotated: 0
@@ -313,14 +314,14 @@ MonoBehaviour:
   - name: SquareHappySquare_End_B
     outer:
       serializedVersion: 2
-      x: 312
-      y: 647
+      x: 1408
+      y: 1314
       width: 448
       height: 270
     inner:
       serializedVersion: 2
-      x: 312
-      y: 647
+      x: 1408
+      y: 1314
       width: 448
       height: 270
     rotated: 0
@@ -331,14 +332,14 @@ MonoBehaviour:
   - name: SquareHappySquare_End
     outer:
       serializedVersion: 2
-      x: 1274
-      y: 702
+      x: 888
+      y: 996
       width: 426
       height: 261
     inner:
       serializedVersion: 2
-      x: 1274
-      y: 702
+      x: 888
+      y: 996
       width: 426
       height: 261
     rotated: 0

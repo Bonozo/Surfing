@@ -183,6 +183,7 @@
      <Compile Include="Assets\Scripts\Levels\DragArea.cs" />
      <Compile Include="Assets\Scripts\Levels\GameBlock.cs" />
      <Compile Include="Assets\Scripts\Levels\GameBlockIntro.cs" />
+     <Compile Include="Assets\Scripts\Levels\Highlight.cs" />
      <Compile Include="Assets\Scripts\Levels\Jumble\JumbleDrag.cs" />
      <Compile Include="Assets\Scripts\Levels\Jumble\LevelJumble.cs" />
      <Compile Include="Assets\Scripts\Levels\Level Correct Drag\DragZIP.cs" />

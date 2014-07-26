@@ -116,13 +116,13 @@ MonoBehaviour:
   - name: Zip
     outer:
       serializedVersion: 2
-      x: 1025
+      x: 1154
       y: 1339
       width: 104
       height: 132
     inner:
       serializedVersion: 2
-      x: 1025
+      x: 1154
       y: 1339
       width: 104
       height: 132
@@ -152,14 +152,14 @@ MonoBehaviour:
   - name: Play Arrow Marty
     outer:
       serializedVersion: 2
-      x: 1025
-      y: 1298
+      x: 1082
+      y: 1302
       width: 56
       height: 40
     inner:
       serializedVersion: 2
-      x: 1025
-      y: 1298
+      x: 1082
+      y: 1302
       width: 56
       height: 40
     rotated: 0
@@ -242,14 +242,14 @@ MonoBehaviour:
   - name: Play Arrow Honey
     outer:
       serializedVersion: 2
-      x: 1130
-      y: 1431
+      x: 1025
+      y: 1302
       width: 56
       height: 40
     inner:
       serializedVersion: 2
-      x: 1130
-      y: 1431
+      x: 1025
+      y: 1302
       width: 56
       height: 40
     rotated: 0
@@ -260,13 +260,13 @@ MonoBehaviour:
   - name: Play Arrow Lucky
     outer:
       serializedVersion: 2
-      x: 1244
+      x: 1259
       y: 1432
       width: 55
       height: 39
     inner:
       serializedVersion: 2
-      x: 1244
+      x: 1259
       y: 1432
       width: 55
       height: 39
@@ -314,14 +314,14 @@ MonoBehaviour:
   - name: Play Arrow Patty
     outer:
       serializedVersion: 2
-      x: 1187
-      y: 1432
+      x: 1154
+      y: 1299
       width: 56
       height: 39
     inner:
       serializedVersion: 2
-      x: 1187
-      y: 1432
+      x: 1154
+      y: 1299
       width: 56
       height: 39
     rotated: 0
@@ -351,13 +351,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 1025
-      y: 916
+      y: 768
       width: 377
       height: 147
     inner:
       serializedVersion: 2
       x: 1025
-      y: 916
+      y: 768
       width: 377
       height: 147
     rotated: 0
@@ -387,13 +387,13 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 1025
-      y: 768
+      y: 916
       width: 377
       height: 147
     inner:
       serializedVersion: 2
       x: 1025
-      y: 768
+      y: 916
       width: 377
       height: 147
     rotated: 0
@@ -617,6 +617,24 @@ MonoBehaviour:
     paddingRight: .224598929
     paddingTop: .110552765
     paddingBottom: .160804018
+  - name: white_square
+    outer:
+      serializedVersion: 2
+      x: 1025
+      y: 1343
+      width: 128
+      height: 128
+    inner:
+      serializedVersion: 2
+      x: 1025
+      y: 1343
+      width: 128
+      height: 128
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
   mCoordinates: 0
   mPixelSize: 1
   mReplacement: {fileID: 0}

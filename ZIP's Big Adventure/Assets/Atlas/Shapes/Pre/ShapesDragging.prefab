@@ -1,0 +1,1192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: ShapesDragging
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 694e0e2e576ae3f4493e973318da6de5, type: 2}
+  sprites:
+  - name: Drag Acorn_End
+    outer:
+      serializedVersion: 2
+      x: 1538
+      y: 356
+      width: 180
+      height: 239
+    inner:
+      serializedVersion: 2
+      x: 1538
+      y: 356
+      width: 180
+      height: 239
+    rotated: 0
+    paddingLeft: .194444448
+    paddingRight: .216666669
+    paddingTop: .158995822
+    paddingBottom: .138075307
+  - name: Drag Acorn_End_B
+    outer:
+      serializedVersion: 2
+      x: 1131
+      y: 45
+      width: 189
+      height: 238
+    inner:
+      serializedVersion: 2
+      x: 1131
+      y: 45
+      width: 189
+      height: 238
+    rotated: 0
+    paddingLeft: .158730164
+    paddingRight: .174603179
+    paddingTop: .159663871
+    paddingBottom: .126050428
+  - name: Brown Rectangle
+    outer:
+      serializedVersion: 2
+      x: 1538
+      y: 29
+      width: 179
+      height: 115
+    inner:
+      serializedVersion: 2
+      x: 1538
+      y: 29
+      width: 179
+      height: 115
+    rotated: 0
+    paddingLeft: .178770944
+    paddingRight: .21787709
+    paddingTop: .365217388
+    paddingBottom: .426086962
+  - name: Orange Semi Circle
+    outer:
+      serializedVersion: 2
+      x: 1412
+      y: 812
+      width: 173
+      height: 52
+    inner:
+      serializedVersion: 2
+      x: 1412
+      y: 812
+      width: 173
+      height: 52
+    rotated: 0
+    paddingLeft: .115606934
+    paddingRight: .121387281
+    paddingTop: .615384638
+    paddingBottom: .961538434
+  - name: Grey Image
+    outer:
+      serializedVersion: 2
+      x: 1538
+      y: 145
+      width: 180
+      height: 210
+    inner:
+      serializedVersion: 2
+      x: 1538
+      y: 145
+      width: 180
+      height: 210
+    rotated: 0
+    paddingLeft: .205555558
+    paddingRight: .172222227
+    paddingTop: .223809525
+    paddingBottom: .100000001
+  - name: Dark Brown Triangle
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 25
+      width: 166
+      height: 59
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 25
+      width: 166
+      height: 59
+    rotated: 0
+    paddingLeft: .246987954
+    paddingRight: .234939754
+    paddingTop: .694915235
+    paddingBottom: .61016947
+  - name: Red Triangle
+    outer:
+      serializedVersion: 2
+      x: 1611
+      y: 691
+      width: 294
+      height: 110
+    inner:
+      serializedVersion: 2
+      x: 1611
+      y: 691
+      width: 294
+      height: 110
+    rotated: 0
+    paddingLeft: .129251704
+    paddingRight: .142857149
+    paddingTop: .354545444
+    paddingBottom: .427272737
+  - name: Drag Barn_End_B
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 695
+      width: 294
+      height: 286
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 695
+      width: 294
+      height: 286
+    rotated: 0
+    paddingLeft: .13945578
+    paddingRight: .132653058
+    paddingTop: .171328679
+    paddingBottom: .12937063
+  - name: Red Square
+    outer:
+      serializedVersion: 2
+      x: 1897
+      y: 448
+      width: 148
+      height: 147
+    inner:
+      serializedVersion: 2
+      x: 1897
+      y: 448
+      width: 148
+      height: 147
+    rotated: 0
+    paddingLeft: .256756753
+    paddingRight: .32432431
+    paddingTop: .210884348
+    paddingBottom: .272108853
+  - name: Drag Barn_End
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 408
+      width: 294
+      height: 286
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 408
+      width: 294
+      height: 286
+    rotated: 0
+    paddingLeft: .13945578
+    paddingRight: .13945578
+    paddingTop: .143356636
+    paddingBottom: .0874125883
+  - name: White Shape
+    outer:
+      serializedVersion: 2
+      x: 1412
+      y: 865
+      width: 286
+      height: 185
+    inner:
+      serializedVersion: 2
+      x: 1412
+      y: 865
+      width: 286
+      height: 185
+    rotated: 0
+    paddingLeft: .0769230798
+    paddingRight: .111888111
+    paddingTop: .113513514
+    paddingBottom: .248648643
+  - name: Grey Dark Barn
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 982
+      width: 294
+      height: 287
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 982
+      width: 294
+      height: 287
+    rotated: 0
+    paddingLeft: .13945578
+    paddingRight: .132653058
+    paddingTop: .125435546
+    paddingBottom: .128919855
+  - name: Yellow triangle 2
+    outer:
+      serializedVersion: 2
+      x: 953
+      y: 106
+      width: 145
+      height: 309
+    inner:
+      serializedVersion: 2
+      x: 953
+      y: 106
+      width: 145
+      height: 309
+    rotated: 0
+    paddingLeft: .393103451
+    paddingRight: .648275852
+    paddingTop: 0
+    paddingBottom: .0388349518
+  - name: Grey Butterfly
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1648
+      width: 376
+      height: 400
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1648
+      width: 376
+      height: 400
+    rotated: 0
+    paddingLeft: .167553186
+    paddingRight: .172872335
+    paddingTop: 0
+    paddingBottom: 0
+  - name: Drag Butterfly_End_B
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 85
+      width: 273
+      height: 351
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 85
+      width: 273
+      height: 351
+    rotated: 0
+    paddingLeft: .150183156
+    paddingRight: .212454215
+    paddingTop: .102564104
+    paddingBottom: .0484330468
+  - name: Drag Butterfly_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1293
+      width: 374
+      height: 354
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1293
+      width: 374
+      height: 354
+    rotated: 0
+    paddingLeft: .0481283404
+    paddingRight: .0962566808
+    paddingTop: 0
+    paddingBottom: .0706214681
+  - name: Orange Oval
+    outer:
+      serializedVersion: 2
+      x: 272
+      y: 1085
+      width: 90
+      height: 207
+    inner:
+      serializedVersion: 2
+      x: 272
+      y: 1085
+      width: 90
+      height: 207
+    rotated: 0
+    paddingLeft: .855555534
+    paddingRight: .766666651
+    paddingTop: .159420297
+    paddingBottom: .222222224
+  - name: Yellow triangle 1
+    outer:
+      serializedVersion: 2
+      x: 1392
+      y: 287
+      width: 145
+      height: 308
+    inner:
+      serializedVersion: 2
+      x: 1392
+      y: 287
+      width: 145
+      height: 308
+    rotated: 0
+    paddingLeft: .779310346
+    paddingRight: .344827592
+    paddingTop: .0746753216
+    paddingBottom: .0746753216
+  - name: Orange Triangle
+    outer:
+      serializedVersion: 2
+      x: 1906
+      y: 623
+      width: 113
+      height: 178
+    inner:
+      serializedVersion: 2
+      x: 1906
+      y: 623
+      width: 113
+      height: 178
+    rotated: 0
+    paddingLeft: .274336278
+    paddingRight: .14159292
+    paddingTop: .174157307
+    paddingBottom: .129213482
+  - name: Drag carrot_End_B
+    outer:
+      serializedVersion: 2
+      x: 836
+      y: 124
+      width: 113
+      height: 283
+    inner:
+      serializedVersion: 2
+      x: 836
+      y: 124
+      width: 113
+      height: 283
+    rotated: 0
+    paddingLeft: .584070802
+    paddingRight: .469026536
+    paddingTop: .130742043
+    paddingBottom: .148409888
+  - name: Grey Carrot
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 156
+      width: 113
+      height: 284
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 156
+      width: 113
+      height: 284
+    rotated: 0
+    paddingLeft: .389380544
+    paddingRight: .380530983
+    paddingTop: .112676054
+    paddingBottom: .140845075
+  - name: Drag carrot_End
+    outer:
+      serializedVersion: 2
+      x: 1392
+      y: 3
+      width: 113
+      height: 283
+    inner:
+      serializedVersion: 2
+      x: 1392
+      y: 3
+      width: 113
+      height: 283
+    rotated: 0
+    paddingLeft: .495575219
+    paddingRight: .415929198
+    paddingTop: .11660777
+    paddingBottom: .0989399329
+  - name: Green Triangle
+    outer:
+      serializedVersion: 2
+      x: 272
+      y: 869
+      width: 72
+      height: 111
+    inner:
+      serializedVersion: 2
+      x: 272
+      y: 869
+      width: 72
+      height: 111
+    rotated: 0
+    paddingLeft: .541666687
+    paddingRight: .597222209
+    paddingTop: .441441447
+    paddingBottom: .414414406
+  - name: Drag Flower_End_B
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 867
+      width: 271
+      height: 425
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 867
+      width: 271
+      height: 425
+    rotated: 0
+    paddingLeft: .107011072
+    paddingRight: .125461251
+    paddingTop: .0588235296
+    paddingBottom: .0470588244
+  - name: Green rhombus_B
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 84
+      width: 113
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 84
+      width: 113
+      height: 71
+    rotated: 0
+    paddingLeft: .265486717
+    paddingRight: .256637156
+    paddingTop: .478873253
+    paddingBottom: .492957741
+  - name: Drag Flower_End
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 441
+      width: 271
+      height: 425
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 441
+      width: 271
+      height: 425
+    rotated: 0
+    paddingLeft: .121771216
+    paddingRight: .118081182
+    paddingTop: .0729411766
+    paddingBottom: .0423529409
+  - name: Green rhombus
+    outer:
+      serializedVersion: 2
+      x: 260
+      y: 12
+      width: 113
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 260
+      y: 12
+      width: 113
+      height: 71
+    rotated: 0
+    paddingLeft: .327433616
+    paddingRight: .336283177
+    paddingTop: .774647892
+    paddingBottom: .676056325
+  - name: Dark Green rectangle
+    outer:
+      serializedVersion: 2
+      x: 272
+      y: 545
+      width: 21
+      height: 222
+    inner:
+      serializedVersion: 2
+      x: 272
+      y: 545
+      width: 21
+      height: 222
+    rotated: 0
+    paddingLeft: 1.52380955
+    paddingRight: 1.90476191
+    paddingTop: .135135129
+    paddingBottom: .0495495498
+  - name: Gray Flower
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 13
+      width: 259
+      height: 427
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 13
+      width: 259
+      height: 427
+    rotated: 0
+    paddingLeft: .181467175
+    paddingRight: .15444015
+    paddingTop: .110070258
+    paddingBottom: .0468384065
+  - name: Yellow Circle
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 710
+      width: 65
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 710
+      width: 65
+      height: 57
+    rotated: 0
+    paddingLeft: .400000006
+    paddingRight: .476923078
+    paddingTop: .333333343
+    paddingBottom: .631578922
+  - name: Pink Shape
+    outer:
+      serializedVersion: 2
+      x: 1817
+      y: 1065
+      width: 221
+      height: 204
+    inner:
+      serializedVersion: 2
+      x: 1817
+      y: 1065
+      width: 221
+      height: 204
+    rotated: 0
+    paddingLeft: .15384616
+    paddingRight: .158371046
+    paddingTop: .215686277
+    paddingBottom: .186274514
+  - name: Gray Ice Cream
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 8
+      width: 177
+      height: 399
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 8
+      width: 177
+      height: 399
+    rotated: 0
+    paddingLeft: .288135588
+    paddingRight: .203389823
+    paddingTop: .0726817027
+    paddingBottom: 0
+  - name: White Circle
+    outer:
+      serializedVersion: 2
+      x: 272
+      y: 981
+      width: 104
+      height: 103
+    inner:
+      serializedVersion: 2
+      x: 272
+      y: 981
+      width: 104
+      height: 103
+    rotated: 0
+    paddingLeft: .298076928
+    paddingRight: .326923072
+    paddingTop: .233009711
+    paddingBottom: .184466019
+  - name: Drag Ice Cream_End_B
+    outer:
+      serializedVersion: 2
+      x: 953
+      y: 416
+      width: 177
+      height: 418
+    inner:
+      serializedVersion: 2
+      x: 953
+      y: 416
+      width: 177
+      height: 418
+    rotated: 0
+    paddingLeft: .310734451
+    paddingRight: .271186441
+    paddingTop: .0813397095
+    paddingBottom: 0
+  - name: Orange Ice Cream Triangle
+    outer:
+      serializedVersion: 2
+      x: 1719
+      y: 380
+      width: 177
+      height: 215
+    inner:
+      serializedVersion: 2
+      x: 1719
+      y: 380
+      width: 177
+      height: 215
+    rotated: 0
+    paddingLeft: .327683628
+    paddingRight: .271186441
+    paddingTop: .297674417
+    paddingBottom: .195348844
+  - name: Drag Ice Cream_End
+    outer:
+      serializedVersion: 2
+      x: 953
+      y: 835
+      width: 177
+      height: 434
+    inner:
+      serializedVersion: 2
+      x: 953
+      y: 835
+      width: 177
+      height: 434
+    rotated: 0
+    paddingLeft: .276836157
+    paddingRight: .25988701
+    paddingTop: .0783410147
+    paddingBottom: 0
+  - name: Pink Semi Circle
+    outer:
+      serializedVersion: 2
+      x: 953
+      y: 7
+      width: 163
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 953
+      y: 7
+      width: 163
+      height: 98
+    rotated: 0
+    paddingLeft: .312883437
+    paddingRight: .423312873
+    paddingTop: .489795923
+    paddingBottom: .53061223
+  - name: Orange Circle
+    outer:
+      serializedVersion: 2
+      x: 294
+      y: 654
+      width: 67
+      height: 55
+    inner:
+      serializedVersion: 2
+      x: 294
+      y: 654
+      width: 67
+      height: 55
+    rotated: 0
+    paddingLeft: .432835817
+    paddingRight: .417910457
+    paddingTop: .345454544
+    paddingBottom: .618181825
+  - name: Drag Orange Tree_End
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 1139
+      width: 280
+      height: 350
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 1139
+      width: 280
+      height: 350
+    rotated: 0
+    paddingLeft: .139285713
+    paddingRight: .139285713
+    paddingTop: .0828571394
+    paddingBottom: .105714284
+  - name: Green Circle
+    outer:
+      serializedVersion: 2
+      x: 1131
+      y: 802
+      width: 280
+      height: 248
+    inner:
+      serializedVersion: 2
+      x: 1131
+      y: 802
+      width: 280
+      height: 248
+    rotated: 0
+    paddingLeft: .0857142881
+    paddingRight: .107142858
+    paddingTop: .104838707
+    paddingBottom: .153225809
+  - name: Drag Orange Tree_End_B
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 437
+      width: 280
+      height: 350
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 437
+      width: 280
+      height: 350
+    rotated: 0
+    paddingLeft: .117857143
+    paddingRight: .0964285731
+    paddingTop: .100000001
+    paddingBottom: .0885714293
+  - name: Grey Orange Tree
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 788
+      width: 280
+      height: 350
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 788
+      width: 280
+      height: 350
+    rotated: 0
+    paddingLeft: .142857149
+    paddingRight: .164285719
+    paddingTop: .0885714293
+    paddingBottom: .105714284
+  - name: Brown tree Rectangle
+    outer:
+      serializedVersion: 2
+      x: 272
+      y: 768
+      width: 49
+      height: 98
+    inner:
+      serializedVersion: 2
+      x: 272
+      y: 768
+      width: 49
+      height: 98
+    rotated: 0
+    paddingLeft: .510204077
+    paddingRight: .693877578
+    paddingTop: .367346942
+    paddingBottom: .367346942
+  - name: Grey Pizza
+    outer:
+      serializedVersion: 2
+      x: 1131
+      y: 284
+      width: 260
+      height: 258
+    inner:
+      serializedVersion: 2
+      x: 1131
+      y: 284
+      width: 260
+      height: 258
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: .131782949
+    paddingBottom: .108527131
+  - name: Drag Pizza_End
+    outer:
+      serializedVersion: 2
+      x: 1131
+      y: 543
+      width: 260
+      height: 258
+    inner:
+      serializedVersion: 2
+      x: 1131
+      y: 543
+      width: 260
+      height: 258
+    rotated: 0
+    paddingLeft: .0807692334
+    paddingRight: 0
+    paddingTop: .186046511
+    paddingBottom: .100775197
+  - name: Drag Pizza_End_B
+    outer:
+      serializedVersion: 2
+      x: 1737
+      y: 1276
+      width: 260
+      height: 213
+    inner:
+      serializedVersion: 2
+      x: 1737
+      y: 1276
+      width: 260
+      height: 213
+    rotated: 0
+    paddingLeft: .0615384616
+    paddingRight: 0
+    paddingTop: .262910783
+    paddingBottom: .089201875
+  - name: Yellow Triangle
+    outer:
+      serializedVersion: 2
+      x: 1392
+      y: 596
+      width: 218
+      height: 205
+    inner:
+      serializedVersion: 2
+      x: 1392
+      y: 596
+      width: 218
+      height: 205
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .128440365
+    paddingTop: .165853664
+    paddingBottom: .131707311
+  - name: Orange Rectangle
+    outer:
+      serializedVersion: 2
+      x: 1752
+      y: 1525
+      width: 260
+      height: 57
+    inner:
+      serializedVersion: 2
+      x: 1752
+      y: 1525
+      width: 260
+      height: 57
+    rotated: 0
+    paddingLeft: .115384616
+    paddingRight: .0769230798
+    paddingTop: 1.12280703
+    paddingBottom: .824561417
+  - name: Pink Trapezoid
+    outer:
+      serializedVersion: 2
+      x: 658
+      y: 1270
+      width: 392
+      height: 219
+    inner:
+      serializedVersion: 2
+      x: 658
+      y: 1270
+      width: 392
+      height: 219
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .068877548
+    paddingTop: .159817353
+    paddingBottom: .16438356
+  - name: Grey Purse
+    outer:
+      serializedVersion: 2
+      x: 1163
+      y: 1490
+      width: 392
+      height: 310
+    inner:
+      serializedVersion: 2
+      x: 1163
+      y: 1490
+      width: 392
+      height: 310
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0663265288
+    paddingTop: .119354837
+    paddingBottom: .0612903237
+  - name: Drag Purse_End
+    outer:
+      serializedVersion: 2
+      x: 770
+      y: 1490
+      width: 392
+      height: 310
+    inner:
+      serializedVersion: 2
+      x: 770
+      y: 1490
+      width: 392
+      height: 310
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0663265288
+    paddingTop: .0806451589
+    paddingBottom: .0677419379
+  - name: Magenta semicircle
+    outer:
+      serializedVersion: 2
+      x: 1556
+      y: 1499
+      width: 195
+      height: 83
+    inner:
+      serializedVersion: 2
+      x: 1556
+      y: 1499
+      width: 195
+      height: 83
+    rotated: 0
+    paddingLeft: .251282066
+    paddingRight: .246153846
+    paddingTop: .710843384
+    paddingBottom: .530120492
+  - name: Drag Purse_End_B
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 1490
+      width: 392
+      height: 310
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 1490
+      width: 392
+      height: 310
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0663265288
+    paddingTop: .132258058
+    paddingBottom: .0612903237
+  - name: Grey Television
+    outer:
+      serializedVersion: 2
+      x: 1131
+      y: 1051
+      width: 342
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 1131
+      y: 1051
+      width: 342
+      height: 218
+    rotated: 0
+    paddingLeft: .111111112
+    paddingRight: .0818713456
+    paddingTop: .16055046
+    paddingBottom: .123853214
+  - name: Drag television_End
+    outer:
+      serializedVersion: 2
+      x: 1394
+      y: 1271
+      width: 342
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 1394
+      y: 1271
+      width: 342
+      height: 218
+    rotated: 0
+    paddingLeft: .166666672
+    paddingRight: .0789473653
+    paddingTop: .270642191
+    paddingBottom: .169724777
+  - name: Purple Rectangle
+    outer:
+      serializedVersion: 2
+      x: 1474
+      y: 1051
+      width: 342
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 1474
+      y: 1051
+      width: 342
+      height: 218
+    rotated: 0
+    paddingLeft: .102339178
+    paddingRight: .108187132
+    paddingTop: .192660555
+    paddingBottom: .192660555
+  - name: Drag television_End_B
+    outer:
+      serializedVersion: 2
+      x: 1051
+      y: 1271
+      width: 342
+      height: 218
+    inner:
+      serializedVersion: 2
+      x: 1051
+      y: 1271
+      width: 342
+      height: 218
+    rotated: 0
+    paddingLeft: .119883038
+    paddingRight: .0906432718
+    paddingTop: .206422016
+    paddingBottom: .151376143
+  - name: Black Rectangle
+    outer:
+      serializedVersion: 2
+      x: 1699
+      y: 888
+      width: 316
+      height: 162
+    inner:
+      serializedVersion: 2
+      x: 1699
+      y: 888
+      width: 316
+      height: 162
+    rotated: 0
+    paddingLeft: 0
+    paddingRight: .0949367061
+    paddingTop: .216049388
+    paddingBottom: .22839506
+  - name: Grey Turtle
+    outer:
+      serializedVersion: 2
+      x: 1445
+      y: 1805
+      width: 532
+      height: 243
+    inner:
+      serializedVersion: 2
+      x: 1445
+      y: 1805
+      width: 532
+      height: 243
+    rotated: 0
+    paddingLeft: .0526315793
+    paddingRight: .0526315793
+    paddingTop: .148148149
+    paddingBottom: .102880657
+  - name: Drag turtle_End_B
+    outer:
+      serializedVersion: 2
+      x: 377
+      y: 1801
+      width: 533
+      height: 247
+    inner:
+      serializedVersion: 2
+      x: 377
+      y: 1801
+      width: 533
+      height: 247
+    rotated: 0
+    paddingLeft: .0656660423
+    paddingRight: .0562851764
+    paddingTop: .15384616
+    paddingBottom: .190283403
+  - name: Pink Circle
+    outer:
+      serializedVersion: 2
+      x: 1719
+      y: 243
+      width: 119
+      height: 112
+    inner:
+      serializedVersion: 2
+      x: 1719
+      y: 243
+      width: 119
+      height: 112
+    rotated: 0
+    paddingLeft: .277310938
+    paddingRight: .235294119
+    paddingTop: .241071433
+    paddingBottom: .330357134
+  - name: Drag turtle_End
+    outer:
+      serializedVersion: 2
+      x: 911
+      y: 1805
+      width: 533
+      height: 243
+    inner:
+      serializedVersion: 2
+      x: 911
+      y: 1805
+      width: 533
+      height: 243
+    rotated: 0
+    paddingLeft: .0919324607
+    paddingRight: .0562851764
+    paddingTop: .115226336
+    paddingBottom: .144032925
+  - name: Purple Semicircle
+    outer:
+      serializedVersion: 2
+      x: 1556
+      y: 1583
+      width: 426
+      height: 217
+    inner:
+      serializedVersion: 2
+      x: 1556
+      y: 1583
+      width: 426
+      height: 217
+    rotated: 0
+    paddingLeft: .0821596235
+    paddingRight: .117370889
+    paddingTop: .230414748
+    paddingBottom: .235023037
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

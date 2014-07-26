@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Moneyball\moneyball\Assets\Testing\AnimTest.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Menus\ButtonContent.cs">
     <Files>
-      <File FileName="..\..\..\Moneyball\moneyball\Assets\Testing\AnimTest.cs" Line="7" Column="16" />
+      <File FileName="Assets\Scripts\Menus\ButtonContent.cs" Line="13" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
