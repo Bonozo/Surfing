@@ -3,7 +3,7 @@ using System.Collections;
 
 public class LevelTraceThePath : ZIPTrace {
 	
-	public GameObject area;
+	public GameObject shakeTransform;
 	public Trace trace;
 
 	public override void StartGame ()
@@ -22,11 +22,13 @@ public class LevelTraceThePath : ZIPTrace {
 	IEnumerator HappyEnd()
 	{
 		GameController.Instance.PlayCorrectAnswer ();
-		iTween.ShakeRotation (area, new Vector3 (0f, 0f, 1.33f), 1f);
+		if(shakeTransform != null)
+			iTween.ShakeRotation (shakeTransform, new Vector3 (0f, 0f, 1.33f), 1f);
 		yield return new WaitForSeconds(1f);
 		gameBlock.path.OneStepGo();
 		yield return new WaitForSeconds(0.5f);
-		iTween.ShakeRotation (area, new Vector3 (0f, 0f, 1.11f), 1f);
+		if(shakeTransform != null)
+			iTween.ShakeRotation (shakeTransform, new Vector3 (0f, 0f, 1.11f), 1f);
 		yield return new WaitForSeconds(4.5f);
 		gameBlock.LevelComplete ();
 	}

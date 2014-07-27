@@ -52,8 +52,6 @@ public class GameBlock : MonoBehaviour {
 
 			Randomize(levels,10);
 			Randomize(must,10);
-			Debug.Log("total levels: " + levels.Count);
-			Debug.Log("must levels: " + must.Count);
 
 			// Determining final games
 			level = new ZIPLevel[7];

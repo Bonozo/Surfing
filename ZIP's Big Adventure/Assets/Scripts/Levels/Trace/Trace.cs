@@ -72,19 +72,18 @@ public class Trace : MonoBehaviour {
 
 	public int editorDepth = 6;
 	public Color editorColor;
-	//public UIAtlas editorAtlas;
+	public UIAtlas editorAtlas;
 	public void IndexEditor()
 	{
 		for(int i=0;i<transform.childCount;i++)
 		{
-			if(transform.GetChild(i).GetComponent<TraceElement>().isElem) continue;
-			transform.GetChild(i).name = "elem" + (i+1);
-			transform.GetChild(i).GetComponent<UISprite>().spriteName = spriteName;
+			bool iselem = transform.GetChild(i).GetComponent<TraceElement>().isElem;
+			if(!iselem) transform.GetChild(i).name = "elem" + (i+1);
+			if(!iselem) transform.GetChild(i).GetComponent<UISprite>().spriteName = spriteName;
 			transform.GetChild(i).GetComponent<TraceElement>().index=i+1;
 			transform.GetChild(i).GetComponent<UISprite>().depth = editorDepth;
-			transform.GetChild(i).GetComponent<UISprite>().color = editorColor;
-			
-			//transform.GetChild(i).GetComponent<UISprite>().atlas = editorAtlas;
+			if(!iselem) transform.GetChild(i).GetComponent<UISprite>().color = editorColor;
+			if(!iselem) transform.GetChild(i).GetComponent<UISprite>().atlas = editorAtlas;
 		}
 	}
 
