@@ -304,4 +304,10 @@ public class LevelJumble : ZIPLevel {
 	}
 	*/
 	#endregion
+
+	public void Initialize(){
+		var par = drags [0].transform.parent;
+		par.transform.localScale = new Vector3 (1.5f, 1.5f, 1f);
+		par.GetComponent<EndItemScaleTo> ().duration = 16f;
+	}
 }
