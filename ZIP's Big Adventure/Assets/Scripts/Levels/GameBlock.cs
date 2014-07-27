@@ -26,29 +26,44 @@ public class GameBlock : MonoBehaviour {
 		
 			// Prepare and choose random games
 			List<ZIPLevel> levels = new List<ZIPLevel>();
-			foreach(Transform group in allgames.transform)
-				foreach(Transform single in group)
+			List<ZIPLevel> must = new List<ZIPLevel>();
+			List<ZIPLevel> local = new List<ZIPLevel>();
+			foreach(Transform group in allgames.transform){
+				local.Clear();
+				foreach(Transform single in group){
 					if(single.GetComponent<ZIPLevel>() != null)
 					{
 						single.GetComponent<ZIPLevel>().gameBlock = this;
 						levels.Add(single.GetComponent<ZIPLevel>());
+						local.Add(single.GetComponent<ZIPLevel>());
 					}
+				}
+
+				// Adding minimum 2 games for each type
+				Randomize(local,10);
+				if(local.Count>0) { must.Add(local[0]); levels.Remove(local[0]); }
+				if(local.Count>1) { must.Add(local[1]); levels.Remove(local[1]); }
+			}
 
 			if(levels.Count < level.Length){
 				Debug.Log("There is no enought levels.");
 				return;
 			}
 
-			for (int i = 0; i < levels.Count; i++) {
-				var temp = levels[i];
-				int randomIndex = Random.Range(i, levels.Count);
-				levels[i] = levels[randomIndex];
-				levels[randomIndex] = temp;
-			}
+			Randomize(levels,10);
+			Randomize(must,10);
+			Debug.Log("total levels: " + levels.Count);
+			Debug.Log("must levels: " + must.Count);
 
+			// Determining final games
 			level = new ZIPLevel[7];
-			for(int i=0;i<level.Length;i++)
-				level[i] = levels[i];
+			int c = 0;
+			while(c<level.Length&&c<must.Count){
+				level[c] = must[c];
+				c++;
+			}
+			for(int i=0;c<level.Length;i++)
+				level[c++] = levels[i];
 
 			// Start game
 			StartCoroutine(StartGame());
@@ -56,6 +71,17 @@ public class GameBlock : MonoBehaviour {
 		}
 
 		StartCoroutine(StartGame());
+	}
+
+	private void Randomize(List<ZIPLevel> games,int times){
+		while(times--!=0){
+			for (int i = 0; i < games.Count; i++) {
+				var temp = games[i];
+				int randomIndex = Random.Range(i, games.Count);
+				games[i] = games[randomIndex];
+				games[randomIndex] = temp;
+			}
+		}
 	}
 
 	IEnumerator StartGame()
