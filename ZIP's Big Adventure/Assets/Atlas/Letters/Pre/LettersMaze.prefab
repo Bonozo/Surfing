@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: LettersMaze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 9bbb0158f9253d74bb6a6fcad0bf28ea, type: 2}
+  sprites:
+  - name: Honey Maze
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1468
+      width: 1022
+      height: 580
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1468
+      width: 1022
+      height: 580
+    rotated: 0
+    paddingLeft: .00195694715
+    paddingRight: 0
+    paddingTop: .0448275879
+    paddingBottom: .0137931034
+  - name: R
+    outer:
+      serializedVersion: 2
+      x: 126
+      y: 812
+      width: 59
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 126
+      y: 812
+      width: 59
+      height: 71
+    rotated: 0
+    paddingLeft: .61016947
+    paddingRight: .762711883
+    paddingTop: .366197169
+    paddingBottom: .380281687
+  - name: Q
+    outer:
+      serializedVersion: 2
+      x: 153
+      y: 960
+      width: 69
+      height: 66
+    inner:
+      serializedVersion: 2
+      x: 153
+      y: 960
+      width: 69
+      height: 66
+    rotated: 0
+    paddingLeft: .289855063
+    paddingRight: .420289844
+    paddingTop: .25757575
+    paddingBottom: .439393938
+  - name: S
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 800
+      width: 55
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 800
+      width: 55
+      height: 77
+    rotated: 0
+    paddingLeft: .381818175
+    paddingRight: .545454562
+    paddingTop: .285714298
+    paddingBottom: .298701286
+  - name: P
+    outer:
+      serializedVersion: 2
+      x: 186
+      y: 809
+      width: 52
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 186
+      y: 809
+      width: 52
+      height: 69
+    rotated: 0
+    paddingLeft: .480769217
+    paddingRight: .519230783
+    paddingTop: .289855063
+    paddingBottom: .304347813
+  - name: Marty Maze
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 1027
+      width: 999
+      height: 440
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 1027
+      width: 999
+      height: 440
+    rotated: 0
+    paddingLeft: .0120120123
+    paddingRight: .0130130127
+    paddingTop: .0318181813
+    paddingBottom: .0022727272
+  - name: Kristy Maze
+    outer:
+      serializedVersion: 2
+      x: 1023
+      y: 1470
+      width: 1006
+      height: 578
+    inner:
+      serializedVersion: 2
+      x: 1023
+      y: 1470
+      width: 1006
+      height: 578
+    rotated: 0
+    paddingLeft: .00198807148
+    paddingRight: .0159045719
+    paddingTop: .0276816618
+    paddingBottom: .00865051895
+  - name: Lucky Maze
+    outer:
+      serializedVersion: 2
+      x: 1023
+      y: 919
+      width: 993
+      height: 550
+    inner:
+      serializedVersion: 2
+      x: 1023
+      y: 919
+      width: 993
+      height: 550
+    rotated: 0
+    paddingLeft: .00201409869
+    paddingRight: .0292044319
+    paddingTop: .0199999996
+    paddingBottom: .0254545454
+  - name: M
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 952
+      width: 85
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 952
+      width: 85
+      height: 74
+    rotated: 0
+    paddingLeft: .270588249
+    paddingRight: .376470596
+    paddingTop: .486486495
+    paddingBottom: .32432431
+  - name: N
+    outer:
+      serializedVersion: 2
+      x: 86
+      y: 947
+      width: 66
+      height: 79
+    inner:
+      serializedVersion: 2
+      x: 86
+      y: 947
+      width: 66
+      height: 79
+    rotated: 0
+    paddingLeft: .378787875
+    paddingRight: .530303001
+    paddingTop: .341772139
+    paddingBottom: .25316456
+  - name: E
+    outer:
+      serializedVersion: 2
+      x: 269
+      y: 874
+      width: 48
+      height: 77
+    inner:
+      serializedVersion: 2
+      x: 269
+      y: 874
+      width: 48
+      height: 77
+    rotated: 0
+    paddingLeft: .666666687
+    paddingRight: .791666687
+    paddingTop: .480519474
+    paddingBottom: .233766228
+  - name: D
+    outer:
+      serializedVersion: 2
+      x: 212
+      y: 879
+      width: 56
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 212
+      y: 879
+      width: 56
+      height: 75
+    rotated: 0
+    paddingLeft: .517857134
+    paddingRight: .625
+    paddingTop: .373333335
+    paddingBottom: .280000001
+  - name: G
+    outer:
+      serializedVersion: 2
+      x: 65
+      y: 875
+      width: 60
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 65
+      y: 875
+      width: 60
+      height: 71
+    rotated: 0
+    paddingLeft: .433333337
+    paddingRight: .633333325
+    paddingTop: .309859157
+    paddingBottom: .352112681
+  - name: B
+    outer:
+      serializedVersion: 2
+      x: 153
+      y: 884
+      width: 58
+      height: 75
+    inner:
+      serializedVersion: 2
+      x: 153
+      y: 884
+      width: 58
+      height: 75
+    rotated: 0
+    paddingLeft: .534482777
+    paddingRight: .465517253
+    paddingTop: .333333343
+    paddingBottom: .346666664
+  - name: L
+    outer:
+      serializedVersion: 2
+      x: 286
+      y: 952
+      width: 57
+      height: 74
+    inner:
+      serializedVersion: 2
+      x: 286
+      y: 952
+      width: 57
+      height: 74
+    rotated: 0
+    paddingLeft: .526315808
+    paddingRight: .543859661
+    paddingTop: .283783793
+    paddingBottom: .364864856
+  - name: F
+    outer:
+      serializedVersion: 2
+      x: 344
+      y: 950
+      width: 50
+      height: 76
+    inner:
+      serializedVersion: 2
+      x: 344
+      y: 950
+      width: 50
+      height: 76
+    rotated: 0
+    paddingLeft: .620000005
+    paddingRight: .660000026
+    paddingTop: .355263144
+    paddingBottom: .223684207
+  - name: C
+    outer:
+      serializedVersion: 2
+      x: 56
+      y: 805
+      width: 57
+      height: 69
+    inner:
+      serializedVersion: 2
+      x: 56
+      y: 805
+      width: 57
+      height: 69
+    rotated: 0
+    paddingLeft: .438596487
+    paddingRight: .491228074
+    paddingTop: .449275374
+    paddingBottom: .347826093
+  - name: A
+    outer:
+      serializedVersion: 2
+      x: 0
+      y: 878
+      width: 64
+      height: 73
+    inner:
+      serializedVersion: 2
+      x: 0
+      y: 878
+      width: 64
+      height: 73
+    rotated: 0
+    paddingLeft: .25
+    paddingRight: .328125
+    paddingTop: .287671238
+    paddingBottom: .383561641
+  - name: O
+    outer:
+      serializedVersion: 2
+      x: 223
+      y: 955
+      width: 62
+      height: 71
+    inner:
+      serializedVersion: 2
+      x: 223
+      y: 955
+      width: 62
+      height: 71
+    rotated: 0
+    paddingLeft: .306451619
+    paddingRight: .467741936
+    paddingTop: .28169015
+    paddingBottom: .267605633
+  mCoordinates: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
