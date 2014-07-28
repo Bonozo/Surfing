@@ -13,6 +13,8 @@ public class JumbleDrag : MonoBehaviour {
 	private float distanceModeDistance =125f;
 	private Vector3 initialPosition;
 	private float dragTime;
+
+	public bool Completed{ get; private set; }
 	
 	void Awake()
 	{
@@ -32,6 +34,7 @@ public class JumbleDrag : MonoBehaviour {
 		if(initialPosition == Vector3.zero)
 			initialPosition = transform.localPosition;
 		transform.localPosition = initialPosition;
+		Completed = false;
 		dragTime = 0.5f;
 		collider.enabled = true;
 		foreach(var col in targetCollider)
@@ -94,6 +97,7 @@ public class JumbleDrag : MonoBehaviour {
 
 	IEnumerator HappyEnd(Collider col)
 	{
+		Completed = true;
 		GameController.Instance.PlayCorrectAnswer();
 		level.DragComplete (this);
 		DisableCollider ();
