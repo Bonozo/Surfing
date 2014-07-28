@@ -6,6 +6,7 @@ public class LevelPath : MonoBehaviour {
 	public int totalSteps;
 	public string pathName;
 	public float onePathReachTime=4f;
+	public Transform stars;
 	public GameObject zip;
 	public UIAnimation zipAnimation;
 	public UIAnimation mooseAnimation;
@@ -78,6 +79,7 @@ public class LevelPath : MonoBehaviour {
 			// Start animations
 			zipAnimation.Play();
 			mooseAnimation.Play();
+			StartCoroutine("RotateStart",stars.FindChild("star" + step));
 
 			yield return new WaitForSeconds(moveDelay);
 
@@ -90,8 +92,17 @@ public class LevelPath : MonoBehaviour {
 			// Stoping animations
 			zipAnimation.Pause();
 			mooseAnimation.Pause();
+			StopCoroutine("RotateStart");
 
 			ismoving = false;
+		}
+	}
+
+	public float rotateSpeed = 100f;
+	IEnumerator RotateStart(Transform t){
+		while(true){
+			t.Rotate(0f,0f,1000f);
+			yield return null;
 		}
 	}
 
