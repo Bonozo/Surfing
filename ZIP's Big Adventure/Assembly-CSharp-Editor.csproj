@@ -86,6 +86,7 @@
      <Compile Include="Assets\Scripts\Editor\GameBlockEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\LevelJumbleEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\LevelPathEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\LevelPictureWithWordsEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\LevelRightAnswerEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\LevelRightSequenceButtonEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\LevelWhatIsNextEditor.cs" />
