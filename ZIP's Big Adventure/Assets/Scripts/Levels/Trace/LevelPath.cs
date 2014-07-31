@@ -79,7 +79,8 @@ public class LevelPath : MonoBehaviour {
 			// Start animations
 			zipAnimation.Play();
 			mooseAnimation.Play();
-			StartCoroutine("RotateStart",stars.FindChild("star" + step));
+			for(int i=0;i<8;i++)
+				StartCoroutine("RotateStart",stars.FindChild("star" + i));
 
 			yield return new WaitForSeconds(moveDelay);
 
@@ -97,11 +98,11 @@ public class LevelPath : MonoBehaviour {
 			ismoving = false;
 		}
 	}
-
-	public float rotateSpeed = 100f;
+	
 	IEnumerator RotateStart(Transform t){
+		float speed = Random.Range(300f,600f);
 		while(true){
-			t.Rotate(0f,0f,1000f);
+			t.Rotate(0f,0f,-speed*Time.deltaTime);
 			yield return null;
 		}
 	}

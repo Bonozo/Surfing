@@ -11,5 +11,4 @@ public class LevelRightAnswerEditor : Editor {
 		if(GUILayout.Button("Initialize"))
 			((LevelRightAnswer)target).Initialize();
 	}
-}
-*/
+}*/

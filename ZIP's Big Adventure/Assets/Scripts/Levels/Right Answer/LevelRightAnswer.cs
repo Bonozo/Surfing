@@ -42,235 +42,43 @@ public class LevelRightAnswer : ZIPLevel {
 		gameBlock.LevelComplete ();
 	}
 
-	#region Editor Basic
-	
-	/*public int number1, number2, answer1, answer2, answer3,rightanswrindex;
-	public UISprite sp1, sp2, ans1, ans2, rightans;
-	
+	#region Editor
 
-	
-	public void Initialize()
-	{
-		Vector3 cc1 = new Vector3 (410, 379, 0);
-		Vector3 cc2 = new Vector3 (410, 179, 0);
-		Vector3 cc3 = new Vector3 (410, -26, 0);
+	public void Initialize(){
+		var g = transform.FindChild ("Game");
 
-		transform.localPosition = new Vector3 (0, 0, 0);
-		transform.localScale = new Vector3 (1, 1, 1);
-		sp1.spriteName = "" + number1;
-		sp1.type = UISprite.Type.Simple;
-		sp1.MakePixelPerfect ();
-		sp1.type = UISprite.Type.Sliced;
-		sp2.spriteName = "" + number2;
-		sp2.type = UISprite.Type.Simple;
-		sp2.MakePixelPerfect ();
-		sp2.type = UISprite.Type.Sliced;
-		
-		int idd = 0;
-		if(rightanswrindex==1)
-		{
-			idd = answer1;
-			rightans.spriteName = "Circle"+answer1;
-			rightans.transform.localPosition = cc1;
-			ans1.spriteName = "Circle"+answer2;
-			ans1.transform.localPosition = cc2;
-			ans2.spriteName= "Circle"+answer3;
-			ans2.transform.localPosition = cc3;
-		}
-		if(rightanswrindex==2)
-		{
-			idd = answer2;
-			rightans.spriteName = "Circle"+answer2;
-			rightans.transform.localPosition = cc2;
-			ans1.spriteName = "Circle"+answer1;
-			ans1.transform.localPosition = cc1;
-			ans2.spriteName= "Circle"+answer3;
-			ans2.transform.localPosition = cc3;
-		}
-		if(rightanswrindex==3)
-		{
-			idd = answer3;
-			rightans.spriteName = "Circle"+answer3;
-			rightans.transform.localPosition = cc3;
-			ans1.spriteName = "Circle"+answer1;
-			ans1.transform.localPosition = cc1;
-			ans2.spriteName= "Circle"+answer2;
-			ans2.transform.localPosition = cc2;
-		}
-		
-		rightans.GetComponent<EndItemChangeTexture> ().newSpriteName = "star" + idd;
-		gameBlock.level [0] = this;
+		float xT = 90f;
 
-	}*/
+		g.Find("box").GetComponent<UISprite>().depth = 2;
 
-	#endregion
+		//XX (g.transform.Find ("number1"), xT);
 
-	#region Editor Fraction
+		/* float delta1 = 250f;
+		 float delta2 = 750f;
+		 float delta3 = -120;
 
-	/*public int answer1, answer2, answer3,rightanswrindex;
-	public UISprite ans1, ans2, rightans;
-	
+		Add (g.FindChild ("text1"), delta1);
+		Add (g.FindChild ("number1"), delta1);
 
-	
-	public void Initialize()
-	{
-		Vector3 cc1 = new Vector3 (-416, 0, 0);
-		Vector3 cc2 = new Vector3 (0, 0, 0);
-		Vector3 cc3 = new Vector3 (416, 0, 0);
-
-		transform.localPosition = new Vector3 (0, 0, 0);
-		transform.localScale = new Vector3 (1, 1, 1);
+		Add (g.Find("answers"),delta2);
+		Add (g.Find("text2"),delta2);
+		Add (g.Find("number2"),delta2);
 		
-		int idd = 0;
-		if(rightanswrindex==1)
-		{
-			idd = answer1;
-			//rightans.spriteName = ""+answer1;
-			rightans.transform.localPosition = cc1;
-			//ans1.spriteName = ""+answer2;
-			ans1.transform.localPosition = cc2;
-			//ans2.spriteName= ""+answer3;
-			ans2.transform.localPosition = cc3;
-		}
-		if(rightanswrindex==2)
-		{
-			idd = answer2;
-			//rightans.spriteName = ""+answer2;
-			rightans.transform.localPosition = cc2;
-			//ans1.spriteName = ""+answer1;
-			ans1.transform.localPosition = cc1;
-			//ans2.spriteName= ""+answer3;
-			ans2.transform.localPosition = cc3;
-		}
-		if(rightanswrindex==3)
-		{
-			idd = answer3;
-			//rightans.spriteName = ""+answer3;
-			rightans.transform.localPosition = cc3;
-			//ans1.spriteName = ""+answer1;
-			ans1.transform.localPosition = cc1;
-			//ans2.spriteName= ""+answer2;
-			ans2.transform.localPosition = cc2;
-		}
-		
-		//rightans.GetComponent<EndItemChangeTexture> ().newSpriteName = "star" + idd;
-		gameBlock.level [0] = this;
-
-	}*/
-	
-	#endregion
-
-	#region Editor Point
-	
-	//public string answer1, answer2, answer3;
-	/*public int rightanswrindex;
-	public int howmany;
-	public UISprite ans1, ans2, rightans;
-	public UISprite[] hms;
-	public EndItemList shapes;
-	public GameObject shapeX;
-	
-	public void Initialize()
-	{
-		if(transform.FindChild ("Game").FindChild ("_begin") != null)
-			DestroyImmediate(transform.FindChild ("Game").FindChild ("_begin").gameObject);
-		return;
-
-		//ans1.GetComponent<BoxCollider> ().size = new Vector3 (2f, 1.5f, 1f);
-		//ans2.GetComponent<BoxCollider> ().size = new Vector3 (2f, 1.5f, 1f);
-		//rightans.GetComponent<BoxCollider> ().size = new Vector3 (2f, 1.5f, 1f);
-		
-		transform.localPosition = new Vector3 (0, 0, 0);
-		transform.localScale = new Vector3 (1, 1, 1);
-		
-		Vector3 cc1 = new Vector3 (0, -390, 0);
-		Vector3 cc2 = new Vector3 (175, -390, 0);
-		Vector3 cc3 = new Vector3 (350, -390, 0);
-		
-		//int idd = 0;
-		if(rightanswrindex==1)
-		{
-			//idd = answer1;
-			//rightans.spriteName = ""+answer1;
-			rightans.transform.localPosition = cc1;
-			//ans1.spriteName = ""+answer2;
-			ans1.transform.localPosition = cc2;
-			//ans2.spriteName= ""+answer3;
-			ans2.transform.localPosition = cc3;
-		}
-		if(rightanswrindex==2)
-		{
-			//idd = answer2;
-			//rightans.spriteName = ""+answer2;
-			rightans.transform.localPosition = cc2;
-			//ans1.spriteName = ""+answer1;
-			ans1.transform.localPosition = cc1;
-			//ans2.spriteName= ""+answer3;
-			ans2.transform.localPosition = cc3;
-		}
-		if(rightanswrindex==3)
-		{
-			//idd = answer3;
-			//rightans.spriteName = ""+answer3;
-			rightans.transform.localPosition = cc3;
-			//ans1.spriteName = ""+answer1;
-			ans1.transform.localPosition = cc1;
-			//ans2.spriteName= ""+answer2;
-			ans2.transform.localPosition = cc2;
-		}
-		
-		proc (ans1);
-		proc (ans2);
-		proc (rightans);
-		
-		gameBlock.level [0] = this;
-		
-		foreach (var v in hms)
-		{
-			v.spriteName = "" + howmany;
-			v.MakePixelPerfect();
-		}
-		
-		
-		foreach(Transform item in shapes.transform)
-		{
-			if(item.GetComponent<EndItemColor>() != null)
-				DestroyImmediate(item.GetComponent<EndItemColor>());
-			if(item.GetComponent<EndItemChangeTexture>() != null)
-				DestroyImmediate(item.GetComponent<EndItemChangeTexture>());
-
-			item.GetComponent<UISprite>().MakePixelPerfect();
-			if(item.name == "shape" && item.GetComponent<UISprite>().spriteName != rightans.spriteName)
-			{
-				item.gameObject.AddComponent<EndItemColor>();
-				item.gameObject.GetComponent<EndItemColor>().to = new Color(1f,1f,1f,0f);
-				item.gameObject.GetComponent<EndItemColor>().duration = 1f;
-				item.gameObject.GetComponent<EndItemColor>().delay = 0.0f;
-			}
-			
-			if(item.name == "shapeX")
-			{
-				item.gameObject.AddComponent<EndItemColor>();
-				item.gameObject.GetComponent<EndItemColor>().to = new Color(1f,1f,1f,1f);
-				item.gameObject.GetComponent<EndItemColor>().duration = 1f;
-				item.gameObject.GetComponent<EndItemColor>().delay = 0.0f;
-				item.GetComponent<UISprite>().color = new Color(1f,1f,1f,1f- item.GetComponent<UISprite>().color.a);
-			}
-		}
-		shapes.EditorAddChilds ();
-		
-		shapeX.gameObject.GetComponent<EndItemColor>().to = new Color(1f,1f,1f,1f);
-		shapeX.gameObject.GetComponent<EndItemColor>().duration = 1f;
-		shapeX.gameObject.GetComponent<EndItemColor>().delay = 0.0f;
-		shapeX.GetComponent<UISprite>().color = new Color(1f,1f,1f,1f- shapeX.GetComponent<UISprite>().color.a);
+		Add (g.Find("shapes"),delta3);
+		Add (g.Find("box"),delta3);*/
 	}
-	
-	void proc(UISprite sprite)
-	{
-		sprite.type = UISprite.Type.Simple;
-		sprite.MakePixelPerfect ();
-		sprite.type = UISprite.Type.Sliced;
-	}*/
-	
+
+	void XX(Transform t,float delta){
+		var tt = t.transform.localPosition;
+		tt.x += delta;
+		t.transform.localPosition = tt;
+	}
+
+	void Add(Transform t,float delta){
+		var tt = t.transform.localPosition;
+		tt.y += delta;
+		t.transform.localPosition = tt;
+	}
+
 	#endregion
 }
