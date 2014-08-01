@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Levels\EditorWorker.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Levels\Right Answer\LevelRightAnswer.cs">
     <Files>
-      <File FileName="Assets\Scripts\Levels\Right Answer\LevelRightAnswer.cs" Line="281" Column="3" />
-      <File FileName="Assets\Scripts\Editor\LevelRightAnswerEditor.cs" Line="1" Column="3" />
-      <File FileName="Assets\Scripts\Levels\EditorWorker.cs" Line="7" Column="3" />
+      <File FileName="Assets\Scripts\Levels\Right Answer\LevelRightAnswer.cs" Line="92" Column="20" />
+      <File FileName="Assets\Scripts\Levels\GameBlock.cs" Line="111" Column="46" />
+      <File FileName="Assets\Scripts\Other\EditorTask.cs" Line="9" Column="52" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

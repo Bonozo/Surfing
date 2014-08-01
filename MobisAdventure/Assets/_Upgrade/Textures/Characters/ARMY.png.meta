@@ -1,6 +1,7 @@
 fileFormatVersion: 2
-guid: 1acffcc2213f4024d847402f9c7dc217
+guid: e6d10646dc57d55448009b9df42657a3
 TextureImporter:
+  fileIDToRecycleName: {}
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,13 +36,14 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 0
   textureType: -1
   buildTargetSettings:
   - buildTarget: Android
     maxTextureSize: 128
-    textureFormat: -3
+    textureFormat: 4
     compressionQuality: 50
   spriteSheet:
     sprites: []
