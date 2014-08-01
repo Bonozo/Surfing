@@ -42,30 +42,30 @@ public class LevelRightAnswer : ZIPLevel {
 		gameBlock.LevelComplete ();
 	}
 
-	#region Editor
+	/*#region Editor Point Number
 
 	public void Initialize(){
-		var g = transform.FindChild ("Game");
+		//var g = transform.FindChild ("Game");
 
-		float xT = 90f;
+		//float xT = 90f;
 
-		g.Find("box").GetComponent<UISprite>().depth = 2;
+		//g.Find("box").GetComponent<UISprite>().depth = 2;
 
 		//XX (g.transform.Find ("number1"), xT);
 
-		/* float delta1 = 250f;
-		 float delta2 = 750f;
-		 float delta3 = -120;
-
-		Add (g.FindChild ("text1"), delta1);
-		Add (g.FindChild ("number1"), delta1);
-
-		Add (g.Find("answers"),delta2);
-		Add (g.Find("text2"),delta2);
-		Add (g.Find("number2"),delta2);
-		
-		Add (g.Find("shapes"),delta3);
-		Add (g.Find("box"),delta3);*/
+//		 float delta1 = 250f;
+//		 float delta2 = 750f;
+//		 float delta3 = -120;
+//
+//		Add (g.FindChild ("text1"), delta1);
+//		Add (g.FindChild ("number1"), delta1);
+//
+//		Add (g.Find("answers"),delta2);
+//		Add (g.Find("text2"),delta2);
+//		Add (g.Find("number2"),delta2);
+//		
+//		Add (g.Find("shapes"),delta3);
+//		Add (g.Find("box"),delta3);
 	}
 
 	void XX(Transform t,float delta){
@@ -80,5 +80,38 @@ public class LevelRightAnswer : ZIPLevel {
 		t.transform.localPosition = tt;
 	}
 
+	#endregion*/
+
+	#region Editor Point Number
+
+	float delta = 165f;
+
+	public void Initialize(){
+		var g = transform.FindChild ("Game");
+		g = g.FindChild ("Operation");
+		PP ("answer", g);
+		PP ("answer1", g);
+		PP ("answer2", g);
+		PP ("answer3", g);
+		PP ("answerRight", g);
+		PP ("answer1Right", g);
+		PP ("answer2Right", g);
+		PP ("answer3Right", g);
+	}
+
+	void PP(string s,Transform t){
+		var p = t.FindChild (s);
+		if (p != null) {
+			XX (p,delta);
+		}
+	}
+
+	void XX(Transform t,float delta){
+		var tt = t.transform.localPosition;
+		tt.x += delta;
+		t.transform.localPosition = tt;
+	}
+
 	#endregion
+
 }
