@@ -10,6 +10,8 @@ public class Restarter : MonoBehaviour {
 	{
 		if(GameObject.FindObjectOfType<PlayerController>() == null)
 			CreateLevel ();
+		else
+			old = GameObject.FindObjectOfType<PlayerController>().gameObject;
 	}
 
 	void Update () 

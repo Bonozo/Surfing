@@ -12,6 +12,9 @@ public class ButtonBoost : MonoBehaviour {
 		tweener = GetComponentInChildren<TweenScale> ();
 		sprite = tweener.GetComponent<UISprite> ();
 		boost = GameObject.FindObjectOfType<Boost> ();
+
+		// Set alpha to 0
+		sprite.color = new Color (1f, 1f, 1f, 0f);
 	}
 
 	void OnPress(bool isDown){

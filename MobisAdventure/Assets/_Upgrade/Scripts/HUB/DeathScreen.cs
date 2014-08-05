@@ -5,6 +5,7 @@ public class DeathScreen : MonoBehaviour {
 
 	public TweenAlpha bgAlphaTween;
 	public GameObject stats;
+	public GameObject controlsScreen;
 	public UILabel labelCause;
 	public UILabel labelStates;
 	public UILabel labelCoins;
@@ -69,6 +70,15 @@ public class DeathScreen : MonoBehaviour {
 	}
 
 	public string levelName{ get { return levelController.uiParams.levelName; } }
+
+	public void ShowMessage(string message){
+		StartCoroutine (ShowMessageAndUnpause (message));
+	}
+
+	private IEnumerator ShowMessageAndUnpause(string message){
+		yield return StartCoroutine(messageBox.Show(message));
+		Time.timeScale = 1f;
+	}
 
 	#region Static Instance
 	

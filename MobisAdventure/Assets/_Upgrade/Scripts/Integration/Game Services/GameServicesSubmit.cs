@@ -9,7 +9,7 @@ using UnityEngine.SocialPlatforms.GameCenter;
 public class GameServicesSubmit : MonoBehaviour {
 
 	#if UNITY_ANDROID
-	private string leaderboardName = "CgkIu_XOtq8QEAIQAQ";
+	private string leaderboardName = "CgkIu_XOtq8QEAIQBw";
 	#elif UNITY_IPHONE
 	private string leaderboardName = "monsterhillracing_best";
 	#endif

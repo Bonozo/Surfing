@@ -11,7 +11,7 @@ using UnityEngine.SocialPlatforms.GameCenter;
 public class LoadHighScores : MonoBehaviour {
 
 	#if UNITY_ANDROID
-	private string leaderboardName = "CgkIu_XOtq8QEAIQAQ";
+	private string leaderboardName = "CgkIu_XOtq8QEAIQBw";
 	#elif UNITY_IPHONE
 	private string leaderboardName = "monsterhillracing_best";
 	#endif
@@ -84,7 +84,7 @@ public class LoadHighScores : MonoBehaviour {
 			// Only first 30 is showed, fix this
 			for(int i=0;i<scores.Count&&i<grid.childCount;i++){
 				var profile = grid.GetChild(i);
-				profile.FindChild("Rank").GetComponent<UILabel>().text = scores[i].formattedRank + ".";
+				profile.FindChild("Rank").GetComponent<UILabel>().text = scores[i].rank + ".";
 				profile.FindChild("Score").GetComponent<UILabel>().text = scores[i].formattedScore;
 				profile.gameObject.SetActive(true);
 			}

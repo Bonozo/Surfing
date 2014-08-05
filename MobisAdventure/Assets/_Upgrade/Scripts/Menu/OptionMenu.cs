@@ -34,4 +34,11 @@ public class OptionMenu : MonoBehaviour {
 			return selected;
 		}
 	}
+
+	public OptionItem SelectedItem{
+		get{
+			if(selected==-1) selected = PlayerPrefs.GetInt(optionName,1)-1;
+			return options[selected];
+		}
+	}
 }

@@ -68,7 +68,8 @@ public class PlayerController : MonoBehaviour
 	
 	// by Aharon
 	// messing up the code that had already messed up
-	private bool tilt = false;
+	[System.NonSerialized][HideInInspector]
+	public bool tilt = false;
 	private Boost boost;
 	private Yeti yeti;
 	
@@ -109,6 +110,18 @@ public class PlayerController : MonoBehaviour
 		
 		//get start position
 		p_startPosition = transform.position;
+
+		ShowControlSelect ();
+	}
+
+	void ShowControlSelect(){
+		string pfName = "control_showed";
+		if (!PlayerPrefs.HasKey (pfName)) {
+			DeathScreen.Instance.controlsScreen.SetActive(true);
+			Time.timeScale = 0f;
+			PlayerPrefs.SetInt(pfName,1);
+			PlayerPrefs.Save();
+		}
 	}
 
 	void SetupAudio()

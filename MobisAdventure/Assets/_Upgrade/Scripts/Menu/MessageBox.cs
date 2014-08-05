@@ -38,6 +38,12 @@ public class MessageBox : MonoBehaviour {
 		gameObject.SetActive(false);
 	}
 
+	public void ShowLoading(bool status){
+		box.SetActive (false);
+		loading.SetActive (status);
+		gameObject.SetActive (status);
+	}
+
 	private bool gotOk = false;
 	public void OK()
 	{
