@@ -2,15 +2,13 @@
 using System.Collections;
 
 public class StorePurchase : MonoBehaviour {
-
-	public static bool debug = false;
-
+	
 	public int debugCoinsAdd = 0; // used in degug
 	public string iapMethod;
 
 	void OnClick()
 	{
-		if(debug){
+		if(MobiIAB.debug){
 			int coins = PlayerPrefs.GetInt("pp_coins");
 			coins += debugCoinsAdd;
 			PlayerPrefs.SetInt("pp_coins",coins);

@@ -44,6 +44,7 @@ public class Ragdoll : MonoBehaviour {
 	IEnumerator AddRigidbodies(Vector3 force)
 	{
 		yield return new WaitForSeconds(Random.Range(0.3f,0.45f));
+		PlayerController.Instance.audio.PlayOneShot(MobiAssets.Instance.clipBoneCrash,1f);
 
 		foreach(var g in newRigidbodies)
 		{

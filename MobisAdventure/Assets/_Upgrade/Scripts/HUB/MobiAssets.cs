@@ -8,6 +8,8 @@ public class MobiAssets : MonoBehaviour {
 	public AudioClip clipBoostUsage;
 
 	public AudioClip clipImpactCrash;
+	public AudioClip clipBoneCrash;
+	public AudioClip clipGameOverFailure;
 
 	#region Static Instance
 	

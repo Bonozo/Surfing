@@ -143,23 +143,33 @@ public class PowerupMenu : MonoBehaviour {
 	IEnumerator BuySpecialOffer(){
 		string purchaseName = neededCoins>25000?"mobisrun_offer199":"mobisrun_offer099";
 
-		yield return StartCoroutine (MainMenu.Instance.messagebox.ConnectToIAP ());
-		if(MobiIAB.Instance.Connected){
-			MainMenu.Instance.messagebox.ShowLoading (true);
-
-			IAP.purchaseConsumableProduct( purchaseName, ( didSucceed, error ) => {
-				if( !didSucceed ){
-					MainMenu.Instance.messagebox.ShowLoading(false);
-					MainMenu.Instance.messagebox.Show("Failed to purchase!");
-				} else{
-					MainMenu.Instance.messagebox.ShowLoading(false);
-					int coins = PlayerPrefs.GetInt("pp_coins");
-					coins += neededCoins;
-					PlayerPrefs.SetInt("pp_coins",coins);
-					PlayerPrefs.Save();
-					RefreshWindow();
-				}
-			});
+		if(MobiIAB.debug){
+			MainMenu.Instance.messagebox.ShowLoading(false);
+			int coins = PlayerPrefs.GetInt("pp_coins");
+			coins += neededCoins;
+			PlayerPrefs.SetInt("pp_coins",coins);
+			PlayerPrefs.Save();
+			RefreshWindow();
+		}
+		else{
+			yield return StartCoroutine (MainMenu.Instance.messagebox.ConnectToIAP ());
+			if(MobiIAB.Instance.Connected){
+				MainMenu.Instance.messagebox.ShowLoading (true);
+				
+				IAP.purchaseConsumableProduct( purchaseName, ( didSucceed, error ) => {
+					if( !didSucceed ){
+						MainMenu.Instance.messagebox.ShowLoading(false);
+						MainMenu.Instance.messagebox.Show("Failed to purchase!");
+					} else{
+						MainMenu.Instance.messagebox.ShowLoading(false);
+						int coins = PlayerPrefs.GetInt("pp_coins");
+						coins += neededCoins;
+						PlayerPrefs.SetInt("pp_coins",coins);
+						PlayerPrefs.Save();
+						RefreshWindow();
+					}
+				});
+			}
 		}
 	}
 }

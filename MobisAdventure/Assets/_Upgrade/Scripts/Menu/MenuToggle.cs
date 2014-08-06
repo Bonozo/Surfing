@@ -3,6 +3,8 @@ using System.Collections;
 
 public class MenuToggle : MonoBehaviour {
 
+	public bool inGame = false;
+
 	public GameObject[] objectsEnable;
 	public GameObject[] objectsDisable;
 	public UITweener tweener;
@@ -18,12 +20,17 @@ public class MenuToggle : MonoBehaviour {
 
 	void Update()
 	{
-		collider.enabled = !MainMenu.Instance.isPopupActive;
+		if(!inGame)
+			collider.enabled = !MainMenu.Instance.isPopupActive;
 	}
 
 	private IEnumerator ToggleWithTweener(){
 		tweener.PlayReverse ();
-		yield return new WaitForSeconds(tweener.duration);
+
+		float tm = tweener.duration;
+		while(tm>0f){tm-=0.016f;yield return null;}
+		//yield return new WaitForSeconds(tweener.duration);
+
 		Toggle ();
 	}
 
@@ -33,4 +40,5 @@ public class MenuToggle : MonoBehaviour {
 		foreach(GameObject g in objectsDisable)
 			NGUITools.SetActive(g,false);
 	}
+
 }

@@ -13,6 +13,9 @@ public class LevelController : MonoBehaviour {
 	public TextMesh textMeshLevel;
 	
 	private float tweenScaleTime = 0.6f;
+	public bool ReachTarget{ get; private set; }
+	public int InitialTarget{ get; private set; }
+	public int GoalDistance{ get { return levelDist [levelDist.Length - 1]; } }
 
 	private PlayerController player;
 	private string id;
@@ -39,6 +42,10 @@ public class LevelController : MonoBehaviour {
 		labelText.color = uiParams.uiColor;
 		labelBackflip.color = uiParams.uiColor;
 		labelFrontflip.color = uiParams.uiColor;
+
+		
+		ReachTarget = false;
+		InitialTarget = levelDist [Mathf.Min (nextLevel, levelDist.Length - 1)];
 	}
 
 	IEnumerator Start()
@@ -55,6 +62,8 @@ public class LevelController : MonoBehaviour {
 		var dist = player.p_distTraveled;
 		if( dist >= levelDist[nextLevel] )
 		{		
+			// Reached the target
+			ReachTarget = true;
 			PlayerPrefs.SetInt(id,nextLevel);
 			PlayerPrefs.Save ();
 			nextLevel++;
