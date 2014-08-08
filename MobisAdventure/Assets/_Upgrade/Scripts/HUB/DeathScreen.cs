@@ -43,10 +43,14 @@ public class DeathScreen : MonoBehaviour {
 
 	IEnumerator ShowThread(bool monstercause,int distance,int best,int score)
 	{
-		yield return new WaitForSeconds (1f);
-		Time.timeScale = 0.0f;
 		LastDistanceTravelled = distance;
+
+		// Drop the volume and fade out
 		MusicLoop.Instance.DropVolume (0.4f, 1f);
+		PlayerController.Instance.StartCoroutine(PlayerController.Instance.FadeOut ());
+
+		yield return new WaitForSeconds (0.5f);
+		Time.timeScale = 0.0f;
 		
 		failedScreen.Show (monstercause, distance, best, score);
 

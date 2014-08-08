@@ -9,13 +9,23 @@ public class RMPMeter : MonoBehaviour {
 	private int current = 0;
 	private float tm=0f;
 
-	void Awake()
+	void Start()
 	{
 		fsm = PlayerController.Instance.transform.FindChild ("Engine_Controller").GetComponent<PlayMakerFSM> ();
 	}
 
 	void FixedUpdate()
 	{
+		if(fsm == null){
+			fsm = PlayerController.Instance.transform.FindChild ("Engine_Controller").GetComponent<PlayMakerFSM> ();
+		}
+		else if(!fsm.gameObject.activeSelf){
+			foreach(Transform child in fsm.transform)
+				child.gameObject.SetActive(true);
+			fsm.gameObject.SetActive(true);
+			fsm = MobiAssets.Instance.AudioFSM.GetComponent<PlayMakerFSM>();
+		}
+
 		if (fsm.ActiveStateName.Length == 5 && fsm.ActiveStateName [0] == 'G' && fsm.ActiveStateName [1] == 'e') {
 			int ind = (int)(fsm.ActiveStateName[4]-'1');
 			if(current!=ind)

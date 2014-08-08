@@ -76,7 +76,7 @@ public class Yeti : MonoBehaviour {
 
 		started = true;
 
-		while(PlayerController.Instance.life)
+		while(true)
 		{
 			yield return new WaitForSeconds(speedUpInterval);
 			speed += speedUpDelta;
@@ -189,5 +189,11 @@ public class Yeti : MonoBehaviour {
 			MusicLoop.Instance.audio.volume = 0.05f + Mathf.Clamp (Distance * 0.05f, 0f, 0.5f);
 			monsterT.audio.volume = 2f * (0.55f - MusicLoop.Instance.audio.volume);
 		}
+	}
+
+	public void ReSetupOnPlayerRespawn(){
+		distance = Mathf.Min(distance,PlayerController.Instance.transform.position.x - 70f);
+		boost = false;
+		SetupHeight ();
 	}
 }

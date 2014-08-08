@@ -11,8 +11,9 @@ public class FailedScreen : MonoBehaviour {
 
 	public void Show(bool monstercause,int distance,int best,int score){
 
-		if(monstercause) textCause.text = "THE MONSTER CAUGHT YOU!";
-		else textCause.text = "YOU CRASHED!";
+		//if(monstercause) textCause.text = "THE MONSTER CAUGHT YOU!";
+		//else textCause.text = "YOU CRASHED!";
+		textCause.text = "YOU FAILED!";
 
 		iconTarget.spriteName = DeathScreen.Instance.levelController.ReachTarget ? "checkmark" : "cross";
 		textTarget.text = "Reach Target " + MainMenu.PutCommas (DeathScreen.Instance.levelController.InitialTarget) + "m";

@@ -145,6 +145,7 @@ public class PowerupMenu : MonoBehaviour {
 
 		if(MobiIAB.debug){
 			MainMenu.Instance.messagebox.ShowLoading(false);
+			//yield return MainMenu.Instance.messagebox.Show("Purchasing this item in debug mode");
 			int coins = PlayerPrefs.GetInt("pp_coins");
 			coins += neededCoins;
 			PlayerPrefs.SetInt("pp_coins",coins);

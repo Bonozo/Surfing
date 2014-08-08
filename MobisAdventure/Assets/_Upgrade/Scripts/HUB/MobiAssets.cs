@@ -9,7 +9,9 @@ public class MobiAssets : MonoBehaviour {
 
 	public AudioClip clipImpactCrash;
 	public AudioClip clipBoneCrash;
-	public AudioClip clipGameOverFailure;
+
+	// messing up the code  as usual
+	public GameObject AudioFSM;
 
 	#region Static Instance
 	

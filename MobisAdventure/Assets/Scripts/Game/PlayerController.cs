@@ -261,18 +261,24 @@ public class PlayerController : MonoBehaviour
 			t_isFlipping = false;
 			t_endTrick = false;
 		}
-
-		float fadeAmmount = 0.75f;
+		
 		//if(!life)
 		//	fadeAmmount = 1f;
-
 		
-		if (sfx_frostObj && !yeti.IsIntro){
+		if (sfx_frostObj && !yeti.IsIntro && life){
 			sfx_frostColor.a =  fadeAmmount - (yeti.Distance * 0.18f);
 			sfx_frostObj.renderer.material.color = sfx_frostColor;
 		}
-		
-		
+	}
+
+	float fadeAmmount = 0.75f;
+	public IEnumerator FadeOut(){
+		float speed = 10f;
+		while(sfx_frostColor.a<fadeAmmount){
+			sfx_frostColor.a += 0.016f*speed;
+			sfx_frostObj.renderer.material.color = sfx_frostColor;
+			yield return new WaitForEndOfFrame();
+		}
 	}
 
 	// TRICKS
@@ -393,9 +399,11 @@ public class PlayerController : MonoBehaviour
 	
 	//DEATH
 	public void Death(bool monstercause) {
-		if(monstercause) deathskip=true;
-		if(!death)
-		{
+		if(monstercause){
+			deathskip=true;
+		}
+
+		if(!death){
 			death = true;
 			StartCoroutine("DeathThread",monstercause);
 		}
@@ -417,7 +425,7 @@ public class PlayerController : MonoBehaviour
 			while(time>=0f&&!deathskip)
 			{
 				time -= Time.deltaTime;
-				yield return null;
+				yield return new WaitForEndOfFrame();
 			}
 		}
 		
@@ -427,8 +435,10 @@ public class PlayerController : MonoBehaviour
 		//Debug.Log("DEATH");
 		
 		chaseBar.parent.gameObject.SetActive(false);
+
 		//bonus and save coins
-		Coin_Counter.AddSaveCoins(250);
+		// Removed bonus
+		//Coin_Counter.AddSaveCoins(250);
 		
 		//rigidbody.isKinematic = true;
 		UpdateEndMenu();
@@ -519,14 +529,7 @@ public class PlayerController : MonoBehaviour
 		
 		// update 1
 		bike.transform.Find("2_Mobi").gameObject.SetActive(false);
-		GameObject rg = Instantiate(Resources.Load("Ragdolls/"+GameManager.m_chosenMobi)) as GameObject;
-		ragdoll = rg.GetComponent<Ragdoll>();
-		ragdoll.gameObject.SetActive(false);
-		ragdoll.gameObject.transform.parent = bike.transform.Find("ragdollposition");
-		//Debug.Log("name is: " + newSled.transform.Find("ragdollposition").name);
-		ragdoll.gameObject.transform.localPosition = Vector3.zero;
-		ragdoll.gameObject.transform.localScale = new Vector3(1f,1f,1f);
-		ragdoll.gameObject.SetActive(true);
+		CreateNewRagdoll ();
 		
 		//		m_backWheel = newSled.transform.Find("_BackWheel").GetComponent<WheelCollider>();
 		//		m_frontWheel = newSled.transform.Find("_FrontWheel").GetComponent<WheelCollider>();
@@ -592,6 +595,48 @@ public class PlayerController : MonoBehaviour
 		// new control system
 		rotateFactor += 0.2f * suspension;
 		
+	}
+
+	void CreateNewRagdoll(){
+		GameObject rg = Instantiate(Resources.Load("Ragdolls/"+GameManager.m_chosenMobi)) as GameObject;
+		ragdoll = rg.GetComponent<Ragdoll>();
+		ragdoll.gameObject.SetActive(false);
+		ragdoll.gameObject.transform.parent = bike.transform.Find("ragdollposition");
+		//Debug.Log("name is: " + newSled.transform.Find("ragdollposition").name);
+		ragdoll.gameObject.transform.localPosition = Vector3.zero;
+		ragdoll.gameObject.transform.localRotation = Quaternion.identity;
+		ragdoll.gameObject.transform.localScale = new Vector3(1f,1f,1f);
+		ragdoll.gameObject.SetActive(true);
+	}
+
+	public void ResumeGameAfterCrashing(){
+		rigidbody.isKinematic = false;
+		Destroy (ragdoll.gameObject);
+		GameObject.Find ("Failed Screen").SetActive (false);
+		CreateNewRagdoll ();
+		transform.localRotation = Quaternion.Euler (0f, 90f, 0f);
+		PlaceOnPath ();
+		life = true;
+		death = false;
+		Time.timeScale = 1f;
+		sfx_frostColor.a = 0f;
+		sfx_frostObj.renderer.material.color = sfx_frostColor;
+
+		rigidbody.velocity = Vector3.zero;
+		rigidbody.angularVelocity = Vector3.zero;
+
+		// Remove Flips
+		t_isFlipping = false;
+		t_endTrick = false;
+		boostingTime = 0f;
+
+		// Turn up volume
+		MusicLoop.Instance.DropVolume (-0.4f, 3f);
+
+		// Setup Yeti
+		yeti.ReSetupOnPlayerRespawn ();
+		chaseBar.parent.gameObject.SetActive(true);
+		deathskip = false;
 	}
 	
 	public void PlaceOnPath()
