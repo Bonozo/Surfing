@@ -5,7 +5,7 @@ using Prime31;
 
 public class MobiIAB : MonoBehaviour
 {
-	public static bool debug = true;
+	public static bool debug = false;
 
 	#if UNITY_ANDROID || UNITY_IPHONE
 	private string key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAymWgRnh1BakrbqiGqrF6LBNLMQY/4gHI0KlOc9u6A3kYtMN3ghqQzeIje+WzP7G6wUPeTmLUrI0WUrcQFuvsMm0xwnj9rEY66RhgvwpwC6MO/dOH0NmsMBTll3g8WgT4GHyeBojH21ZZAi5bXS49qAHh/A4wQxVudzazLoMXe9s8/4mFwJUHkByOnMDN9cnVV5wl4nf/zO4i2mZU4A2j9CLBwzVDUK6e6giLPLwpGmTtqEdfX4hfLJ7okFV8rPGXW8aZjwsSclRb4oTuRshpqqONRHvBFcN7GJUT2h43HqDYY1Ul+uTtYQIsdQFDdnXKi2G44KZnNcZrnDhtRUaWLwIDAQAB";
@@ -14,21 +14,31 @@ public class MobiIAB : MonoBehaviour
 		@"mobisrun_offer099",@"mobisrun_offer199"  };
 	private bool queryInventorySucceeded = false;
 
+	void Awake(){
+		DontDestroyOnLoad (this.gameObject);
+	}
+
 	void Start(){
 		IAP.init (key);
 		RequestProductData ();
 	}
 
-	private void RequestProductData(){
+	public void RequestProductData(){
+
+		// If we have the list and its count is not 0
+		if(queryInventorySucceeded) return;
+
 		IAP.requestProductData(skus,skus,productList => {
-			Debug.Log( "***Important***:::::Product list received" );
+			Debug.Log( "Product list received event fired." );
 			Utils.logObject( productList );
 
 			if(productList.Count == 0){
 				Debug.Log("Product Count is 0: Why this happens when no connection");
 				return;
 			}
-			queryInventorySucceeded = true;
+			else
+				queryInventorySucceeded = true;
+
 			for(int i=0;i<productList.Count;i++)
 				Debug.Log("Product: " + productList[i].title + " ::: " + productList[i].price);
 		});

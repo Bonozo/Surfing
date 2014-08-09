@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
 	public TextMesh tm_distHigh;
 	
 	//dark screen
-	public Transform sfx_frostObj;
+	public UISprite sfx_frostObj;
 	private Color sfx_frostColor;
 	
 	public Transform chaseBar;
@@ -104,7 +104,7 @@ public class PlayerController : MonoBehaviour
 		
 		//sfx_frost fade
 		if(sfx_frostObj){			
-			sfx_frostColor = sfx_frostObj.renderer.material.color;
+			sfx_frostColor = sfx_frostObj.color;
 			sfx_frostColor.a = 0;
 		}
 		
@@ -267,7 +267,7 @@ public class PlayerController : MonoBehaviour
 		
 		if (sfx_frostObj && !yeti.IsIntro && life){
 			sfx_frostColor.a =  fadeAmmount - (yeti.Distance * 0.18f);
-			sfx_frostObj.renderer.material.color = sfx_frostColor;
+			sfx_frostObj.color = sfx_frostColor;
 		}
 	}
 
@@ -276,7 +276,7 @@ public class PlayerController : MonoBehaviour
 		float speed = 10f;
 		while(sfx_frostColor.a<fadeAmmount){
 			sfx_frostColor.a += 0.016f*speed;
-			sfx_frostObj.renderer.material.color = sfx_frostColor;
+			sfx_frostObj.color = sfx_frostColor;
 			yield return new WaitForEndOfFrame();
 		}
 	}
@@ -438,7 +438,7 @@ public class PlayerController : MonoBehaviour
 
 		//bonus and save coins
 		// Removed bonus
-		//Coin_Counter.AddSaveCoins(250);
+		Coin_Counter.AddSaveCoins(250);
 		
 		//rigidbody.isKinematic = true;
 		UpdateEndMenu();
@@ -616,11 +616,8 @@ public class PlayerController : MonoBehaviour
 		CreateNewRagdoll ();
 		transform.localRotation = Quaternion.Euler (0f, 90f, 0f);
 		PlaceOnPath ();
-		life = true;
-		death = false;
-		Time.timeScale = 1f;
 		sfx_frostColor.a = 0f;
-		sfx_frostObj.renderer.material.color = sfx_frostColor;
+		sfx_frostObj.color = sfx_frostColor;
 
 		rigidbody.velocity = Vector3.zero;
 		rigidbody.angularVelocity = Vector3.zero;
@@ -629,14 +626,51 @@ public class PlayerController : MonoBehaviour
 		t_isFlipping = false;
 		t_endTrick = false;
 		boostingTime = 0f;
-
-		// Turn up volume
-		MusicLoop.Instance.DropVolume (-0.4f, 3f);
-
+		
 		// Setup Yeti
 		yeti.ReSetupOnPlayerRespawn ();
 		chaseBar.parent.gameObject.SetActive(true);
 		deathskip = false;
+
+		StartCoroutine (CountDown ());
+	}
+
+	IEnumerator CountDown(){
+
+		AudioClip clip = DeathScreen.Instance.countDown.audio.clip;
+
+		yield return StartCoroutine( ShowCountDown ("3",0.8f) );
+
+		audio.PlayOneShot (clip);
+		yield return StartCoroutine( ShowCountDown ("2",0.8f) );
+		audio.PlayOneShot (clip);
+		yield return StartCoroutine( ShowCountDown ("1",0.8f) );
+
+
+		Time.timeScale = 1f;
+		// Turn up volume
+		MusicLoop.Instance.DropVolume (-0.4f, 3f);
+		audio.PlayOneShot (clip);
+		life = true;
+		death = false;
+
+		yield return StartCoroutine (ShowCountDown ("GO!",1.6f) );
+	}
+
+	IEnumerator ShowCountDown(string s,float time){
+		DeathScreen.Instance.countDown.text = "";
+		yield return StartCoroutine (YieldTime (0.1f));
+		DeathScreen.Instance.countDown.text = s;
+		yield return StartCoroutine (YieldTime (time));
+		DeathScreen.Instance.countDown.text = "";
+		yield return StartCoroutine (YieldTime (0.1f));
+	}
+
+	IEnumerator YieldTime(float time){
+		float tm = RealTime.time + time;
+		while(tm>RealTime.time){
+			yield return new WaitForEndOfFrame();
+		}
 	}
 	
 	public void PlaceOnPath()

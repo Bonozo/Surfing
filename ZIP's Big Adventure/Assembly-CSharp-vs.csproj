@@ -193,6 +193,7 @@
      <Compile Include="Assets\Scripts\Levels\Level Correct Drag\LevelCorrectDrag.cs" />
      <Compile Include="Assets\Scripts\Levels\Match Picture With Words\LevelPictureWithWords.cs" />
      <Compile Include="Assets\Scripts\Levels\Match Picture With Words\PictureWithWordButton.cs" />
+     <Compile Include="Assets\Scripts\Levels\Paint\LevelPaint.cs" />
      <Compile Include="Assets\Scripts\Levels\Point\LevelPoint.cs" />
      <Compile Include="Assets\Scripts\Levels\Point\PointButton.cs" />
      <Compile Include="Assets\Scripts\Levels\Right Answer\LevelRightAnswer.cs" />

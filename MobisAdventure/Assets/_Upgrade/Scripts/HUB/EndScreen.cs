@@ -15,5 +15,10 @@ public class EndScreen : MonoBehaviour {
 		labelScore.text = DeathScreen.Instance.resultDistance + "m (" + DeathScreen.Instance.resultBest + " best)";
 		labelLevel.text = "Level: " + DeathScreen.Instance.levelController.CurrentLevel;
 		labelCoins.text = "+" + DeathScreen.Instance.resultScore;
+
+		#if !UNITY_EDITOR
+		if(!CheckRated.Instance.RateButtonClicked)
+			UniRate.Instance.PromptIfNetworkAvailable();
+		#endif
 	}
 }

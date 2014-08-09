@@ -1,9 +1,11 @@
 fileFormatVersion: 2
 guid: 216176092a2dea94096aae8d673e3a99
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Menu2
   serializedVersion: 2
   mipmaps:
-    mipMapMode: 0
+    mipMapMode: 1
     enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
@@ -38,7 +40,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 0
-  textureType: -1
+  textureType: 0
   buildTargetSettings: []
   spriteSheet:
     sprites: []

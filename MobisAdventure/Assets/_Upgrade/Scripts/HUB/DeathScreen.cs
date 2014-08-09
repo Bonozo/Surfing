@@ -13,6 +13,7 @@ public class DeathScreen : MonoBehaviour {
 	public UILabel labelLevel;
 	public LevelController levelController;
 	public MessageBox messageBox;
+	public UILabel countDown;
 	
 	public int LastDistanceTravelled{ get; private set;}
 	public string LastLevel{ get { return levelName.Substring (6); } }
@@ -69,11 +70,6 @@ public class DeathScreen : MonoBehaviour {
 		buttonTwitter.SetActive(false);
 		buttonGamecenter.transform.parent.FindChild("label facebook coins").gameObject.SetActive(false);
 		buttonGamecenter.transform.parent.FindChild("label twitter coins").gameObject.SetActive(false);
-		#endif
-	
-		#if !UNITY_EDITOR
-		if(!CheckRated.Instance.RateButtonClicked)
-			UniRate.Instance.PromptIfNetworkAvailable();
 		#endif
 	}
 

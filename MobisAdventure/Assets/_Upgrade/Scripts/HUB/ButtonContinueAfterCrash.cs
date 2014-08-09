@@ -10,7 +10,31 @@ public class ButtonContinueAfterCrash : MonoBehaviour {
 			PlayerController.Instance.ResumeGameAfterCrashing ();
 		}
 		else{
-			DeathScreen.Instance.messageBox.Show("Not determined in real");
+			StartCoroutine(BuySpecialOffer());
+		}
+	}
+
+	IEnumerator BuySpecialOffer(){
+		MobiIAB.Instance.RequestProductData();
+		DeathScreen.Instance.messageBox.ShowLoading(true);
+		float tm = RealTime.time + 3f;
+		while(tm>RealTime.time && !MobiIAB.Instance.Connected)
+			yield return new WaitForEndOfFrame();
+
+		if(!MobiIAB.Instance.Connected){
+			DeathScreen.Instance.messageBox.ShowLoading(false);
+			DeathScreen.Instance.ShowMessage("Unable to connect to the Server.");
+		}
+		else{
+			IAP.purchaseConsumableProduct( "mobisrun_offer099", ( didSucceed, error ) => {
+				if( !didSucceed ){
+					DeathScreen.Instance.messageBox.ShowLoading(false);
+					DeathScreen.Instance.messageBox.Show("Failed to purchase!");
+				} else{
+					DeathScreen.Instance.messageBox.ShowLoading(false);
+					PlayerController.Instance.ResumeGameAfterCrashing ();
+				}
+			});
 		}
 	}
 

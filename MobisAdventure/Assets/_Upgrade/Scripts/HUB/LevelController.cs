@@ -42,6 +42,7 @@ public class LevelController : MonoBehaviour {
 		labelText.color = uiParams.uiColor;
 		labelBackflip.color = uiParams.uiColor;
 		labelFrontflip.color = uiParams.uiColor;
+		DeathScreen.Instance.countDown.color = uiParams.uiColor;
 
 		
 		ReachTarget = false;
