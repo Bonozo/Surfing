@@ -23,10 +23,10 @@ public class ButtonContinueAfterCrash : MonoBehaviour {
 
 		if(!MobiIAB.Instance.Connected){
 			DeathScreen.Instance.messageBox.ShowLoading(false);
-			DeathScreen.Instance.ShowMessage("Unable to connect to the Server.");
+			DeathScreen.Instance.ShowMessageAndDoNothingMore("Unable to connect to the Server.");
 		}
 		else{
-			IAP.purchaseConsumableProduct( "mobisrun_offer099", ( didSucceed, error ) => {
+			IAP.purchaseConsumableProduct( "hkr_offer1", ( didSucceed, error ) => {
 				if( !didSucceed ){
 					DeathScreen.Instance.messageBox.ShowLoading(false);
 					DeathScreen.Instance.messageBox.Show("Failed to purchase!");

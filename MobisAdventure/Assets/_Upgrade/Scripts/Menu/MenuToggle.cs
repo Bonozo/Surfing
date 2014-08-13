@@ -22,6 +22,8 @@ public class MenuToggle : MonoBehaviour {
 	{
 		if(!inGame)
 			collider.enabled = !MainMenu.Instance.isPopupActive;
+		else
+			collider.enabled = !DeathScreen.Instance.messageBox.gameObject.activeSelf;
 	}
 
 	private IEnumerator ToggleWithTweener(){

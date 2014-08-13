@@ -273,9 +273,10 @@ public class PlayerController : MonoBehaviour
 
 	float fadeAmmount = 0.75f;
 	public IEnumerator FadeOut(){
-		float speed = 10f;
+		float speed = 1.5f;
+		sfx_frostColor.a = 0f;
 		while(sfx_frostColor.a<fadeAmmount){
-			sfx_frostColor.a += 0.016f*speed;
+			sfx_frostColor.a += RealTime.deltaTime*speed;
 			sfx_frostObj.color = sfx_frostColor;
 			yield return new WaitForEndOfFrame();
 		}

@@ -50,7 +50,8 @@ public class DeathScreen : MonoBehaviour {
 		MusicLoop.Instance.DropVolume (0.4f, 1f);
 		PlayerController.Instance.StartCoroutine(PlayerController.Instance.FadeOut ());
 
-		yield return new WaitForSeconds (0.5f);
+		float time = RealTime.time + 0.5f;
+		while(time > RealTime.time) yield return new WaitForEndOfFrame();
 		Time.timeScale = 0.0f;
 		
 		failedScreen.Show (monstercause, distance, best, score);
@@ -81,13 +82,18 @@ public class DeathScreen : MonoBehaviour {
 
 	public string levelName{ get { return levelController.uiParams.levelName; } }
 
-	public void ShowMessage(string message){
-		StartCoroutine (ShowMessageAndUnpause (message));
+	public void ShowMessageAndDoNothingMore(string message){
+		StartCoroutine (ShowMessageAndUnpause (message,false));
 	}
 
-	private IEnumerator ShowMessageAndUnpause(string message){
+	public void ShowMessageAndUnPause(string message){
+		StartCoroutine (ShowMessageAndUnpause (message,true));
+	}
+
+	private IEnumerator ShowMessageAndUnpause(string message,bool unpause){
 		yield return StartCoroutine(messageBox.Show(message));
-		Time.timeScale = 1f;
+		if(unpause)
+			Time.timeScale = 1f;
 	}
 
 	#region Static Instance

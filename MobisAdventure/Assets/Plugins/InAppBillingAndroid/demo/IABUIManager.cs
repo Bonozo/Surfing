@@ -13,7 +13,8 @@ public class IABUIManager : MonoBehaviourGUI
 		if( GUILayout.Button( "Initialize IAB" ) )
 		{
 			var key = "your public key from the Android developer portal here";
-			key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmffbbQPr/zqRjP3vkxr1601/eKsXm5kO2NzQge8m7PeUj5V+saeounyL34U8WoZ3BvCRKbw6DrRLs2DMoVuCLq7QtJggBHT/bBSHGczEXGIPjWpw6OQb24EWM0PaTRTH2x2mC/X6RwIKcPLJFmy68T38Eh0DXnF4jjiIoaD0W8AYLjLzv0WvbIfgtJlvmmwvI2/Kta1LRnW3/Ggi5jb9UmXZAUIBz8kQtSH5FUCmFOQHMzekfg8rQ4VO1nlWhnB58UPwsxWt/DNyDfqv2VMeA2+VJG0fkiMl/6vWA7+ianVTU3owXcvxJHseEDUVYo1wEKfhK7ErGB7sxDJx5wHXAwIDAQAB";
+			key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlKs9XEn5clhFXKswADyNBBwB1B5YrMhEt2mwCrjQSF+tZgF7CWemIn3+McSfPZF/Jb/20R5sQCFZHDdDRIS/uwxMVVQn0ZIKLbJMJDCF5B55Pu6Sgk3VDzeTmrXou/VsxaY9JcQEe68RchTZzdpQoG74u9rgkPsHkavtrlgC5TUBOlvvemjlWvzvxxunZ2C/i5Vixxq+aUrHYD/TaR4rM0TM991JbOAY3Ro6Rhj3qooMGK++2NxM0x25SEyu3AsGdJVPPRpXSv8/oYWPXCstDbeDRVqmox4X0w+T2ThHSMXiqD6DSlprOTut7aNwvMVvpfjIDtxuxisaJ3FBPCvPxwIDAQAB";
+		  //key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmffbbQPr/zqRjP3vkxr1601/eKsXm5kO2NzQge8m7PeUj5V+saeounyL34U8WoZ3BvCRKbw6DrRLs2DMoVuCLq7QtJggBHT/bBSHGczEXGIPjWpw6OQb24EWM0PaTRTH2x2mC/X6RwIKcPLJFmy68T38Eh0DXnF4jjiIoaD0W8AYLjLzv0WvbIfgtJlvmmwvI2/Kta1LRnW3/Ggi5jb9UmXZAUIBz8kQtSH5FUCmFOQHMzekfg8rQ4VO1nlWhnB58UPwsxWt/DNyDfqv2VMeA2+VJG0fkiMl/6vWA7+ianVTU3owXcvxJHseEDUVYo1wEKfhK7ErGB7sxDJx5wHXAwIDAQAB";
 			GoogleIAB.init( key );
 		}
 
@@ -21,7 +22,9 @@ public class IABUIManager : MonoBehaviourGUI
 		if( GUILayout.Button( "Query Inventory" ) )
 		{
 			// enter all the available skus from the Play Developer Console in this array so that item information can be fetched for them
-			var skus = new string[] { "com.prime31.testproduct", "android.test.purchased", "com.prime31.managedproduct", "com.prime31.testsubscription" };
+			var skus = new string[] { @"hkr_99c_noads",@"hkr_150k_coins", @"hkr_250k_coins",
+				@"hkr_500k_coins", @"hkr_750k_coins",@"hkr_2m_coins" ,@"hkr_5m_coins" ,@"hkr_10m_coins",
+				@"hkr_offer1",@"hkr_offer2" };
 			GoogleIAB.queryInventory( skus );
 		}
 

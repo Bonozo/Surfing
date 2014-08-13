@@ -36,12 +36,18 @@ public class ButtonShareFacebook : MonoBehaviour {
 			  (error,result) => {
 				if(error == null){
 					posted = true;
-					message.text = "done!";
+					message.text = "DONE!";
 					
 					int coins = PlayerPrefs.GetInt("pp_coins");
 					coins += 2500;
 					PlayerPrefs.SetInt("pp_coins",coins);
 					PlayerPrefs.Save();
+
+					DeathScreen.Instance.ShowMessageAndDoNothingMore("Facebook Sharing Successful! Reward 2500 coins !");
+				}
+				else{
+					DeathScreen.Instance.ShowMessageAndDoNothingMore("There was an error sharing with Twitter.\n Please try again later!");
+
 				}
 			});
 

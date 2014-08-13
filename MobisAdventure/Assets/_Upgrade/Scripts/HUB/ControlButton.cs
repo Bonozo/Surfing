@@ -17,9 +17,9 @@ public class ControlButton : MonoBehaviour {
 		ButtonRightRotate.Instance.gameObject.SetActive (!tilt);
 
 		if (tilt)
-			DeathScreen.Instance.ShowMessage("You have activated Tilt Controls; locate the options icon on the menu screens to activate Button Controls.");
+			DeathScreen.Instance.ShowMessageAndUnPause("You have activated Tilt Controls; locate the options icon on the menu screens to activate Button Controls.");
 		else
-			DeathScreen.Instance.ShowMessage("You have activated Button Controls; locate the options icon on the menu screens to activate Tilt Controls.");
+			DeathScreen.Instance.ShowMessageAndUnPause("You have activated Button Controls; locate the options icon on the menu screens to activate Tilt Controls.");
 
 	}
 	

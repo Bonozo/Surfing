@@ -141,7 +141,7 @@ public class PowerupMenu : MonoBehaviour {
 	}
 	
 	IEnumerator BuySpecialOffer(){
-		string purchaseName = neededCoins>25000?"mobisrun_offer199":"mobisrun_offer099";
+		string purchaseName = neededCoins>25000?"hkr_offer2":"hkr_offer1";
 
 		if(MobiIAB.debug){
 			MainMenu.Instance.messagebox.ShowLoading(false);

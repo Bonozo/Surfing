@@ -8,10 +8,11 @@ public class MobiIAB : MonoBehaviour
 	public static bool debug = false;
 
 	#if UNITY_ANDROID || UNITY_IPHONE
-	private string key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAymWgRnh1BakrbqiGqrF6LBNLMQY/4gHI0KlOc9u6A3kYtMN3ghqQzeIje+WzP7G6wUPeTmLUrI0WUrcQFuvsMm0xwnj9rEY66RhgvwpwC6MO/dOH0NmsMBTll3g8WgT4GHyeBojH21ZZAi5bXS49qAHh/A4wQxVudzazLoMXe9s8/4mFwJUHkByOnMDN9cnVV5wl4nf/zO4i2mZU4A2j9CLBwzVDUK6e6giLPLwpGmTtqEdfX4hfLJ7okFV8rPGXW8aZjwsSclRb4oTuRshpqqONRHvBFcN7GJUT2h43HqDYY1Ul+uTtYQIsdQFDdnXKi2G44KZnNcZrnDhtRUaWLwIDAQAB";
-	private string[] skus = new string[] {@"mobisrun_99c_noads",@"mobisrun_150k_coins", @"mobisrun_250k_coins",
-		@"mobisrun_500k_coins", @"mobisrun_750k_coins",@"mobisrun_2m_coins" ,@"mobisrun_5m_coins" ,@"mobisrun_10m_coins",
-		@"mobisrun_offer099",@"mobisrun_offer199"  };
+	private string key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlKs9XEn5clhFXKswADyNBBwB1B5YrMhEt2mwCrjQSF+tZgF7CWemIn3+McSfPZF/Jb/20R5sQCFZHDdDRIS/uwxMVVQn0ZIKLbJMJDCF5B55Pu6Sgk3VDzeTmrXou/VsxaY9JcQEe68RchTZzdpQoG74u9rgkPsHkavtrlgC5TUBOlvvemjlWvzvxxunZ2C/i5Vixxq+aUrHYD/TaR4rM0TM991JbOAY3Ro6Rhj3qooMGK++2NxM0x25SEyu3AsGdJVPPRpXSv8/oYWPXCstDbeDRVqmox4X0w+T2ThHSMXiqD6DSlprOTut7aNwvMVvpfjIDtxuxisaJ3FBPCvPxwIDAQAB";
+  //private string key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAymWgRnh1BakrbqiGqrF6LBNLMQY/4gHI0KlOc9u6A3kYtMN3ghqQzeIje+WzP7G6wUPeTmLUrI0WUrcQFuvsMm0xwnj9rEY66RhgvwpwC6MO/dOH0NmsMBTll3g8WgT4GHyeBojH21ZZAi5bXS49qAHh/A4wQxVudzazLoMXe9s8/4mFwJUHkByOnMDN9cnVV5wl4nf/zO4i2mZU4A2j9CLBwzVDUK6e6giLPLwpGmTtqEdfX4hfLJ7okFV8rPGXW8aZjwsSclRb4oTuRshpqqONRHvBFcN7GJUT2h43HqDYY1Ul+uTtYQIsdQFDdnXKi2G44KZnNcZrnDhtRUaWLwIDAQAB";
+	private string[] skus = new string[] {@"hkr_99c_noads",@"hkr_150k_coins", @"hkr_250k_coins",
+		@"hkr_500k_coins", @"hkr_750k_coins",@"hkr_2m_coins" ,@"hkr_5m_coins" ,@"hkr_10m_coins",
+		@"hkr_offer1",@"hkr_offer2"  };
 	private bool queryInventorySucceeded = false;
 
 	void Awake(){

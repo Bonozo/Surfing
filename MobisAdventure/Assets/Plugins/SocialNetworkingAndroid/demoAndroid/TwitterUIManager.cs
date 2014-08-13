@@ -14,7 +14,8 @@ public class TwitterUIManager : MonoBehaviourGUI
 		if( GUILayout.Button( "Initialize Twitter" ) )
 		{
 			// Replace these with your own CONSUMER_KEY and CONSUMER_SECRET!
-			TwitterAndroid.init( "jZVHZaGxJkOLenVPe23fnQ", "7nZQtvTjIXnKqYHbjAUKneUTp1QEWEkeD6nKVfPw" );
+			TwitterAndroid.init( "bZbuIhuGHAN1Fs3QuP8dDQ", "P8ckiUMXVsqnYcyyqGt1Y4Z0ZriPNxSj9slYFwCtE" );
+			//TwitterAndroid.init( "jZVHZaGxJkOLenVPe23fnQ", "7nZQtvTjIXnKqYHbjAUKneUTp1QEWEkeD6nKVfPw" );
 		}
 
 

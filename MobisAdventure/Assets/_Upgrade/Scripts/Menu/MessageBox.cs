@@ -14,6 +14,7 @@ public class MessageBox : MonoBehaviour {
 
 		gameObject.SetActive (true);
 		float tm = 5f;
+		if(!MobiIAB.Instance.Connected) MobiIAB.Instance.RequestProductData();
 		while(tm>0f && !MobiIAB.Instance.Connected)
 		{
 			tm-=Time.deltaTime;
