@@ -15,7 +15,8 @@ public class RevMobAndroid : RevMob {
 	                                                               RevMobAndroid.CurrentActivity(),
 	                                                               appId,
 	                                                               "unity-android",
-	                                                               REVMOB_VERSION);
+	                                                               REVMOB_VERSION,
+                                                                 new AndroidJavaObject("com.revmob.unity.RevMobAdsUnityListener", gameObjectName, "session"));
 	}
 
 
@@ -26,9 +27,9 @@ public class RevMobAndroid : RevMob {
 
 	public override bool IsDevice() {
 		return (Application.platform == RuntimePlatform.Android);
-	}
-
-	private AndroidJavaObject adUnitWrapperCall(string methodName, string placementId, string adUnit) {
+	}  
+      
+  private AndroidJavaObject adUnitWrapperCall(string methodName, string placementId, string adUnit) {
 		if (placementId == null) {
 			placementId = "";
 		}
@@ -68,22 +69,17 @@ public class RevMobAndroid : RevMob {
 	}
 
 
-
-	public override void CreateBanner(RevMob.Position position, int x, int y, int w, int h) {
-		if (!IsDevice ()) return;
-		this.session.Call("createBanner", CurrentActivity(), CreateRevMobListener(this.gameObjectName, "Banner"), (int)position, x, y, w, h);
+	public override RevMobBanner CreateBanner(RevMob.Position position, int x, int y, int w, int h) {
+		return (IsDevice()) ? new RevMobAndroidBanner(CurrentActivity(), CreateRevMobListener(this.gameObjectName, "Banner"), position, x, y, w, h, session) : null;
 	}
 
-	public override void ShowBanner() {
-		this.session.Call("showBanner", CurrentActivity());
+	public override void ShowBanner(RevMob.Position position, int x, int y, int w, int h) {
+		if (!IsDevice ()) return;
+		this.session.Call("showBanner", CurrentActivity(), CreateRevMobListener(this.gameObjectName, "Banner"), (int)position, x, y, w, h);
 	}
 
 	public override void HideBanner() {
 		this.session.Call("hideBanner", CurrentActivity());
-	}
-
-	public override void ReleaseBanner() {
-		this.session.Call("releaseBanner", CurrentActivity());
 	}
 
 

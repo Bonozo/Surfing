@@ -4,19 +4,26 @@ using System.Runtime.InteropServices;
 
 #if UNITY_ANDROID
 public class RevMobAndroidBanner : RevMobBanner {
-    //private AndroidJavaObject javaObject;
+	private AndroidJavaObject javaObject;
 
-    public RevMobAndroidBanner(AndroidJavaObject javaObject) {
-        //this.javaObject = javaObject;
-    }
-
-    public override void Show() {
-    	//javaObject.Call("show");
+	public RevMobAndroidBanner(AndroidJavaObject activity, AndroidJavaObject listener, RevMob.Position position, int x, int y, int w, int h, AndroidJavaObject session) {
+		this.javaObject = session;
+		this.javaObject.Call("createBanner", activity, listener, (int)position, x, y, w, h);
+	}
+	
+	public override void Show() {
+		Debug.Log("BCRS showBanner");
+		this.javaObject.Call("showBanner");
     }
 
     public override void Hide() {
-    	//javaObject.Call("hide");
+		Debug.Log("BCRS hideBanner");
+		this.javaObject.Call("hideBanner");
     }
 
+	public override void Release() {
+		Debug.Log("BCRS releaseBanner");
+		this.javaObject.Call("releaseBanner");
+	}
 }
 #endif

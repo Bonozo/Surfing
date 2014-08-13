@@ -15,8 +15,9 @@ public class StoreKitManager : AbstractManager
 
 	// Fired when requesting product data fails
 	public static event Action<string> productListRequestFailedEvent;
-	
-	// Fired anytime Apple updates a transaction. Check the transaction.transactionState to know what state the transaction is currently in.
+
+	// Fired anytime Apple updates a transaction if you called setShouldSendTransactionUpdateEvents with true. Check the transaction.transactionState to
+	// know what state the transaction is currently in.
 	public static event Action<StoreKitTransaction> transactionUpdatedEvent;
 
 	// Fired when a product purchase has returned from Apple's servers and is awaiting completion. By default the plugin will finish transactions for you.
@@ -32,11 +33,11 @@ public class StoreKitManager : AbstractManager
 
 	// Fired when a product purchase is cancelled by the user or system
 	public static event Action<string> purchaseCancelledEvent;
-	
+
 	// Fired when all transactions from the user's purchase history have successfully been added back to the queue. Note that this event will almost always
 	// fire before each individual transaction is processed.
 	public static event Action restoreTransactionsFinishedEvent;
-	
+
 	// Fired when an error is encountered while adding transactions from the user's purchase history back to the queue
 	public static event Action<string> restoreTransactionsFailedEvent;
 
@@ -49,8 +50,8 @@ public class StoreKitManager : AbstractManager
     {
 		AbstractManager.initialize( typeof( StoreKitManager ) );
     }
-	
-	
+
+
 	public void transactionUpdated( string json )
 	{
 		if( transactionUpdatedEvent != null )

@@ -17,7 +17,8 @@ static NSDictionary* revmobDelegates() {
                               CREATE_REVMOB_DELEGATE(@"Fullscreen"), @"Fullscreen",
                               CREATE_REVMOB_DELEGATE(@"Banner"), @"Banner",
                               CREATE_REVMOB_DELEGATE(@"Popup"), @"Popup",
-                              CREATE_REVMOB_DELEGATE(@"Link"), @"Link", nil];
+                              CREATE_REVMOB_DELEGATE(@"Link"), @"Link", 
+                              CREATE_REVMOB_DELEGATE(@"Session"), @"Session", nil];
     }
     return revmobDelegatesDict;
 }
@@ -41,7 +42,7 @@ static RevMobAds *revmob = nil;
 
 void RevMobUnityiOSBinding_startSession(const char* appId, const char* version) {
     [RevMobAds startSessionWithAppID:TO_NSSTRING(appId)
-                            delegate:nil
+                            delegate:[revmobDelegates() valueForKey:@"Session"]
                          testingMode:0
                              sdkName:@"unity-ios"
                           sdkVersion:TO_NSSTRING(version)];
@@ -70,6 +71,33 @@ NSMutableArray* supportedInterfaceOrientations(int *orientations) {
     return arrayOfOrientations;
 }
 
+int* supportedOrientations() {
+    static int orientations[4];
+    
+    typedef enum interfaceOrientation {
+        UIInterfaceOrientationPortrait              = 1,
+        UIInterfaceOrientationPortraitUpsideDown    = 2,
+        UIInterfaceOrientationLandscapeRight        = 3,
+        UIInterfaceOrientationLandscapeLeft         = 4
+    } InterfaceOrientation;
+    
+    NSDictionary *interfaces = [NSDictionary dictionaryWithObjectsAndKeys:
+                                [NSNumber numberWithInteger:UIInterfaceOrientationPortrait],            @"UIInterfaceOrientationPortrait",
+                                [NSNumber numberWithInteger:UIInterfaceOrientationPortraitUpsideDown],  @"UIInterfaceOrientationPortraitUpsideDown",
+                                [NSNumber numberWithInteger:UIInterfaceOrientationLandscapeRight],      @"UIInterfaceOrientationLandscapeRight",
+                                [NSNumber numberWithInteger:UIInterfaceOrientationLandscapeLeft],       @"UIInterfaceOrientationLandscapeLeft",
+                                nil];
+
+    NSArray *arrayOfOrientations = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"UISupportedInterfaceOrientations"];
+    
+    for (int i = 0; i < [arrayOfOrientations count]; i++) {
+        NSString *interface = [arrayOfOrientations objectAtIndex:i];
+        int interfaceValue = [[interfaces objectForKey:interface] integerValue];
+        orientations[i] = interfaceValue;
+    }
+    return orientations;
+}
+
 #pragma mark Fullscreen
 
 static RevMobFullscreen *fullscreen = nil;
@@ -85,7 +113,9 @@ void RevMobUnityiOSBinding_createFullscreen(const char* placementId) {
         NSLog(@"Using placement id: %@", TO_NSSTRING(placementId));
         fullscreen = [[revmob fullscreenWithPlacementId:TO_NSSTRING(placementId)] retain];
     }
-    fullscreen.delegate = [revmobDelegates() valueForKey:@"Fullscreen"];
+    fullscreen.delegate = [revmobDelegates() valueForKey:@"Fullscreen"];    
+    fullscreen.supportedInterfaceOrientations = supportedInterfaceOrientations(supportedOrientations());
+
 }
 
 void RevMobUnityiOSBinding_loadFullscreen(const char* placementId) {
@@ -142,14 +172,13 @@ void RevMobUnityiOSBinding_loadBanner(const char *placementId, float x, float y,
         revmobBanner = [[revmob bannerWithPlacementId:TO_NSSTRING(placementId)] retain];
     }
     revmobBanner.delegate = [revmobDelegates() valueForKey:@"Banner"];
-    if (width != 0 && height != 0) {
-        [revmobBanner setFrame:CGRectMake(x, y, width, height)];
-    }
+    revmobBanner.supportedInterfaceOrientations = supportedInterfaceOrientations(supportedOrientations());
+    [revmobBanner setFrame:CGRectMake(x, y, width, height)];
 }
 
 void RevMobUnityiOSBinding_showBanner(const char *placementId, int *orientations, float x, float y, float width, float height) {
     RevMobUnityiOSBinding_loadBanner(placementId, x, y, width, height);
-    revmobBanner.supportedInterfaceOrientations = supportedInterfaceOrientations(orientations);
+    revmobBanner.supportedInterfaceOrientations = supportedInterfaceOrientations(supportedOrientations());
     [revmobBanner showAd];
 }
 
@@ -213,6 +242,15 @@ void RevMobUnityiOSBinding_printEnvironmentInformation() {
     self.gameObjectName = @"RevMobEventListener";
     adType = theAdType;
     return self;
+}
+
+- (void)revmobSessionIsStarted {
+	UnitySendMessage(STRCOPY(self.gameObjectName), "SessionIsStarted", STRCOPY(adType));
+}
+
+- (void)revmobSessionNotStartedWithError:(NSError *)error {
+	UnitySendMessage(STRCOPY(self.gameObjectName), "SessionNotStarted", STRCOPY(adType));
+    NSLog(@"%@", error);
 }
 
 - (void)revmobAdDidReceive {

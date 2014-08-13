@@ -28,7 +28,7 @@ public class MobiFacebook : MonoBehaviourGUI {
 	// Open All Events
 	void OnEnable()
 	{
-		FacebookManager.sessionOpenedEvent += sessionOpenedEvent;
+		/*FacebookManager.sessionOpenedEvent += sessionOpenedEvent;
 		FacebookManager.loginFailedEvent += loginFailedEvent;
 		
 		FacebookManager.dialogCompletedWithUrlEvent += dialogCompletedEvent;
@@ -41,13 +41,13 @@ public class MobiFacebook : MonoBehaviourGUI {
 		FacebookManager.facebookComposerCompletedEvent += facebookComposerCompletedEvent;
 		
 		FacebookManager.reauthorizationFailedEvent += reauthorizationFailedEvent;
-		FacebookManager.reauthorizationSucceededEvent += reauthorizationSucceededEvent;
+		FacebookManager.reauthorizationSucceededEvent += reauthorizationSucceededEvent;*/
 	}
 
 	void OnDisable()
 	{
 		// Remove all the event handlers when disabled
-		FacebookManager.sessionOpenedEvent -= sessionOpenedEvent;
+		/*FacebookManager.sessionOpenedEvent -= sessionOpenedEvent;
 		FacebookManager.loginFailedEvent -= loginFailedEvent;
 		
 		FacebookManager.dialogCompletedWithUrlEvent -= dialogCompletedEvent;
@@ -60,7 +60,7 @@ public class MobiFacebook : MonoBehaviourGUI {
 		FacebookManager.facebookComposerCompletedEvent -= facebookComposerCompletedEvent;
 		
 		FacebookManager.reauthorizationFailedEvent -= reauthorizationFailedEvent;
-		FacebookManager.reauthorizationSucceededEvent -= reauthorizationSucceededEvent;
+		FacebookManager.reauthorizationSucceededEvent -= reauthorizationSucceededEvent;*/
 	}
 
 	void Start()
@@ -143,7 +143,7 @@ public class MobiFacebook : MonoBehaviourGUI {
 	{
 		Working = true;	
 		#if UNITY_ANDROID
-		FacebookAndroid.reauthorizeWithPublishPermissions( new string[] { "publish_actions" },FacebookSessionDefaultAudience.EVERYONE );
+		FacebookAndroid.reauthorizeWithPublishPermissions( new string[] { "publish_actions" },FacebookSessionDefaultAudience.Everyone );
 		#elif UNITY_IPHONE
 		FacebookBinding.reauthorizeWithPublishPermissions( new string[] { "publish_actions", "publish_stream" },FacebookSessionDefaultAudience.Everyone );//??
 		#endif

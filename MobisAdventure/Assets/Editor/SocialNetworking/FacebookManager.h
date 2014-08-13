@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FacebookSDK.h"
+#import <FacebookSDK/FacebookSDK.h>
+#import "P31SharedTools.h"
 
 
 
@@ -32,13 +33,11 @@ extern NSString *const kFacebookAppIdKey;
 
 
 // Composer and share dialog
-+ (BOOL)isFacebookComposerSupported;
-
 + (BOOL)userCanUseFacebookComposer;
 
 - (void)showFacebookComposerWithMessage:(NSString*)message image:(UIImage*)image link:(NSString*)link;
 
-- (void)showShareDialogWithParams:(FBShareDialogParams*)dialogParams;
+- (void)showShareDialogWithParams:(FBLinkShareParams*)dialogParams;
 
 
 - (BOOL)isLoggedIn;
@@ -59,7 +58,7 @@ extern NSString *const kFacebookAppIdKey;
 
 - (void)showDialog:(NSString*)dialogType withParms:(NSMutableDictionary*)dict;
 
-- (void)requestWithGraphPath:(NSString*)path httpMethod:(NSString*)method params:(NSMutableDictionary*)params;
+- (void)requestWithGraphPath:(NSString*)path httpMethod:(NSString*)method params:(NSDictionary*)params;
 
 - (void)requestWithRestMethod:(NSString*)restMethod httpMethod:(NSString*)method params:(NSMutableDictionary*)params;
 

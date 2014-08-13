@@ -7,9 +7,8 @@
 //
 
 #import "FacebookManager.h"
-#import "JSONKit.h"
-#import "FBSession.h"
-#import "FBShareDialogParams.h"
+#import <FacebookSDK/FacebookSDK.h>
+#import "P31SharedTools.h"
 
 
 // Converts NSString to C style string by way of copy (Mono will free it)
@@ -20,7 +19,6 @@
 
 // Converts C style string to NSString as long as it isnt empty
 #define GetStringParamOrNil( _x_ ) ( _x_ != NULL && strlen( _x_ ) ) ? [NSString stringWithUTF8String:_x_] : nil
-
 
 
 
@@ -77,7 +75,7 @@ const char * _facebookGetFacebookAccessToken()
 
 const char * _facebookGetSessionPermissions()
 {
-	NSString *permissionsString = [[FacebookManager sharedManager] sessionPermissions].JSONString;
+	NSString *permissionsString = [P31 jsonStringFromObject:[[FacebookManager sharedManager] sessionPermissions]];
 	return MakeStringCopy( permissionsString );
 }
 
@@ -88,7 +86,7 @@ void _facebookLoginUsingDeprecatedAuthorizationFlowWithRequestedPermissions( con
 	NSMutableArray *permissions = nil;
 	
 	if( permsString.length == 0 )
-		permissions = [NSArray array];
+		permissions = [NSMutableArray array];
 	else
 		permissions = [[[permsString componentsSeparatedByString:@","] mutableCopy] autorelease];
 	
@@ -103,7 +101,7 @@ void _facebookLoginWithRequestedPermissions( const char * perms, const char * ur
 	NSMutableArray *permissions = nil;
 	
 	if( permsString.length == 0 )
-		permissions = [NSArray array];
+		permissions = [NSMutableArray array];
 	else
 		permissions = [[[permsString componentsSeparatedByString:@","] mutableCopy] autorelease];
 	
@@ -143,24 +141,9 @@ void _facebookShowDialog( const char * dialogType, const char * json )
 	NSMutableDictionary *dict = nil;
 	
 	if( jsonString && [jsonString isKindOfClass:[NSString class]] && jsonString.length )
-		dict = [[jsonString objectFromJSONString] mutableCopy];
+		dict = [[P31 objectFromJsonString:jsonString] mutableCopy];
 	
 	[[FacebookManager sharedManager] showDialog:GetStringParam( dialogType ) withParms:dict];
-}
-
-
-void _facebookRestRequest( const char * restMethod, const char * httpMethod, const char * jsonDict )
-{
-	// make sure we have a legit dictionary
-	NSString *jsonString = GetStringParam ( jsonDict );
-	NSMutableDictionary *dict = [jsonString mutableObjectFromJSONString];
-	
-	if( ![dict isKindOfClass:[NSMutableDictionary class]] )
-		return;
-	
-	[[FacebookManager sharedManager] requestWithRestMethod:GetStringParam( restMethod )
-												httpMethod:GetStringParam( httpMethod )
-													params:dict];
 }
 
 
@@ -168,7 +151,7 @@ void _facebookGraphRequest( const char * graphPath, const char * httpMethod, con
 {
 	// make sure we have a legit dictionary
 	NSString *jsonString = GetStringParam ( jsonDict );
-	NSMutableDictionary *dict = [jsonString objectFromJSONString];
+	NSDictionary *dict = (NSDictionary*)[P31 objectFromJsonString:jsonString];
 	
 	if( ![dict isKindOfClass:[NSMutableDictionary class]] )
 		return;
@@ -181,12 +164,6 @@ void _facebookGraphRequest( const char * graphPath, const char * httpMethod, con
 
 
 // Facebook Composer and share dialog methods
-bool _facebookIsFacebookComposerSupported()
-{
-	return [FacebookManager isFacebookComposerSupported];
-}
-
-
 bool _facebookCanUserUseFacebookComposer()
 {
 	return [FacebookManager userCanUseFacebookComposer];
@@ -211,11 +188,11 @@ void _facebookShowFacebookShareDialog( const char * json )
 	
 	if( jsonString && jsonString.length && [jsonString isKindOfClass:[NSString class]] )
 	{
-		NSDictionary *dict = [jsonString objectFromJSONString];
+		NSDictionary *dict = (NSDictionary*)[P31 objectFromJsonString:jsonString];
 		if( [dict isKindOfClass:[NSDictionary class]] )
 		{
 			// translate the dict to FBShareDialogParams
-			FBShareDialogParams *params = [[[FBShareDialogParams alloc] init] autorelease];
+			FBLinkShareParams *params = [[[FBLinkShareParams alloc] init] autorelease];
 			NSArray *allKeys = [dict allKeys];
 			
 			for( NSString *k in allKeys )
@@ -244,4 +221,53 @@ void _facebookShowFacebookShareDialog( const char * json )
 	}
 }
 
+
+
+// App Events
+void _facebookSetAppVersion( const char * version )
+{
+	[FBSettings setAppVersion:GetStringParam( version )];
+}
+
+
+void _facebookLogEvent( const char * event )
+{
+	[FBAppEvents logEvent:GetStringParam( event )];
+}
+
+
+void _facebookLogEventWithParameters( const char * event, const char * json )
+{
+	NSString *jsonString = GetStringParamOrNil( json );
+	
+	if( jsonString && jsonString.length && [jsonString isKindOfClass:[NSString class]] )
+	{
+		NSDictionary *dict = (NSDictionary*)[P31 objectFromJsonString:jsonString];
+		if( [dict isKindOfClass:[NSDictionary class]] )
+		{
+			[FBAppEvents logEvent:GetStringParam( event ) parameters:dict];
+		}
+	}
+}
+
+
+void _facebookLogEventAndValueToSum( const char * event, double valueToSum )
+{
+	[FBAppEvents logEvent:GetStringParam( event ) valueToSum:valueToSum];
+}
+
+
+void _facebookLogEventAndValueToSumWithParameters( const char * event, double valueToSum, const char * json )
+{
+	NSString *jsonString = GetStringParamOrNil( json );
+	
+	if( jsonString && jsonString.length && [jsonString isKindOfClass:[NSString class]] )
+	{
+		NSDictionary *dict = (NSDictionary*)[P31 objectFromJsonString:jsonString];
+		if( [dict isKindOfClass:[NSDictionary class]] )
+		{
+			[FBAppEvents logEvent:GetStringParam( event ) valueToSum:valueToSum parameters:dict];
+		}
+	}
+}
 

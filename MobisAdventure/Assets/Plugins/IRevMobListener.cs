@@ -2,6 +2,10 @@ using System;
 
 public interface IRevMobListener
 {
+	void SessionIsStarted();
+  
+	void SessionNotStarted(string message);
+
 	void AdDidReceive(string revMobAdType);
 
 	void AdDidFail(string revMobAdType);

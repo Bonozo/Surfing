@@ -18,21 +18,21 @@ public class MobiTwitter : MonoBehaviour {
 	void OnEnable()
 	{
 		// Listen to all events for illustration purposes
-		TwitterAndroidManager.loginDidSucceedEvent += loginDidSucceedEvent;
+		/*TwitterAndroidManager.loginDidSucceedEvent += loginDidSucceedEvent;
 		TwitterAndroidManager.loginDidFailEvent += loginDidFailEvent;
 		TwitterAndroidManager.requestSucceededEvent += requestSucceededEvent;
 		TwitterAndroidManager.requestFailedEvent += requestFailedEvent;
-		TwitterAndroidManager.twitterInitializedEvent += twitterInitializedEvent;
+		TwitterAndroidManager.twitterInitializedEvent += twitterInitializedEvent;*/
 	}
 
 	void OnDisable()
 	{
 		// Remove all event handlers
-		TwitterAndroidManager.loginDidSucceedEvent -= loginDidSucceedEvent;
+		/*TwitterAndroidManager.loginDidSucceedEvent -= loginDidSucceedEvent;
 		TwitterAndroidManager.loginDidFailEvent -= loginDidFailEvent;
 		TwitterAndroidManager.requestSucceededEvent -= requestSucceededEvent;
 		TwitterAndroidManager.requestFailedEvent -= requestFailedEvent;
-		TwitterAndroidManager.twitterInitializedEvent -= twitterInitializedEvent;
+		TwitterAndroidManager.twitterInitializedEvent -= twitterInitializedEvent;*/
 	}
 
 	public IEnumerator Init()
@@ -78,7 +78,7 @@ public class MobiTwitter : MonoBehaviour {
 	public IEnumerator Post(int scores,string level)
 	{
 		Working = true; 
-		TwitterAndroid.postUpdate ("I reached " + scores + " meters in " + level + " level.\nMobi's Run\n#MobiTekGames\nhttp://www.mobitekgames.com/games");
+		TwitterAndroid.postStatusUpdate ("I reached " + scores + " meters in " + level + " level.\nMobi's Run\n#MobiTekGames\nhttp://www.mobitekgames.com/games");
 		while(Working) yield return null;
 	}
 

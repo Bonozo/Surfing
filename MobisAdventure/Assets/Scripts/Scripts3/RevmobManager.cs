@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-public class RevmobManager : MonoBehaviour ,IRevMobListener {
+public class RevmobManager : MonoBehaviour {
 	
 	private static readonly Dictionary<String, String> REVMOB_APP_IDS = new Dictionary<String, String>() {
         { "Android", "51b1cbaa1eb3ebaabd00011e"},

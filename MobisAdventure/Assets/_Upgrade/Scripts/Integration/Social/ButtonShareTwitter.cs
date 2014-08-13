@@ -50,7 +50,7 @@ public class ButtonShareTwitter : MonoBehaviour {
 				{
 					yield return StartCoroutine(DeathScreen.Instance.messageBox.Show("Twitter Sharing Successful! Reward 2500 coins !"));
 					posted = true;
-					message.text = "done !";
+					message.text = "done!";
 
 					int coins = PlayerPrefs.GetInt("pp_coins");
 					coins += 2500;

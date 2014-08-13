@@ -46,6 +46,12 @@ public class StoreKitGUIManager : MonoBehaviourGUI
 		}
 
 
+		if( GUILayout.Button( "Enable High Detail Logs" ) )
+		{
+			StoreKitBinding.enableHighDetailLogs( true );
+		}
+
+
 		endColumn( true );
 
 

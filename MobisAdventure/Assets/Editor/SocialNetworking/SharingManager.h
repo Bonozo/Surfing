@@ -14,8 +14,6 @@
 
 + (SharingManager*)sharedManager;
 
-+ (NSObject*)objectFromJsonString:(NSString*)json;
-
 + (void)shareItems:(NSArray*)items excludedActivityTypes:(NSArray*)excludedActivityTypes;
 
 

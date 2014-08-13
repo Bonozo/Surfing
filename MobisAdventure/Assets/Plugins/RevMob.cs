@@ -1,11 +1,12 @@
 using UnityEngine;
 using System;
-using System.Runtime.InteropServices;
+using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 
 
 public abstract class RevMob {
-	protected static readonly string REVMOB_VERSION = "7.0.0";
+	protected static readonly string REVMOB_VERSION = "7.3.2";
 	protected string gameObjectName;
 
 	public enum Test {
@@ -27,10 +28,9 @@ public abstract class RevMob {
 	public abstract RevMobFullscreen ShowFullscreen(string placementId);
 	public abstract RevMobFullscreen CreateFullscreen(string placementId);
 #if UNITY_ANDROID
-	public abstract void CreateBanner(RevMob.Position position, int x, int y, int w, int h);
-	public abstract void ShowBanner();
+	public abstract RevMobBanner CreateBanner(RevMob.Position position, int x, int y, int w, int h);
+	public abstract void ShowBanner(RevMob.Position position, int x, int y, int w, int h);
 	public abstract void HideBanner();
-	public abstract void ReleaseBanner();
 #elif UNITY_IPHONE
 	public abstract RevMobBanner CreateBanner(float x, float y, float width, float height, string placementId, ScreenOrientation[] orientations);
 #endif
@@ -70,12 +70,20 @@ public abstract class RevMob {
 	}
 
 #if UNITY_ANDROID
-	public void CreateBanner() {
-		this.CreateBanner(Position.BOTTOM, 0, 0, 0, 0);
+	public RevMobBanner CreateBanner() {
+		return this.CreateBanner(Position.BOTTOM, 0, 0, 0, 0);
+	}
+	
+	public RevMobBanner CreateBanner(RevMob.Position position) {
+		return this.CreateBanner(position, 0, 0, 0, 0);
 	}
 
-	public void CreateBanner(RevMob.Position position) {
-		this.CreateBanner(position, 0, 0, 0, 0);
+	public void ShowBanner() {
+		this.ShowBanner(Position.BOTTOM, 0, 0, 0, 0);
+	}
+
+	public void ShowBanner(RevMob.Position position) {
+		this.ShowBanner(position, 0, 0, 0, 0);
 	}
 #elif UNITY_IPHONE
 	public RevMobBanner CreateBanner() {

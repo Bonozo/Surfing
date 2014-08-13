@@ -1,6 +1,6 @@
 ## UniRate - A better drop-in solution for rating mobile apps 
 
-Version 1.2.0
+Version 1.2.1
 
 ![UniRate](https://github.com/onevcat/UniRate/blob/master/img/unirate0.png?raw=true)
 

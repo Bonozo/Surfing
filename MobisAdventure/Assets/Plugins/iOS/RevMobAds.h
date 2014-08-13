@@ -9,8 +9,6 @@
 #import "RevMobFullscreen.h"
 #import "RevMobPopup.h"
 
-//#import <CoreLocation/CoreLocation.h>
-
 
 typedef enum {
     RevMobAdsTestingModeOff = 0,
@@ -24,6 +22,11 @@ typedef enum {
     RevMobUserGenderFemale
 } RevMobUserGender;
 
+typedef enum {
+    RevMobParallaxModeOff = 0,
+    RevMobParallaxModeDefault,
+    RevMobParallaxModeWithBackground
+} RevMobParallaxMode;
 
 /**
  This is the main class to start using RevMob Ads.
@@ -51,6 +54,19 @@ typedef enum {
 
  */
 @property (nonatomic, assign) RevMobAdsTestingMode testingMode;
+
+/**
+ This property is used to set the parallaxe effect on ad units.
+ 
+ - RevMobParallaxModeOff - Turn off the parallax effect
+ 
+ - RevMobParallaxModeDefault - Use the default parallax effect
+ 
+ - RevMobParallaxModeWithBackground - Use the parallax with black background effect
+
+ Default value is RevMobParallaxModeOff.
+ */
+@property (nonatomic, assign) RevMobParallaxMode parallaxMode;
 
 /**
  This property is used to set the user gender in order to get targeted ads with higher eCPM.
@@ -161,6 +177,29 @@ typedef enum {
  @param appID: You can collect your App ID at http://revmob.com by looking up your apps.
  */
 + (RevMobAds *)startSessionWithAppID:(NSString *)anAppId;
+
+/**
+ This method is necessary to get the ads objects with delegate.
+ 
+ It must be the first method called on the application:didFinishLaunchingWithOptions: method of the application delegate.
+ 
+ Example of Usage:
+ 
+ - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+ 
+ [RevMobAds startSessionWithAppID:@"your RevMob App ID" andDelegate:self];
+ 
+ self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+ 
+ // Override point for customization after application launch.
+ }
+
+ @param appID: You can collect your App ID at http://revmob.com by looking up your apps.
+ @param adelegate:  The delegate is called when ad related events happen, see
+ RevMobAdsDelegate for mode details. Can be nil;
+ 
+ */
++ (RevMobAds *)startSessionWithAppID:(NSString *)anAppId andDelegate:(id<RevMobAdsDelegate>)adelegate;
 
 /**
  This method can be used to get the already initializaded sesseion of RevMobAds.

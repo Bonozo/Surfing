@@ -14,7 +14,7 @@ public class GoogleSkuInfo
 	public string description { get; private set; }
 	public string productId { get; private set; }
 	public string priceCurrencyCode { get; private set; }
-	public string priceAmountMicros { get; private set; }
+	public long priceAmountMicros { get; private set; }
 
 
 	public static List<GoogleSkuInfo> fromList( List<object> items )
@@ -49,7 +49,11 @@ public class GoogleSkuInfo
 			priceCurrencyCode = dict["price_currency_code"] as string;
 
 		if( dict.ContainsKey( "price_amount_micros" ) )
-			priceAmountMicros = Convert.ToString( dict["price_amount_micros"] );
+		{
+			var temp = dict["price_amount_micros"] as long?;
+			if( temp != null )
+				priceAmountMicros = temp.Value;
+		}
 	}
 
 

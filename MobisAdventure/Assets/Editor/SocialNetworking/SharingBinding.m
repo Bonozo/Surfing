@@ -7,6 +7,8 @@
 //
 
 #import "SharingManager.h"
+#import "P31SharedTools.h"
+
 
 // Converts C style string to NSString
 #define GetStringParam( _x_ ) ( _x_ != NULL ) ? [NSString stringWithUTF8String:_x_] : [NSString stringWithUTF8String:""]
@@ -50,12 +52,12 @@ NSArray * _sharingSharingArrayFromItems( NSArray *items )
 
 void _sharingShareItems( const char * items, const char * excludedActivityTypes )
 {
-	NSArray *itemsArray = (NSArray*)[SharingManager objectFromJsonString:GetStringParam( items )];
+	NSArray *itemsArray = (NSArray*)[P31 objectFromJsonString:GetStringParam( items )];
 	
 	// excludedActivityTypes could very well be nil
 	NSArray *excludedActivityTypesArray = nil;
 	if( excludedActivityTypes != NULL )
-		excludedActivityTypesArray = (NSArray*)[SharingManager objectFromJsonString:GetStringParam( excludedActivityTypes )];
+		excludedActivityTypesArray = (NSArray*)[P31 objectFromJsonString:GetStringParam( excludedActivityTypes )];
 
 	[SharingManager shareItems:_sharingSharingArrayFromItems( itemsArray ) excludedActivityTypes:excludedActivityTypesArray];
 }

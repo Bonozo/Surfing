@@ -26,19 +26,6 @@ UIViewController *UnityGetGLViewController();
 }
 
 
-+ (NSObject*)objectFromJsonString:(NSString*)json
-{
-	NSError *error = nil;
-	NSData *data = [NSData dataWithBytes:json.UTF8String length:json.length];
-    NSObject *object = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
-	
-	if( error )
-		NSLog( @"failed to deserialize JSON: %@ with error: %@", json, [error localizedDescription] );
-    
-    return object;
-}
-
-
 + (void)shareItems:(NSArray*)items excludedActivityTypes:(NSArray*)excludedActivityTypes
 {
 	if( !NSClassFromString( @"UIActivityViewController" ) )

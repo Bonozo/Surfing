@@ -8,8 +8,11 @@
 
 #import "FacebookManager.h"
 #import <objc/runtime.h>
-#import "JSONKit.h"
 #import <Accounts/Accounts.h>
+#import <Social/Social.h>
+#if UNITY_VERSION >= 430
+#include "AppDelegateListener.h"
+#endif
 
 
 NSString* const kFacebookUrlSchemeSuffixKey = @"kFacebookUrlSchemeKey";
@@ -29,6 +32,9 @@ UIViewController *UnityGetGLViewController();
 
 + (void)load
 {
+#if UNITY_VERSION >= 430
+	UnityRegisterAppDelegateListener( (id)[self sharedManager] );
+#endif
 	[[NSNotificationCenter defaultCenter] addObserver:[self sharedManager]
 											 selector:@selector(applicationDidFinishLaunching:)
 												 name:UIApplicationDidFinishLaunchingNotification
@@ -51,16 +57,10 @@ UIViewController *UnityGetGLViewController();
 }
 
 
-+ (BOOL)isFacebookComposerSupported
-{
-	return NSClassFromString( @"SLComposeViewController" ) != nil;
-}
-
-
 + (BOOL)userCanUseFacebookComposer
 {
 	Class slComposer = NSClassFromString( @"SLComposeViewController" );
-	if( slComposer && [slComposer performSelector:@selector(isAvailableForServiceType:) withObject:@"com.apple.social.facebook"] )
+	if( slComposer && [SLComposeViewController isAvailableForServiceType:SLServiceTypeFacebook] )
 		return YES;
 	return NO;
 }
@@ -76,14 +76,20 @@ UIViewController *UnityGetGLViewController();
 		if( [[NSUserDefaults standardUserDefaults] objectForKey:kFacebookUrlSchemeSuffixKey] )
 			self.urlSchemeSuffix = [[NSUserDefaults standardUserDefaults] objectForKey:kFacebookUrlSchemeSuffixKey];
 
+		// check for FB App ID
 		NSDictionary *dict = [[NSBundle mainBundle] infoDictionary];
 		if( ![[dict allKeys] containsObject:@"FacebookAppID"] )
 		{
-			NSLog( @"ERROR: You have not setup your Facebook app ID in the Info.plist file. Not having it in the Info.plist will cause your application to crash." );
+			NSLog( @"ERROR: You have not setup your Facebook app ID in the Info.plist file. Not having it in the Info.plist will cause your application to crash so the plugin is disabling itself." );
 			return nil;
 		}
 		
+		// check for a URL scheme
+		if( ![[dict allKeys] containsObject:@"CFBundleURLTypes"] )
+			NSLog( @"ERROR: You have not setup a URL scheme. Authentication via Safari or the Facebook.app will not work" );
+
 		[self performSelector:@selector(publishPluginUsage) withObject:nil afterDelay:10];
+		[self renewCredentialsForAllFacebookAccounts];
 	}
 	return self;
 }
@@ -113,8 +119,11 @@ UIViewController *UnityGetGLViewController();
 }
 
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-#pragma mark Private/Internal
+- (void)onOpenURL:(NSNotification*)notification
+{
+	[self handleOpenURL:notification.userInfo[@"url"] sourceApplication:notification.userInfo[@"sourceApplication"]];
+}
+
 
 + (BOOL)application:(UIApplication*)application openURL:(NSURL*)url sourceApplication:(NSString*)sourceApplication annotation:(id)annotation
 {
@@ -122,15 +131,16 @@ UIViewController *UnityGetGLViewController();
 }
 
 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark Private/Internal
+
 - (BOOL)handleOpenURL:(NSURL*)url sourceApplication:(NSString*)sourceApplication
 {
 	NSLog( @"url used to open app: %@", url );
 	self.appLaunchUrl = url.absoluteString;
-	
-	BOOL res = [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
-	//BOOL res = [FBSession.activeSession handleOpenURL:url];
 
-	return res;
+	return [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
 }
 
 
@@ -154,12 +164,12 @@ UIViewController *UnityGetGLViewController();
 		NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:[self getAppId], @"appid",
 							  @"prime31_socialnetworking", @"resource",
 							  @"1.0.0", @"version", nil];
-		
+
 		// prep the post data
-		NSString *post = [NSString stringWithFormat:@"plugin=featured_resources&payload=%@", [self urlEncodeValue:[dict JSONString]]];
+		NSString *post = [NSString stringWithFormat:@"plugin=featured_resources&payload=%@", [self urlEncodeValue:[P31 jsonStringFromObject:dict]]];
 		NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
 		NSString *postLength = [NSString stringWithFormat:@"%d", postData.length];
-		
+
 		// prep the request
 		NSMutableURLRequest *request = [[[NSMutableURLRequest alloc] init] autorelease];
 		[request setURL:[NSURL URLWithString:@"https://www.facebook.com/impression.php"]];
@@ -167,7 +177,7 @@ UIViewController *UnityGetGLViewController();
 		[request setValue:postLength forHTTPHeaderField:@"Content-Length"];
 		[request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
 		[request setHTTPBody:postData];
-		
+
 		// send the request
 		NSURLResponse *response = nil;
 		[NSURLConnection sendSynchronousRequest:request returningResponse:&response error:NULL];
@@ -221,18 +231,18 @@ UIViewController *UnityGetGLViewController();
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 #pragma mark - Facebook Share Dialog
 
-- (void)showShareDialogWithParams:(FBShareDialogParams*)dialogParams
+- (void)showShareDialogWithParams:(FBLinkShareParams*)dialogParams
 {
 	[FBDialogs presentShareDialogWithParams:dialogParams clientState:nil handler:^( FBAppCall *call, NSDictionary *results, NSError *error )
 	 {
 		 if( error )
 		 {
 			 NSLog( @"Share Dialog error: %@", error );
-			 UnitySendMessage( "FacebookManager", "shareDialogFailed", error.localizedDescription.UTF8String );
+			 UnitySendMessage( "FacebookManager", "shareDialogFailed", [P31 jsonFromError:error] );
 		 }
 		 else
 		 {
-			 UnitySendMessage( "FacebookManager", "shareDialogSucceeded", results.JSONString.UTF8String );
+			 UnitySendMessage( "FacebookManager", "shareDialogSucceeded", [P31 jsonStringFromObject:results].UTF8String );
 		 }
 	 }];
 }
@@ -248,12 +258,12 @@ UIViewController *UnityGetGLViewController();
 		NSLog( @"error: there is no active session. You cannot enable frictionless requests until you have an active session" );
 		return;
 	}
-	
+
 	self.frictionlessRecipientCache = [[[FBFrictionlessRecipientCache alloc] init] autorelease];
 	[self.frictionlessRecipientCache prefetchAndCacheForSession:[FBSession activeSession] completionHandler:^( FBRequestConnection *conn, id result, NSError *error )
 	{
 		if( error )
-			NSLog( @"error prefethcing frictionless recipient cache: %@", error );
+			NSLog( @"error pre-fetching frictionless recipient cache: %@", error );
 	}];
 }
 
@@ -281,10 +291,12 @@ UIViewController *UnityGetGLViewController();
 	{
 		[accountStore renewCredentialsForAccount:fbAccount completion:^( ACAccountCredentialRenewResult renewResult, NSError *error )
 		{
+			/*
 			if( error )
 				NSLog( @"account %@ failed to renew: %@", fbAccount, error );
 			else
 				NSLog( @"account %@ renewed successfully", fbAccount );
+			*/
 		}];
 	}
 }
@@ -292,7 +304,7 @@ UIViewController *UnityGetGLViewController();
 
 - (void)startSessionQuietly
 {
-	[FBSettings publishInstall:[self getAppId]];
+	[FBAppEvents activateApp];
 	[FBSettings setDefaultAppID:[self getAppId]];
 
 	// create a session manually in case we have a url scheme suffix
@@ -361,8 +373,7 @@ UIViewController *UnityGetGLViewController();
 			 }
 			 else
 			 {
-				 NSString *errorString = error.localizedDescription != nil ? error.localizedDescription : @"unknown error";
-				 UnitySendMessage( "FacebookManager", "loginFailed", errorString.UTF8String );
+				 UnitySendMessage( "FacebookManager", "loginFailed", [P31 jsonFromError:error] );
 			 }
 		 }
 	 }];
@@ -403,8 +414,7 @@ UIViewController *UnityGetGLViewController();
 			 else if( error )
 			 {
 				 NSLog( @"session creation error: %@ userInfo: %@", error, error.userInfo ? error.userInfo : @"no userInfo" );
-				 NSString *errorString = error.localizedDescription != nil ? error.localizedDescription : @"unknown error";
-				 UnitySendMessage( "FacebookManager", "loginFailed", errorString.UTF8String );
+				 UnitySendMessage( "FacebookManager", "loginFailed", [P31 jsonFromError:error] );
 			 }
 			 else
 			 {
@@ -418,10 +428,13 @@ UIViewController *UnityGetGLViewController();
 
 - (void)reauthorizeWithReadPermissions:(NSArray*)permissions
 {
+	if( ![FBSession activeSession] )
+		return;
+	
 	[[FBSession activeSession] requestNewReadPermissions:permissions completionHandler:^( FBSession *session, NSError *error )
 	{
 		if( error )
-			UnitySendMessage( "FacebookManager", "reauthorizationFailed", error.localizedDescription.UTF8String );
+			UnitySendMessage( "FacebookManager", "reauthorizationFailed", [P31 jsonFromError:error] );
 		else
 			UnitySendMessage( "FacebookManager", "reauthorizationSucceeded", "" );
 	}];
@@ -430,10 +443,13 @@ UIViewController *UnityGetGLViewController();
 
 - (void)reauthorizeWithPublishPermissions:(NSArray*)permissions defaultAudience:(FBSessionDefaultAudience)audience
 {
+	if( ![FBSession activeSession] )
+		return;
+	
 	[[FBSession activeSession] requestNewPublishPermissions:permissions defaultAudience:audience completionHandler:^( FBSession *session, NSError *error )
 	{
 		if( error )
-			UnitySendMessage( "FacebookManager", "reauthorizationFailed", error.localizedDescription.UTF8String );
+			UnitySendMessage( "FacebookManager", "reauthorizationFailed", [P31 jsonFromError:error] );
 		else
 			UnitySendMessage( "FacebookManager", "reauthorizationSucceeded", "" );
 	}];
@@ -457,29 +473,25 @@ UIViewController *UnityGetGLViewController();
 		}
 		else
 		{
-			NSString *errorString = @"Unknown Error";
-			if( error )
-				errorString = error.localizedDescription;
-			
-			UnitySendMessage( "FacebookManager", "dialogFailedWithError", errorString.UTF8String );
+			UnitySendMessage( "FacebookManager", "dialogFailedWithError", [P31 jsonFromError:error] );
 		}
 	};
-	
+
 	if( [dialogType isEqualToString:@"apprequests"] )
 	{
 		NSArray *allKeys = [dict allKeys];
 		NSString *message = @"You forgot to pass in a message parameter";
 		NSString *title = @"You forgot to pass in a title parameter";
-		
+
 		if( [allKeys containsObject:@"message"] )
 			message = [dict objectForKey:@"message"];
 
 		if( [allKeys containsObject:@"title"] )
 			title = [dict objectForKey:@"title"];
-		
+
 		if( [message isEqualToString:@""] || [title isEqualToString:@""] )
 			NSLog( @"Note that the apprequests dialog requires both a title and message parameter. The plugin just saved you from an error by adding them for you" );
-		
+
 		[FBWebDialogs presentRequestsDialogModallyWithSession:nil
 													  message:message
 														title:title
@@ -488,34 +500,23 @@ UIViewController *UnityGetGLViewController();
 												  friendCache:self.frictionlessRecipientCache];
 		return;
 	}
-	
-	
+
+
 	[FBWebDialogs presentDialogModallyWithSession:nil dialog:dialogType parameters:dict handler:dialogHandler];
 }
 
 
-- (void)requestWithGraphPath:(NSString*)path httpMethod:(NSString*)method params:(NSMutableDictionary*)params
+- (void)requestWithGraphPath:(NSString*)path httpMethod:(NSString*)method params:(NSDictionary*)params
 {
 	[FBRequestConnection startWithGraphPath:path parameters:params HTTPMethod:method completionHandler:^( FBRequestConnection *conn, id result, NSError *error )
 	{
 		if( error )
 		{
-			UnitySendMessage( "FacebookManager", "graphRequestFailed", [[error localizedDescription] UTF8String] );
+			UnitySendMessage( "FacebookManager", "graphRequestFailed", [P31 jsonFromError:error] );
 		}
 		else
 		{
-			NSString *json = nil;
-			if( [result isKindOfClass:[NSDictionary class]] )
-			{
-				NSDictionary *dictionary = (NSDictionary*)result;
-				json = [dictionary JSONString];
-			}
-			else if( [result isKindOfClass:[NSArray class]] )
-			{
-				NSArray *arr = (NSArray*)result;
-				json = [arr JSONString];
-			}
-			UnitySendMessage( "FacebookManager", "graphRequestCompleted", json.UTF8String );
+			UnitySendMessage( "FacebookManager", "graphRequestCompleted", [P31 jsonStringFromObject:result].UTF8String );
 		}
 	}];
 }
@@ -533,18 +534,7 @@ UIViewController *UnityGetGLViewController();
 		}
 		else
 		{
-			NSString *json = nil;
-			if( [result isKindOfClass:[NSDictionary class]] )
-			{
-				NSDictionary *dictionary = (NSDictionary*)result;
-				json = [dictionary JSONString];
-			}
-			else if( [result isKindOfClass:[NSArray class]] )
-			{
-				NSArray *arr = (NSArray*)result;
-				json = [arr JSONString];
-			}
-			UnitySendMessage( "FacebookManager", "restRequestCompleted", json.UTF8String );
+			UnitySendMessage( "FacebookManager", "restRequestCompleted", [P31 jsonStringFromObject:result].UTF8String );
 		}
 		[conn autorelease];
 	}];
@@ -556,20 +546,21 @@ UIViewController *UnityGetGLViewController();
 
 
 
+// we only want the old category hack in Unity versions before 4.3 where the AppDelegateListener was introduced
+#if UNITY_VERSION < 430
+
+#if UNITY_VERSION < 420
+
+#import "AppController.h"
+@implementation AppController(FacebookURLHandler)
+
+#else
 
 #import "UnityAppController.h"
-
-
 @implementation UnityAppController(FacebookURLHandler)
 
-- (BOOL)application:(UIApplication*)application handleOpenURL:(NSURL*)url
-{
-	BOOL res = [[FacebookManager sharedManager] handleOpenURL:url sourceApplication:nil];
-	return res;
-}
+#endif
 
-
-// For iOS 4.2+ support
 - (BOOL)application:(UIApplication*)application
 			openURL:(NSURL*)url
   sourceApplication:(NSString*)sourceApplication
@@ -590,4 +581,5 @@ UIViewController *UnityGetGLViewController();
 
 @end
 
+#endif
 
