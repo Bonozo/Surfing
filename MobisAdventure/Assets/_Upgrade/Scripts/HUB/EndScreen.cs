@@ -16,6 +16,11 @@ public class EndScreen : MonoBehaviour {
 		labelLevel.text = "Level: " + DeathScreen.Instance.levelController.CurrentLevel;
 		labelCoins.text = "+" + DeathScreen.Instance.resultScore;
 
+
+		// Sumbit the score to Facebook's friends leaderboards
+		FacebookAdvanced.Instance.SubmitScore (DeathScreen.Instance.resultDistance);
+
+		// Show rate app popup
 		#if !UNITY_EDITOR
 		if(!CheckRated.Instance.RateButtonClicked)
 			UniRate.Instance.PromptIfNetworkAvailable();

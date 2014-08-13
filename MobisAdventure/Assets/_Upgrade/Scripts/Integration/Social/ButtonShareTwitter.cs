@@ -27,7 +27,6 @@ public class ButtonShareTwitter : MonoBehaviour {
 		working = true;
 		loading.SetActive (true);
 
-		message.text = "Sharing...";
 		yield return StartCoroutine(MobiTwitter.Instance.Init());
 		if(!MobiTwitter.Instance.Result)
 		{
@@ -35,7 +34,6 @@ public class ButtonShareTwitter : MonoBehaviour {
 		}
 		else
 		{
-			message.text = "Logging...";
 			yield return StartCoroutine(MobiTwitter.Instance.Login());
 			if(!MobiTwitter.Instance.Result)
 			{
@@ -43,7 +41,6 @@ public class ButtonShareTwitter : MonoBehaviour {
 			}
 			else
 			{
-				message.text = "Posting...";
 				yield return StartCoroutine(MobiTwitter.Instance.Post(DeathScreen.Instance.LastDistanceTravelled,DeathScreen.Instance.LastLevel));
 				if(!MobiTwitter.Instance.Result)
 				{
