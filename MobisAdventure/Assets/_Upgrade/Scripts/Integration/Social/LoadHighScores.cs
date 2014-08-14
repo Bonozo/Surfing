@@ -54,11 +54,7 @@ public class LoadHighScores : MonoBehaviour {
 		while(tex == null && time > Time.time)
 			yield return new WaitForEndOfFrame();
 
-		if(tex == null)
-			Debug.Log("Avatar is null");
-		else{
+		if(tex != null)
 			dest.mainTexture = tex;
-			Debug.Log("Avatar loaded Successfully");
-		}
 	}
 }
