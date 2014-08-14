@@ -3,6 +3,11 @@ using System.Collections;
 
 public class ButtonConnectFacebook : MonoBehaviour {
 
+	void Start(){
+		// Update Leaderboard anyway 
+		FacebookAdvanced.Instance.GetLeaderboard ();
+	}
+
 	void OnClick(){
 		StartCoroutine (FBConnectThread ());
 	}
