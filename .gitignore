@@ -1,6 +1,7 @@
 # Ignore The following directories / file extensions
 Library
 Temp
+XCode
 
 # Ignore the following file extensions
 *.exe
