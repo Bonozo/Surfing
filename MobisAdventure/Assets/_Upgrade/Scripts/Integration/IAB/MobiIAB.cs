@@ -5,7 +5,7 @@ using Prime31;
 
 public class MobiIAB : MonoBehaviour
 {
-	public static bool debug = false;
+	public static bool debug = true;
 
 	#if UNITY_ANDROID || UNITY_IPHONE
 	private string key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlKs9XEn5clhFXKswADyNBBwB1B5YrMhEt2mwCrjQSF+tZgF7CWemIn3+McSfPZF/Jb/20R5sQCFZHDdDRIS/uwxMVVQn0ZIKLbJMJDCF5B55Pu6Sgk3VDzeTmrXou/VsxaY9JcQEe68RchTZzdpQoG74u9rgkPsHkavtrlgC5TUBOlvvemjlWvzvxxunZ2C/i5Vixxq+aUrHYD/TaR4rM0TM991JbOAY3Ro6Rhj3qooMGK++2NxM0x25SEyu3AsGdJVPPRpXSv8/oYWPXCstDbeDRVqmox4X0w+T2ThHSMXiqD6DSlprOTut7aNwvMVvpfjIDtxuxisaJ3FBPCvPxwIDAQAB";

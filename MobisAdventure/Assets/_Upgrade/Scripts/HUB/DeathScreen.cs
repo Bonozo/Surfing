@@ -47,8 +47,13 @@ public class DeathScreen : MonoBehaviour {
 		LastDistanceTravelled = distance;
 
 		// Drop the volume and fade out
-		MusicLoop.Instance.DropVolume (0.4f, 1f);
+		MusicLoop.Instance.DropVolume (1.2f, 1f);
 		PlayerController.Instance.StartCoroutine(PlayerController.Instance.FadeOut ());
+
+		// Cut the sound of engine
+		var fsm = PlayerController.Instance.transform.FindChild ("Engine_Controller").transform;
+		for(int i=0;i<fsm.childCount;i++)
+			fsm.GetChild(i).gameObject.SetActive(false);
 
 		float time = RealTime.time + 0.5f;
 		while(time > RealTime.time) yield return new WaitForEndOfFrame();

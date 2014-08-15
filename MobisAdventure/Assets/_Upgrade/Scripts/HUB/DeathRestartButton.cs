@@ -11,6 +11,7 @@ public class DeathRestartButton : MonoBehaviour {
 	void OnClick()
 	{
 		Restarter.Instance.CreateLevel ();
+		MusicLoop.Instance.Restart ();
 		/*GameManager.m_chosenSled = (GameManager.ChosenSled)(PlayerPrefs.GetInt("mobisled",1)-1);
 		GameManager.m_chosenMobi = (GameManager.ChosenMobi)(PlayerPrefs.GetInt("mobicharacter",1)-1);
 		GameManager.m_chosenLevel = (GameManager.ChosenLevel)(PlayerPrefs.GetInt("mobilevel",1)-1);

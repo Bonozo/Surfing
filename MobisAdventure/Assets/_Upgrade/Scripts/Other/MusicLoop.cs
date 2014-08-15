@@ -16,6 +16,11 @@ public class MusicLoop : MonoBehaviour {
 		audio.Play ();
 	}
 
+	public void Restart(){
+		audio.Stop ();
+		audio.Play();
+	}
+
 	public void DropVolume(float delta,float timeDelta)
 	{
 		StartCoroutine (DropVolumeThread (delta, timeDelta));
@@ -28,9 +33,11 @@ public class MusicLoop : MonoBehaviour {
 		{
 			float ddt = Time.deltaTime;
 			timeDelta -= ddt;
-			audio.volume = Mathf.Clamp(audio.volume - speed*ddt,0.05f,1f);
+			audio.volume = Mathf.Clamp(audio.volume - speed*ddt,0f,1f);
 			yield return new WaitForEndOfFrame();
 		}
+
+		if( audio.volume < 0.05f) audio.volume = 0f;
 	}
 
 	#region Static Instance

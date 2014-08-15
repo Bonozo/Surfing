@@ -274,7 +274,7 @@ public class PlayerController : MonoBehaviour
 	float fadeAmmount = 0.75f;
 	public IEnumerator FadeOut(){
 		float speed = 1.5f;
-		sfx_frostColor.a = 0f;
+		sfx_frostColor.a = Mathf.Max (0f, sfx_frostColor.a);
 		while(sfx_frostColor.a<fadeAmmount){
 			sfx_frostColor.a += RealTime.deltaTime*speed;
 			sfx_frostObj.color = sfx_frostColor;
@@ -632,7 +632,7 @@ public class PlayerController : MonoBehaviour
 		yeti.ReSetupOnPlayerRespawn ();
 		chaseBar.parent.gameObject.SetActive(true);
 		deathskip = false;
-
+		
 		StartCoroutine (CountDown ());
 	}
 
@@ -650,10 +650,19 @@ public class PlayerController : MonoBehaviour
 
 		Time.timeScale = 1f;
 		// Turn up volume
+		MusicLoop.Instance.audio.volume = 0.1f;
 		MusicLoop.Instance.DropVolume (-0.4f, 3f);
+		
+		// Add the sound of engine
+		var fsm = PlayerController.Instance.transform.FindChild ("Engine_Controller").transform;
+		for(int i=0;i<fsm.childCount;i++)
+			fsm.GetChild(i).gameObject.SetActive(true);
 		audio.PlayOneShot (clip);
 		life = true;
 		death = false;
+
+		// Give the player full boost
+		boost.AddBoost (100);
 
 		yield return StartCoroutine (ShowCountDown ("GO!",1.6f) );
 	}
@@ -687,7 +696,8 @@ public class PlayerController : MonoBehaviour
 	public bool GamePaused { get{ return s_pause; }}
 	public float Speed { get { return Mathf.Round (rigidbody.velocity.magnitude * 2.0f); } }
 	public float BoostingTime { get { return boostingTime; } }
-	
+	public bool IsDead { get { return death; } }
+
 	#endregion
 
 	#region Updates 3
