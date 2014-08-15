@@ -4,8 +4,22 @@ using System.Collections;
 public class ButtonConnectFacebook : MonoBehaviour {
 
 	void Start(){
-		// Update Leaderboard anyway 
+
+		bool connect_status = (PlayerPrefs.GetInt ("facebook_connected", 0) == 1);
+		transform.FindChild ("Background").gameObject.SetActive (!connect_status);
+		GetComponent<UIButton> ().isEnabled = !connect_status;
+
+		// anyway
+		if(FacebookAdvanced.Instance.IsLoggedIn() && !FacebookAdvanced.Instance.HasPublishPermission())
+			FacebookAdvanced.Instance.RequestPublishPermission();
 		FacebookAdvanced.Instance.GetLeaderboard ();
+
+		// Check if out saved status is not true
+		bool connected = FacebookAdvanced.Instance.IsLoggedIn ();
+		transform.FindChild ("Background").gameObject.SetActive (!connected);
+		GetComponent<UIButton> ().isEnabled = !connected;
+		PlayerPrefs.SetInt ("facebook_connected", connected?1:0);
+		PlayerPrefs.Save ();
 	}
 
 	void OnClick(){

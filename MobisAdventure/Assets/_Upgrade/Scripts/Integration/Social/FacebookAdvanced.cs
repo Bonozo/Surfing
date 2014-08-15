@@ -91,6 +91,7 @@ public class FacebookAdvanced : MonoBehaviour {
 	}
 
 	public void RequestPublishPermission(){
+		if(HasPublishPermission()) return;
 		var permissions = new string[] { "publish_actions" };
 		FacebookAccess.reauthorizeWithPublishPermissions( permissions, FacebookSessionDefaultAudience.Everyone );
 	}
