@@ -12,7 +12,7 @@ public class MobiIAB : MonoBehaviour
   //private string key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAymWgRnh1BakrbqiGqrF6LBNLMQY/4gHI0KlOc9u6A3kYtMN3ghqQzeIje+WzP7G6wUPeTmLUrI0WUrcQFuvsMm0xwnj9rEY66RhgvwpwC6MO/dOH0NmsMBTll3g8WgT4GHyeBojH21ZZAi5bXS49qAHh/A4wQxVudzazLoMXe9s8/4mFwJUHkByOnMDN9cnVV5wl4nf/zO4i2mZU4A2j9CLBwzVDUK6e6giLPLwpGmTtqEdfX4hfLJ7okFV8rPGXW8aZjwsSclRb4oTuRshpqqONRHvBFcN7GJUT2h43HqDYY1Ul+uTtYQIsdQFDdnXKi2G44KZnNcZrnDhtRUaWLwIDAQAB";
 	private string[] skus = new string[] {@"hkr_99c_noads",@"hkr_150k_coins", @"hkr_250k_coins",
 		@"hkr_500k_coins", @"hkr_750k_coins",@"hkr_2m_coins" ,@"hkr_5m_coins" ,@"hkr_10m_coins",
-		@"hkr_offer1",@"hkr_offer2"  };
+		@"hkr_offer1",@"hkr_offer2", @"hkr_continue"  };
 	private bool queryInventorySucceeded = false;
 
 	void Awake(){

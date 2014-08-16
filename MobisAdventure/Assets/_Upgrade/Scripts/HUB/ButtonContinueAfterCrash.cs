@@ -26,7 +26,7 @@ public class ButtonContinueAfterCrash : MonoBehaviour {
 			DeathScreen.Instance.ShowMessageAndDoNothingMore("Unable to connect to the Server.");
 		}
 		else{
-			IAP.purchaseConsumableProduct( "hkr_offer1", ( didSucceed, error ) => {
+			IAP.purchaseConsumableProduct( "hkr_continue", ( didSucceed, error ) => {
 				if( !didSucceed ){
 					DeathScreen.Instance.messageBox.ShowLoading(false);
 					DeathScreen.Instance.messageBox.Show("Failed to purchase!");
