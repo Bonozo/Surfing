@@ -79,8 +79,8 @@ public class LevelPath : MonoBehaviour {
 			// Start animations
 			zipAnimation.Play();
 			mooseAnimation.Play();
-			for(int i=0;i<8;i++)
-				StartCoroutine("RotateStart",stars.FindChild("star" + i));
+			//for(int i=0;i<8;i++)
+			//	StartCoroutine("RotateStart",stars.FindChild("star" + i));
 
 			yield return new WaitForSeconds(moveDelay);
 

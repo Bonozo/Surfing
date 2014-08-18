@@ -1,4 +1,4 @@
-﻿using UnityEditor;
+﻿/*using UnityEditor;
 using UnityEngine;
 using System.Collections;
 
@@ -12,3 +12,4 @@ public class LevelWhatIsNextEditor : Editor {
 			((LevelWhatIsNext)target).Initialize();
 	}
 }
+*/

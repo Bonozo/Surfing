@@ -45,18 +45,18 @@ MonoBehaviour:
     outer:
       serializedVersion: 2
       x: 0
-      y: 9
-      width: 25
-      height: 23
+      y: 18
+      width: 48
+      height: 46
     inner:
       serializedVersion: 2
       x: 0
-      y: 9
-      width: 25
-      height: 23
+      y: 18
+      width: 48
+      height: 46
     rotated: 0
-    paddingLeft: 8.88000011
-    paddingRight: 31.0799999
+    paddingLeft: 9.27083302
+    paddingRight: 32.3958321
     paddingTop: 29.434782
     paddingBottom: 2.95652175
   mCoordinates: 0

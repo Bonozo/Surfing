@@ -193,7 +193,6 @@
      <Compile Include="Assets\Scripts\Levels\Level Correct Drag\LevelCorrectDrag.cs" />
      <Compile Include="Assets\Scripts\Levels\Match Picture With Words\LevelPictureWithWords.cs" />
      <Compile Include="Assets\Scripts\Levels\Match Picture With Words\PictureWithWordButton.cs" />
-     <Compile Include="Assets\Scripts\Levels\Paint\LevelPaint.cs" />
      <Compile Include="Assets\Scripts\Levels\Point\LevelPoint.cs" />
      <Compile Include="Assets\Scripts\Levels\Point\PointButton.cs" />
      <Compile Include="Assets\Scripts\Levels\Right Answer\LevelRightAnswer.cs" />
@@ -231,6 +230,7 @@
      <Compile Include="Assets\Scripts\Other\SimpleRotate.cs" />
      <Compile Include="Assets\Scripts\Other\SimpleUITextureAnimation.cs" />
      <Compile Include="Assets\Scripts\Other\UIAnimation.cs" />
+     <Compile Include="Assets\_DEMO Painting Numbers\Paint\LevelPaint.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />

@@ -1,8 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\MobisAdventure\Assets\Scripts\Game\PlayerController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_DEMO Painting Numbers\Paint\LevelPaint.cs">
     <Files>
-      <File FileName="..\MobisAdventure\Assets\Scripts\Game\PlayerController.cs" Line="612" Column="55" />
+      <File FileName="Assets\_DEMO Painting Numbers\Paint\LevelPaint.cs" Line="65" Column="29" />
+      <File FileName="Assets\Scripts\Menus\Loader.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Levels\GameBlock.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Levels\GameBlockIntro.cs" Line="22" Column="61" />
+      <File FileName="Assets\Pixelplacement\iTween.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
