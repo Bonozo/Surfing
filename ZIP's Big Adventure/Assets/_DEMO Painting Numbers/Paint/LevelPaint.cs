@@ -105,7 +105,7 @@ public class LevelPaint : ZIPLevel {
 			FillEllipse(xpixel,ypixel,(int)(radius*Screen.width));
 		
 		int percent = (int)(100f*(pixelTotal-pixelCount)/pixelTotal);
-		if(pixelCount < 15f){
+		if(percent >= 99){
 			done = true;
 			percent = 100;
 			StartCoroutine(HappyEndThread());

@@ -8,8 +8,8 @@ using UnityEngine.SocialPlatforms.GameCenter;
 
 public class GameServicesSubmit : MonoBehaviour {
 
-	/*#if UNITY_ANDROID
-	private string leaderboardName = "CgkIu_XOtq8QEAIQBw";
+	#if UNITY_ANDROID
+	private string leaderboardName = "CgkI4azPoZEbEAIQBg";
 	#elif UNITY_IPHONE
 	private string leaderboardName = "monsterhillracing_best";
 	#endif
@@ -98,5 +98,5 @@ public class GameServicesSubmit : MonoBehaviour {
 			Debug.Log("Report Score Status: " + submit); });
 	}
 
-	#endif*/
+	#endif
 }
