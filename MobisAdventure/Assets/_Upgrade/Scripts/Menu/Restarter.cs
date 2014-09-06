@@ -27,6 +27,9 @@ public class Restarter : MonoBehaviour {
 		if(old != null)
 			Destroy (old);
 		old = Instantiate (level) as GameObject;
+
+		// Increase camera size on wide screen devices
+		old.GetComponentInChildren<Camera> ().orthographicSize = FixIpadHeight.isWideScreen ? 13 : 10;
 		Time.timeScale = 1f;
 	}
 

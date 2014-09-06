@@ -56,11 +56,13 @@ public class Yeti : MonoBehaviour {
 		monsterT.audio.Play ();
 		// First plan
 		float ttime = 0f;
+		float delta = FixIpadHeight.isWideScreen?1.5f:3f;
+		float bbt = FixIpadHeight.isWideScreen?6f:4f;
 		while( ttime < 2f)
 		{
 			ttime += Time.deltaTime;
-			float mmin = Camera.main.ScreenToWorldPoint (new Vector3 (0f, 0f, 0f)).x - 4f;
-			distance = mmin + ttime*3f;
+			float mmin = Camera.main.ScreenToWorldPoint (new Vector3 (0f, 0f, 0f)).x - bbt;
+			distance = mmin + ttime*delta;
 			SetupHeight();
 			yield return null;
 		}
@@ -68,8 +70,8 @@ public class Yeti : MonoBehaviour {
 		while(ttime < 3f)
 		{
 			ttime += Time.deltaTime;
-			float mmin = Camera.main.ScreenToWorldPoint (new Vector3 (0f, 0f, 0f)).x - 4f;
-			distance = mmin + 6f;
+			float mmin = Camera.main.ScreenToWorldPoint (new Vector3 (0f, 0f, 0f)).x - bbt;
+			distance = mmin + 2f*delta;
 			SetupHeight();
 			yield return null;
 		}
