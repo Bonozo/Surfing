@@ -66,7 +66,7 @@ public class DeathScreen : MonoBehaviour {
 		yield return new WaitForSeconds(bgAlphaTween.duration);
 		stats.SetActive(true);*/
 
-		#if UNITY_IPHONE
+		/*#if UNITY_IPHONE
 		// for iPhone platform disabling fb ad twitter buttons
 		var buttonFacebook =  GameObject.FindObjectOfType<ButtonShareFacebook>().gameObject;
 		var buttonTwitter =  GameObject.FindObjectOfType<ButtonShareTwitter>().gameObject;
@@ -76,7 +76,7 @@ public class DeathScreen : MonoBehaviour {
 		buttonTwitter.SetActive(false);
 		buttonGamecenter.transform.parent.FindChild("label facebook coins").gameObject.SetActive(false);
 		buttonGamecenter.transform.parent.FindChild("label twitter coins").gameObject.SetActive(false);
-		#endif
+		#endif*/
 	}
 
 	public GameObject pauseScreen;
