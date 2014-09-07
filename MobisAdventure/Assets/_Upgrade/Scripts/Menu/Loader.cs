@@ -7,7 +7,11 @@ public class Loader : MonoBehaviour {
 	public static bool destroyme = false;
 	public UISlider sliderLoadingStatus;
 	public GameObject background;
-	
+
+	void Awake(){
+		sliderLoadingStatus.value = 0;
+	}
+
 	// Use this for initialization
 	IEnumerator Start () {
 		Time.timeScale = 1f;
