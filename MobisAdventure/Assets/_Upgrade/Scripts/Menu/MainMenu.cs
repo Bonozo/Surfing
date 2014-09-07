@@ -8,12 +8,22 @@ public class MainMenu : MonoBehaviour {
 	public UILabel[] labelCoinCount;
 	public MenuToggle GetMoreCoinsToggle;
 	public GameObject title;
-	
+	public GameObject secondScreen;
+
+	private static int titleAppears = 0;
+
 	void Awake()
 	{
-		Application.targetFrameRate = 60;
-		
+		titleAppears++;
 		coinshow = PlayerPrefs.GetInt ("pp_coins");
+
+		if(titleAppears==1){
+			Application.targetFrameRate = 60;
+		}
+		else{
+			secondScreen.SetActive(true);
+			title.SetActive(false);
+		}
 	}
 
 	void Update()
