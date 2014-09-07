@@ -6,8 +6,6 @@ public class ButtonShareTwitter : MonoBehaviour {
 	public UILabel message;
 	public GameObject loading;
 
-	#if UNITY_ANDROID
-
 	private bool posted=false;
 	private bool working=false;
 	
@@ -63,5 +61,4 @@ public class ButtonShareTwitter : MonoBehaviour {
 		loading.SetActive (false);
 		working = false;
 	}
-	#endif
 }

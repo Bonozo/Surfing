@@ -1,6 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+#if UNITY_ANDROID
+using TwitterAccess = TwitterAndroid;
+#elif UNITY_IPHONE
+using TwitterAccess = TwitterBinding;
+#endif
+
 public class MobiTwitter : MonoBehaviour {
 	
 	public bool Working{ get; private set; }
@@ -13,8 +19,7 @@ public class MobiTwitter : MonoBehaviour {
 		Working = false;
 		Result = false;
 	}
-
-	#if UNITY_ANDROID
+	
 	void OnEnable()
 	{
 		// Listen to all events for illustration purposes
@@ -45,7 +50,8 @@ public class MobiTwitter : MonoBehaviour {
 		else
 		{
 			Working = true;
-			TwitterAndroid.init( "bZbuIhuGHAN1Fs3QuP8dDQ", "P8ckiUMXVsqnYcyyqGt1Y4Z0ZriPNxSj9slYFwCtE" );
+
+			TwitterAccess.init( "bZbuIhuGHAN1Fs3QuP8dDQ", "P8ckiUMXVsqnYcyyqGt1Y4Z0ZriPNxSj9slYFwCtE" );
 			float time = RealTime.time + 1f;
 			while(time > RealTime.time) yield return new WaitForEndOfFrame();
 			Inited = true;
@@ -65,25 +71,25 @@ public class MobiTwitter : MonoBehaviour {
 		else
 		{
 			Working = true;
-			TwitterAndroid.showLoginDialog();
+			TwitterAccess.showLoginDialog();
 			while(Working) yield return null;
 		}
 	}
 
 	public bool IsLoggedIn()
 	{
-		return TwitterAndroid.isLoggedIn();
+		return TwitterAccess.isLoggedIn();
 	}
 
 	public void Logout()
 	{
-		TwitterAndroid.logout();
+		TwitterAccess.logout();
 	}
 
 	public IEnumerator Post(int scores,string level)
 	{
 		Working = true; 
-		TwitterAndroid.postStatusUpdate ("I reached " + scores + " meters in " + level + " level.\nHill Climb Racing\n#MobiTekGames\nhttp://www.mobitekgames.com/games");
+		TwitterAccess.postStatusUpdate ("I reached " + scores + " meters in " + level + " level.\nMonster Hill Racing\n#MobiTekGames\nhttp://www.mobitekgames.com/games");
 		while(Working) yield return null;
 	}
 
@@ -123,7 +129,6 @@ public class MobiTwitter : MonoBehaviour {
 		Result = true;
 		Working = false;
 	}
-	#endif
 
 	#region Static Instance
 	
