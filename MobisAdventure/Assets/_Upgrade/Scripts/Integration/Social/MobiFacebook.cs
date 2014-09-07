@@ -198,7 +198,7 @@ public class MobiFacebook : MonoBehaviourGUI {
 		Facebook.instance.postMessageWithLinkAndLinkToImage(
 			"I reached " + scores + " meters in " + level + " level.",
 			"http://www.mobitekgames.com/games",
-			"Mobi's Run",
+			"Monster Hill Racing",
 			"http://www.mobitekgames.com/sites/default/files/imagepicker/2/LogoButton2.png",
 			"", 
 			PostedHandler );

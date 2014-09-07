@@ -241,10 +241,10 @@ public class FacebookAdvanced : MonoBehaviour {
 
 	/*public void ShowPostDialog( int score ) {
 		string url = "http://www.mobitekgames.com";
-		string title = "Beat my score of " + String.Format("{0:n0}", score) + " metres in Hill Climb Racing!";
+		string title = "Beat my score of " + String.Format("{0:n0}", score) + " metres in Monster Hill Racing!";
 		string icon_url = @"http://mobitekgames.com/sites/default/files/imagepicker/2/browser/Mobi'sRun_Icon2_1024x1024.jpg";
 		string message = "";
-		string imageCaption = "Hill Climb Racing.";
+		string imageCaption = "Monster Hill Racing.";
 		
 		var parameters = new Dictionary<string,string>
 		{
@@ -260,7 +260,7 @@ public class FacebookAdvanced : MonoBehaviour {
 		Facebook.instance.postMessageWithLinkAndLinkToImage(
 			"I reached " + scores + " meters in " + level + " level.",
 			"http://www.mobitekgames.com/games",
-			"Hill Climb Racing",
+			"Monster Hill Racing",
 			"http://mobitekgames.com/sites/default/files/imagepicker/2/browser/Mobi'sRun_Icon2_1024x1024.jpg",
 			"", 
 			 completionHandler);

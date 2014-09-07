@@ -46,5 +46,10 @@ public class ButtonConnectFacebook : MonoBehaviour {
 	void Update()
 	{
 		collider.enabled = !MainMenu.Instance.isPopupActive;
+
+		if(FacebookAdvanced.Instance.HasPublishPermission()){
+			transform.FindChild ("Background").gameObject.SetActive (false);
+			GetComponent<UIButton> ().isEnabled = false;
+		}
 	}
 }
