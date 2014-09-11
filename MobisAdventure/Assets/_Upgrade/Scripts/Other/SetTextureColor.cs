@@ -9,9 +9,7 @@ public class SetTextureColor : MonoBehaviour {
 		for(int i=0;i<texture.width;i++)
 			for(int j=0;j<texture.height;j++){
 			var col = texture.GetPixel(i,j);
-			var c = col.r;
-			col.r = col.g;
-			col.g = c;
+			col.g = col.b = col.r;
 			texture.SetPixel(i,j,col);
 		}
 
