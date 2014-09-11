@@ -7,7 +7,7 @@ using UnityEngine.SocialPlatforms.GameCenter;
 
 public class GameServices : MonoBehaviour {
 
-	void Start()
+	/*void Start()
 	{
 		#if UNITY_IPHONE
 		Social.localUser.Authenticate(success => {
@@ -16,5 +16,5 @@ public class GameServices : MonoBehaviour {
 		#if UNITY_ANDROID
 		PlayGameServices.authenticate();
 		#endif
-	}
+	}*/
 }
