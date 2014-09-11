@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
 	public static ChosenLevel m_chosenLevel = ChosenLevel.Level_Arctic;
 
 	public static string[] levelNames = {"Arctic","Icy Tundra", "Forest", "Mars", "Beach"};
+	public static string[] levelNamesForPref = {"Level_Arctic","Level_IcyTundra","Level_Forest","Level_Mars","Level_Beach"};
 
 //	private int m_seconds = 0;
 //	private int m_minutes = 0;

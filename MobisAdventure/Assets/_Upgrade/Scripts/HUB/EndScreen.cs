@@ -18,7 +18,13 @@ public class EndScreen : MonoBehaviour {
 
 
 		// Sumbit the score to Facebook's friends leaderboards
-		FacebookAdvanced.Instance.SubmitScore (DeathScreen.Instance.resultDistance);
+		int score = 0;
+		for(int i=0;i<5;i++){
+			int lvlscore = (int)PlayerPrefs.GetFloat (GameManager.levelNamesForPref[i] + "MaxDistance", 0f);
+			score += (i+1)*lvlscore;
+		}
+		Debug.Log ("Total FB Score: " + score);
+		FacebookAdvanced.Instance.SubmitScore (score);
 
 		// Show rate app popup
 		#if !UNITY_EDITOR
