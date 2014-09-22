@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿/* --------------------------------
+ * 	©Bonozo LLC, http://bonozo.com 
+ * --------------------------------*/
+
+using UnityEngine;
 using System.Collections;
 
 public class Boost : MonoBehaviour {
@@ -31,9 +35,9 @@ public class Boost : MonoBehaviour {
 			currentBoost = maxBoost;
 
 		if(currentBoost==0) framerate = 0.1f;
-		if(currentBoost==1) framerate= 0.5f;
-		if(currentBoost==2) framerate= 0.11f;
-		if(currentBoost>=2) framerate= 0.09f;
+		if(currentBoost==1) framerate = 0.5f;
+		if(currentBoost==2) framerate = 0.11f;
+		if(currentBoost>=2) framerate = 0.09f;
 
 	}
 

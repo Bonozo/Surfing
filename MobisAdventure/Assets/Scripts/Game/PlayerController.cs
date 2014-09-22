@@ -65,9 +65,7 @@ public class PlayerController : MonoBehaviour
 	private bool pause_flag = false;
 	Vector3 savedVelocity;
 	Vector3 savedAngularVelocity;
-	
-	// by Aharon
-	// messing up the code that had already messed up
+
 	[System.NonSerialized][HideInInspector]
 	public bool tilt = false;
 	private Boost boost;

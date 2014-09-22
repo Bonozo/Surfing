@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿/* --------------------------------
+ * 	©Bonozo LLC, http://bonozo.com 
+ * --------------------------------*/
+
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 #if UNITY_IPHONE

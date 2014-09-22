@@ -1,4 +1,8 @@
-﻿using UnityEngine;
+﻿/* --------------------------------
+ * 	©Bonozo LLC, http://bonozo.com 
+ * --------------------------------*/
+
+using UnityEngine;
 using System.Collections;
 [RequireComponent(typeof(SettingsItem))]
 public class OptionsButtonMusic : MonoBehaviour {
